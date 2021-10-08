@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="copyfiles">
+    <property name="data.editions" value="${basedir}/data/editions/"/>
+    <property name="data.meta" value="${basedir}/data/meta/"/>
+    <property name="data.tmp" value="${basedir}/data/tmp/"/>
+    <delete dir="${data.editions}"/>
+    <mkdir dir="${data.editions}"/>
+    <copy todir="${data.editions}">
+        <fileset dir="../brahms_data/103_derived-accumulated">
+            <include name="*.xml"/>
+        </fileset>
+    </copy>
+    <delete dir="${data.meta}"/>
+    <mkdir dir="${data.meta}"/>
+    <!-- <copy todir="${data.meta}">
+        <fileset dir="../voice_data/001_src/VOICE_XML_2.0.2/VOICE1.1XML/XML/">
+            <include name="*.xml"/>
+        </fileset>
+    </copy> -->
+    <delete dir="${data.tmp}"/>
+    <mkdir dir="${data.tmp}"/>
+    <!-- <copy todir="${data.tmp}">
+        <fileset dir="../voice_data/001_src/VOICE_XML_2.0.2/VOICE2.0XML/XML/">
+            <include name="*.xml"/>
+        </fileset>
+    </copy> -->
+
+    <!--<replace dir="./data/" token="https://legalkraus.acdh.oeaw.ac.at/id" value="${archeid}">
+        <include name="**/*.xml"/>
+    </replace>-->
+    <!-- <replace dir="./data/" token='xml:id=""' value="">
+        <include name="**/*.xml"/>
+    </replace>
+    <replace dir="./data/" token='xml:id="#' value='xml:id="fixme__'>
+        <include name="**/*.xml"/>
+    </replace> -->
+</project>
