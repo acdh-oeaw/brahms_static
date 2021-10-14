@@ -1,0 +1,1 @@
+{"stem":"label","instances":[{"docId":"index","docUri":"index.html","score":4,"contexts":[{"form":"label","weight":"2","pos":35,"context":"Second slide <mark>label<\/mark>","fid":"audenIndexCarousel"},{"form":"label","weight":"2","pos":52,"context":"Third slide <mark>label<\/mark>","fid":"audenIndexCarousel"}]}]}
