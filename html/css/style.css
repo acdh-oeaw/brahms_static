@@ -13,11 +13,7 @@ div.dataTables_filter {
 }
 
 .navbar {
-    
-}
-
-.nav-link {
-    font-size: 1rem !important;
+    border-bottom: 5px solid #88dbdf !important;
 }
 
 .dataTables_info {
@@ -49,7 +45,7 @@ div.dataTables_filter {
     box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
 }
 
-.card {
+.index-card {
     border-top: 5px solid #88dbdf; 
     transition: transform .2s;
 }
@@ -67,7 +63,7 @@ div.dataTables_filter {
 }
 
 .btn-round:hover {
-    background-color: #88dbdf !important;
+    background-color: #fff !important;
 }
 
 .btn-round a {
