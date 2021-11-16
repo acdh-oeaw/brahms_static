@@ -2,18 +2,17 @@
 <xsl:stylesheet 
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    version="2.0" exclude-result-prefixes="xsl tei xs">
+    xmlns:mei="http://www.music-encoding.org/ns/mei" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="2.0" exclude-result-prefixes="xsl mei xs">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
     <xsl:import href="partials/osd-container.xsl"/>
-    <xsl:import href="partials/tei-facsimile.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+            <xsl:value-of select=".//mei:titleStmt/mei:title[1]/text()"/>
         </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
@@ -30,8 +29,8 @@
                             <div class="card-header">
                                 <h1><xsl:value-of select="$doc_title"/></h1>
                             </div>
-                            <div class="card-body">                                
-                                <xsl:apply-templates select=".//tei:body"></xsl:apply-templates>
+                            <div class="card-header yes-index">                                
+                                <xsl:apply-templates select=".//mei:workList"/>
                             </div>
                         </div>                       
                     </div>
@@ -41,69 +40,130 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="tei:p">
-        <p id="{generate-id()}"><xsl:apply-templates/></p>
-    </xsl:template>
-    <xsl:template match="tei:div">
-        <div id="{generate-id()}"><xsl:apply-templates/></div>
-    </xsl:template>
-        <xsl:template match="title">
-        <h3><xsl:apply-templates/></h3>
-    </xsl:template>
-    <xsl:template match="composer">
-        <h4><xsl:apply-templates/></h4>
-    </xsl:template>
-    <xsl:template match="creation">
-        <h4><xsl:apply-templates/></h4>
-    </xsl:template>
-    <xsl:template match="history">
+    <xsl:template match="mei:workList">
         <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="identifier">
-        <span style="display:flex;max-width:20%;flex-direction:column;" class="badge bg-light text-dark"><xsl:value-of select="@label"/><xsl:text>: </xsl:text><xsl:apply-templates/></span>
+    <xsl:template match="mei:work">
+        <div>
+            <xsl:attribute name="id">
+                <xsl:value-of select="@xml:id"/>
+            </xsl:attribute>
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
-    <xsl:template match="eventList">
+    <xsl:template match="mei:title">
+         <xsl:choose>
+             <xsl:when test="ancestor::mei:work">
+                 
+             </xsl:when>
+             <xsl:otherwise>
+                 <h3><xsl:apply-templates/></h3>
+             </xsl:otherwise>
+         </xsl:choose>        
+    </xsl:template>
+    <xsl:template match="mei:identifier">
+        <span class="identifier badge bg-light text-dark"><xsl:value-of select="@label"/><xsl:text>: </xsl:text><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="mei:composer">
+        <h4><xsl:apply-templates/></h4>
+    </xsl:template>
+    <xsl:template match="mei:creation">
+        <h4><xsl:apply-templates/></h4>
+    </xsl:template>
+    <xsl:template match="mei:history">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="mei:eventList">
         <div class="row">            
-            <xsl:for-each select="./event">
-                <div class="col-md-12">
-                    <div class="card">
-                        <div class="card-header">
-                            <h5><xsl:value-of select="parent::eventList/@type"/></h5>
-                        </div>
-                        <div class="card-body">
-                            <xsl:apply-templates/>
-                        </div>
-                    </div>
+            <xsl:for-each select="./mei:event">
+                <div class="col-md-12" style="padding:1em;border:3px solid white;border-radius:.25rem;margin-bottom:1em;">
+                    <xsl:apply-templates/>                    
                 </div>                
             </xsl:for-each>        
         </div>
     </xsl:template>
-    <xsl:template match="date">
-        <span class="date"><xsl:apply-templates/></span>
+    <xsl:template match="mei:date">
+        <span class="date badge bg-light text-dark"><xsl:apply-templates/></span>
     </xsl:template>
-    <xsl:template match="geogName">
-        <span><xsl:apply-templates/></span>
+    <xsl:template match="mei:geogName">
+        <span class="geogName badge bg-light text-dark"><xsl:apply-templates/></span>
     </xsl:template>
-    <xsl:template match="biblList">
-        <div class="card-header">
-            <xsl:for-each select="./bibl">
-                <ul>
-                    <xsl:for-each select="child::*">
-                        <li><xsl:apply-templates/></li>
-                    </xsl:for-each> 
-                </ul>                    
-            </xsl:for-each>
-        </div>            
+    <xsl:template match="mei:persName">
+        <xsl:choose>
+            <xsl:when test="not(parent::mei:composer)">
+                <span class="persName badge bg-light text-dark"><xsl:apply-templates/></span>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>        
     </xsl:template>
-    <xsl:template match="ptr">
-        <a>
-            <xsl:attribute name="title">
+    <xsl:template match="mei:p">
+        <label><xsl:value-of select="@label"/>:</label>
+        <p id="{generate-id()}">            
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="mei:biblList">                  
+        <xsl:for-each select="./mei:bibl">
+            <div class="card {./mei:term} {./mei:genre}" id="{substring-before(@sameas, ' ')}">
+                <div class="card-header">
+                    <h5><xsl:value-of select="./mei:title"/></h5>
+                </div>
+                <div class="card-body">
+                    <p><xsl:apply-templates/></p>                    
+                </div>
+            </div>                
+        </xsl:for-each>        
+    </xsl:template>
+    <xsl:template match="mei:term">
+        <xsl:choose>
+            <xsl:when test="ancestor::mei:work">
+                
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose> 
+    </xsl:template>
+    <xsl:template match="mei:genre">
+        <xsl:choose>
+            <xsl:when test="ancestor::mei:work">
+                
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose> 
+    </xsl:template>
+    <xsl:template match="mei:ptr">
+        <div class="ptr">
+            <a>
+                <xsl:attribute name="title">
+                    <xsl:value-of select="@label"/>
+                </xsl:attribute>
+                <xsl:attribute name="href">
+                    <xsl:value-of select="@target"/>
+                </xsl:attribute>
                 <xsl:value-of select="@label"/>
-            </xsl:attribute>
-            <xsl:attribute name="href">
-                <xsl:value-of select="@target"/>
-            </xsl:attribute>
-            <xsl:value-of select="@label"/>
-        </a>      
+            </a>
+        </div>
+    </xsl:template>
+    <xsl:template match="mei:biblScope">
+        <div class="biblScope">
+            <span>
+                <small><xsl:value-of select="@unit"/>: <xsl:apply-templates/></small>
+            </span>
+        </div>        
+    </xsl:template>
+    <xsl:template match="mei:imprint">
+        <div class="imprint">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="mei:annot">
+        <div class="annot">
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
 </xsl:stylesheet>
