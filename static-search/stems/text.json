@@ -1,1 +1,0 @@
-{"stem":"text","instances":[{"docId":"index","docUri":"index.html","score":1,"contexts":[{"form":"text","weight":"1","pos":20,"context":"Some teaser <mark>text<\/mark> for the Brahms Online","fid":"audenIndexCarousel"}]},{"docId":"about","docUri":"about.html","score":1,"contexts":[{"form":"text","weight":"1","pos":14,"context":"Some <mark>text<\/mark> here.","fid":"d7e32"}]}]}

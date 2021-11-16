@@ -39,12 +39,40 @@ div.dataTables_filter {
     max-width: 160% !important;
     max-height: 160% !important;
 }
-
+h4 {
+    margin: 1em;
+}
 .card {
     margin-top: 1em;
     box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
 }
-
+p {
+    margin: .5em;
+}
+.ptr {
+    margin: .5em;
+    text-align: center;
+}
+label {
+    padding: .5em;
+    text-decoration: underline;
+}
+.biblScope {
+    text-align:right;
+}
+.imprint {
+    text-align:left;
+}
+.annot {
+    text-align:left;
+}
+.date, .geogName, .persName, .identifier {
+    display:inline;
+    max-width:20%;
+    margin-bottom:.5em;
+    box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
+    border: 1px solid white;
+}
 .index-card {
     border-top: 5px solid #88dbdf; 
     transition: transform .2s;
