@@ -2,8 +2,8 @@
 <xsl:stylesheet 
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    version="2.0" exclude-result-prefixes="xsl tei xs">
+    xmlns:mei="http://www.music-encoding.org/ns/mei" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="2.0" exclude-result-prefixes="xsl mei xs">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     
     <xsl:import href="./partials/html_navbar.xsl"/>
@@ -31,11 +31,11 @@
                                     <thead>
                                         <tr>
                                             <th scope="col">Titel</th>
-                                            <th scope="col">Dateinname</th>
+                                            <th scope="col">Dameinname</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <xsl:for-each select="collection('../data/editions')//tei:TEI">
+                                        <xsl:for-each select="collection('../data/editions')//mei:mei">
                                             <xsl:variable name="full_path">
                                                 <xsl:value-of select="document-uri(/)"/>
                                             </xsl:variable>
@@ -45,7 +45,7 @@
                                                         <xsl:attribute name="href">                                                
                                                             <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
                                                         </xsl:attribute>
-                                                        <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+                                                        <xsl:value-of select="//mei:titleStmt/mei:title/text()"/>
                                                     </a>
                                                 </td>
                                                 <td>
@@ -69,22 +69,22 @@
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="tei:div//tei:head">
+    <xsl:template match="mei:div//mei:head">
         <h2 id="{generate-id()}"><xsl:apply-templates/></h2>
     </xsl:template>
     
-    <xsl:template match="tei:p">
+    <xsl:template match="mei:p">
         <p id="{generate-id()}"><xsl:apply-templates/></p>
     </xsl:template>
     
-    <xsl:template match="tei:list">
+    <xsl:template match="mei:list">
         <ul id="{generate-id()}"><xsl:apply-templates/></ul>
     </xsl:template>
     
-    <xsl:template match="tei:item">
+    <xsl:template match="mei:item">
         <li id="{generate-id()}"><xsl:apply-templates/></li>
     </xsl:template>
-    <xsl:template match="tei:ref">
+    <xsl:template match="mei:ref">
         <xsl:choose>
             <xsl:when test="starts-with(data(@target), 'http')">
                 <a>
