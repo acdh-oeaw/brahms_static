@@ -16,9 +16,13 @@
         </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
-            <xsl:call-template name="html_head">
-                <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
-            </xsl:call-template>
+            <head>
+                <xsl:call-template name="html_head">
+                    <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                </xsl:call-template>
+                <meta name="Document type" class="staticSearch_desc" content="article"/>
+                <meta name="Document type" class="staticSearch_desc" content="newspaper"/>            
+            </head>            
             
             <body class="page">
                 <div class="hfeed site" id="page">
