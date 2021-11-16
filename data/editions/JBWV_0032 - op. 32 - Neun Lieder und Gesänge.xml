@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     meiversion="4.0.0">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Neun Lieder und Gesänge</title>
+            <respStmt>
+               <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+               <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+               <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+               <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+               <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt/>
+         <seriesStmt>
+            <title>Werke mit Opus</title>
+            <identifier type="file_collection">Werkdateien</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+         </projectDesc>
+      </encodingDesc>
+      <workList>
+         <work n="1" xml:id="work_op32">
+            <identifier label="Opus-Nummer">op. 32</identifier>
+            <title>Neun Lieder und Gesänge</title>
+            <composer>
+               <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253" corresp="../Personenregister-ID/0031">Johannes Brahms</persName>
+            </composer>
+            <history>
+               <eventList type="performances">
+            <event>
+               <date isodate="1867-12-21">21.12.1867</date>
+               <geogName role="place">Wien</geogName>
+               <biblList>
+                  <bibl sameas="recordid_669351 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 8</biblScope>
+                     <biblScope unit="issue">Beiblatt zu Nr. 349</biblScope>
+                     <biblScope unit="page">S. [1]</biblScope>
+                     <imprint>
+                        <date isodate="1867-12-20">20.12.1867</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Konzert der Wiener Singakademie, 7 1/2 Uhr abends, Festsaal des neuen akademischen Gymnasiums; Werke von J. Brahms gemäß Hofmann, Chronologie, S. 101 f.: WoO 34, Nr. 3 und 8, op. 3, Nr. 1 und op. 32, Nr. 5)</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Jg. 8, Beiblatt zu Nr. 349, 20.12.1867, S. [1]</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18671220&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-5"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <title>gemäß Hofmann, Chronologie</title>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_669355 " type="Rubrik_2">
+                     <term>Rubrik_2</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 9</biblScope>
+                     <biblScope unit="issue">Nr. 7</biblScope>
+                     <biblScope unit="page">S. [1]</biblScope>
+                     <imprint>
+                        <date isodate="1868-01-08">08.01.1868</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Konzert der Wiener Singakademie; Datum und Werk gemäß Hofmann, Chronologie, S. 101 f.; weitere Werke von J. Brahms: WoO 34, Nr. 3 und 8 sowie op. 3, Nr. 1)</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Jg. 9, Nr. 7, 08.01.1868, S. [1]</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18680108&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-5"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <title>gemäß Hofmann, Chronologie</title>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/0064">Dustmann, Luise</persName>
+               <date isodate="1869-12-22">22.12.1869</date>
+               <geogName role="place">Wien</geogName>
+               <biblList>
+                  <bibl sameas="recordid_669361 " type="Rubrik_2">
+                     <term>Rubrik_2</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 10</biblScope>
+                     <biblScope unit="issue">Nr. 357</biblScope>
+                     <biblScope unit="page">S. [1]</biblScope>
+                     <imprint>
+                        <date isodate="1869-12-28">28.12.1869</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(2. Konzert von Clara Schumann; Frau Dustmann: Gesang; Datum und Werk gemäß BrahmsWV, S. 106)</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Jg. 10, Nr. 357, 28.12.1869, S. [1]</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18691228&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <title>gemäß BrahmsWV</title>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <date isodate="1877-12-13">13.12.1877</date>
+               <geogName role="place">Wien</geogName>
+               <geogName role="venue">Sophienbadsaal</geogName>
+               <biblList>
+                  <bibl sameas="recordid_669503 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 18</biblScope>
+                     <biblScope unit="issue">Nr. 340</biblScope>
+                     <biblScope unit="page">S. [3]</biblScope>
+                     <imprint>
+                        <date isodate="1877-12-12">12.12.1877</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Billroth-Abend des Wiener akademischen Gesangvereins, 8 Uhr abends, Sophiensaal; Werke von J. Brahms: "Drei Chöre von Brahms", "Zwei Lieder für Bariton", "Walzer für Clavier", "Ungarische Tänze [Clavier und Violine]"; Werk gemäß Hofmann, Chronologie, S. 169)</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Jg. 18, Nr. 340, 12.12.1877, S. [3]</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18771212&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <title>gemäß Hofmann, Chronologie</title>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_669515 " type="Rubrik_2">
+                     <term>Rubrik_2</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 18</biblScope>
+                     <biblScope unit="issue">Nr. 343</biblScope>
+                     <biblScope unit="page">S. [3]</biblScope>
+                     <imprint>
+                        <date isodate="1877-12-15">15.12.1877</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Billroth-Abend des Wiener akademischen Gesangvereins zu Theodor Billroths zehnjährigem Jubiläum seiner Lehrtätigkeit an der Wiener Universität, abends, Sophiensaal; Werke von Brahms gemäß Hofmann, Chronologie, S. 169: op. 43, Nr. 3 und 4, op. 41, Nr. 4, WoO 1, Nr. ?, op. 32, Nr. 9, op. 3, Nr. 1 sowie op. 39 ?)</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Jg. 18, Nr. 343, 15.12.1877, S. [3]</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18771215&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <title>gemäß Hofmann, Chronologie</title>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_666987 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Local-Anzeiger</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 30</biblScope>
+                     <biblScope unit="issue">Nr. 341</biblScope>
+                     <biblScope unit="page">S. [9]</biblScope>
+                     <imprint>
+                        <date isodate="1877-12-12">12.12.1877</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Billroth-Abend des Wiener akademischen Gesangvereins, 8 Uhr abends, Sophiensaal; "Zwei Lieder für Bariton"; Werk gemäß Hofmann, Chronologie, S. 169; weitere Werke von J. Brahms: op. 43, Nr. 3 und 4, op. 41, Nr. 4, WoO 1, op. 3, Nr. 1 sowie "Walzer für Clavier")</p>
+                        <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 30, Nr. 341, 12.12.1877, S. [9]</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18771212&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <title>gemäß Hofmann, Chronologie</title>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <date isodate="1886-02-15">15.02.1886</date>
+               <geogName role="place">Wien</geogName>
+               <geogName role="venue">Saal Bösendorfer</geogName>
+               <biblList>
+                  <bibl sameas="recordid_669672 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 27</biblScope>
+                     <biblScope unit="issue">Nr. 38</biblScope>
+                     <biblScope unit="page">S. 7</biblScope>
+                     <imprint>
+                        <date isodate="1886-02-07">07.02.1886</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Liederabend des Hofopernsängers Theodor Reichmann unter Mitwirkung der Pianistin Frl. Johanna v. Seemann, 7 1/2 Uhr abends, Saal Bösendorfer; Werke von J. Brahms: op. 32, Nr. 9, op. 43, Nr. 1 und op. 86, Nr. 2)</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Jg. 27, Nr. 38, 07.02.1886, S. 7</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18860207&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <persName type="musikalische_r_Direktor_in" corresp="../Personenregister-ID/zzzz">Hellmesberger, Joseph</persName>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/0208">Theodor Reichmann</persName>
+               <date isodate="1887-02-08">08.02.1887</date>
+               <geogName role="place">Wien</geogName>
+               <geogName role="venue">Großer Musikvereinssaal</geogName>
+               <biblList>
+                  <bibl sameas="recordid_669713 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 28</biblScope>
+                     <biblScope unit="issue">Nr. 29</biblScope>
+                     <biblScope unit="page">S. 6</biblScope>
+                     <imprint>
+                        <date isodate="1887-01-30">30.01.1887</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Konzert zu Gunsten des Deutschen Hilfsvereins unter der Leitung von Hellmesberger, 7 1/2 Uhr abends, großer Musikvereinssaal; Theodor Reichmann: Gesang)</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Jg. 28, Nr. 29, 30.01.1887, S. 6</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18870130&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_667804 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Local-Anzeiger</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 40</biblScope>
+                     <biblScope unit="issue">Nr. 29</biblScope>
+                     <biblScope unit="page">S. 15</biblScope>
+                     <imprint>
+                        <date isodate="1887-01-30">30.01.1887</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Konzert zu Gunsten des Deutschen Hilfsvereins unter der Leitung von Hellmesberger, 7 1/2 Uhr abends, großer Musikvereinssaal; Theodor Reichmann: Gesang)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 40, Nr. 29, 30.01.1887, S. 15</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18870130&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <persName type="Pianist_in" corresp="../Personenregister-ID/0284">Mary Wurm</persName>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/0007">Alice Barbi</persName>
+               <date isodate="1891-11-27">27.11.1891</date>
+               <geogName role="place">Wien</geogName>
+               <biblList>
+                  <bibl sameas="recordid_669914 " type="Rubrik_3">
+                     <term>Rubrik_3</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 32</biblScope>
+                     <biblScope unit="issue">Nr. 334</biblScope>
+                     <biblScope unit="page">S. 6</biblScope>
+                     <imprint>
+                        <date isodate="1891-12-05">05.12.1891</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Konzert von Alice Barbi; Alice Barbi: Gesang, Mary Wurm: Klavier; u.a. Werke von J. Brahms: "Vor dem Fenster", "Liebe und Frühling", "Nicht mehr zu Dir"; Datum gemäß Die Presse, Local-Anzeiger, 22.11.1891, S. 16)</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Jg. 32, Nr. 334, 05.12.1891, S. 6</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18911205&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-2"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_668359 " type="Rubrik_2">
+                     <term>Rubrik_2</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 44</biblScope>
+                     <biblScope unit="issue">Nr. 348</biblScope>
+                     <biblScope unit="page">S. 2</biblScope>
+                     <imprint>
+                        <date isodate="1891-12-19">19.12.1891</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Konzert von Alice Barbi, großer Musikvereinssaal; Datum gemäß Die Presse, Local-Anzeiger, 22.11.1891, S. 16)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Jg. 44, Nr. 348, 19.12.1891, S. 2</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911219&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-2"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <date isodate="1892-04-19">19.04.1892</date>
+               <geogName role="place">Wien</geogName>
+               <geogName role="venue">Saal Bösendorfer</geogName>
+               <biblList>
+                  <bibl sameas="recordid_669958 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 33</biblScope>
+                     <biblScope unit="issue">Nr. 107</biblScope>
+                     <biblScope unit="page">S. 6</biblScope>
+                     <imprint>
+                        <date isodate="1892-04-16">16.04.1892</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Konzert der Kammersängerin Alice Barbi, Saal Bösendorfer; u.a. 4 Lieder von "Johann" [sic] Brahms: "Der Jäger", "Nicht mehr zu Dir zu gehen beschloß ich", "Die Nachtigall", "Frühling und Liebe")</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Jg. 33, Nr. 107, 16.04.1892, S. 6</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18920416&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-2"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_668440 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Local-Anzeiger</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 45</biblScope>
+                     <biblScope unit="issue">Nr. 107</biblScope>
+                     <biblScope unit="page">S. 11</biblScope>
+                     <imprint>
+                        <date isodate="1892-04-16">16.04.1892</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Konzert der Kammersängerin Alice Barbi, Saal Bösendorfer; u.a. 4 Lieder von Brahms: "Der Jäger", "Nicht mehr zu Dir zu gehen beschloß ich", "Die Nachtigall", "Frühling und Liebe")</p>
+                        <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 107, 16.04.1892, S. 11</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18920416&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-2"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <date isodate="1893-12-13">13.12.1893</date>
+               <geogName role="place">Wien</geogName>
+               <geogName role="venue">Saal Bösendorfer</geogName>
+               <persName type="Pianist_in" corresp="../Personenregister-ID/0154">Georg Liebling</persName>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/0007">Alice Barbi</persName>
+               <biblList>
+                  <bibl sameas="recordid_670056 " type="Rubrik_3">
+                     <term>Rubrik_3</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <title level="j">Morgenblatt</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 34</biblScope>
+                     <biblScope unit="issue">Beiblatt zu Nr. 344</biblScope>
+                     <biblScope unit="page">S. [1]</biblScope>
+                     <imprint>
+                        <date isodate="1893-12-13">13.12.1893</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Liederabend von Kammersängerin Alice Barbi, Saal Bösendorfer; u.a. Lieder von Brahms: "Treue Liebe", "Der [sic] Liebsten Schwur", "Mainacht", "Die Nachtigall", "Aus den Magelonen-Liedern, "Wehe, so willst du mich wieder, hemmende Fessel, umfangen")</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Beiblatt zu Nr. 344, 13.12.1893, S. [1]</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931213&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-5"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_668686 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Local-Anzeiger</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 46</biblScope>
+                     <biblScope unit="issue">Nr. 344</biblScope>
+                     <biblScope unit="page">S. 15</biblScope>
+                     <imprint>
+                        <date isodate="1893-12-13">13.12.1893</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Liederabend der Kammersängerin Alice Barbi, Saal Bösendorfer; u.a. von Brahms: "Treue Liebe", "Der [sic] Liebesten Schwur", "Mainacht", "Die Nachtigall", "Aus den Magellonen-Liedern", "Wehe, so willst Du mich wieder, hemmende Fessel, umfangen")</p>
+                        <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 344, 13.12.1893, S. 15</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931213&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-5"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_668694 " type="Rubrik_2">
+                     <term>Rubrik_2</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Local-Anzeiger</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 46</biblScope>
+                     <biblScope unit="issue">Nr. 347</biblScope>
+                     <biblScope unit="page">S. 15</biblScope>
+                     <imprint>
+                        <date isodate="1893-12-16">16.12.1893</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(1. Abschiedskonzert von Alice Barbi, Saal Bösendorfer; Alice Barbi: Gesang, Herr Liebling: Klavier; die Künstlerin habe sich "die schwierigsten Brahms-Lieder" zum Vortrag gewählt: "Des Liebsten Schwur", "Mainacht", "Wehe, so willst du mich wieder, hemmende Fessel, umfangen" sowie als Zugabe das "Vergebliche Ständchen"; Datum gemäß Die Presse, Local-Anzeiger, 13.12.1893, S. 15)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 347, 16.12.1893, S. 15</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931216&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-5"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <date isodate="1893-12-19">19.12.1893</date>
+               <geogName role="place">Wien</geogName>
+               <geogName role="venue">Großer Musikvereinssaal</geogName>
+               <biblList>
+                  <bibl sameas="recordid_670059 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <title level="j">Morgenblatt</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 34</biblScope>
+                     <biblScope unit="issue">Nr. 347</biblScope>
+                     <biblScope unit="page">S. [6]</biblScope>
+                     <imprint>
+                        <date isodate="1893-12-16">16.12.1893</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Abschiedskonzert von Alice Barbi, 7 1/2 Uhr abends, großer Musikvereinssaal; u.a. 4 Lieder von Brahms: "Immer leiser wird mein Schlummer", "Nicht mehr zu Dir zu gehen, beschloß ich", "Die Nachtigall", "Der Mond steht über dem Berge")</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 347, 16.12.1893, S. [6]</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931216&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-2"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_668697 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Local-Anzeiger</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 46</biblScope>
+                     <biblScope unit="issue">Nr. 347</biblScope>
+                     <biblScope unit="page">S. 15</biblScope>
+                     <imprint>
+                        <date isodate="1893-12-16">16.12.1893</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Abschiedskonzert der Kammersängerin Alice Barbi, 7 1/2 Uhr abends, großer Musikvereinssaal; u.a. 4 Lieder von Brahms: "Immer leiser wird mein Schlummer", "Nicht mehr zu Dir zu gehen, beschloß ich", "Die Nachtigall", "Der Mond steht über dem Berge")</p>
+                        <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 347, 16.12.1893, S. 15</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931216&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-2"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <persName type="Pianist_in" corresp="../Personenregister-ID/0220">Julius Röntgen</persName>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/zzzz">Johannes Messchaert</persName>
+               <date isodate="1896-02-05">05.02.1896</date>
+               <geogName role="place">Wien</geogName>
+               <biblList>
+                  <bibl sameas="recordid_670231 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <title level="j">Morgenblatt</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 37</biblScope>
+                     <biblScope unit="issue">Nr. 31</biblScope>
+                     <biblScope unit="page">S. 6</biblScope>
+                     <imprint>
+                        <date isodate="1896-02-01">01.02.1896</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Liederabend von Professor Johannes Messchaert; Johannes Messchaert: Gesang, Julius Röntgen: Klavier; u.a. 3 Lieder von Brahms: "Feldeinsamkeit", "Wie bist du meine Königin", "Wie froh und frisch" sowie "Stücke von Brahms" vorgetragen von Julius Röntgen)</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 37, Nr. 31, 01.02.1896, S. 6</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18960201&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_669142 " type="Rubrik_2">
+                     <term>Rubrik_2</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Morgen-Presse</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 49</biblScope>
+                     <biblScope unit="issue">Nr. 37</biblScope>
+                     <biblScope unit="page">S. 2</biblScope>
+                     <imprint>
+                        <date isodate="1896-02-07">07.02.1896</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Liederabend von Johannes Meßchaert; der Künstler sei "von dem Höhenzug classischer Meister nicht abgewichen. Nur fehlte in der Linie, welche Beethoven, Schumann und Brahms bezeichnen, unser Schubert"; weitere Werke von J. Brahms gespielt von Julius Röntgen: op. 117, Nr. 1, op. 79, Nr. 2; Datum gemäß NWT, 01.02.1896, S. 9)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 37, 07.02.1896, S. 2</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960207&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <date isodate="1901-01-31">31.01.1901</date>
+               <geogName role="place">Wien</geogName>
+               <biblList>
+                  <bibl sameas="recordid_670750 " type="Rubrik_2">
+                     <term>Rubrik_2</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <title level="j">Morgenblatt</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 42</biblScope>
+                     <biblScope unit="issue">Nr. 33</biblScope>
+                     <biblScope unit="page">S. 10</biblScope>
+                     <imprint>
+                        <date isodate="1901-02-02">02.02.1901</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Drittes Wohltätigkeitskonzert von Alice Barbi; konkret erwähnte Brahms-Lieder: "Junge Liebe" und "Nicht mehr zu Dir gehen beschloß ich"; Datum gemäß NWT, 31.01.1901, S. 8)</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 42, Nr. 33, 02.02.1901, S. 10</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19010202&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-2"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <persName type="musikalische_r_Direktor_in" corresp="../Personenregister-ID/0114">Richard Heuberger</persName>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/0255">Irma von Spanyik</persName>
+               <date isodate="1879-12-13">13.12.1879</date>
+               <geogName role="place">Wien</geogName>
+               <biblList>
+                  <bibl sameas="recordid_670942 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Vaterland</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 20</biblScope>
+                     <biblScope unit="issue">Nr. 338</biblScope>
+                     <biblScope unit="page">S. [3]</biblScope>
+                     <imprint>
+                        <date isodate="1879-12-11">11.12.1879</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Vergnügungsabend der Wiener Singakademie unter der Leitung von Richard Heuberger, Säle der Gartenbaugesellschaft; Frl. Irma v. Spanyik: Gesang; u.a. "Brahms Johann: Wie bist du meine Königin")</p>
+                        <p label="Vollständiger_Nachweis">Vaterland, Jg. 20, Nr. 338, 11.12.1879, S. [3]</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18791211&amp;seite=5&amp;zoom=33&amp;query=%22brahm%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/0064">Luise Dustmann</persName>
+               <date isodate="1877-07-19">19.07.1877</date>
+               <geogName role="place">Salzburg</geogName>
+               <biblList>
+                  <bibl sameas="recordid_666969 " type="Rubrik_3">
+                     <term>Rubrik_3</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Abendblatt</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 30</biblScope>
+                     <biblScope unit="issue">Nr. 197</biblScope>
+                     <biblScope unit="page">S. [3]</biblScope>
+                     <imprint>
+                        <date isodate="1877-07-20">20.07.1877</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Matinée am 3. Tag des 1. Salzburger Musikfestes, 11 Uhr morgens; Fr. Dustmann: Gesang; fälschlich: "Wie ist Dir, meine Königin")</p>
+                        <p label="Vollständiger_Nachweis">Presse, Abendblatt, Jg. 30, Nr. 197, 20.07.1877, S. [3]</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18770720&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <persName type="Pianist_in" corresp="../Personenregister-ID/0062">Anton Door</persName>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/yyyy">Gustav Walter</persName>
+               <date isodate="1877-10-29">29.10.1877</date>
+               <geogName role="place">Wien</geogName>
+               <biblList>
+                  <bibl sameas="recordid_666978 " type="Rubrik_3">
+                     <term>Rubrik_3</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Local-Anzeiger</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 30</biblScope>
+                     <biblScope unit="issue">Nr. 301</biblScope>
+                     <biblScope unit="page">S. [9]</biblScope>
+                     <imprint>
+                        <date isodate="1877-11-01">01.11.1877</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(1. gesellige Abend des Concordia-Clubs; Anton Door: Klavier, Gustav Walter: Gesang; 2 Lieder von Brahms: "Wie bist du meine Königin" und "Minnelied")</p>
+                        <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 30, Nr. 301, 01.11.1877, S. [9]</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18771101&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <persName type="musikalische_r_Direktor_in" corresp="../Personenregister-ID/0110">Josef Hellmesberger sen.</persName>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/0151">Lilli Lehmann</persName>
+               <date isodate="1882-05-06">06.05.1882</date>
+               <geogName role="place">Wien</geogName>
+               <geogName role="venue">Großer Musikvereinssaal</geogName>
+               <biblList>
+                  <bibl sameas="recordid_667296 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Local-Anzeiger</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 35</biblScope>
+                     <biblScope unit="issue">Nr. 122</biblScope>
+                     <biblScope unit="page">S. 11</biblScope>
+                     <imprint>
+                        <date isodate="1882-05-04">04.05.1882</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Konzert zum Besten des Journalisten- und Schriftstellervereins Concordia unter der Leitung von Josef Hellmesberger sen., großer Musikvereinssaal; Lilli Lehmann: Gesang; Liedtitel irrtümlich als "Wer bist Du, arme Königin?")</p>
+                        <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 35, Nr. 122, 04.05.1882, S. 11</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18820504&amp;seite=11&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_667297 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Local-Anzeiger</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 35</biblScope>
+                     <biblScope unit="issue">Nr. 123</biblScope>
+                     <biblScope unit="page">S. 11</biblScope>
+                     <imprint>
+                        <date isodate="1882-05-05">05.05.1882</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Großer Künstlerkongress zum Besten des Journalisten- und Schriftstellervereins Concordia, 7 1/2 Uhr abends, großer Musikvereinssaal; Lilli Lehmann: Gesang)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 35, Nr. 123, 05.05.1882, S. 11</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18820505&amp;seite=11&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/0190">Rosa Papier-Paumgartner</persName>
+               <date isodate="1886-03-22">22.03.1886</date>
+               <geogName role="place">Wien</geogName>
+               <geogName role="venue">Saal Bösendorfer</geogName>
+               <biblList>
+                  <bibl sameas="recordid_667691 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Local-Anzeiger</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 39</biblScope>
+                     <biblScope unit="issue">Nr. 77</biblScope>
+                     <biblScope unit="page">S. 11</biblScope>
+                     <imprint>
+                        <date isodate="1886-03-18">18.03.1886</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(2. Liederabend von Rosa Papier "auf vielseitiges Verlangen" unter Mitwirkung von Frl. Rosine Menzel, 7 1/2 Uhr abends, Saal Bösendorfer; Rosa Papier: Gesang; u.a. folgende Werke von Brahms: op. 32, Nr. 9, op. 33, Nr. 5 und 6, op. 94, Nr. 4)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 77, 18.03.1886, S. 11</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860318&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_667708 " type="Rubrik_3">
+                     <term>Rubrik_3</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 39</biblScope>
+                     <biblScope unit="issue">Nr. 105</biblScope>
+                     <biblScope unit="page">S. 2</biblScope>
+                     <imprint>
+                        <date isodate="1886-04-15">15.04.1886</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Liederabend von Rosa Papier; Erwähnung im Rahmen eines Kalbeck-Feuilletons über Konzerte der vergangenen Wochen, "die uns in Beethoven, Schubert und Brahms schwelgen ließen"; u.a. folgende Werke von Brahms: op. 32, Nr. 9, op. 33, Nr. 5 und 6, op. 94, Nr. 4; Datum und Werke gemäß Die Presse, Local-Anzeiger, 18.03.1886, S. 11)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Jg. 39, Nr. 105, 15.04.1886, S. 2</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860415&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/0208">Theodor Reichmann</persName>
+               <date isodate="1886-05-09">09.05.1886</date>
+               <geogName role="place">Wien</geogName>
+               <biblList>
+                  <bibl sameas="recordid_667715 " type="Rubrik_80">
+                     <term>Rubrik_80</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Local-Anzeiger</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 39</biblScope>
+                     <biblScope unit="issue">Nr. 128</biblScope>
+                     <biblScope unit="page">S. 16</biblScope>
+                     <imprint>
+                        <date isodate="1886-05-09">09.05.1886</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Vorstellung auf Allerhöchsten Befehl zum Besten der durch den Brand von Stryj Verunglückten, 12 1/2 Uhr mittags, k. k. Hofoperntheater; Hr. Reichmann: Gesang)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 128, 09.05.1886, S. 16</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860509&amp;seite=16&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/0039">Paul Bulß</persName>
+               <date isodate="1887-01-05">05.01.1887</date>
+               <geogName role="place">Wien</geogName>
+               <geogName role="venue">Großer Musikvereinssaal</geogName>
+               <geogName role="venue">Musikvereinssaal</geogName>
+               <biblList>
+                  <bibl sameas="recordid_667785 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Local-Anzeiger</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 40</biblScope>
+                     <biblScope unit="issue">Nr. 1</biblScope>
+                     <biblScope unit="page">S. 16</biblScope>
+                     <imprint>
+                        <date isodate="1887-01-01">01.01.1887</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Großes Konzert unter der Leitung des 1. Hofkapellmeisters Josef Hellmesberger, 7 1/2 Uhr abends, großer Musikvereinssaal; Hr. Bulß: Gesang)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 40, Nr. 1, 01.01.1887, S. 16</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18870101&amp;seite=16&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_667786 " type="Rubrik_18">
+                     <term>Rubrik_18</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Local-Anzeiger</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 40</biblScope>
+                     <biblScope unit="issue">Nr. 3</biblScope>
+                     <biblScope unit="page">S. 11</biblScope>
+                     <imprint>
+                        <date isodate="1887-01-04">04.01.1887</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Großes Konzert unter der Leitung des 1. Hofkapellmeisters Hr. Hellmesberger, Musikvereinssaal; Paul Bulß: Gesang)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 40, Nr. 3, 04.01.1887, S. 11</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18870104&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/wwww">Philipp Forstén</persName>
+               <date isodate="1887-12-09">09.12.1887</date>
+               <geogName role="place">Wien</geogName>
+               <biblList>
+                  <bibl sameas="recordid_667894 " type="Rubrik_2">
+                     <term>Rubrik_2</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 40</biblScope>
+                     <biblScope unit="issue">Nr. 344</biblScope>
+                     <biblScope unit="page">S. 2</biblScope>
+                     <imprint>
+                        <date isodate="1887-12-14">14.12.1887</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Konzert von Marie van Zandt; Philipp Forstén: Gesang: op. 32, Nr. 9; Datum gemäß NWT, 10.12.1887, S. 6)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Jg. 40, Nr. 344, 14.12.1887, S. 2</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18871214&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <date/>
+               <geogName role="place"/>
+               <biblList>
+                  <bibl sameas="recordid_668355 " type="Rubrik_1">
+                     <term>Rubrik_1</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 44</biblScope>
+                     <biblScope unit="issue">Nr. 348</biblScope>
+                     <biblScope unit="page">S. 2</biblScope>
+                     <imprint>
+                        <date isodate="1891-12-19">19.12.1891</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Erwähnung im Rahmen einer Rezension Hirschfelds von op. 112, Nr. 6 als Beispiel ähnlicher Tonmalereien; ebenfalls erwähnt: op. 32, Nr. 1.)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Jg. 44, Nr. 348, 19.12.1891, S. 2</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911219&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-1"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+                  <bibl sameas="recordid_669181 recordid_669183 recordid_669196 "
+                        type="Rubrik_4 Rubrik_4 Rubrik_4">
+                     <term>Rubrik_4</term>
+                     <term>Rubrik_4</term>
+                     <term>Rubrik_4</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Morgen-Presse</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 49</biblScope>
+                     <biblScope unit="issue">Nr. 95</biblScope>
+                     <biblScope unit="page">S. 6</biblScope>
+                     <imprint>
+                        <date isodate="1896-04-05">05.04.1896</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Erwähnung im Rahmen eines humoristischen Rückblicks auf die Saison 1895/96 von Robert Hirschfeld unter dem Titel "Mein Lied. Classische Stoßseufzer eines Musikreferenten" als Anmerkung zu einer Konzertsängerin: "Nicht mehr zu Dir zu gehen beschloß ich".)</p>
+                        <p label="Weitere_Informationen">(Erwähnung im Rahmen eines humoristischen Rückblicks auf die Saison 1895/96 von Robert Hirschfeld unter dem Titel "Mein Lied. Classische Stoßseufzer eines Musikreferenten" als Anmerkung zu einer Künstlerin, die eine Kritik reklamierte: "Bitteres zu sagen, denkst Du"; fälschlich angegeben als op. 37, Nr. 7)</p>
+                        <p label="Weitere_Informationen">(Erwähnung im Rahmen eines humoristischen Rückblicks auf die Saison 1895/96 von Robert Hirschfeld unter dem Titel "Mein Lied. Classische Stoßseufzer eines Musikreferenten" als Anmerkung zu einer Künstlerin, die als Gattin wieder ein Konzert ankündigt: "Wehe, so willst Du".)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 95, 05.04.1896, S. 6</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960405&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-1"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+            <event>
+               <persName type="Sänger_in" corresp="../Personenregister-ID/0262">Ludwig Strakosch</persName>
+               <date isodate="1896-02-17">17.02.1896</date>
+               <geogName role="place">Wien</geogName>
+               <geogName role="venue">Großer Musikvereinssaal</geogName>
+               <biblList>
+                  <bibl sameas="recordid_669140 " type="Rubrik_80">
+                     <term>Rubrik_80</term>
+                     <genre>article</genre>
+                     <genre>newspaper</genre>
+                     <author/>
+                     <title level="j">Die Presse</title>
+                     <title level="j">Morgen-Presse</title>
+                     <editor/>
+                     <biblScope unit="vol">Jg. 49</biblScope>
+                     <biblScope unit="issue">Nr. 32</biblScope>
+                     <biblScope unit="page">S. 16</biblScope>
+                     <imprint>
+                        <date isodate="1896-02-02">02.02.1896</date>
+                        <pubPlace/>
+                        <publisher/>
+                     </imprint>
+                     <annot>
+                        <p label="Weitere_Informationen">(Abschiedskonzert von Gemma Bellincioni unter Mitwirkung des Baritons Ludwig Strakosch, des Violinvirtuosen Josef Rigó und des Pianisten Josef Cabrilowitsch, 7 1/2 Uhr abends, großer Musikvereinssaal; Ludwig Strakosch: Gesang)</p>
+                        <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 32, 02.02.1896, S. 16</p>
+                     </annot>
+                     <ptr label="ANNO-ÖNB"
+                          target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960202&amp;seite=8&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                     <relationList>
+                        <relation rel="isRealizationOf" target="#work_op32-9"/>
+                     </relationList>
+                     <relatedItem rel="host">
+                        <bibl>
+                           <biblScope/>
+                        </bibl>
+                     </relatedItem>
+                  </bibl>
+               </biblList>
+            </event>
+         </eventList>
+            </history>
+            <perfMedium>
+               <perfResList>
+                  <head>Besetzung: 1 Singstimme und Klavier</head>
+                  <perfResList>
+                     <perfRes>1 Singstimme</perfRes>
+                     <perfRes>Klavier</perfRes>
+                  </perfResList>
+               </perfResList>
+            </perfMedium>
+            <notesStmt>
+               <annot/>
+            </notesStmt>
+            <expressionList/>
+            <componentList>
+               <work n="1" xml:id="work_op32-1">
+                  <identifier label="Opus-Nummer">op. 32,1</identifier>
+                  <title>Wie rafft ich mich auf in der Nacht.</title>
+               </work>
+               <work n="2" xml:id="work_op32-2">
+                  <identifier label="Opus-Nummer">op. 32,2</identifier>
+                  <title>Nicht mehr zu dir zu gehen.</title>
+               </work>
+               <work n="3" xml:id="work_op32-3">
+                  <identifier label="Opus-Nummer">op. 32,3</identifier>
+                  <title>Ich schleich umher.</title>
+               </work>
+               <work n="4" xml:id="work_op32-4">
+                  <identifier label="Opus-Nummer">op. 32,4</identifier>
+                  <title>Der Strom, der neben mir verrauschte.</title>
+               </work>
+               <work n="5" xml:id="work_op32-5">
+                  <identifier label="Opus-Nummer">op. 32,5</identifier>
+                  <title>Wehe, so willst du mich wieder.</title>
+               </work>
+               <work n="6" xml:id="work_op32-6">
+                  <identifier label="Opus-Nummer">op. 32,6</identifier>
+                  <title>Du sprichst, dass ich mich täuschte.</title>
+               </work>
+               <work n="7" xml:id="work_op32-7">
+                  <identifier label="Opus-Nummer">op. 32,7</identifier>
+                  <title>Bitteres zu sagen denkst du.</title>
+               </work>
+               <work n="8" xml:id="work_op32-8">
+                  <identifier label="Opus-Nummer">op. 32,8</identifier>
+                  <title>So stehn wir, ich und meine Weide.</title>
+               </work>
+               <work n="9" xml:id="work_op32-9">
+                  <identifier label="Opus-Nummer">op. 32,9</identifier>
+                  <title>Wie bist du, meine Königin.</title>
+               </work>
+            </componentList>
+         </work>
+      </workList>
+   </meiHead>
+   <music/>
+</mei>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." name="copyfiles">
+    <property name="editions" value="${basedir}/data/editions/"/>
+
+    <delete dir="${editions}"/>
+    <mkdir dir="${editions}"/>
+    <copy todir="${editions}">
+        <fileset dir="../brahms_data/800_testdata">
+            <include name="*.xml"/>
+        </fileset>
+    </copy>
+</project>

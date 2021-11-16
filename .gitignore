@@ -1,10 +1,11 @@
 # project specific
 *.html
-!search.html
+search.html
 /saxon
 data/imprint.xml
 /static-search
 html/static-search
+werke-rezensionen-gruppiert.xml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

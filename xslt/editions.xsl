@@ -47,13 +47,63 @@
     <xsl:template match="tei:div">
         <div id="{generate-id()}"><xsl:apply-templates/></div>
     </xsl:template>
-    <xsl:template match="tei:lb">
-        <br/>
+        <xsl:template match="title">
+        <h3><xsl:apply-templates/></h3>
     </xsl:template>
-    <xsl:template match="tei:unclear">
-        <abbr title="unclear"><xsl:apply-templates/></abbr>
+    <xsl:template match="composer">
+        <h4><xsl:apply-templates/></h4>
     </xsl:template>
-    <xsl:template match="tei:del">
-        <del><xsl:apply-templates/></del>
-    </xsl:template>    
+    <xsl:template match="creation">
+        <h4><xsl:apply-templates/></h4>
+    </xsl:template>
+    <xsl:template match="history">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="identifier">
+        <span style="display:flex;max-width:20%;flex-direction:column;" class="badge bg-light text-dark"><xsl:value-of select="@label"/><xsl:text>: </xsl:text><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="eventList">
+        <div class="row">            
+            <xsl:for-each select="./event">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5><xsl:value-of select="parent::eventList/@type"/></h5>
+                        </div>
+                        <div class="card-body">
+                            <xsl:apply-templates/>
+                        </div>
+                    </div>
+                </div>                
+            </xsl:for-each>        
+        </div>
+    </xsl:template>
+    <xsl:template match="date">
+        <span class="date"><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="geogName">
+        <span><xsl:apply-templates/></span>
+    </xsl:template>
+    <xsl:template match="biblList">
+        <div class="card-header">
+            <xsl:for-each select="./bibl">
+                <ul>
+                    <xsl:for-each select="child::*">
+                        <li><xsl:apply-templates/></li>
+                    </xsl:for-each> 
+                </ul>                    
+            </xsl:for-each>
+        </div>            
+    </xsl:template>
+    <xsl:template match="ptr">
+        <a>
+            <xsl:attribute name="title">
+                <xsl:value-of select="@label"/>
+            </xsl:attribute>
+            <xsl:attribute name="href">
+                <xsl:value-of select="@target"/>
+            </xsl:attribute>
+            <xsl:value-of select="@label"/>
+        </a>      
+    </xsl:template>
 </xsl:stylesheet>

@@ -34,9 +34,9 @@
                                             <div class="card-header">
                                                 <h1><xsl:value-of select="$doc_title"/></h1>
                                             </div>
-                                            <div class="card-body">
-                                                <xsl:apply-templates/>
-                                            </div>
+                                            
+                                            <xsl:apply-templates/>
+                                            
                                         </div>                                        
                                     </div>
                                 </div>                       
@@ -53,23 +53,35 @@
     </xsl:template>
     
     <xsl:template match="title">
-        <h4><xsl:apply-templates/></h4>
-    </xsl:template>
-    <xsl:template match="composer">
         <h3><xsl:apply-templates/></h3>
     </xsl:template>
+    <xsl:template match="composer">
+        <h4><xsl:apply-templates/></h4>
+    </xsl:template>
     <xsl:template match="creation">
-        <p><xsl:apply-templates/></p>
+        <h4><xsl:apply-templates/></h4>
     </xsl:template>
     <xsl:template match="history">
         <xsl:apply-templates/>
     </xsl:template>
+    <xsl:template match="identifier">
+        <span style="display:flex;max-width:20%;flex-direction:column;" class="badge bg-light text-dark"><xsl:value-of select="@label"/><xsl:text>: </xsl:text><xsl:apply-templates/></span>
+    </xsl:template>
     <xsl:template match="eventList">
-        <ul>
+        <div class="row">            
             <xsl:for-each select="./event">
-                <li><xsl:apply-templates/></li>
-            </xsl:for-each>
-        </ul>
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-header">
+                            <h5><xsl:value-of select="parent::eventList/@type"/></h5>
+                        </div>
+                        <div class="card-body">
+                            <xsl:apply-templates/>
+                        </div>
+                    </div>
+                </div>                
+            </xsl:for-each>        
+        </div>
     </xsl:template>
     <xsl:template match="date">
         <span class="date"><xsl:apply-templates/></span>
@@ -78,17 +90,15 @@
         <span><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="biblList">
-        <div class="card">
-            <div class="card-body">
-                <xsl:for-each select="./bibl">
-                    <ul>
-                        <xsl:for-each select="child::*">
-                            <li><xsl:apply-templates/></li>
-                        </xsl:for-each> 
-                    </ul>                    
-                </xsl:for-each>
-            </div>
-        </div>    
+        <div class="card-header">
+            <xsl:for-each select="./bibl">
+                <ul>
+                    <xsl:for-each select="child::*">
+                        <li><xsl:apply-templates/></li>
+                    </xsl:for-each> 
+                </ul>                    
+            </xsl:for-each>
+        </div>            
     </xsl:template>
     <xsl:template match="ptr">
         <a>
