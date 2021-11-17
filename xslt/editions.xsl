@@ -55,10 +55,8 @@
                                     <div class="card-header">
                                         <h1><xsl:value-of select="$doc_title"/></h1>
                                     </div>
-                                    <div class="card-header">
-                                        <div class="yes-index">
-                                            <xsl:apply-templates select=".//mei:workList"/>
-                                        </div>                                        
+                                    <div class="card-header yes-index">
+                                        <xsl:apply-templates select=".//mei:workList"/>                                                                                
                                     </div>
                                 </div>
                             </div>                            

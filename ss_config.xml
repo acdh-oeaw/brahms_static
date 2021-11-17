@@ -23,6 +23,9 @@
         <outputFolder>static-search</outputFolder>
     </params>
     <rules>
-        <rule match="text()[not(ancestor::div[@class='yes-index'])]" weight="0"/>
+        <rule match="text()[not(ancestor::div[@class='yes-index']) or parent::span[@class='date'] or ancestor::div[@class='biblScope']]" weight="0"/>
+    </rules>
+    <rules>
+        <rule match="text()[parent::span[@class='date'] or ancestor::div[@class='biblScope']]" weight="0"/>
     </rules>
 </config>
