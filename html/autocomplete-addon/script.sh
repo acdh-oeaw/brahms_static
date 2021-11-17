@@ -1,31 +1,25 @@
 # bin/bash
 
-cd html/autocomplete-addon
-
-echo "delete .git"
-if [ -d .git ]
-    then
-        echo "remove .git"
-        rm -rf .git
-fi
-
 echo "reading config.txt"
-if [ -f ./config.txt ]
+if [ -f html/autocomplete-addon/config.txt ]
     then
         array=()
         while IFS= read -r line; do
             array+=($line)
-        done < config.txt
+        done < html/autocomplete-addon/config.txt
     else
         echo "config.txt not found!"
 fi
 
 projectdir=${array[1]}
-inputdir=${array[2]}/${array[3]}
-outputdir=`autocomplete-addon`
+echo $projectdir
+inputdir=${array[1]}/${array[2]}/${array[3]}
+echo $inputdir
+outputdir=`${array[1]}/autocomplete-addon`
+echo $outputdir
 filename="${array[0]}.txt"
+echo $filename
 
-cd ..
 if [ -f $outputdir/$filename ]
     then
         echo "$outputdir/$filename already exists; delete"
