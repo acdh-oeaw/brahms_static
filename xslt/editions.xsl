@@ -27,15 +27,52 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container-fluid">                        
-                        <div class="card">
-                            <div class="card-header">
-                                <h1><xsl:value-of select="$doc_title"/></h1>
+                    <div class="container-fluid">
+                        <div id="navBarLetters" style="margin-top:4em !important;">
+                            <ul class="nav nav-tabs" id="dropdown-lang">
+                                <li class="nav-item">                                    
+                                    <a title="back to all letters" href="toc.html" class="nav-link btn btn-round btn-backlink">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+                                            <path d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="nav-item">                                    
+                                    <a title="Cards" href="#diplomatic-tab" data-toggle="tab" class="nav-link btn btn-round active">
+                                        diplomatic view
+                                    </a>
+                                </li>
+                                <li class="nav-item">                                    
+                                    <a title="Table" href="#xml-tab" data-toggle="tab" class="nav-link btn btn-round">
+                                        TEI/XML view
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="diplomatic-tab" tabindex="-1">                                     
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h1><xsl:value-of select="$doc_title"/></h1>
+                                    </div>
+                                    <div class="card-header">
+                                        <div class="yes-index">
+                                            <xsl:apply-templates select=".//mei:workList"/>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                            </div>                            
+                            <div class="tab-pane fade" id="xml-tab" tabindex="-1">
+                                <div class="card-body">                                
+                                    <iframe frameborder="0" scrolling="yes" width="100%" height="800px">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="concat('xml-view/',replace(tokenize(base-uri(.),'/')[last()],'.xml','.html'))"/>
+                                        </xsl:attribute>
+                                    </iframe>
+                                </div>
                             </div>
-                            <div class="card-header yes-index">                                
-                                <xsl:apply-templates select=".//mei:workList"/>
-                            </div>
-                        </div>                       
+                        </div>
+                                               
                     </div>
                     <xsl:call-template name="html_footer"/>
                 </div>

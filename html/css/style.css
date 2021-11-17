@@ -242,3 +242,47 @@ fieldset.ssFieldset > span > input {
 #github-logo:hover {
     transform: scale(1.05);
 }
+
+/* XML raw style */
+.tnc {
+    color: brown;
+}
+.tc {
+    color: #0000cd;
+}
+.xml-prev {
+    white-space: pre;
+    text-indent: initial;
+
+}
+.xml-viewarea {
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 1920px;
+    overflow: scroll;
+}
+.xml-view {
+    /*position: absolute;*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.linescroll, .scroll-content>div {
+    /*position: absolute;*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+}
+.ac {
+    color: red;
+}
+
+.avc {
+    color: #0000cd;
+}

@@ -2,20 +2,20 @@
 <xsl:stylesheet
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    version="2.0" exclude-result-prefixes="xsl tei xs">
+    xmlns:mei="http://www.music-encoding.org/ns/mei" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="2.0" exclude-result-prefixes="xsl mei xs">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="no" omit-xml-declaration="yes"/>
 
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[@level='a'][1]/text()"/>
+            <xsl:value-of select=".//mei:titleStmt/mei:title/text()"/>
         </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
             <head>
                 <xsl:call-template name="html_head">
-                    <xsl:with-param name="html_title" select="concat($doc_title, ' TEI/XML Version')"></xsl:with-param>
+                    <xsl:with-param name="html_title" select="concat($doc_title, ' MEI/XML Version')"></xsl:with-param>
                 </xsl:call-template>
                 <link rel="stylesheet" id="fundament-styles"  href="../dist/fundament/css/fundament.min.css" type="text/css"></link>
                 <link rel="stylesheet" href="../css/style.css" type="text/css"></link>
@@ -26,7 +26,7 @@
                         <div class="linescroll">
                             <div class="card xml-prev">
                                 <div class="card-body xml-viewarea" style="top: 0px; min-width: 100px;">
-                                    <xsl:apply-templates select="//tei:TEI"/>
+                                    <xsl:apply-templates select="//mei:mei"/>
                                 </div>
                             </div>
                         </div>
@@ -36,7 +36,7 @@
         </html>
     </xsl:template>
     
-    <xsl:template match="tei:TEI">
+    <xsl:template match="mei:mei">
         <span class="tnc">
             <span class="tc">&lt;</span>
             <xsl:value-of select="name()"/>
@@ -60,7 +60,7 @@
             <span class="tc">&gt;</span>
         </span>
     </xsl:template>
-    <xsl:template match="tei:teiHeader">
+    <xsl:template match="mei:meiHead">
         <span class="tnc">
             <span class="tc">&lt;</span>
             <xsl:value-of select="name()"/>
@@ -84,7 +84,7 @@
             <span class="tc">&gt;</span>
         </span>
     </xsl:template>
-    <xsl:template match="tei:text">
+    <xsl:template match="mei:music">
         <span class="tnc">
             <span class="tc">&lt;</span>
             <xsl:value-of select="name()"/>
