@@ -5,6 +5,6 @@
     <xsl:param name="project_title">Digital Scholarly Edition Brahms</xsl:param>
     <xsl:param name="project_short_title">Brahms Online</xsl:param>
     <xsl:param name="github_url">https://github.com/acdh-oeaw/brahms_static</xsl:param>
-    <xsl:param name="html_title">Brahms Online</xsl:param>
-    <xsl:param name="project_logo">dist/fundament/images/fundament_logo.svg</xsl:param>
+    <xsl:param name="html_title">Digital Scholarly Edition Brahms Online</xsl:param>
+    <xsl:param name="project_logo">images/Logo_Farbe_58bcc1_Transp-1-e1627912863339.png</xsl:param>
 </xsl:stylesheet>

@@ -10,7 +10,7 @@
         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                 <div class="footer-separator">
-                    CONTACT
+                    Kontakt
                 </div>
                 <div class="row">
                     <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6  ml-auto  text-center ">
@@ -24,19 +24,21 @@
                             <p>
                                 ACDH-CH OEAW
                                 <br/>
-                                Austrian Centre for Digital Humanities and Cultural Heritage
+                                ACDH-CH Austrian Centre for Digital Humanities and Cultural Heritage
+                                <br/>
+                                Abteilung Musikwissenschaft
                                 <br/>
                                 Austrian Academy of Sciences
                             </p>
                             <p>
-                                Sonnenfelsgasse 19
+                                Vordere Zollamtsstr. 3
                                 <br/>
-                                1010 Vienna
+                                1030 Wien
                             </p>
                             <p>
                                 T: +43 1 51581-2200
                                 <br/>
-                                E: <a href="mailto:acdh@oeaw.ac.at">acdh@oeaw.ac.at</a>
+                                E: <a href="mailto:acdh@oeaw.ac.at">acdh-ch@oeaw.ac.at</a>
                             </p>
                         </div>
                     </div>
@@ -46,39 +48,21 @@
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a>
-                                        <div class="card-body d-flex flex-column align-items-start">
+                                        <a href="https://www.oeaw.ac.at/"><img class="card-img-right flex-auto d-md-block" src="images/oeawlogo.png" alt="OEAW Logo" style="max-width: 60px; height: auto;" title="OEAW Logo" /></a>
+                                        <!--<div class="card-body d-flex flex-column align-items-start">
                                             <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
-                                        </div>
-                                    </div>
-                                </div>  
-                               <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a>
-                                        <div class="card-body d-flex flex-column align-items-start">
-                                            <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
-                                        </div>
-                                    </div>
-                                </div>                             
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-12">
-                                    <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a>
-                                        <div class="card-body d-flex flex-column align-items-start">
-                                            <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
-                                        </div>
+                                        </div>-->
                                     </div>
                                 </div>  
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://acdh.oeaw.ac.at"><img class="card-img-right flex-auto d-md-block" src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" alt="ACDH Logo" style="max-width: 60px; height: auto;" title="ACDH Logo" /></a>
-                                        <div class="card-body d-flex flex-column align-items-start">
+                                        <a href="https://www.wien.gv.at/"><img class="card-img-right flex-auto d-md-block" src="images/wienlogo-768x311.png" alt="Stadt Wien Logo" style="max-width: 60px; height: auto;" title="Stadt Wien Logo" /></a>
+                                        <!--<div class="card-body d-flex flex-column align-items-start">
                                             <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
-                                        </div>
+                                        </div>-->
                                     </div>
-                                </div>  
-                            </div>
+                                </div>                            
+                            </div>                            
                         </div>
                     </div>
                     <!-- .footer-widget -->                       
@@ -113,7 +97,7 @@
         </div>
         <!-- #wrapper-footer-full -->
         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;" >
-            © Copyright OEAW | <a href="https://www.oeaw.ac.at/die-oeaw/impressum/">Impressum/Imprint</a>
+            © Copyright OEAW | <a href="https://brahmsonline.acdh-dev.oeaw.ac.at/imprint">Impressum/Imprint</a>
         </div>
         <script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script>

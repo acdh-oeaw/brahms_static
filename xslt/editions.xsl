@@ -9,7 +9,6 @@
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
-    <xsl:import href="partials/osd-container.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
             <xsl:value-of select=".//mei:titleStmt/mei:title[1]/text()"/>
@@ -169,5 +168,25 @@
         <div class="annot">
             <xsl:apply-templates/>
         </div>
+    </xsl:template>    
+    <xsl:template match="relationList">        
+        <xsl:for-each select="@*">
+            <span class="badge bg-light text-dark">
+                <xsl:value-of select="."/>
+            </span>
+        </xsl:for-each>        
+    </xsl:template>    
+    <xsl:template match="relatedItem">        
+        <xsl:for-each select="@*">
+            <span class="badge bg-light text-dark">
+                <xsl:value-of select="."/>
+            </span>
+        </xsl:for-each>        
+        <xsl:for-each select="child::*">
+            <ul>
+                <li><xsl:apply-templates/></li>
+            </ul>
+        </xsl:for-each>        
     </xsl:template>
+    
 </xsl:stylesheet>

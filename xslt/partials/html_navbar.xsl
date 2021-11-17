@@ -11,7 +11,7 @@
                 <div class="container" >
                     <!-- Your site title as branding in the menu -->
                     <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="{$project_logo}" class="img-fluid" title="{$project_short_title}" alt="{$project_short_title}" itemprop="logo" /></a><!-- end custom logo -->
-                    <a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="{$project_short_title}" itemprop="url"><xsl:value-of select="$project_short_title"/></a>
+                    <!--<a class="navbar-brand site-title-with-logo" rel="home" href="index.html" title="{$project_short_title}" itemprop="url"><xsl:value-of select="$project_short_title"/></a>-->
                     <span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -20,32 +20,56 @@
                         <!-- Your menu goes here -->
                         <ul id="main-menu" class="navbar-nav">
                             <li class="nav-item dropdown">
-                                <a title="Papers" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a>
+                                <a title="Projekt" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Auden-Musulin Correspondence" href="about.html" class="nav-link">Über das Projekt</a>
+                                        <a title="Über das Projekt" href="https://brahmsonline.acdh-dev.oeaw.ac.at/uber-das-projekt/" class="nav-link">Über das Projekt</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Wiener Presse" href="https://brahmsonline.acdh-dev.oeaw.ac.at/wiener-presse/" class="nav-link">Wiener Presse</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Zeitungen" href="https://brahmsonline.acdh-dev.oeaw.ac.at/zeitungen/" class="nav-link">Zeitungen</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Rezensenten" href="https://brahmsonline.acdh-dev.oeaw.ac.at/rezensenten/" class="nav-link">Rezensenten</a>
                                     </li>
                                 </ul>                                
                             </li>
                             <li class="nav-item dropdown">
-                                <a title="Indexes" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Register <span class="caret"></span></a>
+                                <a title="Brahmś Wien" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Brahmś Wien <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Personen" href="#" class="nav-link">Personen</a>
+                                        <a title="Brahms in Wien" href="https://brahmsonline.acdh-dev.oeaw.ac.at/brahms-in-wien/" class="nav-link">Brahms in Wien</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Orte" href="#" class="nav-link">Orte</a>
+                                        <a title="Auffuhrungsorte" href="https://brahmsonline.acdh-dev.oeaw.ac.at/auffuhrungsorte/" class="nav-link">Auffuhrungsorte</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Brahms-Interpret*innen" href="https://brahmsonline.acdh-dev.oeaw.ac.at/brahms-interpreten/" class="nav-link">Brahms-Interpret*innen</a>
                                     </li>
                                 </ul>                                
-                            </li>                            
-                            <li class="nav-item"><a title="Editionseinheiten" href="toc.html" class="nav-link">Editionseinheiten</a></li>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a title="Forschung" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Forschung <span class="caret"></span></a>
+                                <ul class=" dropdown-menu" role="menu">
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Wiener Arbeitsstelle" href="https://brahmsonline.acdh-dev.oeaw.ac.at/wiener-arbeitsstelle/" class="nav-link">Wiener Arbeitsstelle</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Literatur" href="https://brahmsonline.acdh-dev.oeaw.ac.at/literatur/" class="nav-link">Literatur</a>
+                                    </li>
+                                </ul>                                
+                            </li> 
+                            <li class="nav-item"><a title="Datenbanksuche" href="index.html" class="nav-link">Datenbanksuche</a></li>                            
+                            <li class="nav-item"><a title="Kontakt" href="https://brahmsonline.acdh-dev.oeaw.ac.at/kontakt/" class="nav-link">Kontakt</a></li>
                         </ul>                        
-                        <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
+                        <!--<form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
                             <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" />
                             <button type="submit" class="navbar-search-icon">
                                 <i data-feather="search"></i>
                             </button>
-                        </form>
+                        </form>-->
                     </div>
                     <!-- .collapse navbar-collapse -->
                 </div>

@@ -51,7 +51,11 @@
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <xsl:value-of select="tokenize($full_path, '/')[last()]"/>
+                                                    <ul>
+                                                        <xsl:for-each select="//mei:respStmt/mei:persName">
+                                                            <li><xsl:value-of select="."/></li>
+                                                        </xsl:for-each>  
+                                                    </ul>                                                                                                      
                                                 </td>  
                                             </tr>
                                         </xsl:for-each>
