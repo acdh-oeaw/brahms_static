@@ -1,24 +1,9 @@
 # bin/bash
 
-echo "reading config.txt"
-if [ -f html/autocomplete-addon/config.txt ]
-    then
-        array=()
-        while IFS= read -r line; do
-            array+=($line)
-        done < html/autocomplete-addon/config.txt
-    else
-        echo "config.txt not found!"
-fi
-
-projectdir=${array[1]}
-echo $projectdir
-inputdir=${array[1]}/${array[2]}/${array[3]}
-echo $inputdir
-outputdir=`${array[1]}/autocomplete-addon`
-echo $outputdir
-filename="${array[0]}.txt"
-echo $filename
+projectdir="html"
+inputdir="${projectdir}/static-search/stems"
+outputdir="${projectdir}/autocomplete-addon"
+filename="brahms-online.txt"
 
 if [ -f $outputdir/$filename ]
     then
@@ -26,10 +11,15 @@ if [ -f $outputdir/$filename ]
         rm -f "$outputdir/$filename"
 fi
 
-echo "create file: $filename"
-touch "$outputdir/$filename"
-echo "open inputdir: $inputdir"
-for file in $inputdir/*.json; do
-    echo $file | sed -e "s_${projectdir}/__g" >> $outputdir/$filename
-done
-echo "$filename in $outputdir created"
+if [ -d $inputdir ]
+    then
+        echo "create file: $filename"
+        touch "$outputdir/$filename"
+        echo "open inputdir: $inputdir"
+        for file in $inputdir/*.json; do
+            echo $file | sed -e "s_${projectdir}/__g" >> $outputdir/$filename
+        done
+        echo "$filename in $outputdir created"
+    else
+        echo "directory with stems not found! check variables: projectdir, inputdir, outputdir and filename!"
+fi
