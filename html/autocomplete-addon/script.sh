@@ -1,7 +1,13 @@
 # bin/bash
 
+cd html/autocomplete-addon
+
 echo "delete .git"
-rm -rf .git
+if [ -d .git ]
+    then
+        echo "remove .git"
+        rm -rf .git
+fi
 
 echo "reading config.txt"
 if [ -f ./config.txt ]
@@ -16,7 +22,7 @@ fi
 
 projectdir=${array[1]}
 inputdir=${array[2]}/${array[3]}
-outputdir="autocomplete-addon"
+outputdir=`autocomplete-addon`
 filename="${array[0]}.txt"
 
 cd ..
