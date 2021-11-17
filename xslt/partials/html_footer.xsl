@@ -10,7 +10,7 @@
         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                 <div class="footer-separator">
-                    Kontakt
+                    Contact
                 </div>
                 <div class="row">
                     <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6  ml-auto  text-center ">
@@ -28,6 +28,7 @@
                                 <br/>
                                 Abteilung Musikwissenschaft
                                 <br/>
+                                <br/>
                                 Austrian Academy of Sciences
                             </p>
                             <p>
@@ -44,11 +45,11 @@
                     </div>
                     <div class="footer-widget col-lg-4 col-md-3 col-sm-4">
                         <h6 class="font-weight-bold">PROJECT PARTNERS</h6>
-                        <div class="container">
+                        <div class="container" style="margin-top: 2em;">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://www.oeaw.ac.at/"><img class="card-img-right flex-auto d-md-block" src="images/oeawlogo.png" alt="OEAW Logo" style="max-width: 60px; height: auto;" title="OEAW Logo" /></a>
+                                        <a href="https://www.oeaw.ac.at/"><img class="card-img-right flex-auto d-md-block" src="images/oeawlogo.png" alt="OEAW Logo" style="max-width: 140px; height: auto;" title="OEAW Logo" /></a>
                                         <!--<div class="card-body d-flex flex-column align-items-start">
                                             <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
                                         </div>-->
@@ -56,7 +57,7 @@
                                 </div>  
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://www.wien.gv.at/"><img class="card-img-right flex-auto d-md-block" src="images/wienlogo-768x311.png" alt="Stadt Wien Logo" style="max-width: 60px; height: auto;" title="Stadt Wien Logo" /></a>
+                                        <a href="https://www.wien.gv.at/"><img class="card-img-right flex-auto d-md-block" src="images/wienlogo-768x311.png" alt="Stadt Wien Logo" style="max-width: 140px; height: auto;" title="Stadt Wien Logo" /></a>
                                         <!--<div class="card-body d-flex flex-column align-items-start">
                                             <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
                                         </div>-->

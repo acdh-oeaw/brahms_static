@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://hcmc.uvic.ca/ns/staticSearch">
     <params>
-        <searchFile>./html/search.html</searchFile>
+        <searchFile>./html/index.html</searchFile>
         <recurse>false</recurse>
         <linkToFragmentId>true</linkToFragmentId>
         <scrollToTextFragment>false</scrollToTextFragment>
