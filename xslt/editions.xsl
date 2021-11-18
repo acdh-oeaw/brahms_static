@@ -54,10 +54,23 @@
                                 <div class="card">
                                     <div class="card-header">
                                         <h1><xsl:value-of select="$doc_title"/></h1>
-                                    </div>
-                                    <div class="card-header yes-index">
-                                        <xsl:apply-templates select=".//mei:workList"/>                                                                                
-                                    </div>
+                                        <div style="margin: 1.5em 0;">
+                                            <xsl:for-each select="//mei:title">
+                                                <xsl:choose>
+                                                    <xsl:when test="parent::mei:expression">
+                                                        <h6 class="toc">
+                                                            <a href="#{parent::*/@xml:id}">
+                                                                <xsl:apply-templates/>
+                                                            </a>
+                                                        </h6>
+                                                    </xsl:when>
+                                                </xsl:choose>
+                                            </xsl:for-each>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                                <div class="yes-index">
+                                    <xsl:apply-templates select=".//mei:workList"/>                                                                                
                                 </div>
                             </div>                            
                             <div class="tab-pane fade" id="xml-tab" tabindex="-1">
@@ -74,7 +87,7 @@
                     </div>
                     <xsl:call-template name="html_footer"/>
                 </div>
-            </body>
+            </body>            
         </html>
     </xsl:template>
 
@@ -100,23 +113,65 @@
          </xsl:choose>        
     </xsl:template>
     <xsl:template match="mei:identifier">
-        <span class="identifier badge bg-light text-dark"><xsl:value-of select="@label"/><xsl:text>: </xsl:text><xsl:apply-templates/></span>
+        <span class="identifier bg-light text-dark"><xsl:value-of select="@label"/><xsl:text>: </xsl:text><xsl:apply-templates/></span>
     </xsl:template>
     <xsl:template match="mei:composer">
-        <h4><xsl:apply-templates/></h4>
+        <xsl:variable name="gnd" select="./mei:persName/@auth.uri"/>
+        <div style="display:inline;">
+            <h4 class="composer">
+                <xsl:apply-templates/>
+                <a id="composerInfoButton"
+                    class="btn btn-sm"
+                    type="button"
+                    data-toggle="modal"
+                    data-target="#composerInfo">                   
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                    </svg>
+                </a>
+            </h4>
+            <div class="modal fade" id="composerInfo" tabindex="-1" aria-labelledby="composerInfoModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Composer Information</h5>
+                        </div>
+                        <div class="modal-body">
+                            <dl>
+                                <dt><xsl:value-of select="./mei:persName/@auth"/></dt>
+                                <dd>
+                                    <a target="_blank" title="GND Link" href="{concat(./mei:persName/@auth.uri, ./mei:persName/@codedval)}">
+                                        <xsl:value-of select="concat(./mei:persName/@auth.uri, ./mei:persName/@codedval)"/>
+                                    </a>
+                                </dd>
+                                <dt><xsl:value-of select="./mei:persName/@corresp/name()"/></dt>
+                                <dd><xsl:value-of select="./mei:persName/@corresp"/></dd>
+                            </dl>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
     </xsl:template>
     <xsl:template match="mei:creation">
         <h4><xsl:apply-templates/></h4>
     </xsl:template>
     <xsl:template match="mei:history">
-        <xsl:apply-templates/>
+        <div class="card-header" style="border-radius:.25rem;"><xsl:apply-templates/></div>
     </xsl:template>
     <xsl:template match="mei:eventList">
         <div class="row">            
             <xsl:for-each select="./mei:event">
-                <div class="col-md-12" style="padding:1em;border:3px solid white;border-radius:.25rem;margin-bottom:1em;">
-                    <xsl:apply-templates/>                    
-                </div>                
+                <div class="col-md-12" 
+                    style="margin: 1em 0;
+                    border-bottom: 5px solid #88dbdf;
+                    padding:1em 0;">
+                    <xsl:apply-templates/>  
+                </div>
             </xsl:for-each>        
         </div>
     </xsl:template>
@@ -144,7 +199,7 @@
     </xsl:template>
     <xsl:template match="mei:biblList">                  
         <xsl:for-each select="./mei:bibl">
-            <div class="card {./mei:term} {./mei:genre}" id="{substring-before(@sameas, ' ')}">
+            <div class="card biblList {./mei:term} {./mei:genre}" id="{substring-before(@sameas, ' ')}">
                 <div class="card-header">
                     <h5><xsl:value-of select="./mei:title"/></h5>
                 </div>
@@ -222,6 +277,34 @@
                 <li><xsl:apply-templates/></li>
             </ul>
         </xsl:for-each>        
+    </xsl:template>
+    <xsl:template match="mei:notesStmt">
+        <div class="card-header">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    <xsl:template match="mei:expressionList">
+        <div class="row">
+            <xsl:for-each select="./mei:expression">
+                <div class="col-md-12" id="{@xml:id}" style="padding-top:4em;">
+                    <h3><xsl:value-of select="./mei:title"/></h3>
+                    <h6 style="text-align:center;"><small><a href="#page">Jump to the top</a></small></h6>
+                    <xsl:apply-templates/>
+                </div>
+            </xsl:for-each>
+        </div>
+    </xsl:template>
+    <xsl:template match="mei:perfMedium">
+        <div class="card-header">
+            <xsl:for-each select="./mei:perfResList">
+                <h6><xsl:value-of select="./mei:head"/></h6>
+                <ul>
+                    <xsl:for-each select="./mei:perfResList/mei:perfRes">
+                        <li><xsl:value-of select="."/></li>
+                    </xsl:for-each>
+                </ul>                
+            </xsl:for-each>    
+        </div>
     </xsl:template>
     
 </xsl:stylesheet>

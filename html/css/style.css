@@ -1,11 +1,62 @@
 /* Datatables, provided by https://github.com/babslgam*/
 
+body {
+    background-color: #f9f3e6;
+}
+
 div.dataTables_filter {
   text-align:left !important;
 }
 
+span {
+    margin-left: .5em;
+}
+
 .btn-link {
   font-size:20px;
+}
+
+.nav-tabs {
+    padding: .2em;
+}
+
+.card-head {
+    background-color: #88dbdf;
+    border-radius: 0 0 .25rem .25rem;
+}
+
+.tab-pane.active > .card > .card-header {
+    background-color: #88dbdf;
+    border-radius: .25rem .25rem 0 0;
+}
+
+.nav-link:hover, #ssDoSearch:hover {
+    color: #88dbdf !important;
+}
+
+a.btn-round:hover {
+    color: #fff !important;
+    background-color: #88dbdf !important;
+}
+/* table of content buttons in nav */
+.btn-round.active {
+    background-color: #88dbdf !important;
+}
+
+.btn-round.active.nav-link {
+    color: #fff !important;
+}
+
+.btn-backlink {
+    background-color: transparent !important;
+    border: none !important;
+    padding: .3em 1.5em !important;
+}
+
+.btn-round.btn-backlink:hover {
+    background-color: transparent !important;;
+    border: none !important;
+    color: #88dbdf !important;
 }
 
 .exportbuttons {
@@ -39,40 +90,99 @@ div.dataTables_filter {
     max-width: 160% !important;
     max-height: 160% !important;
 }
-h4 {
-    margin: 1em;
-}
 .card {
     margin-top: 1em;
     box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
+    border-radius: .25rem;
 }
 p {
     margin: .5em;
 }
 .ptr {
-    margin: .5em;
+    margin: 1em 0;
     text-align: center;
 }
 label {
-    padding: .5em;
+    padding: 0;
+    margin: 0;
     text-decoration: underline;
 }
+
+a:hover {
+    color: #88dbdf;
+}
+
+svg:hover {
+    color: #000;
+}
+
+.biblList {
+    box-shadow: 8px 8px 12px 0px rgba(0, 0, 0, .1);
+}
+
 .biblScope {
     text-align:right;
 }
 .imprint {
     text-align:left;
+    margin-bottom: 1em;
 }
 .annot {
     text-align:left;
+    margin-bottom: 1em;
 }
-.date, .geogName, .persName, .identifier {
+.date, .geogName, .persName {
     display:inline;
     max-width:20%;
     margin-bottom:.5em;
     box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
     border: 1px solid white;
 }
+
+.identifier {
+    display: block;
+    text-align: center;
+    margin-left: 0 !important;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, .1);
+}
+
+.composer {
+    background-color: #fff;
+    padding: 1em;
+    color: #88dbdf;
+    border-radius: 0 0 .25rem .25rem;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin-bottom: 2em;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h3 {
+    margin: 1em 0;
+    text-align: center;
+}
+
+.toc {
+    text-align:center;
+}
+
+.toc a {
+    color: rgba(0,0,0,.3);
+}
+
+.toc a:hover {
+    color: rgba(0,0,0,.6);
+}
+
 .index-card {
     border-top: 5px solid #88dbdf; 
     transition: transform .2s;

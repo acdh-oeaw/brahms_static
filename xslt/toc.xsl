@@ -33,7 +33,7 @@
                                     <thead>
                                         <tr>
                                             <th scope="col">Titel</th>
-                                            <th scope="col">Dameinname</th>
+                                            <th scope="col">Editoren</th>
                                         </tr>
                                     </thead>
                                     <tbody>
