@@ -37,7 +37,12 @@
                               <li class="nav-item dropdown-submenu"><a title="Literatur" href="https://brahmsonline.acdh-dev.oeaw.ac.at/literatur/" class="nav-link">Literatur</a></li>
                            </ul>
                         </li>
-                        <li class="nav-item"><a title="Datenbanksuche" href="index.html" class="nav-link">Datenbanksuche</a></li>
+                        <li class="nav-item dropdown"><a title="Datenbank" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Datenbank <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Table of Contents" href="toc.html" class="nav-link">Table of Contents</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Suche" href="index.html" class="nav-link">Suche</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Suche" href="Personenregister-verkuerzt.html" class="nav-link">Personenregister</a></li>
+                           </ul>
+                        </li>
                         <li class="nav-item"><a title="Kontakt" href="https://brahmsonline.acdh-dev.oeaw.ac.at/kontakt/" class="nav-link">Kontakt</a></li>
                      </ul>
                   </div>
@@ -59,10 +64,17 @@
             </div>
             <div class="tab-content">
                <div class="tab-pane active" id="diplomatic-tab" tabindex="-1">
-                  <div class="card">
+                  <div class="card card-top">
                      <div class="card-header">
                         <h1>Fünf Lieder</h1>
-                        <div style="margin: 1.5em 0;"></div>
+                        <div style="margin: 1.5em 0;">
+                           <h6 class="toc"><a href="#perfResList">
+                                 Besetzung
+                                 </a></h6>
+                           <h6 class="toc"><a href="#componentList">
+                                 Komponentenliste
+                                 </a></h6>
+                        </div>
                      </div>
                   </div>
                   <div class="yes-index">
@@ -81,7 +93,7 @@
                               <div class="modal-dialog">
                                  <div class="modal-content">
                                     <div class="modal-header">
-                                       <h5 class="modal-title" id="exampleModalLabel">Composer Information</h5>
+                                       <h5 class="modal-title" id="exampleModalLabel">Komponist Information</h5>
                                     </div>
                                     <div class="modal-body">
                                        <dl>
@@ -2103,8 +2115,9 @@
                            </div>
                            </div>
                         
-                        <div class="card-header">
+                        <div class="card-header" id="perfResList" style="padding-top:5.5em;">
                            <h6>Besetzung: 1 Singstimme und Klavier</h6>
+                           <h6><small><a href="#page">Jump to the top</a></small></h6>
                            <ul>
                               <li>1 Singstimme</li>
                               <li>Klavier</li>
@@ -2118,55 +2131,64 @@
                         
                         <div class="row"></div>
                         
-                        
-                        <div id="work_op49-1">
-                           <span class="identifier bg-light text-dark">Opus-Nummer: op. 49,1</span>
-                           
+                        <div class="card-header" id="componentList" style="padding-top:5.5em;">
+                           <h6>Komponenten</h6>
+                           <h6><small><a href="#page">Jump to the top</a></small></h6>
+                           <div id="work_op49-1">
+                              <ul>
+                                 <li>Opus-Nummer: op. 49,1</li>
+                                 <li>Titel: Am Sonntag Morgen.</li>
+                              </ul>
                            </div>
-                        
-                        <div id="work_op49-2">
-                           <span class="identifier bg-light text-dark">Opus-Nummer: op. 49,2</span>
-                           
+                           <div id="work_op49-2">
+                              <ul>
+                                 <li>Opus-Nummer: op. 49,2</li>
+                                 <li>Titel: An ein Veilchen.</li>
+                              </ul>
                            </div>
-                        
-                        <div id="work_op49-3">
-                           <span class="identifier bg-light text-dark">Opus-Nummer: op. 49,3</span>
-                           
+                           <div id="work_op49-3">
+                              <ul>
+                                 <li>Opus-Nummer: op. 49,3</li>
+                                 <li>Titel: Sehnsucht.</li>
+                              </ul>
                            </div>
-                        
-                        <div id="work_op49-4">
-                           <span class="identifier bg-light text-dark">Opus-Nummer: op. 49,4</span>
-                           
+                           <div id="work_op49-4">
+                              <ul>
+                                 <li>Opus-Nummer: op. 49,4</li>
+                                 <li>Titel: Wiegenlied.</li>
+                              </ul>
                            </div>
-                        
-                        <div id="work_op49-5">
-                           <span class="identifier bg-light text-dark">Opus-Nummer: op. 49,5</span>
-                           
+                           <div id="work_op49-5">
+                              <ul>
+                                 <li>Opus-Nummer: op. 49,5</li>
+                                 <li>Titel: Abenddämmerung.</li>
+                              </ul>
                            </div>
-                        
-                        <div id="work_op49-4_Zander">
-                           <span class="identifier bg-light text-dark">Opus-Nummer: op. 49,4</span>
-                           
-                           
-                           <span class="persName badge bg-light text-dark">Adolf Zander</span>
-                           
+                           <div id="work_op49-4_Zander">
+                              <ul>
+                                 <li>Opus-Nummer: op. 49,4</li>
+                                 <li>Titel: Wiegenlied.</li>
+                              </ul>
                            </div>
-                        
-                        <div id="work_op49-4_Chor">
-                           <span class="identifier bg-light text-dark">Opus-Nummer: op. 49,4</span>
-                           
+                           <div id="work_op49-4_Chor">
+                              <ul>
+                                 <li>Opus-Nummer: op. 49,4</li>
+                                 <li>Titel: Wiegenlied.</li>
+                              </ul>
                            </div>
-                        
-                        <div id="work_op49-4_Männerchor">
-                           <span class="identifier bg-light text-dark">Opus-Nummer: op. 49,4</span>
-                           
+                           <div id="work_op49-4_Männerchor">
+                              <ul>
+                                 <li>Opus-Nummer: op. 49,4</li>
+                                 <li>Titel: Wiegenlied.</li>
+                              </ul>
                            </div>
-                        
-                        <div id="work_op49-4_dreistimmig">
-                           <span class="identifier bg-light text-dark">Opus-Nummer: op. 49,4</span>
-                           
+                           <div id="work_op49-4_dreistimmig">
+                              <ul>
+                                 <li>Opus-Nummer: op. 49,4</li>
+                                 <li>Titel: Wiegenlied.</li>
+                              </ul>
                            </div>
-                        
+                        </div>
                         </div>
                      </div>
                </div>

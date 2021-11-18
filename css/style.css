@@ -92,9 +92,13 @@ a.btn-round:hover {
 }
 .card {
     margin-top: 1em;
-    box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
     border-radius: .25rem;
 }
+
+.card-top {
+    box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
+}
+
 p {
     margin: .5em;
 }
@@ -143,7 +147,7 @@ svg:hover {
     display: block;
     text-align: center;
     margin-left: 0 !important;
-    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
 }
 
 .composer {
@@ -155,6 +159,7 @@ svg:hover {
     border-left: 1px solid white;
     border-right: 1px solid white;
     margin-bottom: 2em;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
 }
 
 h1 {
@@ -236,7 +241,7 @@ input#ssQuery {
 }
 
 input#ssQuery:hover {
-    border: 1px solid #b59890 !important;
+    border: 1px solid #88dbdf !important;
 }
 
 button#ssDoSearch {
@@ -252,11 +257,11 @@ button#ssDoSearch {
 }
 
 form button svg {
-    color: #b59890;
+    color: #88dbdf;
 }
 
 form button svg:hover {
-    color: #615a60;
+    color: #88dbdf;
 }
 
 .filters input {
@@ -266,7 +271,7 @@ form button svg:hover {
 }
 
 #ssDoSearch2, #ssClear, #ssShowMore, #ssShowAll {
-    border: 1px solid #615a60;
+    border: 1px solid #88dbdf;
     border-radius: .25rem;
     margin-bottom: 2em;
     padding: .1em .8em;
@@ -275,19 +280,19 @@ form button svg:hover {
 }
 
 #ssDoSearch2:hover, #ssClear:hover, #ssShowMore:hover, #ssShowAll:hover {
-    background-color: #b59890;
+    background-color: #88dbdf;
     color: #fff;
     border: 1px solid #fff;
 }
 
 fieldset.ssFieldset > span {
-    background-color: #b59890;
-    border: 1px solid #615a60;
+    background-color: #88dbdf;
+    border: 1px solid #88dbdf;
     border-radius: .25rem;
 }
 
 fieldset.ssFieldset > span > input {
-    border: 1px solid #615a60;
+    border: 1px solid #88dbdf;
     border-radius: .25rem;
     margin-left: .3em;
 }
@@ -353,6 +358,10 @@ fieldset.ssFieldset > span > input {
     transform: scale(1.05);
 }
 
+td {
+    max-width: 10%;
+}
+
 /* XML raw style */
 .tnc {
     color: brown;
@@ -395,4 +404,9 @@ fieldset.ssFieldset > span > input {
 
 .avc {
     color: #0000cd;
+}
+
+li {
+    list-style: none;
+    margin-top: .5em;
 }
