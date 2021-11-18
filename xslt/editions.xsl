@@ -51,21 +51,33 @@
                         </div>
                         <div class="tab-content">
                             <div class="tab-pane active" id="diplomatic-tab" tabindex="-1">                                     
-                                <div class="card">
+                                <div class="card card-top">
                                     <div class="card-header">
                                         <h1><xsl:value-of select="$doc_title"/></h1>
                                         <div style="margin: 1.5em 0;">
-                                            <xsl:for-each select="//mei:title">
-                                                <xsl:choose>
-                                                    <xsl:when test="parent::mei:expression">
-                                                        <h6 class="toc">
-                                                            <a href="#{parent::*/@xml:id}">
-                                                                <xsl:apply-templates/>
-                                                            </a>
-                                                        </h6>
-                                                    </xsl:when>
-                                                </xsl:choose>
-                                            </xsl:for-each>
+                                            <xsl:for-each select="//mei:title">                                                
+                                                <xsl:if test="parent::mei:expression">
+                                                    <h6 class="toc">
+                                                        <a href="#{parent::*/@xml:id}">
+                                                            <xsl:apply-templates/>
+                                                        </a>
+                                                    </h6>
+                                                </xsl:if>                                                
+                                            </xsl:for-each>                                            
+                                            <xsl:if test="//mei:perfResList">
+                                                <h6 class="toc">
+                                                    <a href="#perfResList">
+                                                        Besetzung
+                                                    </a>
+                                                </h6>
+                                            </xsl:if>
+                                            <xsl:if test="//mei:componentList">
+                                                <h6 class="toc">
+                                                    <a href="#componentList">
+                                                        Komponentenliste
+                                                    </a>
+                                                </h6>
+                                            </xsl:if>                                            
                                         </div>
                                     </div>                                    
                                 </div>
@@ -135,7 +147,7 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Composer Information</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Komponist Information</h5>
                         </div>
                         <div class="modal-body">
                             <dl>
@@ -295,9 +307,10 @@
         </div>
     </xsl:template>
     <xsl:template match="mei:perfMedium">
-        <div class="card-header">
+        <div class="card-header" id="perfResList" style="padding-top:5.5em;">
             <xsl:for-each select="./mei:perfResList">
                 <h6><xsl:value-of select="./mei:head"/></h6>
+                <h6><small><a href="#page">Jump to the top</a></small></h6>
                 <ul>
                     <xsl:for-each select="./mei:perfResList/mei:perfRes">
                         <li><xsl:value-of select="."/></li>
@@ -306,5 +319,20 @@
             </xsl:for-each>    
         </div>
     </xsl:template>
+    <xsl:template match="mei:componentList">
+        <div class="card-header" id="componentList" style="padding-top:5.5em;">
+            <h6>Komponenten</h6>
+            <h6><small><a href="#page">Jump to the top</a></small></h6>
+            <xsl:for-each select="./mei:work">
+                <div id="{@xml:id}">
+                    <ul>
+                        <li><xsl:value-of select="./mei:identifier/@label"/>: <xsl:value-of select="./mei:identifier"/></li>
+                        <li>Titel: <xsl:value-of select="mei:title"/></li>
+                    </ul>
+                </div>
+            </xsl:for-each>
+        </div>
+    </xsl:template>
+        
     
 </xsl:stylesheet>

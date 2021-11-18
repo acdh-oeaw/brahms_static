@@ -61,7 +61,20 @@
                                     </li>
                                 </ul>                                
                             </li> 
-                            <li class="nav-item"><a title="Datenbanksuche" href="index.html" class="nav-link">Datenbanksuche</a></li>                            
+                            <li class="nav-item dropdown">
+                                <a title="Datenbank" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Datenbank <span class="caret"></span></a>
+                                <ul class=" dropdown-menu" role="menu">
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Table of Contents" href="toc.html" class="nav-link">Table of Contents</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Suche" href="index.html" class="nav-link">Suche</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Suche" href="Personenregister-verkuerzt.html" class="nav-link">Personenregister</a>
+                                    </li>
+                                </ul>                                
+                            </li>
                             <li class="nav-item"><a title="Kontakt" href="https://brahmsonline.acdh-dev.oeaw.ac.at/kontakt/" class="nav-link">Kontakt</a></li>
                         </ul>                        
                         <!--<form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
