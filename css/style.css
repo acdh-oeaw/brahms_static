@@ -93,6 +93,7 @@ a.btn-round:hover {
 .card {
     margin-top: 1em;
     border-radius: .25rem;
+    box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
 }
 
 .card-top {
@@ -114,10 +115,6 @@ label {
 
 a:hover {
     color: #88dbdf;
-}
-
-svg:hover {
-    color: #000;
 }
 
 .biblList {

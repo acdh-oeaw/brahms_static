@@ -453,6 +453,7 @@ static-search/stems/cesek.json
 static-search/stems/cgi-cont.json
 static-search/stems/cgi.json
 static-search/stems/charlott.json
+static-search/stems/chor.json
 static-search/stems/chorgesangschulen.json
 static-search/stems/chormeist.json
 static-search/stems/chronologi.json
@@ -489,6 +490,7 @@ static-search/stems/dirig.json
 static-search/stems/divers.json
 static-search/stems/door.json
 static-search/stems/dpd.json
+static-search/stems/dreistimmig.json
 static-search/stems/dresden.json
 static-search/stems/drinker.json
 static-search/stems/drächsler.json
@@ -530,6 +532,7 @@ static-search/stems/etc.json
 static-search/stems/evtl.json
 static-search/stems/exkurs.json
 static-search/stems/express.json
+static-search/stems/expresss.json
 static-search/stems/fals.json
 static-search/stems/familiennam.json
 static-search/stems/familysearch.json
@@ -656,6 +659,7 @@ static-search/stems/hoftheat.json
 static-search/stems/hohem.json
 static-search/stems/horn.json
 static-search/stems/hornist.json
+static-search/stems/host.json
 static-search/stems/html.json
 static-search/stems/https.json
 static-search/stems/hugenotten.json
@@ -676,6 +680,7 @@ static-search/stems/interpreten.json
 static-search/stems/irma.json
 static-search/stems/irrtümlich.json
 static-search/stems/isabella.json
+static-search/stems/isrealizationof.json
 static-search/stems/jacob.json
 static-search/stems/jahreszahlen.json
 static-search/stems/jame.json
@@ -872,6 +877,7 @@ static-search/stems/paul.json
 static-search/stems/paula.json
 static-search/stems/paulin.json
 static-search/stems/paumgartn.json
+static-search/stems/perform.json
 static-search/stems/permalink.json
 static-search/stems/personennam.json
 static-search/stems/personenregist.json
@@ -1172,6 +1178,7 @@ static-search/stems/wol.json
 static-search/stems/wolff-stomerse.json
 static-search/stems/wolff.json
 static-search/stems/woo.json
+static-search/stems/work.json
 static-search/stems/wort.json
 static-search/stems/wunsch.json
 static-search/stems/wurm-mari.json
