@@ -14,47 +14,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/Personenregister-verkuerzt.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>register</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>data/editions/</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>editions</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/editions/JBWV_0008_op8_Klaviertrio-Nr1-H-Dur.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -354,7 +314,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>toc</String>
+                                    <String>register</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -372,7 +332,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslt/toc.xsl</String>
+                                    <String>${pdu}/xslt/register.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -393,7 +353,7 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/html/toc.html</String>
+                                    <String>${pd}/html/${cfn}.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>
@@ -437,7 +397,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>register</String>
+                                    <String>toc</String>
                                 </field>
                                 <field name="baseURL">
                                     <String></String>
@@ -455,7 +415,7 @@
                                     <String></String>
                                 </field>
                                 <field name="inputXSLURL">
-                                    <String>${pdu}/xslt/register.xsl</String>
+                                    <String>${pdu}/xslt/toc.xsl</String>
                                 </field>
                                 <field name="inputXMLURL">
                                     <String>${currentFileURL}</String>
@@ -476,7 +436,7 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="outputResource">
-                                    <String>${pd}/html/${cfn}.html</String>
+                                    <String>${pd}/html/toc.html</String>
                                 </field>
                                 <field name="openOtherLocationInBrowser">
                                     <Boolean>false</Boolean>

@@ -27,7 +27,6 @@
                         <div class="card">
                             <div class="card-header">
                                 <h1><xsl:value-of select="$doc_title"/></h1>
-                                <h3><a href="toc.html" title="Table of Content">Table of Content</a></h3>
                             </div>
                             <div class="card-body">
                                 <div id="staticSearch"/>                            

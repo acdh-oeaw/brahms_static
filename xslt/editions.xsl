@@ -178,10 +178,15 @@
     <xsl:template match="mei:eventList">
         <div class="row">            
             <xsl:for-each select="./mei:event">
-                <div class="col-md-12" 
+                <div id="event_{generate-id()}" class="col-md-12" 
                     style="margin: 1em 0;
                     border-bottom: 5px solid #88dbdf;
                     padding:1em 0;">
+                    <xsl:if test="ancestor::mei:eventList/@type">
+                        <span class="date badge bg-light text-dark">
+                            <xsl:value-of select="ancestor::mei:eventList/@type"/>
+                        </span>
+                    </xsl:if>
                     <xsl:apply-templates/>  
                 </div>
             </xsl:for-each>        
@@ -205,21 +210,25 @@
     </xsl:template>
     <xsl:template match="mei:p">
         <label><xsl:value-of select="@label"/>:</label>
-        <p id="{generate-id()}">            
+        <p>            
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    <xsl:template match="mei:biblList">                  
-        <xsl:for-each select="./mei:bibl">
-            <div class="card biblList {./mei:term} {./mei:genre}" id="{substring-before(@sameas, ' ')}">
-                <div class="card-header">
-                    <h5><xsl:value-of select="./mei:title"/></h5>
+    <xsl:template match="mei:biblList">      
+        <div class="row">
+            <xsl:for-each select="./mei:bibl">
+                <div class="col-md-6">
+                    <div class="card biblList {./mei:term} {./mei:genre}" id="{substring-before(@sameas, ' ')}">
+                        <div class="card-header">
+                            <h5><xsl:value-of select="./mei:title"/></h5>
+                        </div>
+                        <div class="card-body">
+                            <p><xsl:apply-templates/></p>                    
+                        </div>
+                    </div>   
                 </div>
-                <div class="card-body">
-                    <p><xsl:apply-templates/></p>                    
-                </div>
-            </div>                
-        </xsl:for-each>        
+            </xsl:for-each>  
+        </div>
     </xsl:template>
     <xsl:template match="mei:term">
         <xsl:choose>
@@ -271,16 +280,26 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>    
-    <xsl:template match="relationList">        
-        <xsl:for-each select="@*">
-            <span class="badge bg-light text-dark">
-                <xsl:value-of select="."/>
+    <xsl:template match="mei:relationList">  
+        <xsl:for-each select="./mei:relation">
+            <span class="badge bg-light text-dark" style="margin-right:.3em;">
+                <xsl:value-of select="@rel"/>
             </span>
-        </xsl:for-each>        
+            <xsl:variable name="isRealizationOf" select="tokenize(@target, '\s')"/>
+            <ul>
+                <xsl:for-each select="$isRealizationOf">
+                    <li>                    
+                        <a href="{.}" title="{substring-after(., '#')}">
+                            <xsl:value-of select="substring-after(., '#')"/>
+                        </a>
+                    </li>
+                </xsl:for-each>  
+            </ul>
+        </xsl:for-each>
     </xsl:template>    
-    <xsl:template match="relatedItem">        
+    <xsl:template match="mei:relatedItem">        
         <xsl:for-each select="@*">
-            <span class="badge bg-light text-dark">
+            <span class="badge bg-light text-dark" style="margin-right:.3em;">
                 <xsl:value-of select="."/>
             </span>
         </xsl:for-each>        
@@ -291,7 +310,7 @@
         </xsl:for-each>        
     </xsl:template>
     <xsl:template match="mei:notesStmt">
-        <div class="card-header">
+        <div class="card-header" id="notesStmt" style="padding-top:5.5em;">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
