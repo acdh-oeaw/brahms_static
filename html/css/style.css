@@ -8,7 +8,7 @@ div.dataTables_filter {
   text-align:left !important;
 }
 
-span {
+.col-md-12 > span {
     margin-left: .5em;
 }
 
@@ -25,8 +25,13 @@ span {
     border-radius: 0 0 .25rem .25rem;
 }
 
+.title-sub-links {
+    margin: 1.5em auto;
+    max-width:75%;
+}
+
 .tab-pane.active > .card > .card-header {
-    background-color: #88dbdf;
+    background-color: rgba(136, 219, 223, .2);
     border-radius: .25rem .25rem 0 0;
 }
 
@@ -143,20 +148,13 @@ a:hover {
 .identifier {
     display: block;
     text-align: center;
-    margin-left: 0 !important;
-    box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+    margin: 0;
+    padding: .5em;
 }
 
 .composer {
-    background-color: #fff;
-    padding: 1em;
     color: #88dbdf;
-    border-radius: 0 0 .25rem .25rem;
-    border-bottom: 1px solid white;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    margin-bottom: 2em;
-    box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+    margin: 0;    
 }
 
 h1 {
@@ -164,12 +162,20 @@ h1 {
     text-align: center;
 }
 
-h4 {
+h2 {
     text-align: center;
 }
 
 h3 {
     margin: 1em 0;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
     text-align: center;
 }
 
@@ -359,6 +365,12 @@ td {
     max-width: 10%;
 }
 
+
+li {
+    list-style: none;
+    margin-top: .5em;
+}
+
 /* XML raw style */
 .tnc {
     color: brown;
@@ -401,9 +413,4 @@ td {
 
 .avc {
     color: #0000cd;
-}
-
-li {
-    list-style: none;
-    margin-top: .5em;
 }

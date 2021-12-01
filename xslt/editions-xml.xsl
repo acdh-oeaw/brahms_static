@@ -47,7 +47,7 @@
                 </span>
                 <span class="avc">
                     <xsl:text>="</xsl:text>
-                    <xsl:value-of select="."/>
+                    <xsl:value-of select="normalize-space(.)"/>
                     <xsl:text>"</xsl:text>
                 </span>
             </xsl:for-each>
@@ -56,7 +56,7 @@
             <xsl:apply-templates/>
         <span class="tnc">
             <span class="tc">&lt;</span>
-            <xsl:value-of select="concat('/' ,name())"/>
+            <xsl:value-of select="normalize-space(concat('/' ,name()))"/>
             <span class="tc">&gt;</span>
         </span>
     </xsl:template>
@@ -71,7 +71,7 @@
                 </span>
                 <span class="avc">
                     <xsl:text>="</xsl:text>
-                    <xsl:value-of select="."/>
+                    <xsl:value-of select="normalize-space(.)"/>
                     <xsl:text>"</xsl:text>
                 </span>
             </xsl:for-each>
@@ -80,7 +80,7 @@
             <xsl:apply-templates/>
         <span class="tnc">
             <span class="tc">&lt;</span>
-            <xsl:value-of select="concat('/' ,name())"/>
+            <xsl:value-of select="normalize-space(concat('/' ,name()))"/>
             <span class="tc">&gt;</span>
         </span>
     </xsl:template>
@@ -95,7 +95,7 @@
                 </span>
                 <span class="avc">
                     <xsl:text>="</xsl:text>
-                    <xsl:value-of select="."/>
+                    <xsl:value-of select="normalize-space(.)"/>
                     <xsl:text>"</xsl:text>
                 </span>
             </xsl:for-each>
@@ -104,7 +104,7 @@
             <xsl:apply-templates/>
         <span class="tnc">
             <span class="tc">&lt;</span>
-            <xsl:value-of select="concat('/' ,name())"/>
+            <xsl:value-of select="normalize-space(concat('/' ,name()))"/>
             <span class="tc">&gt;</span>
         </span>
     </xsl:template>
@@ -119,7 +119,7 @@
                 </span>
                 <span class="avc">
                     <xsl:text>="</xsl:text>
-                    <xsl:value-of select="."/>
+                    <xsl:value-of select="normalize-space(.)"/>
                     <xsl:text>"</xsl:text>
                 </span>
             </xsl:for-each>
@@ -128,7 +128,7 @@
         <xsl:apply-templates/>        
         <span class="tnc">
             <span class="tc">&lt;</span>
-            <xsl:value-of select="concat('/' ,name())"/>
+            <xsl:value-of select="normalize-space(concat('/' ,name()))"/>
             <span class="tc">&gt;</span>
         </span>
     </xsl:template>
