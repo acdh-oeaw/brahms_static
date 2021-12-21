@@ -4,6 +4,10 @@ body {
     background-color: #f9f3e6;
 }
 
+/*a {
+    color: #88dbdf;
+}*/
+
 div.dataTables_filter {
   text-align:left !important;
 }
