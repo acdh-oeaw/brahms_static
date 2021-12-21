@@ -32,17 +32,17 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container-fluid">                 
+                    <div class="container-fluid">
                         <div class="card card-top">
                             <div class="card-header">
                                 <h1><xsl:value-of select="//mei:list/mei:head"/></h1>
-                            </div>  
+                            </div>
                             <div class="card-body">
                                 <div class="yes-index" style="max-width:100%;">
-                                    <xsl:apply-templates select="//mei:li"/>                                                                                
-                                </div>       
+                                    <xsl:apply-templates select="//mei:li"/>                                                       
+                                </div>
                             </div>
-                        </div>                                                                       
+                        </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
                     <script>

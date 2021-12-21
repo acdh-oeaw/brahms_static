@@ -32,8 +32,10 @@
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Titel</th>
-                                            <th scope="col">Editoren</th>
+                                            <th scope="col">Titel</th>                                            
+                                            <th scope="col">Komponist</th>
+                                            <th scope="col">Einträge</th>
+                                            <th scope="col">Metadaten</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -41,6 +43,7 @@
                                             <xsl:variable name="full_path">
                                                 <xsl:value-of select="document-uri(/)"/>
                                             </xsl:variable>
+                                            <xsl:variable name="filenameFull" select="concat(.//mei:workList/mei:work/@xml:id,'.html')" />
                                             <tr>
                                                 <td>                                        
                                                     <a>
@@ -48,15 +51,41 @@
                                                             <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
                                                         </xsl:attribute>
                                                         <xsl:value-of select="//mei:titleStmt/mei:title/text()"/>
+                                                        <xsl:text>, </xsl:text>
+                                                        <xsl:value-of select="//mei:workList/mei:work/mei:identifier[@label='Opus-Nummer']/text()"/>
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <ul>
-                                                        <xsl:for-each select="//mei:respStmt/mei:persName">
-                                                            <li><xsl:value-of select="."/></li>
-                                                        </xsl:for-each>  
-                                                    </ul>                                                                                                      
-                                                </td>  
+                                                    <a target="_blank">
+                                                        <xsl:attribute name="href">                                                
+                                                            <xsl:value-of select="concat(//mei:work/mei:composer/mei:persName/@auth.uri, //mei:work/mei:composer/mei:persName/@codedval)"/>
+                                                        </xsl:attribute><!-- ggf. Personenregister ID link zu Register -->
+                                                        <xsl:value-of select="//mei:work/mei:composer/mei:persName/text()"/>
+                                                    </a>                                                    
+                                                </td>
+                                                <td>
+                                                    <ul>                                                            
+                                                        <li style="list-style:circle;">
+                                                            <xsl:value-of select="count(//mei:history/mei:eventList/mei:event)"/>
+                                                            <xsl:text> Einträge zu Events</xsl:text>
+                                                        </li>
+                                                        <li style="list-style:circle;">
+                                                            <xsl:value-of select="count(//mei:perfMedium/mei:perfResList)"/>
+                                                            <xsl:text> Einträge Resourcen</xsl:text>
+                                                        </li>
+                                                        <li style="list-style:circle;">
+                                                            <xsl:value-of select="count(//mei:expressionList/mei:expression)"/>
+                                                            <xsl:text> Einträge Expressionen</xsl:text>
+                                                        </li>
+                                                        <li style="list-style:circle;">
+                                                            <xsl:value-of select="count(//mei:componentList/mei:work)"/>
+                                                            <xsl:text> Einträge zu Komponenten</xsl:text>
+                                                        </li>                                                            
+                                                    </ul>                                                                                                                                                                                                              
+                                                </td>
+                                                <td>
+                                                    <a href="{$filenameFull}">mehr lesen</a>
+                                                </td>
                                             </tr>
                                         </xsl:for-each>
                                     </tbody>
