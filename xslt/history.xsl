@@ -40,22 +40,22 @@
                                                         <h5>
                                                             <xsl:choose>
                                                                 <xsl:when test="./mei:date/text()">
-                                                                    <xsl:value-of select="./mei:date"/>
-                                                                    <xsl:text>, </xsl:text>
+                                                                    <xsl:value-of select="./mei:date"/>                                                                                                
                                                                 </xsl:when>
                                                                 <xsl:otherwise>
                                                                     <xsl:text>unbekannt</xsl:text>
                                                                 </xsl:otherwise>
                                                             </xsl:choose>                                                            
                                                             <xsl:if test="./mei:geogName[@role='place']/text()">
-                                                                <xsl:value-of select="./mei:geogName[@role='place']"/>
                                                                 <xsl:text>, </xsl:text>
+                                                                <xsl:value-of select="./mei:geogName[@role='place']"/>                                                                                            
                                                             </xsl:if>
                                                             <xsl:if test="./mei:geogName[@role='venue']/text()">
-                                                                <xsl:value-of select="./mei:geogName[@role='venue']"/>
-                                                                <xsl:text> - </xsl:text>
+                                                                <xsl:text>, </xsl:text>
+                                                                <xsl:value-of select="./mei:geogName[@role='venue']"/>                                                                                            
                                                             </xsl:if>    
                                                             <xsl:if test="./mei:persName[1]/text()">
+                                                                <xsl:text> - </xsl:text>
                                                                 <xsl:value-of select="./mei:persName[1]"/>
                                                             </xsl:if>
                                                             <xsl:if test="count(./mei:persName) > 1">
