@@ -18,9 +18,7 @@
             <head>
                 <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
-                </xsl:call-template>
-                <meta name="Filter" class="staticSearch_desc" content="article"/>
-                <meta name="Filter" class="staticSearch_desc" content="newspaper"/>            
+                </xsl:call-template>                        
             </head>            
             
             <body class="page">
