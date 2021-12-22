@@ -47,6 +47,7 @@
     <delete>
         <fileset dir="${target}" includes="expressions.html"/>
         <fileset dir="${target}" includes="history.html"/>
+        <fileset dir="${target}" includes="select_history_expression.html"/>
     </delete>
     <!-- <xslt in="./data/imprint.xml" out="${target}/imprint.html" style="./xslt/imprint.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
