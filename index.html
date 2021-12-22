@@ -351,6 +351,10 @@
                                  <li><input type="checkbox" title="Werk" value="Walzer, op. 39" id="ssDesc4_4" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc4_4">Walzer, op. 39</label></li>
                               </ul>
                            </fieldset>
+                        </div>
+                        <div class="ssDateFilters">
+                           <fieldset class="ssFieldset" title="Zeitraum" id="ssDate1">
+                              <legend>Zeitraum</legend><span><label for="ssDate1_from">From: </label><input type="text" placeholder="1867-03-17" title="Zeitraum" id="ssDate1_from" onchange="this.reportValidity()" class="staticSearch.date staticSearch_date" maxlength="10" pattern="^\d\d\d\d(-((((01)|(03)|(05)|(07)|(08)|(10)|(12))-((0[1-9])|([12][0-9])|(3[01])))|(((04)|(06)|(09)|(11))-((0[1-9])|([12][0-9])|(30)))|(02-((0[1-9])|([12][0-9]))))|(-((0[123456789])|(1[012]))))?$"/></span><span><label for="ssDate1_to">To: </label><input type="text" placeholder="1902-03-22" title="Zeitraum" id="ssDate1_to" onchange="this.reportValidity()" class="staticSearch.date staticSearch_date" maxlength="10" pattern="^\d\d\d\d(-((((01)|(03)|(05)|(07)|(08)|(10)|(12))-((0[1-9])|([12][0-9])|(3[01])))|(((04)|(06)|(09)|(11))-((0[1-9])|([12][0-9])|(30)))|(02-((0[1-9])|([12][0-9]))))|(-((0[123456789])|(1[012]))))?$"/></span></fieldset>
                         </div><span class="postFilterSearchBtn"><button id="ssDoSearch2">Search</button></span></form>
                      <div id="ssSearching">Searching...</div>
                      <div id="ssResults"></div>
