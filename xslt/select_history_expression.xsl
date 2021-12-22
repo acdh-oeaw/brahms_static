@@ -29,7 +29,7 @@
                             <xsl:call-template name="nav_bar"/>
                             
                             <div class="container-fluid">
-                                <div class="row" style="margin-top: 5em;">
+                                <div class="row" style="margin: 5em 0;">
                                     <xsl:if test="count(.//mei:history/mei:eventList/mei:event) != 0">         
                                         <xsl:variable name="historyOverview" select="concat($filename, '_history', '.html')"/>
                                         <div class="col-md-6">
@@ -42,20 +42,6 @@
                                             </a>
                                         </div>                                          
                                     </xsl:if>
-                                    <xsl:if test="count(.//mei:perfMedium/mei:perfResList) != 0"> 
-                                        <xsl:variable name="ressourcesOverview" select="concat($filename, '_ressources', '.html')"/>
-                                        <div class="col-md-6">
-                                            <a href="{$ressourcesOverview}">
-                                                <div class="card index-card">
-                                                    <div class="card-header">
-                                                        <h1>Resourcen</h1>
-                                                    </div>                                                                                 
-                                                </div>  
-                                            </a>
-                                        </div>                                        
-                                    </xsl:if>
-                                </div>                       
-                                <div class="row" style="margin-bottom: 5em;">
                                     <xsl:if test="count(.//mei:expressionList/mei:expression) != 0">    
                                         <xsl:variable name="expressionsOverview" select="concat($filename, '_expressions', '.html')"/>
                                         <div class="col-md-6">
@@ -67,6 +53,21 @@
                                                 </div> 
                                             </a>
                                         </div>                                          
+                                    </xsl:if>
+                                    
+                                </div>                       
+                                <!--<div class="row" style="margin-bottom: 5em;">
+                                    <xsl:if test="count(.//mei:perfMedium/mei:perfResList) != 0"> 
+                                        <xsl:variable name="ressourcesOverview" select="concat($filename, '_ressources', '.html')"/>
+                                        <div class="col-md-6">
+                                            <a href="{$ressourcesOverview}">
+                                                <div class="card index-card">
+                                                    <div class="card-header">
+                                                        <h1>Resourcen</h1>
+                                                    </div>                                                                                 
+                                                </div>  
+                                            </a>
+                                        </div>                                        
                                     </xsl:if>
                                     <xsl:if test="count(.//mei:componentList/mei:work) != 0">         
                                         <xsl:variable name="componentOverview" select="concat($filename, '_components', '.html')"/>
@@ -80,7 +81,7 @@
                                             </a>
                                         </div>                                        
                                     </xsl:if>
-                                </div>
+                                </div>-->
                             </div>
                             
                             <xsl:call-template name="html_footer"/>

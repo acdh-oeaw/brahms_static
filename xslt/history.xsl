@@ -37,7 +37,31 @@
                                             <a href="{$event}">                                                
                                                 <div class="card index-card">
                                                     <div class="card-header">
-                                                        <h1><xsl:value-of select="replace($eventID, '_', ' ')"/></h1>
+                                                        <h5>
+                                                            <xsl:choose>
+                                                                <xsl:when test="./mei:date/text()">
+                                                                    <xsl:value-of select="./mei:date"/>
+                                                                    <xsl:text>, </xsl:text>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <xsl:text>unbekannt</xsl:text>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>                                                            
+                                                            <xsl:if test="./mei:geogName[@role='place']/text()">
+                                                                <xsl:value-of select="./mei:geogName[@role='place']"/>
+                                                                <xsl:text>, </xsl:text>
+                                                            </xsl:if>
+                                                            <xsl:if test="./mei:geogName[@role='venue']/text()">
+                                                                <xsl:value-of select="./mei:geogName[@role='venue']"/>
+                                                                <xsl:text> - </xsl:text>
+                                                            </xsl:if>    
+                                                            <xsl:if test="./mei:persName[1]/text()">
+                                                                <xsl:value-of select="./mei:persName[1]"/>
+                                                            </xsl:if>
+                                                            <xsl:if test="count(./mei:persName) > 1">
+                                                                <xsl:text>(+ </xsl:text><xsl:value-of select="count(./mei:persName) - 1"/><xsl:text>)</xsl:text>
+                                                            </xsl:if>                                                           
+                                                        </h5>
                                                     </div>                                                                                 
                                                 </div>   
                                             </a>
