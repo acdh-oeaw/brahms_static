@@ -5,8 +5,17 @@ body {
 }
 
 /*a {
-    color: #88dbdf;
+    color: blue;
 }*/
+
+.event-table tr th {
+    border: none;
+    width: 20%;
+}
+
+.event-table tr td {
+    border: none;
+}
 
 div.dataTables_filter {
   text-align:left !important;
@@ -263,6 +272,10 @@ button#ssDoSearch {
     z-index:99;
 }
 
+/*#ssResults {
+    white-space: pre-line;
+}*/
+
 form button svg {
     color: #88dbdf;
 }
@@ -373,6 +386,10 @@ td {
 li {
     list-style: none;
     margin-top: .5em;
+}
+
+.ssDescCheckboxList li label {
+    margin-left: .5em;
 }
 
 /* XML raw style */
