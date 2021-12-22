@@ -18,7 +18,7 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <!-- Your menu goes here -->
-                        <ul id="main-menu" class="navbar-nav">
+                        <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
                             <li class="nav-item dropdown">
                                 <a title="Projekt" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
