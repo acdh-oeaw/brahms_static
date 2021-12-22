@@ -191,6 +191,15 @@
                                                                                         </meta>                                                                                                                     
                                                                                     </xsl:for-each>
                                                                                 </xsl:if>
+                                                                                <xsl:if test="ancestor::mei:event/mei:date[@isodate]">
+                                                                                    <xsl:for-each select="ancestor::mei:event/mei:date">
+                                                                                        <meta name="Zeitraum" class="staticSearch_date">
+                                                                                            <xsl:attribute name="content">
+                                                                                                <xsl:value-of select="@isodate"/>
+                                                                                            </xsl:attribute>
+                                                                                        </meta>
+                                                                                    </xsl:for-each>                                                                                                                
+                                                                                </xsl:if>
                                                                                 <xsl:if test="./mei:term/text()">
                                                                                     <xsl:for-each select="./mei:term">
                                                                                         <meta name="Rubrik" class="staticSearch_desc">

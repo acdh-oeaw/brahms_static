@@ -272,6 +272,18 @@ button#ssDoSearch {
     z-index:99;
 }
 
+div.ssDescFilters fieldset, div.ssDateFilters fieldset, div.ssNumFilters fieldset, div.ssBoolFilters fieldset {
+    display:block !important;
+    width: 100%;
+    max-width: 100%;
+}
+
+ul.ssDescCheckboxList li {
+    display: inline-block;
+    width: 45%;
+    max-width: 45%;
+}
+
 /*#ssResults {
     white-space: pre-line;
 }*/
