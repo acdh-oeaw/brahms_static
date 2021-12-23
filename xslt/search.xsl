@@ -19,7 +19,7 @@
                 </xsl:call-template>
             </head>  
             
-            <body class="page">
+            <body class="page" onload="updateFilters()">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
@@ -37,7 +37,8 @@
                     <xsl:call-template name="html_footer"/>
                     
                 </div>
-            </body>
+                <script type="text/javascript" src="js/ssFilterUpdate.js"></script>
+            </body>            
         </html>
     </xsl:template>
 </xsl:stylesheet>

@@ -128,7 +128,6 @@ p {
 label {
     padding: 0;
     margin: 0;
-    text-decoration: underline;
 }
 
 a:hover {
@@ -272,16 +271,75 @@ button#ssDoSearch {
     z-index:99;
 }
 
+div.ssDescFilters fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+div.ssDescFilters fieldset legend {
+    border: 1px solid lightgrey;
+    border-radius: .25rem;
+    font-size: 1em;
+    padding: .5em;
+    cursor: pointer;
+}
+
+div.ssDescFilters fieldset legend:hover {
+    border: 1px solid grey;
+}
+
+div.ssDescFilters fieldset legend div {
+    width: 50%;
+    display: inline-block;
+}
+
+.lsvg {
+    text-align: right;
+    padding-top:.4em;
+    /*transition: transform .2s;*/
+}
+
+.ltxt {
+    text-align: left;    
+}
+
+.ssResultUpdate1 {
+    font-weight: bold;
+}
+
+.ssResultUpdate2 {
+    margin: .3em 0;
+}
+
+.ssResultUpdate3 {
+    font-style: italic;
+}
+
+/*.lsvg:hover {
+    transform: scale(1.005);
+}*/
+
 div.ssDescFilters fieldset, div.ssDateFilters fieldset, div.ssNumFilters fieldset, div.ssBoolFilters fieldset {
     display:block !important;
     width: 100%;
     max-width: 100%;
 }
 
+ul.ssDescCheckboxList{
+    max-height: 100% !important;
+    overflow-y: auto;
+    padding-left: .5em;
+}
+
 ul.ssDescCheckboxList li {
     display: inline-block;
-    width: 45%;
-    max-width: 45%;
+    width: 48%;
+    max-width: 48%;    
+}
+
+.ssDescCheckboxList li label {
+    margin-left: .5em;
+    max-width: 90%;
 }
 
 /*#ssResults {
@@ -398,10 +456,6 @@ td {
 li {
     list-style: none;
     margin-top: .5em;
-}
-
-.ssDescCheckboxList li label {
-    margin-left: .5em;
 }
 
 /* XML raw style */
