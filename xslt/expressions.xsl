@@ -221,14 +221,14 @@
                                                                                                                     </meta>                                                                                                                     
                                                                                                                 </xsl:for-each>
                                                                                                             </xsl:if>
-                                                                                                            <xsl:if test="./mei:annot/mei:p[@label='Vollständiger_Nachweis']/text()">
-                                                                                                                <xsl:for-each select="./mei:annot/mei:p[@label='Vollständiger_Nachweis']">
+                                                                                                            <xsl:if test="./mei:annot/mei:p[@label='Vollständiger_Nachweis']/text()">                                                                                    
+                                                                                                                <xsl:for-each select="./mei:annot/mei:p[@label='Vollständiger_Nachweis'] | parent::mei:annot[mei:p[@label='Vollständiger_Nachweis'] != current()/mei:p[@label='Vollständiger_Nachweis']]">
                                                                                                                     <meta name="007 Quelle" class="staticSearch_desc">
                                                                                                                         <xsl:attribute name="content">
                                                                                                                             <xsl:value-of select="."/>                                                                                                                            
                                                                                                                         </xsl:attribute>
-                                                                                                                    </meta>                                                                                                                     
-                                                                                                                </xsl:for-each>
+                                                                                                                    </meta>   
+                                                                                                                </xsl:for-each>                                                                                                    
                                                                                                             </xsl:if>
                                                                                                             <xsl:if test="./mei:term/text()">
                                                                                                                 <xsl:for-each select="./mei:term">
