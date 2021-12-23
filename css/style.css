@@ -268,12 +268,13 @@ button#ssDoSearch {
     margin-left: -4.1em !important;
     margin-right: -.25em;
     margin-top: .1em !important;
-    z-index:99;
+    z-index: 2;
 }
 
 div.ssDescFilters fieldset {
     margin: 0;
     padding: 0;
+    
 }
 
 div.ssDescFilters fieldset legend {
@@ -315,6 +316,14 @@ div.ssDescFilters fieldset legend div {
     font-style: italic;
 }
 
+/*.hidden {
+  display: none;
+}
+
+.visuallyhidden {
+  opacity: 0;
+}*/
+
 /*.lsvg:hover {
     transform: scale(1.005);
 }*/
@@ -325,7 +334,7 @@ div.ssDescFilters fieldset, div.ssDateFilters fieldset, div.ssNumFilters fieldse
     max-width: 100%;
 }
 
-ul.ssDescCheckboxList{
+ul.ssDescCheckboxList {
     max-height: 100% !important;
     overflow-y: auto;
     padding-left: .5em;
