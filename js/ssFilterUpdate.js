@@ -46,6 +46,28 @@ $("#ssDoSearch, #ssDoSearch2").click( function() {
     }, 500);    
 });
 
+$( window ).on("load", function() {
+    setTimeout(function() {
+        var result = $("#ssResults ul li div a");
+        result.each( function( item ) {
+            $this = $( this );
+            var resultUpdate = $this.text();
+            // console.log(resultUpdate);
+            var update = resultUpdate
+            .replace("ssStart", `<div class='ssResultUpdate1'>`)
+            .replace("ssEnd", `</div>`)
+            .replace("ssStart", `<div class='ssResultUpdate2'>`)
+            .replace("ssEnd", `</div>`)
+            .replace("ssStart", `<div class='ssResultUpdate3'>`)
+            .replace("ssEnd", `</div>`);
+            $this.text("");
+            $this.append( update );
+            console.log(update);
+        });
+        
+    }, 500);    
+});
+
 
 function getLegendText( input ) {
     var legend = input.text();
