@@ -32,7 +32,7 @@
                                 <div class="row" style="margin: 5em 0;">
                                     <xsl:if test="count(.//mei:history/mei:eventList/mei:event) != 0">         
                                         <xsl:variable name="historyOverview" select="concat($filename, '_history', '.html')"/>
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <a href="{$historyOverview}">                                                
                                                 <div class="card index-card">
                                                     <div class="card-header">
@@ -44,7 +44,7 @@
                                     </xsl:if>
                                     <xsl:if test="count(.//mei:expressionList/mei:expression) != 0">    
                                         <xsl:variable name="expressionsOverview" select="concat($filename, '_expressions', '.html')"/>
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <a href="{$expressionsOverview}">
                                                 <div class="card index-card">
                                                     <div class="card-header">
@@ -53,8 +53,7 @@
                                                 </div> 
                                             </a>
                                         </div>                                          
-                                    </xsl:if>
-                                    
+                                    </xsl:if>                                    
                                 </div>                       
                                 <!--<div class="row" style="margin-bottom: 5em;">
                                     <xsl:if test="count(.//mei:perfMedium/mei:perfResList) != 0"> 

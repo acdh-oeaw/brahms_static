@@ -33,7 +33,7 @@
                                     <xsl:for-each select=".//mei:workList/mei:work/mei:expressionList/mei:expression">
                                         <xsl:variable name="id" select="@xml:id"/>
                                         <xsl:variable name="idURL" select="concat($filename, '_', $id, '.html')"/>
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <a href="{$idURL}">                                                
                                                 <div class="card index-card">
                                                     <div class="card-header">
@@ -58,11 +58,11 @@
                                                         <xsl:call-template name="nav_bar"/>
                                                         
                                                         <div class="container-fluid">
-                                                            <div class="row" style="margin: 5em 0;">
+                                                            <div class="row">
                                                                 <xsl:for-each select="./mei:history/mei:eventList/mei:event">
                                                                     <xsl:variable name="eventID" select="concat('_event_', generate-id())"/>
                                                                     <xsl:variable name="event" select="concat($filename, $eventID, '.html')"/>
-                                                                    <div class="col-md-6">
+                                                                    <div class="col-md-12">
                                                                         <a href="{$event}">                                                
                                                                             <div class="card index-card">
                                                                                 <div class="card-header">
@@ -111,11 +111,11 @@
                                                                                     <xsl:call-template name="nav_bar"/>
                                                                                     
                                                                                     <div class="container-fluid">
-                                                                                        <div class="row" style="margin: 5em 0;">
+                                                                                        <div class="row">
                                                                                             <xsl:for-each select="./mei:biblList/mei:bibl">
                                                                                                 <xsl:variable name="bibl" select="tokenize(@sameas, ' ')[1]"/>
                                                                                                 <xsl:variable name="biblUrl" select="concat($filename, $eventID, '_', $bibl, '.html')"/>
-                                                                                                <div class="col-md-6">
+                                                                                                <div class="col-md-12">
                                                                                                     <a href="{$biblUrl}">                                                
                                                                                                         <div class="card index-card">
                                                                                                             <div class="card-header">
