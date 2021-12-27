@@ -5,17 +5,13 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-title" content="Beispieldatei für Registereinträge – Person" />
+      <meta name="apple-mobile-web-app-title" content="Personen &amp; Körperschaften" />
       <link rel="profile" href="http://gmpg.org/xfn/11" />
-      <title>Beispieldatei für Registereinträge – Person</title>
+      <title>Personen &amp; Körperschaften</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://unpkg.com/arche-api@1.2.1/lib/arche-api.min.js"></script><style>
-                    .container-fluid {
-                        max-width: 100% !important;
-                    }
-                </style>
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://unpkg.com/arche-api@1.2.1/lib/arche-api.min.js"></script><style></style>
    </head>
    <body class="page">
       <div class="hfeed site" id="page">
@@ -55,734 +51,221 @@
          <div class="container-fluid">
             <div class="card card-top">
                <div class="card-header">
-                  <h1>Personeneintrag</h1>
+                  <h1>Personen &amp; Körperschaften</h1>
                </div>
                <div class="card-body">
                   <div class="yes-index" style="max-width:100%;">
-                     <table id="registerTable" class="table table-striped display table-responsive" style="max-width:100%;">
+                     <table id="registerTable" class="table table-striped display">
                         <thead>
                            <tr>
                               <th>
-                                 Personenname
+                                 Name
                                  </th>
                               <th>
-                                 Alternative(r) Personenname(n)
+                                 Lebensdaten
                                  </th>
                               <th>
-                                 Geburtsname
+                                 Funktion/Rolle 
                                  </th>
                               <th>
-                                 Pseudonym
-                                 </th>
-                              <th>
-                                 Register-ID
-                                 </th>
-                              <th>
-                                 GND
-                                 </th>
-                              <th>
-                                 Familienname
-                                 </th>
-                              <th>
-                                 Vorname
-                                 </th>
-                              <th>
-                                 Datum
-                                 </th>
-                              <th>
-                                 Schlagwörter
-                                 </th>
-                              <th>
-                                 Link
-                                 </th>
-                              <th>
-                                 Annotation
+                                 Weitere Informationen 
                                  </th>
                            </tr>
                         </thead>
                         <tbody>
                            <tr>
                               <td>Brahms, Johannes</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0031</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Johannes</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">07.05.1833</span></li>
-                                    <li><span class="date">Hamburg</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">03.04.1897</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                              </td>
+                              <td>(07.05.1833-03.04.1897)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_B/Brahms_Johannes.xml">OeML</a></li>
-                                    <li><a href="https://www.biographien.ac.at/oebl/oebl_B/Brahms_Johannes_1833_1897.xml">OeBL</a></li>
-                                    <li><a href="https://bmlo.de/Q/GND=118514253">BMLO</a></li>
-                                    <li><a href="http://www.bruckner-online.at/ABLO_d1e619">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Brahms-Johannes-d1e985.html" title="Brahms, Johannes">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Brüll, Ignaz</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0038</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Ignaz</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">07.11.1846</span></li>
-                                    <li><span class="date">Proßnitz/Mähren</span></li>
-                                    <li><span class="date">Prostějov</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">17.09.1907</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                              </td>
+                              <td>(07.11.1846-17.09.1907)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_B/Bruell_Ignaz.xml">OeML</a></li>
-                                    <li><a href="https://www.biographien.ac.at/oebl/oebl_B/Bruell_Ignaz_1846_1907.xml">OeBL</a></li>
-                                    <li><a href="https://bmlo.de/Q/GND=118660284">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Br%C3%BCll-Ignaz-d1e1210.html" title="Brüll, Ignaz">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Epstein, Richard</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0073</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Richard</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">26.01.1869</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">01.08.1919</span></li>
-                                    <li><span class="date">New York</span></li>
-                                 </ul>
-                              </td>
+                              <td>(26.01.1869-01.08.1919)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_E/Epstein_Familie.xml">OeML</a></li>
-                                    <li><a href="https://www.biographien.ac.at/oebl/oebl_E/Epstein_Richard_1869_1919.xml">OeBL</a></li>
-                                    <li><a href="">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Epstein-Richard-d1e2297.html" title="Epstein, Richard">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Kwast, James</td>
-                              <td>
-                                 <ul>
-                                    <li>Kwast, Jacob</li>
-                                 </ul>
-                              </td>
-                              <td>Kwast, Jacob</td>
-                              <td></td>
-                              <td>0144</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>James</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">23.11.1852</span></li>
-                                    <li><span class="date">Nijkerk</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">31.10.1927</span></li>
-                                    <li><span class="date">Berlin</span></li>
-                                 </ul>
-                              </td>
+                              <td>(23.11.1852-31.10.1927)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li>https://permalink.geldersarchief.nl/401A18134BEF4216A244A708E44B64C9</li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von RQ am 29.07.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Kwast-James-d1e4539.html" title="Kwast, James">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Baumayer, Marie</td>
-                              <td>
-                                 <ul>
-                                    <li>Baumeier, Marie</li>
-                                    <li>Baumeyer, Marie</li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0015</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Marie</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">12.07.1851</span></li>
-                                    <li><span class="date">Celje</span></li>
-                                    <li><span class="date">Cilli</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">23.01.1931</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                              </td>
+                              <td>(12.07.1851-23.01.1931)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_B/Baumayer_Marie.xml">OeML</a></li>
-                                    <li><a href="https://biographien.ac.at/ID-0.3020920-1">OeBL</a></li>
-                                    <li><a href="#">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li>https://www.sophie-drinker-institut.de/baumayer-marie</li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>vgl. Eisenberg 1889, S. 10 (https://books.google.at/books/about/Das_geistige_Wien.html?id=mt0yAQAAMAAJ&amp;printsec=frontcover&amp;source=kp_read_button&amp;hl=de&amp;redir_esc=y#v=onepage&amp;q=baumayer&amp;f=false)</li>
-                                    <li>Eintrag angelegt von CH am 17.08.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Baumayer-Marie-d1e483.html" title="Baumayer, Marie">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Door, Anton</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0062</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Anton</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">20.06.1833</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">07.11.1919</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                              </td>
+                              <td>(20.06.1833-07.11.1919)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_D/Door_Anton.xml">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                    <li><a href="#">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von CH am 17.07.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Door-Anton-d1e1952.html" title="Door, Anton">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Wirth, Emanuel</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0282</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td></td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">18.10.1842</span></li>
-                                    <li><span class="date">Luditz (Böhmen)</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">05.01.1923</span></li>
-                                    <li><span class="date">Berlin</span></li>
-                                 </ul>
-                              </td>
+                              <td>(18.10.1842-05.01.1923)</td>
                               <td>
                                  <ul>
                                     <li>Violinist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                    <li><a href="#">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label></ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von CH am 23.07.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Wirth-Emanuel-d1e8842.html" title="Wirth, Emanuel">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Popper, David</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0201</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>David</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">18.06.1843</span></li>
-                                    <li><span class="date">Prag</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">07.08.1913</span></li>
-                                    <li><span class="date">Baden</span></li>
-                                 </ul>
-                              </td>
+                              <td>(18.06.1843-07.08.1913)</td>
                               <td>
                                  <ul>
                                     <li>Violoncellist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_P/Popper_Brueder.xml">OeML</a></li>
-                                    <li><a href="https://www.biographien.ac.at/oebl/oebl_P/Popper_David_1843_1913.xml">OeBL</a></li>
-                                    <li><a href="">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Popper-David-d1e6323.html" title="Popper, David">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Epstein, Julius</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0072</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Julius</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">07.08.1832</span></li>
-                                    <li><span class="date">Agram (Zagreb)</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">02.03.1926</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                              </td>
+                              <td>(07.08.1832-02.03.1926)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_E/Epstein_Familie.xml">OeML</a></li>
-                                    <li><a href="https://www.biographien.ac.at/oebl/oebl_E/Epstein_Julius_1832_1926.xml">OeBL</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Epstein-Julius-d1e2267.html" title="Epstein, Julius">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Schantl, Josef</td>
-                              <td>
-                                 <ul>
-                                    <li>Schantl, Joseph</li>
-                                    <li>Schandl, Josef</li>
-                                    <li>Schandl, Joseph</li>
-                                    <li>Schantl, Josef Hermann</li>
-                                 </ul>
-                              </td>
-                              <td>Schantl, Josef Florian</td>
-                              <td></td>
-                              <td>0229</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Josef</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">08.02.1842</span></li>
-                                    <li><span class="date">Graz</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">22.03.1902</span></li>
-                                    <li><span class="date">Viehdorf</span></li>
-                                 </ul>
-                              </td>
+                              <td>(08.02.1842-22.03.1902)</td>
                               <td>
                                  <ul>
                                     <li>Hornist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_S/Schantl_Familie.xml">OeML</a></li>
-                                    <li><a href="https://www.biographien.ac.at/oebl/oebl_S/Schantl_Josef-Hermann_1842_1902.xml">OeBL</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von RQ am 12.08.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Schantl-Josef-d1e7197.html" title="Schantl, Josef">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Rosé, Arnold</td>
-                              <td>
-                                 <ul>
-                                    <li>Rosé, Arnold Josef</li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0214</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Arnold</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">24.10.1863</span></li>
-                                    <li><span class="date">Iaşi (Jassy)</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">25.08.1946</span></li>
-                                    <li><span class="date">London</span></li>
-                                 </ul>
-                              </td>
+                              <td>(24.10.1863-25.08.1946)</td>
                               <td>
                                  <ul>
                                     <li>Violinist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_R/Rose-Familie.xml">OeML</a></li>
-                                    <li><a href="https://apis.acdh.oeaw.ac.at/person/44167">OeBL</a></li>
-                                    <li><a href="https://bmlo.de/Q/GND=116608943">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>https://www.geschichtewiki.wien.gv.at/Arnold_Ros%C3%A9</li>
-                                    <li>ges.MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Ros%C3%A9-Arnold-d1e6741.html" title="Rosé, Arnold">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Sauer, Emil von</td>
-                              <td>
-                                 <ul>
-                                    <li>Sauer, Emil Georg Konrad</li>
-                                    <li>Sauer von Aichried, Emil Georg Konrad</li>
-                                    <li>Sauer Ritter von Aichried, Emil Georg Konrad</li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0226</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Emil von</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">08.10.1862</span></li>
-                                    <li><span class="date">Hamburg</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">27.04.1942</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                              </td>
+                              <td>(08.10.1862-27.04.1942)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_S/Sauer_Emil.xml">OeML</a></li>
-                                    <li><a href="https://www.biographien.ac.at/oebl/oebl_S/Sauer-Aichried_Emil-Georg_1862_1942.xml">OeBL</a></li>
-                                    <li><a href="">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Sauer-Emil von-d1e7108.html" title="Sauer, Emil von">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Hellmesberger, Joseph jun.</td>
-                              <td>
-                                 <ul>
-                                    <li>Hellmesberger, Joseph d. J.</li>
-                                    <li>Hellmesberger, Joseph</li>
-                                    <li>Hellmesberger, Josef jun.</li>
-                                    <li>Hellmesberger, Josef d. J.</li>
-                                    <li>Hellmesberger, Josef</li>
-                                    <li>Helmesberger, Joseph jun.</li>
-                                    <li>Helmesberger, Joseph d. J.</li>
-                                    <li>Helmesberger, Joseph</li>
-                                    <li>Helmesberger, Josef jun.</li>
-                                    <li>Helmesberger, Josef d. J.</li>
-                                    <li>Helmesberger, Josef</li>
-                                    <li>Helmesberger, Joseph Heinrich Georg</li>
-                                 </ul>
-                              </td>
-                              <td>Hellmesberger, Joseph Heinrich Georg</td>
-                              <td></td>
-                              <td>0109</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Joseph</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">09.04.1855</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">26.04.1907</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                              </td>
+                              <td>(09.04.1855-26.04.1907)</td>
                               <td>
                                  <ul>
                                     <li>musikalische_r_Direktor_in</li>
                                     <li>Violinist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_H/Hellmesberger-Quartett.xml">OeML</a></li>
-                                    <li><a href="https://bmlo.de/h2469">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Hellmesberger-Joseph jun.-d1e3413.html" title="Hellmesberger, Joseph jun.">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Soldat-Röger, Marie</td>
-                              <td>
-                                 <ul>
-                                    <li>Röger-Soldat, Marie</li>
-                                 </ul>
-                              </td>
-                              <td>Soldat, Maria Ernestine</td>
+                              <td>(25.03.1863-30.09.1955)</td>
                               <td></td>
-                              <td>0252</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Marie</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">25.03.1863</span></li>
-                                    <li><span class="date">Geidorf</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">30.09.1955</span></li>
-                                    <li><span class="date">Graz</span></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_S/Soldat-Roeger_Marie.xml">OeML</a></li>
-                                    <li><a href="">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li>https://www.sophie-drinker-institut.de/soldat-marie</li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag automatisch generiert CG 27.06.21;</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Soldat-R%C3%B6ger-Marie-d1e7936.html" title="Soldat-Röger, Marie">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Stavenhagen, Bernhard</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0259</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Bernhard</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">24.11.1862</span></li>
-                                    <li><span class="date">Greiz</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">25.12.1914</span></li>
-                                    <li><span class="date">Genf</span></li>
-                                 </ul>
-                              </td>
+                              <td>(24.11.1862-25.12.1914)</td>
                               <td>
                                  <ul>
                                     <li>Dirigent_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                    <li><a href="https://bmlo.de/s1713">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von CH am 19.07.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Stavenhagen-Bernhard-d1e8146.html" title="Stavenhagen, Bernhard">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Dustmann, Luise</td>
-                              <td>
-                                 <ul>
-                                    <li>Dustmann, Louise</li>
-                                    <li>Dustmann-Meyer, Luise</li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0064</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Luise</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">22.08.1831</span></li>
-                                    <li><span class="date">Aachen</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">02.03.1899</span></li>
-                                    <li><span class="date">Berlin (Charlottenburg)</span></li>
-                                 </ul>
-                              </td>
+                              <td>(22.08.1831-02.03.1899)</td>
                               <td>
                                  <ul>
                                     <li>Sänger_in</li>
                                     <li>Sopranist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_D/Dustmann-Meyer_Marie.xml">OeML</a></li>
-                                    <li><a href="">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Dustmann-Luise-d1e2015.html" title="Dustmann, Luise">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Reichmann, Theodor</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0208</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Theodor</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">15.03.1849</span></li>
-                                    <li><span class="date">Rostock</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">22.05.1903</span></li>
-                                    <li><span class="date">Marbach am Bodensee</span></li>
-                                 </ul>
-                              </td>
+                              <td>(15.03.1849-22.05.1903)</td>
                               <td>
                                  <ul>
                                     <li>Sänger_in</li>
@@ -790,962 +273,261 @@
                                     <li>Bariton</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_R/Reichmann_Theodor.xml">OeML</a></li>
-                                    <li><a href="https://www.biographien.ac.at/oebl/oebl_R/Reichmann_Theodor_1849_1903.xml">OeBL</a></li>
-                                    <li><a href="https://bmlo.de/r0269">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von FK am 09.08.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Reichmann-Theodor-d1e6548.html" title="Reichmann, Theodor">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Wurm, Mary</td>
-                              <td>
-                                 <ul>
-                                    <li>Verne, Mary</li>
-                                    <li>Wurm, Mary J. A.</li>
-                                    <li>Wurm, Marie</li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0284</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Mary</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">18.05.1860</span></li>
-                                    <li><span class="date">Southampton</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">21.01.1938</span></li>
-                                    <li><span class="date">München</span></li>
-                                 </ul>
-                              </td>
+                              <td>(18.05.1860-21.01.1938)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                    <li><a href="#">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li>https://www.sophie-drinker-institut.de/wurm-mary</li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von CH am 19.08.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Wurm-Mary-d1e8906.html" title="Wurm, Mary">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Barbi, Alice</td>
-                              <td>
-                                 <ul>
-                                    <li>Wolff-Stomersee, Baronin Alice von</li>
-                                    <li>Wolff-Stomersee, Alice Barbi Baronin von</li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0007</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Alice</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">01.06.1858</span></li>
-                                    <li><span class="date">Modena</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">04.09.1948</span></li>
-                                    <li><span class="date">Rom</span></li>
-                                 </ul>
-                              </td>
+                              <td>(01.06.1858-04.09.1948)</td>
                               <td>
                                  <ul>
                                     <li>Sänger_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                    <li><a href="#">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Biographie unter https://www.sophie-drinker-institut.de/barbi-alice</li>
-                                    <li>Eintrag angelegt von CH am 11.07.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Barbi-Alice-d1e234.html" title="Barbi, Alice">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Baier, Anna</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0006</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Anna</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">28.04.1858</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">04.06.1935</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                              </td>
+                              <td>(28.04.1858-04.06.1935)</td>
                               <td>
                                  <ul>
                                     <li>Sänger_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_L/Liebhardt_Ida.xml">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                    <li><a href="#">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li>Eisenberg: Wien; Eisenberg: Bühne; Theater-Lexikon; Kutsch/Riemens</li>
-                                    <li>Geb. in Wien am 28. April 1858, erhielt ihre Ausbildung am Wiener
-                                       Conservatorium und war Schülerin der Marchesi und Dustmann; im Jahre 1880
-                                       trat sie als Page in den "Hugenotten" im Dresdener Hoftheater auf, war in
-                                       Brünn und Graz längere Zeit engagirt und ist seit 1884 im Verbande des
-                                       k.k. Hofopernstheaters. (Antrittsrolle: Isabella in "Robert der Teufel")
-                                       I. Friedrichstrasse 2.</li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von CH am 13.07.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Baier-Anna-d1e202.html" title="Baier, Anna">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Liebling, Georg</td>
-                              <td>
-                                 <ul>
-                                    <li>Liebling, George</li>
-                                 </ul>
-                              </td>
-                              <td>Liebling, Georg Lothar</td>
-                              <td></td>
-                              <td>0154</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Georg Lothar</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">22.01.1865</span></li>
-                                    <li><span class="date">Berlin</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">07.02.1946</span></li>
-                                    <li><span class="date">New York</span></li>
-                                 </ul>
-                              </td>
+                              <td>(22.01.1865-07.02.1946)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="https://bmlo.de/l0489">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li>https://familysearch.org/ark:/61903/2:1:M6HK-S21</li>
-                                    <li>https://daten.digitale-sammlungen.de/bsb00127230/image_669</li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von RQ am 27.07.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Liebling-Georg-d1e4847.html" title="Liebling, Georg">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Röntgen, Julius</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0220</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Julius</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">09.05.1855</span></li>
-                                    <li><span class="date">Leipzig</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">13.09.1932</span></li>
-                                    <li><span class="date">Bilthoven</span></li>
-                                 </ul>
-                              </td>
+                              <td>(09.05.1855-13.09.1932)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                    <li><a href="https://bmlo.de/r0697">BLMO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li>MGG online: https://www.mgg-online.com/mgg/stable/26734</li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von FK am 08.08.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="R%C3%B6ntgen-Julius-d1e6928.html" title="Röntgen, Julius">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Heuberger, Richard</td>
-                              <td>
-                                 <ul>
-                                    <li>Heuberger, Richard der Ältere</li>
-                                 </ul>
-                              </td>
-                              <td>Heuberger, Richard Franz Joseph</td>
-                              <td></td>
-                              <td>0114</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Richard Franz Joseph</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">18.06.1850</span></li>
-                                    <li><span class="date">Graz</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">28.10.1914</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                              </td>
+                              <td>(18.06.1850-28.10.1914)</td>
                               <td>
                                  <ul>
                                     <li>musikalische_r_Direktor_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_H/Heuberger_Richard.xml">OeML</a></li>
-                                    <li><a href="https://www.biographien.ac.at/oebl/oebl_H/Heuberger_Richard-Franz-Joseph_1850_1914.xml">OeBL</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Informationen Privatbesitzer</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von MP 10.11.2020// Großvater von Gertrud Heuberger
-                                       xml:id="528"// österreichischer Komponist, Dirigent, Musikjournalist.
-                                       [10.11.20]</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Heuberger-Richard-d1e3575.html" title="Heuberger, Richard">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Hellmesberger, Joseph sen.</td>
-                              <td>
-                                 <ul>
-                                    <li>Hellmesberger, Joseph d. Ä.</li>
-                                    <li>Hellmesberger, Joseph</li>
-                                    <li>Hellmesberger, Josef sen.</li>
-                                    <li>Hellmesberger, Josef d. Ä.</li>
-                                    <li>Hellmesberger, Josef</li>
-                                    <li>Helmesberger, Joseph sen.</li>
-                                    <li>Helmesberger, Joseph d. Ä.</li>
-                                    <li>Helmesberger, Joseph</li>
-                                    <li>Helmesberger, Josef sen.</li>
-                                    <li>Helmesberger, Josef d. Ä.</li>
-                                    <li>Helmesberger, Josef</li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0110</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Joseph</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">03.11.1828</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">24.10.1893</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                              </td>
+                              <td>(03.11.1828-24.10.1893)</td>
                               <td>
                                  <ul>
                                     <li>musikalische_r_Direktor_in</li>
                                     <li>Bratschist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_H/Hellmesberger-Quartett.xml">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                    <li><a href="#">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von FK am 08.08.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Hellmesberger-Joseph sen.-d1e3445.html" title="Hellmesberger, Joseph sen.">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Spányi, Irma</td>
-                              <td>
-                                 <ul>
-                                    <li>Spanyi, Irma von</li>
-                                    <li>Spanyik, Irma von</li>
-                                    <li>Spanyi, Irma de</li>
-                                    <li>Spagni, Irma de</li>
-                                    <li>Spagny, Irma de</li>
-                                    <li>Spany, Irma von</li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0255</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Irma de</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">1860</span></li>
-                                    <li><span class="date">Bratislava</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">1932</span></li>
-                                    <li><span class="date">Bratislava</span></li>
-                                 </ul>
-                              </td>
+                              <td>(1860-1932)</td>
                               <td>
                                  <ul>
                                     <li>Sänger_in</li>
                                     <li>Mezzosopranist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>evtl. verheiratete Tomaszczyk-Spanyi? (https://anno.onb.ac.at/cgi-content/anno?aid=fdb&amp;datum=19140121&amp;query=%22irma+spanyi%22~20&amp;ref=anno-search&amp;seite=38)</li>
-                                    <li>Eintrag angelegt von RQ am 29.07.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Sp%C3%A1nyi-Irma-d1e8026.html" title="Spányi, Irma">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Lehmann, Lilli</td>
-                              <td>
-                                 <ul>
-                                    <li>Kalisch, Lilli</li>
-                                    <li>Rēman, Riruri</li>
-                                    <li>Lehmann-Kalisch, Lilli</li>
-                                    <li>Lehmannová, Lilli</li>
-                                    <li>Léman, Lili</li>
-                                 </ul>
-                              </td>
-                              <td>Lehmann, Elisabeth Maria</td>
-                              <td></td>
-                              <td>0151</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Lilli</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">24.11.1848</span></li>
-                                    <li><span class="date">Würzburg</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">17.05.1929</span></li>
-                                    <li><span class="date">Berlin</span></li>
-                                 </ul>
-                              </td>
+                              <td>(24.11.1848-17.05.1929)</td>
                               <td>
                                  <ul>
                                     <li>Sänger_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="www.musiklexikon.ac.at/ml/musik_L/Lehmann_Familie.xml">OeML</a></li>
-                                    <li><a href="https://biographien.ac.at/ID-0.3036266-1">OeBL</a></li>
-                                    <li><a href="https://bmlo.de/l0303">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label></ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von CH am 11.08.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Lehmann-Lilli-d1e4747.html" title="Lehmann, Lilli">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Papier-Paumgartner, Rosa</td>
-                              <td>
-                                 <ul>
-                                    <li>Papier-Paumgartner, Rose</li>
-                                    <li>Papier, Rose</li>
-                                 </ul>
-                              </td>
-                              <td>Papier, Rosa</td>
-                              <td></td>
-                              <td>0190</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Rosa</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">18.09.1858</span></li>
-                                    <li><span class="date">Baden</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">09.02.1932</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                              </td>
+                              <td>(18.09.1858-09.02.1932)</td>
                               <td>
                                  <ul>
                                     <li>Sänger_in</li>
                                     <li>Mezzosopranist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_P/Paumgartner_Familie.xml">OeML</a></li>
-                                    <li><a href="https://www.biographien.ac.at/oebl/oebl_P/Paumgartner_Rosa_1858_1932.xml">OeBL</a></li>
-                                    <li><a href="https://bmlo.de/p0987">BMLO</a></li>
-                                    <li><a href="http://www.bruckner-online.at/ABLO_d1e3170">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag automatisch generiert CG 27.06.21;</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Papier-Paumgartner-Rosa-d1e6000.html" title="Papier-Paumgartner, Rosa">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Bulß, Paul</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0039</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Paul</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">19.12.1847</span></li>
-                                    <li><span class="date">Birkholz (Landkreis Westprignitz)</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">19.03.1902</span></li>
-                                    <li><span class="date">Temesvar</span></li>
-                                    <li><span class="date">Timișoara</span></li>
-                                 </ul>
-                              </td>
+                              <td>(19.12.1847-19.03.1902)</td>
                               <td>
                                  <ul>
                                     <li>Sänger_in</li>
                                     <li>Bariton</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="">OeML</a></li>
-                                    <li><a href="">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>vgl. Kutsch-Riemens, S. 643-644</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Bul%C3%9F-Paul-d1e1240.html" title="Bulß, Paul">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Strakosch, Ludwig</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0262</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Ludwig</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">01.11.1855</span></li>
-                                    <li><span class="date">Brünn</span></li>
-                                    <li><span class="date">Brno</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">14.10.1919</span></li>
-                                    <li><span class="date">Hamburg</span></li>
-                                 </ul>
-                              </td>
+                              <td>(01.11.1855-14.10.1919)</td>
                               <td>
                                  <ul>
                                     <li>Sänger_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_S/Strakosch_Familie.xml">OeML</a></li>
-                                    <li><a href="https://www.biographien.ac.at/oebl/oebl_S/Strakosch_Ludwig_1855_1919.xml">OeBL</a></li>
-                                    <li><a href="#">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label></ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von CH am 16.08.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Strakosch-Ludwig-d1e8236.html" title="Strakosch, Ludwig">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Geisler-Schubert, Caroline</td>
-                              <td>
-                                 <ul>
-                                    <li>Geisler-Schubert, Karoline</li>
-                                    <li>Geisler-Schubert, Carolina</li>
-                                    <li>Geisler-Schubert, Carola</li>
-                                    <li>Geisler, Karoline (Theresa, Theresia)</li>
-                                    <li>Geisler, Carolina</li>
-                                    <li>Geisler, Carola</li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0088</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Caroline</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">18.05.1856</span></li>
-                                    <li><span class="date">Bratislava</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">20.04.1951</span></li>
-                                    <li><span class="date">London</span></li>
-                                 </ul>
-                              </td>
+                              <td>(18.05.1856-20.04.1951)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li>Taufmatrike "Slovakia Church and Synagogue Books, 1592-1935,"(https://familysearch.org/ark:/61903/3:1:33SQ-GRQ1-N8H?cc=1554443&amp;wc=9P3P-DPD%3A107654301%2C107722701%2C124525701%2C124712301
-                                       : 3 July 2014).</li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Nur beim Sophie-Drinker-Institut gefunden (https://www.sophie-drinker-institut.de/geisler-schubert-caroline)</li>
-                                    <li>angelegt von RQ</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Geisler-Schubert-Caroline-d1e2772.html" title="Geisler-Schubert, Caroline">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Vrabély, Seraphine von</td>
-                              <td>
-                                 <ul>
-                                    <li>Vrabely, Serafina von</li>
-                                    <li>Vrabely, Seraphina von</li>
-                                    <li>Vrabely, Szerafina von</li>
-                                    <li>Vrabely, Szeraphina von</li>
-                                    <li>Vrabely, Sophie von</li>
-                                    <li>Vrabély, Serafina von</li>
-                                    <li>Vrabély, Seraphina von</li>
-                                    <li>Vrabély, Szerafina von</li>
-                                    <li>Vrabély, Szeraphina von</li>
-                                    <li>Vrabély, Sophie von</li>
-                                    <li>Vrábély, Serafina von</li>
-                                    <li>Vrábély, Seraphina von</li>
-                                    <li>Vrábély, Szerafina von</li>
-                                    <li>Vrábély, Szeraphina von</li>
-                                    <li>Vrábély, Sophie von</li>
-                                    <li>Vrabélÿ, Szerafin</li>
-                                    <li>Tausig, Seraphine</li>
-                                    <li>Tausig, Seraphine</li>
-                                    <li>Tausig-Vrabely, Seraphine</li>
-                                    <li>Vrábelyová-Tausigová, Serafína</li>
-                                 </ul>
-                              </td>
-                              <td>Vrabélÿ, Franziska Serafina von</td>
-                              <td></td>
-                              <td>0264</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Seraphine von</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">26.07.1840</span></li>
-                                    <li><span class="date">Bratislava</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">02.09.1931</span></li>
-                                    <li><span class="date">Dresden</span></li>
-                                 </ul>
-                              </td>
+                              <td>(26.07.1840-02.09.1931)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                    <li><a href="#">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li>https://www.sophie-drinker-institut.de/vrabely-serafina</li>
-                                    <li>https://mugi.hfmt-hamburg.de/old/A_lexartikel/lexartikel.php%3Fid=taus1840.html</li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von CH am 08.08.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Vrab%C3%A9ly-Seraphine von-d1e8296.html" title="Vrabély, Seraphine von">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Rouland, Carl</td>
-                              <td>
-                                 <ul>
-                                    <li>Rouland, Karl</li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0292</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Carl</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">18.10.1865</span></li>
-                                    <li><span class="date">Berlin</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">19.04.1935</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                              </td>
+                              <td>(18.10.1865-19.04.1935)</td>
                               <td>
                                  <ul>
                                     <li>musikalische_r Direktor_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Biographische Angaben aus der Zeitschrift für Musikwissenschaft 5 (1935),
-                                       S. 61
-                                       https://anno.onb.ac.at/cgi-content/anno-plus?aid=zmw&amp;datum=19350105&amp;query=((text:%22karl+rouland%22))&amp;ref=anno-search&amp;seite=61</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Rouland-Carl-.html" title="Rouland, Carl">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Waldner, Joseph</td>
-                              <td>
-                                 <ul>
-                                    <li>Waldner, Josef</li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0273</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Joseph</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">21.10.1892</span></li>
-                                    <li><span class="date">München</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">nach dem 11.07.1942</span></li>
-                                    <li><span class="date">Terezín</span></li>
-                                    <li><span class="date">Theresienstadt</span></li>
-                                 </ul>
-                              </td>
+                              <td>(21.10.1892-nach dem 11.07.1942)</td>
                               <td>
                                  <ul>
                                     <li>Sänger_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                    <li><a href="https://bmlo.de/w1419">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li>https://www.bundesarchiv.de/gedenkbuch/985255</li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von FK am 08.08.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Waldner-Joseph-d1e8561.html" title="Waldner, Joseph">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Rückauf, Anton</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0222</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Anton</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">13.03.1855</span></li>
-                                    <li><span class="date">Prag</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">19.09.1903</span></li>
-                                    <li><span class="date">Alt-Erlaa (heute Wien)</span></li>
-                                 </ul>
-                              </td>
+                              <td>(13.03.1855-19.09.1903)</td>
                               <td>
                                  <ul>
                                     <li>Pianist_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="https://www.musiklexikon.ac.at/ml/musik_R/Rueckauf_Anton.xml">OeML</a></li>
-                                    <li><a href="https://www.biographien.ac.at/oebl/oebl_R/Rueckauf_Anton_1855_1903.xml;internal&amp;action=hilite.action&amp;Parameter=Anton%20R%FCckauf">OeBL</a></li>
-                                    <li><a href="#">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von CH am 17.07.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="R%C3%BCckauf-Anton-d1e6989.html" title="Rückauf, Anton">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Sistermans, Anton</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
+                              <td>(05.08.1867-06.03.1926)</td>
                               <td></td>
-                              <td></td>
-                              <td>0251</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Anton</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">05.08.1867</span></li>
-                                    <li><span class="date">’s-Hertogenbosch</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">06.03.1926</span></li>
-                                    <li><span class="date">Den Haag</span></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td>
-                                 <ul>
-                                    <li><a href="">OeML</a></li>
-                                    <li><a href="https://bmlo.de/s2823">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Sistermans-Anton-d1e7909.html" title="Sistermans, Anton">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Schmidt, Marie</td>
-                              <td>
-                                 <ul>
-                                    <li>Schmidt, Maria</li>
-                                    <li>Schmidt, Maria Louise</li>
-                                    <li>Schmidt, Mary</li>
-                                    <li>Basta, Maria</li>
-                                    <li>Basta, Marie</li>
-                                    <li>Basta, Maria Louise</li>
-                                    <li>Basta, Mary</li>
-                                    <li>Pollak, Maria</li>
-                                    <li>Pollak, Marie</li>
-                                    <li>Pollak, Maria Louise</li>
-                                    <li>Pollak, Mary</li>
-                                    <li>Pascalides, Maria</li>
-                                    <li>Pascalides, Marie</li>
-                                    <li>Pascalides, Maria Louise</li>
-                                    <li>Pascalides, Mary</li>
-                                    <li>Pascalides-Basta, Maria</li>
-                                    <li>Pascalides-Basta, Marie</li>
-                                    <li>Pascalides-Basta, Maria Louise</li>
-                                    <li>Pascalides-Basta, Mary</li>
-                                    <li>Tavary, Maria</li>
-                                    <li>Tavary, Marie</li>
-                                    <li>Tavary, Maria Louise</li>
-                                    <li>Tavary, Mary</li>
-                                 </ul>
-                              </td>
-                              <td>Schmidt, Marie</td>
-                              <td></td>
-                              <td>0236</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Marie</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">04.05.1856</span></li>
-                                    <li><span class="date">Köln</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">kurz vor dem 09.09.1893</span></li>
-                                    <li><span class="date">Berlin</span></li>
-                                 </ul>
-                              </td>
+                              <td>(04.05.1856-kurz vor dem 09.09.1893)</td>
                               <td>
                                  <ul>
                                     <li>Sänger_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                    <li><a href="https://bmlo.de/b0172">BMLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label></ul>
-                                 <ul><label>Kommentar</label><li>Todesanzeige: https://anno.onb.ac.at/cgi-content/anno?aid=gtb&amp;datum=18930909&amp;query=%22marie+basta%22&amp;ref=anno-search&amp;seite=4</li>
-                                    <li>Eintrag angelegt von CH am 18.08.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Schmidt-Marie-d1e7412.html" title="Schmidt, Marie">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Krämer, August</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td></td>
-                              <td></td>
-                              <td>0141</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>August</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">21.08.1841</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">06.08.1916</span></li>
-                                    <li><span class="date">Kollmitz b. St. Paul i. L.</span></li>
-                                 </ul>
-                              </td>
+                              <td>(21.08.1841-06.08.1916)</td>
                               <td>
                                  <ul>
                                     <li>Sänger_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="https://www.biographien.ac.at/oebl/oebl_K/Kraemer_August_1841_1916.xml;internal&amp;action=hilite.action&amp;Parameter=August%20Kr%E4mer">OeBL</a></li>
-                                    <li><a href="#">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li></li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von CH am 18.07.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="Kr%C3%A4mer-August-d1e4449.html" title="Krämer, August">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                            <tr>
                               <td>Türk-Rohn, Olga von</td>
-                              <td>
-                                 <ul>
-                                    <li></li>
-                                 </ul>
-                              </td>
-                              <td>Rohn, Olga von</td>
-                              <td></td>
-                              <td>0270</td>
-                              <td>https://d-nb.info/gnd/</td>
-                              <td></td>
-                              <td>Olga</td>
-                              <td>
-                                 <ul><label>birth</label><li><span class="date">03.06.1874</span></li>
-                                    <li><span class="date">Wien</span></li>
-                                 </ul>
-                                 <ul><label>death</label><li><span class="date">26.02.1940</span></li>
-                                    <li><span class="date">New York</span></li>
-                                 </ul>
-                              </td>
+                              <td>(03.06.1874-26.02.1940)</td>
                               <td>
                                  <ul>
                                     <li>Sänger_in</li>
                                  </ul>
                               </td>
-                              <td>
-                                 <ul>
-                                    <li><a href="#">OeML</a></li>
-                                    <li><a href="#">OeBL</a></li>
-                                    <li><a href="#">ABLO</a></li>
-                                 </ul>
-                              </td>
-                              <td>
-                                 <ul><label>Kurzbiographie</label><li>Kutsch-Riemens 2004 (4), S. 4783 gibt als Geburtsdatum den 03.06.1865 an und in Auswanderungsdokumenten
-                                       sind unterschiedlichste Jahreszahlen in den späten 1870ern zu finden.</li>
-                                 </ul>
-                                 <ul><label>Kommentar</label><li>Eintrag angelegt von CH am 08.08.21</li>
-                                    <li>ges. MW</li>
-                                 </ul>
-                              </td>
+                              <td><a href="T%C3%BCrk-Rohn-Olga von-d1e8473.html" title="Türk-Rohn, Olga von">
+                                    Weitere Informationen
+                                    </a></td>
                            </tr>
                         </tbody>
                      </table>

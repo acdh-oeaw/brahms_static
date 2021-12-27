@@ -424,7 +424,7 @@ static-search/stems/alic.json
 static-search/stems/allerhöchsten.json
 static-search/stems/alt-erlaa.json
 static-search/stems/alt.json
-static-search/stems/altern.json
+static-search/stems/alternativ.json
 static-search/stems/ambrosius-verein.json
 static-search/stems/ambrosius.json
 static-search/stems/ambrosiusverein.json
@@ -442,7 +442,6 @@ static-search/stems/anno-plus.json
 static-search/stems/anno-search.json
 static-search/stems/anno-önb.json
 static-search/stems/anno.json
-static-search/stems/annot.json
 static-search/stems/anton.json
 static-search/stems/antrittsroll.json
 static-search/stems/anzeig.json
@@ -510,9 +509,7 @@ static-search/stems/bilthoven.json
 static-search/stems/biographi.json
 static-search/stems/biographisch.json
 static-search/stems/birkholz.json
-static-search/stems/birth.json
 static-search/stems/bitter.json
-static-search/stems/blmo.json
 static-search/stems/bmlo.json
 static-search/stems/bodense.json
 static-search/stems/book.json
@@ -596,7 +593,6 @@ static-search/stems/datenbank.json
 static-search/stems/datenbanksuch.json
 static-search/stems/datum.json
 static-search/stems/david.json
-static-search/stems/death.json
 static-search/stems/denkmal.json
 static-search/stems/denkst.json
 static-search/stems/deutschen.json
@@ -695,6 +691,7 @@ static-search/stems/froh.json
 static-search/stems/frontcov.json
 static-search/stems/fräulein.json
 static-search/stems/frühling.json
+static-search/stems/funktion.json
 static-search/stems/fälschlich.json
 static-search/stems/gabriel.json
 static-search/stems/gartenbaugesellschaft.json
@@ -702,6 +699,7 @@ static-search/stems/gattin.json
 static-search/stems/geb.json
 static-search/stems/geburtsdatum.json
 static-search/stems/geburtsnam.json
+static-search/stems/geburtsort.json
 static-search/stems/gedenkbuch.json
 static-search/stems/gedenkfei.json
 static-search/stems/gedichten.json
@@ -887,12 +885,14 @@ static-search/stems/kärntner.json
 static-search/stems/köln.json
 static-search/stems/königin.json
 static-search/stems/könne.json
+static-search/stems/körperschaften.json
 static-search/stems/künstler.json
 static-search/stems/künstlerin.json
 static-search/stems/künstlerkongress.json
 static-search/stems/labor.json
 static-search/stems/landkrei.json
 static-search/stems/laut.json
+static-search/stems/lebensdaten.json
 static-search/stems/lehmann-kalisch.json
 static-search/stems/lehmann.json
 static-search/stems/lehmannová.json
@@ -999,6 +999,7 @@ static-search/stems/nachmittag.json
 static-search/stems/nacht.json
 static-search/stems/nachtigal.json
 static-search/stems/nachwei.json
+static-search/stems/name.json
 static-search/stems/namentlich.json
 static-search/stems/neu.json
 static-search/stems/new.json
@@ -1044,8 +1045,7 @@ static-search/stems/paulin.json
 static-search/stems/paumgartn.json
 static-search/stems/perform.json
 static-search/stems/permalink.json
-static-search/stems/personeneintrag.json
-static-search/stems/personennam.json
+static-search/stems/personen.json
 static-search/stems/personenregist.json
 static-search/stems/personenregister-id.json
 static-search/stems/pflieger.json
@@ -1064,7 +1064,6 @@ static-search/stems/press.json
 static-search/stems/prill-quartett.json
 static-search/stems/prill.json
 static-search/stems/printsec.json
-static-search/stems/privatbesitz.json
 static-search/stems/produkt.json
 static-search/stems/prof.json
 static-search/stems/professor.json
@@ -1109,6 +1108,7 @@ static-search/stems/ritter.json
 static-search/stems/robert.json
 static-search/stems/roeger.json
 static-search/stems/rohn.json
+static-search/stems/roll.json
 static-search/stems/rom.json
 static-search/stems/ros.json
 static-search/stems/rosa.json
@@ -1150,7 +1150,6 @@ static-search/stems/schatten.json
 static-search/stems/scheint.json
 static-search/stems/schell.json
 static-search/stems/schetril.json
-static-search/stems/schlagwörter.json
 static-search/stems/schleich.json
 static-search/stems/schlummer.json
 static-search/stems/schlussprodukt.json
@@ -1223,6 +1222,8 @@ static-search/stems/stand.json
 static-search/stems/stavenhagen.json
 static-search/stems/stehn.json
 static-search/stems/stephani.json
+static-search/stems/sterbedatum.json
+static-search/stems/sterbeort.json
 static-search/stems/stoda.json
 static-search/stems/stomerse.json
 static-search/stems/stoßseufz.json
