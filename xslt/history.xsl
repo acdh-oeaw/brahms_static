@@ -149,8 +149,8 @@
                                                                                         <meta name="001 Filter" class="staticSearch_desc" content="erschlossene Quellen"/>                                                                                                                                                                        
                                                                                     </xsl:if>         
                                                                                 </xsl:for-each>
-                                                                                <xsl:if test="ancestor::mei:event/mei:geogName[@role='place']/text()">
-                                                                                    <xsl:for-each select="ancestor::mei:event/mei:geogName[@role='place']">
+                                                                                <xsl:if test="ancestor::mei:event/mei:geogName[@role='place' or @role='venue']/text()">
+                                                                                    <xsl:for-each select="ancestor::mei:event/mei:geogName[@role='place'or @role='venue']">
                                                                                         <meta name="002 Veranstaltungsort" class="staticSearch_desc">
                                                                                             <xsl:attribute name="content">
                                                                                                 <xsl:value-of select="."/>
@@ -160,34 +160,34 @@
                                                                                 </xsl:if>                                                                            
                                                                                 <xsl:if test="ancestor::mei:event/mei:persName/text()">
                                                                                     <xsl:for-each select="ancestor::mei:event/mei:persName">
-                                                                                        <meta name="003 Beteiligte Personen" class="staticSearch_desc">
+                                                                                        <meta name="003 Beteiligte Personen / Körperschaften" class="staticSearch_desc">
                                                                                             <xsl:attribute name="content">
                                                                                                 <xsl:value-of select="."/>
                                                                                             </xsl:attribute>
                                                                                         </meta>
-                                                                                        <meta name="004 Personen beteiligt als" class="staticSearch_desc">
+                                                                                        <meta name="004 Personen beteiligt als / mit" class="staticSearch_desc">
                                                                                             <xsl:attribute name="content">
                                                                                                 <xsl:value-of select="@type"/>
                                                                                             </xsl:attribute>
                                                                                         </meta> 
                                                                                     </xsl:for-each>
-                                                                                </xsl:if>
-                                                                                <xsl:if test="ancestor::mei:event/mei:geogName[@role='venue']/text()">
-                                                                                    <xsl:for-each select="ancestor::mei:event/mei:geogName[@role='venue']">
-                                                                                        <meta name="005 Beteiligte Körperschaften" class="staticSearch_desc">
-                                                                                            <xsl:attribute name="content">
-                                                                                                <xsl:value-of select="."/>
-                                                                                            </xsl:attribute>
-                                                                                        </meta> 
-                                                                                    </xsl:for-each>
-                                                                                </xsl:if>
+                                                                                </xsl:if>                                                                                
                                                                                 <xsl:if test="ancestor::mei:work">
                                                                                     <xsl:for-each select="ancestor::mei:work">
-                                                                                        <meta name="006 Werk" class="staticSearch_desc">
+                                                                                        <meta name="005 Werk" class="staticSearch_desc">
                                                                                             <xsl:attribute name="content">
                                                                                                 <xsl:value-of select="./mei:title"/>
                                                                                                 <xsl:text>, </xsl:text>
                                                                                                 <xsl:value-of select="./mei:identifier"/>
+                                                                                            </xsl:attribute>
+                                                                                        </meta>                                                                                                                     
+                                                                                    </xsl:for-each>
+                                                                                </xsl:if>
+                                                                                <xsl:if test="ancestor::mei:work//mei:perfMedium">
+                                                                                    <xsl:for-each select="ancestor::mei:work//mei:perfMedium/mei:perfResList/mei:perfResList/mei:perfRes">
+                                                                                        <meta name="006 Gattung" class="staticSearch_desc">
+                                                                                            <xsl:attribute name="content">
+                                                                                                <xsl:value-of select="."/>
                                                                                             </xsl:attribute>
                                                                                         </meta>                                                                                                                     
                                                                                     </xsl:for-each>
@@ -327,7 +327,7 @@
                                                                                             <xsl:text> ssStart </xsl:text>
                                                                                             <xsl:if test="ancestor::mei:work/mei:title/text()">
                                                                                                 <xsl:value-of select="ancestor::mei:work/mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="ancestor::mei:work/mei:identifier"/>
-                                                                                                <xsl:text> </xsl:text>
+                                                                                                <xsl:text>; </xsl:text>
                                                                                             </xsl:if>                                                                                                                        
                                                                                         </xsl:for-each>
                                                                                         <xsl:if test="./mei:relationList/mei:relation/@target">
@@ -339,7 +339,9 @@
                                                                                                 <xsl:if test="//id($rID)">
                                                                                                     <xsl:for-each select="//id($rID)">
                                                                                                         <xsl:value-of select="./mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="./mei:identifier"/>
-                                                                                                        <br/>
+                                                                                                        <xsl:if test="position() != last()">
+                                                                                                            <xsl:text>; </xsl:text>
+                                                                                                        </xsl:if>
                                                                                                     </xsl:for-each>
                                                                                                 </xsl:if>
                                                                                                 <xsl:if test="count($reID) = 2">
@@ -347,7 +349,9 @@
                                                                                                     <xsl:if test="//id($rID2)">
                                                                                                         <xsl:for-each select="//id($rID2)">
                                                                                                             <xsl:value-of select="./mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="./mei:identifier"/>
-                                                                                                            <br/>
+                                                                                                            <xsl:if test="position() != last()">
+                                                                                                                <xsl:text>; </xsl:text>
+                                                                                                            </xsl:if>
                                                                                                         </xsl:for-each>
                                                                                                     </xsl:if>                                                                                                                                                                
                                                                                                 </xsl:if>
@@ -356,7 +360,9 @@
                                                                                                     <xsl:if test="//id($rID2)">
                                                                                                         <xsl:for-each select="//id($rID2)">
                                                                                                             <xsl:value-of select="./mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="./mei:identifier"/>
-                                                                                                            <br/>
+                                                                                                            <xsl:if test="position() != last()">
+                                                                                                                <xsl:text>; </xsl:text>
+                                                                                                            </xsl:if>
                                                                                                         </xsl:for-each>
                                                                                                     </xsl:if> 
                                                                                                     <xsl:variable name="rID3" select="substring-after(subsequence($reID, 3,1), '#')"/>                                                                                                                                                                
@@ -375,9 +381,7 @@
                                                                                             <xsl:text>Quelle: </xsl:text>
                                                                                             <xsl:for-each select="./mei:annot/mei:p[@label = 'Vollständiger_Nachweis']">
                                                                                                 <xsl:apply-templates/>
-                                                                                                <xsl:if test="position() != last()">
-                                                                                                    <xsl:text>; </xsl:text>
-                                                                                                </xsl:if>
+                                                                                                <xsl:text>. </xsl:text>                                                                                                
                                                                                             </xsl:for-each>  
                                                                                         </xsl:if>     
                                                                                         <xsl:text> ssEnd</xsl:text>

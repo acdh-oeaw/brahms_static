@@ -40,7 +40,7 @@ $("#ssDoSearch, #ssDoSearch2").click( function() {
             .replace("ssEnd", `</div>`);
             $this.text("");
             $this.append( update );
-            console.log(update);
+            // console.log(update);
         });
         
     }, 500);    
@@ -62,7 +62,7 @@ $( window ).on("load", function() {
             .replace("ssEnd", `</div>`);
             $this.text("");
             $this.append( update );
-            console.log(update);
+            // console.log(update);
         });
         
     }, 500);    
