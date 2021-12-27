@@ -274,7 +274,6 @@ button#ssDoSearch {
 div.ssDescFilters fieldset {
     margin: 0;
     padding: 0;
-    
 }
 
 div.ssDescFilters fieldset legend {
@@ -290,6 +289,28 @@ div.ssDescFilters fieldset legend:hover {
 }
 
 div.ssDescFilters fieldset legend div {
+    width: 50%;
+    display: inline-block;
+}
+
+div.ssDateFilters fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+div.ssDateFilters fieldset legend {
+    border: 1px solid lightgrey;
+    border-radius: .25rem;
+    font-size: 1em;
+    padding: .5em;
+    cursor: pointer;
+}
+
+div.ssDateFilters fieldset legend:hover {
+    border: 1px solid grey;
+}
+
+div.ssDateFilters fieldset legend div {
     width: 50%;
     display: inline-block;
 }

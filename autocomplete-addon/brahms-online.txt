@@ -595,6 +595,7 @@ static-search/stems/datum.json
 static-search/stems/david.json
 static-search/stems/denkmal.json
 static-search/stems/denkst.json
+static-search/stems/detail.json
 static-search/stems/deutschen.json
 static-search/stems/develop.json
 static-search/stems/digit.json
@@ -832,6 +833,7 @@ static-search/stems/johanna.json
 static-search/stems/josef.json
 static-search/stems/joseph.json
 static-search/stems/josepha.json
+static-search/stems/journal.json
 static-search/stems/journalisten.json
 static-search/stems/joël.json
 static-search/stems/jubiläum.json
@@ -923,7 +925,6 @@ static-search/stems/ließen.json
 static-search/stems/lili.json
 static-search/stems/lilli.json
 static-search/stems/lini.json
-static-search/stems/link.json
 static-search/stems/literatur.json
 static-search/stems/local-anzeig.json
 static-search/stems/local.json
@@ -1293,7 +1294,6 @@ static-search/stems/ungarisch.json
 static-search/stems/universität.json
 static-search/stems/unterschiedlichst.json
 static-search/stems/urban.json
-static-search/stems/url.json
 static-search/stems/van.json
 static-search/stems/various.json
 static-search/stems/vaterland.json
