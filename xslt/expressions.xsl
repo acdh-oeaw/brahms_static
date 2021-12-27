@@ -422,7 +422,7 @@
                                                                                                                 <xsl:call-template name="nav_bar"/>
                                                                                                                 
                                                                                                                 <div class="container-fluid">
-                                                                                                                    <div class="row" style="margin: 5em 0;">
+                                                                                                                    <div class="row">
                                                                                                                         <div class="col-md-12">                                             
                                                                                                                             <div class="card">
                                                                                                                                 <div class="card-header">
@@ -433,7 +433,7 @@
                                                                                                                                         <table class="table event-table">
                                                                                                                                             <xsl:for-each select="ancestor::mei:event">                                                                                                                    
                                                                                                                                                 <tr>                                                                                                                        
-                                                                                                                                                    <th>Datum</th>
+                                                                                                                                                    <th style="width:20%">Datum</th>
                                                                                                                                                     <td>                                                                                                                            
                                                                                                                                                         <xsl:for-each select="./mei:date">
                                                                                                                                                             <xsl:apply-templates/>                                                                                                                                
@@ -441,19 +441,19 @@
                                                                                                                                                     </td>
                                                                                                                                                 </tr>                                                                                                                    
                                                                                                                                                 <tr>
-                                                                                                                                                    <th>Ort</th>
+                                                                                                                                                    <th style="width:20%">Ort</th>
                                                                                                                                                     <td>
                                                                                                                                                         <xsl:value-of select="./mei:geogName[@role='place']"/>                                                                                                                               
                                                                                                                                                     </td>
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>                                                                                                                        
-                                                                                                                                                    <th>Saal</th>
+                                                                                                                                                    <th style="width:20%">Saal</th>
                                                                                                                                                     <td>
                                                                                                                                                         <xsl:value-of select="./mei:geogName[@role='venue']"/>                                                                                                                               
                                                                                                                                                     </td>                                                                                                                        
                                                                                                                                                 </tr>
                                                                                                                                                 <tr>
-                                                                                                                                                    <th>Ausführende</th>                                                                                                                                                                                                                                                   
+                                                                                                                                                    <th style="width:20%">Ausführende</th>                                                                                                                                                                                                                                                   
                                                                                                                                                     <xsl:for-each select="./mei:persName">
                                                                                                                                                         <td>
                                                                                                                                                             <xsl:apply-templates/><xsl:text> (</xsl:text><xsl:value-of select="@type"/><xsl:text>)</xsl:text>
@@ -462,7 +462,7 @@
                                                                                                                                                 </tr>                                                                                                                                                                                                                                        
                                                                                                                                             </xsl:for-each>
                                                                                                                                             <tr>
-                                                                                                                                                <th>Werk</th>                                                                                                                                                                                                                                                  
+                                                                                                                                                <th style="width:20%">Werk</th>                                                                                                                                                                                                                                                  
                                                                                                                                                 <td>
                                                                                                                                                     <xsl:value-of select="ancestor::mei:work/mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="ancestor::mei:work/mei:identifier"/>
                                                                                                                                                     <br/>                                                                                                                                                        
@@ -497,9 +497,46 @@
                                                                                                                                                     </xsl:for-each>                                                                                                                                                                                                                                                                           
                                                                                                                                                 </td>
                                                                                                                                             </tr>
+                                                                                                                                            <tr>
+                                                                                                                                                <th style="width:20%">Journal</th>
+                                                                                                                                                <td>
+                                                                                                                                                    <ul style="padding:0;margin:0;">
+                                                                                                                                                        <xsl:for-each select="./mei:biblScope">
+                                                                                                                                                            <li style="margin:0;">
+                                                                                                                                                                <span style="text-transform:capitalize;">
+                                                                                                                                                                    <xsl:value-of select="@unit"/>
+                                                                                                                                                                </span>: <xsl:value-of select="."/>
+                                                                                                                                                            </li>
+                                                                                                                                                        </xsl:for-each>
+                                                                                                                                                    </ul>
+                                                                                                                                                </td>                                                                                                                                                                                                                                        
+                                                                                                                                            </tr>
+                                                                                                                                            <tr>
+                                                                                                                                                <th style="width:20%">Weitere Informationen</th>
+                                                                                                                                                <td>
+                                                                                                                                                    <ul style="padding:0;margin:0;">
+                                                                                                                                                        <xsl:for-each select="./mei:annot/mei:p[@label='Weitere_Informationen']">
+                                                                                                                                                            <li style="margin:0;"><xsl:value-of select="replace(., '[()]', '')"/></li>
+                                                                                                                                                        </xsl:for-each>
+                                                                                                                                                    </ul>
+                                                                                                                                                </td>
+                                                                                                                                            </tr>
+                                                                                                                                            <tr>
+                                                                                                                                                <th style="width:20%">Vollständiger Nachweis</th>                                                                                                                    
+                                                                                                                                                <td>
+                                                                                                                                                    <a target="_blank" href="{./mei:ptr[@label='ANNO-ÖNB']/@target}" title="{./mei:ptr[@label='ANNO-ÖNB']/@label}">
+                                                                                                                                                        <xsl:value-of select="./mei:annot/mei:p[@label='Vollständiger_Nachweis']"/>
+                                                                                                                                                        <span style="margin-left:1em;">
+                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                                                                                                                                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                                                                                                                                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                                                                                                                                            </svg>
+                                                                                                                                                        </span>
+                                                                                                                                                    </a>
+                                                                                                                                                </td>
+                                                                                                                                            </tr>
                                                                                                                                         </table>
-                                                                                                                                    </div>                                                                                                                                    
-                                                                                                                                    <xsl:apply-templates/>
+                                                                                                                                    </div>                                                                                                                  
                                                                                                                                 </div>
                                                                                                                             </div>   
                                                                                                                             
@@ -540,70 +577,6 @@
                 </html>
             </xsl:result-document>
         </xsl:for-each>
-    </xsl:template>
-    
-    <xsl:template match="mei:title">
-        
-    </xsl:template>
-    <xsl:template match="mei:date">
-        
-    </xsl:template>
-    <xsl:template match="mei:geogName">
-        
-    </xsl:template>
-    <xsl:template match="mei:persName">
-        
-    </xsl:template>
-    <xsl:template match="mei:p">
-        <label><xsl:value-of select="@label"/>:</label>
-        <xsl:choose>
-            <xsl:when test="@label = 'Vollständiger_Nachweis'">
-                <p>            
-                    <xsl:apply-templates/><xsl:text> URL: </xsl:text>                       
-                    <a title="{parent::mei:annot/following-sibling::mei:ptr/@label}" href="{parent::mei:annot/following-sibling::mei:ptr/@target}">
-                        <xsl:value-of select="parent::mei:annot/following-sibling::mei:ptr/@label"/> 
-                    </a>                    
-                </p>
-            </xsl:when>
-            <xsl:when test="@label = 'Weitere_Informationen'">
-                <p>            
-                    <xsl:value-of select="replace(.,'[()]', '')"/>           
-                </p>
-            </xsl:when>
-        </xsl:choose>
-        
-    </xsl:template>
-    <xsl:template match="mei:term">
-        
-    </xsl:template>
-    <xsl:template match="mei:genre">
-        
-    </xsl:template>
-    <xsl:template match="mei:ptr">
-        
-    </xsl:template>
-    <xsl:template match="mei:biblScope">
-        <div>            
-            <span>
-                <span style="text-transform:capitalize;"><xsl:value-of select="@unit"/></span>: <xsl:apply-templates/>
-            </span>        
-        </div>        
-    </xsl:template>
-    <xsl:template match="mei:imprint">
-        <div class="imprint">
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template>
-    <xsl:template match="mei:annot">
-        <div class="annot">
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template>    
-    <xsl:template match="mei:relationList">  
-        
-    </xsl:template>    
-    <xsl:template match="mei:relatedItem">        
-        
     </xsl:template>
    
 </xsl:stylesheet>

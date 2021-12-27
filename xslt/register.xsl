@@ -62,10 +62,10 @@
                        Lebensdaten
                    </th>     
                    <th>
-                       Funktion/Rolle 
+                       Funktion / Rolle 
                    </th>   
                    <th>
-                       Weitere Informationen 
+                       Details 
                    </th> 
                </tr>            
             </thead>
@@ -96,10 +96,14 @@
                         </td>
                         <td>
                             <a href="{$persUrl}" title="{./mei:persName[@type='main']}">
-                                Weitere Informationen
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+                                    <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                                </svg>
                             </a>                            
                         </td>
-                    </tr>                    
+                    </tr>              
+                    <xsl:variable name="registerUri" select="replace(tokenize(document-uri(/), '/')[last()], '.xml', '.html')"/>
                     <xsl:result-document href="{$persUrl}">
                         <xsl:variable name="doc_title_3">
                             <xsl:value-of select="concat(ancestor::mei:list/mei:head, ' ', ./mei:persName[@type='main'])"/>
@@ -120,19 +124,29 @@
                                             <div class="col-md-12">                                             
                                                 <div class="card">
                                                     <div class="card-header">
-                                                        <h1><xsl:value-of select="./mei:persName[@type='main']"/></h1>                                                                                                        
+                                                        <h1 style="width:5%;display:inline-block;">
+                                                            <a href="{$registerUri}">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                                                                    <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                                                                    <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                                                                </svg>
+                                                            </a>
+                                                        </h1>
+                                                        <h1 style="width:85%;display:inline-block;">                                                                                                                        
+                                                            <xsl:value-of select="./mei:persName[@type='main']"/>
+                                                        </h1>                                                                                                        
                                                     </div>
                                                     <div class="card-body">
                                                         <div class="table-responsive">
                                                             <table class="table">   
-                                                                <xsl:if test="./mei:persName[@type='main']/text()">
+                                                                <!--<xsl:if test="./mei:persName[@type='main']/text()">
                                                                     <tr>
                                                                         <th style="width:20%;">Name</th>
                                                                         <td>
                                                                             <xsl:value-of select="./mei:persName[@type='main']"/>
                                                                         </td>
                                                                     </tr>
-                                                                </xsl:if>
+                                                                </xsl:if>-->
                                                                 <xsl:if test="./mei:persName[@type='alternative']/text()">
                                                                     <tr>
                                                                         <th style="width:20%;">Name (alternativ)</th>
@@ -244,7 +258,10 @@
                                                                             <a href="{./mei:ptr[@label='OeML']/@target}" 
                                                                                title="{./mei:ptr[@label='OeML']/@label}"
                                                                                target="_blank">
-                                                                               Link
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                                                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                                                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                                                                </svg>
                                                                             </a>
                                                                         </td>
                                                                     </tr>
@@ -256,7 +273,10 @@
                                                                             <a href="{./mei:ptr[@label='OeBL']/@target}" 
                                                                                 title="{./mei:ptr[@label='OeBL']/@label}"
                                                                                 target="_blank">
-                                                                                Link
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                                                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                                                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                                                                </svg>
                                                                             </a>
                                                                         </td>
                                                                     </tr>
@@ -268,7 +288,10 @@
                                                                             <a href="{./mei:ptr[@label='BMLO']/@target}" 
                                                                                 title="{./mei:ptr[@label='BMLO']/@label}"
                                                                                 target="_blank">
-                                                                                Link
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                                                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                                                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                                                                </svg>
                                                                             </a>
                                                                         </td>
                                                                     </tr>
@@ -280,7 +303,10 @@
                                                                             <a href="{./mei:ptr[@label='ABLO']/@target}" 
                                                                                 title="{./mei:ptr[@label='ABLO']/@label}"
                                                                                 target="_blank">
-                                                                                Link
+                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
+                                                                                    <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                                                                    <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                                                                                </svg>
                                                                             </a>
                                                                         </td>
                                                                     </tr>
