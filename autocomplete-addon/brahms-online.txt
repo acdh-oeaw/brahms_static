@@ -1360,6 +1360,7 @@ static-search/stems/wangen.json
 static-search/stems/wehe.json
 static-search/stems/weid.json
 static-search/stems/werk.json
+static-search/stems/werksverzeichni.json
 static-search/stems/westprignitz.json
 static-search/stems/weyring.json
 static-search/stems/wiederholt.json

@@ -29,21 +29,56 @@ function bin ( data ) {
  
     return bins;
 }
- 
- 
-// $(document).ready( );
     
 function createDataTable( tableID ) {
-    var table = $(  '#' + tableID ).DataTable();
+    var table = $(  '#' + tableID ).DataTable(
+        {
+            dom: "'<'row controlwrapper'<'col-sm-4'f><'col-sm-4'i><'col-sm-4 exportbuttons'Br>>'" +
+                "'<'row'<'col-sm-12't>>'" +
+                "'<'row'<'col-sm-6 offset-sm-6'p>>'",
+            responsive: true,
+            pageLength: 15,
+            buttons: [{
+                extend: 'copyHtml5',
+                text: '<i class="far fa-copy"/>',
+                titleAttr: 'Copy',
+                className: 'btn-link',
+                init: function (api, node, config) {
+                    $(node).removeClass('btn-secondary')
+                }
+            },
+            {
+                extend: 'excelHtml5',
+                text: '<i class="far fa-file-excel"/>',
+                titleAttr: 'Excel',
+                className: 'btn-link',
+                init: function (api, node, config) {
+                    $(node).removeClass('btn-secondary')
+                }
+            },
+            {
+                extend: 'pdfHtml5',
+                text: '<i class="far fa-file-pdf"/>',
+                titleAttr: 'PDF',
+                className: 'btn-link',
+                init: function (api, node, config) {
+                    $(node).removeClass('btn-secondary')
+                }
+            }],
+            // order: order,
+            orderCellsTop: true,
+            fixedHeader: true,
+        }
+    );
  
-    var alphabet = $('<div class="alphabet"/>').append( 'Search: ' );
+    var alphabet = $('<div class="alphabet"/>').append( 'Filter: ' );
     var columnData = table.column(0).data();
     var bins = bin( columnData );
  
     $('<span class="clear active"/>')
         .data( 'letter', '' )
         .data( 'match-count', columnData.length )
-        .html( 'None' )
+        .html( 'Alle' )
         .appendTo( alphabet );
  
     for ( var i=0 ; i<26 ; i++ ) {
