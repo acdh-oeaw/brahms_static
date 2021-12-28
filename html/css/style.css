@@ -34,10 +34,10 @@ div.alphabet {
  
 div.alphabet span {
     display: table-cell;
-    color: #3174c7;
+    color: #000;
     cursor: pointer;
     text-align: center;
-    width: 3.5%
+    width: 2.5%;
 }
  
 div.alphabet span:hover {
@@ -45,11 +45,11 @@ div.alphabet span:hover {
 }
  
 div.alphabet span.active {
-    color: black;
+    color: #88dbdf;
 }
  
 div.alphabet span.empty {
-    color: red;
+    color: #f1f1f1;
 }
  
 div.alphabetInfo {
@@ -64,6 +64,7 @@ div.alphabetInfo {
     text-align: center;
     z-index: 1;
 }
+
 
 .col-md-12 > span {
     margin-left: .5em;
@@ -100,7 +101,9 @@ a.btn-round:hover {
     color: #fff !important;
     background-color: #88dbdf !important;
 }
+
 /* table of content buttons in nav */
+
 .btn-round.active {
     background-color: #88dbdf !important;
 }
@@ -437,7 +440,7 @@ form button svg:hover {
 #ssDoSearch2, #ssClear, #ssShowMore, #ssShowAll {
     border: 1px solid #88dbdf;
     border-radius: .25rem;
-    margin-bottom: 2em;
+    margin: 2em 0;
     padding: .1em .8em;
     background-color: transparent;
     color: #000;

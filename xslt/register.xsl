@@ -73,19 +73,19 @@
                 <xsl:for-each select="./mei:persName">
                     <xsl:variable name="persUrl" select="concat(replace(./mei:persName[@type='main'], ', ', '-'), '-', @xml:id, '.html')"/>
                     <tr>
-                        <td>
+                        <td style="border-top:0;">
                             <xsl:for-each select="./mei:persName[@type='main']">
                                 <xsl:value-of select="."/>
                             </xsl:for-each>    
                         </td>
-                        <td>                            
+                        <td style="border-top:0;">                            
                             <xsl:text>(</xsl:text>
                             <xsl:value-of select="./mei:date/mei:date[@type='birth']/mei:date"/>
                             <xsl:text>-</xsl:text>
                             <xsl:value-of select="./mei:date/mei:date[@type='death']/mei:date"/>
                             <xsl:text>)</xsl:text>                                                            
                         </td>
-                        <td>
+                        <td style="border-top:0;">
                             <xsl:for-each select="./mei:catchwords">
                                 <ul>
                                     <xsl:for-each select="./mei:term">
@@ -94,7 +94,7 @@
                                 </ul>
                             </xsl:for-each>    
                         </td>
-                        <td>
+                        <td style="border-top:0;">
                             <a href="{$persUrl}" title="{./mei:persName[@type='main']}">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
@@ -141,16 +141,16 @@
                                                             <table class="table">   
                                                                 <!--<xsl:if test="./mei:persName[@type='main']/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">Name</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">Name</th>
+                                                                        <td style="border-top:0;">
                                                                             <xsl:value-of select="./mei:persName[@type='main']"/>
                                                                         </td>
                                                                     </tr>
                                                                 </xsl:if>-->
                                                                 <xsl:if test="./mei:persName[@type='alternative']/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">Name (alternativ)</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">Name (alternativ)</th>
+                                                                        <td style="border-top:0;">
                                                                             <ul style="padding:0;margin:0;">
                                                                                 <xsl:for-each select="./mei:persName[@type='alternative']">
                                                                                     <li style="margin:0;"><xsl:value-of select="."/></li>
@@ -161,88 +161,88 @@
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:persName[@type='birth']/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">Geburtsname</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">Geburtsname</th>
+                                                                        <td style="border-top:0;">
                                                                             <xsl:value-of select="./mei:persName[@type='birth']"/>
                                                                         </td>
                                                                     </tr>
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:persName[@type='birth']/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">Pseudonym</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">Pseudonym</th>
+                                                                        <td style="border-top:0;">
                                                                             <xsl:value-of select="./mei:persName[@type='pseudonym']"/>
                                                                         </td>
                                                                     </tr>
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:identifier[@label='Register-ID']/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;"><xsl:value-of select="./mei:identifier[@label='Register-ID']/@label"/></th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6"><xsl:value-of select="./mei:identifier[@label='Register-ID']/@label"/></th>
+                                                                        <td style="border-top:0;">
                                                                             <xsl:value-of select="./mei:identifier[@label='Register-ID']"/>
                                                                         </td>
                                                                     </tr>
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:identifier[@lauth='GND']/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">GND</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">GND</th>
+                                                                        <td style="border-top:0;">
                                                                             <xsl:value-of select="concat(./mei:identifier[@auth='GND']/@auth.uri ,./mei:identifier[@auth='GND'])"/>
                                                                         </td>
                                                                     </tr>
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:famName/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">Familienname</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">Familienname</th>
+                                                                        <td style="border-top:0;">
                                                                             <xsl:value-of select="./mei:famName"/>
                                                                         </td>
                                                                     </tr>
                                                                 </xsl:if>                                                                
                                                                 <xsl:if test="./mei:foreName/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">Vorname</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">Vorname</th>
+                                                                        <td style="border-top:0;">
                                                                             <xsl:value-of select="./mei:foreName"/>
                                                                         </td>
                                                                     </tr>
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:date/mei:date[@type='birth']/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">Geburtsdatum</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">Geburtsdatum</th>
+                                                                        <td style="border-top:0;">
                                                                             <xsl:value-of select="./mei:date/mei:date[@type='birth']/mei:date"/>
                                                                         </td>
                                                                     </tr>
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:date/mei:date[@type='birth']/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">Geburtsort</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">Geburtsort</th>
+                                                                        <td style="border-top:0;">
                                                                             <xsl:value-of select="./mei:date/mei:date[@type='birth']/mei:geogName"/>
                                                                         </td>
                                                                     </tr>
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:date/mei:date[@type='death']/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">Sterbedatum</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">Sterbedatum</th>
+                                                                        <td style="border-top:0;">
                                                                             <xsl:value-of select="./mei:date/mei:date[@type='death']/mei:date"/>
                                                                         </td>
                                                                     </tr>
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:date/mei:date[@type='death']/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">Sterbeort</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">Sterbeort</th>
+                                                                        <td style="border-top:0;">
                                                                             <xsl:value-of select="./mei:date/mei:date[@type='death']/mei:geogName"/>
                                                                         </td>
                                                                     </tr>
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:catchwords/mei:term/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">Funktion/Rolle</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">Funktion/Rolle</th>
+                                                                        <td style="border-top:0;">
                                                                             <ul style="padding:0;margin:0;">
                                                                                 <xsl:for-each select="./mei:catchwords/mei:term">
                                                                                     <li style="margin:0;"><xsl:value-of select="."/></li>
@@ -253,8 +253,8 @@
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:ptr[@label='OeML']/@target and not(starts-with(./mei:ptr[@label='OeML']/@target, '#'))">
                                                                     <tr>
-                                                                        <th style="width:20%;">OeML</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">OeML</th>
+                                                                        <td style="border-top:0;">
                                                                             <a href="{./mei:ptr[@label='OeML']/@target}" 
                                                                                title="{./mei:ptr[@label='OeML']/@label}"
                                                                                target="_blank">
@@ -268,8 +268,8 @@
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:ptr[@label='OeBL']/@target and not(starts-with(./mei:ptr[@label='OeBL']/@target, '#'))">
                                                                     <tr>
-                                                                        <th style="width:20%;">OeBL</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">OeBL</th>
+                                                                        <td style="border-top:0;">
                                                                             <a href="{./mei:ptr[@label='OeBL']/@target}" 
                                                                                 title="{./mei:ptr[@label='OeBL']/@label}"
                                                                                 target="_blank">
@@ -283,8 +283,8 @@
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:ptr[@label='BMLO']/@target and not(starts-with(./mei:ptr[@label='BMLO']/@target, '#'))">
                                                                     <tr>
-                                                                        <th style="width:20%;">BMLO</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">BMLO</th>
+                                                                        <td style="border-top:0;">
                                                                             <a href="{./mei:ptr[@label='BMLO']/@target}" 
                                                                                 title="{./mei:ptr[@label='BMLO']/@label}"
                                                                                 target="_blank">
@@ -298,8 +298,8 @@
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:ptr[@label='ABLO']/@target and not(starts-with(./mei:ptr[@label='ABLO']/@target, '#'))">
                                                                     <tr>
-                                                                        <th style="width:20%;">ABLO</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">ABLO</th>
+                                                                        <td style="border-top:0;">
                                                                             <a href="{./mei:ptr[@label='ABLO']/@target}" 
                                                                                 title="{./mei:ptr[@label='ABLO']/@label}"
                                                                                 target="_blank">
@@ -313,8 +313,8 @@
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:annot[@label='Kurzbiographie']/mei:p/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">Kurzbiographie</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">Kurzbiographie</th>
+                                                                        <td style="border-top:0;">
                                                                             <ul style="padding:0;margin:0;">
                                                                                 <xsl:for-each select="./mei:annot[@label='Kurzbiographie']/mei:p">
                                                                                     <li style="margin:0;"><xsl:value-of select="."/></li>
@@ -325,8 +325,8 @@
                                                                 </xsl:if>
                                                                 <xsl:if test="./mei:annot[@label='Kommentar']/mei:p/text()">
                                                                     <tr>
-                                                                        <th style="width:20%;">Kommentar</th>
-                                                                        <td>
+                                                                        <th style="width:20%;border-top:0;border-right:1px solid #dee2e6">Kommentar</th>
+                                                                        <td style="border-top:0;">
                                                                             <ul style="padding:0;margin:0;">
                                                                                 <xsl:for-each select="./mei:annot[@label='Kommentar']/mei:p">
                                                                                     <li style="margin:0;"><xsl:value-of select="."/></li>
