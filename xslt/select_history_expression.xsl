@@ -36,7 +36,7 @@
                                             <a href="{$historyOverview}">                                                
                                                 <div class="card index-card">
                                                     <div class="card-header">
-                                                        <h1>Geschichte</h1>
+                                                        <h1>Einträge zu Bibliographien (Geschichte)</h1>
                                                     </div>                                                                                 
                                                 </div>   
                                             </a>
@@ -48,7 +48,7 @@
                                             <a href="{$expressionsOverview}">
                                                 <div class="card index-card">
                                                     <div class="card-header">
-                                                        <h1>Expressionen</h1>
+                                                        <h1>Einträge zu Bibliographien (Schaffung)</h1>
                                                     </div>                                                                                 
                                                 </div> 
                                             </a>

@@ -14,6 +14,26 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>data/meta/about.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>toc</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>data/register/Personenregister-verkuerzt.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -34,60 +54,31 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>data/editions/JBWV_0008_op8_Klaviertrio-Nr1-H-Dur.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>editions</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>data/meta/about.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>history</String>
-                                        <String>toc</String>
-                                        <String>select</String>
-                                        <String>expressions</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                        <String>XSL</String>
-                                        <String>XSL</String>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                        <Byte>2</Byte>
-                                        <Byte>2</Byte>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>data/editions/</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
                                         <String>editions-xml</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>data/editions/JBWV_0008_op8_Klaviertrio-Nr1-H-Dur.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>editions</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

@@ -34,7 +34,7 @@ div.alphabet {
  
 div.alphabet span {
     display: table-cell;
-    color: #000;
+    color: #444;
     cursor: pointer;
     text-align: center;
     width: 2.5%;
@@ -65,6 +65,23 @@ div.alphabetInfo {
     z-index: 1;
 }
 
+.event-table tr th{
+    border-top: 0;
+    border-right: 1px solid #dee2e6;
+}
+
+.person-table tr th {
+    border-top: 0;
+    border-right: 1px solid #dee2e6;
+}
+
+.event-table tr td {
+    border-top: 0;
+}
+
+.person-table tr td {
+    border-top: 0;
+}
 
 .col-md-12 > span {
     margin-left: .5em;
