@@ -503,6 +503,7 @@ static-search/stems/besetzung.json
 static-search/stems/besten.json
 static-search/stems/bezeichnen.json
 static-search/stems/bezirk.json
+static-search/stems/bibliographien.json
 static-search/stems/billroth-abend.json
 static-search/stems/billroth.json
 static-search/stems/bilthoven.json
@@ -649,11 +650,9 @@ static-search/stems/erzherzogin.json
 static-search/stems/esc.json
 static-search/stems/eschenbachgass.json
 static-search/stems/etc.json
-static-search/stems/event.json
 static-search/stems/evtl.json
 static-search/stems/exkurs.json
 static-search/stems/express.json
-static-search/stems/expressionen.json
 static-search/stems/expresss.json
 static-search/stems/fals.json
 static-search/stems/familiennam.json
@@ -697,6 +696,7 @@ static-search/stems/fälschlich.json
 static-search/stems/gabriel.json
 static-search/stems/gartenbaugesellschaft.json
 static-search/stems/gattin.json
+static-search/stems/gattung.json
 static-search/stems/geb.json
 static-search/stems/geburtsdatum.json
 static-search/stems/geburtsnam.json
@@ -903,7 +903,6 @@ static-search/stems/lehrtätigkeit.json
 static-search/stems/leipzig.json
 static-search/stems/leiser.json
 static-search/stems/leitung.json
-static-search/stems/lesen.json
 static-search/stems/letzter.json
 static-search/stems/letzteren.json
 static-search/stems/lexartikel.json
@@ -1096,7 +1095,6 @@ static-search/stems/reih.json
 static-search/stems/reim.json
 static-search/stems/reklamiert.json
 static-search/stems/relat.json
-static-search/stems/resourcen.json
 static-search/stems/ressourc.json
 static-search/stems/restlich.json
 static-search/stems/rezens.json
@@ -1145,6 +1143,7 @@ static-search/stems/satzungsmäßig.json
 static-search/stems/sauer.json
 static-search/stems/schack-gedichten.json
 static-search/stems/schack.json
+static-search/stems/schaffung.json
 static-search/stems/schandl.json
 static-search/stems/schantl.json
 static-search/stems/schatten.json
