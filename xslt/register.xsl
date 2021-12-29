@@ -343,9 +343,9 @@
                                         </div>                   
                                     </div>
                                     
-                                    <xsl:call-template name="html_footer"/>
+                                    <xsl:call-template name="html_footer"/>                                    
                                 </div>                                
-                            </body>
+                            </body>                            
                         </html>
                     </xsl:result-document>
                 </xsl:for-each>  
