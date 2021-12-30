@@ -41,6 +41,7 @@
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
+                    <script type="text/javascript" src="js/dt-alphabet-filter.js"></script>
                     <script>
                         $(document).ready(function () {
                             createDataTable('registerTable')
@@ -323,7 +324,7 @@
                                                                         </td>
                                                                     </tr>
                                                                 </xsl:if>
-                                                                <xsl:if test="./mei:annot[@label='Kommentar']/mei:p/text()">
+                                                                <!--<xsl:if test="./mei:annot[@label='Kommentar']/mei:p/text()">
                                                                     <tr>
                                                                         <th style="width:20%;">Kommentar</th>
                                                                         <td>
@@ -334,7 +335,7 @@
                                                                             </ul>                                                                                                                                                       
                                                                         </td>
                                                                     </tr>
-                                                                </xsl:if>
+                                                                </xsl:if>-->
                                                             </table>
                                                         </div>                                                        
                                                     </div>

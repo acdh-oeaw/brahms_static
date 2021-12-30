@@ -10,7 +10,7 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title" select="'Werksverzeichnis'"/>
+        <xsl:variable name="doc_title" select="'Werkverzeichnis'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
@@ -26,14 +26,15 @@
                     <div class="container-fluid">
                         <div class="card">
                             <div class="card-header">
-                                <h1>Werksverzeichnis</h1>
+                                <h1>Werkverzeichnis</h1>
                             </div>
                             <div class="card-body">
                                 <table class="table table-striped display" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
-                                            <th scope="col">Titel</th>                                            
-                                            <th scope="col">Opus Nummer</th>
+                                            <th scope="col">Titel</th>
+                                            <th scope="col">Präfix</th>
+                                            <th scope="col">Opusnummer</th>                                            
                                             <th scope="col">Einträge</th>
                                             <th scope="col">Metadaten</th>
                                         </tr>
@@ -62,8 +63,11 @@
                                                     </a>
                                                 </td>
                                                 <td>                                                    
-                                                    <xsl:value-of select="substring-after(//mei:workList/mei:work/mei:identifier[@label='Opus-Nummer'], 'op. ')"/>
+                                                    <xsl:value-of select="substring-before(//mei:workList/mei:work/mei:identifier[@label='Opus-Nummer'], ' ')"/>
                                                 </td>
+                                                <td>                                                    
+                                                    <xsl:value-of select="substring-after(//mei:workList/mei:work/mei:identifier[@label='Opus-Nummer'], ' ')"/>
+                                                </td>                                                
                                                 <td>
                                                     <ul>                                                            
                                                         <li style="list-style:circle;">
@@ -102,6 +106,7 @@
                     </div>
                     
                     <xsl:call-template name="html_footer"/>
+                    <script type="text/javascript" src="js/dt-opus-filter.js"></script>                    
                     <script>
                         $(document).ready(function () {
                             createDataTable('tocTable')

@@ -65,7 +65,7 @@
                                 <a title="Datenbank" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Datenbank <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Werksverzeichnis" href="toc.html" class="nav-link">Werksverzeichnis</a>
+                                        <a title="Werkverzeichnis" href="toc.html" class="nav-link">Werkverzeichnis</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Suche" href="index.html" class="nav-link">Suche</a>

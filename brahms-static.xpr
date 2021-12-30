@@ -18,7 +18,7 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>register</String>
+                                        <String>toc</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
