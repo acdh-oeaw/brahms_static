@@ -65,13 +65,13 @@
                                 <a title="Datenbank" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Datenbank <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Table of Contents" href="toc.html" class="nav-link">Table of Contents</a>
+                                        <a title="Werksverzeichnis" href="toc.html" class="nav-link">Werksverzeichnis</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Suche" href="index.html" class="nav-link">Suche</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Suche" href="Personenregister-verkuerzt.html" class="nav-link">Personenregister</a>
+                                        <a title="Personenregister" href="Personenregister-verkuerzt.html" class="nav-link">Personenregister</a>
                                     </li>
                                 </ul>                                
                             </li>
