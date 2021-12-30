@@ -1242,7 +1242,6 @@ static-search/stems/szeraphina.json
 static-search/stems/säle.json
 static-search/stems/sänger.json
 static-search/stems/sängerin.json
-static-search/stems/tabl.json
 static-search/stems/taufmatrik.json
 static-search/stems/taus.json
 static-search/stems/tausig-vrab.json
