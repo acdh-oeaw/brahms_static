@@ -22,16 +22,24 @@ div.dataTables_filter {
 }
 
 /* datatable alphanumeric search
- * https://datatables.net/forums/discussion/30032/alphabetical-filter#Comment_80476
+ * https://datatables.net/forums/discussion/30032/opusical-filter#Comment_80476
  * */
 
-div.alphabet {
+div.opus, div.alphabet {
     position: relative;
     display: table;
     width: 100%;
     margin-bottom: 1em;
 }
  
+div.opus span, div.alphabet span {
+    display: table-cell;
+    color: #444;
+    cursor: pointer;
+    text-align: center;
+    width: 6%;
+}
+
 div.alphabet span {
     display: table-cell;
     color: #444;
@@ -40,19 +48,19 @@ div.alphabet span {
     width: 2.5%;
 }
  
-div.alphabet span:hover {
+div.opus span:hover, div.alphabet span:hover {
     text-decoration: underline;
 }
  
-div.alphabet span.active {
+div.opus span.active, div.alphabet span.active {
     color: #88dbdf;
 }
  
-div.alphabet span.empty {
+div.opus span.empty, div.alphabet span.empty {
     color: #f1f1f1;
 }
  
-div.alphabetInfo {
+div.opusInfo, div.alphabetInfo {
     display: block;
     position: absolute;
     background-color: #111;
