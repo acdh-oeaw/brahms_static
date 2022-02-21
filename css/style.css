@@ -95,11 +95,67 @@ div.opusInfo, div.alphabetInfo {
     border-top: 0;
 }
 
+#tocTable tbody tr td, #tocTable tbody tr th  {
+    vertical-align: middle;
+    line-height: 1.5em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+#tocTable tbody tr td ul {
+    margin-bottom: 0;
+}
+
+#tocTable tbody tr td ul li {
+    margin-top: 0;
+}
+
+#tocTable tbody tr td, #tocTable tbody tr th  {
+    vertical-align: middle;
+    line-height: 1.5em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+#registerTableDetail tbody tr td a, #workTableDetail tbody tr td a {
+    color: #88dbdf;
+}
+
+#registerTableDetail tbody tr td ul {
+    margin-bottom: 0;
+}
+
+#registerTableDetail tbody tr td ul li {
+    margin-top: 0;
+}
+
+#workTableDetail tbody tr td, #workTableDetail tbody tr th {
+    vertical-align: middle;
+    line-height: 1.5em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    vertical-align: top;
+    font-size: 13px;
+}
+
+#workTableDetail tbody tr td ul {
+    margin-bottom: 0;
+}
+
+#workTableDetail tbody tr td ul li {
+    margin-top: 0;
+}
+
 #workTable tbody tr td {
     vertical-align: middle;
     line-height: 1em;
     padding-top: .3em;
     padding-bottom: .3em;
+    font-size: 13px;
 }
 
 #workTable tbody tr td ul {
@@ -115,6 +171,7 @@ div.opusInfo, div.alphabetInfo {
     line-height: 1em;
     padding-top: .3em;
     padding-bottom: .3em;
+    font-size: 13px;
 }
 
 #registerTable tbody tr td ul {
