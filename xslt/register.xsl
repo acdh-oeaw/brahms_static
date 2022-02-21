@@ -38,7 +38,7 @@
                     <div class="container-fluid">
                         <div class="tei-logo">                           
                             <h1 style="text-align:right!important;">
-                                <a href="{tokenize(document-uri(.))[last()]}?format=raw" title="TEI Source">
+                                <a href="{tokenize(document-uri(.), '/')[last()]}?format=raw" title="TEI Source">
                                     <img alt="TEI Logo" src="images/TEI_Logo_36px.png" id="tei-logo"/>
                                 </a>
                             </h1>                         
