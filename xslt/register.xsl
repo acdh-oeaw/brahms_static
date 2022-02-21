@@ -299,68 +299,68 @@
                                                                         ./mei:ptr[@label='OeBL']/@target or 
                                                                         ./mei:ptr[@label='BMLO']/@target or 
                                                                         ./mei:ptr[@label='ABLO']/@target">
-                                                                        
-                                                                        <tr>
-                                                                            <th>Links</th>
-                                                                            <td>
-                                                                                <ul style="padding:0;margin-bottom:0;">
-                                                                                    <xsl:if test="./mei:ptr[@label='OeML']/@target and
-                                                                                        not(starts-with(./mei:ptr[@label='OeML']/@target, '#'))">
-                                                                                        
-                                                                                        <li style="margin-top:0;margin-bottom:.2em;">
-                                                                                            <a href="{./mei:ptr[@label='OeML']/@target}" 
-                                                                                                title="{./mei:ptr[@label='OeML']/@label}"
-                                                                                                target="_blank">
-                                                                                                OeML
-                                                                                            </a>
-                                                                                        </li>
-                                                                                    </xsl:if>
-                                                                                    <xsl:if test="./mei:ptr[@label='OeBL']/@target and
-                                                                                        not(starts-with(./mei:ptr[@label='OeBL']/@target, '#'))"> 
-                                                                                        
-                                                                                        <li style="margin-top:0;margin-bottom:.2em;">
-                                                                                            <a href="{./mei:ptr[@label='OeBL']/@target}" 
-                                                                                                title="{./mei:ptr[@label='OeBL']/@label}"
-                                                                                                target="_blank">
-                                                                                                OeBL
-                                                                                            </a>
-                                                                                        </li>
-                                                                                    </xsl:if>
-                                                                                    <xsl:if test="./mei:ptr[@label='BMLO']/@target and
-                                                                                        not(starts-with(./mei:ptr[@label='BMLO']/@target, '#'))">
-                                                                                        
-                                                                                        <li style="margin-top:0;margin-bottom:.2em;">
-                                                                                            <a href="{./mei:ptr[@label='BMLO']/@target}" 
-                                                                                                title="{./mei:ptr[@label='BMLO']/@label}"
-                                                                                                target="_blank">
-                                                                                                BMLO
-                                                                                            </a>
-                                                                                        </li>
-                                                                                    </xsl:if>
-                                                                                    <xsl:if test="./mei:ptr[@label='ABLO']/@target and
-                                                                                        not(starts-with(./mei:ptr[@label='ABLO']/@target, '#'))">
-                                                                                        
-                                                                                        <li style="margin-top:0;margin-bottom:.2em;">
-                                                                                            <a href="{./mei:ptr[@label='ABLO']/@target}" 
-                                                                                                title="{./mei:ptr[@label='ABLO']/@label}"
-                                                                                                target="_blank">
-                                                                                                ABLO
-                                                                                            </a>
-                                                                                        </li>
-                                                                                    </xsl:if>
-                                                                                    <xsl:if test="./mei:annot[@label='Kurzbiographie']/mei:p/@ref">
-                                                                                        <xsl:for-each select="./mei:annot[@label='Kurzbiographie']/mei:p/@ref">
+                                                                            <tr>
+                                                                                <th>Links</th>
+                                                                                <td>
+                                                                                    <ul style="padding:0;margin-bottom:0;">
+                                                                                        <xsl:if test="./mei:ptr[@label='OeML']/@target and
+                                                                                            not(starts-with(./mei:ptr[@label='OeML']/@target, '#'))">
+                                                                                            
                                                                                             <li style="margin-top:0;margin-bottom:.2em;">
-                                                                                                <a title="Kurzbiographie" href="{.}">
-                                                                                                    <xsl:value-of select="concat(
-                                                                                                        'Kurzbiographie', ' Link ', position())"/>
-                                                                                                </a>                                                                                            
+                                                                                                <a href="{./mei:ptr[@label='OeML']/@target}" 
+                                                                                                    title="{./mei:ptr[@label='OeML']/@label}"
+                                                                                                    target="_blank">
+                                                                                                    OeML
+                                                                                                </a>
                                                                                             </li>
-                                                                                        </xsl:for-each>
-                                                                                    </xsl:if>
-                                                                                </ul>
-                                                                            </td>
-                                                                        </tr>
+                                                                                        </xsl:if>
+                                                                                        <xsl:if test="./mei:ptr[@label='OeBL']/@target and
+                                                                                            not(starts-with(./mei:ptr[@label='OeBL']/@target, '#'))"> 
+                                                                                            
+                                                                                            <li style="margin-top:0;margin-bottom:.2em;">
+                                                                                                <a href="{./mei:ptr[@label='OeBL']/@target}" 
+                                                                                                    title="{./mei:ptr[@label='OeBL']/@label}"
+                                                                                                    target="_blank">
+                                                                                                    OeBL
+                                                                                                </a>
+                                                                                            </li>
+                                                                                        </xsl:if>
+                                                                                        <xsl:if test="./mei:ptr[@label='BMLO']/@target and
+                                                                                            not(starts-with(./mei:ptr[@label='BMLO']/@target, '#'))">
+                                                                                            
+                                                                                            <li style="margin-top:0;margin-bottom:.2em;">
+                                                                                                <a href="{./mei:ptr[@label='BMLO']/@target}" 
+                                                                                                    title="{./mei:ptr[@label='BMLO']/@label}"
+                                                                                                    target="_blank">
+                                                                                                    BMLO
+                                                                                                </a>
+                                                                                            </li>
+                                                                                        </xsl:if>
+                                                                                        <xsl:if test="./mei:ptr[@label='ABLO']/@target and
+                                                                                            not(starts-with(./mei:ptr[@label='ABLO']/@target, '#'))">
+                                                                                            
+                                                                                            <li style="margin-top:0;margin-bottom:.2em;">
+                                                                                                <a href="{./mei:ptr[@label='ABLO']/@target}" 
+                                                                                                    title="{./mei:ptr[@label='ABLO']/@label}"
+                                                                                                    target="_blank">
+                                                                                                    ABLO
+                                                                                                </a>
+                                                                                            </li>
+                                                                                        </xsl:if>
+                                                                                        <xsl:if test="./mei:annot[@label='Kurzbiographie']/mei:p/@ref">
+                                                                                            <xsl:for-each select="./mei:annot[@label='Kurzbiographie']/mei:p/@ref">
+                                                                                                <li style="margin-top:0;margin-bottom:.2em;">
+                                                                                                    <a title="Kurzbiographie" href="{.}">
+                                                                                                        <xsl:value-of select="concat(
+                                                                                                            'Kurzbiographie', ' Link ', position())"/>
+                                                                                                    </a>                                                                                            
+                                                                                                </li>
+                                                                                            </xsl:for-each>
+                                                                                        </xsl:if>
+                                                                                    </ul>
+                                                                                </td>
+                                                                            </tr>
+                                                                        
                                                                     </xsl:if>                                                                
                                                                     <!--<xsl:if test="./mei:annot[@label='Kommentar']/mei:p/text()">
                                                                         <tr>

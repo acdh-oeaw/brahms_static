@@ -116,8 +116,7 @@ div.opusInfo, div.alphabetInfo {
     margin-top: 0;
 }
 
-#registerTableDetail tbody tr td, #registerTableDetail thead tr th  {
-    vertical-align: middle;
+#registerTableDetail tbody tr td, #registerTableDetail tbody tr th  {
     line-height: 1.5em;
     padding-top: .3em;
     padding-bottom: .3em;
@@ -137,8 +136,7 @@ div.opusInfo, div.alphabetInfo {
     margin-top: 0;
 }
 
-#workTableDetail tbody tr td, #workTableDetail thead tr th {
-    vertical-align: middle;
+#workTableDetail tbody tr td, #workTableDetail tbody tr th {
     line-height: 1.5em;
     padding-top: .3em;
     padding-bottom: .3em;
