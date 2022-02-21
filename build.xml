@@ -3,15 +3,10 @@
     <property name="index" value="./data/meta/about.xml"/>
     <property name="register" value="./data/register/Personenregister-verkuerzt.xml"/>
     <property name="target" value="./html"/>
-    <property name="target_xml" value="./html/xml-view"/>
     <delete>
         <fileset dir="${target}" includes="*.html"/>
     </delete>
     <delete dir="${target}/static-search"/>
-    <xslt style="./xslt/editions-xml.xsl"  basedir="./data/editions" destdir="${target_xml}" includes="*.xml">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
     <xslt style="./xslt/editions.xsl"  basedir="./data/editions" destdir="${target}" includes="*.xml">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
@@ -32,23 +27,6 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
-    <xslt in="${index}" out="${target}/select_history_expression.html" style="./xslt/select_history_expression.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <xslt in="${index}" out="${target}/history.html" style="./xslt/history.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <xslt in="${index}" out="${target}/expressions.html" style="./xslt/expressions.xsl">
-        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-        <classpath location="${basedir}/saxon/saxon9he.jar"/>
-    </xslt>
-    <delete>
-        <fileset dir="${target}" includes="expressions.html"/>
-        <fileset dir="${target}" includes="history.html"/>
-        <fileset dir="${target}" includes="select_history_expression.html"/>
-    </delete>
     <!-- <xslt in="./data/imprint.xml" out="${target}/imprint.html" style="./xslt/imprint.xsl">
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
