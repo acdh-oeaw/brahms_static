@@ -110,7 +110,7 @@ function createDataTable( tableID ) {
     var bins = bin( columnData1, columnData2 );
  
     $('<span class="clear active"/>')
-        .data( 'werknummer', '' )
+        .data( 'opusnumber', '' )
         .data( 'match-count', columnData1.length )
         .html( 'Alle' )
         .appendTo( opus );
@@ -123,7 +123,7 @@ function createDataTable( tableID ) {
         var praefixOpus = `${praefix[i]} ${opusNo[i]}`;
  
         $('<span/>')
-            .data( 'werknummer', praefixOpus )
+            .data( 'opusnumber', praefixOpus )
             .data( 'match-count', bins[praefixOpus] || 0 )
             //.addClass( ! bins[praefixOpus] ? 'empty' : '' )
             .html( praefixOpus )
@@ -136,7 +136,7 @@ function createDataTable( tableID ) {
         opus.find( '.active' ).removeClass( 'active' );
         $(this).addClass( 'active' );
  
-        _opusSearch = $(this).data('werknummer');
+        _opusSearch = $(this).data('opusnumber');
         table.draw();
     } );
  
