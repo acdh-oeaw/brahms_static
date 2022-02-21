@@ -112,7 +112,7 @@ div.opusInfo, div.alphabetInfo {
     margin-top: 0;
 }
 
-#tocTable tbody tr td, #tocTable tbody tr th  {
+#registerTableDetail tbody tr td, #registerTableDetail tbody tr th  {
     vertical-align: middle;
     line-height: 1.5em;
     padding-top: .3em;
