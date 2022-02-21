@@ -613,7 +613,6 @@ static-search/stems/kärntner.json
 static-search/stems/köln.json
 static-search/stems/königin.json
 static-search/stems/könne.json
-static-search/stems/körperschaften.json
 static-search/stems/künstler.json
 static-search/stems/künstlerin.json
 static-search/stems/künstlerkongress.json
