@@ -95,7 +95,11 @@ div.opusInfo, div.alphabetInfo {
     border-top: 0;
 }
 
-#tocTable tbody tr td, #tocTable tbody tr th  {
+.card-body > .table-responsive {
+    font-size: 13px;
+}
+
+#tocTable tbody tr td, #tocTable thead tr th  {
     vertical-align: middle;
     line-height: 1.5em;
     padding-top: .3em;
@@ -112,7 +116,7 @@ div.opusInfo, div.alphabetInfo {
     margin-top: 0;
 }
 
-#registerTableDetail tbody tr td, #registerTableDetail tbody tr th  {
+#registerTableDetail tbody tr td, #registerTableDetail thead tr th  {
     vertical-align: middle;
     line-height: 1.5em;
     padding-top: .3em;
@@ -133,7 +137,7 @@ div.opusInfo, div.alphabetInfo {
     margin-top: 0;
 }
 
-#workTableDetail tbody tr td, #workTableDetail tbody tr th {
+#workTableDetail tbody tr td, #workTableDetail thead tr th {
     vertical-align: middle;
     line-height: 1.5em;
     padding-top: .3em;
@@ -150,7 +154,7 @@ div.opusInfo, div.alphabetInfo {
     margin-top: 0;
 }
 
-#workTable tbody tr td {
+#workTable tbody tr td, #workTable thead tr th {
     vertical-align: middle;
     line-height: 1em;
     padding-top: .3em;
@@ -166,7 +170,7 @@ div.opusInfo, div.alphabetInfo {
     margin-top: 0;
 }
 
-#registerTable tbody tr td {
+#registerTable tbody tr td, #registerTable thead tr th {
     vertical-align: middle;
     line-height: 1em;
     padding-top: .3em;
@@ -182,7 +186,7 @@ div.opusInfo, div.alphabetInfo {
     margin-top: 0;
 }
 
-#tocTable tbody tr td {
+#tocTable tbody tr td, #tocTable thead tr td th {
     vertical-align: middle;
     line-height: 1em;
     padding-top: .3em;
