@@ -8,6 +8,10 @@ body {
     color: blue;
 }*/
 
+.fade {
+    display: none;
+}
+
 .event-table tr th {
     border: none;
     width: 20%;
@@ -89,6 +93,36 @@ div.opusInfo, div.alphabetInfo {
 
 .person-table tr td {
     border-top: 0;
+}
+
+#registerTable tbody tr td {
+    vertical-align: middle;
+    line-height: 1em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
+#registerTable tbody tr td ul {
+    margin-bottom: 0;
+}
+
+#registerTable tbody tr td ul li {
+    margin-top: 0;
+}
+
+#tocTable tbody tr td {
+    vertical-align: middle;
+    line-height: 1em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
+#tocTable tbody tr td ul {
+    margin-bottom: 0;
+}
+
+#tocTable tbody tr td ul li {
+    margin-top: 0;
 }
 
 .col-md-12 > span {

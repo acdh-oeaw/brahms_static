@@ -61,32 +61,25 @@
                         <div class="table-responsive">
                            <table class="table person-table">
                               <tr>
-                                 <th style="width:20%;">Name (alternativ)</th>
-                                 <td>
-                                    <ul style="padding:0;margin:0;">
-                                       <li style="margin:0;">Heuberger, Richard der Ältere</li>
-                                    </ul>
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <th style="width:20%;">Geburtsname</th>
-                                 <td>Heuberger, Richard Franz Joseph</td>
-                              </tr>
-                              <tr>
-                                 <th style="width:20%;">Pseudonym</th>
-                                 <td></td>
-                              </tr>
-                              <tr>
-                                 <th style="width:20%;">Register-ID</th>
-                                 <td>0114</td>
-                              </tr>
-                              <tr>
                                  <th style="width:20%;">Familienname</th>
                                  <td>Heuberger</td>
                               </tr>
                               <tr>
                                  <th style="width:20%;">Vorname</th>
                                  <td>Richard Franz Joseph</td>
+                              </tr>
+                              <tr>
+                                 <th style="width:20%;">Name (alternativ)</th>
+                                 <td>
+                                    <ul style="padding:0;margin:0;">
+                                       <li style="margin:0;">Heuberger, Richard der Ältere</li>
+                                       <li style="margin:0;cursor:pointer;color:#88dbdf;" id="show-text">mehr anzeigen</li>
+                                    </ul>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <th style="width:20%;">Geburtsname</th>
+                                 <td>Heuberger, Richard Franz Joseph</td>
                               </tr>
                               <tr>
                                  <th style="width:20%;">Geburtsdatum</th>
@@ -113,16 +106,17 @@
                                  </td>
                               </tr>
                               <tr>
-                                 <th style="width:20%;">OeML</th>
-                                 <td><a href="https://www.musiklexikon.ac.at/ml/musik_H/Heuberger_Richard.xml" title="OeML" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                          <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"></path>
-                                          <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"></path></svg></a></td>
-                              </tr>
-                              <tr>
-                                 <th style="width:20%;">OeBL</th>
-                                 <td><a href="https://www.biographien.ac.at/oebl/oebl_H/Heuberger_Richard-Franz-Joseph_1850_1914.xml" title="OeBL" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                          <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"></path>
-                                          <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"></path></svg></a></td>
+                                 <th>Links</th>
+                                 <td>
+                                    <ul style="padding:0;margin-bottom:0;">
+                                       <li style="margin-top:0;margin-bottom:.2em;"><a href="https://www.musiklexikon.ac.at/ml/musik_H/Heuberger_Richard.xml" title="OeML" target="_blank">
+                                             OeML
+                                             </a></li>
+                                       <li style="margin-top:0;margin-bottom:.2em;"><a href="https://www.biographien.ac.at/oebl/oebl_H/Heuberger_Richard-Franz-Joseph_1850_1914.xml" title="OeBL" target="_blank">
+                                             OeBL
+                                             </a></li>
+                                    </ul>
+                                 </td>
                               </tr>
                            </table>
                         </div>
@@ -200,6 +194,17 @@
             </div>
          </div>
          <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;">
-            © Copyright OEAW | <a href="https://brahmsonline.acdh-dev.oeaw.ac.at/imprint">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="autocomplete-addon/autocomplete.js"></script></div>
-   </body>
+            © Copyright OEAW | <a href="https://brahmsonline.acdh-dev.oeaw.ac.at/imprint">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="autocomplete-addon/autocomplete.js"></script></div><script type="text/javascript">
+                                    $('#show-text').click(function () {
+                                        if ($('.about-text-hidden').hasClass('fade') == true) {
+                                            $('.about-text-hidden').removeClass('fade')
+                                            .addClass('active');
+                                            $(this).html('weniger anzeigen');
+                                        } else {
+                                            $('.about-text-hidden').removeClass('active')
+                                            .addClass('fade');
+                                            $(this).html('mehr anzeigen');
+                                        }  
+                                    });
+                                </script></body>
 </html>

@@ -61,32 +61,25 @@
                         <div class="table-responsive">
                            <table class="table person-table">
                               <tr>
-                                 <th style="width:20%;">Name (alternativ)</th>
-                                 <td>
-                                    <ul style="padding:0;margin:0;">
-                                       <li style="margin:0;">Kwast, Jacob</li>
-                                    </ul>
-                                 </td>
-                              </tr>
-                              <tr>
-                                 <th style="width:20%;">Geburtsname</th>
-                                 <td>Kwast, Jacob</td>
-                              </tr>
-                              <tr>
-                                 <th style="width:20%;">Pseudonym</th>
-                                 <td></td>
-                              </tr>
-                              <tr>
-                                 <th style="width:20%;">Register-ID</th>
-                                 <td>0144</td>
-                              </tr>
-                              <tr>
                                  <th style="width:20%;">Familienname</th>
                                  <td>Kwast</td>
                               </tr>
                               <tr>
                                  <th style="width:20%;">Vorname</th>
                                  <td>James</td>
+                              </tr>
+                              <tr>
+                                 <th style="width:20%;">Name (alternativ)</th>
+                                 <td>
+                                    <ul style="padding:0;margin:0;">
+                                       <li style="margin:0;">Kwast, Jacob</li>
+                                       <li style="margin:0;cursor:pointer;color:#88dbdf;" id="show-text">mehr anzeigen</li>
+                                    </ul>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <th style="width:20%;">Geburtsname</th>
+                                 <td>Kwast, Jacob</td>
                               </tr>
                               <tr>
                                  <th style="width:20%;">Geburtsdatum</th>
@@ -113,11 +106,9 @@
                                  </td>
                               </tr>
                               <tr>
-                                 <th style="width:20%;">Kurzbiographie</th>
+                                 <th>Links</th>
                                  <td>
-                                    <ul style="padding:0;margin:0;">
-                                       <li style="margin:0;">https://permalink.geldersarchief.nl/401A18134BEF4216A244A708E44B64C9</li>
-                                    </ul>
+                                    <ul style="padding:0;margin-bottom:0;"></ul>
                                  </td>
                               </tr>
                            </table>
@@ -196,6 +187,17 @@
             </div>
          </div>
          <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;">
-            © Copyright OEAW | <a href="https://brahmsonline.acdh-dev.oeaw.ac.at/imprint">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="autocomplete-addon/autocomplete.js"></script></div>
-   </body>
+            © Copyright OEAW | <a href="https://brahmsonline.acdh-dev.oeaw.ac.at/imprint">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="autocomplete-addon/autocomplete.js"></script></div><script type="text/javascript">
+                                    $('#show-text').click(function () {
+                                        if ($('.about-text-hidden').hasClass('fade') == true) {
+                                            $('.about-text-hidden').removeClass('fade')
+                                            .addClass('active');
+                                            $(this).html('weniger anzeigen');
+                                        } else {
+                                            $('.about-text-hidden').removeClass('active')
+                                            .addClass('fade');
+                                            $(this).html('mehr anzeigen');
+                                        }  
+                                    });
+                                </script></body>
 </html>
