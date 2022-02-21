@@ -108,8 +108,8 @@
                         <td>
                             <a href="{$persUrl}" title="{./mei:persName[@type='main']}">
                                 <svg xmlns="http://www.w3.org/2000/svg" 
-                                    width="24" 
-                                    height="24" 
+                                    width="16" 
+                                    height="16" 
                                     fill="currentColor" 
                                     class="bi bi-box-arrow-in-right" 
                                     viewBox="0 0 16 16">
@@ -166,7 +166,7 @@
                                                     </div>
                                                     <div class="card-body">
                                                         <div class="table-responsive">
-                                                            <table class="table person-table">   
+                                                            <table class="table person-table" id="registerTableDetail">   
                                                                 <!--<xsl:if test="./mei:persName[@type='main']/text()">
                                                                     <tr>
                                                                         <th style="width:20%;">Name</th>
@@ -351,7 +351,7 @@
                                                                                 </xsl:if>
                                                                                 <xsl:if test="./mei:annot[@label='Kurzbiographie']/mei:p/@ref">
                                                                                     <xsl:for-each select="./mei:annot[@label='Kurzbiographie']/mei:p/@ref">
-                                                                                        <li style="margin:0;">
+                                                                                        <li style="margin-top:0;margin-bottom:.2em;">
                                                                                             <a title="Kurzbiographie" href="{.}">
                                                                                                 <xsl:value-of select="concat(
                                                                                                     'Kurzbiographie', ' Link ', position())"/>

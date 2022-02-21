@@ -14,6 +14,10 @@
             <xsl:value-of select=".//mei:titleStmt/mei:title[1]/text()"/>
         </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
+        <xsl:variable name="filename"
+            select="replace(
+                tokenize(document-uri(.), '/')[last()],
+                '.xml', '')"/>
         <html>
             <head>
                 <xsl:call-template name="html_head">
@@ -28,7 +32,23 @@
                     <div class="container-fluid">                                                 
                         <div class="card">
                             <div class="card-header">
-                                <h1><xsl:value-of select="concat(
+                                <h1 style="width:5%;display:inline-block;">                                                                                        
+                                    <a href="toc.html">
+                                        <svg xmlns="http://www.w3.org/2000/svg" 
+                                            width="24" 
+                                            height="24" 
+                                            fill="currentColor" 
+                                            class="bi bi-box-arrow-left" 
+                                            viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" 
+                                                d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                                            <path fill-rule="evenodd" 
+                                                d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                                        </svg>
+                                    </a>
+                                </h1>  
+                                <h1 style="width:90%;display:inline-block;">
+                                    <xsl:value-of select="concat(
                                     $doc_title,
                                     ' ',
                                     //mei:workList/mei:work/mei:identifier[1][@label='Opus-Nummer'])"/>
@@ -123,8 +143,7 @@
                                                     replace(
                                                     translate($doc_title, '.', '')
                                                     , ' ' , '-'),
-                                                    '-', $bibl, '.html')"/>
-                                                
+                                                    '-', $bibl, '.html')"/>                                               
                                                 
                                                 <tr>
                                                     <xsl:for-each select="ancestor::mei:event"> 
@@ -220,8 +239,8 @@
                                                 <td>
                                                     <a href="{$biblUrl}"> 
                                                         <svg xmlns="http://www.w3.org/2000/svg" 
-                                                            width="24" 
-                                                            height="24" 
+                                                            width="16" 
+                                                            height="16" 
                                                             fill="currentColor" 
                                                             class="bi bi-box-arrow-in-right" 
                                                             viewBox="0 0 16 16">
@@ -419,7 +438,16 @@
                                                                         <xsl:if test="./mei:geogName[@role='venue']/text()">
                                                                             <xsl:text>, </xsl:text>
                                                                             <xsl:value-of select="./mei:geogName[@role='venue']"/>                                                                                            
-                                                                        </xsl:if>    
+                                                                        </xsl:if>  
+                                                                        <xsl:if test="ancestor::mei:work/mei:title/text()">
+                                                                            <xsl:text>. </xsl:text>
+                                                                            <xsl:value-of select="ancestor::mei:work/mei:title"/>
+                                                                            <xsl:text> </xsl:text>
+                                                                            <xsl:value-of select="ancestor::mei:work/mei:identifier"/>
+                                                                            <xsl:text>. </xsl:text>
+                                                                        </xsl:if>                                                                        
+                                                                        <xsl:text>ssEnd</xsl:text>
+                                                                        <xsl:text> ssStart </xsl:text>   
                                                                         <xsl:if test="./mei:persName[1]/text()">
                                                                             <xsl:text> - </xsl:text>
                                                                             <xsl:value-of select="./mei:persName[1]"/>
@@ -428,68 +456,53 @@
                                                                             <xsl:text>(+ </xsl:text><xsl:value-of select="count(./mei:persName) - 1"/><xsl:text>)</xsl:text>
                                                                         </xsl:if>  
                                                                         <xsl:text>. </xsl:text>
-                                                                        <xsl:text>ssEnd</xsl:text>
-                                                                        <xsl:text> ssStart </xsl:text>
-                                                                        <xsl:if test="ancestor::mei:work/mei:title/text()">
-                                                                            <xsl:value-of select="ancestor::mei:work/mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="ancestor::mei:work/mei:identifier"/>
-                                                                            <xsl:text>; </xsl:text>
-                                                                        </xsl:if>                                                                                                                        
                                                                     </xsl:for-each>
-                                                                    <xsl:if test="./mei:relationList/mei:relation/@target">
-                                                                        <xsl:text> (</xsl:text>
-                                                                        <xsl:for-each select="./mei:relationList/mei:relation">
-                                                                            <xsl:variable name="reID" select="tokenize(@target, ' ')"/>
-                                                                            <xsl:variable name="rID" select="substring-after(subsequence($reID, 1,1), '#')"/>    
-                                                                            <!--<xsl:value-of select="count($reID)"/>-->
-                                                                            <xsl:if test="//id($rID)">
-                                                                                <xsl:for-each select="//id($rID)">
-                                                                                    <xsl:value-of select="./mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="./mei:identifier"/>
-                                                                                    <xsl:if test="position() != last()">
-                                                                                        <xsl:text>; </xsl:text>
-                                                                                    </xsl:if>
-                                                                                </xsl:for-each>
-                                                                            </xsl:if>
-                                                                            <xsl:if test="count($reID) = 2">
-                                                                                <xsl:variable name="rID2" select="substring-after(subsequence($reID, 2,1), '#')"/>                                                                                                                                                                
-                                                                                <xsl:if test="//id($rID2)">
-                                                                                    <xsl:for-each select="//id($rID2)">
+                                                                    <xsl:if test="not(//mei:expressionList/mei:expression)">
+                                                                        <xsl:if test="./mei:relationList/mei:relation/@target">
+                                                                            <xsl:for-each select="./mei:relationList/mei:relation">
+                                                                                <xsl:variable name="reID" select="tokenize(@target, ' ')"/>
+                                                                                <xsl:variable name="rID" select="substring-after(subsequence($reID, 1,1), '#')"/>    
+                                                                                <!--<xsl:value-of select="count($reID)"/>-->
+                                                                                <xsl:if test="//id($rID)">
+                                                                                    <xsl:for-each select="//id($rID)">
                                                                                         <xsl:value-of select="./mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="./mei:identifier"/>
                                                                                         <xsl:if test="position() != last()">
-                                                                                            <xsl:text>; </xsl:text>
+                                                                                            <xsl:text> </xsl:text>
                                                                                         </xsl:if>
-                                                                                    </xsl:for-each>
-                                                                                </xsl:if>                                                                                                                                                                
-                                                                            </xsl:if>
-                                                                            <xsl:if test="count($reID) = 3">
-                                                                                <xsl:variable name="rID2" select="substring-after(subsequence($reID, 2,1), '#')"/>                                                                                                                                                                
-                                                                                <xsl:if test="//id($rID2)">
-                                                                                    <xsl:for-each select="//id($rID2)">
-                                                                                        <xsl:value-of select="./mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="./mei:identifier"/>
-                                                                                        <xsl:if test="position() != last()">
-                                                                                            <xsl:text>; </xsl:text>
-                                                                                        </xsl:if>
-                                                                                    </xsl:for-each>
-                                                                                </xsl:if> 
-                                                                                <xsl:variable name="rID3" select="substring-after(subsequence($reID, 3,1), '#')"/>                                                                                                                                                                
-                                                                                <xsl:if test="//id($rID3)">
-                                                                                    <xsl:for-each select="//id($rID3)">
-                                                                                        <xsl:value-of select="./mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="./mei:identifier"/>
                                                                                     </xsl:for-each>
                                                                                 </xsl:if>
-                                                                            </xsl:if>                                                                 
-                                                                        </xsl:for-each>
-                                                                        <xsl:text>) </xsl:text>
-                                                                    </xsl:if>
-                                                                    <xsl:text> ssEnd</xsl:text>
-                                                                    <xsl:text> ssStart </xsl:text>
-                                                                    <xsl:if test="./mei:annot/mei:p[@label = 'Vollständiger_Nachweis']/text()">
-                                                                        <xsl:text>Quelle: </xsl:text>
-                                                                        <xsl:for-each select="./mei:annot/mei:p[@label = 'Vollständiger_Nachweis']">
-                                                                            <xsl:apply-templates/>
-                                                                            <xsl:text>. </xsl:text>                                                                                                
-                                                                        </xsl:for-each>  
-                                                                    </xsl:if>     
-                                                                    <xsl:text> ssEnd</xsl:text>
+                                                                                <xsl:if test="count($reID) = 2">
+                                                                                    <xsl:variable name="rID2" select="substring-after(subsequence($reID, 2,1), '#')"/>                                                                                                                                                                
+                                                                                    <xsl:if test="//id($rID2)">
+                                                                                        <xsl:for-each select="//id($rID2)">
+                                                                                            <xsl:value-of select="./mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="./mei:identifier"/>
+                                                                                            <xsl:if test="position() != last()">
+                                                                                                <xsl:text> </xsl:text>
+                                                                                            </xsl:if>
+                                                                                        </xsl:for-each>
+                                                                                    </xsl:if>                                                                                                                                                                
+                                                                                </xsl:if>
+                                                                                <xsl:if test="count($reID) = 3">
+                                                                                    <xsl:variable name="rID2" select="substring-after(subsequence($reID, 2,1), '#')"/>                                                                                                                                                                
+                                                                                    <xsl:if test="//id($rID2)">
+                                                                                        <xsl:for-each select="//id($rID2)">
+                                                                                            <xsl:value-of select="./mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="./mei:identifier"/>
+                                                                                            <xsl:if test="position() != last()">
+                                                                                                <xsl:text> </xsl:text>
+                                                                                            </xsl:if>
+                                                                                        </xsl:for-each>
+                                                                                    </xsl:if> 
+                                                                                    <xsl:variable name="rID3" select="substring-after(subsequence($reID, 3,1), '#')"/>                                                                                                                                                                
+                                                                                    <xsl:if test="//id($rID3)">
+                                                                                        <xsl:for-each select="//id($rID3)">
+                                                                                            <xsl:value-of select="./mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="./mei:identifier"/>
+                                                                                        </xsl:for-each>
+                                                                                    </xsl:if>
+                                                                                </xsl:if>                                                                 
+                                                                            </xsl:for-each>
+                                                                        </xsl:if>
+                                                                    </xsl:if>                                                                    
+                                                                    <xsl:text> ssEnd</xsl:text>                                                                    
                                                                 </xsl:attribute>
                                                             </meta>
                                                         </head>
@@ -501,91 +514,121 @@
                                                                     <div class="row">
                                                                         <div class="col-md-12">                                             
                                                                             <div class="card">
-                                                                                <div class="card-header">
-                                                                                    <h1><xsl:value-of select="./mei:title"/><xsl:text> </xsl:text></h1>                                                                                                        
+                                                                                <div class="card-header">                                                                                    
+                                                                                    <h1 style="width:5%;display:inline-block;">                                                                                        
+                                                                                        <a href="{$filename}.html">
+                                                                                            <svg xmlns="http://www.w3.org/2000/svg" 
+                                                                                                width="24" 
+                                                                                                height="24" 
+                                                                                                fill="currentColor" 
+                                                                                                class="bi bi-box-arrow-left" 
+                                                                                                viewBox="0 0 16 16">
+                                                                                                <path fill-rule="evenodd" 
+                                                                                                    d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                                                                                                <path fill-rule="evenodd" 
+                                                                                                    d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
+                                                                                            </svg>
+                                                                                        </a>
+                                                                                    </h1>                                                                                                                                                                                                                                                                                               
                                                                                 </div>
                                                                                 <div class="card-body">
                                                                                     <div class="table-responsive">
-                                                                                        <table class="table event-table">
-                                                                                            <xsl:for-each select="ancestor::mei:event">                                                                                                                    
-                                                                                                <tr>                                                                                                                        
-                                                                                                    <th style="width:20%">Datum</th>
-                                                                                                    <td>                                                                                                                            
-                                                                                                        <xsl:for-each select="./mei:date">
-                                                                                                            <xsl:apply-templates/>                                                                                                                                
-                                                                                                        </xsl:for-each>                                                                                                                                                                                                                                                            
-                                                                                                    </td>
-                                                                                                </tr>                                                                                                                    
-                                                                                                <tr>
-                                                                                                    <th style="width:20%">Ort</th>
-                                                                                                    <td>
-                                                                                                        <xsl:value-of select="./mei:geogName[@role='place']"/>                                                                                                                               
-                                                                                                    </td>
-                                                                                                </tr>
-                                                                                                <tr>                                                                                                                        
-                                                                                                    <th style="width:20%">Saal</th>
-                                                                                                    <td>
-                                                                                                        <xsl:value-of select="./mei:geogName[@role='venue']"/>                                                                                                                               
-                                                                                                    </td>                                                                                                                        
-                                                                                                </tr>
-                                                                                                <tr>
-                                                                                                    <th style="width:20%">Ausführende</th>                                                                                                                                                                                                                                                   
-                                                                                                    <xsl:for-each select="./mei:persName">
-                                                                                                        <td>
-                                                                                                            <xsl:apply-templates/><xsl:text> (</xsl:text><xsl:value-of select="@type"/><xsl:text>)</xsl:text>
+                                                                                        <table class="table event-table" id="workTableDetail">
+                                                                                            <xsl:for-each select="ancestor::mei:event">
+                                                                                                <xsl:if test="./mei:date">
+                                                                                                    <tr>                                                                                                                        
+                                                                                                        <th style="width:20%">Datum</th>
+                                                                                                        <td>                                                                                                                            
+                                                                                                            <xsl:for-each select="./mei:date">
+                                                                                                                <xsl:apply-templates/>                                                                                                                                
+                                                                                                            </xsl:for-each>                                                                                                                                                                                                                                                            
                                                                                                         </td>
-                                                                                                    </xsl:for-each>                                                                                                                                                                                                                                                                                                                                                                           
-                                                                                                </tr>                                                                                                                                                                                                                                        
+                                                                                                    </tr>
+                                                                                                </xsl:if>
+                                                                                                <xsl:if test="./mei:geogName[@role='place']">
+                                                                                                    <tr>
+                                                                                                        <th style="width:20%">Ort</th>
+                                                                                                        <td>
+                                                                                                            <xsl:value-of select="./mei:geogName[@role='place']"/>                                                                                                                               
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </xsl:if>
+                                                                                                <xsl:if test="./mei:geogName[@role='venue']">
+                                                                                                    <tr>                                                                                                                        
+                                                                                                        <th style="width:20%">Saal</th>
+                                                                                                        <td>
+                                                                                                            <xsl:value-of select="./mei:geogName[@role='venue']"/>                                                                                                                               
+                                                                                                        </td>                                                                                                                        
+                                                                                                    </tr>
+                                                                                                </xsl:if>
+                                                                                                <xsl:if test="./mei:persName">
+                                                                                                    <tr>
+                                                                                                        <th style="width:20%">Ausführende</th>     
+                                                                                                        <td>
+                                                                                                            <ul style="padding:0;margin-bottom:0;">
+                                                                                                                <xsl:for-each select="./mei:persName">
+                                                                                                                    <li style="margin-top:0;margin-bottom:.2em;">
+                                                                                                                        <xsl:apply-templates/>
+                                                                                                                        <xsl:text> (</xsl:text>
+                                                                                                                        <xsl:value-of select="@type"/>
+                                                                                                                        <xsl:text>)</xsl:text>
+                                                                                                                    </li>
+                                                                                                                </xsl:for-each>
+                                                                                                            </ul>
+                                                                                                        </td>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+                                                                                                    </tr>
+                                                                                                </xsl:if>                                                                                                                                                                                                                                
                                                                                             </xsl:for-each>
-                                                                                            <tr>
-                                                                                                <th style="width:20%">Werk</th>                                                                                                                                                                                                                                                  
-                                                                                                <td>
-                                                                                                    <xsl:value-of select="ancestor::mei:work/mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="ancestor::mei:work/mei:identifier"/>
-                                                                                                    <br/>                                                                                                                                                        
-                                                                                                    <xsl:variable name="source" select="./mei:biblList/mei:bibl/mei:relationList/mei:relation/@target"/>
-                                                                                                    <xsl:for-each select="./mei:relationList/mei:relation">
-                                                                                                        <xsl:variable name="reID" select="tokenize(@target, ' ')"/>
-                                                                                                        <xsl:variable name="rID" select="substring-after(subsequence($reID, 1,1), '#')"/>                                                                                                                                                         
-                                                                                                        
-                                                                                                        <xsl:if test="//id($rID)">
-                                                                                                            <xsl:for-each select="//id($rID)">
-                                                                                                                <xsl:value-of select="./mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="./mei:identifier"/>
-                                                                                                                <br/>
+                                                                                            <xsl:if test="not(//mei:expressionList/mei:expression)">
+                                                                                                <xsl:if test="./mei:relationList/mei:relation/@target">
+                                                                                                    <tr>
+                                                                                                        <th style="width:20%">Werk</th>  
+                                                                                                        <td>
+                                                                                                            <xsl:for-each select="./mei:relationList/mei:relation">
+                                                                                                                <xsl:variable name="reID" select="tokenize(@target, ' ')"/>
+                                                                                                                <xsl:variable name="rID" select="substring-after(subsequence($reID, 1,1), '#')"/>                                                                                                                                                         
+                                                                                                                
+                                                                                                                <xsl:if test="//id($rID)">
+                                                                                                                    <xsl:for-each select="//id($rID)">
+                                                                                                                        <xsl:value-of select="./mei:title"/>
+                                                                                                                        <xsl:text> </xsl:text>
+                                                                                                                        <xsl:value-of select="./mei:identifier"/>
+                                                                                                                        <br/>
+                                                                                                                    </xsl:for-each>
+                                                                                                                </xsl:if>
+                                                                                                                <xsl:if test="count($reID) = 2">
+                                                                                                                    <xsl:variable name="rID2" select="substring-after(subsequence($reID, 2,1), '#')"/>                                                                                                                                                                
+                                                                                                                    <xsl:if test="//id($rID2)">
+                                                                                                                        <xsl:for-each select="//id($rID2)">
+                                                                                                                            <xsl:value-of select="./mei:title"/>
+                                                                                                                            <xsl:text> </xsl:text>
+                                                                                                                            <xsl:value-of select="./mei:identifier"/>
+                                                                                                                            <br/>
+                                                                                                                        </xsl:for-each>
+                                                                                                                    </xsl:if>                                                                                                                                                                
+                                                                                                                </xsl:if>
+                                                                                                                <xsl:if test="count($reID) = 3">
+                                                                                                                    <xsl:variable name="rID3" select="substring-after(subsequence($reID, 3,1), '#')"/>                                                                                                                                                                
+                                                                                                                    <xsl:if test="//id($rID3)">
+                                                                                                                        <xsl:for-each select="//id($rID3)">
+                                                                                                                            <xsl:value-of select="./mei:title"/>
+                                                                                                                            <xsl:text> </xsl:text>
+                                                                                                                            <xsl:value-of select="./mei:identifier"/>
+                                                                                                                        </xsl:for-each>
+                                                                                                                    </xsl:if>
+                                                                                                                </xsl:if>       
                                                                                                             </xsl:for-each>
-                                                                                                        </xsl:if>
-                                                                                                        <xsl:if test="count($reID) = 2">
-                                                                                                            <xsl:variable name="rID2" select="substring-after(subsequence($reID, 2,1), '#')"/>                                                                                                                                                                
-                                                                                                            <xsl:if test="//id($rID2)">
-                                                                                                                <xsl:for-each select="//id($rID2)">
-                                                                                                                    <xsl:value-of select="./mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="./mei:identifier"/>
-                                                                                                                    <br/>
-                                                                                                                </xsl:for-each>
-                                                                                                            </xsl:if>                                                                                                                                                                
-                                                                                                        </xsl:if>
-                                                                                                        <xsl:if test="count($reID) = 3">
-                                                                                                            <xsl:variable name="rID3" select="substring-after(subsequence($reID, 3,1), '#')"/>                                                                                                                                                                
-                                                                                                            <xsl:if test="//id($rID3)">
-                                                                                                                <xsl:for-each select="//id($rID3)">
-                                                                                                                    <xsl:value-of select="./mei:title"/><xsl:text>, </xsl:text><xsl:value-of select="./mei:identifier"/>
-                                                                                                                </xsl:for-each>
-                                                                                                            </xsl:if>
-                                                                                                        </xsl:if>       
-                                                                                                    </xsl:for-each>                                                                                                                                                                                                                                                                           
-                                                                                                </td>
-                                                                                            </tr>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </xsl:if>
+                                                                                            </xsl:if>  
                                                                                             <tr>
-                                                                                                <th style="width:20%">Journal</th>
+                                                                                                <th style="width:20%">Vollständiger Nachweis (Link)</th>                                                                                                                    
                                                                                                 <td>
-                                                                                                    <ul style="padding:0;margin:0;">
-                                                                                                        <xsl:for-each select="./mei:biblScope">
-                                                                                                            <li style="margin:0;">
-                                                                                                                <span style="text-transform:capitalize;">
-                                                                                                                    <xsl:value-of select="@unit"/>
-                                                                                                                </span>: <xsl:value-of select="."/>
-                                                                                                            </li>
-                                                                                                        </xsl:for-each>
-                                                                                                    </ul>
-                                                                                                </td>                                                                                                                                                                                                                                        
+                                                                                                    <a target="_blank" href="{./mei:ptr[@label='ANNO-ÖNB']/@target}" title="{./mei:ptr[@label='ANNO-ÖNB']/@label}">
+                                                                                                        <xsl:value-of select="./mei:annot/mei:p[@label='Vollständiger_Nachweis']"/>                                                                                                        
+                                                                                                    </a>
+                                                                                                </td>
                                                                                             </tr>
                                                                                             <tr>
                                                                                                 <th style="width:20%">Weitere Informationen</th>
@@ -596,21 +639,7 @@
                                                                                                         </xsl:for-each>
                                                                                                     </ul>
                                                                                                 </td>
-                                                                                            </tr>
-                                                                                            <tr>
-                                                                                                <th style="width:20%">Vollständiger Nachweis</th>                                                                                                                    
-                                                                                                <td>
-                                                                                                    <a target="_blank" href="{./mei:ptr[@label='ANNO-ÖNB']/@target}" title="{./mei:ptr[@label='ANNO-ÖNB']/@label}">
-                                                                                                        <xsl:value-of select="./mei:annot/mei:p[@label='Vollständiger_Nachweis']"/>
-                                                                                                        <span style="margin-left:1em;">
-                                                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
-                                                                                                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
-                                                                                                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
-                                                                                                            </svg>
-                                                                                                        </span>
-                                                                                                    </a>
-                                                                                                </td>
-                                                                                            </tr>
+                                                                                            </tr>                                                                                            
                                                                                         </table>
                                                                                     </div>                                                                                                        
                                                                                 </div>
