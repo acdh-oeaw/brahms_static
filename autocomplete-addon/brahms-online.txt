@@ -410,7 +410,6 @@ static-search/stems/datum.json
 static-search/stems/david.json
 static-search/stems/denkmal.json
 static-search/stems/denkst.json
-static-search/stems/detail.json
 static-search/stems/deutschen.json
 static-search/stems/develop.json
 static-search/stems/digit.json
@@ -974,7 +973,6 @@ static-search/stems/wangen.json
 static-search/stems/wehe.json
 static-search/stems/weid.json
 static-search/stems/werk.json
-static-search/stems/werkverzeichni.json
 static-search/stems/westprignitz.json
 static-search/stems/weyring.json
 static-search/stems/wiederholt.json

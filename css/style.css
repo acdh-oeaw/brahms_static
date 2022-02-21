@@ -8,6 +8,11 @@ body {
     color: blue;
 }*/
 
+.tei-logo {
+    margin-top:2em;
+    padding-right:1em;
+}
+
 .fade {
     display: none;
 }
