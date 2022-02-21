@@ -31,6 +31,11 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt> -->
+    <copy todir="${target}" flatten="true">
+        <fileset dir="data/editions">
+            <include name="*.xml"/>
+        </fileset>
+    </copy>
     <replace dir="${target}" value="">
         <include name="*.html"/>
         <replacetoken> xmlns=""</replacetoken>

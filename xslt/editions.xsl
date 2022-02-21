@@ -29,7 +29,14 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container-fluid">                                                 
+                    <div class="container-fluid">    
+                        <div class="tei-logo">                           
+                            <h1 style="text-align:right!important;">
+                                <a href="{tokenize(document-uri(.))[last()]}?format=raw" title="TEI Source">
+                                    <img alt="TEI Logo" src="images/TEI_Logo_36px.png" id="tei-logo"/>
+                                </a>
+                            </h1>                         
+                        </div>
                         <div class="card">
                             <div class="card-header">
                                 <h1 style="width:5%;display:inline-block;">                                                                                        
@@ -52,7 +59,7 @@
                                     $doc_title,
                                     ' ',
                                     //mei:workList/mei:work/mei:identifier[1][@label='Opus-Nummer'])"/>
-                                </h1>                                
+                                </h1>   
                                 <xsl:if test="//mei:expressionList or //mei:perfResList or //mei:componentList">  
                                     <div class="text-center"
                                          style="margin-top: 2em;">
