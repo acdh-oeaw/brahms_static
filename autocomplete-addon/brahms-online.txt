@@ -1,4 +1,3 @@
-static-search/stems/0031.json
 static-search/stems/01.01.json
 static-search/stems/01.02.json
 static-search/stems/01.03.json
@@ -78,7 +77,6 @@ static-search/stems/113.json
 static-search/stems/114.json
 static-search/stems/117.json
 static-search/stems/118.json
-static-search/stems/118514253.json
 static-search/stems/12.01.json
 static-search/stems/12.03.json
 static-search/stems/12.07.json
@@ -351,7 +349,6 @@ static-search/stems/ankündigt.json
 static-search/stems/anlässlich.json
 static-search/stems/anmerkung.json
 static-search/stems/anna.json
-static-search/stems/anno-önb.json
 static-search/stems/anton.json
 static-search/stems/anzeig.json
 static-search/stems/anzeigen.json
@@ -458,7 +455,6 @@ static-search/stems/centr.json
 static-search/stems/cesek.json
 static-search/stems/charlott.json
 static-search/stems/charlottenburg.json
-static-search/stems/chor.json
 static-search/stems/chorgesangschulen.json
 static-search/stems/chormeist.json
 static-search/stems/chronologi.json
@@ -467,7 +463,6 @@ static-search/stems/cilli.json
 static-search/stems/clara.json
 static-search/stems/classisch.json
 static-search/stems/clavier.json
-static-search/stems/close.json
 static-search/stems/club.json
 static-search/stems/componisten.json
 static-search/stems/composit.json
@@ -476,10 +471,8 @@ static-search/stems/concordia-club.json
 static-search/stems/concordia.json
 static-search/stems/content.json
 static-search/stems/copyright.json
-static-search/stems/corresp.json
 static-search/stems/cotta'schen.json
 static-search/stems/cultur.json
-static-search/stems/d-nb.json
 static-search/stems/datenbank.json
 static-search/stems/datenbanksuch.json
 static-search/stems/datum.json
@@ -492,12 +485,10 @@ static-search/stems/develop.json
 static-search/stems/digit.json
 static-search/stems/digitalen.json
 static-search/stems/digitalisat.json
-static-search/stems/diplomat.json
 static-search/stems/direktor.json
 static-search/stems/dirig.json
 static-search/stems/divers.json
 static-search/stems/door.json
-static-search/stems/dreistimmig.json
 static-search/stems/dresden.json
 static-search/stems/drächsler.json
 static-search/stems/duesberg-quartett.json
@@ -533,7 +524,6 @@ static-search/stems/eschenbachgass.json
 static-search/stems/etc.json
 static-search/stems/exkurs.json
 static-search/stems/express.json
-static-search/stems/expresss.json
 static-search/stems/familiennam.json
 static-search/stems/fassung.json
 static-search/stems/fassungen.json
@@ -570,7 +560,6 @@ static-search/stems/fälschlich.json
 static-search/stems/gabriel.json
 static-search/stems/gartenbaugesellschaft.json
 static-search/stems/gattin.json
-static-search/stems/gattung.json
 static-search/stems/geburtsdatum.json
 static-search/stems/geburtsnam.json
 static-search/stems/geburtsort.json
@@ -601,7 +590,6 @@ static-search/stems/gesungen.json
 static-search/stems/gesäng.json
 static-search/stems/gewählt.json
 static-search/stems/gezwungen.json
-static-search/stems/gnd.json
 static-search/stems/goldschmidt.json
 static-search/stems/graz.json
 static-search/stems/greiz.json
@@ -650,8 +638,6 @@ static-search/stems/hofoperntheat.json
 static-search/stems/hohem.json
 static-search/stems/horn.json
 static-search/stems/hornist.json
-static-search/stems/host.json
-static-search/stems/https.json
 static-search/stems/human.json
 static-search/stems/hummer.json
 static-search/stems/humoristischen.json
@@ -662,8 +648,6 @@ static-search/stems/ignaz.json
 static-search/stems/ilona.json
 static-search/stems/impressum.json
 static-search/stems/imprint.json
-static-search/stems/info.json
-static-search/stems/inform.json
 static-search/stems/informationen.json
 static-search/stems/innen.json
 static-search/stems/internationalen.json
@@ -671,7 +655,6 @@ static-search/stems/interpret.json
 static-search/stems/interpreten.json
 static-search/stems/irma.json
 static-search/stems/irrtümlich.json
-static-search/stems/isrealizationof.json
 static-search/stems/issu.json
 static-search/stems/jacob.json
 static-search/stems/jame.json
@@ -689,7 +672,6 @@ static-search/stems/joël.json
 static-search/stems/jubiläum.json
 static-search/stems/jubiläumstheat.json
 static-search/stems/julius.json
-static-search/stems/jump.json
 static-search/stems/jun.json
 static-search/stems/jung.json
 static-search/stems/junkermann'sch.json
@@ -714,9 +696,7 @@ static-search/stems/klavier.json
 static-search/stems/klaviertrio.json
 static-search/stems/kling.json
 static-search/stems/kollmitz.json
-static-search/stems/komponenten.json
 static-search/stems/komponentenlist.json
-static-search/stems/komponist.json
 static-search/stems/konkret.json
 static-search/stems/konrad.json
 static-search/stems/kontakt.json
@@ -817,6 +797,7 @@ static-search/stems/mond.json
 static-search/stems/morgen-press.json
 static-search/stems/morgen.json
 static-search/stems/morgenblatt.json
+static-search/stems/morgenwiegen.json
 static-search/stems/mozart.json
 static-search/stems/musik.json
 static-search/stems/musikalisch.json
@@ -856,8 +837,6 @@ static-search/stems/oebl.json
 static-search/stems/oeml.json
 static-search/stems/oktob.json
 static-search/stems/olga.json
-static-search/stems/opus-numm.json
-static-search/stems/opus.json
 static-search/stems/opusnumm.json
 static-search/stems/orgelkonzert.json
 static-search/stems/ort.json
@@ -874,10 +853,7 @@ static-search/stems/paul.json
 static-search/stems/paula.json
 static-search/stems/paulin.json
 static-search/stems/paumgartn.json
-static-search/stems/perform.json
 static-search/stems/personen.json
-static-search/stems/personenregist.json
-static-search/stems/personenregister-id.json
 static-search/stems/pflieger.json
 static-search/stems/philipp.json
 static-search/stems/pianist.json
@@ -1051,10 +1027,8 @@ static-search/stems/tausig-vrab.json
 static-search/stems/tausig.json
 static-search/stems/tavari.json
 static-search/stems/technischen.json
-static-search/stems/tei.json
 static-search/stems/temesvar.json
 static-search/stems/terezín.json
-static-search/stems/the.json
 static-search/stems/theaterausstellung.json
 static-search/stems/theil.json
 static-search/stems/themen.json
@@ -1068,7 +1042,6 @@ static-search/stems/todessehnen.json
 static-search/stems/tonkunst.json
 static-search/stems/tonkünstlerverein.json
 static-search/stems/tonmalereien.json
-static-search/stems/top.json
 static-search/stems/treue.json
 static-search/stems/trio-soiré.json
 static-search/stems/trio.json
@@ -1112,7 +1085,6 @@ static-search/stems/vielseitig.json
 static-search/stems/vierhändig.json
 static-search/stems/vierstimmig.json
 static-search/stems/vierstimmigen.json
-static-search/stems/view.json
 static-search/stems/violin.json
 static-search/stems/violinist.json
 static-search/stems/violinisten.json
@@ -1168,13 +1140,11 @@ static-search/stems/wol.json
 static-search/stems/wolff-stomerse.json
 static-search/stems/wolff.json
 static-search/stems/woo.json
-static-search/stems/work.json
 static-search/stems/wort.json
 static-search/stems/wunsch.json
 static-search/stems/wurm.json
 static-search/stems/würzburg.json
 static-search/stems/wüßt.json
-static-search/stems/xml.json
 static-search/stems/york.json
 static-search/stems/yorker.json
 static-search/stems/zagreb.json

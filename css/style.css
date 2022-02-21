@@ -95,6 +95,21 @@ div.opusInfo, div.alphabetInfo {
     border-top: 0;
 }
 
+#workTable tbody tr td {
+    vertical-align: middle;
+    line-height: 1em;
+    padding-top: .3em;
+    padding-bottom: .3em;
+}
+
+#workTable tbody tr td ul {
+    margin-bottom: 0;
+}
+
+#workTable tbody tr td ul li {
+    margin-top: 0;
+}
+
 #registerTable tbody tr td {
     vertical-align: middle;
     line-height: 1em;
