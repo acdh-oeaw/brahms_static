@@ -456,7 +456,6 @@
                                                                         <xsl:text>ssEnd</xsl:text>
                                                                         <xsl:text> ssStart </xsl:text>   
                                                                         <xsl:if test="./mei:persName[1]/text()">
-                                                                            <xsl:text> - </xsl:text>
                                                                             <xsl:value-of select="./mei:persName[1]"/>
                                                                         </xsl:if>
                                                                         <xsl:if test="count(./mei:persName) > 1">
@@ -508,7 +507,18 @@
                                                                                 </xsl:if>                                                                 
                                                                             </xsl:for-each>
                                                                         </xsl:if>
-                                                                    </xsl:if>                                                                    
+                                                                    </xsl:if>    
+                                                                    <xsl:if test="//mei:componentList">
+                                                                        <xsl:for-each select="./mei:work">
+                                                                            <xsl:variable name="filter-id" select="tokenize(@xml:id, '_')"/>
+                                                                            <xsl:choose>
+                                                                                <xsl:when test="count($filter-id) = 2">
+                                                                                    <xsl:value-of select="./mei:title"/>
+                                                                                    <xsl:text> </xsl:text>  
+                                                                                </xsl:when>
+                                                                            </xsl:choose>
+                                                                        </xsl:for-each>
+                                                                    </xsl:if>
                                                                     <xsl:text> ssEnd</xsl:text>                                                                    
                                                                 </xsl:attribute>
                                                             </meta>
