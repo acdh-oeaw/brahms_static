@@ -85,11 +85,8 @@
                    </tr>            
                 </thead>
                 <tbody>
-                    <xsl:for-each select="./mei:persName">
-                        <xsl:variable name="persUrl" 
-                            select="concat(
-                            replace(./mei:persName[@type='main'], ', ', '-'), 
-                            '-', @xml:id, '.html')"/>
+                    <xsl:for-each select="./mei:persName">                        
+                        <xsl:variable name="persUrl" select="./mei:identifier[@label='Register-ID']/@codedval"/>
                         <tr>
                             <td>
                                 <xsl:for-each select="./mei:persName[@type='main']">
@@ -125,7 +122,7 @@
                                 </xsl:for-each>    
                             </td>
                             <td>
-                                <a href="{$persUrl}" title="{./mei:persName[@type='main']}">
+                                <a href="{$persUrl}.html" title="{./mei:persName[@type='main']}">
                                     <svg xmlns="http://www.w3.org/2000/svg" 
                                         width="16" 
                                         height="16" 
@@ -141,7 +138,7 @@
                             </td>
                         </tr>              
                         <xsl:variable name="registerUri" select="replace(tokenize(document-uri(/), '/')[last()], '.xml', '.html')"/>
-                        <xsl:result-document href="{$persUrl}">
+                        <xsl:result-document href="{$persUrl}.html">
                             <xsl:variable name="doc_title_3">
                                 <xsl:value-of select="concat(
                                     ancestor::mei:list/mei:head, 

@@ -583,8 +583,12 @@
                                                                                                         <td>
                                                                                                             <ul style="padding:0;margin-bottom:0;">
                                                                                                                 <xsl:for-each select="./mei:persName">
+                                                                                                                    <xsl:variable name="persUrl" select="tokenize(@corresp, '/')[last()]"/>
+                                                                                                                    
                                                                                                                     <li style="margin-top:0;margin-bottom:.2em;">
-                                                                                                                        <xsl:apply-templates/>
+                                                                                                                        <a href="{$persUrl}.html" title=".">
+                                                                                                                            <xsl:apply-templates/>
+                                                                                                                        </a>
                                                                                                                         <xsl:text> (</xsl:text>
                                                                                                                         <xsl:value-of select="@type"/>
                                                                                                                         <xsl:text>)</xsl:text>
