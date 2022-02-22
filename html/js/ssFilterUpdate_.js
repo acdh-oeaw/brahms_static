@@ -60,13 +60,6 @@ function updateFilters() {
             $this.remove();
         }
     });
-    var legend = $( ".ssFeatFilters fieldset legend" );
-    legend.each( function( index ) {
-        // console.log( index );
-        var $this = $( this );
-        var fieldset = getFieldset( $this, "simpleFilter3" );
-        fieldset.addClass("fade ssDropdownFilter");
-    });
     var clearButton = $("#ssForm .clearButton");
     clearButton.append(`
         <button id="ssShow" onclick="showFilters()">advanced filter</button>
@@ -155,14 +148,3 @@ function showFilters() {
         .addClass("fade");
     }
 }
-
-function getItem(el, id) {
-    var val = el.value;
-    console.log(id);
-    var fieldset = $(`#${id}`);
-    var input = fieldset.children("input");
-    var e = $.Event("keydown");
-    input
-    .val(val)
-    .trigger(e);
-} 

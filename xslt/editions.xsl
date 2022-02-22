@@ -282,7 +282,7 @@
                                                             </xsl:for-each>
                                                             <xsl:if test="ancestor::mei:event/mei:geogName[@role='place' or @role='venue']/text()">
                                                                 <xsl:for-each select="ancestor::mei:event/mei:geogName[@role='place'or @role='venue']">
-                                                                    <meta name="002 Veranstaltungsort" class="staticSearch_desc">
+                                                                    <meta name="002 Veranstaltungsort" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="."/>
                                                                         </xsl:attribute>
@@ -291,12 +291,12 @@
                                                             </xsl:if>                                                                            
                                                             <xsl:if test="ancestor::mei:event/mei:persName/text()">
                                                                 <xsl:for-each select="ancestor::mei:event/mei:persName">
-                                                                    <meta name="003 Beteiligte Personen / Körperschaften" class="staticSearch_desc">
+                                                                    <meta name="003 Beteiligte Personen / Körperschaften" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="."/>
                                                                         </xsl:attribute>
                                                                     </meta>
-                                                                    <meta name="004 Personen beteiligt als / mit" class="staticSearch_desc">
+                                                                    <meta name="004 Personen beteiligt als / mit" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="@type"/>
                                                                         </xsl:attribute>
@@ -305,7 +305,7 @@
                                                             </xsl:if>                                                                                
                                                             <xsl:if test="ancestor::mei:work">
                                                                 <xsl:for-each select="ancestor::mei:work">
-                                                                    <meta name="005 Werk" class="staticSearch_desc">
+                                                                    <meta name="005 Werk" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="./mei:title"/>
                                                                             <xsl:text>, </xsl:text>
@@ -316,7 +316,7 @@
                                                             </xsl:if>
                                                             <xsl:if test="ancestor::mei:work//mei:perfMedium">
                                                                 <xsl:for-each select="ancestor::mei:work//mei:perfMedium/mei:perfResList/mei:perfResList/mei:perfRes">
-                                                                    <meta name="006 Gattung" class="staticSearch_desc">
+                                                                    <meta name="006 Gattung" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="."/>
                                                                         </xsl:attribute>
@@ -325,7 +325,7 @@
                                                             </xsl:if>
                                                             <xsl:if test="./mei:annot/mei:p[@label='Vollständiger_Nachweis']/text()">                                                                                    
                                                                 <xsl:for-each select="./mei:annot/mei:p[@label='Vollständiger_Nachweis'] | parent::mei:annot[mei:p[@label='Vollständiger_Nachweis'] != current()/mei:p[@label='Vollständiger_Nachweis']]">
-                                                                    <meta name="007 Quelle" class="staticSearch_desc">
+                                                                    <meta name="007 Quelle" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="."/>                                                                                                                            
                                                                         </xsl:attribute>
@@ -334,7 +334,7 @@
                                                             </xsl:if>
                                                             <xsl:if test="./mei:term/text()">
                                                                 <xsl:for-each select="./mei:term">
-                                                                    <meta name="008 Rubrik" class="staticSearch_desc">
+                                                                    <meta name="008 Rubrik" class="staticSearch_feat">
                                                                         <xsl:if test=". = 'Rubrik_1' or . = 'Rubrik_2'">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Werkkritik</xsl:text>                                                                                                                           
@@ -410,7 +410,7 @@
                                                             </xsl:if>
                                                             <xsl:if test="./mei:relatedItem/mei:bibl/mei:title/text()">
                                                                 <xsl:for-each select="./mei:relatedItem/mei:bibl">
-                                                                    <meta name="009 Verfasser" class="staticSearch_desc">
+                                                                    <meta name="009 Verfasser" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="./mei:title"/>                                                                                                                            
                                                                         </xsl:attribute>
