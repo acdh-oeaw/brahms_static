@@ -204,6 +204,17 @@ div.opusInfo, div.alphabetInfo {
     margin-top: 0;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.table-responsive::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.table-responsive {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 .col-md-12 > span {
     margin-left: .5em;
 }

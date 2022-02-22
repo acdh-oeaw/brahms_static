@@ -27,7 +27,7 @@
                         select="'Personen &amp; Körperschaften'"/>
                 </xsl:call-template>
                 <style>
-                    
+
                 </style>
             </head>            
             
@@ -65,7 +65,8 @@
     </xsl:template>
 
     <xsl:template match="mei:li">
-        <div class="table-responsive">
+        <div class="table-responsive"
+             style="scroll:none;">
             <table id="registerTable" class="table table-striped display">            
                 <thead>                
                    <tr>
@@ -104,9 +105,21 @@
                             </td>
                             <td>
                                 <xsl:for-each select="./mei:catchwords">
+                                    <xsl:variable name="count-terms" select="count(./mei:term)"/>
                                     <ul>
                                         <xsl:for-each select="./mei:term">
-                                            <li><xsl:value-of select="."/></li>
+                                            <xsl:choose>
+                                                <xsl:when test="$count-terms > 1">
+                                                    <li style="margin-bottom:.3em;">
+                                                        <xsl:value-of select="."/>
+                                                    </li>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <li>
+                                                        <xsl:value-of select="."/>
+                                                    </li>
+                                                </xsl:otherwise>
+                                            </xsl:choose>                                          
                                         </xsl:for-each>  
                                     </ul>
                                 </xsl:for-each>    
@@ -198,16 +211,19 @@
                                                                         </tr>
                                                                     </xsl:if>
                                                                     <xsl:if test="./mei:persName[@type='alternative']/text()">
+                                                                        <xsl:variable name="count-persons"
+                                                                                      select="count(./mei:persName[@type='alternative'])"/>
                                                                         <tr>
                                                                             <th style="width:20%;">Name (alternativ)</th>
                                                                             <td>
                                                                                 <ul style="padding:0;margin:0;">
                                                                                     <xsl:for-each select="./mei:persName[@type='alternative']">
                                                                                         <xsl:choose>
-                                                                                            <xsl:when test="position() > 1">
-                                                                                                <li style="margin:0;" class="fade about-text-hidden">
+                                                                                            <xsl:when test="position() != 1">
+                                                                                                <li style="margin:0;"
+                                                                                                    class="fade about-text-hidden">
                                                                                                     <xsl:value-of select="."/>
-                                                                                                </li>                                                                                            
+                                                                                                </li>                                                                                                
                                                                                             </xsl:when>
                                                                                             <xsl:otherwise>
                                                                                                 <li style="margin:0;">
@@ -215,9 +231,11 @@
                                                                                                 </li>                                                                                            
                                                                                             </xsl:otherwise>
                                                                                         </xsl:choose>                                                                                    
-                                                                                    </xsl:for-each>
-                                                                                    <li style="margin:0;cursor:pointer;color:#88dbdf;" 
-                                                                                        id="show-text">mehr anzeigen</li>
+                                                                                    </xsl:for-each>  
+                                                                                    <xsl:if test="$count-persons != 1">
+                                                                                        <li style="margin:0;cursor:pointer;color:#88dbdf;"
+                                                                                            id="show-text">mehr anzeigen</li>
+                                                                                    </xsl:if>
                                                                                 </ul>                                                                            
                                                                             </td>
                                                                         </tr>
