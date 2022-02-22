@@ -10,12 +10,12 @@
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="partials/html_footer.xsl"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title" select="'Brahms Datenbanksuche'"/>
+        <xsl:variable name="doc_title" select="'Datenbanksuche'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml">
             <head>
                 <xsl:call-template name="html_head">
-                    <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                    <xsl:with-param name="html_title" select="$doc_title"/>
                 </xsl:call-template>
             </head>  
             
@@ -37,7 +37,7 @@
                     <xsl:call-template name="html_footer"/>
                     
                 </div>
-                <script type="text/javascript" src="js/ssFilterUpdate.js"></script>
+                <script type="text/javascript" src="js/ssFilterUpdate.js"/>
             </body>            
         </html>
     </xsl:template>

@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:xl="http://www.w3.org/1999/xlink"
+   meiversion="4.0.0" xml:id="mei_5607df02-a8c8-4760-a721-4336707cc0da">
+   <meiHead meiversion="4.0.0">
+      <fileDesc>
+         <titleStmt>
+            <title>Beispieldatei für Registereinträge – Person</title>
+            <respStmt>
+               <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+               <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+               <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+               <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt/>
+         <seriesStmt>
+            <title>Richtlinienmodelle</title>
+            <identifier type="file_collection">Beispieldateien</identifier>
+         </seriesStmt>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Alle Personen werden in einer Datei als Listeneinträge im music-Bereich angelegt und
+               bearbeitet.</p>
+         </projectDesc>
+      </encodingDesc>
+      <workList>
+         <work>
+            <title/>
+         </work>
+      </workList>
+      <manifestationList>
+         <manifestation/>
+      </manifestationList>
+      <revisionDesc>
+         <change isodate="2021-04-08T17:36:25.941Z">
+            <changeDesc>
+               <p>Datei erstellt</p>
+            </changeDesc>
+         </change>
+      </revisionDesc>
+   </meiHead>
+   <music meiversion="4.0.0">
+      <body>
+         <div>
+            <list>
+               <head>Personeneintrag</head>
+               <li>
+                  <persName xml:id="d1e985">
+                     <persName type="main">Brahms, Johannes</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0031">0031</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">118514253</identifier>
+                     <famName>Brahms</famName>
+                     <foreName>Johannes</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1833-05-07">07.05.1833</date>
+                           <geogName>Hamburg</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1897-04-03">03.04.1897</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_B/Brahms_Johannes.xml"/>
+                     <ptr label="OeBL" target="https://www.biographien.ac.at/oebl/oebl_B/Brahms_Johannes_1833_1897.xml"/>
+                     <ptr label="BMLO" target="https://bmlo.de/Q/GND=118514253"/>
+                     <ptr label="ABLO" target="http://www.bruckner-online.at/ABLO_d1e619"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e1210">
+                     <persName type="main">Brüll, Ignaz</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0038">0038</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">118660284</identifier>
+                     <famName>Brüll</famName>
+                     <foreName>Ignaz</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1846-11-07">07.11.1846</date>
+                           <geogName>Proßnitz/Mähren</geogName>
+                           <geogName type="alternative">Prostějov</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1907-09-17">17.09.1907</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_B/Bruell_Ignaz.xml"/>
+                     <ptr label="OeBL"
+                        target="https://www.biographien.ac.at/oebl/oebl_B/Bruell_Ignaz_1846_1907.xml"/>
+                     <ptr label="BMLO" target="https://bmlo.de/Q/GND=118660284"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e2297">
+                     <persName type="main">Epstein, Richard</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0073">0073</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">130243019</identifier>
+                     <famName>Epstein</famName>
+                     <foreName>Richard</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1869-01-26">26.01.1869</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1919-08-01">01.08.1919</date>
+                           <geogName>New York</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_E/Epstein_Familie.xml"/>
+                     <ptr label="OeBL"
+                        target="https://www.biographien.ac.at/oebl/oebl_E/Epstein_Richard_1869_1919.xml"/>
+                     <ptr label="BMLO"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e4539">
+                     <persName type="main">Kwast, James</persName>
+                     <persName type="alternative">Kwast, Jacob</persName>
+                     <persName type="birth">Kwast, Jacob</persName>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0144">0144</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">116633158</identifier>
+                     <famName>Kwast</famName>
+                     <foreName>James</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1852-11-23">23.11.1852</date>
+                           <geogName>Nijkerk</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1927-10-31">31.10.1927</date>
+                           <geogName>Berlin</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="OeBL" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p>https://permalink.geldersarchief.nl/401A18134BEF4216A244A708E44B64C9</p>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von RQ am 29.07.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e483">
+                     <persName type="main">Baumayer, Marie</persName>
+                     <persName type="alternative">Baumeier, Marie</persName>
+                     <persName type="alternative">Baumeyer, Marie</persName>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0015">0015</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">130099104</identifier>
+                     <famName>Baumeyer</famName>
+                     <foreName>Marie</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1851-07-12">12.07.1851</date>
+                           <geogName>Celje</geogName>
+                           <geogName type="alternative">Cilli</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1931-01-23">23.01.1931</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="https://www.musiklexikon.ac.at/ml/musik_B/Baumayer_Marie.xml"/>
+                     <ptr label="OeBL" target="https://biographien.ac.at/ID-0.3020920-1"/>
+                     <ptr label="ABLO" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p>https://www.sophie-drinker-institut.de/baumayer-marie</p>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>vgl. Eisenberg 1889, S. 10 (https://books.google.at/books/about/Das_geistige_Wien.html?id=mt0yAQAAMAAJ&amp;printsec=frontcover&amp;source=kp_read_button&amp;hl=de&amp;redir_esc=y#v=onepage&amp;q=baumayer&amp;f=false)</p>
+                        <p>Eintrag angelegt von CH am 17.08.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e1952">
+                     <persName type="main">Door, Anton</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <persName type="baptismal">Doctor, Anton</persName>
+                     <identifier label="Register-ID" codedval="0062">0062</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">116179570</identifier>
+                     <famName>Door</famName>
+                     <foreName>Anton</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1833-06-20">20.06.1833</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1919-11-07">07.11.1919</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_D/Door_Anton.xml"/>
+                     <ptr label="OeBL" target="#"/>
+                     <ptr label="ABLO" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von CH am 17.07.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e8842">
+                     <persName type="main">Wirth, Emanuel</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0282">0282</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">11741204X</identifier>
+                     <famName/>
+                     <foreName/>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1842-10-18">18.10.1842</date>
+                           <geogName>Luditz (Böhmen)</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1923-01-05">05.01.1923</date>
+                           <geogName>Berlin</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Violinist_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="OeBL" target="#"/>
+                     <ptr label="ABLO" target="#"/>
+                     <annot label="Kurzbiographie"/>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von CH am 23.07.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e6323">
+                     <persName type="main">Popper, David</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0201">0201</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">116268409</identifier>
+                     <famName>Popper</famName>
+                     <foreName>David</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1843-06-18">18.06.1843</date>
+                           <geogName>Prag</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1913-08-07">07.08.1913</date>
+                           <geogName>Baden</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Violoncellist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_P/Popper_Brueder.xml"/>
+                     <ptr label="OeBL"
+                        target="https://www.biographien.ac.at/oebl/oebl_P/Popper_David_1843_1913.xml"/>
+                     <ptr label="BMLO"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e2267">
+                     <persName type="main">Epstein, Julius</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0072">0072</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">116652357</identifier>
+                     <famName>Epstein</famName>
+                     <foreName>Julius</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1832-08-07">07.08.1832</date>
+                           <geogName>Agram (Zagreb)</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1926-03-02">02.03.1926</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_E/Epstein_Familie.xml"/>
+                     <ptr label="OeBL" target="https://www.biographien.ac.at/oebl/oebl_E/Epstein_Julius_1832_1926.xml"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e7197">
+                     <persName type="main">Schantl, Josef</persName>
+                     <persName type="alternative">Schantl, Joseph</persName>
+                     <persName type="alternative">Schandl, Josef</persName>
+                     <persName type="alternative">Schandl, Joseph</persName>
+                     <persName type="alternative">Schantl, Josef Hermann</persName>
+                     <persName type="birth">Schantl, Josef Florian</persName>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0229">0229</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">128840900</identifier>
+                     <famName>Schantl</famName>
+                     <foreName>Josef</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1842-02-08">08.02.1842</date>
+                           <geogName>Graz</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1902-03-22">22.03.1902</date>
+                           <geogName>Viehdorf</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Hornist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_S/Schantl_Familie.xml"/>
+                     <ptr label="OeBL"
+                        target="https://www.biographien.ac.at/oebl/oebl_S/Schantl_Josef-Hermann_1842_1902.xml"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von RQ am 12.08.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e6741">
+                     <persName type="main">Rosé, Arnold</persName>
+                     <persName type="alternative">Rosé, Arnold Josef</persName>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <persName type="baptismal">Rosenblum, Arnold</persName>
+                     <identifier label="Register-ID" codedval="0214">0214</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">116608943</identifier>
+                     <famName>Rosé</famName>
+                     <foreName>Arnold</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1863-10-24">24.10.1863</date>
+                           <geogName>Iaşi (Jassy)</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1946-08-25">25.08.1946</date>
+                           <geogName>London</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Violinist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_R/Rose-Familie.xml"/>
+                     <ptr label="OeBL" target="https://apis.acdh.oeaw.ac.at/person/44167"/>
+                     <ptr label="BMLO" target="https://bmlo.de/Q/GND=116608943"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>https://www.geschichtewiki.wien.gv.at/Arnold_Ros%C3%A9</p>
+                        <p>ges.MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e7108">
+                     <persName type="main">Sauer, Emil von</persName>
+                     <persName type="alternative">Sauer, Emil Georg Konrad</persName>
+                     <persName type="alternative">Sauer von Aichried, Emil Georg Konrad</persName>
+                     <persName type="alternative">Sauer Ritter von Aichried, Emil Georg Konrad</persName>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0226">0226</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">116977108</identifier>
+                     <famName>Sauer</famName>
+                     <foreName>Emil von</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1862-10-08">08.10.1862</date>
+                           <geogName>Hamburg</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1942-04-27">27.04.1942</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_S/Sauer_Emil.xml"/>
+                     <ptr label="OeBL"
+                        target="https://www.biographien.ac.at/oebl/oebl_S/Sauer-Aichried_Emil-Georg_1862_1942.xml"/>
+                     <ptr label="BMLO"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e3413">
+                     <persName type="main">Hellmesberger, Joseph jun.</persName>
+                     <persName type="alternative">Hellmesberger, Joseph d. J.</persName>
+                     <persName type="alternative">Hellmesberger, Joseph</persName>
+                     <persName type="alternative">Hellmesberger, Josef jun.</persName>
+                     <persName type="alternative">Hellmesberger, Josef d. J.</persName>
+                     <persName type="alternative">Hellmesberger, Josef</persName>
+                     <persName type="alternative">Helmesberger, Joseph jun.</persName>
+                     <persName type="alternative">Helmesberger, Joseph d. J.</persName>
+                     <persName type="alternative">Helmesberger, Joseph</persName>
+                     <persName type="alternative">Helmesberger, Josef jun.</persName>
+                     <persName type="alternative">Helmesberger, Josef d. J.</persName>
+                     <persName type="alternative">Helmesberger, Josef</persName>
+                     <persName type="alternative">Helmesberger, Joseph Heinrich Georg</persName>
+                     <persName type="birth">Hellmesberger, Joseph Heinrich Georg</persName>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0109">0109</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">103901396</identifier>
+                     <famName>Hellmesberger</famName>
+                     <foreName>Joseph</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1855-04-09">09.04.1855</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1907-04-26">26.04.1907</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>musikalische_r_Direktor_in</term>
+                        <term>Violinist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_H/Hellmesberger-Quartett.xml"/>
+                     <ptr label="BMLO" target="https://bmlo.de/h2469"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e7936">
+                     <persName type="main">Soldat-Röger, Marie</persName>
+                     <persName type="alternative">Röger-Soldat, Marie</persName>
+                     <persName type="birth">Soldat, Maria Ernestine</persName>
+                     <identifier label="Register-ID" codedval="0252">0252</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">139637591</identifier>
+                     <famName>Soldat-Röger</famName>
+                     <foreName>Marie</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1863-03-05">25.03.1863</date>
+                           <geogName>Geidorf</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1955-09-30">30.09.1955</date>
+                           <geogName>Graz</geogName>
+                        </date>
+                     </date>
+                     <ptr label="OeML" target="https://www.musiklexikon.ac.at/ml/musik_S/Soldat-Roeger_Marie.xml"/>
+                     <ptr label="BMLO"/>
+                     <annot label="Kurzbiographie">
+                        <p>https://www.sophie-drinker-institut.de/soldat-marie</p>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag automatisch generiert CG 27.06.21;</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e8146">
+                     <persName type="main">Stavenhagen, Bernhard</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0259">0259</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">117223794</identifier>
+                     <famName>Stavenhagen</famName>
+                     <foreName>Bernhard</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1862-11-24">24.11.1862</date>
+                           <geogName>Greiz</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1914-12-25">25.12.1914</date>
+                           <geogName>Genf</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Dirigent_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="OeBL" target="#"/>
+                     <ptr label="BMLO" target="https://bmlo.de/s1713"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von CH am 19.07.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e2015">
+                     <persName type="main">Dustmann, Luise</persName>
+                     <persName type="alternative">Dustmann, Louise</persName>
+                     <persName type="alternative">Dustmann-Meyer, Luise</persName>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0064">0064</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">116257202</identifier>
+                     <famName>Dustmann</famName>
+                     <foreName>Luise</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1831-08-22">22.08.1831</date>
+                           <geogName>Aachen</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1899-03-02">02.03.1899</date>
+                           <geogName>Berlin (Charlottenburg)</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Sänger_in</term>
+                        <term>Sopranist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_D/Dustmann-Meyer_Marie.xml"/>
+                     <ptr label="BMLO"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e6548">
+                     <persName type="main">Reichmann, Theodor</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0208">0208</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">116402822</identifier>
+                     <famName>Reichmann</famName>
+                     <foreName>Theodor</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1849-03-15">15.03.1849</date>
+                           <geogName>Rostock</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1903-05-22">22.05.1903</date>
+                           <geogName>Marbach am Bodensee</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Sänger_in</term>
+                        <term>Solist_in</term>
+                        <term>Bariton</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_R/Reichmann_Theodor.xml"/>
+                     <ptr label="OeBL"
+                        target="https://www.biographien.ac.at/oebl/oebl_R/Reichmann_Theodor_1849_1903.xml"/>
+                     <ptr label="BMLO" target="https://bmlo.de/r0269"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von FK am 09.08.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e8906">
+                     <persName type="main">Wurm, Mary</persName>
+                     <persName type="alternative">Verne, Mary</persName>
+                     <persName type="alternative">Wurm, Mary J. A.</persName>
+                     <persName type="alternative">Wurm, Marie</persName>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0284">0284</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">117357669</identifier>
+                     <famName>Wurm</famName>
+                     <foreName>Mary</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1860-05-18">18.05.1860</date>
+                           <geogName>Southampton</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1938-01-21">21.01.1938</date>
+                           <geogName>München</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="OeBL" target="#"/>
+                     <ptr label="ABLO" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p>https://www.sophie-drinker-institut.de/wurm-mary</p>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von CH am 19.08.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e234">
+                     <persName type="main">Barbi, Alice</persName>
+                     <persName type="alternative">Wolff-Stomersee, Baronin Alice von</persName>
+                     <persName type="alternative">Wolff-Stomersee, Alice Barbi Baronin von</persName>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0007">0007</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">130241075</identifier>
+                     <famName>Barbi</famName>
+                     <foreName>Alice</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1858-06-01">01.06.1858</date>
+                           <geogName>Modena</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1948-09-04">04.09.1948</date>
+                           <geogName>Rom</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Sänger_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="OeBL" target="#"/>
+                     <ptr label="ABLO" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Biographie unter https://www.sophie-drinker-institut.de/barbi-alice</p>
+                        <p>Eintrag angelegt von CH am 11.07.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e202">
+                     <persName type="main">Baier, Anna</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0006">0006</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/"
+                        >1017960437</identifier>
+                     <famName>Baier</famName>
+                     <foreName>Anna</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1858-04-28">28.04.1858</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1935-06-04">04.06.1935</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Sänger_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_L/Liebhardt_Ida.xml"/>
+                     <ptr label="OeBL" target="#"/>
+                     <ptr label="ABLO" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p>Eisenberg: Wien; Eisenberg: Bühne; Theater-Lexikon; Kutsch/Riemens</p>
+                        <p>Geb. in Wien am 28. April 1858, erhielt ihre Ausbildung am Wiener
+                           Conservatorium und war Schülerin der Marchesi und Dustmann; im Jahre 1880
+                           trat sie als Page in den "Hugenotten" im Dresdener Hoftheater auf, war in
+                           Brünn und Graz längere Zeit engagirt und ist seit 1884 im Verbande des
+                           k.k. Hofopernstheaters. (Antrittsrolle: Isabella in "Robert der Teufel")
+                           I. Friedrichstrasse 2.</p>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von CH am 13.07.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e4847">
+                     <persName type="main">Liebling, Georg</persName>
+                     <persName type="alternative">Liebling, George</persName>
+                     <persName type="birth">Liebling, Georg Lothar</persName>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0154">0154</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">116997249</identifier>
+                     <famName>Liebling</famName>
+                     <foreName>Georg Lothar</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1865-01-22">22.01.1865</date>
+                           <geogName>Berlin</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1946-02-07">07.02.1946</date>
+                           <geogName>New York</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="BMLO" target="https://bmlo.de/l0489"/>
+                     <annot label="Kurzbiographie">
+                        <p>https://familysearch.org/ark:/61903/2:1:M6HK-S21</p>
+                        <p>https://daten.digitale-sammlungen.de/bsb00127230/image_669</p>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von RQ am 27.07.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e6928">
+                     <persName type="main">Röntgen, Julius</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0220">0220</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">119300435</identifier>
+                     <famName>Röntgen</famName>
+                     <foreName>Julius</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1855-05-09">09.05.1855</date>
+                           <geogName>Leipzig</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1932-09-13">13.09.1932</date>
+                           <geogName>Bilthoven</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="OeBL" target="#"/>
+                     <ptr label="BLMO" target="https://bmlo.de/r0697"/>
+                     <annot label="Kurzbiographie">
+                        <p>MGG online: https://www.mgg-online.com/mgg/stable/26734</p>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von FK am 08.08.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e3575">
+                     <persName type="main">Heuberger, Richard</persName>
+                     <persName type="alternative">Heuberger, Richard der Ältere</persName>
+                     <persName type="birth">Heuberger, Richard Franz Joseph</persName>
+                     <identifier label="Register-ID" codedval="0114">0114</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">118550470</identifier>
+                     <famName>Heuberger</famName>
+                     <foreName>Richard Franz Joseph</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1850-06-18">18.06.1850</date>
+                           <geogName>Graz</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1914-10-28">28.10.1914</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>musikalische_r_Direktor_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_H/Heuberger_Richard.xml"/>
+                     <ptr label="OeBL" target="https://www.biographien.ac.at/oebl/oebl_H/Heuberger_Richard-Franz-Joseph_1850_1914.xml"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Informationen Privatbesitzer">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von MP 10.11.2020// Großvater von Gertrud Heuberger
+                           xml:id="528"// österreichischer Komponist, Dirigent, Musikjournalist.
+                           [10.11.20]</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e3445">
+                     <persName type="main">Hellmesberger, Joseph sen.</persName>
+                     <persName type="alternative">Hellmesberger, Joseph d. Ä.</persName>
+                     <persName type="alternative">Hellmesberger, Joseph</persName>
+                     <persName type="alternative">Hellmesberger, Josef sen.</persName>
+                     <persName type="alternative">Hellmesberger, Josef d. Ä.</persName>
+                     <persName type="alternative">Hellmesberger, Josef</persName>
+                     <persName type="alternative">Helmesberger, Joseph sen.</persName>
+                     <persName type="alternative">Helmesberger, Joseph d. Ä.</persName>
+                     <persName type="alternative">Helmesberger, Joseph</persName>
+                     <persName type="alternative">Helmesberger, Josef sen.</persName>
+                     <persName type="alternative">Helmesberger, Josef d. Ä.</persName>
+                     <persName type="alternative">Helmesberger, Josef</persName>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0110">0110</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">103787038</identifier>
+                     <famName>Hellmesberger</famName>
+                     <foreName>Joseph</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1828-11-03">03.11.1828</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1893-10-24">24.10.1893</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>musikalische_r_Direktor_in</term>
+                        <term>Bratschist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_H/Hellmesberger-Quartett.xml"/>
+                     <ptr label="OeBL" target="#"/>
+                     <ptr label="ABLO" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von FK am 08.08.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e8026" cert="unknown">
+                     <persName type="main">Spányi, Irma</persName>
+                     <persName type="alternative">Spanyi, Irma von</persName>
+                     <persName type="alternative">Spanyik, Irma von</persName>
+                     <persName type="alternative">Spanyi, Irma de</persName>
+                     <persName type="alternative">Spagni, Irma de</persName>
+                     <persName type="alternative">Spagny, Irma de</persName>
+                     <persName type="alternative">Spany, Irma von</persName>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0255">0255</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/"/>
+                     <famName>Spányi</famName>
+                     <foreName>Irma de</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1860">1860</date>
+                           <geogName cert="unknown">Bratislava</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1932">1932</date>
+                           <geogName cert="medium">Bratislava</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Sänger_in</term>
+                        <term>Mezzosopranist_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="OeBL" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>evtl. verheiratete Tomaszczyk-Spanyi? (https://anno.onb.ac.at/cgi-content/anno?aid=fdb&amp;datum=19140121&amp;query=%22irma+spanyi%22~20&amp;ref=anno-search&amp;seite=38)</p>
+                        <p>Eintrag angelegt von RQ am 29.07.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e4747">
+                     <persName type="main">Lehmann, Lilli</persName>
+                     <persName type="alternative">Kalisch, Lilli</persName>
+                     <persName type="alternative">Rēman, Riruri</persName>
+                     <persName type="alternative">Lehmann-Kalisch, Lilli</persName>
+                     <persName type="alternative">Lehmannová, Lilli</persName>
+                     <persName type="alternative">Léman, Lili</persName>
+                     <persName type="birth">Lehmann, Elisabeth Maria</persName>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0151">0151</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">118883933</identifier>
+                     <famName>Lehmann</famName>
+                     <foreName>Lilli</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1848-11-24">24.11.1848</date>
+                           <geogName>Würzburg</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1929-05-17">17.05.1929</date>
+                           <geogName>Berlin</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Sänger_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="www.musiklexikon.ac.at/ml/musik_L/Lehmann_Familie.xml"/>
+                     <ptr label="OeBL" target="https://biographien.ac.at/ID-0.3036266-1"/>
+                     <ptr label="BMLO" target="https://bmlo.de/l0303"/>
+                     <annot label="Kurzbiographie"/>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von CH am 11.08.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e6000">
+                     <persName type="main">Papier-Paumgartner, Rosa</persName>
+                     <persName type="alternative">Papier-Paumgartner, Rose</persName>
+                     <persName type="alternative">Papier, Rose</persName>
+                     <persName type="birth">Papier, Rosa</persName>
+                     <identifier label="Register-ID" codedval="0190">0190</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">116067144</identifier>
+                     <famName>Papier-Paumgartner</famName>
+                     <foreName>Rosa</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1858-09-18">18.09.1858</date>
+                           <geogName>Baden</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1932-02-09">09.02.1932</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Sänger_in</term>
+                        <term>Mezzosopranist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_P/Paumgartner_Familie.xml"/>
+                     <ptr label="OeBL" target="https://www.biographien.ac.at/oebl/oebl_P/Paumgartner_Rosa_1858_1932.xml"/>
+                     <ptr label="BMLO" target="https://bmlo.de/p0987"/>
+                     <ptr label="ABLO" target="http://www.bruckner-online.at/ABLO_d1e3170"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag automatisch generiert CG 27.06.21;</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e1240">
+                     <persName type="main">Bulß, Paul</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0039">0039</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">117154636</identifier>
+                     <famName>Bulß</famName>
+                     <foreName>Paul</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1847-12-19">19.12.1847</date>
+                           <geogName>Birkholz (Landkreis Westprignitz)</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1902-03-19">19.03.1902</date>
+                           <geogName>Temesvar</geogName>
+                           <geogName type="alternative">Timișoara</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Sänger_in</term>
+                        <term>Bariton</term>
+                     </catchwords>
+                     <ptr label="OeML"/>
+                     <ptr label="BMLO"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>vgl. Kutsch-Riemens, S. 643-644</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e8236">
+                     <persName type="main">Strakosch, Ludwig</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0262">0262</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/"/>
+                     <famName>Strakosch</famName>
+                     <foreName>Ludwig</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1855-11-01">01.11.1855</date>
+                           <geogName>Brünn</geogName>
+                           <geogName type="alternative">Brno</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1919-10-14">14.10.1919</date>
+                           <geogName>Hamburg</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Sänger_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="https://www.musiklexikon.ac.at/ml/musik_S/Strakosch_Familie.xml"/>
+                     <ptr label="OeBL" target="https://www.biographien.ac.at/oebl/oebl_S/Strakosch_Ludwig_1855_1919.xml"/>
+                     <ptr label="ABLO" target="#"/>
+                     <annot label="Kurzbiographie"/>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von CH am 16.08.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e2772" cert="unknown">
+                     <persName type="main">Geisler-Schubert, Caroline</persName>
+                     <persName type="alternative">Geisler-Schubert, Karoline</persName>
+                     <persName type="alternative">Geisler-Schubert, Carolina</persName>
+                     <persName type="alternative">Geisler-Schubert, Carola</persName>
+                     <persName type="alternative">Geisler, Karoline (Theresa, Theresia)</persName>
+                     <persName type="alternative">Geisler, Carolina</persName>
+                     <persName type="alternative">Geisler, Carola</persName>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <persName type="baptismal">Geiszler, Carolina Theresia</persName>
+                     <identifier label="Register-ID" codedval="0088">0088</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/"/>
+                     <famName>Geisler-Schubert</famName>
+                     <foreName>Caroline</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1856-05-18">18.05.1856</date>
+                           <geogName>Bratislava</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1951-04-20">20.04.1951</date>
+                           <geogName>London</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p>Taufmatrike "Slovakia Church and Synagogue Books, 1592-1935,"(https://familysearch.org/ark:/61903/3:1:33SQ-GRQ1-N8H?cc=1554443&amp;wc=9P3P-DPD%3A107654301%2C107722701%2C124525701%2C124712301 : 3 July 2014).</p>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Nur beim Sophie-Drinker-Institut gefunden (https://www.sophie-drinker-institut.de/geisler-schubert-caroline)</p>
+                        <p>angelegt von RQ</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e8296">
+                     <persName type="main">Vrabély, Seraphine von</persName>
+                     <persName type="alternative">Vrabely, Serafina von</persName>
+                     <persName type="alternative">Vrabely, Seraphina von</persName>
+                     <persName type="alternative">Vrabely, Szerafina von</persName>
+                     <persName type="alternative">Vrabely, Szeraphina von</persName>
+                     <persName type="alternative">Vrabely, Sophie von</persName>
+                     <persName type="alternative">Vrabély, Serafina von</persName>
+                     <persName type="alternative">Vrabély, Seraphina von</persName>
+                     <persName type="alternative">Vrabély, Szerafina von</persName>
+                     <persName type="alternative">Vrabély, Szeraphina von</persName>
+                     <persName type="alternative">Vrabély, Sophie von</persName>
+                     <persName type="alternative">Vrábély, Serafina von</persName>
+                     <persName type="alternative">Vrábély, Seraphina von</persName>
+                     <persName type="alternative">Vrábély, Szerafina von</persName>
+                     <persName type="alternative">Vrábély, Szeraphina von</persName>
+                     <persName type="alternative">Vrábély, Sophie von</persName>
+                     <persName type="alternative">Vrabélÿ, Szerafin</persName>
+                     <persName type="alternative">Tausig, Seraphine</persName>
+                     <persName type="alternative">Tausig, Seraphine</persName>
+                     <persName type="alternative">Tausig-Vrabely, Seraphine</persName>
+                     <persName type="alternative">Vrábelyová-Tausigová, Serafína</persName>
+                     <persName type="birth">Vrabélÿ, Franziska Serafina von</persName>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0264">0264</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">117247758</identifier>
+                     <famName>Vrabély</famName>
+                     <foreName>Seraphine von</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1840-07-26">26.07.1840</date>
+                           <geogName>Bratislava</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1931-09-02">02.09.1931</date>
+                           <geogName>Dresden</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="OeBL" target="#"/>
+                     <ptr label="ABLO" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p>https://www.sophie-drinker-institut.de/vrabely-serafina</p>
+                        <p>https://mugi.hfmt-hamburg.de/old/A_lexartikel/lexartikel.php%3Fid=taus1840.html</p>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von CH am 08.08.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName>
+                     <persName type="main">Rouland, Carl</persName>
+                     <persName type="alternative">Rouland, Karl</persName>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0292">0292</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/"/>
+                     <famName>Rouland</famName>
+                     <foreName>Carl</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1865-10-18">18.10.1865</date>
+                           <geogName>Berlin</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1935-04-19">19.04.1935</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>musikalische_r Direktor_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="OeBL" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Biographische Angaben aus der Zeitschrift für Musikwissenschaft 5 (1935),
+                           S. 61
+                           https://anno.onb.ac.at/cgi-content/anno-plus?aid=zmw&amp;datum=19350105&amp;query=((text:%22karl+rouland%22))&amp;ref=anno-search&amp;seite=61</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e8561">
+                     <persName type="main">Waldner, Joseph</persName>
+                     <persName type="alternative">Waldner, Josef</persName>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0273">0273</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">136747647</identifier>
+                     <famName>Waldner</famName>
+                     <foreName>Joseph</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1892-10-21">21.10.1892</date>
+                           <geogName>München</geogName>
+                        </date>
+                        <date type="death">
+                           <date notbefore="1942-07-11">nach dem 11.07.1942</date>
+                           <geogName type="main">Terezín</geogName>
+                           <geogName type="alternative">Theresienstadt</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Sänger_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="OeBL" target="#"/>
+                     <ptr label="BMLO" target="https://bmlo.de/w1419"/>
+                     <annot label="Kurzbiographie">
+                        <p>https://www.bundesarchiv.de/gedenkbuch/985255</p>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von FK am 08.08.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e6989">
+                     <persName type="main">Rückauf, Anton</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0222">0222</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">116673001</identifier>
+                     <famName>Rückauf</famName>
+                     <foreName>Anton</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1855-03-13">13.03.1855</date>
+                           <geogName>Prag</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1903-09-19">19.09.1903</date>
+                           <geogName>Alt-Erlaa (heute Wien)</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Pianist_in</term>
+                     </catchwords>
+                     <ptr label="OeML"
+                        target="https://www.musiklexikon.ac.at/ml/musik_R/Rueckauf_Anton.xml"/>
+                     <ptr label="OeBL"
+                        target="https://www.biographien.ac.at/oebl/oebl_R/Rueckauf_Anton_1855_1903.xml;internal&amp;action=hilite.action&amp;Parameter=Anton%20R%FCckauf"/>
+                     <ptr label="ABLO" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von CH am 17.07.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e7909">
+                     <persName type="main">Sistermans, Anton</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0251">0251</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/">117417912</identifier>
+                     <famName>Sistermans</famName>
+                     <foreName>Anton</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1867-08-05">05.08.1867</date>
+                           <geogName>’s-Hertogenbosch</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1926-03-06">06.03.1926</date>
+                           <geogName>Den Haag</geogName>
+                        </date>
+                     </date>
+                     <ptr label="OeML"/>
+                     <ptr label="BMLO" target="https://bmlo.de/s2823"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e7412">
+                     <persName type="main">Schmidt, Marie</persName>
+                     <persName type="alternative">Schmidt, Maria</persName>
+                     <persName type="alternative">Schmidt, Maria Louise</persName>
+                     <persName type="alternative">Schmidt, Mary</persName>
+                     <persName type="alternative">Basta, Maria</persName>
+                     <persName type="alternative">Basta, Marie</persName>
+                     <persName type="alternative">Basta, Maria Louise</persName>
+                     <persName type="alternative">Basta, Mary</persName>
+                     <persName type="alternative">Pollak, Maria</persName>
+                     <persName type="alternative">Pollak, Marie</persName>
+                     <persName type="alternative">Pollak, Maria Louise</persName>
+                     <persName type="alternative">Pollak, Mary</persName>
+                     <persName type="alternative">Pascalides, Maria</persName>
+                     <persName type="alternative">Pascalides, Marie</persName>
+                     <persName type="alternative">Pascalides, Maria Louise</persName>
+                     <persName type="alternative">Pascalides, Mary</persName>
+                     <persName type="alternative">Pascalides-Basta, Maria</persName>
+                     <persName type="alternative">Pascalides-Basta, Marie</persName>
+                     <persName type="alternative">Pascalides-Basta, Maria Louise</persName>
+                     <persName type="alternative">Pascalides-Basta, Mary</persName>
+                     <persName type="alternative">Tavary, Maria</persName>
+                     <persName type="alternative">Tavary, Marie</persName>
+                     <persName type="alternative">Tavary, Maria Louise</persName>
+                     <persName type="alternative">Tavary, Mary</persName>
+                     <persName type="birth">Schmidt, Marie</persName>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0236">0236</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/"/>
+                     <famName>Schmidt</famName>
+                     <foreName>Marie</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1856-05-04">04.05.1856</date>
+                           <geogName>Köln</geogName>
+                        </date>
+                        <date type="death">
+                           <date notafter="1893-09-09">kurz vor dem 09.09.1893</date>
+                           <geogName>Berlin</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Sänger_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="OeBL" target="#"/>
+                     <ptr label="BMLO" target="https://bmlo.de/b0172"/>
+                     <annot label="Kurzbiographie"/>
+                     <annot label="Kommentar">
+                        <p>Todesanzeige: https://anno.onb.ac.at/cgi-content/anno?aid=gtb&amp;datum=18930909&amp;query=%22marie+basta%22&amp;ref=anno-search&amp;seite=4</p>
+                        <p>Eintrag angelegt von CH am 18.08.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e4449">
+                     <persName type="main">Krämer, August</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth"/>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0141">0141</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/"
+                        >1017307458</identifier>
+                     <famName>Krämer</famName>
+                     <foreName>August</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1841-08-21">21.08.1841</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1916-08-06">06.08.1916</date>
+                           <geogName>Kollmitz b. St. Paul i. L.</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Sänger_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="OeBL"
+                        target="https://www.biographien.ac.at/oebl/oebl_K/Kraemer_August_1841_1916.xml;internal&amp;action=hilite.action&amp;Parameter=August%20Kr%E4mer"/>
+                     <ptr label="ABLO" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p/>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von CH am 18.07.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+                  <persName xml:id="d1e8473">
+                     <persName type="main">Türk-Rohn, Olga von</persName>
+                     <persName type="alternative"/>
+                     <persName type="birth">Rohn, Olga von</persName>
+                     <persName type="pseudonym"/>
+                     <identifier label="Register-ID" codedval="0270">0270</identifier>
+                     <identifier auth="GND" auth.uri="https://d-nb.info/gnd/"/>
+                     <famName>Türk-Rohn</famName>
+                     <foreName>Olga</foreName>
+                     <date>
+                        <date type="birth">
+                           <date isodate="1874-06-03">03.06.1874</date>
+                           <geogName>Wien</geogName>
+                        </date>
+                        <date type="death">
+                           <date isodate="1940-02-26">26.02.1940</date>
+                           <geogName>New York</geogName>
+                        </date>
+                     </date>
+                     <catchwords>
+                        <term>Sänger_in</term>
+                     </catchwords>
+                     <ptr label="OeML" target="#"/>
+                     <ptr label="OeBL" target="#"/>
+                     <ptr label="ABLO" target="#"/>
+                     <annot label="Kurzbiographie">
+                        <p>Kutsch-Riemens 2004 (4), S. 4783 gibt als Geburtsdatum den 03.06.1865 an und in Auswanderungsdokumenten
+                           sind unterschiedlichste Jahreszahlen in den späten 1870ern zu finden.</p>
+                     </annot>
+                     <annot label="Kommentar">
+                        <p>Eintrag angelegt von CH am 08.08.21</p>
+                        <p>ges. MW</p>
+                     </annot>
+                  </persName>
+               </li>
+            </list>
+         </div>
+      </body>
+   </music>
+</mei>
