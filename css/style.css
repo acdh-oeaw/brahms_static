@@ -472,12 +472,6 @@ div.ssDescFilters fieldset {
     padding: 0;
 }
 
-.simpleFilters {
-    margin: .2em auto;
-    padding: .2em;
-    text-align: center;
-}
-
 div.ssDescFilters fieldset legend {
     border: 1px solid lightgrey;
     border-radius: .25rem;
@@ -569,14 +563,20 @@ ul.ssDescCheckboxList li {
     max-width: 48%;    
 }
 
-.simpleFilters ul li {
+.simpleFilter1 ul li, .simpleFilter2 ul li {
     width: 25%;
     max-width: 25%;   
 }
 
-.simpleFilters {
+.simpleFilter1, .simpleFilter2 {
+    margin: .1em auto;
+    text-align: center;
     width: 80%;
-    max-width: 80%;   
+    max-width: 80%;  
+}
+
+.simpleFilter1 {
+    margin-top: 2em;
 }
 
 .ssDescCheckboxList li label {

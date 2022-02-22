@@ -3,7 +3,7 @@ function updateFilters() {
     legend.each( function ( item ) {
         var $this = $( this );
         $("#ssForm").find("#ac-panel").after(
-            getFieldset( $this )
+            getFieldset( $this, "simpleFilter2" )
         );
         $this.remove();
         // var text = getLegendText( $this );
@@ -55,7 +55,7 @@ function updateFilters() {
             var $this = $( this );
             // ssForm is a staticSearch id for the html form elements
             $("#ssForm").find("#ac-panel").after(
-                getFieldset( $this )
+                getFieldset( $this, "simpleFilter1" )
             );
             $this.remove();
         }
@@ -130,9 +130,9 @@ function getFieldsetspan( input ) {
     return span;
 }
 
-function getFieldset( input ) {
+function getFieldset( input, classIn ) {
     var fieldset = input.parent();
-    fieldset.addClass("simpleFilters");
+    fieldset.addClass(classIn);
     return fieldset;
 }
 
