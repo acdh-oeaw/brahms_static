@@ -467,12 +467,21 @@ button#ssDoSearch {
     z-index: 2;
 }
 
-div.ssDescFilters fieldset {
+.dropdownFilter_feat {
+    width: 30%;
+}
+
+.simpleFilter3 input {
+    border-radius: .25rem;
+    border: 1px solid lightgrey;
+}
+
+fieldset {
     margin: 0;
     padding: 0;
 }
 
-div.ssDescFilters fieldset legend {
+fieldset legend {
     border: 1px solid lightgrey;
     border-radius: .25rem;
     font-size: 1em;
@@ -480,21 +489,21 @@ div.ssDescFilters fieldset legend {
     cursor: pointer;
 }
 
-div.ssDescFilters fieldset legend:hover {
+fieldset legend:hover {
     border: 1px solid grey;
 }
 
-div.ssDescFilters fieldset legend div {
+fieldset legend div {
     width: 50%;
     display: inline-block;
 }
 
-div.ssDateFilters fieldset {
+fieldset {
     margin: 0;
     padding: 0;
 }
 
-div.ssDateFilters fieldset legend {
+fieldset legend {
     border: 1px solid lightgrey;
     border-radius: .25rem;
     font-size: 1em;
@@ -502,11 +511,11 @@ div.ssDateFilters fieldset legend {
     cursor: pointer;
 }
 
-div.ssDateFilters fieldset legend:hover {
+fieldset legend:hover {
     border: 1px solid grey;
 }
 
-div.ssDateFilters fieldset legend div {
+fieldset legend div {
     width: 50%;
     display: inline-block;
 }

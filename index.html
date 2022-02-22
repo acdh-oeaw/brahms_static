@@ -90,7 +90,11 @@
                
                <div class="card-header">
                   
-                  <h1>Datenbanksuche</h1>
+                  <h1>Datenbanksuche<a id="searchInfoModalButton" class="btn btn-sm" type="button" data-toggle="modal" data-target="#searchInfoModal"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-info-square" viewBox="0 0 16 16">
+                           
+                           <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"></path>
+                           
+                           <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"></path></svg></a></h1>
                   </div>
                
                <div class="card-body">
@@ -100,10 +104,7 @@
               Note that if you want to debug a problem with the JavaScript, you can
               change "ssSearch.js" to "ssSearch-debug.js" to link the uncompressed, 
               unminified code instead.
-            --><script>
-                var Sch;
-                window.addEventListener('load', function(){Sch = new StaticSearch();});
-            </script><form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="3" data-scrolltotextfragment="no" data-maxkwicstoshow="5" data-resultsperpage="5" onsubmit="return false;" data-versionstring="" data-ssfolder="static-search" data-kwictruncatestring="..." data-resultslimit="2000"><span class="ssQueryAndButton"><input type="text" id="ssQuery"/><button id="ssDoSearch">Search</button></span><span class="clearButton"><button id="ssClear">Clear</button></span><div class="ssDescFilters">
+            --><script src="static-search/ssInitialize.js"></script><noscript>This page requires JavaScript.</noscript><form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="3" data-scrolltotextfragment="no" data-maxkwicstoshow="5" data-resultsperpage="5" onsubmit="return false;" data-versionstring="" data-ssfolder="static-search" data-kwictruncatestring="..." data-resultslimit="2000"><span class="ssQueryAndButton"><input type="text" id="ssQuery" aria-label="Search"/><button id="ssDoSearch">Search</button></span><span class="clearButton"><button id="ssClear">Clear</button></span><div class="ssDescFilters">
                            <fieldset class="ssFieldset" title="001 Filter" id="ssDesc1">
                               <legend>001 Filter</legend>
                               <ul class="ssDescCheckboxList">
@@ -112,196 +113,34 @@
                                  <li><input type="checkbox" title="001 Filter" value="Vorankündigung" id="ssDesc1_3" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc1_3">Vorankündigung</label></li>
                               </ul>
                            </fieldset>
-                           <fieldset class="ssFieldset" title="002 Veranstaltungsort" id="ssDesc2">
-                              <legend>002 Veranstaltungsort</legend>
-                              <ul class="ssDescCheckboxList">
-                                 <li><input type="checkbox" title="002 Veranstaltungsort" value="Großer Musikvereinssaal" id="ssDesc2_2" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc2_2">Großer Musikvereinssaal</label></li>
-                                 <li><input type="checkbox" title="002 Veranstaltungsort" value="Kleiner Musikvereinssaal" id="ssDesc2_4" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc2_4">Kleiner Musikvereinssaal</label></li>
-                                 <li><input type="checkbox" title="002 Veranstaltungsort" value="Mistelbach" id="ssDesc2_7" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc2_7">Mistelbach</label></li>
-                                 <li><input type="checkbox" title="002 Veranstaltungsort" value="Musikvereinssaal" id="ssDesc2_5" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc2_5">Musikvereinssaal</label></li>
-                                 <li><input type="checkbox" title="002 Veranstaltungsort" value="Saal Bösendorfer" id="ssDesc2_3" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc2_3">Saal Bösendorfer</label></li>
-                                 <li><input type="checkbox" title="002 Veranstaltungsort" value="Salzburg" id="ssDesc2_8" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc2_8">Salzburg</label></li>
-                                 <li><input type="checkbox" title="002 Veranstaltungsort" value="Sophienbadsaal" id="ssDesc2_6" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc2_6">Sophienbadsaal</label></li>
-                                 <li><input type="checkbox" title="002 Veranstaltungsort" value="Wien" id="ssDesc2_1" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc2_1">Wien</label></li>
-                              </ul>
-                           </fieldset>
-                           <fieldset class="ssFieldset" title="003 Beteiligte Personen / Körperschaften" id="ssDesc7">
-                              <legend>003 Beteiligte Personen / Körperschaften</legend>
-                              <ul class="ssDescCheckboxList">
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Adolf Zander" id="ssDesc7_25" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_25">Adolf Zander</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Alice Barbi" id="ssDesc7_14" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_14">Alice Barbi</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Anna Baier" id="ssDesc7_8" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_8">Anna Baier</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Anton Door" id="ssDesc7_22" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_22">Anton Door</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Anton Rückauf" id="ssDesc7_30" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_30">Anton Rückauf</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Anton Sistermans" id="ssDesc7_31" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_31">Anton Sistermans</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="August Krämer" id="ssDesc7_4" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_4">August Krämer</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Dustmann, Luise" id="ssDesc7_5" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_5">Dustmann, Luise</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Eduard Kremser" id="ssDesc7_21" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_21">Eduard Kremser</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Georg Liebling" id="ssDesc7_32" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_32">Georg Liebling</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Gustav Walter" id="ssDesc7_23" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_23">Gustav Walter</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Hellmesberger, Joseph" id="ssDesc7_26" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_26">Hellmesberger, Joseph</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Ignaz Brüll" id="ssDesc7_20" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_20">Ignaz Brüll</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Irma von Spanyik" id="ssDesc7_18" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_18">Irma von Spanyik</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="James Kwast" id="ssDesc7_24" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_24">James Kwast</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Johannes Messchaert" id="ssDesc7_7" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_7">Johannes Messchaert</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Josef Hellmesberger sen." id="ssDesc7_9" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_9">Josef Hellmesberger sen.</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Joseph Waldner" id="ssDesc7_16" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_16">Joseph Waldner</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Julius Röntgen" id="ssDesc7_6" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_6">Julius Röntgen</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Karl Rouland" id="ssDesc7_1" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_1">Karl Rouland</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Lilli Lehmann" id="ssDesc7_10" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_10">Lilli Lehmann</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Ludwig Strakosch" id="ssDesc7_2" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_2">Ludwig Strakosch</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Luise Dustmann" id="ssDesc7_12" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_12">Luise Dustmann</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Marie Baumayer" id="ssDesc7_11" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_11">Marie Baumayer</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Marie Schmidt" id="ssDesc7_34" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_34">Marie Schmidt</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Mary Wurm" id="ssDesc7_13" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_13">Mary Wurm</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Olga von Türk-Rohn" id="ssDesc7_19" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_19">Olga von Türk-Rohn</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Paul Bulß" id="ssDesc7_28" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_28">Paul Bulß</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Philipp Forstén" id="ssDesc7_15" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_15">Philipp Forstén</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Richard Epstein" id="ssDesc7_33" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_33">Richard Epstein</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Richard Heuberger" id="ssDesc7_17" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_17">Richard Heuberger</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Rosa Papier-Paumgartner" id="ssDesc7_3" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_3">Rosa Papier-Paumgartner</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Sidonie Roth" id="ssDesc7_29" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_29">Sidonie Roth</label></li>
-                                 <li><input type="checkbox" title="003 Beteiligte Personen / Körperschaften" value="Theodor Reichmann" id="ssDesc7_27" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc7_27">Theodor Reichmann</label></li>
-                              </ul>
-                           </fieldset>
-                           <fieldset class="ssFieldset" title="004 Personen beteiligt als / mit" id="ssDesc8">
-                              <legend>004 Personen beteiligt als / mit</legend>
-                              <ul class="ssDescCheckboxList">
-                                 <li><input type="checkbox" title="004 Personen beteiligt als / mit" value="musikalische_r_Direktor_in" id="ssDesc8_1" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc8_1">musikalische_r_Direktor_in</label></li>
-                                 <li><input type="checkbox" title="004 Personen beteiligt als / mit" value="Pianist_in" id="ssDesc8_3" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc8_3">Pianist_in</label></li>
-                                 <li><input type="checkbox" title="004 Personen beteiligt als / mit" value="Sänger_in" id="ssDesc8_2" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc8_2">Sänger_in</label></li>
-                              </ul>
-                           </fieldset>
-                           <fieldset class="ssFieldset" title="005 Werk" id="ssDesc3">
-                              <legend>005 Werk</legend>
-                              <ul class="ssDescCheckboxList">
-                                 <li><input type="checkbox" title="005 Werk" value="Fünf Lieder, op. 49" id="ssDesc3_2" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc3_2">Fünf Lieder, op. 49</label></li>
-                                 <li><input type="checkbox" title="005 Werk" value="Klaviertrio Nr. 1 H-Dur, op. 8" id="ssDesc3_3" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc3_3">Klaviertrio Nr. 1 H-Dur, op. 8</label></li>
-                                 <li><input type="checkbox" title="005 Werk" value="Neun Lieder und Gesänge, op. 32" id="ssDesc3_1" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc3_1">Neun Lieder und Gesänge, op. 32</label></li>
-                                 <li><input type="checkbox" title="005 Werk" value="Walzer, op. 39" id="ssDesc3_4" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc3_4">Walzer, op. 39</label></li>
-                              </ul>
-                           </fieldset>
-                           <fieldset class="ssFieldset" title="006 Gattung" id="ssDesc4">
-                              <legend>006 Gattung</legend>
-                              <ul class="ssDescCheckboxList">
-                                 <li><input type="checkbox" title="006 Gattung" value="[diverse Fassungen für Klavier, siehe Expressions]" id="ssDesc4_5" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc4_5">[diverse Fassungen für Klavier, siehe Expressions]</label></li>
-                                 <li><input type="checkbox" title="006 Gattung" value="1 Singstimme" id="ssDesc4_1" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc4_1">1 Singstimme</label></li>
-                                 <li><input type="checkbox" title="006 Gattung" value="Klavier" id="ssDesc4_2" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc4_2">Klavier</label></li>
-                                 <li><input type="checkbox" title="006 Gattung" value="Violine" id="ssDesc4_3" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc4_3">Violine</label></li>
-                                 <li><input type="checkbox" title="006 Gattung" value="Violoncello" id="ssDesc4_4" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc4_4">Violoncello</label></li>
-                              </ul>
-                           </fieldset>
-                           <fieldset class="ssFieldset" title="007 Quelle" id="ssDesc5">
-                              <legend>007 Quelle</legend>
-                              <ul class="ssDescCheckboxList">
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Abendblatt, Jg. 30, Nr. 197, 20.07.1877, S. [3]" id="ssDesc5_71" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_71">Presse, Abendblatt, Jg. 30, Nr. 197, 20.07.1877, S. [3]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Abendblatt, Jg. 47, Nr. 340, 12.12.1894, S. 3" id="ssDesc5_14" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_14">Presse, Abendblatt, Jg. 47, Nr. 340, 12.12.1894, S. 3</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Abend-Presse, Jg. 49, Nr. 66, 07.03.1896, S. 2" id="ssDesc5_62" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_62">Presse, Abend-Presse, Jg. 49, Nr. 66, 07.03.1896, S. 2</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Abend-Presse, Jg. 49, Nr. 72, 13.03.1896, S. 3" id="ssDesc5_79" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_79">Presse, Abend-Presse, Jg. 49, Nr. 72, 13.03.1896, S. 3</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Jg. 27, Nr. 105, 17.04.1874, S. [1]" id="ssDesc5_66" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_66">Presse, Jg. 27, Nr. 105, 17.04.1874, S. [1]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Jg. 32, Nr. 327, 29.11.1879, S. [1]" id="ssDesc5_15" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_15">Presse, Jg. 32, Nr. 327, 29.11.1879, S. [1]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Jg. 35, Nr. 35, 04.02.1882, S. [1]" id="ssDesc5_55" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_55">Presse, Jg. 35, Nr. 35, 04.02.1882, S. [1]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Jg. 39, Nr. 105, 15.04.1886, S. 2" id="ssDesc5_19" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_19">Presse, Jg. 39, Nr. 105, 15.04.1886, S. 2</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Jg. 40, Nr. 344, 14.12.1887, S. 2" id="ssDesc5_28" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_28">Presse, Jg. 40, Nr. 344, 14.12.1887, S. 2</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Jg. 44, Nr. 348, 19.12.1891, S. 2" id="ssDesc5_2" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_2">Presse, Jg. 44, Nr. 348, 19.12.1891, S. 2</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Jg. 44, Nr. 96, 08.04.1891, S. 2" id="ssDesc5_27" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_27">Presse, Jg. 44, Nr. 96, 08.04.1891, S. 2</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Jg. 45, Nr. 201, 21.07.1892, S. [1]" id="ssDesc5_33" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_33">Presse, Jg. 45, Nr. 201, 21.07.1892, S. [1]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 26, Nr. 108, 20.04.1873, S. 9" id="ssDesc5_50" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_50">Presse, Local-Anzeiger, Jg. 26, Nr. 108, 20.04.1873, S. 9</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 27, Nr. 296, 28.10.1874, S. 15" id="ssDesc5_68" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_68">Presse, Local-Anzeiger, Jg. 27, Nr. 296, 28.10.1874, S. 15</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 30, Nr. 301, 01.11.1877, S. [9]" id="ssDesc5_37" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_37">Presse, Local-Anzeiger, Jg. 30, Nr. 301, 01.11.1877, S. [9]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 30, Nr. 341, 12.12.1877, S. [9]" id="ssDesc5_43" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_43">Presse, Local-Anzeiger, Jg. 30, Nr. 341, 12.12.1877, S. [9]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 34, Nr. 346, 16.12.1881, S. 14" id="ssDesc5_41" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_41">Presse, Local-Anzeiger, Jg. 34, Nr. 346, 16.12.1881, S. 14</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 34, Nr. 78, 20.03.1881, S. 15" id="ssDesc5_76" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_76">Presse, Local-Anzeiger, Jg. 34, Nr. 78, 20.03.1881, S. 15</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 34, Nr. 85, 27.03.1881, S. 15" id="ssDesc5_6" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_6">Presse, Local-Anzeiger, Jg. 34, Nr. 85, 27.03.1881, S. 15</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 35, Nr. 122, 04.05.1882, S. 11" id="ssDesc5_17" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_17">Presse, Local-Anzeiger, Jg. 35, Nr. 122, 04.05.1882, S. 11</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 35, Nr. 123, 05.05.1882, S. 11" id="ssDesc5_25" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_25">Presse, Local-Anzeiger, Jg. 35, Nr. 123, 05.05.1882, S. 11</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 36, Nr. 65, 08.03.1883, S. 11" id="ssDesc5_46" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_46">Presse, Local-Anzeiger, Jg. 36, Nr. 65, 08.03.1883, S. 11</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 39, Nr. 128, 09.05.1886, S. 16" id="ssDesc5_60" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_60">Presse, Local-Anzeiger, Jg. 39, Nr. 128, 09.05.1886, S. 16</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 39, Nr. 77, 18.03.1886, S. 11" id="ssDesc5_5" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_5">Presse, Local-Anzeiger, Jg. 39, Nr. 77, 18.03.1886, S. 11</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 40, Nr. 1, 01.01.1887, S. 16" id="ssDesc5_47" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_47">Presse, Local-Anzeiger, Jg. 40, Nr. 1, 01.01.1887, S. 16</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 40, Nr. 29, 30.01.1887, S. 15" id="ssDesc5_78" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_78">Presse, Local-Anzeiger, Jg. 40, Nr. 29, 30.01.1887, S. 15</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 40, Nr. 3, 04.01.1887, S. 11" id="ssDesc5_48" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_48">Presse, Local-Anzeiger, Jg. 40, Nr. 3, 04.01.1887, S. 11</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 41, Nr. 54, 23.02.1888, S. 11" id="ssDesc5_32" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_32">Presse, Local-Anzeiger, Jg. 41, Nr. 54, 23.02.1888, S. 11</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 45, Nr. 107, 16.04.1892, S. 11" id="ssDesc5_31" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_31">Presse, Local-Anzeiger, Jg. 45, Nr. 107, 16.04.1892, S. 11</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 45, Nr. 113, 23.04.1892, S. 10" id="ssDesc5_40" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_40">Presse, Local-Anzeiger, Jg. 45, Nr. 113, 23.04.1892, S. 10</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 45, Nr. 194, 14.07.1892, S. 10" id="ssDesc5_74" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_74">Presse, Local-Anzeiger, Jg. 45, Nr. 194, 14.07.1892, S. 10</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 45, Nr. 199, 19.07.1892, S. 10" id="ssDesc5_23" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_23">Presse, Local-Anzeiger, Jg. 45, Nr. 199, 19.07.1892, S. 10</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 45, Nr. 340, 08.12.1892, S. 11" id="ssDesc5_72" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_72">Presse, Local-Anzeiger, Jg. 45, Nr. 340, 08.12.1892, S. 11</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 46, Nr. 344, 13.12.1893, S. 15" id="ssDesc5_57" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_57">Presse, Local-Anzeiger, Jg. 46, Nr. 344, 13.12.1893, S. 15</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 46, Nr. 347, 16.12.1893, S. 15" id="ssDesc5_7" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_7">Presse, Local-Anzeiger, Jg. 46, Nr. 347, 16.12.1893, S. 15</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 46, Nr. 351, 20.12.1893, S. 15" id="ssDesc5_36" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_36">Presse, Local-Anzeiger, Jg. 46, Nr. 351, 20.12.1893, S. 15</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 46, Nr. 60, 01.03.1893, S. 11" id="ssDesc5_21" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_21">Presse, Local-Anzeiger, Jg. 46, Nr. 60, 01.03.1893, S. 11</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 48, Nr. 9, 09.01.1895, S. 11" id="ssDesc5_59" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_59">Presse, Local-Anzeiger, Jg. 48, Nr. 9, 09.01.1895, S. 11</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Morgen-Presse, Jg. 49, Nr. 127, 08.05.1896, S. 6" id="ssDesc5_16" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_16">Presse, Morgen-Presse, Jg. 49, Nr. 127, 08.05.1896, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Morgen-Presse, Jg. 49, Nr. 32, 02.02.1896, S. 16" id="ssDesc5_4" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_4">Presse, Morgen-Presse, Jg. 49, Nr. 32, 02.02.1896, S. 16</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Morgen-Presse, Jg. 49, Nr. 37, 07.02.1896, S. 2" id="ssDesc5_77" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_77">Presse, Morgen-Presse, Jg. 49, Nr. 37, 07.02.1896, S. 2</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Presse, Morgen-Presse, Jg. 49, Nr. 95, 05.04.1896, S. 6" id="ssDesc5_13" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_13">Presse, Morgen-Presse, Jg. 49, Nr. 95, 05.04.1896, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 10, Nr. 357, 28.12.1869, S. [1]" id="ssDesc5_8" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_8">Vaterland, Jg. 10, Nr. 357, 28.12.1869, S. [1]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 18, Nr. 340, 12.12.1877, S. [3]" id="ssDesc5_52" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_52">Vaterland, Jg. 18, Nr. 340, 12.12.1877, S. [3]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 18, Nr. 343, 15.12.1877, S. [3]" id="ssDesc5_61" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_61">Vaterland, Jg. 18, Nr. 343, 15.12.1877, S. [3]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 20, Nr. 338, 11.12.1879, S. [3]" id="ssDesc5_30" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_30">Vaterland, Jg. 20, Nr. 338, 11.12.1879, S. [3]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 23, Nr. 81, 22.03.1882, S. 7 f." id="ssDesc5_29" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_29">Vaterland, Jg. 23, Nr. 81, 22.03.1882, S. 7 f.</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 26, Nr. 345, 16.12.1885, S. 5 f." id="ssDesc5_12" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_12">Vaterland, Jg. 26, Nr. 345, 16.12.1885, S. 5 f.</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 27, Nr. 38, 07.02.1886, S. 7" id="ssDesc5_63" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_63">Vaterland, Jg. 27, Nr. 38, 07.02.1886, S. 7</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 28, Nr. 29, 30.01.1887, S. 6" id="ssDesc5_42" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_42">Vaterland, Jg. 28, Nr. 29, 30.01.1887, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 30, Nr. 14, 14.01.1889, S. 4" id="ssDesc5_45" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_45">Vaterland, Jg. 30, Nr. 14, 14.01.1889, S. 4</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 30, Nr. 86, 29.03.1889, S. 6" id="ssDesc5_51" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_51">Vaterland, Jg. 30, Nr. 86, 29.03.1889, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 32, Nr. 334, 05.12.1891, S. 6" id="ssDesc5_69" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_69">Vaterland, Jg. 32, Nr. 334, 05.12.1891, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 33, Nr. 107, 16.04.1892, S. 6" id="ssDesc5_26" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_26">Vaterland, Jg. 33, Nr. 107, 16.04.1892, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 33, Nr. 199, 19.07.1892, S. 4" id="ssDesc5_20" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_20">Vaterland, Jg. 33, Nr. 199, 19.07.1892, S. 4</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 8, Beiblatt zu Nr. 349, 20.12.1867, S. [1]" id="ssDesc5_24" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_24">Vaterland, Jg. 8, Beiblatt zu Nr. 349, 20.12.1867, S. [1]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Jg. 9, Nr. 7, 08.01.1868, S. [1]" id="ssDesc5_53" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_53">Vaterland, Jg. 9, Nr. 7, 08.01.1868, S. [1]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 34, Beiblatt zu Nr. 344, 13.12.1893, S. [1]" id="ssDesc5_67" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_67">Vaterland, Morgenblatt, Jg. 34, Beiblatt zu Nr. 344, 13.12.1893, S. [1]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 34, Nr. 347, 16.12.1893, S. [6]" id="ssDesc5_1" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_1">Vaterland, Morgenblatt, Jg. 34, Nr. 347, 16.12.1893, S. [6]</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 34, Nr. 60, 01.03.1893, S. 6" id="ssDesc5_22" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_22">Vaterland, Morgenblatt, Jg. 34, Nr. 60, 01.03.1893, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 35, Nr. 181, 04.07.1894, S. 6" id="ssDesc5_44" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_44">Vaterland, Morgenblatt, Jg. 35, Nr. 181, 04.07.1894, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 35, Nr. 188, 11.07.1894, S. 6" id="ssDesc5_3" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_3">Vaterland, Morgenblatt, Jg. 35, Nr. 188, 11.07.1894, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 36, Nr. 9, 09.01.1895, S. 6" id="ssDesc5_56" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_56">Vaterland, Morgenblatt, Jg. 36, Nr. 9, 09.01.1895, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 37, Beiblatt zu Nr. 299, 30.10.1896, S. I" id="ssDesc5_11" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_11">Vaterland, Morgenblatt, Jg. 37, Beiblatt zu Nr. 299, 30.10.1896, S. I</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 37, Beiblatt zu Nr. 340, 10.12.1896, S. II" id="ssDesc5_54" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_54">Vaterland, Morgenblatt, Jg. 37, Beiblatt zu Nr. 340, 10.12.1896, S. II</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 37, Nr. 31, 01.02.1896, S. 6" id="ssDesc5_9" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_9">Vaterland, Morgenblatt, Jg. 37, Nr. 31, 01.02.1896, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 37, Nr. 345, 15.12.1896, S. 6" id="ssDesc5_34" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_34">Vaterland, Morgenblatt, Jg. 37, Nr. 345, 15.12.1896, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 37, Nr. 70, 11.03.1896, S. 7" id="ssDesc5_58" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_58">Vaterland, Morgenblatt, Jg. 37, Nr. 70, 11.03.1896, S. 7</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 37, Nr. 74, 15.03.1896, S. 6" id="ssDesc5_39" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_39">Vaterland, Morgenblatt, Jg. 37, Nr. 74, 15.03.1896, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 38, 171, 23.06.1897, S. 5" id="ssDesc5_49" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_49">Vaterland, Morgenblatt, Jg. 38, 171, 23.06.1897, S. 5</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 38, Nr. 31, 31.01.1897, S. 6 f." id="ssDesc5_70" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_70">Vaterland, Morgenblatt, Jg. 38, Nr. 31, 31.01.1897, S. 6 f.</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 38, Nr. 345, 16.12.1897, S. 8" id="ssDesc5_64" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_64">Vaterland, Morgenblatt, Jg. 38, Nr. 345, 16.12.1897, S. 8</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 39, Nr. 73, 15.03.1898, S. 6" id="ssDesc5_65" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_65">Vaterland, Morgenblatt, Jg. 39, Nr. 73, 15.03.1898, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 41, Nr. 5, 06.01.1900, S. 10 f." id="ssDesc5_38" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_38">Vaterland, Morgenblatt, Jg. 41, Nr. 5, 06.01.1900, S. 10 f.</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 41, Nr. 65, 08.03.1900, S. 6" id="ssDesc5_73" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_73">Vaterland, Morgenblatt, Jg. 41, Nr. 65, 08.03.1900, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 41, Nr. 81, 24.03.1900, S. 6" id="ssDesc5_18" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_18">Vaterland, Morgenblatt, Jg. 41, Nr. 81, 24.03.1900, S. 6</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 41, Nr. 88, 31.03.1900, S. 7" id="ssDesc5_35" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_35">Vaterland, Morgenblatt, Jg. 41, Nr. 88, 31.03.1900, S. 7</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 42, Nr. 33, 02.02.1901, S. 10" id="ssDesc5_10" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_10">Vaterland, Morgenblatt, Jg. 42, Nr. 33, 02.02.1901, S. 10</label></li>
-                                 <li><input type="checkbox" title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 43, Nr. 58, 28.02.1902, S. 6" id="ssDesc5_75" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc5_75">Vaterland, Morgenblatt, Jg. 43, Nr. 58, 28.02.1902, S. 6</label></li>
-                              </ul>
-                           </fieldset>
-                           <fieldset class="ssFieldset" title="008 Rubrik" id="ssDesc6">
-                              <legend>008 Rubrik</legend>
-                              <ul class="ssDescCheckboxList">
-                                 <li><input type="checkbox" title="008 Rubrik" value="Anzeigen der Redaktion (Werke)" id="ssDesc6_4" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc6_4">Anzeigen der Redaktion (Werke)</label></li>
-                                 <li><input type="checkbox" title="008 Rubrik" value="Anzeigen der Vorlage" id="ssDesc6_5" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc6_5">Anzeigen der Vorlage</label></li>
-                                 <li><input type="checkbox" title="008 Rubrik" value="Vorankündigung" id="ssDesc6_2" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc6_2">Vorankündigung</label></li>
-                                 <li><input type="checkbox" title="008 Rubrik" value="Werkerwähnung" id="ssDesc6_3" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc6_3">Werkerwähnung</label></li>
-                                 <li><input type="checkbox" title="008 Rubrik" value="Werkkritik" id="ssDesc6_1" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc6_1">Werkkritik</label></li>
-                              </ul>
-                           </fieldset>
-                           <fieldset class="ssFieldset" title="009 Verfasser" id="ssDesc9">
-                              <legend>009 Verfasser</legend>
-                              <ul class="ssDescCheckboxList">
-                                 <li><input type="checkbox" title="009 Verfasser" value="gemäß BrahmsWV" id="ssDesc9_1" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc9_1">gemäß BrahmsWV</label></li>
-                                 <li><input type="checkbox" title="009 Verfasser" value="gemäß Hofmann, Chronologie" id="ssDesc9_3" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc9_3">gemäß Hofmann, Chronologie</label></li>
-                                 <li><input type="checkbox" title="009 Verfasser" value="vgl. BrahmsWV" id="ssDesc9_2" class="staticSearch.desc staticSearch_desc"/><label for="ssDesc9_2">vgl. BrahmsWV</label></li>
-                              </ul>
-                           </fieldset>
+                        </div>
+                        <div class="ssFeatFilters">
+                           <fieldset class="ssFieldset" title="002 Veranstaltungsort" id="ssFeat1">
+                              <legend>002 Veranstaltungsort</legend><input type="text" title="002 Veranstaltungsort" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/></fieldset>
+                           <fieldset class="ssFieldset" title="003 Beteiligte Personen / Körperschaften" id="ssFeat6">
+                              <legend>003 Beteiligte Personen / Körperschaften</legend><input type="text" title="003 Beteiligte Personen / Körperschaften" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/></fieldset>
+                           <fieldset class="ssFieldset" title="004 Personen beteiligt als / mit" id="ssFeat7">
+                              <legend>004 Personen beteiligt als / mit</legend><input type="text" title="004 Personen beteiligt als / mit" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/></fieldset>
+                           <fieldset class="ssFieldset" title="005 Werk" id="ssFeat2">
+                              <legend>005 Werk</legend><input type="text" title="005 Werk" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/></fieldset>
+                           <fieldset class="ssFieldset" title="006 Gattung" id="ssFeat3">
+                              <legend>006 Gattung</legend><input type="text" title="006 Gattung" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/></fieldset>
+                           <fieldset class="ssFieldset" title="007 Quelle" id="ssFeat4">
+                              <legend>007 Quelle</legend><input type="text" title="007 Quelle" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/></fieldset>
+                           <fieldset class="ssFieldset" title="008 Rubrik" id="ssFeat5">
+                              <legend>008 Rubrik</legend><input type="text" title="008 Rubrik" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/></fieldset>
+                           <fieldset class="ssFieldset" title="009 Verfasser" id="ssFeat8">
+                              <legend>009 Verfasser</legend><input type="text" title="009 Verfasser" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/></fieldset>
                         </div>
                         <div class="ssDateFilters">
                            <fieldset class="ssFieldset" title="010 Zeitraum" id="ssDate1">
-                              <legend>010 Zeitraum</legend><span><label for="ssDate1_from">From: </label><input type="text" placeholder="1867-12-21" title="010 Zeitraum" id="ssDate1_from" onchange="this.reportValidity()" class="staticSearch.date staticSearch_date" maxlength="10" pattern="^\d\d\d\d(-((((01)|(03)|(05)|(07)|(08)|(10)|(12))-((0[1-9])|([12][0-9])|(3[01])))|(((04)|(06)|(09)|(11))-((0[1-9])|([12][0-9])|(30)))|(02-((0[1-9])|([12][0-9]))))|(-((0[123456789])|(1[012]))))?$"/></span><span><label for="ssDate1_to">To: </label><input type="text" placeholder="1902-03-04" title="010 Zeitraum" id="ssDate1_to" onchange="this.reportValidity()" class="staticSearch.date staticSearch_date" maxlength="10" pattern="^\d\d\d\d(-((((01)|(03)|(05)|(07)|(08)|(10)|(12))-((0[1-9])|([12][0-9])|(3[01])))|(((04)|(06)|(09)|(11))-((0[1-9])|([12][0-9])|(30)))|(02-((0[1-9])|([12][0-9]))))|(-((0[123456789])|(1[012]))))?$"/></span></fieldset>
+                              <legend>010 Zeitraum</legend><span><label for="ssDate1_from">From: </label><input type="text" maxlength="10" pattern="^\d\d\d\d(-((((01)|(03)|(05)|(07)|(08)|(10)|(12))-((0[1-9])|([12][0-9])|(3[01])))|(((04)|(06)|(09)|(11))-((0[1-9])|([12][0-9])|(30)))|(02-((0[1-9])|([12][0-9]))))|(-((0[123456789])|(1[012]))))?$" title="010 Zeitraum" id="ssDate1_from" class="staticSearch.date staticSearch_date" placeholder="1867-12-21" onchange="this.reportValidity()"/></span><span><label for="ssDate1_to">To: </label><input type="text" maxlength="10" pattern="^\d\d\d\d(-((((01)|(03)|(05)|(07)|(08)|(10)|(12))-((0[1-9])|([12][0-9])|(3[01])))|(((04)|(06)|(09)|(11))-((0[1-9])|([12][0-9])|(30)))|(02-((0[1-9])|([12][0-9]))))|(-((0[123456789])|(1[012]))))?$" title="010 Zeitraum" id="ssDate1_to" class="staticSearch.date staticSearch_date" placeholder="1902-03-04" onchange="this.reportValidity()"/></span></fieldset>
                         </div><span class="postFilterSearchBtn"><button id="ssDoSearch2">Search</button></span></form>
                      <div id="ssSearching">Searching...</div>
+                     <div id="ssSplashMessage">Loading...</div>
                      <div id="ssResults"></div>
                      <div id="ssPoweredBy">
-                        <p>Powered by</p><a href="https://github.com/projectEndings/staticSearch"><svg xmlns="http://www.w3.org/2000/svg" id="svg8" version="1.1" viewBox="0 0 266.77068 209.61487" height="30" width="39">
+                        <p>Powered by</p><a href="https://github.com/projectEndings/staticSearch" aria-label="Powered by staticSearch"><svg xmlns="http://www.w3.org/2000/svg" id="svg8" version="1.1" viewBox="0 0 266.77068 209.61487" height="30" width="39">
                               
                               
                               
@@ -447,5 +286,61 @@
             </div>
          
          <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;">
-            © Copyright OEAW | <a href="https://brahmsonline.acdh-dev.oeaw.ac.at/imprint">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="autocomplete-addon/autocomplete.js"></script></div><script type="text/javascript" src="js/ssFilterUpdate.js"></script></body>
+            © Copyright OEAW | <a href="https://brahmsonline.acdh-dev.oeaw.ac.at/imprint">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="autocomplete-addon/autocomplete.js"></script><div class="modal fade" id="searchInfoModal" tabindex="-1" aria-labelledby="searchInfoModalLabel" aria-hidden="true">
+            
+            <div class="modal-dialog modal-lg">
+               
+               <div class="modal-content">
+                  
+                  <div class="modal-header">
+                     
+                     <h5 class="modal-title" id="exampleModalLabel">Search Options Info</h5>
+                     </div>
+                  
+                  <div class="modal-body">
+                     
+                     <ul>
+                        
+                        <li>Stemming of terms (e.g. ‘wait’ will also retrieve ‘waiting’, ‘waits’, ‘waited’ etc.).</li>
+                        
+                        <li>Boolean search operators. Adding + (plus) before a word means that search results
+                           must contain that word, and adding a - (minus) means that results must not contain
+                           that word. Words without plus or minus are treated as may contain, contributing to
+                           the score of any retrieved document.</li>
+                        
+                        <li>Phrasal searches. Any quoted phrase will be searched as-is, and when quoted phrases
+                           are included in a search, any hit document must contain at least one of them.</li>
+                        
+                        <li>Wildcard searches, using the asterisk (*), question mark (?) and character classes
+                           ([ab]). So you can search for lo[uv]e? to find ‘loved’, ‘loued’, ‘loves’, ‘louer’,
+                           etc.</li>
+                        
+                        <li>Search filtering. Select specific document types, date ranges, or other features.</li>
+                        
+                        <li>Autocomplete. Type in at least one letter to get results. If you type letters seperated
+                           by space you will receive autocomplete options for each space seperated word or phrase.
+                           
+                           
+                           <ul>
+                              
+                              <li>For single word autocomplete select the suggestions by clicking in order to copy them
+                                 into the main search input panel.</li>
+                              
+                              <li>For multi word autocomplete select the suggestions of each column by clicking in order
+                                 to copy them to a specific input field of each column. Adapt the input fields to your
+                                 needs using the above explained wildcards and other options before using the copy
+                                 button.</li>
+                              
+                              <li>The arrow up (copy) symbol pastes the values of the column input fields to the main
+                                 search input field.</li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button></div>
+                  </div>
+               </div>
+            </div>
+         </div><script type="text/javascript" src="js/ssFilterUpdate.js"></script></body>
    </html>
