@@ -19,7 +19,7 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <!-- Your menu goes here -->
                         <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
-                            <li class="nav-item dropdown">
+                            <!--<li class="nav-item dropdown">
                                 <a title="Projekt" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
@@ -35,8 +35,8 @@
                                         <a title="Rezensenten" href="https://brahmsonline.acdh-dev.oeaw.ac.at/rezensenten/" class="nav-link">Rezensenten</a>
                                     </li>
                                 </ul>                                
-                            </li>
-                            <li class="nav-item dropdown">
+                            </li>-->
+                            <!--<li class="nav-item dropdown">
                                 <a title="Brahmś Wien" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Brahmś Wien <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
@@ -49,8 +49,8 @@
                                         <a title="Brahms-Interpret*innen" href="https://brahmsonline.acdh-dev.oeaw.ac.at/brahms-interpreten/" class="nav-link">Brahms-Interpret*innen</a>
                                     </li>
                                 </ul>                                
-                            </li>
-                            <li class="nav-item dropdown">
+                            </li>-->
+                            <!--<li class="nav-item dropdown">
                                 <a title="Forschung" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Forschung <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
@@ -60,8 +60,8 @@
                                         <a title="Literatur" href="https://brahmsonline.acdh-dev.oeaw.ac.at/literatur/" class="nav-link">Literatur</a>
                                     </li>
                                 </ul>                                
-                            </li> 
-                            <li class="nav-item dropdown">
+                            </li>--> 
+                            <!--<li class="nav-item dropdown">
                                 <a title="Datenbank" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Datenbank <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
@@ -74,8 +74,11 @@
                                         <a title="Werke" href="toc.html" class="nav-link">Werke</a>
                                     </li>                                  
                                 </ul>                                
-                            </li>
-                            <li class="nav-item"><a title="Kontakt" href="https://brahmsonline.acdh-dev.oeaw.ac.at/kontakt/" class="nav-link">Kontakt</a></li>
+                            </li>-->
+                            <li class="nav-item"><a title="Suche" href="index.html" class="nav-link">Suche</a></li>
+                            <li class="nav-item"><a title="Personen" href="Personenregister-verkuerzt.html" class="nav-link">Personen</a></li>
+                            <li class="nav-item"><a title="Werke" href="toc.html" class="nav-link">Werke</a></li>
+                            <li class="nav-item"><a title="Werke" href="https://brahmsonline.acdh-dev.oeaw.ac.at" class="nav-link">Brahms-Online</a></li>
                         </ul>                        
                         <!--<form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
                             <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" />
