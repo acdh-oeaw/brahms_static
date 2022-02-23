@@ -211,24 +211,22 @@
                                                         <xsl:when test="not(//mei:expressionList/mei:expression)">                                              
                                                             <xsl:if test="./mei:relationList/mei:relation/@target">   
                                                                 <ul style="padding:0;margin-bottom:0;">
-                                                                    <xsl:for-each select="./mei:relationList/mei:relation">
-                                                                        
-                                                                        <xsl:variable name="refId-multi-token" select="tokenize(translate(@target, '#', ''), '\s')"/>
-                                                                        <xsl:variable name="count" select="count($refId-multi-token)"/>
+                                                                    <xsl:for-each select="./mei:relationList/mei:relation">                                                                        
+                                                                        <xsl:variable name="relationID" select="tokenize(translate(@target, '#', ''), '\s')"/>
+                                                                        <xsl:variable name="count" select="count($relationID)"/>
                                                                         <xsl:choose>
-                                                                            <xsl:when test="$count != 0">
+                                                                            <xsl:when test="$count > 1">
                                                                                 <xsl:call-template name="multi-relation-loop">                                       
-                                                                                    <xsl:with-param name="count-after" select="$count"/>
-                                                                                    <xsl:with-param name="refId-multi" select="$refId-multi-token"/>
-                                                                                    <xsl:with-param name="type" select="'list'"/>
-                                                                                </xsl:call-template>
+                                                                                    <xsl:with-param name="count" select="$count"/>
+                                                                                    <xsl:with-param name="relationID" select="$relationID"/>
+                                                                                    <xsl:with-param name="type" select="'table'"/>
+                                                                                </xsl:call-template>                                                                                
                                                                             </xsl:when>
                                                                             <xsl:otherwise>
                                                                                 <xsl:variable name="refId" select="translate(@target, '#', '')"/>
                                                                                 <xsl:if test="//id($refId)">
                                                                                     <xsl:for-each select="//id($refId)">
-                                                                                        <xsl:value-of select="./mei:title"/>                                                                                            
-                                                                                        <xsl:text> </xsl:text>                                                                                            
+                                                                                        <li><xsl:value-of select="translate(./mei:title, '.', '')"/></li>                                                                                            
                                                                                     </xsl:for-each>
                                                                                 </xsl:if>
                                                                             </xsl:otherwise>
@@ -504,26 +502,27 @@
                                                                         <xsl:when test="not(//mei:expressionList/mei:expression)">
                                                                             <xsl:if test="./mei:relationList/mei:relation/@target">
                                                                                 <xsl:for-each select="./mei:relationList/mei:relation">
-                                                                                    <xsl:variable name="refId-multi-token" select="tokenize(translate(@target, '#', ''), '\s')"/>
-                                                                                    <xsl:variable name="count" select="count($refId-multi-token)"/>
+                                                                                    <xsl:variable name="relationID" select="tokenize(translate(@target, '#', ''), '\s')"/>
+                                                                                    <xsl:variable name="count" select="count($relationID)"/>
                                                                                     <xsl:choose>
-                                                                                        <xsl:when test="$count != 0">
+                                                                                        <xsl:when test="$count > 1">
                                                                                             <xsl:call-template name="multi-relation-loop">                                       
-                                                                                                <xsl:with-param name="count-after" select="$count"/>
-                                                                                                <xsl:with-param name="refId-multi" select="$refId-multi-token"/>
+                                                                                                <xsl:with-param name="count" select="$count"/>
+                                                                                                <xsl:with-param name="relationID" select="$relationID"/>
                                                                                                 <xsl:with-param name="type" select="'metadata'"/>
-                                                                                            </xsl:call-template>
+                                                                                            </xsl:call-template>                                                                                         
                                                                                         </xsl:when>
                                                                                         <xsl:otherwise>
                                                                                             <xsl:variable name="refId" select="translate(@target, '#', '')"/>
                                                                                             <xsl:if test="//id($refId)">
                                                                                                 <xsl:for-each select="//id($refId)">
                                                                                                     <xsl:value-of select="./mei:title"/>                                                                                            
-                                                                                                    <xsl:text> </xsl:text>                                                                                            
+                                                                                                    <xsl:text> </xsl:text> 
+                                                                                                    <xsl:value-of select="./mei:identifier[@label='Opus-Nummer']"/>
                                                                                                 </xsl:for-each>
                                                                                             </xsl:if>
                                                                                         </xsl:otherwise>
-                                                                                    </xsl:choose>                                                                                                                                                    
+                                                                                    </xsl:choose>                                                                                                                                                   
                                                                                 </xsl:for-each>
                                                                             </xsl:if>
                                                                         </xsl:when>
@@ -620,28 +619,29 @@
                                                                                                             <td>
                                                                                                                 <xsl:for-each select="./mei:relationList/mei:relation">
                                                                                                                     <ul style="padding:0;margin-bottom:0;">
-                                                                                                                        <xsl:variable name="refId-multi-token" select="tokenize(translate(@target, '#', ''), '\s')"/>
-                                                                                                                        <xsl:variable name="count" select="count($refId-multi-token)"/>
+                                                                                                                        <xsl:variable name="relationID" select="tokenize(translate(@target, '#', ''), '\s')"/>
+                                                                                                                        <xsl:variable name="count" select="count($relationID)"/>
                                                                                                                         <xsl:choose>
-                                                                                                                            <xsl:when test="$count != 0">                                                                                                                            
+                                                                                                                            <xsl:when test="$count > 1">
                                                                                                                                 <xsl:call-template name="multi-relation-loop">                                       
-                                                                                                                                    <xsl:with-param name="count-after" select="$count"/>
-                                                                                                                                    <xsl:with-param name="refId-multi" select="$refId-multi-token"/>
-                                                                                                                                    <xsl:with-param name="type" select="'table'"/>
-                                                                                                                                </xsl:call-template>                                                                                                                            
+                                                                                                                                    <xsl:with-param name="count" select="$count"/>
+                                                                                                                                    <xsl:with-param name="relationID" select="$relationID"/>
+                                                                                                                                    <xsl:with-param name="type" select="'list'"/>
+                                                                                                                                </xsl:call-template>                                                                                                                                
                                                                                                                             </xsl:when>
                                                                                                                             <xsl:otherwise>
                                                                                                                                 <xsl:variable name="refId" select="translate(@target, '#', '')"/>
                                                                                                                                 <xsl:if test="//id($refId)">
                                                                                                                                     <xsl:for-each select="//id($refId)">
-                                                                                                                                        <xsl:value-of select="translate(./mei:title, '.', '')"/>
-                                                                                                                                        <xsl:text> </xsl:text>
-                                                                                                                                        <xsl:value-of select="./mei:identifier"/>
-                                                                                                                                        <br/>                                                                                           
+                                                                                                                                        <li>
+                                                                                                                                            <xsl:value-of select="translate(./mei:title, '.', '')"/>
+                                                                                                                                            <xsl:text> </xsl:text>
+                                                                                                                                            <xsl:value-of select="./mei:identifier[@label='Opus-Nummer']"/>
+                                                                                                                                        </li>                                                                                           
                                                                                                                                     </xsl:for-each>
                                                                                                                                 </xsl:if>
                                                                                                                             </xsl:otherwise>
-                                                                                                                        </xsl:choose>                                                                                                                    
+                                                                                                                        </xsl:choose>                                                                                                            
                                                                                                                     </ul>
                                                                                                                 </xsl:for-each>
                                                                                                             </td>
@@ -728,20 +728,20 @@
         </html>
     </xsl:template>      
     <xsl:template name="multi-relation-loop">
-        <xsl:param name="refId-multi"/>        
-        <xsl:param name="count-after"/>   
+        <xsl:param name="relationID"/>        
+        <xsl:param name="count"/>   
         <xsl:param name="type"/>
+        <xsl:variable name="relID" select="$relationID"/>
+        <xsl:variable name="count2" select="$count"/>
         <xsl:choose>
             <xsl:when test="$type = 'table'">
                 <xsl:choose>
-                    <xsl:when test="$count-after > 0">
+                    <xsl:when test="$count > 0">
                         <xsl:choose>
-                            <xsl:when test="//id($refId-multi[$count-after])"> 
-                                <xsl:for-each select="//id($refId-multi[$count-after])"> 
-                                    <li style="margin-top:0;margin-bottom:.3em;">
+                            <xsl:when test="//id($relationID[$count])"> 
+                                <xsl:for-each select="//id($relationID[$count])"> 
+                                    <li style="margin-top:0;margin-bottom:.3em;">                                        
                                         <xsl:value-of select="translate(./mei:title, '.', '')"/>
-                                        <xsl:text> </xsl:text>
-                                        <xsl:value-of select="./mei:identifier"/>  
                                     </li>                                                                      
                                 </xsl:for-each>    
                             </xsl:when>
@@ -750,20 +750,23 @@
                             </xsl:otherwise>
                         </xsl:choose>
                         <xsl:call-template name="multi-relation-loop">
-                            <xsl:with-param name="count-after" select="$count-after - 1"/>
-                            <xsl:with-param name="refId-multi" select="$refId-multi"/>
+                            <xsl:with-param name="count" select="$count2 - 1"/>
+                            <xsl:with-param name="relationID" select="$relID"/>
+                            <xsl:with-param name="type" select="'table'"/>
                         </xsl:call-template>
                     </xsl:when>
                 </xsl:choose>
             </xsl:when>
             <xsl:when test="$type = 'list'">
                 <xsl:choose>
-                    <xsl:when test="$count-after > 0">
+                    <xsl:when test="$count > 0">
                         <xsl:choose>
-                            <xsl:when test="//id($refId-multi[$count-after])"> 
-                                <xsl:for-each select="//id($refId-multi[$count-after])">       
-                                    <li style="margin-top:0;margin-bottom:.3em;">
+                            <xsl:when test="//id($relationID[$count])"> 
+                                <xsl:for-each select="//id($relationID[$count])">                                      
+                                    <li style="margin-top:0;margin-bottom:.3em;">                                        
                                         <xsl:value-of select="translate(./mei:title, '.', '')"/>
+                                        <xsl:text> </xsl:text>
+                                        <xsl:value-of select="./mei:identifier"/>
                                     </li> 
                                 </xsl:for-each>    
                             </xsl:when>
@@ -772,29 +775,33 @@
                             </xsl:otherwise>
                         </xsl:choose>
                         <xsl:call-template name="multi-relation-loop">
-                            <xsl:with-param name="count-after" select="$count-after - 1"/>
-                            <xsl:with-param name="refId-multi" select="$refId-multi"/>
+                            <xsl:with-param name="count" select="$count2 - 1"/>
+                            <xsl:with-param name="relationID" select="$relID"/>
+                            <xsl:with-param name="type" select="'list'"/>
                         </xsl:call-template>
                     </xsl:when>
                 </xsl:choose>
             </xsl:when>
             <xsl:when test="$type = 'metadata'">
                 <xsl:choose>
-                    <xsl:when test="$count-after > 0">
+                    <xsl:when test="$count > 0">
                         <xsl:choose>
-                            <xsl:when test="//id($refId-multi[$count-after])"> 
-                                <xsl:for-each select="//id($refId-multi[$count-after])">       
-                                    <xsl:value-of select="./mei:title"/>                                                                                            
-                                    <xsl:text> </xsl:text>  
-                                </xsl:for-each>    
+                            <xsl:when test="//id($relationID[$count])"> 
+                                <xsl:for-each select="//id($relationID[$count])">      
+                                    <xsl:value-of select="translate(./mei:title, '.', '')"/>
+                                    <xsl:text> </xsl:text>
+                                    <xsl:value-of select="./mei:identifier"/>
+                                    <xsl:text>. </xsl:text>
+                                </xsl:for-each>
                             </xsl:when>
                             <xsl:otherwise>
                                 
                             </xsl:otherwise>
                         </xsl:choose>
                         <xsl:call-template name="multi-relation-loop">
-                            <xsl:with-param name="count-after" select="$count-after - 1"/>
-                            <xsl:with-param name="refId-multi" select="$refId-multi"/>
+                            <xsl:with-param name="count" select="$count2 - 1"/>
+                            <xsl:with-param name="relationID" select="$relID"/>
+                            <xsl:with-param name="type" select="'metadata'"/>
                         </xsl:call-template>
                     </xsl:when>
                 </xsl:choose>
