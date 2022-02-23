@@ -122,7 +122,7 @@
                                 </xsl:for-each>    
                             </td>
                             <td>
-                                <a href="{$persUrl}.html" title="{./mei:persName[@type='main']}">
+                                <a href="personenregister-id-{$persUrl}.html" title="{./mei:persName[@type='main']}">
                                     <svg xmlns="http://www.w3.org/2000/svg" 
                                         width="16" 
                                         height="16" 
@@ -138,7 +138,7 @@
                             </td>
                         </tr>              
                         <xsl:variable name="registerUri" select="replace(tokenize(document-uri(/), '/')[last()], '.xml', '.html')"/>
-                        <xsl:result-document href="{$persUrl}.html">
+                        <xsl:result-document href="personenregister-id-{$persUrl}.html">
                             <xsl:variable name="doc_title_3">
                                 <xsl:value-of select="concat(
                                     ancestor::mei:list/mei:head, 

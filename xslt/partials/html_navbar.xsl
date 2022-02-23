@@ -78,7 +78,7 @@
                             <li class="nav-item"><a title="Suche" href="index.html" class="nav-link">Suche</a></li>
                             <li class="nav-item"><a title="Personen" href="Personenregister-verkuerzt.html" class="nav-link">Personen</a></li>
                             <li class="nav-item"><a title="Werke" href="toc.html" class="nav-link">Werke</a></li>
-                            <li class="nav-item"><a title="Werke" href="https://brahmsonline.acdh-dev.oeaw.ac.at" class="nav-link">Brahms-Online</a></li>
+                            <li class="nav-item"><a title="Brahms-Online" href="https://brahmsonline.acdh-dev.oeaw.ac.at" class="nav-link">Brahms-Online</a></li>
                         </ul>                        
                         <!--<form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
                             <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" />
