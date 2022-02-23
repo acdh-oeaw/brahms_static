@@ -317,15 +317,15 @@
                                                                             </td>
                                                                         </tr>
                                                                     </xsl:if>
-                                                                    <xsl:if test="./mei:ptr[@label='OeML']/@target or 
-                                                                        ./mei:ptr[@label='OeBL']/@target or 
-                                                                        ./mei:ptr[@label='BMLO']/@target or 
-                                                                        ./mei:ptr[@label='ABLO']/@target">
+                                                                    <xsl:if test="string-length(./mei:ptr[@label='OeML']/@target) > 1 or 
+                                                                        string-length(./mei:ptr[@label='OeBL']/@target) > 1 or 
+                                                                        string-length(./mei:ptr[@label='BMLO']/@target) > 1 or 
+                                                                        string-length(./mei:ptr[@label='ABLO']/@target) > 1">
                                                                             <tr>
                                                                                 <th>Links</th>
                                                                                 <td>
                                                                                     <ul style="padding:0;margin-bottom:0;">
-                                                                                        <xsl:if test="./mei:ptr[@label='OeML']/@target and
+                                                                                        <xsl:if test="string-length(./mei:ptr[@label='OeML']/@target) > 1 and
                                                                                             not(starts-with(./mei:ptr[@label='OeML']/@target, '#'))">
                                                                                             
                                                                                             <li style="margin-top:0;margin-bottom:.2em;">
@@ -336,7 +336,7 @@
                                                                                                 </a>
                                                                                             </li>
                                                                                         </xsl:if>
-                                                                                        <xsl:if test="./mei:ptr[@label='OeBL']/@target and
+                                                                                        <xsl:if test="string-length(./mei:ptr[@label='OeBL']/@target) > 1 and
                                                                                             not(starts-with(./mei:ptr[@label='OeBL']/@target, '#'))"> 
                                                                                             
                                                                                             <li style="margin-top:0;margin-bottom:.2em;">
@@ -347,7 +347,7 @@
                                                                                                 </a>
                                                                                             </li>
                                                                                         </xsl:if>
-                                                                                        <xsl:if test="./mei:ptr[@label='BMLO']/@target and
+                                                                                        <xsl:if test="string-length(./mei:ptr[@label='BMLO']/@target) > 1 and
                                                                                             not(starts-with(./mei:ptr[@label='BMLO']/@target, '#'))">
                                                                                             
                                                                                             <li style="margin-top:0;margin-bottom:.2em;">
@@ -358,7 +358,7 @@
                                                                                                 </a>
                                                                                             </li>
                                                                                         </xsl:if>
-                                                                                        <xsl:if test="./mei:ptr[@label='ABLO']/@target and
+                                                                                        <xsl:if test="string-length(./mei:ptr[@label='ABLO']/@target) > 1 and
                                                                                             not(starts-with(./mei:ptr[@label='ABLO']/@target, '#'))">
                                                                                             
                                                                                             <li style="margin-top:0;margin-bottom:.2em;">
