@@ -497,6 +497,10 @@ fieldset legend {
     line-height: 1.2em;
 }
 
+#staticSearch {
+    font-size: 13px;
+}
+
 /*fieldset legend:hover {
     border: 1px solid grey;
 }*/
@@ -518,10 +522,12 @@ fieldset legend div {
 
 .ssResultUpdate1 {
     font-weight: bold;
+    font-size: 13px;
 }
 
 .ssResultUpdate2 {
     margin: .3em 0;
+    font-size: 13px;
 }
 
 .ssResultUpdate3 {
@@ -571,7 +577,7 @@ ul.ssDescCheckboxList li {
 }
 
 .simpleFilter1 {
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 .ssDescCheckboxList li label {
@@ -579,9 +585,9 @@ ul.ssDescCheckboxList li {
     max-width: 90%;
 }
 
-/*#ssResults {
-    white-space: pre-line;
-}*/
+div#ssResults>ul>li {
+    margin-top: 0;
+}
 
 form button svg {
     color: #88dbdf;
