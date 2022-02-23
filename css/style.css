@@ -564,6 +564,19 @@ ul.ssDescCheckboxList li {
     max-width: 48%;    
 }
 
+div.ssSuggest > span {
+    border-radius: .25rem;
+    background-color: rgba(136, 219, 223, .2);
+    box-shadow: 4px 4px 9px 0 rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+div.ssSuggest > span > button {
+    border-radius: .25rem;
+    background-color: transparent;
+    border: none;
+}
+
 .simpleFilter1 ul li, .simpleFilter2 ul li {
     width: 25%;
     max-width: 25%;   
