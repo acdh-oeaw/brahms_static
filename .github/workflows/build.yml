@@ -23,6 +23,7 @@ jobs:
         ant
     - name: Build Index
       run: |
+        mv ./xslt/static-search-adapted/makeSearchPage.xsl ./static-search/xsl/makeSearchPage.xsl
         ./build_index.sh
     - name: Create autocomplete txt
       run: |

@@ -476,44 +476,30 @@ button#ssDoSearch {
     border: 1px solid lightgrey;
 }
 
+.dropdownFilter_feat {
+    display: inline-block;
+    margin-left: .5em;
+}
+
 fieldset {
     margin: 0;
     padding: 0;
 }
 
 fieldset legend {
-    border: 1px solid lightgrey;
-    border-radius: .25rem;
+    border-top: 3px solid #88dbdf;
     font-size: 1em;
     padding: .5em;
-    cursor: pointer;
-}
-
-fieldset legend:hover {
-    border: 1px solid grey;
-}
-
-fieldset legend div {
-    width: 50%;
     display: inline-block;
 }
 
-fieldset {
-    margin: 0;
-    padding: 0;
+.staticSearch_feat {
+    line-height: 1.2em;
 }
 
-fieldset legend {
-    border: 1px solid lightgrey;
-    border-radius: .25rem;
-    font-size: 1em;
-    padding: .5em;
-    cursor: pointer;
-}
-
-fieldset legend:hover {
+/*fieldset legend:hover {
     border: 1px solid grey;
-}
+}*/
 
 fieldset legend div {
     width: 50%;
