@@ -9,3 +9,6 @@ mv ./tmp/staticSearch-1.4.1 ./static-search && rm -rf ./tmp
 echo "get stopword list"
 wget https://raw.githubusercontent.com/stopwords-iso/stopwords-de/master/stopwords-de.txt -O stopwords.txt
 touch words.txt
+
+echo "copy/replace custom makeSearchPage.xsl"
+cp ./xslt/static-search-adapted/makeSearchPage.xsl ./static-search/xsl/makeSearchPage.xsl

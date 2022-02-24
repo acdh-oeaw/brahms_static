@@ -161,7 +161,7 @@
                                                             </xsl:when>
                                                             <xsl:otherwise>
                                                                 <td>
-                                                                    <xsl:text>unbekannt</xsl:text>
+                                                                    <xsl:text>k.A.</xsl:text>
                                                                 </td>
                                                             </xsl:otherwise>
                                                         </xsl:choose>    
@@ -186,7 +186,7 @@
                                                             <xsl:variable name="count-persons" select="count(./mei:persName)"/>
                                                             <xsl:value-of select="./mei:persName[1]"/>
                                                             <xsl:if test="$count-persons > 1">
-                                                                <xsl:text>(+ </xsl:text>
+                                                                <xsl:text>(+</xsl:text>
                                                                 <xsl:value-of select="$count-persons - 1"/>
                                                                 <xsl:text>)</xsl:text>
                                                             </xsl:if>                                                            
@@ -486,7 +486,7 @@
                                                                         </xsl:if>
                                                                         <xsl:choose>
                                                                             <xsl:when test="count(./mei:persName) > 1">
-                                                                                <xsl:text> (+ </xsl:text>
+                                                                                <xsl:text> (+</xsl:text>
                                                                                 <xsl:value-of select="count(./mei:persName) - 1"/>
                                                                                 <xsl:text>). </xsl:text>
                                                                             </xsl:when>

@@ -98,7 +98,7 @@
         </div>
         <!-- #wrapper-footer-full -->
         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;" >
-            © Copyright OEAW | <a href="https://brahmsonline.acdh-dev.oeaw.ac.at/imprint">Impressum/Imprint</a>
+            © Copyright OEAW | <a href="imprint.html">Impressum/Imprint</a>
         </div>
         <script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script>
