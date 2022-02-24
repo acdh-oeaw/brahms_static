@@ -82,6 +82,10 @@ div.opusInfo, div.alphabetInfo {
     z-index: 1;
 }
 
+div.dt-buttons .btn-link {
+    border: none;
+}
+
 .event-table tr th{
     border-top: 0;
     border-right: 1px solid #dee2e6;
@@ -494,7 +498,7 @@ fieldset legend {
 }
 
 .staticSearch_feat {
-    line-height: 1.2em;
+    /*line-height: 1.2em;*/
 }
 
 #staticSearch {

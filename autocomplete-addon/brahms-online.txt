@@ -1115,7 +1115,6 @@ static-search/stems/türk.json
 static-search/stems/umfangen.json
 static-search/stems/umgearbeitet.json
 static-search/stems/umher.json
-static-search/stems/unbekannt.json
 static-search/stems/ungarisch.json
 static-search/stems/universität.json
 static-search/stems/urban.json
