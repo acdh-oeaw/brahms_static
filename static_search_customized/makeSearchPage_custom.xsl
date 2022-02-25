@@ -380,22 +380,22 @@
                           <fieldset class="ssFieldset" title="{$filterName}" id="{$filterId}">
                             <legend><xsl:value-of select="$filterName"/></legend>
                               <!--And create a simple text box for the feature.-->
-                              <input type="text" title="{$filterName}" placeholder="{hcmc:getCaption('ssStartTyping', $captionLang)}"
+                              <input type="text" title="{$filterName}" placeholder="{hcmc:getCaption('ssStartTyping', $captionLang)}" 
                                   class="staticSearch.feat staticSearch_feat"/>
-                              <div class="dropdownFilter_feat">
+                              <!--<div class="dropdownFilter_feat"> 
                                   <select class="custom-select"
                                       onchange="getSelectedItem(this, '{$filterId}')">
                                       <option value="">
                                           select option
                                       </option>
-                                  <!-- Before sorting checkbox items, we need to know
-                                              whether they're numeric or not. -->
+                                  <!-\- Before sorting checkbox items, we need to know
+                                              whether they're numeric or not. -\->
                                   <xsl:variable name="notNumeric" select="some $n in (for $s in $jsonDoc//j:map[@key]/j:string[@key='sortKey'] return $s castable as xs:decimal) satisfies $n = false()"/>
                                   <xsl:variable name="sortedMaps" as="element(j:map)+">
                                       <xsl:choose>
                                           <xsl:when test="$notNumeric">
                                               <xsl:for-each select="$jsonDoc//j:map[@key]">
-                                                  <!-- Note: the article-stripping here is crude and limited to a couple of languages. For anything important, users should provide a sort key. -->
+                                                  <!-\- Note: the article-stripping here is crude and limited to a couple of languages. For anything important, users should provide a sort key. -\->
                                                   <xsl:sort select="replace(j:string[@key='sortKey'], '^((the)|(a)|(an)|(l[ea]s?)|(de[nrs]?)|([ie]l)|(un[oe]?))\s+', '', 'i')" lang="{$pageLang}"/>
                                                   <xsl:sequence select="."/>
                                               </xsl:for-each>
@@ -410,21 +410,21 @@
                                   </xsl:variable>
                                   
                                   <xsl:for-each select="$sortedMaps">
-                                      <!--<xsl:sort select="if ($notNumeric)  then replace(j:string[@key='name'], '^((the)|(a)|(an))\s+', '', 'i') else xs:decimal(j:string[@key='name'])"/>-->
-                                      <!--And create the input item: the input item contains:
+                                      <!-\-<xsl:sort select="if ($notNumeric)  then replace(j:string[@key='name'], '^((the)|(a)|(an))\s+', '', 'i') else xs:decimal(j:string[@key='name'])"/>-\->
+                                      <!-\-And create the input item: the input item contains:
                                             * an @title that specifies the filter name (e.g. Genre)
                                             * an @value that specifies the filter value (e.g. Poem)
-                                            * an @id to associate the label for A11Y-->
+                                            * an @id to associate the label for A11Y-\->
                                       <xsl:variable name="thisOptId" select="@key"/>
                                       <xsl:variable name="thisOptName" select="j:string[@key='name']"/>
-                                      <!--REMOVE staticSearch.desc after deprecation period?-->
+                                      <!-\-REMOVE staticSearch.desc after deprecation period?-\->
                                       <option title="{$filterName}" value="{$thisOptName}" id="{$thisOptId}"
                                           class="staticSearch.feat staticSearch_feat">
                                           <xsl:value-of select="$thisOptName"/>
                                       </option>
                                   </xsl:for-each>
                                   </select>
-                              </div>                            
+                              </div>-->                            
                             
                           </fieldset>
                         </xsl:for-each>

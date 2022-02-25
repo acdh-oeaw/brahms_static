@@ -69,7 +69,7 @@ function updateFilters() {
     });
     var clearButton = $("#ssForm .clearButton");
     clearButton.append(`
-        <button id="ssShow" onclick="showFilters()">advanced filter</button>
+        <button id="ssShow" onclick="showFilters()">erweiterter Filter</button>
     `)
 }
 

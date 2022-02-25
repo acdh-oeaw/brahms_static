@@ -491,14 +491,26 @@ fieldset {
 }
 
 fieldset legend {
-    border-top: 3px solid #88dbdf;
+    border-top: 1px solid #88dbdf;
     font-size: 1em;
     padding: .5em;
-    display: inline-block;
+    display: block;
 }
 
 .staticSearch_feat {
-    /*line-height: 1.2em;*/
+    width: 100%;
+}
+
+div.ssFeatFilters fieldset {
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+    padding: 0 .5em;
+}
+
+menu {  
+    position: absolute;
+    background: #fff;
 }
 
 #staticSearch {
@@ -675,7 +687,7 @@ fieldset.ssFieldset > span > input {
 }
 
 .ac-border {
-    background-color: rgba(38, 35, 37, 0.075);
+    background-color: #fff;
     border: 1px solid rgba(38, 35, 37, 0.075) !important;
     border-top: 3px solid rgba(38, 35, 37, 0.075) !important;
 }
