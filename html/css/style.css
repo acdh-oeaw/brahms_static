@@ -488,6 +488,7 @@ button#ssDoSearch {
 fieldset {
     margin: 0;
     padding: 0;
+    
 }
 
 fieldset legend {
@@ -497,15 +498,13 @@ fieldset legend {
     display: block;
 }
 
-.staticSearch_feat {
-    width: 100%;
+fieldset > .staticSearch_feat {
+    width: 50%;
 }
 
 div.ssFeatFilters fieldset {
-    display: inline-block;
-    width: 49%;
     margin: 0;
-    padding: 0 .5em;
+    padding: 0;
 }
 
 menu {  
