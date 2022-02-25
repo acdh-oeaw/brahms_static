@@ -156,35 +156,47 @@ function showFilters() {
     }
 }
 
-function getItem(el, id) {
+function getSelectedItem(el, id) {
     var val = el.value;    
     var option = el.options[el.selectedIndex];
     var optID = option.getAttribute("id");
     var optTitle = option.getAttribute("title");
-    var optClass = option.getAttribute("class");
-    console.log(optID + ' ' + optTitle + ' ' + optClass + ' ' + val);
+    // var optClass = option.getAttribute("class");
+    // console.log(optID + ' ' + optTitle + ' ' + optClass + ' ' + val);
     var fieldset = $(`#${id}`);
     var suggested = fieldset.children("div.ssSuggest");
     // var input = fieldset.children("input");
     // input.addClass("feat_input");
-    suggested.append(`
-        <span data-val="${val}">
-            <input 
-                type="checkbox"
-                checked="checked" 
-                title="${optTitle}" 
-                value="${val}" 
-                class="staticSearch_feat" 
-                id="${optID}">
-            <label for="${optID}">${val}</label>
-            <button onclick="removeSuggested(this)">✘</button>
-        </span>
-    `);
+    var alreadySuggested = $(`input[id='${optID}']`);
+    // console.log(inputID.length);
+    if ( alreadySuggested.length == 0 ) {
+        suggested.append(`
+            <span data-val="${val}">
+                <input 
+                    type="checkbox"
+                    checked="checked" 
+                    title="${optTitle}" 
+                    value="${val}" 
+                    class="staticSearch_feat" 
+                    id="${optID}">
+                <label for="${optID}">${val}</label>
+                <button onclick="removeSuggested(this)">✘</button>
+            </span>
+        `);
+    }
 }
 
 function removeSuggested(el) {
     $(el).parent().remove();
 }
+
+// function openSelect(el) {
+//     var elID = el.id;
+//     var selectID = elID.replace("input-", "select-");
+//     // var span = $(`#${elID}`);
+//     var select = $(`#${selectID}`);
+//     select.show().click();
+// }
 
 /* <span data-val="Wien">
     <input type="checkbox" checked="checked" title="002 Veranstaltungsort" value="Wien" class="staticSearch_feat" id="ssFeat1_1">

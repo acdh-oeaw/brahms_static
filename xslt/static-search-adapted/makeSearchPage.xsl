@@ -384,7 +384,7 @@
                                   class="staticSearch.feat staticSearch_feat"/>
                               <div class="dropdownFilter_feat">
                                   <select class="custom-select"
-                                      onchange="getItem(this, '{$filterId}')">
+                                      onchange="getSelectedItem(this, '{$filterId}')">
                                       <option value="">
                                           select option
                                       </option>

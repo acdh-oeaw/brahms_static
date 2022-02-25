@@ -560,7 +560,7 @@
                                                                                     </h1>                                                                                                                                                                                                                                                                                               
                                                                                 </div>
                                                                                 <div class="card-body">
-                                                                                    <div class="table-responsive">
+                                                                                    <div class="ssSearchOn">
                                                                                         <table class="table event-table" id="workTableDetail">
                                                                                             <xsl:for-each select="ancestor::mei:event">
                                                                                                 <xsl:if test="./mei:date">

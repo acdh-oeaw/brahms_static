@@ -181,7 +181,7 @@
                                                             </h1>                                                                                                        
                                                         </div>
                                                         <div class="card-body">
-                                                            <div class="table-responsive">
+                                                            <div class="ssSearchOn">
                                                                 <table class="table person-table" id="registerTableDetail">   
                                                                     <!--<xsl:if test="./mei:persName[@type='main']/text()">
                                                                         <tr>
