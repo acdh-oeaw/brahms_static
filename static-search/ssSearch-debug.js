@@ -640,7 +640,7 @@ class StaticSearch{
       try{
         //Now we set up the control as a typeahead.
         let filterData = this.mapFilterData.get(filterName);
-        this.mapFeatFilters.set(filterName, new SSTypeAhead(featFilter, filterData, filterName, this.minWordLength));
+        this.mapFeatFilters.set(filterName, new SSTypeAhead(featFilter, filterData, filterName, 1)); //this.minWordLength
         //Re-enable it.
         let inp = featFilter.querySelector('input');
         inp.disabled = false;

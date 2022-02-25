@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="de">
    
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -70,7 +70,7 @@
               Note that if you want to debug a problem with the JavaScript, you can
               change "ssSearch.js" to "ssSearch-debug.js" to link the uncompressed, 
               unminified code instead.
-            --><script src="static-search/ssInitialize.js"></script><noscript>This page requires JavaScript.</noscript><form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="3" data-scrolltotextfragment="no" data-maxkwicstoshow="5" data-resultsperpage="5" onsubmit="return false;" data-versionstring="" data-ssfolder="static-search" data-kwictruncatestring="..." data-resultslimit="2000"><span class="ssQueryAndButton"><input type="text" id="ssQuery" aria-label="Search"/><button id="ssDoSearch">Search</button></span><span class="clearButton"><button id="ssClear">Clear</button></span><div class="ssDescFilters">
+            --><script src="static-search/ssInitialize.js"></script><noscript>Diese Seite benötigt JavaScript.</noscript><form accept-charset="UTF-8" id="ssForm" data-allowphrasal="yes" data-allowwildcards="yes" data-minwordlength="3" data-scrolltotextfragment="no" data-maxkwicstoshow="5" data-resultsperpage="5" onsubmit="return false;" data-versionstring="" data-ssfolder="static-search" data-kwictruncatestring="..." data-resultslimit="2000"><span class="ssQueryAndButton"><input type="text" id="ssQuery" aria-label="Suche"/><button id="ssDoSearch">Suche</button></span><span class="clearButton"><button id="ssClear">Leeren</button></span><div class="ssDescFilters">
                            <fieldset class="ssFieldset" title="001 Filter" id="ssDesc1">
                               <legend>001 Filter</legend>
                               <ul class="ssDescCheckboxList">
@@ -82,263 +82,31 @@
                         </div>
                         <div class="ssFeatFilters">
                            <fieldset class="ssFieldset" title="002 Veranstaltungsort" id="ssFeat1">
-                              <legend>002 Veranstaltungsort</legend><input type="text" title="002 Veranstaltungsort" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/><div class="dropdownFilter_feat"><select class="custom-select" onchange="getSelectedItem(this, 'ssFeat1')">
-                                    <option value="">
-                                       select option
-                                       </option>
-                                    <option title="002 Veranstaltungsort" value="Großer Musikvereinssaal" id="ssFeat1_2" class="staticSearch.feat staticSearch_feat">Großer Musikvereinssaal</option>
-                                    <option title="002 Veranstaltungsort" value="Kleiner Musikvereinssaal" id="ssFeat1_4" class="staticSearch.feat staticSearch_feat">Kleiner Musikvereinssaal</option>
-                                    <option title="002 Veranstaltungsort" value="Mistelbach" id="ssFeat1_7" class="staticSearch.feat staticSearch_feat">Mistelbach</option>
-                                    <option title="002 Veranstaltungsort" value="Musikvereinssaal" id="ssFeat1_5" class="staticSearch.feat staticSearch_feat">Musikvereinssaal</option>
-                                    <option title="002 Veranstaltungsort" value="Saal Bösendorfer" id="ssFeat1_3" class="staticSearch.feat staticSearch_feat">Saal Bösendorfer</option>
-                                    <option title="002 Veranstaltungsort" value="Salzburg" id="ssFeat1_8" class="staticSearch.feat staticSearch_feat">Salzburg</option>
-                                    <option title="002 Veranstaltungsort" value="Sophienbadsaal" id="ssFeat1_6" class="staticSearch.feat staticSearch_feat">Sophienbadsaal</option>
-                                    <option title="002 Veranstaltungsort" value="Wien" id="ssFeat1_1" class="staticSearch.feat staticSearch_feat">Wien</option></select></div>
-                           </fieldset>
+                              <legend>002 Veranstaltungsort</legend><input type="text" title="002 Veranstaltungsort" placeholder="Zu tippen beginnen…" class="staticSearch.feat staticSearch_feat"/></fieldset>
                            <fieldset class="ssFieldset" title="003 Beteiligte Personen / Körperschaften" id="ssFeat6">
-                              <legend>003 Beteiligte Personen / Körperschaften</legend><input type="text" title="003 Beteiligte Personen / Körperschaften" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/><div class="dropdownFilter_feat"><select class="custom-select" onchange="getSelectedItem(this, 'ssFeat6')">
-                                    <option value="">
-                                       select option
-                                       </option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Adolf Zander" id="ssFeat6_41" class="staticSearch.feat staticSearch_feat">Adolf Zander</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Alice Barbi" id="ssFeat6_26" class="staticSearch.feat staticSearch_feat">Alice Barbi</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Anna Baier" id="ssFeat6_11" class="staticSearch.feat staticSearch_feat">Anna Baier</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Anton Door" id="ssFeat6_3" class="staticSearch.feat staticSearch_feat">Anton Door</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Anton Rückauf" id="ssFeat6_49" class="staticSearch.feat staticSearch_feat">Anton Rückauf</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Anton Sistermans" id="ssFeat6_50" class="staticSearch.feat staticSearch_feat">Anton Sistermans</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Arnold Rosé" id="ssFeat6_44" class="staticSearch.feat staticSearch_feat">Arnold Rosé</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="August Krämer" id="ssFeat6_7" class="staticSearch.feat staticSearch_feat">August Krämer</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Bernhard Stavenhagen" id="ssFeat6_55" class="staticSearch.feat staticSearch_feat">Bernhard Stavenhagen</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Caroline Geisler-Schubert" id="ssFeat6_20" class="staticSearch.feat staticSearch_feat">Caroline Geisler-Schubert</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Charlotte Boyes-Rucker" id="ssFeat6_48" class="staticSearch.feat staticSearch_feat">Charlotte Boyes-Rucker</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Dustmann, Luise" id="ssFeat6_8" class="staticSearch.feat staticSearch_feat">Dustmann, Luise</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Eduard Kremser" id="ssFeat6_35" class="staticSearch.feat staticSearch_feat">Eduard Kremser</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Emanuel Wirth" id="ssFeat6_23" class="staticSearch.feat staticSearch_feat">Emanuel Wirth</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Emil Sauer" id="ssFeat6_16" class="staticSearch.feat staticSearch_feat">Emil Sauer</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Ferdinand Hellmesberger" id="ssFeat6_18" class="staticSearch.feat staticSearch_feat">Ferdinand Hellmesberger</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Georg Liebling" id="ssFeat6_53" class="staticSearch.feat staticSearch_feat">Georg Liebling</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Gustav Walter" id="ssFeat6_36" class="staticSearch.feat staticSearch_feat">Gustav Walter</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Hellmesberger, Joseph" id="ssFeat6_42" class="staticSearch.feat staticSearch_feat">Hellmesberger, Joseph</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Hr. Grün" id="ssFeat6_40" class="staticSearch.feat staticSearch_feat">Hr. Grün</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Hr. Heckmann" id="ssFeat6_4" class="staticSearch.feat staticSearch_feat">Hr. Heckmann</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Hr. Hummer" id="ssFeat6_45" class="staticSearch.feat staticSearch_feat">Hr. Hummer</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Hr. Krumpholz" id="ssFeat6_5" class="staticSearch.feat staticSearch_feat">Hr. Krumpholz</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Hr. Popper" id="ssFeat6_24" class="staticSearch.feat staticSearch_feat">Hr. Popper</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Hr. Schantl" id="ssFeat6_39" class="staticSearch.feat staticSearch_feat">Hr. Schantl</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Ignaz Brüll" id="ssFeat6_34" class="staticSearch.feat staticSearch_feat">Ignaz Brüll</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Irma von Spanyik" id="ssFeat6_31" class="staticSearch.feat staticSearch_feat">Irma von Spanyik</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="James Kwast" id="ssFeat6_37" class="staticSearch.feat staticSearch_feat">James Kwast</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Johannes Brahms" id="ssFeat6_33" class="staticSearch.feat staticSearch_feat">Johannes Brahms</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Johannes Messchaert" id="ssFeat6_10" class="staticSearch.feat staticSearch_feat">Johannes Messchaert</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Josef Hellmesberger sen." id="ssFeat6_13" class="staticSearch.feat staticSearch_feat">Josef Hellmesberger sen.</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Joseph Hellmesberger jun." id="ssFeat6_17" class="staticSearch.feat staticSearch_feat">Joseph Hellmesberger jun.</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Joseph Waldner" id="ssFeat6_29" class="staticSearch.feat staticSearch_feat">Joseph Waldner</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Julius Epstein" id="ssFeat6_38" class="staticSearch.feat staticSearch_feat">Julius Epstein</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Julius Röntgen" id="ssFeat6_9" class="staticSearch.feat staticSearch_feat">Julius Röntgen</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Karl Rouland" id="ssFeat6_1" class="staticSearch.feat staticSearch_feat">Karl Rouland</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Lilli Lehmann" id="ssFeat6_14" class="staticSearch.feat staticSearch_feat">Lilli Lehmann</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Ludwig Strakosch" id="ssFeat6_2" class="staticSearch.feat staticSearch_feat">Ludwig Strakosch</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Luise Dustmann" id="ssFeat6_19" class="staticSearch.feat staticSearch_feat">Luise Dustmann</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Marie Baumayer" id="ssFeat6_15" class="staticSearch.feat staticSearch_feat">Marie Baumayer</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Marie Schmidt" id="ssFeat6_54" class="staticSearch.feat staticSearch_feat">Marie Schmidt</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Marie Soldat-Röger" id="ssFeat6_21" class="staticSearch.feat staticSearch_feat">Marie Soldat-Röger</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Mary Wurm" id="ssFeat6_25" class="staticSearch.feat staticSearch_feat">Mary Wurm</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Olga von Türk-Rohn" id="ssFeat6_32" class="staticSearch.feat staticSearch_feat">Olga von Türk-Rohn</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Otto Hegner" id="ssFeat6_12" class="staticSearch.feat staticSearch_feat">Otto Hegner</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Paul Bulß" id="ssFeat6_46" class="staticSearch.feat staticSearch_feat">Paul Bulß</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Philipp Forstén" id="ssFeat6_28" class="staticSearch.feat staticSearch_feat">Philipp Forstén</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Richard Epstein" id="ssFeat6_27" class="staticSearch.feat staticSearch_feat">Richard Epstein</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Richard Heuberger" id="ssFeat6_30" class="staticSearch.feat staticSearch_feat">Richard Heuberger</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Robert Hausmann" id="ssFeat6_22" class="staticSearch.feat staticSearch_feat">Robert Hausmann</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Rosa Papier-Paumgartner" id="ssFeat6_6" class="staticSearch.feat staticSearch_feat">Rosa Papier-Paumgartner</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Seraphine von Tausig-Vrabely" id="ssFeat6_51" class="staticSearch.feat staticSearch_feat">Seraphine von Tausig-Vrabely</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Sidonie Roth" id="ssFeat6_47" class="staticSearch.feat staticSearch_feat">Sidonie Roth</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Stephanie Vrabely" id="ssFeat6_52" class="staticSearch.feat staticSearch_feat">Stephanie Vrabely</option>
-                                    <option title="003 Beteiligte Personen / Körperschaften" value="Theodor Reichmann" id="ssFeat6_43" class="staticSearch.feat staticSearch_feat">Theodor Reichmann</option></select></div>
-                           </fieldset>
+                              <legend>003 Beteiligte Personen / Körperschaften</legend><input type="text" title="003 Beteiligte Personen / Körperschaften" placeholder="Zu tippen beginnen…" class="staticSearch.feat staticSearch_feat"/></fieldset>
                            <fieldset class="ssFieldset" title="004 Personen beteiligt als / mit" id="ssFeat7">
-                              <legend>004 Personen beteiligt als / mit</legend><input type="text" title="004 Personen beteiligt als / mit" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/><div class="dropdownFilter_feat"><select class="custom-select" onchange="getSelectedItem(this, 'ssFeat7')">
-                                    <option value="">
-                                       select option
-                                       </option>
-                                    <option title="004 Personen beteiligt als / mit" value="Cellist_in" id="ssFeat7_6" class="staticSearch.feat staticSearch_feat">Cellist_in</option>
-                                    <option title="004 Personen beteiligt als / mit" value="Hornist_in" id="ssFeat7_8" class="staticSearch.feat staticSearch_feat">Hornist_in</option>
-                                    <option title="004 Personen beteiligt als / mit" value="Mitwirkende_r" id="ssFeat7_4" class="staticSearch.feat staticSearch_feat">Mitwirkende_r</option>
-                                    <option title="004 Personen beteiligt als / mit" value="musikalische_r_Direktor_in" id="ssFeat7_1" class="staticSearch.feat staticSearch_feat">musikalische_r_Direktor_in</option>
-                                    <option title="004 Personen beteiligt als / mit" value="Pianist_in" id="ssFeat7_3" class="staticSearch.feat staticSearch_feat">Pianist_in</option>
-                                    <option title="004 Personen beteiligt als / mit" value="Sänger_in" id="ssFeat7_2" class="staticSearch.feat staticSearch_feat">Sänger_in</option>
-                                    <option title="004 Personen beteiligt als / mit" value="Violinist_in" id="ssFeat7_5" class="staticSearch.feat staticSearch_feat">Violinist_in</option>
-                                    <option title="004 Personen beteiligt als / mit" value="Violoncellist_in" id="ssFeat7_7" class="staticSearch.feat staticSearch_feat">Violoncellist_in</option></select></div>
-                           </fieldset>
+                              <legend>004 Personen beteiligt als / mit</legend><input type="text" title="004 Personen beteiligt als / mit" placeholder="Zu tippen beginnen…" class="staticSearch.feat staticSearch_feat"/></fieldset>
                            <fieldset class="ssFieldset" title="005 Werk" id="ssFeat2">
-                              <legend>005 Werk</legend><input type="text" title="005 Werk" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/><div class="dropdownFilter_feat"><select class="custom-select" onchange="getSelectedItem(this, 'ssFeat2')">
-                                    <option value="">
-                                       select option
-                                       </option>
-                                    <option title="005 Werk" value="Fünf Lieder, op. 49" id="ssFeat2_2" class="staticSearch.feat staticSearch_feat">Fünf Lieder, op. 49</option>
-                                    <option title="005 Werk" value="Klaviertrio Nr. 1 H-Dur, op. 8" id="ssFeat2_3" class="staticSearch.feat staticSearch_feat">Klaviertrio Nr. 1 H-Dur, op. 8</option>
-                                    <option title="005 Werk" value="Neun Lieder und Gesänge, op. 32" id="ssFeat2_1" class="staticSearch.feat staticSearch_feat">Neun Lieder und Gesänge, op. 32</option>
-                                    <option title="005 Werk" value="Walzer, op. 39" id="ssFeat2_4" class="staticSearch.feat staticSearch_feat">Walzer, op. 39</option></select></div>
-                           </fieldset>
+                              <legend>005 Werk</legend><input type="text" title="005 Werk" placeholder="Zu tippen beginnen…" class="staticSearch.feat staticSearch_feat"/></fieldset>
                            <fieldset class="ssFieldset" title="006 Gattung" id="ssFeat3">
-                              <legend>006 Gattung</legend><input type="text" title="006 Gattung" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/><div class="dropdownFilter_feat"><select class="custom-select" onchange="getSelectedItem(this, 'ssFeat3')">
-                                    <option value="">
-                                       select option
-                                       </option>
-                                    <option title="006 Gattung" value="[diverse Fassungen für Klavier, siehe Expressions]" id="ssFeat3_5" class="staticSearch.feat staticSearch_feat">[diverse Fassungen für Klavier, siehe Expressions]</option>
-                                    <option title="006 Gattung" value="1 Singstimme" id="ssFeat3_1" class="staticSearch.feat staticSearch_feat">1 Singstimme</option>
-                                    <option title="006 Gattung" value="Klavier" id="ssFeat3_2" class="staticSearch.feat staticSearch_feat">Klavier</option>
-                                    <option title="006 Gattung" value="Violine" id="ssFeat3_3" class="staticSearch.feat staticSearch_feat">Violine</option>
-                                    <option title="006 Gattung" value="Violoncello" id="ssFeat3_4" class="staticSearch.feat staticSearch_feat">Violoncello</option></select></div>
-                           </fieldset>
+                              <legend>006 Gattung</legend><input type="text" title="006 Gattung" placeholder="Zu tippen beginnen…" class="staticSearch.feat staticSearch_feat"/></fieldset>
                            <fieldset class="ssFieldset" title="007 Quelle" id="ssFeat4">
-                              <legend>007 Quelle</legend><input type="text" title="007 Quelle" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/><div class="dropdownFilter_feat"><select class="custom-select" onchange="getSelectedItem(this, 'ssFeat4')">
-                                    <option value="">
-                                       select option
-                                       </option>
-                                    <option title="007 Quelle" value="Presse, Abendblatt, Jg. 30, Nr. 197, 20.07.1877, S. [3]" id="ssFeat4_98" class="staticSearch.feat staticSearch_feat">Presse, Abendblatt, Jg. 30, Nr. 197, 20.07.1877, S. [3]</option>
-                                    <option title="007 Quelle" value="Presse, Abendblatt, Jg. 47, Nr. 340, 12.12.1894, S. 3" id="ssFeat4_18" class="staticSearch.feat staticSearch_feat">Presse, Abendblatt, Jg. 47, Nr. 340, 12.12.1894, S. 3</option>
-                                    <option title="007 Quelle" value="Presse, Abend-Presse, Jg. 49, Nr. 66, 07.03.1896, S. 2" id="ssFeat4_86" class="staticSearch.feat staticSearch_feat">Presse, Abend-Presse, Jg. 49, Nr. 66, 07.03.1896, S. 2</option>
-                                    <option title="007 Quelle" value="Presse, Abend-Presse, Jg. 49, Nr. 72, 13.03.1896, S. 3" id="ssFeat4_108" class="staticSearch.feat staticSearch_feat">Presse, Abend-Presse, Jg. 49, Nr. 72, 13.03.1896, S. 3</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 20, Nr. 78, 20.03.1867, S. [3]" id="ssFeat4_78" class="staticSearch.feat staticSearch_feat">Presse, Jg. 20, Nr. 78, 20.03.1867, S. [3]</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 21, Nr. 334, 04.12.1868, S. [2]" id="ssFeat4_81" class="staticSearch.feat staticSearch_feat">Presse, Jg. 21, Nr. 334, 04.12.1868, S. [2]</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 24, Nr. 332, 30.11.1871, S. [1]" id="ssFeat4_6" class="staticSearch.feat staticSearch_feat">Presse, Jg. 24, Nr. 332, 30.11.1871, S. [1]</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 27, Nr. 105, 17.04.1874, S. [1]" id="ssFeat4_90" class="staticSearch.feat staticSearch_feat">Presse, Jg. 27, Nr. 105, 17.04.1874, S. [1]</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 27, Nr. 72, 14.03.1874, S. [1]" id="ssFeat4_31" class="staticSearch.feat staticSearch_feat">Presse, Jg. 27, Nr. 72, 14.03.1874, S. [1]</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 30, Nr. 162, 15.06.1877, S. 3" id="ssFeat4_46" class="staticSearch.feat staticSearch_feat">Presse, Jg. 30, Nr. 162, 15.06.1877, S. 3</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 32, Nr. 327, 29.11.1879, S. [1]" id="ssFeat4_19" class="staticSearch.feat staticSearch_feat">Presse, Jg. 32, Nr. 327, 29.11.1879, S. [1]</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 35, Nr. 35, 04.02.1882, S. [1]" id="ssFeat4_76" class="staticSearch.feat staticSearch_feat">Presse, Jg. 35, Nr. 35, 04.02.1882, S. [1]</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 36, Nr. 307, 08.11.1883, S. 3" id="ssFeat4_27" class="staticSearch.feat staticSearch_feat">Presse, Jg. 36, Nr. 307, 08.11.1883, S. 3</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 39, Nr. 105, 15.04.1886, S. 2" id="ssFeat4_24" class="staticSearch.feat staticSearch_feat">Presse, Jg. 39, Nr. 105, 15.04.1886, S. 2</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 40, Nr. 344, 14.12.1887, S. 2" id="ssFeat4_41" class="staticSearch.feat staticSearch_feat">Presse, Jg. 40, Nr. 344, 14.12.1887, S. 2</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 43, Nr. 63, 05.03.1890, S. 2" id="ssFeat4_48" class="staticSearch.feat staticSearch_feat">Presse, Jg. 43, Nr. 63, 05.03.1890, S. 2</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 44, Nr. 327, 28.11.1891, S. [1]" id="ssFeat4_23" class="staticSearch.feat staticSearch_feat">Presse, Jg. 44, Nr. 327, 28.11.1891, S. [1]</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 44, Nr. 348, 19.12.1891, S. 2" id="ssFeat4_2" class="staticSearch.feat staticSearch_feat">Presse, Jg. 44, Nr. 348, 19.12.1891, S. 2</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 44, Nr. 96, 08.04.1891, S. 2" id="ssFeat4_37" class="staticSearch.feat staticSearch_feat">Presse, Jg. 44, Nr. 96, 08.04.1891, S. 2</option>
-                                    <option title="007 Quelle" value="Presse, Jg. 45, Nr. 201, 21.07.1892, S. [1]" id="ssFeat4_49" class="staticSearch.feat staticSearch_feat">Presse, Jg. 45, Nr. 201, 21.07.1892, S. [1]</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 26, Nr. 108, 20.04.1873, S. 9" id="ssFeat4_70" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 26, Nr. 108, 20.04.1873, S. 9</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 27, Nr. 296, 28.10.1874, S. 15" id="ssFeat4_92" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 27, Nr. 296, 28.10.1874, S. 15</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 27, Nr. 63, 05.03.1874, S. 8" id="ssFeat4_109" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 27, Nr. 63, 05.03.1874, S. 8</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 29, Nr. 341, 10.12.1876, S. 8" id="ssFeat4_47" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 29, Nr. 341, 10.12.1876, S. 8</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 30, Nr. 301, 01.11.1877, S. [9]" id="ssFeat4_54" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 30, Nr. 301, 01.11.1877, S. [9]</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 30, Nr. 341, 12.12.1877, S. [9]" id="ssFeat4_61" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 30, Nr. 341, 12.12.1877, S. [9]</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 31, Nr. 353, 24.12.1878, S. 11" id="ssFeat4_56" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 31, Nr. 353, 24.12.1878, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 34, Nr. 346, 16.12.1881, S. 14" id="ssFeat4_59" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 34, Nr. 346, 16.12.1881, S. 14</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 34, Nr. 78, 20.03.1881, S. 15" id="ssFeat4_104" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 34, Nr. 78, 20.03.1881, S. 15</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 34, Nr. 85, 27.03.1881, S. 15" id="ssFeat4_8" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 34, Nr. 85, 27.03.1881, S. 15</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 35, Nr. 122, 04.05.1882, S. 11" id="ssFeat4_21" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 35, Nr. 122, 04.05.1882, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 35, Nr. 123, 05.05.1882, S. 11" id="ssFeat4_35" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 35, Nr. 123, 05.05.1882, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 36, Nr. 65, 08.03.1883, S. 11" id="ssFeat4_65" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 36, Nr. 65, 08.03.1883, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 38, Nr. 282, 13.10.1885, S. 10" id="ssFeat4_40" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 38, Nr. 282, 13.10.1885, S. 10</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 38, Nr. 343, 13.12.1885, S. 15" id="ssFeat4_16" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 38, Nr. 343, 13.12.1885, S. 15</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 39, Nr. 128, 09.05.1886, S. 16" id="ssFeat4_84" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 39, Nr. 128, 09.05.1886, S. 16</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 39, Nr. 77, 18.03.1886, S. 11" id="ssFeat4_7" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 39, Nr. 77, 18.03.1886, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 40, Nr. 1, 01.01.1887, S. 16" id="ssFeat4_67" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 40, Nr. 1, 01.01.1887, S. 16</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 40, Nr. 29, 30.01.1887, S. 15" id="ssFeat4_107" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 40, Nr. 29, 30.01.1887, S. 15</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 40, Nr. 3, 04.01.1887, S. 11" id="ssFeat4_68" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 40, Nr. 3, 04.01.1887, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 41, Nr. 54, 23.02.1888, S. 11" id="ssFeat4_45" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 41, Nr. 54, 23.02.1888, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 43, Nr. 48, 18.02.1890, S. 11" id="ssFeat4_64" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 43, Nr. 48, 18.02.1890, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 43, Nr. 51, 21.02.1890, S. 11" id="ssFeat4_93" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 43, Nr. 51, 21.02.1890, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 44, Nr. 318, 19.11.1891, S. 11" id="ssFeat4_106" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 44, Nr. 318, 19.11.1891, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 44, Nr. 319, 20.11.1891, S. 12" id="ssFeat4_97" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 44, Nr. 319, 20.11.1891, S. 12</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 45, Nr. 107, 16.04.1892, S. 11" id="ssFeat4_44" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 45, Nr. 107, 16.04.1892, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 45, Nr. 113, 23.04.1892, S. 10" id="ssFeat4_58" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 45, Nr. 113, 23.04.1892, S. 10</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 45, Nr. 194, 14.07.1892, S. 10" id="ssFeat4_102" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 45, Nr. 194, 14.07.1892, S. 10</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 45, Nr. 199, 19.07.1892, S. 10" id="ssFeat4_32" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 45, Nr. 199, 19.07.1892, S. 10</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 45, Nr. 340, 08.12.1892, S. 11" id="ssFeat4_100" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 45, Nr. 340, 08.12.1892, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 46, Nr. 344, 13.12.1893, S. 15" id="ssFeat4_80" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 46, Nr. 344, 13.12.1893, S. 15</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 46, Nr. 347, 16.12.1893, S. 15" id="ssFeat4_9" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 46, Nr. 347, 16.12.1893, S. 15</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 46, Nr. 351, 20.12.1893, S. 15" id="ssFeat4_53" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 46, Nr. 351, 20.12.1893, S. 15</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 46, Nr. 60, 01.03.1893, S. 11" id="ssFeat4_26" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 46, Nr. 60, 01.03.1893, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 47, Nr. 44, 15.02.1894, S. 11" id="ssFeat4_94" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 47, Nr. 44, 15.02.1894, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Local-Anzeiger, Jg. 48, Nr. 9, 09.01.1895, S. 11" id="ssFeat4_83" class="staticSearch.feat staticSearch_feat">Presse, Local-Anzeiger, Jg. 48, Nr. 9, 09.01.1895, S. 11</option>
-                                    <option title="007 Quelle" value="Presse, Morgen-Presse, Jg. 49, Nr. 127, 08.05.1896, S. 6" id="ssFeat4_20" class="staticSearch.feat staticSearch_feat">Presse, Morgen-Presse, Jg. 49, Nr. 127, 08.05.1896, S. 6</option>
-                                    <option title="007 Quelle" value="Presse, Morgen-Presse, Jg. 49, Nr. 32, 02.02.1896, S. 16" id="ssFeat4_5" class="staticSearch.feat staticSearch_feat">Presse, Morgen-Presse, Jg. 49, Nr. 32, 02.02.1896, S. 16</option>
-                                    <option title="007 Quelle" value="Presse, Morgen-Presse, Jg. 49, Nr. 37, 07.02.1896, S. 2" id="ssFeat4_105" class="staticSearch.feat staticSearch_feat">Presse, Morgen-Presse, Jg. 49, Nr. 37, 07.02.1896, S. 2</option>
-                                    <option title="007 Quelle" value="Presse, Morgen-Presse, Jg. 49, Nr. 95, 05.04.1896, S. 6" id="ssFeat4_15" class="staticSearch.feat staticSearch_feat">Presse, Morgen-Presse, Jg. 49, Nr. 95, 05.04.1896, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Abendblatt, Jg. 37, Nr. 313, 13.11.1896, S. 4" id="ssFeat4_52" class="staticSearch.feat staticSearch_feat">Vaterland, Abendblatt, Jg. 37, Nr. 313, 13.11.1896, S. 4</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 10, Nr. 357, 28.12.1869, S. [1]" id="ssFeat4_10" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 10, Nr. 357, 28.12.1869, S. [1]</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 17, Beiblatt zu Nr. 341, 10.12.1876, S. [2]" id="ssFeat4_66" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 17, Beiblatt zu Nr. 341, 10.12.1876, S. [2]</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 18, Nr. 340, 12.12.1877, S. [3]" id="ssFeat4_72" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 18, Nr. 340, 12.12.1877, S. [3]</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 18, Nr. 343, 15.12.1877, S. [3]" id="ssFeat4_85" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 18, Nr. 343, 15.12.1877, S. [3]</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 20, Nr. 338, 11.12.1879, S. [3]" id="ssFeat4_43" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 20, Nr. 338, 11.12.1879, S. [3]</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 23, Nr. 81, 22.03.1882, S. 7 f." id="ssFeat4_42" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 23, Nr. 81, 22.03.1882, S. 7 f.</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 26, Nr. 345, 16.12.1885, S. 5 f." id="ssFeat4_14" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 26, Nr. 345, 16.12.1885, S. 5 f.</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 27, Nr. 38, 07.02.1886, S. 7" id="ssFeat4_87" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 27, Nr. 38, 07.02.1886, S. 7</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 28, Nr. 29, 30.01.1887, S. 6" id="ssFeat4_60" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 28, Nr. 29, 30.01.1887, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 30, Nr. 14, 14.01.1889, S. 4" id="ssFeat4_63" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 30, Nr. 14, 14.01.1889, S. 4</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 30, Nr. 274, 06.10.1889, S. 5" id="ssFeat4_99" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 30, Nr. 274, 06.10.1889, S. 5</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 30, Nr. 86, 29.03.1889, S. 6" id="ssFeat4_71" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 30, Nr. 86, 29.03.1889, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 32, Nr. 286, 18.10.1891, S. 6" id="ssFeat4_39" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 32, Nr. 286, 18.10.1891, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 32, Nr. 318, 19.11.1891, S. 6" id="ssFeat4_34" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 32, Nr. 318, 19.11.1891, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 32, Nr. 334, 05.12.1891, S. 6" id="ssFeat4_95" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 32, Nr. 334, 05.12.1891, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 33, Nr. 107, 16.04.1892, S. 6" id="ssFeat4_36" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 33, Nr. 107, 16.04.1892, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 33, Nr. 199, 19.07.1892, S. 4" id="ssFeat4_25" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 33, Nr. 199, 19.07.1892, S. 4</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 8, Beiblatt zu Nr. 349, 20.12.1867, S. [1]" id="ssFeat4_33" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 8, Beiblatt zu Nr. 349, 20.12.1867, S. [1]</option>
-                                    <option title="007 Quelle" value="Vaterland, Jg. 9, Nr. 7, 08.01.1868, S. [1]" id="ssFeat4_74" class="staticSearch.feat staticSearch_feat">Vaterland, Jg. 9, Nr. 7, 08.01.1868, S. [1]</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 34, Beiblatt zu Nr. 344, 13.12.1893, S. [1]" id="ssFeat4_91" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 34, Beiblatt zu Nr. 344, 13.12.1893, S. [1]</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 34, Nr. 347, 16.12.1893, S. [6]" id="ssFeat4_1" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 34, Nr. 347, 16.12.1893, S. [6]</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 34, Nr. 60, 01.03.1893, S. 6" id="ssFeat4_29" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 34, Nr. 60, 01.03.1893, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 35, Nr. 181, 04.07.1894, S. 6" id="ssFeat4_62" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 35, Nr. 181, 04.07.1894, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 35, Nr. 188, 11.07.1894, S. 6" id="ssFeat4_3" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 35, Nr. 188, 11.07.1894, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 36, Nr. 9, 09.01.1895, S. 6" id="ssFeat4_77" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 36, Nr. 9, 09.01.1895, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 37, Beiblatt zu Nr. 299, 30.10.1896, S. I" id="ssFeat4_13" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 37, Beiblatt zu Nr. 299, 30.10.1896, S. I</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 37, Beiblatt zu Nr. 340, 10.12.1896, S. II" id="ssFeat4_75" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 37, Beiblatt zu Nr. 340, 10.12.1896, S. II</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 37, Nr. 30, 31.01.1896, S. 6" id="ssFeat4_73" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 37, Nr. 30, 31.01.1896, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 37, Nr. 31, 01.02.1896, S. 6" id="ssFeat4_11" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 37, Nr. 31, 01.02.1896, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 37, Nr. 345, 15.12.1896, S. 6" id="ssFeat4_50" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 37, Nr. 345, 15.12.1896, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 37, Nr. 70, 11.03.1896, S. 7" id="ssFeat4_82" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 37, Nr. 70, 11.03.1896, S. 7</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 37, Nr. 74, 15.03.1896, S. 6" id="ssFeat4_57" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 37, Nr. 74, 15.03.1896, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 38, 171, 23.06.1897, S. 5" id="ssFeat4_69" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 38, 171, 23.06.1897, S. 5</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 38, Nr. 15, 15.01.1897, S. 7" id="ssFeat4_28" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 38, Nr. 15, 15.01.1897, S. 7</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 38, Nr. 31, 31.01.1897, S. 6 f." id="ssFeat4_96" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 38, Nr. 31, 31.01.1897, S. 6 f.</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 38, Nr. 345, 16.12.1897, S. 8" id="ssFeat4_88" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 38, Nr. 345, 16.12.1897, S. 8</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 39, Beiblatt zu Nr. 278, 09.10.1898, S. IV" id="ssFeat4_110" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 39, Beiblatt zu Nr. 278, 09.10.1898, S. IV</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 39, Nr. 341, 11.12.1898, S. 10" id="ssFeat4_38" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 39, Nr. 341, 11.12.1898, S. 10</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 39, Nr. 73, 15.03.1898, S. 6" id="ssFeat4_89" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 39, Nr. 73, 15.03.1898, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 40, Nr. 1, 01.01.1899, S. 8" id="ssFeat4_79" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 40, Nr. 1, 01.01.1899, S. 8</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 40, Nr. 39, 08.02.1899, S. 2" id="ssFeat4_17" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 40, Nr. 39, 08.02.1899, S. 2</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 41, Nr. 5, 06.01.1900, S. 10 f." id="ssFeat4_55" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 41, Nr. 5, 06.01.1900, S. 10 f.</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 41, Nr. 65, 08.03.1900, S. 6" id="ssFeat4_101" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 41, Nr. 65, 08.03.1900, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 41, Nr. 81, 24.03.1900, S. 6" id="ssFeat4_22" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 41, Nr. 81, 24.03.1900, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 41, Nr. 88, 31.03.1900, S. 7" id="ssFeat4_51" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 41, Nr. 88, 31.03.1900, S. 7</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 41, Nr. 91, 03.04.1900, S. 6" id="ssFeat4_4" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 41, Nr. 91, 03.04.1900, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 42, Nr. 33, 02.02.1901, S. 10" id="ssFeat4_12" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 42, Nr. 33, 02.02.1901, S. 10</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 43, Nr. 58, 28.02.1902, S. 6" id="ssFeat4_103" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 43, Nr. 58, 28.02.1902, S. 6</option>
-                                    <option title="007 Quelle" value="Vaterland, Morgenblatt, Jg. 43, Nr. 69, 11.03.1902, S. 6" id="ssFeat4_30" class="staticSearch.feat staticSearch_feat">Vaterland, Morgenblatt, Jg. 43, Nr. 69, 11.03.1902, S. 6</option></select></div>
-                           </fieldset>
+                              <legend>007 Quelle</legend><input type="text" title="007 Quelle" placeholder="Zu tippen beginnen…" class="staticSearch.feat staticSearch_feat"/></fieldset>
                            <fieldset class="ssFieldset" title="008 Rubrik" id="ssFeat5">
-                              <legend>008 Rubrik</legend><input type="text" title="008 Rubrik" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/><div class="dropdownFilter_feat"><select class="custom-select" onchange="getSelectedItem(this, 'ssFeat5')">
-                                    <option value="">
-                                       select option
-                                       </option>
-                                    <option title="008 Rubrik" value="Anzeigen der Redaktion (Werke)" id="ssFeat5_5" class="staticSearch.feat staticSearch_feat">Anzeigen der Redaktion (Werke)</option>
-                                    <option title="008 Rubrik" value="Anzeigen der Vorlage" id="ssFeat5_6" class="staticSearch.feat staticSearch_feat">Anzeigen der Vorlage</option>
-                                    <option title="008 Rubrik" value="Brahms als Pianist" id="ssFeat5_4" class="staticSearch.feat staticSearch_feat">Brahms als Pianist</option>
-                                    <option title="008 Rubrik" value="Vorankündigung" id="ssFeat5_2" class="staticSearch.feat staticSearch_feat">Vorankündigung</option>
-                                    <option title="008 Rubrik" value="Werkerwähnung" id="ssFeat5_3" class="staticSearch.feat staticSearch_feat">Werkerwähnung</option>
-                                    <option title="008 Rubrik" value="Werkkritik" id="ssFeat5_1" class="staticSearch.feat staticSearch_feat">Werkkritik</option></select></div>
-                           </fieldset>
+                              <legend>008 Rubrik</legend><input type="text" title="008 Rubrik" placeholder="Zu tippen beginnen…" class="staticSearch.feat staticSearch_feat"/></fieldset>
                            <fieldset class="ssFieldset" title="009 Verfasser" id="ssFeat8">
-                              <legend>009 Verfasser</legend><input type="text" title="009 Verfasser" placeholder="Start typing..." class="staticSearch.feat staticSearch_feat"/><div class="dropdownFilter_feat"><select class="custom-select" onchange="getSelectedItem(this, 'ssFeat8')">
-                                    <option value="">
-                                       select option
-                                       </option>
-                                    <option title="009 Verfasser" value="gemäß BrahmsWV" id="ssFeat8_1" class="staticSearch.feat staticSearch_feat">gemäß BrahmsWV</option>
-                                    <option title="009 Verfasser" value="gemäß Hofmann, Chronologie" id="ssFeat8_3" class="staticSearch.feat staticSearch_feat">gemäß Hofmann, Chronologie</option>
-                                    <option title="009 Verfasser" value="vgl. BrahmsWV" id="ssFeat8_2" class="staticSearch.feat staticSearch_feat">vgl. BrahmsWV</option>
-                                    <option title="009 Verfasser" value="vgl. Hofmann, Chronologie" id="ssFeat8_4" class="staticSearch.feat staticSearch_feat">vgl. Hofmann, Chronologie</option></select></div>
-                           </fieldset>
+                              <legend>009 Verfasser</legend><input type="text" title="009 Verfasser" placeholder="Zu tippen beginnen…" class="staticSearch.feat staticSearch_feat"/></fieldset>
                         </div>
                         <div class="ssDateFilters">
                            <fieldset class="ssFieldset" title="010 Zeitraum" id="ssDate1">
                               <legend>010 Zeitraum</legend><span><label for="ssDate1_from">From: </label><input type="text" maxlength="10" pattern="^\d\d\d\d(-((((01)|(03)|(05)|(07)|(08)|(10)|(12))-((0[1-9])|([12][0-9])|(3[01])))|(((04)|(06)|(09)|(11))-((0[1-9])|([12][0-9])|(30)))|(02-((0[1-9])|([12][0-9]))))|(-((0[123456789])|(1[012]))))?$" title="010 Zeitraum" id="ssDate1_from" class="staticSearch.date staticSearch_date" placeholder="1867-03-17" onchange="this.reportValidity()"/></span><span><label for="ssDate1_to">To: </label><input type="text" maxlength="10" pattern="^\d\d\d\d(-((((01)|(03)|(05)|(07)|(08)|(10)|(12))-((0[1-9])|([12][0-9])|(3[01])))|(((04)|(06)|(09)|(11))-((0[1-9])|([12][0-9])|(30)))|(02-((0[1-9])|([12][0-9]))))|(-((0[123456789])|(1[012]))))?$" title="010 Zeitraum" id="ssDate1_to" class="staticSearch.date staticSearch_date" placeholder="1902-03-22" onchange="this.reportValidity()"/></span></fieldset>
-                        </div><span class="postFilterSearchBtn"><button id="ssDoSearch2">Search</button></span></form>
-                     <div id="ssSearching">Searching...</div>
-                     <div id="ssSplashMessage">Loading...</div>
+                        </div><span class="postFilterSearchBtn"><button id="ssDoSearch2">Suche</button></span></form>
+                     <div id="ssSearching">Suche…</div>
+                     <div id="ssSplashMessage">Lade…</div>
                      <div id="ssResults"></div>
                      <div id="ssPoweredBy">
-                        <p>Powered by</p><a href="https://github.com/projectEndings/staticSearch" aria-label="Powered by staticSearch"><svg xmlns="http://www.w3.org/2000/svg" id="svg8" version="1.1" viewBox="0 0 266.77068 209.61487" height="30" width="39">
+                        <p>Bereitgestellt von</p><a href="https://github.com/projectEndings/staticSearch" aria-label="Bereitgestellt von staticSearch"><svg xmlns="http://www.w3.org/2000/svg" id="svg8" version="1.1" viewBox="0 0 266.77068 209.61487" height="30" width="39">
                               
                               
                               
