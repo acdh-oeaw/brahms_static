@@ -485,6 +485,10 @@ button#ssDoSearch {
     margin-left: .5em;
 }
 
+div#ssResults {
+    min-height: 0 !important;
+}
+
 fieldset {
     margin: 0;
     padding: 0;

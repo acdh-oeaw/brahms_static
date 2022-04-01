@@ -36,7 +36,7 @@
                                                 <th scope="col">Titel</th>
                                                 <th scope="col">Präfix</th>
                                                 <th scope="col">Opusnummer</th>                                            
-                                                <th scope="col">Metadaten</th>
+                                                <th scope="col">Details</th>
                                             </tr>
                                         </thead>
                                         <tbody>

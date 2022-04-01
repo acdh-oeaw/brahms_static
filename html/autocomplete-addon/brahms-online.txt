@@ -563,6 +563,7 @@ static-search/stems/hamburg.json
 static-search/stems/händen.json
 static-search/stems/han.json
 static-search/stems/hausmann.json
+static-search/stems/h-dur.json
 static-search/stems/h-dur-trio.json
 static-search/stems/heckmann.json
 static-search/stems/heft.json
@@ -640,6 +641,7 @@ static-search/stems/kirchenmusikschul.json
 static-search/stems/kirchhof.json
 static-search/stems/kirchlich.json
 static-search/stems/klavier.json
+static-search/stems/klaviertrio.json
 static-search/stems/kling.json
 static-search/stems/kollmitz.json
 static-search/stems/köln.json

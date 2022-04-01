@@ -77,7 +77,7 @@
                                                 <tr>
                                                     <th class="text-right" 
                                                         style="border-top:none;width:50%;">
-                                                        Besetzung
+                                                        Beteiligte
                                                     </th>
                                                     <td class="text-left" 
                                                         style="border-top:none;">
@@ -97,7 +97,7 @@
                                                 <tr>
                                                     <th class="text-right"
                                                         style="border-top:none;width:50%;">
-                                                        Komponentenliste
+                                                        Nummern
                                                     </th>
                                                     <td class="text-left"
                                                         style="border-top:none;">
@@ -136,9 +136,9 @@
                                             <th>Datum</th>
                                             <th>Ort</th>
                                             <th>Saal</th>
-                                            <th>Besetzung</th>
+                                            <th>Beteiligte</th>
                                             <th>Titel</th>
-                                            <th>Metadaten</th>
+                                            <th>Details</th>
                                         </thead>
                                         <tbody><!--not(ancestor::mei:expressionList) and -->
                                             <xsl:for-each select="//mei:bibl[                                   
@@ -238,16 +238,27 @@
                                                         <xsl:otherwise>
                                                             <xsl:choose>
                                                                 <xsl:when test="contains(ancestor::mei:expression/mei:title, 'erschienen')">
-                                                                    <xsl:value-of select="substring-before(
-                                                                        ancestor::mei:expression/mei:title, ' (erschienen')"/>
+                                                                    <xsl:value-of select="concat(
+                                                                        //mei:titleStmt/mei:title[1]/text(),
+                                                                        ', ',
+                                                                        //mei:work/mei:identifier[@label='Opus-Nummer'][1],
+                                                                        ', ',
+                                                                        substring-before( ancestor::mei:expression/mei:title, ' (erschienen')
+                                                                        )"/>
                                                                 </xsl:when>
                                                                 <xsl:otherwise>
-                                                                    <xsl:value-of select="ancestor::mei:expression/mei:title"/>
+                                                                    <xsl:value-of select="concat(
+                                                                        //mei:titleStmt/mei:title[1]/text(),
+                                                                        ', ',
+                                                                        //mei:work/mei:identifier[@label='Opus-Nummer'][1],
+                                                                        ', ',
+                                                                        ancestor::mei:expression/mei:title                                                                                                                        
+                                                                        )"/>
                                                                 </xsl:otherwise>
                                                             </xsl:choose>                                                                
-                                                            <xsl:if test="not(ancestor::mei:expression)">
+                                                            <!--<xsl:if test="not(ancestor::mei:expression)">
                                                                 <xsl:value-of select="./mei:relatedItem[@rel='host']/mei:bibl/mei:title"/>
-                                                            </xsl:if>
+                                                            </xsl:if>-->
                                                         </xsl:otherwise>
                                                     </xsl:choose>                                                    
                                                 </td>     
@@ -278,19 +289,19 @@
                                                                 <xsl:with-param name="html_title" select="$doc_title_3"></xsl:with-param>
                                                             </xsl:call-template>  
                                                             <xsl:if test="contains(@type, 'Rubrik_3') or contains(@type, 'Rubrik_8')">
-                                                                <meta name="001 Filter" class="staticSearch_desc" content="Vorankündigung"/>  
+                                                                <meta name="Filter" class="staticSearch_desc" content="Vorankündigung"/>  
                                                             </xsl:if>
                                                             <xsl:if test="contains(@type, 'Rubrik_1') or contains(@type, 'Rubrik_2')">
-                                                                <meta name="001 Filter" class="staticSearch_desc" content="Rezension"/>  
+                                                                <meta name="Filter" class="staticSearch_desc" content="Rezension"/>  
                                                             </xsl:if>
                                                             <xsl:for-each select="./mei:annot/mei:p[@label='Weitere_Informationen']">
                                                                 <xsl:if test="contains(., 'gemäß')">
-                                                                    <meta name="001 Filter" class="staticSearch_desc" content="erschlossene Quellen"/>                                                                                                                                                                        
+                                                                    <meta name="Filter" class="staticSearch_desc" content="erschlossene Quellen"/>                                                                                                                                                                        
                                                                 </xsl:if>         
                                                             </xsl:for-each>
                                                             <xsl:if test="ancestor::mei:event/mei:geogName[@role='place' or @role='venue']/text()">
                                                                 <xsl:for-each select="ancestor::mei:event/mei:geogName[@role='place'or @role='venue']">
-                                                                    <meta name="002 Veranstaltungsort" class="staticSearch_feat">
+                                                                    <meta name="Veranstaltungsort" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="."/>
                                                                         </xsl:attribute>
@@ -299,12 +310,12 @@
                                                             </xsl:if>                                                                            
                                                             <xsl:if test="ancestor::mei:event/mei:persName/text()">
                                                                 <xsl:for-each select="ancestor::mei:event/mei:persName">
-                                                                    <meta name="003 Beteiligte Personen / Körperschaften" class="staticSearch_feat">
+                                                                    <meta name="Beteiligte Personen / Körperschaften" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="."/>
                                                                         </xsl:attribute>
                                                                     </meta>
-                                                                    <meta name="004 Personen beteiligt als / mit" class="staticSearch_feat">
+                                                                    <meta name="Personen beteiligt als / mit" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="@type"/>
                                                                         </xsl:attribute>
@@ -313,7 +324,7 @@
                                                             </xsl:if>                                                                                
                                                             <xsl:if test="ancestor::mei:work">
                                                                 <xsl:for-each select="ancestor::mei:work">
-                                                                    <meta name="005 Werk" class="staticSearch_feat">
+                                                                    <meta name="Werk" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="./mei:title"/>
                                                                             <xsl:text>, </xsl:text>
@@ -324,7 +335,7 @@
                                                             </xsl:if>
                                                             <xsl:if test="ancestor::mei:work//mei:perfMedium">
                                                                 <xsl:for-each select="ancestor::mei:work//mei:perfMedium/mei:perfResList/mei:perfResList/mei:perfRes">
-                                                                    <meta name="006 Gattung" class="staticSearch_feat">
+                                                                    <meta name="Gattung" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="."/>
                                                                         </xsl:attribute>
@@ -333,7 +344,7 @@
                                                             </xsl:if>
                                                             <xsl:if test="./mei:annot/mei:p[@label='Vollständiger_Nachweis']/text()">                                                                                    
                                                                 <xsl:for-each select="./mei:annot/mei:p[@label='Vollständiger_Nachweis'] | parent::mei:annot[mei:p[@label='Vollständiger_Nachweis'] != current()/mei:p[@label='Vollständiger_Nachweis']]">
-                                                                    <meta name="007 Quelle" class="staticSearch_feat">
+                                                                    <meta name="Quelle" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="."/>                                                                                                                            
                                                                         </xsl:attribute>
@@ -342,7 +353,7 @@
                                                             </xsl:if>
                                                             <xsl:if test="./mei:term/text()">
                                                                 <xsl:for-each select="./mei:term">
-                                                                    <meta name="008 Rubrik" class="staticSearch_feat">
+                                                                    <meta name="Rubrik" class="staticSearch_feat">
                                                                         <xsl:if test=". = 'Rubrik_1' or . = 'Rubrik_2'">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Werkkritik</xsl:text>                                                                                                                           
@@ -418,7 +429,7 @@
                                                             </xsl:if>
                                                             <xsl:if test="./mei:relatedItem/mei:bibl/mei:title/text()">
                                                                 <xsl:for-each select="./mei:relatedItem/mei:bibl">
-                                                                    <meta name="009 Verfasser" class="staticSearch_feat">
+                                                                    <meta name="Verfasser" class="staticSearch_feat">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="./mei:title"/>                                                                                                                            
                                                                         </xsl:attribute>
@@ -427,7 +438,7 @@
                                                             </xsl:if>         
                                                             <xsl:if test="ancestor::mei:event/mei:date[@isodate]">
                                                                 <xsl:for-each select="ancestor::mei:event/mei:date">
-                                                                    <meta name="010 Zeitraum" class="staticSearch_date">
+                                                                    <meta name="Zeitraum" class="staticSearch_date">
                                                                         <xsl:attribute name="content">
                                                                             <xsl:value-of select="@isodate"/>
                                                                         </xsl:attribute>
@@ -635,7 +646,7 @@
                                                                                                                                     <xsl:for-each select="//id($refId)">
                                                                                                                                         <li>
                                                                                                                                             <xsl:value-of select="translate(./mei:title, '.', '')"/>
-                                                                                                                                            <xsl:text> </xsl:text>
+                                                                                                                                            <xsl:text>, </xsl:text>
                                                                                                                                             <xsl:value-of select="./mei:identifier[@label='Opus-Nummer']"/>
                                                                                                                                         </li>                                                                                           
                                                                                                                                     </xsl:for-each>
@@ -654,8 +665,12 @@
                                                                                                             <tr>
                                                                                                                 <th style="width:20%">Werk</th>  
                                                                                                                <td>
-                                                                                                                   <xsl:value-of select="substring-before(
-                                                                                                                       ancestor::mei:expression/mei:title, ' (erschienen')"/>
+                                                                                                                   <xsl:value-of select="concat(//mei:titleStmt/mei:title[1]/text(),
+                                                                                                                       ', ',                                                                                                                       
+                                                                                                                       //mei:work/mei:identifier[@label='Opus-Nummer'][1],
+                                                                                                                       ', ',
+                                                                                                                       substring-before(ancestor::mei:expression/mei:title, ' (erschienen')
+                                                                                                                       )"/>
                                                                                                                </td>
                                                                                                             </tr>
                                                                                                         </xsl:when>
@@ -663,14 +678,20 @@
                                                                                                             <tr>
                                                                                                                 <th style="width:20%">Werk</th>  
                                                                                                                 <td>
-                                                                                                                    <xsl:value-of select="ancestor::mei:expression/mei:title"/>
+                                                                                                                    <xsl:value-of select="concat(
+                                                                                                                        //mei:titleStmt/mei:title[1]/text(),
+                                                                                                                        ', ',
+                                                                                                                        //mei:work/mei:identifier[@label='Opus-Nummer'][1],
+                                                                                                                        ', ',
+                                                                                                                        ancestor::mei:expression/mei:title                                                                                                                        
+                                                                                                                        )"/>
                                                                                                                 </td>
                                                                                                             </tr>                                                                                                            
                                                                                                         </xsl:otherwise>
                                                                                                     </xsl:choose>                                                                
-                                                                                                    <xsl:if test="not(ancestor::mei:expression)">
+                                                                                                    <!--<xsl:if test="not(ancestor::mei:expression)">
                                                                                                         <xsl:value-of select="./mei:relatedItem[@rel='host']/mei:bibl/mei:title"/>
-                                                                                                    </xsl:if>
+                                                                                                    </xsl:if>-->
                                                                                                 </xsl:otherwise>
                                                                                             </xsl:choose>
                                                                                               
@@ -765,7 +786,7 @@
                                 <xsl:for-each select="//id($relationID[$count])">                                      
                                     <li style="margin-top:0;margin-bottom:.3em;">                                        
                                         <xsl:value-of select="translate(./mei:title, '.', '')"/>
-                                        <xsl:text> </xsl:text>
+                                        <xsl:text>, </xsl:text>
                                         <xsl:value-of select="./mei:identifier"/>
                                     </li> 
                                 </xsl:for-each>    
@@ -789,7 +810,7 @@
                             <xsl:when test="//id($relationID[$count])"> 
                                 <xsl:for-each select="//id($relationID[$count])">      
                                     <xsl:value-of select="translate(./mei:title, '.', '')"/>
-                                    <xsl:text> </xsl:text>
+                                    <xsl:text>, </xsl:text>
                                     <xsl:value-of select="./mei:identifier"/>
                                     <xsl:text>. </xsl:text>
                                 </xsl:for-each>

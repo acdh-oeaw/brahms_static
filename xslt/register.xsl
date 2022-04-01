@@ -80,7 +80,7 @@
                            Funktion / Rolle 
                        </th>   
                        <th>
-                           Metadaten 
+                           Details 
                        </th> 
                    </tr>            
                 </thead>
