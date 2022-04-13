@@ -3,12 +3,12 @@
     <params>
         <searchFile>./html/index.html</searchFile>
         <recurse>false</recurse>
-        <linkToFragmentId>true</linkToFragmentId>
+        <linkToFragmentId>false</linkToFragmentId>
         <scrollToTextFragment>false</scrollToTextFragment>
         <phrasalSearch>true</phrasalSearch>
         <wildcardSearch>true</wildcardSearch>
-        <createContexts>true</createContexts>
-        <resultsPerPage>5</resultsPerPage>
+        <createContexts>false</createContexts>
+        <resultsPerPage>10</resultsPerPage>
         <minWordLength>3</minWordLength>
         <!--NOTE: If phrasalSearch is set to TRUE, then
         maxContexts prop will be ignored-->

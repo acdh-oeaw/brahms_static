@@ -161,7 +161,7 @@
                                                 <div class="col-md-12">                                             
                                                     <div class="card">
                                                         <div class="card-header">
-                                                            <h1 style="width:5%;display:inline-block;">
+                                                            <!--<h1 style="width:5%;display:inline-block;">
                                                                 <a href="{$registerUri}">
                                                                     <svg xmlns="http://www.w3.org/2000/svg" 
                                                                         width="24" 
@@ -178,7 +178,10 @@
                                                             </h1>
                                                             <h1 style="width:85%;display:inline-block;">                                                                                                                        
                                                                 <xsl:value-of select="./mei:persName[@type='main']"/>
-                                                            </h1>                                                                                                        
+                                                            </h1> -->
+                                                            <h1>                                                                                                                        
+                                                                <xsl:value-of select="./mei:persName[@type='main']"/>
+                                                            </h1> 
                                                         </div>
                                                         <div class="card-body">
                                                             <div class="ssSearchOn">

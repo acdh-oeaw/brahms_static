@@ -551,6 +551,7 @@ fieldset legend div {
 
 .ssResultUpdate3 {
     font-style: italic;
+    font-size: 13px;
 }
 
 /*.hidden {
@@ -662,13 +663,17 @@ fieldset.ssFieldset > span > input {
     margin-left: .3em;
 }
 
+
+/* ########################################### */
+/* CSS for autocomplete addon to staticSearch */
+/* ########################################### */
 /* Hide scrollbar for Chrome, Safari and Opera */
 #ac-panel::-webkit-scrollbar {
     display: none !important;
   }
   
 /* Hide scrollbar for IE, Edge and Firefox */
-#ac-panel {
+/*#ac-panel {
     display:block;
     position:absolute;
     min-height:50px;
@@ -681,7 +686,7 @@ fieldset.ssFieldset > span > input {
     border-radius: 0 0 .25rem .25rem ;
     padding: 0.3rem;    
     color: rgba(0,0,0,.9);
-    -ms-overflow-style: none;  /* IE and Edge */
+    -ms-overflow-style: none;  /\* IE and Edge *\/
 }
 
 #ac-select-all:hover, #searchInfoModalButton svg:hover {
@@ -709,7 +714,7 @@ fieldset.ssFieldset > span > input {
 .stem:hover {
     background-color: rgba(38, 35, 37, 0.3);
     border-radius: .25rem;
-}
+}*/
 
 #github-logo {
     width: 10%;
