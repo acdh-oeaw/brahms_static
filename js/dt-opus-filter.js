@@ -69,6 +69,11 @@ function createDataTable( tableID ) {
                 "'<'row'<'col-sm-6 offset-sm-6'p>>'",
             responsive: true,
             pageLength: 15,
+            columnDefs: [{
+                targets: 4,
+                searchable: true,
+                visible: false
+            }],
             buttons: [{
                 extend: 'copyHtml5',
                 text: '<i class="far fa-copy"/>',
