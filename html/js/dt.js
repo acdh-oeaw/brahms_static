@@ -52,6 +52,11 @@ function createDataTable(containerElement, order, pageLength) {
                 $(node).removeClass('btn-secondary')
             }
         }],
+        columnDefs: [{
+            targets: 0,
+            searchable: true,
+            visible: false
+        }],
         order: order,
         orderCellsTop: true,
         fixedHeader: true,

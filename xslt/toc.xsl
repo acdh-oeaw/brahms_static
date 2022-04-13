@@ -37,6 +37,7 @@
                                                 <th scope="col">Präfix</th>
                                                 <th scope="col">Opusnummer</th>                                            
                                                 <th scope="col">Details</th>
+                                                <th scope="col">Subtitle</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -105,6 +106,24 @@
                                                             </svg>
                                                         </a>-->
                                                     </td>
+                                                    <td>
+                                                        <ul style="padding-left: 0;">
+                                                            <xsl:choose>
+                                                                <xsl:when test="not(//mei:expressionList/mei:expression)">
+                                                                    <xsl:if test="//mei:componentList">
+                                                                        <xsl:for-each select="//mei:componentList/mei:work">
+                                                                            <li>
+                                                                                <xsl:value-of select="concat(./mei:title, ' ', ./mei:identifier)"/>
+                                                                            </li>                                                                                                                                        
+                                                                        </xsl:for-each>
+                                                                    </xsl:if>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
+                                                        </ul>
+                                                    </td>
                                                 </tr>
                                             </xsl:for-each>
                                         </tbody>
@@ -153,4 +172,5 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
+    
 </xsl:stylesheet>

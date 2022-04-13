@@ -139,6 +139,7 @@
                                             <th>Beteiligte</th>
                                             <th>Titel</th>
                                             <th>Details</th>
+                                            <th>Alle Personen</th>
                                         </thead>
                                         <tbody><!--not(ancestor::mei:expressionList) and -->
                                             <xsl:for-each select="//mei:bibl[                                   
@@ -205,7 +206,7 @@
                                                                 </xsl:if>                                                  
                                                             </xsl:for-each>-->                                                                                        
                                                         </td>
-                                                </xsl:for-each>
+                                                    </xsl:for-each>
                                                 <td>
                                                     <xsl:choose>
                                                         <xsl:when test="not(//mei:expressionList/mei:expression)">                                              
@@ -276,6 +277,15 @@
                                                                 d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
                                                         </svg>
                                                     </a>
+                                                </td>
+                                                <td>  
+                                                    <ul style="padding-left: 0;">
+                                                        <xsl:for-each select="ancestor::mei:event/mei:persName">                                                                
+                                                            <xsl:if test="./text()">                                                                    
+                                                                <li><xsl:value-of select="."/></li>                                                                                                         
+                                                            </xsl:if>                                                  
+                                                        </xsl:for-each>
+                                                    </ul>                                                                                                                                            
                                                 </td>
                                                                                     
                                                 <xsl:result-document href="{$biblUrl}">
