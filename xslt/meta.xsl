@@ -28,10 +28,11 @@
                     
                     <div class="container-fluid">                        
                         <div class="card">
-                            <div class="card-body">                                
-                                <xsl:if test="$doc_title = 'Rezensenten'">
+                                                          
+                            <xsl:if test="$doc_title = 'Rezensenten'">
+                                <div class="card-body">  
                                     <h1 style="margin-bottom:1em;"><xsl:value-of select="$doc_title"/></h1>
-                                    <ul>
+                                    <ul style="text-align:center;margin:0 auto;">
                                         <xsl:for-each select="//tei:body/tei:div/tei:div">
                                             <li style="display:inline;margin-right:.5em;">
                                                 <a href="#{@xml:id}">
@@ -39,9 +40,10 @@
                                                 </a>                                                
                                             </li>
                                         </xsl:for-each>
-                                    </ul>                                    
-                                </xsl:if>                                
-                            </div>
+                                    </ul>          
+                                </div>
+                            </xsl:if>                                
+                            
                             <div class="card-body">                                
                                 <xsl:apply-templates select=".//tei:body"/>
                             </div>
