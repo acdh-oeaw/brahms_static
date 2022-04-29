@@ -1,0 +1,737 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-title" content="Rezensenten" />
+      <link rel="profile" href="http://gmpg.org/xfn/11" />
+      <title>Rezensenten</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://unpkg.com/arche-api@1.2.1/lib/arche-api.min.js"></script></head>
+   <body class="page">
+      <div class="hfeed site" id="page">
+         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
+               <div class="container"><a href="https://brahmsonline.acdh-dev.oeaw.ac.at" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="images/Logo_Farbe_58bcc1_Transp-1-e1627912863339.png" class="img-fluid" title="Brahms Online" alt="Brahms Online" itemprop="logo" /></a><span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                     <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
+                        <li class="nav-item dropdown"><a title="Projekt" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Über das Projekt" href="01-ueber-das-projekt.html" class="nav-link">Über das Projekt</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Wiener Presse" href="02-wiener-presse.html" class="nav-link">Wiener Presse</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Zeitungen" href="03-00-Zeitungen-allgemein.html" class="nav-link">Zeitungen</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Rezensenten" href="04-rezensenten.html" class="nav-link">Rezensenten</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a title="Brahmś Wien" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Brahmś Wien <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Brahms in Wien" href="05-brahms-in-wien.html" class="nav-link">Brahms in Wien</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Auffuhrungsorte" href="06-auffuehrungsorte.html" class="nav-link">Auffuhrungsorte</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Brahms-Interpret*innen" href="07-interpretinnen.html" class="nav-link">Brahms-Interpret*innen</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a title="Forschung" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Forschung <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Wiener Arbeitsstelle" href="03-01-Zeitungen-detail.html" class="nav-link">Wiener Arbeitsstelle</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Literatur" href="08-literatur.html" class="nav-link">Literatur</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item dropdown"><a title="Datenbank" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Datenbank <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Suche" href="index.html" class="nav-link">Suche</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Personen" href="Personenregister-verkuerzt.html" class="nav-link">Personen</a></li>
+                              <li class="nav-item dropdown-submenu"><a title="Werke" href="toc.html" class="nav-link">Werke</a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </div>
+         <div class="container-fluid">
+            <div class="card">
+               <div class="card-body">
+                  <h1 style="margin-bottom:1em;">Rezensenten</h1>
+                  <ul>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-1">Ambros</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-2">Bruyck</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-3">Frey</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-4">Bergheim</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-5">Göllerich</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-6">Hahn</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-7">Hanslick</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-8">Hirsch</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-9">Hirschfeld</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-10">Horn</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-11">Kalbeck</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-12">Kulke</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-13">Paumgartner</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-14">Puchstein</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-15">Schelle</a></li>
+                     <li style="display:inline;margin-right:.5em;"><a href="#content-d1e00005-16">Scheu</a></li>
+                  </ul>
+               </div>
+               <div class="card-body">
+                  
+                  <div id="content-d1e00005">
+                     
+                     <div id="content-d1e00005-1">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">August Wilhelm Ambros</h2>
+                        
+                        <p id="d10e120">*17.11.1816 Mauth bei Prag, †28.06.1876 Wien</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/ambros-august-wilhelm.jpg" /></div>
+                        
+                        <p id="d10e129">Musikhistoriker, Musikkritiker und Komponist. Neffe des Wiener
+                           Musikwissenschaftlers Raphael Georg Kiesewetter, trotz juristischer Studien
+                           den Künsten zugetan. Unter dem Namen „Flamin“ Mitglied des von ihm
+                           mitgegründeten Prager „Davidsbundes“, dem auch Eduard Hanslick (als
+                           „Renatus“) angehörte. Sein musikalisches wie journalistisches Vorbild fand
+                           Ambros in Robert Schumann, mit dem er von 1845 bis 1850 auch
+                           korrespondierte. Das Erstlingswerk <span class="italic">Die Grenzen der Musik
+                              und Poesie. Eine Studie zur Ästhetik der Tonkunst</span> (Prag 1856)
+                           entstand als Antwort auf Hanslicks Schrift <span class="italic">Vom
+                              Musikalisch-Schönen</span>, seinen Durchbruch als einer der bedeutendsten
+                           Musikgelehrten seiner Zeit hatte Ambros aber mit seiner (unvollendet
+                           gebliebenen) dreibändigen <span class="italic">Geschichte der Musik</span>
+                           (1862–1868). 1869 wurde er Professor für Musiktheorie an der Universität
+                           Prag, 1872 wechselte er als Kunst- und Musikgeschichtelehrer Erzherzog
+                           Rudolfs nach Wien, wo er auch am Konservatorium unterrichtete. </p>
+                        
+                        <p id="d10e141">In seinen ästhetischen Urteilen stimmte er zu Beginn in vielen Dingen mit
+                           seinem Jugendfreund Hanslick überein, vertrat allerdings später auch
+                           kontroversielle Standpunkte. Elisabeth Hilscher würdigt die <span class="italic">„am klassischen Kunstideal orientierte Position“</span>
+                           Ambros‘ als so maßgebend, dass diese <span class="italic">„die nachfolgende
+                              Generation von Musikforschern und -kritikern (z. B. G. Adler, J.
+                              Korngold)“</span> geprägt habe. </p>
+                        
+                        <p id="d10e151">Er prägte seine Zeitgenossen v. a. durch zahlreiche Vorträge in Wien und
+                           auswärts, als Vorstand musikalischer Vereine und insbesondere als
+                           Musikkritiker und Redaktionsmitglied der Wiener Zeitung und der Wiener
+                           Abendpost sowie als Korrespondent auswärtiger Blätter. </p>
+                        
+                        <p id="d10e153">Über seine Tätigkeit als Musikkritiker heißt es in dem Nachruf des <span class="italic">Neuen Wiener Abendblattes</span> vom 28. Juni 1876: <span class="italic">„Seit seinem Aufenthalte in Wien, der mit Ende der
+                              sechziger Jahre begann, besorgte Ambros die musikalische Kiritk für die
+                              ‚Wiener Abendpost‘, die sich stets durch ein gewisses Wohlwollen für
+                              alle Produktion und Reproduktion auszeichnete.“</span></p>
+                        <span class="bibl">Quelle: Elisabeth Th. Hilscher, Art. „Ambros, August Wilhelm‟, in:
+                           Oesterreichisches Musiklexikon online, Zugriff: 6.4.2021. Nachruf, in: <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18760628&amp;seite=19&amp;zoom=33&amp;query=%22Ambros%22&amp;ref=anno-search">Neues Wiener Abendblatt, Jg. 9, Nr. 176, 28.06.1876, S. 3f.</a>,
+                           Nachruf, in: <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18760628&amp;query=%22Ambros%22&amp;ref=anno-search&amp;seite=14">Wiener Abendpost, Beilage zur Wiener Zeitung, Nr. 146, 28.06.1876, S.
+                              2</a>. </span>
+                        </div>
+                     
+                     <div id="content-d1e00005-2">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Carl Debrois van Bruyck</h2>
+                        
+                        <p id="d10e175">*14.03.1828 Brünn, †02.08.1902 Waidhofen an der Ybbs/NÖ</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/debrois-van-bruyck.jpg" /></div>
+                        
+                        <p id="d10e184">Musikschriftsteller und Komponist. 1850 Kompositionsunterricht bei Johann
+                           Rufinatscha, 1853–1868 als Musikschriftsteller für mehrere Zeitschriften in
+                           Österreich und Deutschland tätig, darunter 1856–1863 als Nachfolger seines
+                           Freundes Eduard Hanslick für die <span class="italic">Wiener Zeitung</span>. Als
+                           überzeugter Gegner der Neudeutschen propagierte er als einer der Ersten in
+                           Wien die Werke Robert Schumanns und jene von Johannes Brahms. Mit beiden
+                           soll er auch in näherem Kontakt gestanden haben. In der Folge beschäftigte
+                           er sich längere Zeit mit musikhistorischen und philosophischen Studien und
+                           übersiedelte 1874 nach Waidhofen/Ybbs, wo er sich v. a. seinem
+                           kompositorischen Schaffen und einem umfangreichen Briefwechsel mit
+                           Schriftstellern (u. a. Paul Heyse, Robert Hamerling) und Musikern widmete. </p>
+                        <span class="bibl">Quellen: Uwe Harten, Art. „Debrois van Bruyck, Carl‟, in:
+                           Oesterreichisches Musiklexikon online, Zugriff: 6.4.2021; <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=tpt&amp;datum=19020808&amp;seite=3&amp;zoom=33&amp;query=%22Debrois%2Bvan%2BBruyck%22&amp;ref=anno-search">Linzer Tages-Post, Jg. 38, Nr. 182, 8. August 1902, S. 3</a>.</span>
+                        </div>
+                     
+                     <div id="content-d1e00005-3">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Wilhelm Frey</h2>
+                        
+                        <p id="d10e201">*07.12.1833 Hohenems/Vorarlberg, †16.04.1909 Wien</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/frey-wilhelm.jpg" /></div>
+                        
+                        <p id="d10e210">Musikkritiker, Journalist und Schriftsteller, Vizepräsident des Journalisten-
+                           und Schriftstellervereines Concordia. Widmete sich zunächst der
+                           pädagogischen Laufbahn und wurde zum Professor für Mittelschulen graduiert.
+                           Zusätzlich absolvierte er zur Zeit seiner Lehrtätigkeit in Prag die
+                           Orgelschule. Während seiner Studien und seinem pädagogischen Beruf war Frey
+                           erfolgreich schriftstellerisch tätig und zählte in der zweiten Hälfte der
+                           1850er- und ersten Hälfte der 1860er- Jahre zu den ersten deutschen
+                           Jugendschriftstellern neben den damaligen Größen Gustav Nieritz und Franz
+                           Hofmann. 1865 ging er nach Wien, wo er als Offizial in das administrative
+                           Revisionsamt der Kaiser Ferdinands-Nordbahn eintrat, dort Sekretär und Chef
+                           des Personalbureaus wurde, bevor er 1873 den Eisenbahndienst verließ und
+                           sich vollends der bis dahin nebenbei ausgeübten Journalistik widmete. </p>
+                        
+                        <p id="d10e212">1858–1867 Musikreferent der <span class="italic">Morgenpost</span>, seit der
+                           Gründung des <span class="italic">Neuen Wiener Tagblatt</span> (1873) „fast von
+                           den ersten Nummern an“ Musikkritiker, ab den 1890er Jahren Lokalschilderer
+                           dieses Blattes, dem er bis zu seinem Tod angehören sollte (<span class="italic">Neues Wiener Tagblatt</span>, 17. April 1909, S. 8). In diesem Nachruf
+                           heißt es weiters: <span class="italic">„Seiner Liebe zum musikalisch Schönen,
+                              seiner Kenntnis des Theaters stand eine große Erfahrung zur Seite, an
+                              die Direktoren und Kapellmeister, Musiker und Sänger oft genug
+                              appellierten.“</span> Konkret wird Hofoperntheater-Direktor Jahn erwähnt,
+                           der <span class="italic">„mit seinen Partituren oft genug bei Frey erschien, um
+                              dessen Gutachten einzuholen.“</span></p>
+                        <span class="bibl">Quelle: Elisabeth Th. Hilscher, Art. „Frey, Wilhelm‟, in:
+                           Oesterreichisches Musiklexikon online, Zugriff: 6.4.2021; <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=oiz&amp;datum=19090425&amp;seite=8&amp;zoom=33&amp;query=%22wilhelm%2Bfrey%22&amp;ref=anno-search">Österreichs Illustrierte Zeitung, Heft 30, 25. April 1909, S.
+                              694</a>; <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=krz&amp;datum=19090417&amp;query=%22wilhelm+frey%22&amp;ref=anno-search&amp;seite=8">Illustrierte Kronen-Zeitung, Nr. 3340, 17. April 1909, S. 8</a>; <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19090417&amp;query=%22wilhelm+frey%22&amp;ref=anno-search&amp;seite=6">Das Vaterland, 17. April 1909, S. 6</a>; <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=aze&amp;datum=19090418&amp;query=%22wilhelm+frey%22&amp;ref=anno-search&amp;seite=6">Arbeiter-Zeitung, 18. April 1909, S. 6</a>; <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19090417&amp;query=%22wilhelm+frey%22&amp;ref=anno-search&amp;seite=8">Neues Wiener Tagblatt, 17. April 1909, S. 8</a>.</span>
+                        </div>
+                     
+                     <div id="content-d1e00005-4">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Fritz Gaigg von Bergheim</h2>
+                        
+                        <p id="d10e253">*31.10.1848 Wien, †1918</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images" /></div>
+                        
+                        <p id="d10e262">Musikschriftsteller, hauptberuflich Mittelschulprofessor an der Rainerschen
+                           Realschule in Wien, im Ersten Weltkrieg zusätzliche Lehrstelle an den
+                           Horakschen Musikschulen. Besonders eng ist sein Name als Musikkritiker mit
+                           der <span class="italic">Reichspost</span> verbunden. In einem Nachruf
+                           charakterisierte die Redaktion der <span class="italic">Reichspost</span> ihren
+                           verstorbenen Mitarbeiter mit den Worten: </p>
+                        
+                        <p id="d10e271"><span class="italic">„Als Musikschriftsteller war Friedrich Gaigg
+                              R. v. Bergheim in allen Wiener Theatern und Konzertsälen fast eine
+                              Generation hindurch zu Hause; die langjährige Erfahrung, die weit
+                              zurückreichende Personalkenntnis und seine ideale Liebe zur Musik, das
+                              waren die Charakteristiken dieses Mannes. in seinen Besprechungen
+                              spiegelte sich das wohlwollende Wesen des grundgütigen Menschen, der mit
+                              Vorliebe neu aufstrebende Talente förderte und sie mit freundlichen
+                              Worten in seinen niemals strengen Kritiken zum Aufstieg, aber auch zur
+                              Selbstzucht, zum fleißigen Studium ermunterte.“</span>
+                           </p>
+                        
+                        <p id="d10e277">Weiters wurde in diesem Nachruf nicht nur der <span class="italic">„Heimgang
+                              eines ihrer ältesten und treusten Mitarbeiter“</span> betrauert, sondern
+                           gleichzeitig der Verlust eines jener <span class="italic">„alten Garde, die mit
+                              Opferwillen mitgeschaffen hat, als es galt, das Blatt der Katholiken
+                              Oesterreichs emporzubringen.“</span> Insbesondere habe sich Gaigg von
+                           Bergheim durch seine Vielfältigkeit ausgezeichnet. Zu seinem Metier zählten
+                           neben Opernkritiken auch Besprechungen von Operetten und Konzerten aller
+                           Art, kirchenmusikalische Aufführungen und Vereinsveranstaltungen – und dies
+                           neben seiner Lehrtätigkeit und seinen historischen Studien, mit denen er
+                           wiederholt als Vortragender in die Öffentlichkeit getreten sei, u. a.
+                           im Katholischen Schulverein. Gaigg von Bergheim engagierte sich zudem im
+                           katholischen Vereinsleben und war etwa Obmann des Piusvereins der Ortsgruppe
+                           Leopoldstadt. </p>
+                        
+                        <p id="d10e286">Kürzel: G. v. B.</p>
+                        <span class="bibl">Quellen: Nachruf, in: <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=rpt&amp;datum=19180225&amp;seite=3&amp;zoom=48&amp;query=%22gaigg%2Bvon%2Bbergheim%22&amp;ref=anno-search">Reichspost, Mittagsblatt, Jg. 25, Nr. 90, 25.02.1918, S. 3</a>,
+                           Todesanzeige, in: <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=dvb&amp;datum=19180226&amp;query=%22gaigg%22&amp;ref=anno-search&amp;seite=8">Deutsches Volksblatt, Morgenausgabe, Jg. 30, Nr. 10469, 26.02.1918, S.
+                              8.</a>
+                           </span>
+                        </div>
+                     
+                     <div id="content-d1e00005-5">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">August Göllerich</h2>
+                        
+                        <p id="d10e302">*02.07.1859 Linz, †16.03.1923 Linz</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/goellerich-august.jpg" /></div>
+                        
+                        <p id="d10e311">Musikschriftsteller. In Wien Studium an der Technischen Hochschule sowie bei
+                           Anton Bruckner. 1884 Bekanntschaft mit Franz Liszt, der ihn als
+                           Klavierschüler aufnahm und dessen Sekretär Göllerich bis zu Liszts Tod 1886
+                           war. Danach in Wien Musikkritiker, der sich besonders für das Werk Bruckners
+                           und Wagners einsetzte. 1890 an der Ramannschen Musikschule in Nürnberg
+                           tätig, 1896 Wechsel als Musikdirektor nach Linz, wo Göllerich das Linzer
+                           Musikleben wesentlich beeinflusste und förderte, u. a. als Leiter von <span class="italic">Sängerbund</span> und <span class="italic">Frohsinn</span> sowie
+                           von ihm veranstalteten Konzerten. Autor einer grundlegenden
+                           Bruckner-Biographie, deren problematisches Bruckner-Bild (Musikant Gottes,
+                           „Deutscher Michel“) bis heute nachwirkt.</p>
+                        
+                        <p id="d10e320">Göllerich prägte für Brahms u. a. die Floskel <span class="italic">„Meister der
+                              musikalischen Nüchternheit“</span>, die in der Folge auch von dessen
+                           Nachfolger beim Deutschen Volksblatt, Hans Puchstein, gerne zitiert wurde. </p>
+                        <span class="bibl">Quellen: Elisabeth Th. Hilscher, Art. „Göllerich, Familie‟, in:
+                           Oesterreichisches Musiklexikon online, Zugriff: 12.4.2021; Jerger, Veit
+                           Wilhelm: „August Göllerich (1859–1923). Eine biographische Skizze„, in: <a target="_blank" href="https://www.zobodat.at/pdf/Oberoesterr-Heimatbl_1975_1_2_0038-0046.pdf">Oberösterreichische Heimatblätter, 29. Jg., Heft 1/2 (1975), S.
+                              38–46</a>. </span>
+                        </div>
+                     
+                     <div id="content-d1e00005-6">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Ludwig Benedikt Hahn</h2>
+                        
+                        <p id="d10e339">*23.09.1844 Mühlhausen/Böhmen, †26.04.1923</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/hahn-ludwig-benedikt.jpg" /></div>
+                        
+                        <p id="d10e348">k. k. Hofrat und Journalist, konvertierte 1877 vom Judentum zum
+                           Katholizismus.</p>
+                        
+                        <p id="d10e350">Mitredakteur des <span class="italic">Neuen Fremdenblattes</span>, des <span class="italic">Fremdenblattes</span> und schließlich der <span class="italic">Wiener Zeitung</span>, bei der er zugleich das Musikreferat in der <span class="italic">Wiener Abendpost</span> führte. 1889 wurde er Vorstand des
+                           Telegraphen-Correspondenz-Bureaus und war auch Herausgeber der <span class="italic">Politischen Correspondenz</span>. Als Kritiker zeichnete
+                           Hahn mit »h«. </p>
+                        
+                        <p id="d10e369">Vater der Malerin und Grafikerin Louise Fraenkl-Hahn (1878–1939), des
+                           Mathematikers Hans Hahn (1879–1934) sowie der Philosophin und Mathematikerin
+                           Olga Hahn-Neurath (1882–1937).</p>
+                        <span class="bibl">Quelle: <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19230503&amp;query=%22hahn%22&amp;ref=anno-search&amp;seite=7">Neue Freie Presse, 3. Mai 1923, S. 7</a>.</span>
+                        </div>
+                     
+                     <div id="content-d1e00005-7">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Eduard Hanslick</h2>
+                        
+                        <p id="d10e382">*11.09.1825 Prag, †06.08.1904 Baden bei Wien</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/hanslick-eduard.jpg" /></div>
+                        
+                        <p id="d10e391">Musikästhetiker, Musikkritiker, „Meister des Feuilletons“ (Robert Hirschfeld
+                           über Hanslick in: <span class="italic"><a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=19040811&amp;query=%22hanslick%22&amp;ref=anno-search&amp;seite=17">Wiener Abendpost</a></span>, 11. August 1904, S. [1]). Ab 1843
+                           Klavier-, Theorie- und Kompositionsunterricht bei Wenzel Johann Tomaschek,
+                           ab 1844 Jusstudium in Prag bzw. ab 1846 in Wien. Promotion 1849, danach
+                           Beamter, u.a. am Kultusministerium in Wien.</p>
+                        
+                        <p id="d10e398">Hanslick war ab 1846 bei der <span class="italic">Wiener Allgemeinen
+                              Musik-Zeitung</span>, ab 1848 bei der <span class="italic">Wiener
+                              Zeitung</span>, ab 1855 bei der <span class="italic">Presse</span> und von 1864
+                           bis 1904 bei der <span class="italic">Neuen Freien Presse</span> tätig (bis 1901
+                           im Musikreferat, das in der Folge von Richard Heuberger bzw. Julius Korngold
+                           übernommen wurde) und stieg im Laufe der Jahre zu einem der
+                           einflussreichsten Musikkritiker seiner Zeit auf. 1854 erreichte er große
+                           Publizität mit seiner Schrift <span class="italic">Vom
+                              Musikalisch-Schönen</span>, die 1856 von der Wiener Universität als
+                           Habilitationsschrift anerkannt wurde und ihn zum Privatdozenten <span class="italic">„für Geschichte und Ästhetik der Tonkunst“</span> machte.
+                           1861 erhielt Hanslick eine Professur, die er bis zu seiner Emeritierung 1895
+                           innehatte.</p>
+                        
+                        <p id="d10e421">Verankerung im Wiener Musikleben, u. a. als staatlicher Berater für die
+                           Vergabe von Musikstipendien (Einsatz für Antonín Dvořák) oder als
+                           offizieller Berichterstatter für Instrumentenbau bei den Weltausstellungen
+                           in London (1862), Paris (1867, 1878) und Wien (1873) sowie als Juror bei
+                           Musikwettbewerben, 1885 als Teilnehmer an der Wiener Stimmtonkonferenz. Von
+                           1893 bis 1897 Präsident der <span class="italic">Gesellschaft zur Herausgabe
+                              von Denkmälern der Tonkunst in Österreich</span> und ab 1884 Mitarbeit am
+                           sogenannten „Kronprinzenwerk“.</p>
+                        
+                        <p id="d10e427">Hanslick hatte Kontakte zu zahlreichen Musikern und zählte zum Freundeskreis
+                           von Johannes Brahms und Theodor Billroth. </p>
+                        <span class="bibl">Quellen: Barbara Boisits, Art. „Hanslick, Eduard‟, in: Oesterreichisches
+                           Musiklexikon online, Zugriff: 30.4.2021; <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=19040807&amp;seite=7&amp;zoom=33&amp;query=%22hanslick%22&amp;ref=anno-search">Neue Freie Presse, 07. August 1904, S. 7–9</a>; r. h. [= Robert
+                           Hirschfeld]: Nachruf, in: <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=19040811&amp;query=%22hanslick%22&amp;ref=anno-search&amp;seite=17">Wiener Abendpost, 11. August 1904, S. [1]f.]</a></span>
+                        </div>
+                     
+                     <div id="content-d1e00005-8">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Rudolf Hirsch</h2>
+                        
+                        <p id="d10e442">*01.02.1816 Napajedl/Mähren, †10.03.1872 Wien</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/hirsch-rudolf.jpg" /></div>
+                        
+                        <p id="d10e451">Schriftsteller und Musiker, studierte Philosophie und Jus, wirkte ab 1843 im
+                           österreichischen Staatsdienst. 1850 Umsiedelung nach Wien, ab 1852 als
+                           Hofkonzipist der k. k. obersten Polizeihofstelle und Leiter der
+                           Amtsbibliothek tätig, 1861–1870 als Ministerialsekretär. Nebenbei
+                           Beschäftigung mit Poesie (besonderen Erfolg hatte er mit <span class="italic">Irrgarten der Liebe</span>, Wien 1850) und Musik (er vertonte ca. 100
+                           Lieder). </p>
+                        
+                        <p id="d10e457">1863–1872 schrieb er als Musikreferent für die <span class="italic">Wiener
+                              Zeitung</span>. Zusätzlich verfasste er unter dem Pseudonym „Dr. Schütze“
+                           Musikberichte für die <span class="italic">Vorstadt-Zeitung</span>. </p>
+                        <span class="bibl">Quellen: Andrea Harrandt, Art. „Hirsch, Rudolf‟, in: Oesterreichisches
+                           Musiklexikon online, Zugriff: 8.4.2021; <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=18720311&amp;query=%22rudolf+hirsch%22&amp;ref=anno-search&amp;seite=9">Beilage zu Nr. 69 des Neuen Wiener Tagblatt, 11.3.1872</a>. </span>
+                        </div>
+                     
+                     <div id="content-d1e00005-9">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Robert Hirschfeld</h2>
+                        
+                        <p id="d10e478">*17.09.1857 Großmeseritsch/Mähren, †02.04.1914 Salzburg</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/" /></div>
+                        
+                        <p id="d10e487">Musikpädagoge und Musikkritiker. Sohn eines Rabbiners, studierte neben
+                           Rechtswissenschaft auch Musikwissenschaft (bei Eduard Hanslick), Promotion
+                           zum Doktor der Philosophie 1883 mit der Arbeit „Johan de Muris und seine
+                           Werke“. Ab 1882 Lehrer für Musikästhetik am Konservatorium der Gesellschaft
+                           der Musikfreunde, ab den späten 1880er Jahren Musikkritiker, u. a. bei der
+                           <span class="italic">Wiener Sonn- und Montagszeitung</span>, <span class="italic">Die Neue Freie Presse</span> und die <span class="italic">Wiener Allgemeine Zeitung</span> sowie Korrespondent für die <span class="italic">Frankfurter Allgemeine Zeitung</span>. Von besonderer
+                           Bedeutung sind Hirschfelds Kritiken für die Wiener Abendpost (er gehörte als
+                           Musikreferent der <span class="italic">Wiener Zeitung</span> von 1896 bis 1913
+                           an) und als Theaterreferent beim <span class="italic">Neuen Wiener
+                              Tagblatt</span> (bis 1913). Pseudonym: L. A. Terne.</p>
+                        
+                        <p id="d10e509">Hirschfeld redigierte ab 1893 die Programmbücher der Konzerte der Wiener
+                           Philharmoniker und war Begründer der Volkskonzerte mit klassischem Programm
+                           im Volksbildungsverein, die er über acht Jahre auch selbst leitete. Zudem
+                           rief er 1884 „Renaissance-Abende“ zur Pflege des a-cappella-Gesangs und
+                           Jugendkonzerte ins Leben. Hirschfeld war u. a. Mitbegründer und
+                           Vorstandsmitglied des <span class="italic">Wiener Concert-Vereins</span>,
+                           Mitglied der Kunstkommission des k. k. Ministeriums für Kultus und
+                           Unterricht in Wien, der <span class="italic">Akademie für Musik und
+                              darstellende Kunst</span> und ab 1898 der <span class="italic">Denkmäler der
+                              Tonkunst</span> (DTÖ). Vollendete die von Richard von Perger begonnene
+                           „Geschichte der Gesellschaft der Musikfreunde“ bevor er 1913 als Leiter der
+                           Musikschule am Mozarteum nach Salzburg berufen wurde, wo er Vorarbeiten zu
+                           den Musikfestspielen in Salzburg leistete. </p>
+                        
+                        <p id="d10e522">Hirschfeld war Anhänger von Richard Wagner, Bruckner, Brahms und Hugo Wolf
+                           und galt als „kampffreudige Natur“. Diesen Ruf hatte er nicht zuletzt mit
+                           seiner 1885 erschienenen Streitschrift <span class="italic">Das kritische
+                              Verfahren Eduard Hanslick’s</span> begründet, in der er <span class="italic">„gegen den damals führenden Tageskritiker die Axt erhob“</span> und sich
+                           dabei <span class="italic">„als gewandter und scharfer Gegner bewiesen“</span>
+                           habe. Weiters heißt es in den Signalen für die musikalische Welt vom 8.
+                           April 1914: <span class="italic">„Der Angriff war seine liebste Kampfmethode,
+                              und er führte seine Deduktionen mit einer gewissen Leidenschaft, der man
+                              schwer widerstehen konnte, zum Kampfe. In seinem Kunstgeschmack war er
+                              der gerade Gegenpol Hanslick’s, den mehr das Zierliche, Sinnliche in der
+                              Musik reizte, während Hirschfeld immer das Grosse, mochte es auch
+                              ungeglättet sein, verteidigte.“</span></p>
+                        
+                        <p id="d10e536">Hirschfeld war 1894 vom Judentum zur Evangelischen Kirche konvertiert;
+                           verheiratet mit der Opernsängerin Emma (Emmy) Karlona. </p>
+                        <span class="bibl">Quellen: Uwe Harten, Art. „Hirschfeld, Robert (Pseud. L. A. Terne)‟, in:
+                           Oesterreichisches Musiklexikon online, Zugriff: 8.4.2021; Hofinger,
+                           Johannes: „Robert Hirschfeld – Schulleiter für 32 Tage“, in: Hinterberger,
+                           Julia (Hrsg.): Von der Musikschule zum Konservatorium. Das Mozarteum
+                           1841–1922, S. 352-365; <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno-plus?aid=smw&amp;datum=19140114&amp;query=(text:%22robert+hirschfeld%22)&amp;ref=anno-search&amp;seite=24">Signale für die musikalische Welt, 8. April 1914, S. 588</a>; <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=19140402&amp;query=%22robert+hirschfeld%22&amp;ref=anno-search&amp;seite=28">Wiener Abendpost, Beilage zur Wiener Zeitung, 2. April 1914, S.
+                              4-5</a>; <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=aze&amp;datum=19140403&amp;query=%22robert+hirschfeld%22&amp;ref=anno-search&amp;seite=1">Arbeiter-Zeitung, Morgenblatt, 3. April 1914, S. 1-2</a>; <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19140403&amp;query=%22robert+hirschfeld%22&amp;ref=anno-search&amp;seite=6">Neues Wiener Journal, 3. April 1914, S. 6</a>. </span>
+                        </div>
+                     
+                     <div id="content-d1e00005-10">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Camillo Horn</h2>
+                        
+                        <p id="d10e558">*29.12.1860 Reichenberg/Böhmen, †03.09.1941 Wien</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/horn-camillo.jpg" /></div>
+                        
+                        <p id="d10e567">Komponist, Musiker, Musikkritiker. Studierte Harfe am Prager Konservatorium,
+                           dreijähriger Militärdienst im Infanterie-Regiment 34 in Wien, Privatschüler
+                           Anton Bruckners. 1885 Staatsprüfung für Musik, danach als Chorleiter,
+                           Dirigent und Gesangslehrer in Wien tätig, u. a. als Leiter des Musikvereins
+                           „Haydn“, wo er sich für Wagner, Liszt und Bruckner einsetzte. Gesangslehrer
+                           am Wiener Piaristengymnasium, 1910–1916 am Neuen Wiener Konservatorium,
+                           1916–1931 Professor für Harmonielehre an der Wiener Akademie für Musik und
+                           darstellende Kunst.</p>
+                        
+                        <p id="d10e569">Horn, ein glühender Deutschnationaler, war zudem Musikkritiker beim <span class="italic">Deutschen Volksblatt</span>. Sein eigenes, deutsch-national
+                           geprägtes Werk (großteils Vokalmusik) steht unter dem Einfluss von Wagner
+                           und Bruckner. Über seine geistig-politische Ausrichtung gibt ein Nachruf im
+                           <span class="italic">Völkischen Beobachter</span> Aufschluss:</p>
+                        
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images" /></div>
+                        <span class="bibl">Quellen: Andrea Harrandt, Art. „Horn, Camillo (Kamillo Andreas)‟, in:
+                           Oesterreichisches Musiklexikon online, Zugriff: 12.4.2021; <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=vob&amp;datum=19410904&amp;ref=anno-search&amp;seite=5">Völkischer Beobachter, 4. September 1941, S. 5</a>.</span>
+                        </div>
+                     
+                     <div id="content-d1e00005-11">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Max Kalbeck</h2>
+                        
+                        <p id="d10e599">*04.01.1850 Breslau, †04.05.1921 Wien</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/kalbeck-max.jpg" /></div>
+                        
+                        <p id="d10e608">Musikschriftsteller, Musikkritiker und Übersetzer. 1861 Sängerknabe in
+                           Breslau unter Leopold Damrosch. Studium der Rechtswissenschaften, ab 1873
+                           Münchener Musikschule, wo er u. a. bei Joseph Rheinberger Komposition
+                           studierte. 1880 kam Kalbeck auf Empfehlung Hanslicks nach Wien, wo er bei
+                           verschiedenen Zeitungen tätig war: als Musikreferent bis 1883 bei der <span class="italic">Wiener Allgemeinen Zeitung</span>, 1883–1890 bei der <span class="italic">Presse</span>, 1890–1895 bei der <span class="italic">Montags-Revue</span> sowie ab Ende 1895 beim <span class="italic">Neuen
+                              Wiener Tagblatt</span>, bei der er bereits ab 1886 als Theaterrezensent
+                           gewesen war. </p>
+                        
+                        <p id="d10e623">Kalbeck wurde neben Hanslick zu einem der einflussreichsten Kritiker in
+                           Österreich, wobei er wie dieser ein heftiger Gegner der Musik von Richard
+                           Wagner, Anton Bruckner und Hugo Wolf war. Wie Hanslick wurde auch Kalbeck
+                           ein Freund und Parteigänger von Brahms, den er 1874 kennenlernte und dessen
+                           Biographie (4 Bde., 1904–1914) trotz der teils sehr subjektiven
+                           Darstellungsweise eine der wichtigsten musikhistorischen Quellen der
+                           Brahms-Biographik darstellt. </p>
+                        <span class="bibl">Quellen: Uwe Harten, Art. „Kalbeck, Julius Max Heinrich (Pseud. Jeremias
+                           Deutlich)‟, in: Oesterreichisches Musiklexikon online, Zugriff: 30.4.2021.
+                           </span>
+                        </div>
+                     
+                     <div id="content-d1e00005-12">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Eduard Kulke</h2>
+                        
+                        <p id="d10e634">*28.05.1831 Nikolsburg, †20.03.1897 Wien</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/kulke-eduard.jpg" /></div>
+                        
+                        <p id="d10e643">Journalist und Schriftsteller, Sohn eines Rabbiners, ab 1853 Studium in Wien
+                           und ab 1854 in Prag am Polytechnikum Mathematik, Physik und später deutsche
+                           Sprache und Literatur. Studienabbruch, Arbeit 1858/59 als Lehrer an der
+                           israelitischen Schule in Pécs, ab 1859 Tätigkeit als Journalist und
+                           Schriftsteller in Wien, u. a. für die <span class="italic">Allgemeine Zeitung
+                              des Judentums</span> und dem <span class="italic">Wiener Jahrbuch für
+                              Israeliten</span>.</p>
+                        
+                        <p id="d10e652">Im Pester Lloyd vom 24. März 1897 finden sich Angaben zu Kulkes Tätigkeit als
+                           Musikkritiker:</p>
+                        
+                        
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images" /></div>
+                        
+                        <p id="d10e664">Weiters war Kulke langjähriges Mitglied des Journalisten- und
+                           Schriftstellervereins „Concordia“, der auch für die Todesanzeige in der <span class="italic">Wiener Zeitung</span> verantwortlich zeichnete (vgl. <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18970322&amp;query=%22kulke%22&amp;ref=anno-search&amp;seite=3">Wiener Abendpost, Beilage zur Wiener Zeitung, Nr. 66, 22.03.1897, S.
+                              3</a>).</p>
+                        
+                        <p id="d10e673">Kürzel: Ed. K.</p>
+                        <span class="bibl">Quellen: Ludwig Julius Fränkel: Kulke, Eduard. In: <a target="_blank" href="https://de.wikisource.org/wiki/ADB:Kulke,_Eduard">Allgemeine
+                              Deutsche Biographie</a> (ADB). Band 51, Duncker &amp; Humblot, Leipzig
+                           1906, S. 436–438, Wikipedia. Nachruf, in: <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=pel&amp;datum=18970324&amp;=anno-search&amp;seite=5">Pester Lloyd, Jg. 42, Nr. 71, 24.03.1897, 1. Beilage, S. [1]</a>,
+                           Nachruf, in: <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=neu&amp;datum=18970326&amp;ref=anno-search&amp;seite=7">Die Neuzeit, Jg. 37, Nr. 13, 26.03.1897, S. 133</a>.</span>
+                        </div>
+                     
+                     <div id="content-d1e00005-13">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Hans Paumgartner</h2>
+                        
+                        <p id="d10e692">*10.01.1844 Micheldorf/OÖ, †23.05.1896 Wien</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/paumgartner-hans.jpg" /></div>
+                        
+                        <p id="d10e701">Pianist, Komponist, Musikschriftsteller. Bis 1880 als Jurist tätig, widmete
+                           er sich nach einem erfolgreichen Debüt als Pianist unter Felix Mottl im
+                           November 1879 ganz der Musik, u. a. als Sologesang-Korrepetitor an der
+                           Wiener Hofoper. Ab 1880 Musikreferent der <span class="italic">Wiener
+                              Zeitung</span>, wobei er diese Tätigkeit in den letzten Monaten aufgrund
+                           seiner Krankheit aufgeben musste (vgl. Neue Freie Presse, 23.05.1896, S. 3). </p>
+                        
+                        <p id="d10e707">Paumgartner zählte sowohl Bruckner als auch Brahms zu seinem Freundeskreis
+                           und war gleichzeitig Vorkämpfer für Richard Wagner und Hugo Wolf in Wien.
+                           Geschätzt als Kammermusiker und Klavierbegleiter. Zeitweise verheiratet mit
+                           der Sängerin Rosa Papier (1858–1932), Vater des Dirigenten, Musikforschers,
+                           Komponisten und Herausgebers Bernhard Paumgartner (1887–1971). </p>
+                        
+                        <p id="d10e710">Die <span class="italic">Wiener Abendpost</span> vom 23. Mai 1896 über sein
+                           musikkritisches Wirken: <span class="italic">„Als Musik-Kritiker unseres
+                              Blattes, dessen Verbande er seit 15 Jahren angehörte, hat er den Lesern
+                              stets willkommene, eben so sachkundige als lebendige Beurtheilungen
+                              aller auf dem Musik-Gebiete wichtigen Erscheinungen geboten.“</span></p>
+                        
+                        <p id="d10e718">Ausschnitte aus Robert Hirschfelds Nachruf in der <span class="italic">Presse</span> vom 24.05.1896:</p>
+                        
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/" /></div>
+                        
+                        <p id="d10e733">sowie als Fazit und Schlusswort:</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/" /></div>
+                        
+                        <p id="d10e743">Kürzel: dr. h. p.</p>
+                        <span class="bibl">Quellen: Eva Maria Hois, Art. „Paumgartner, Familie‟, in:
+                           Oesterreichisches Musiklexikon online, Zugriff: 8.4.2021; Höslinger,
+                           Clemens: „Kontroversen um Brahms, Richter und Bruckner. Zu den frühen
+                           (anonymen) Musikkritiken Hans Paumgartners (1880-1882)“, in: Anton Bruckners
+                           Wiener Jahre: Analysen – Fakten – Perspektiven (Wiener Bruckner-Studien, Bd.
+                           1), hrsg. von Renate Grasberger, Elisabeth Maier und Erich Wolfgang Partsch,
+                           2009, S. 129-143. Todesanzeige, in: <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=nfp&amp;datum=18960523&amp;query=%22paumgartner%22&amp;ref=anno-search&amp;seite=21">Neue Freie Presse, Abendblatt, Nr. 11404, 23.05.1896, S. 3</a>,
+                           Nachruf, in: <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18960523&amp;seite=16&amp;zoom=61&amp;query=%22paumgartner%22&amp;ref=anno-search">Wiener Abendpost, Beilage zur Wiener Zeitung, Nr. 119, 23.05.1896, S.
+                              2</a>, Hirschfeld, Robert: „Dr. Hans Paumgartner †“, in: <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960524&amp;query=%22paumgartner%22&amp;ref=anno-search&amp;seite=5">Die Presse, Morgenausgabe, Jg. 49, Nr. 143, 24.05.1896, S.
+                              5</a>.</span>
+                        </div>
+                     
+                     <div id="content-d1e00005-14">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Hans Puchstein</h2>
+                        
+                        <p id="d10e762">*1865 im Pommerschen, †30.01.1937 Wien</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/" /></div>
+                        
+                        <p id="d10e771">Studium der Germanistik an der Universität Wien sowie Besuch der Vorlesungen
+                           Anton Bruckners. Widmete sich der Journalistik und trat dem <a target="_blank" href="https://anno.onb.ac.at/cgi-content/anno?aid=knz&amp;datum=19370202&amp;ref=anno-search&amp;seite=4"><span class="italic">Kärntner Tagblatt</span>, 02.02.1937, S. 4</a>
+                           zufolge 1890 als Schriftleiter bei der neugegründeten Wiener Tageszeitung
+                           <span class="italic">Deutsches Volksblatt</span> (sogenanntes „Vergani-Blatt“) ein. Weiters heißt es:
+                           <span class="italic">„Nach dem Übertritt des bisherigen Chefredakteurs Patzelt, seines Schwagers,
+                              in den Lehrberuf, übernahm Puchstein die redaktionelle Leitung des Blattes,
+                              bis dieses mehrere Jahre nach dem Ableben seines Gründers in den
+                              Umsturzjahren in andere Hände überging, um bald darauf (1922) eingestellt zu
+                              werden.“</span></p>
+                        
+                        <p id="d10e784">Nach dem Ersten Weltkrieg trat Puchstein in die Presseabteilung der ersten
+                           burgenländischen Landesregierung ein und wurde später Kanzleidirektor des
+                           burgenländischen Landtages. Ab 1928 gehörte er dem Redaktionsstab der <span class="italic">Wiener
+                              Zeitung</span> an. Puchstein war zudem Präsident der <span class="italic">Deutsch-österreichischen
+                              Schriftstellergenossenschaft.</span> </p>
+                        
+                        <p id="d10e794"></p>
+                        
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/" /></div>
+                        
+                        <p id="d10e805"></p>
+                        
+                        <p id="d10e807">Das <span class="italic">Kärntner Tagblatt</span> vom 2. Februar 1937 streicht in seinem Nachruf auf
+                           Puchstein besonders dessen deutsche Herkunft und Gesinnung hervor: </p>
+                        
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/" /></div>
+                        
+                        <p id="d10e823">Ein Bruder, Dr. Ernst Puchstein, war langjähriger deutscher Vizekonsul in
+                           Wien, Puchsteins Sohn war der Schauspieler Fritz Puchstein. In der Forschung
+                           des Öfteren verwechselt mit Hans Paumgartner („dr. h. p.“). </p>
+                        <span class="bibl">Quellen: Der Wiener Tag, 31. Jänner 1937, S. 10; Kleine Volks-Zeitung, 31.
+                           Jänner 1937, S. 9; Gräflinger, Franz: „Vier unveröffentlichte Briefe Anton
+                           Bruckners. Aus dem Kampf des Meisters um die Anerkennung der Welt„, in:
+                           Neues Wiener Tagblatt, 29. Jänner 1939, S. 14, Nachruf, in: Die Stunde, Jg.
+                           15, Nr. 4168, 31.01.1937, S. 3, Nachruf, in: Kärntner Tagblatt, Jg. 44, Nr.
+                           26, 02.02.1937, S. 4. </span>
+                        </div>
+                     
+                     <div id="content-d1e00005-15">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Eduard Schelle</h2>
+                        
+                        <p id="d10e832">*31.05.1816 Biesenthal, Brandenburg, †16.11.1882 Wien</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/" /></div>
+                        
+                        <p id="d10e841">Musikkritiker und Musikschriftsteller. Sohn eines Pastors, Unterricht in
+                           Klavier, Orgel und Harmonielehre. Studienabschluss in Theologie, zugleich
+                           Kompositionsunterricht bei Adolph Bernhard Marx, verließ Deutschland
+                           aufgrund der politischen Unruhen 1848, lebte bis 1856 als Erzieher bei
+                           adeligen Familien in Russland und widmete sich danach musikgeschichtlichen
+                           Studien (insbesondere über die Sixtinische Kapelle) in Paris, verschiedenen
+                           italienischen Städten sowie München. Mit seiner Schrift über die Pariser
+                           „Tannhäuser“-Aufführung 1861, „Der Tannhäuser in Paris oder Der dritte
+                           musikalische Krieg“, in der er für Wagner Partei ergriff, begann seine
+                           ausgedehnte musikschriftstellerische Tätigkeit, die neben Aufsätzen zur
+                           Musikgeschichte das musikalische Gegenwartsschaffen umfasste, speziell jenes
+                           der Oper. Veröffentlichungen u. a. in der <span class="italic">Neuen
+                              Zeitschrift für Musik</span>, den <span class="italic">Signalen für die
+                              musikalische Welt</span>, im <span class="italic">Concordia-Kalender</span>,
+                           der <span class="italic">Oesterreichischen National-Revue</span> sowie „Wiener
+                           Componisten“ (in mehreren Folgen). </p>
+                        
+                        <p id="d10e856">1864 erhielt Schelle einen Ruf nach Wien, um in der Nachfolge Hanslicks das
+                           Musikreferat der Wiener Tageszeitung <span class="italic">Die Presse</span> zu
+                           übernehmen, welches er bis zu seinem Tod erfolgreich leiten sollte. Ab 1878
+                           Professor für Musikgeschichte am Konservatorium der Musikfreunde in Wien,
+                           fungierte 1873 als Experte der österreichischen Regierung für die Gruppe der
+                           Musikinstrumente auf der Wiener Weltausstellung, Mitglied des Journalisten-
+                           und Schriftstellerverbandes „Concordia“. Schelle war mit fast allen
+                           Persönlichkeiten des Musiklebens seiner Zeit bekannt und vertraut. Er war
+                           nicht zuletzt aufgrund seiner ausgezeichneten musikwissenschaftlichen
+                           Kenntnisse sowie seiner unparteiischen Urteilsweise als Musikkritiker
+                           hochgeschätzt. </p>
+                        <span class="bibl">Quellen: Fuchs, Ingrid: „<a target="_blank" href="https://www.biographien.ac.at/oebl/oebl_S/Schelle_Eduard_1814_1882.xml">Schelle, (Karl) Eduard (1814-1882), Musikschriftsteller und
+                              Musikkritiker</a>“, in: Österreichisches Biographisches Lexikon und
+                           biographische Dokumentation, Zugriff: 16.4.2021; Alexander Rausch, Art.
+                           „Schelle, Karl Eduard‟, in: Oesterreichisches Musiklexikon online, Zugriff:
+                           16.4.2021.</span>
+                        </div>
+                     
+                     <div id="content-d1e00005-16">
+                        
+                        <h2 style="margin:1em auto;text-align:center;">Josef Scheu</h2>
+                        
+                        <p id="d10e874">*15.09.1841 Wien, †12.10.1904 Wien</p>
+                        
+                        <div style="padding:1em;margin: 0 auto;text-align:center;"><img src="images/rezensenten/scheu-josef.jpg" /></div>
+                        
+                        <p id="d10e883">Chorsänger im Theater an der Wien, Musikstudium am Konservatorium der Stadt
+                           Wien, 1865 Hornist am Burgtheater.</p>
+                        
+                        <p id="d10e885">Auch als Komponist erfolgreich, besondere Popularität erreichte sein 1868
+                           uraufgeführtes „Lied der Arbeit“. 1878 Gründung und Leitung des
+                           Arbeiter-Sängerbundes Wien. 1890 Mitbegründer und Chorleiter der „Freien
+                           Typographie“. Da er auch Frauen die Mitwirkung ermöglichte, schuf er damit
+                           den ersten gemischten Arbeiterchor. </p>
+                        
+                        <p id="d10e888">1872 Gründung des „Wiener Musikerbunds“, der ersten Interessenvertretung für
+                           Musiker, dessen behördliche Auflösung bereits 1873 erfolgte. Wegen seiner
+                           gewerkschaftlichen und politischen Tätigkeiten vom Burgtheater 1881
+                           zwangspensioniert und von der Polizei verhaftet.</p>
+                        
+                        <p id="d10e890">Ab 1895 Musikkritiker für die <span class="italic">Arbeiter-Zeitung</span>.</p>
+                        <span class="bibl">Quellen: Fuchs, Ingrid: „<a target="_blank" href="https://www.biographien.ac.at/oebl_10/97.pdf">Scheu, Josef Franz
+                              Georg</a>“, in: Österreichisches Biographisches Lexikon 1815–1950
+                           (ÖBL), Bd. 10, Wien 1994, S. 97 f. </span>
+                        </div>
+                     </div>
+                  </div>
+            </div>
+         </div>
+         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
+            <div class="container" id="footer-full-content" tabindex="-1">
+               <div class="footer-separator">
+                  Kontakt
+                  </div>
+               <div class="row">
+                  <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6  ml-auto  text-center ">
+                     <div class="textwidget custom-html-widget"><a href="https://oeaw.ac.at/acdh"><img src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" class="image" alt="ACDH Logo" style="max-width: 100%; height: auto;" title="ACDH Logo" /></a></div>
+                  </div>
+                  <div class="footer-widget col-lg-4 col-md-3 col-sm-3">
+                     <div class="textwidget custom-html-widget">
+                        <p>
+                           ACDH-CH OEAW
+                           <br />
+                           ACDH-CH Austrian Centre for Digital Humanities and Cultural Heritage
+                           <br />
+                           Abteilung Musikwissenschaft
+                           <br /><br />
+                           Austrian Academy of Sciences
+                           </p>
+                        <p>
+                           Vordere Zollamtsstr. 3
+                           <br />
+                           1030 Wien
+                           </p>
+                        <p>
+                           T: +43 1 51581-2200
+                           <br />
+                           E: <a href="mailto:acdh@oeaw.ac.at">acdh-ch@oeaw.ac.at</a></p>
+                     </div>
+                  </div>
+                  <div class="footer-widget col-lg-4 col-md-3 col-sm-4">
+                     <h6 class="font-weight-bold">Projektpartner</h6>
+                     <div class="container" style="margin-top: 2em;">
+                        <div class="row">
+                           <div class="col-lg-6 col-md-6 col-sm-12">
+                              <div class="flex-md-row mb-4 align-items-center"><a href="https://www.oeaw.ac.at/"><img class="card-img-right flex-auto d-md-block" src="images/oeawlogo.png" alt="OEAW Logo" style="max-width: 140px; height: auto;" title="OEAW Logo" /></a></div>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-sm-12">
+                              <div class="flex-md-row mb-4 align-items-center"><a href="https://www.wien.gv.at/"><img class="card-img-right flex-auto d-md-block" src="images/wienlogo-768x311.png" alt="Stadt Wien Logo" style="max-width: 140px; height: auto;" title="Stadt Wien Logo" /></a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto">
+                     <div class="row">
+                        <div class="textwidget custom-html-widget">
+                           <h6 class="font-weight-bold">HELPDESK</h6>
+                           <p>ACDH-CH stellt einen Helpdesk zu Verfügung der bei Fragen zu Themen der Digitalen
+                              Geistenwissenschaften Auskunft bietet.</p>
+                           <p><a class="helpdesk-button" href="mailto:acdh-helpdesk@oeaw.ac.at">ASK US!</a></p>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto" style="margin-left:0 !important;">
+                           <div class="textwidget custom-html-widget">
+                              <p style="margin-bottom:0 !important;">Social: </p>
+                           </div>
+                           <div class="row">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/acdh-oeaw/brahms_static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;">
+            © Copyright OEAW | <a href="imprint.html">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script></div><script type="text/javascript">
+                    $(document).on('click', 'a[href^="#"]', function (event) {
+                        event.preventDefault();
+                    
+                    $('html, body').animate({
+                            scrollTop: $($.attr(this, 'href')).offset().top
+                        }, 500);
+                    });
+                </script></body>
+</html>
