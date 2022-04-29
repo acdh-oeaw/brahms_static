@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Zeitungen-allgemein</title>
+                <title level="m">Brahms Rezeption</title>
+                <author>
+                    <persName xml:id="VP">Vasiliki Papadopoulou</persName>
+                </author>
+                <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der
+                    Stadt Wien</funder>
+                <respStmt>
+                    <resp>Automatische Konvertierung nach TEI P5</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-04-13</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for
+                    Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+                <pubPlace>Wien</pubPlace>
+                <idno type="Brahms_Rezeption">d1e00003</idno>
+                <date when-iso="2022-04"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                        4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Einleitung, Richtlinien und Methodik</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#cg" status="created">Erstellt und geprüft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="content-d1e00003">
+                <div xml:lang="de">
+                    <head>Zeitungen</head>
+                    <p>Um ein möglichst umfassendes Bild der Brahms-Rezeption zu erhalten, steht bei
+                        diesem Projekt die Auswertung von Wiener Zeitungen unterschiedlicher
+                        politisch-sozialer Ausrichtungen im Fokus. Der untersuchte Zeitraum umfasst
+                        die Jahre 1862 bis 1902, in Ausnahmefällen (<hi rend="italic">Blätter für Musik</hi>, <hi rend="italic">Theater und
+                        Kunst</hi>, <hi rend="italic">Neue Wiener Musik-Zeitung</hi>, <hi rend="italic">Die Presse</hi>) wurde dieser Zeitraum
+                        ausgeweitet.</p>
+                    <p>Auf Basis der öffentlich zugänglichen Daten der Österreichischen
+                        Nationalbibliothek (<ref target="https://anno.onb.ac.at/">ANNO</ref>) konnten bis dato folgende Medien ausgewertet
+                        werden:</p>
+                    <list>
+                        <item><ref target="https://brahmsonline.acdh-dev.oeaw.ac.at/zeitungen/#arbeiter-zeitung">Arbeiter-Zeitung</ref> (Jg. 1889–1902)</item>
+                        <item><ref target="https://brahmsonline.acdh-dev.oeaw.ac.at/zeitungen/#blätter-für-musik">Blätter für Musik, Theater und Kunst</ref> (Jg. 1855–1873)</item>
+                        <item><ref target="https://brahmsonline.acdh-dev.oeaw.ac.at/zeitungen/#deutsches-volksblatt">Deutsches Volksblatt</ref> (Jg. 1889–1902)</item>
+                        <item><ref target="https://brahmsonline.acdh-dev.oeaw.ac.at/zeitungen/#neues-fremden-blatt">Neues Fremden-Blatt</ref> (Jg. 1865–1876)</item>
+                        <item><ref target="https://anno.onb.ac.at/info/nwm_info.html">Neue Wiener Musik-Zeitung</ref> (Jg. 1852–1860)</item>
+                        <item><ref target="https://brahmsonline.acdh-dev.oeaw.ac.at/zeitungen/#neues-wiener-tagblatt">Neues Wiener Tagblatt</ref> (Jg. 1883–1902)</item>
+                        <item><ref target="https://brahmsonline.acdh-dev.oeaw.ac.at/zeitungen/#die-presse">Presse</ref> (Jg. 1858–1896)</item>
+                        <item><ref target="https://brahmsonline.acdh-dev.oeaw.ac.at/zeitungen/#reichspost">Reichspost</ref> (Jg. 1893–1902)</item>
+                        <item><ref target="https://brahmsonline.acdh-dev.oeaw.ac.at/zeitungen/#vaterland">Vaterland</ref> (Jg. 1862–1902)</item>
+                        <item><ref target="https://brahmsonline.acdh-dev.oeaw.ac.at/zeitungen/#wiener-zeitung">Wiener Zeitung</ref> (Jg. 1853–1902)</item>
+                    </list>
+                    <p>In den Klammern sind jene Jahrgänge angeführt, die zur Zeit der Bearbeitung
+                        auf ANNO möglichst vollständig verfügbar vorlagen. Vereinzelt fehlende
+                        Ausgaben wurden intern vermerkt und sollen sukzessive ergänzt werden. Im
+                        Fall des <hi rend="italic">Neuen Wiener Tagblatts</hi> war ein größerer Zeitraum betroffen, weshalb
+                        die Auswertung der kompletten Jahrgänge 1867–1882 einem späteren Zeitpunkt
+                        vorbehalten werden muss.</p>
+                    
+                    <xi:include href="03-01-zeitungen-detail.xml" xpointer="content-d1e00004" parse="xml"/>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Über das Projekt</title>
+                <title level="m">Brahms Rezeption</title>
+                <author>
+                    <persName xml:id="VP">Vasiliki Papadopoulou</persName>
+                </author>
+                <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der
+                    Stadt Wien</funder>
+                <respStmt>
+                    <resp>Automatische Konvertierung nach TEI P5</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-04-13</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for
+                    Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+                <pubPlace>Wien</pubPlace>
+                <idno type="Brahms_Rezeption">d1e00001</idno>
+                <date when-iso="2022-04"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                        4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Einleitung, Richtlinien und Methodik</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#cg" status="created">Erstellt und geprüft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="content-d1e00001">
+                <div xml:lang="de">
+                    <head>Über das Projekt</head>
+                    <p>Mit 1. Dezember 2011 wurde an der <ref target="https://www.oeaw.ac.at/"
+                            >Österreichischen Akademie der Wissenschaften</ref> (ÖAW) eine
+                        Arbeitsstelle der <hi rend="italic">Johannes Brahms Gesamtausgabe</hi> (JBG)
+                        als Kooperationspartnerin des gleichnamigen Forschungszentrums am <hi
+                            rend="italic"><ref target="http://www.brahmsausgabe.uni-kiel.de/"
+                                >Musikwissenschaftlichen Institut der
+                                Christian-Albrechts-Universität</ref></hi> (CAU) zu Kiel
+                        eingerichtet. Neben der Mitarbeit an der historisch-kritischen Neuausgabe
+                        des kompositorischen Gesamtwerkes von Johannes Brahms (1833–1897) bildet für
+                        die Wiener Arbeitsstelle die Auswertung der Brahms-Rezeption in der Wiener
+                        Presse im Zeitraum von 1862 (Brahms’ erstem Auftreten in Wien) bis 1902
+                        (fünf Jahre nach seinem Tod) einen wichtigen Forschungsschwerpunkt.</p>
+                    <p>Konzipiert wurde das Rezeptionsprojekt in Kiel für die Erfassung von vier
+                        deutschen Musikzeitschriften: <hi rend="italic">Allgemeine Deutsche
+                            Musik-Zeitung</hi>, Berlin (Jg. 1874–1902), <hi rend="italic">Allgemeine
+                            musikalische Zeitung</hi>, Leipzig (Jg. 1863–1882), <hi rend="italic"
+                            >Neue Zeitschrift für Musik</hi>, Leipzig (Jg. 1853–1902) und <hi
+                            rend="italic">Signale für die musikalische Welt</hi>, Leipzig (Jg.
+                        1853–1902). Dies sollte den Kapiteln zur Aufführung und Rezeption in den
+                        einzelnen Bänden der JBG dienen. Gefördert wurde das Projekt zunächst durch
+                        die Peter Klöckner-Stiftung sowie zum Schluss durch die Alfried Krupp von
+                        Bohlen und Halbach-Stiftung (Herbst 1996 – Frühjahr 2003).</p>
+                    <p>Seit 2016 wird ein Projekt von der Stadt Wien finanziert, das sich der Wiener
+                        Brahms-Rezeption widmet. Bislang wurden zehn Wiener Printmedien ausgewertet,
+                        woraus über 13.800 Datensätze generiert werden konnten. Ziel ist die
+                        Präsentation der Daten, um einen möglichst umfassenden und realistischen
+                        Einblick in jene Zeit zu gewähren, in der Brahms gelebt und gewirkt hat.
+                        Unter dem Menüpunkt „Suche“ können Sie diese Daten sortiert nach
+                        Aufführungen, Werken oder mitwirkenden Personen &amp; Institutionen
+                        abfragen.</p>
+                    <closer>(Stand: März 2022)</closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

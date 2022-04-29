@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Brahms in Wien</title>
+                <title level="m">Brahms Rezeption</title>
+                <author>
+                    <persName xml:id="VP">Vasiliki Papadopoulou</persName>
+                </author>
+                <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der
+                    Stadt Wien</funder>
+                <respStmt>
+                    <resp>Automatische Konvertierung nach TEI P5</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-04-13</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for
+                    Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+                <pubPlace>Wien</pubPlace>
+                <idno type="Brahms_Rezeption">d1e00006</idno>
+                <date when-iso="2022-04"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                        4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Einleitung, Richtlinien und Methodik</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#cg" status="created">Erstellt und geprüft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="content-d1e00006">
+                <div xml:lang="de">
+                    <head>Brahms in Wien</head>
+                    <p>Johannes Brahms zog 1862 nach Wien, wo er zwei seiner seltenen
+                        Anstellungsverhältnisse einging:</p>
+                    <list>
+                        <item>1863–1864 Chormeister der Wiener Singakademie</item>
+                        <item>1873–1875 Leitung des Wiener Singvereins</item>
+                    </list>
+                    <figure>
+                        <graphic url="images/brahms-in-wien-1.jpg"/>
+                        <head>Brahms‘ Wohn- und Sterbehaus, Karlsgasse 2 und 4, um 1904 © ÖNB /
+                            Stauda</head>
+                    </figure>
+                    <p>Seit 27. Dezember 1871 dauerhaft in Wien ansässig (Karlsgasse 4), begann sich
+                        im Laufe der Jahre seine Rolle im Musikleben merklich zu verändern. Anfangs
+                        primär als ausübender Künstler (Pianist, Dirigent) wahrgenommen, der
+                        nebenbei auch komponierte, wurde er immer mehr zu einem der „hiesigen“
+                        Tondichter, der im Wiener Musikleben eine wichtige Rolle innehatte.
+                        Insbesondere durch seine enge Verbindung zur Gesellschaft der Musikfreunde
+                        etablierte sich Brahms als bedeutender Faktor im Musikleben seiner Zeit, war
+                        etwa gefragtes Jurymitglied bei Bewerben, vertrat Österreich in Kommissionen
+                        und wurde in die Vorstände diverser Institutionen gewählt. </p>
+                    <p>Spätestens mit der Verleihung des „Österreichischen Ehrenzeichens für Kunst
+                        und Wissenschaft“ durch Kaiser Franz Joseph I. am 3. Mai 1896 war Brahms
+                        endgültig als „Wiener“ akzeptiert. Wie prominent Brahms tatsächlich war,
+                        zeigte sich aber – typisch für Wien – vor allem nach seinem Tod. Ohne große
+                        Formalitäten bewilligte die Stadt Wien dem aus Hamburg zugezogenen
+                        Komponisten ein Ehrengrab am Zentralfriedhof. Vergleichsweise rasch erhielt
+                        Brahms auch ein sichtbares Zeichen der Erinnerung und Wertschätzung im
+                        Wiener Stadtbild: Bereits 1908 konnte ein von Rudolf Weyr gestaltetes
+                        Denkmal im Resselpark am Karlsplatz enthüllt werden. </p>
+                    <p>Die <hi rend="italic">Deutsche Volkszeitung</hi> war unter den ersten Medien,
+                        die ihrer Leserschaft den Entwurf Weyrs im Detail vorstellte:</p>
+                    <figure>
+                        <graphic url="images/brahms-in-wien-2.jpg"/>
+                        <head>© <ref
+                                target="https://anno.onb.ac.at/cgi-content/anno?aid=dvb&amp;datum=19021106&amp;seite=13&amp;zoom=33"
+                                >Deutsches Volksblatt</ref>, 06.11.1902, S. 13, ANNO/ÖNB</head>
+                    </figure>
+                    <p>Ein wesentlicher Faktor in der Brahms-Rezeption war jedoch nicht zuletzt
+                        seine Freundschaft zu zwei der einflussreichsten Musikkritikern seiner Zeit:
+                        Eduard Hanslick und Max Kalbeck.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

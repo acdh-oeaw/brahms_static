@@ -738,6 +738,10 @@ li {
     margin-top: .5em;
 }
 
+ul {
+    list-style: none;
+}
+
 /* XML raw style */
 .tnc {
     color: brown;

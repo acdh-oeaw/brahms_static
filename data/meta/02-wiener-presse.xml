@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Wiener Presse</title>
+                <title level="m">Brahms Rezeption</title>
+                <author>
+                    <persName xml:id="VP">Vasiliki Papadopoulou</persName>
+                </author>
+                <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der
+                    Stadt Wien</funder>
+                <respStmt>
+                    <resp>Automatische Konvertierung nach TEI P5</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-04-13</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for
+                    Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+                <pubPlace>Wien</pubPlace>
+                <idno type="Brahms_Rezeption">d1e00001</idno>
+                <date when-iso="2022-04"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                        4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Einleitung, Richtlinien und Methodik</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#cg" status="created">Erstellt und geprüft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="content-d1e00001">
+                <div xml:lang="de">
+                    <head>Wiener Presse</head>
+                    <p>Die Wiener (Musik-)Presse war im 19. Jahrhundert sehr mächtig. Heute lässt
+                        sich die Wirkung, die einst von diesen Musikkritiken ausgegangen ist, kaum
+                        mehr nachvollziehen, doch Komponisten und Interpreten fürchteten die
+                        kritischen Federn eines Eduard Hanslick, Robert Hirsch, Hans Puchstein oder
+                        Max Kalbeck. Sie bildeten das Urteil ihrer Zeitgenossen, sie entschieden oft
+                        über Triumph oder Durchfall eines Werks oder eines Künstlers. Diese
+                        unbestrittene Macht sollte erst gegen Ende des 19. Jahrhunderts langsam
+                        verblassen (Ausnahme: Julius Korngold).</p>
+                    <p>Brahms selbst hatte zur Presse mit Sicherheit kein einfaches Verhältnis.
+                        Zeitlebens wurde er verfolgt von Robert Schumanns euphorischem Artikel „Neue
+                        Bahnen“, in welchem er gleichsam als Prophet angepriesen wird:</p>
+                    <p rend="quote">„Ich dachte, […] es würde und müsse […] einmal plötzlich Einer
+                        erscheinen, der den höchsten Ausdruck der Zeit in idealer Weise
+                        auszusprechen berufen wäre, einer, der uns die Meisterschaft nicht in
+                        stufenweiser Entfaltung brächte, sondern, wie Minerva, gleich vollkommen
+                        gepanzert aus dem Haupte des Kronion entspränge. Und er ist gekommen, ein
+                        junges Blut, an dessen Wiege Grazien und Helden Wache hielten. Er heißt
+                        Johannes Brahms“. Neue Zeitschrift für Musik Bd. 39, Nr. 18, 28. Oktober
+                        1853, S. 185–186</p>
+                    <p>Mit diesen gut gemeinten Vorschusslorbeeren hatte Schumann dem damals
+                        20-Jährigen ein schwieriges Vermächtnis beschert. Einerseits erregte ab
+                        diesem Zeitpunkt alles, was Brahms tat, die Aufmerksamkeit der Kritiker.
+                        Andererseits wurde ab da jedes neue Werk daran gemessen, ob es der
+                        Schumann’schen hymnischen Prophezeiung gerecht werde oder ob Brahms (in
+                        ihren Augen) wieder einmal gescheitert sei. Metaphern wie <hi rend="italic"
+                            >„der neue Johannes in der Tonwüste“</hi> (bezugnehmend auf die „herbe“,
+                        wenig sinnliche Tonsprache des gebürtigen Hamburgers) wurden zu Floskeln,
+                        die über Jahrzehnte in Variationen immer wiederkehren sollten.</p>
+                    <p>Wurde Brahms seit 1853 nicht mehr unbefangen beurteilt, so verschlimmerte
+                        sich diese Problematik in Wien. Hier geriet er mitten in den erbittert
+                        geführten Parteienstreit zwischen Wagnerianern und Konservativen, wobei
+                        letztere ihn für sich vereinnahmten. In späteren Jahren wurde Bruckner zu
+                        Brahms‘ Antipoden stilisiert – bzw. vice versa. Auf diese Weise sind
+                        Äußerungen dieser Zeit mit größter Vorsicht zu betrachten und kritisch zu
+                        hinterfragen.</p>
+                    <list>
+                        <item>Von wem stammt die jeweilige Äußerung?</item>
+                        <item>In welchem Medium wurde sie veröffentlicht?</item>
+                        <item>Welcher politisch-sozialen Richtung gehört dieses an, sprich: an
+                            welche Leserschaft richtet es sich?</item>
+                        <item>Was bezweckte die Meldung/Kritik? Wollte sie positiv oder negativ
+                            beeinflussen oder war sie um Objektivität bemüht?</item>
+                    </list>
+                    <p>Finden sich zu einer Veranstaltung mehrere Kritiken, ist es oft erstaunlich,
+                        wie unterschiedlich die einzelnen Rezensenten ein Ereignis beurteilten bzw.
+                        ihre Leserschaft in eine bestimmte Richtung beeinflussen wollten. Gerade
+                        durch eine Gegenüberstellung dieser gegensätzlichen Positionen erhöht sich
+                        die Wahrscheinlichkeit, abschätzen zu können, wie die unmittelbare
+                        Publikumsreaktion tatsächlich gewesen sein mag.</p>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

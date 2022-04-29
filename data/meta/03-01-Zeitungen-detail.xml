@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Zeitungen-detail</title>
+                <title level="m">Brahms Rezeption</title>
+                <author>
+                    <persName xml:id="VP">Vasiliki Papadopoulou</persName>
+                </author>
+                <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der
+                    Stadt Wien</funder>
+                <respStmt>
+                    <resp>Automatische Konvertierung nach TEI P5</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-04-13</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for
+                    Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+                <pubPlace>Wien</pubPlace>
+                <idno type="Brahms_Rezeption">d1e00004</idno>
+                <date when-iso="2022-04"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                        4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Einleitung, Richtlinien und Methodik</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#cg" status="created">Erstellt und geprüft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="content-d1e00004">
+                <div xml:lang="de">
+                    <head><ref target="https://anno.onb.ac.at/info/aze_info.htm">Arbeiter Zeitung</ref></head>
+                    <figure>
+                        <graphic url="images/zeitungen/arbeiter-zeitung.jpg"></graphic>
+                    </figure>
+                    <table>
+                        <row>
+                            <cell>Subtitel</cell>
+                            <cell>Organ der österreichischen Sozialdemokratie</cell>
+                        </row>
+                        <row>
+                            <cell>Laufzeit</cell>
+                            <cell>1889 bis 1985, 1. Ausgabe: 12. Juli 1889</cell>
+                        </row>
+                        <row>
+                            <cell>Gründer</cell>
+                            <cell>Julius Popp, Ludwig August Bretschneider, Rudolf Pokorny</cell>
+                        </row>
+                        <row>
+                            <cell>Rezensenten</cell>
+                            <cell>Josef Scheu (1895–1904)</cell>
+                        </row>
+                    </table>
+                </div>
+                <div xml:lang="de">
+                    <head><ref target="https://anno.onb.ac.at/info/mtk_info.htm">Blätter für Musik, Theater und Kunst</ref></head>
+                    <figure>
+                        <graphic url="images/zeitungen/blatter-fur-musik.jpg"></graphic>
+                    </figure>
+                    <table>
+                        <row>
+                            <cell>Subtitel</cell>
+                            <cell>Österreichische Wochenzeitung zum Thema Kunst</cell>
+                        </row>
+                        <row>
+                            <cell>Laufzeit</cell>
+                            <cell>1855-1873, 1. Ausgabe: 2. Februar 1855</cell>
+                        </row>
+                        <row>
+                            <cell>Gründer</cell>
+                            <cell>Leopold Alexander Zellner</cell>
+                        </row>
+                        <row>
+                            <cell>wechselnde Titel</cell>
+                            <cell><hi rend="italic">Blätter für Musik, Theater und Kunst</hi> (1855–1860), <hi rend="italic">Blätter für Theater, Musik und Kunst</hi> (1861–1865), <hi rend="italic">Zellner’s Blätter für Theater, Musik und bildende Kunst</hi> (1866–1869), <hi rend="italic">Blätter für Theater, Musik und Kunst</hi> (1869–1874)</cell>
+                        </row>
+                        <row>
+                            <cell>Rezensenten</cell>
+                            <cell>Leopold Alexander Zellner, Ludwig Oppenheimer</cell>
+                        </row>
+                    </table>
+                </div>
+                <div xml:lang="de">
+                    <head><ref target="https://anno.onb.ac.at/info/dvb_info.htm">Deutsches Volksblatt</ref></head>
+                    <figure>
+                        <graphic url="images/zeitungen/deutsches-volksblatt.jpg"></graphic>
+                    </figure>
+                    <table>
+                        <row>
+                            <cell>Subtitel</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>Laufzeit</cell>
+                            <cell>1889–1922</cell>
+                        </row>
+                        <row>
+                            <cell>Gründer</cell>
+                            <cell>Ernst Vergani</cell>
+                        </row>
+                        <row>
+                            <cell>Politische Verortung</cell>
+                            <cell>Deutschnationale und antisemitische Tageszeitung Österreichs, trat für Christlichsoziale ein, befürwortete Bündnis mit deutschem Reich</cell>
+                        </row>
+                        <row>
+                            <cell>Rezensenten</cell>
+                            <cell>August Göllerich, Hans Puchstein, Camillo Horn</cell>
+                        </row>
+                    </table>
+                </div>       
+                <div xml:lang="de">
+                    <head><ref target="https://anno.onb.ac.at/info/nfb_info.htm">Neues Fremden-Blatt</ref></head>
+                    <figure>
+                        <graphic url="images/zeitungen/neues-fremden-blatt.jpg"></graphic>
+                    </figure>
+                    <table>
+                        <row>
+                            <cell>Subtitel</cell>
+                            <cell>Österreichische Tageszeitung</cell>
+                        </row>
+                        <row>
+                            <cell>Laufzeit</cell>
+                            <cell>1865–1876, 1. Ausgabe: 14. Mai 1865</cell>
+                        </row>
+                        <row>
+                            <cell>Gründer</cell>
+                            <cell>Isidor Heller, Wilhelm Wiener</cell>
+                        </row>
+                        <row>
+                            <cell>Rezensenten</cell>
+                            <cell>Ludwig Benedikt Hahn</cell>
+                        </row>
+                    </table>
+                </div>    
+                <div xml:lang="de">
+                    <head><ref target="https://anno.onb.ac.at/info/nwm_info.html">Neue Wiener Musik-Zeitung</ref></head>
+                    <figure>
+                        <graphic url="images/zeitungen/neue-wiener-musikzeitung.jpg"></graphic>
+                    </figure>
+                    <table>
+                        <row>
+                            <cell>Subtitel</cell>
+                            <cell>Wöchentliche Musikzeitschrift</cell>
+                        </row>
+                        <row>
+                            <cell>Laufzeit</cell>
+                            <cell>1852–1860, 1. Ausgabe: 1. Jänner 1852</cell>
+                        </row>
+                        <row>
+                            <cell>Herausgeber</cell>
+                            <cell>Franz Glöggl</cell>
+                        </row>
+                        <row>
+                            <cell>Redaktion</cell>
+                            <cell>gestellt durch „Vereine theoretischer und praktischer Musiker“</cell>
+                        </row>
+                    </table>
+                </div> 
+                <div xml:lang="de">
+                    <head><ref target="https://anno.onb.ac.at/info/nwg_info.htm">Neues Wiener Tagblatt</ref></head>
+                    <figure>
+                        <graphic url="images/zeitungen/neues-wiener-tagblatt.jpg"></graphic>
+                    </figure>
+                    <table>
+                        <row>
+                            <cell>Subtitel</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>Laufzeit</cell>
+                            <cell>1867–1945, 1. Ausgabe: 10. März 1867</cell>
+                        </row>
+                        <row>
+                            <cell>Gründer</cell>
+                            <cell>Eduard Mayer</cell>
+                        </row>
+                        <row>
+                            <cell>Politische Verortung</cell>
+                            <cell>Deutschliberale und antimarxistische Tageszeitung</cell>
+                        </row>
+                        <row>
+                            <cell>Rezensent</cell>
+                            <cell>Wilhelm Frey (1873–1909)</cell>
+                        </row>
+                    </table>
+                </div>
+                <div xml:lang="de">
+                    <head><ref target="https://anno.onb.ac.at/info/apr_info.htm">Die Presse</ref></head>
+                    <figure>
+                        <graphic url="images/zeitungen/presse.jpg"></graphic>
+                    </figure>
+                    <table>
+                        <row>
+                            <cell>Subtitel</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>Laufzeit</cell>
+                            <cell>1848–1896, 1. Ausgabe: 3. Juli 1848</cell>
+                        </row>
+                        <row>
+                            <cell>Gründer</cell>
+                            <cell>August Zang</cell>
+                        </row>
+                        <row>
+                            <cell>Politische Verortung</cell>
+                            <cell>Tageszeitung, gemäßigt-konservativ, bürgerlich-liberal</cell>
+                        </row>
+                        <row>
+                            <cell>Rezensenten</cell>
+                            <cell>Eduard Hanslick (1855–1864), Eduard Schelle (1864–1882)</cell>
+                        </row>
+                    </table>
+                </div>
+                <div xml:lang="de">
+                    <head><ref target="https://anno.onb.ac.at/info/rpt_info.html">Reichspost</ref></head>
+                    <figure>
+                        <graphic url="images/zeitungen/reichspost.jpg"></graphic>
+                    </figure>
+                    <table>
+                        <row>
+                            <cell>Subtitel</cell>
+                            <cell>Unabhängiges Tagblatt für das christliche Volk Oesterreich-Ungarns</cell>
+                        </row>
+                        <row>
+                            <cell>Laufzeit</cell>
+                            <cell>1894–1938, 1. Ausgabe: 1. Jänner 1894</cell>
+                        </row>
+                        <row>
+                            <cell>Mitbegründer</cell>
+                            <cell>Friedrich X. von Dalberg</cell>
+                        </row>
+                        <row>
+                            <cell>Politische Verortung</cell>
+                            <cell>Katholische Tageszeitung</cell>
+                        </row>
+                        <row>
+                            <cell>Rezensent</cell>
+                            <cell>Fritz Gaigg von Bergheim</cell>
+                        </row>
+                    </table>
+                </div>
+                <div xml:lang="de">
+                    <head><ref target="https://anno.onb.ac.at/info/vtl_info.htm">Das Vaterland</ref></head>
+                    <figure>
+                        <graphic url="images/zeitungen/vaterland.jpg"></graphic>
+                    </figure>
+                    <table>
+                        <row>
+                            <cell>Subtitel</cell>
+                            <cell>Zeitung für die österreichische Monarchie</cell>
+                        </row>
+                        <row>
+                            <cell>Laufzeit</cell>
+                            <cell>1860–1911, 1. Ausgabe: 1. September 1860</cell>
+                        </row>
+                        <row>
+                            <cell>Politische Verortung</cell>
+                            <cell>Katholisch-aristokratische Tageszeitung</cell>
+                        </row>
+                        <row>
+                            <cell>Rezensent</cell>
+                            <cell>Eduard Kulke</cell>
+                        </row>
+                    </table>
+                </div>                
+                <div xml:lang="de">
+                    <head><ref target="https://anno.onb.ac.at/info/wrz_info.htm">Wiener Zeitung</ref></head>
+                    <figure>
+                        <graphic url="images/zeitungen/wiener-zeitung.jpg"></graphic>
+                    </figure>
+                    <table>
+                        <row>
+                            <cell>Subtitel</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>Laufzeit</cell>
+                            <cell>als „Wiennerisches Diarium“ seit 8. August 1703, Umbenennung in „Wiener Zeitung“ mit 1. Jänner 1780</cell>
+                        </row>
+                        <row>
+                            <cell>Gründer</cell>
+                            <cell></cell>
+                        </row>
+                        <row>
+                            <cell>Politische Verortung</cell>
+                            <cell>Österreichische Tageszeitung und Amtsblatt</cell>
+                        </row>
+                        <row>
+                            <cell>Rezensent</cell>
+                            <cell>August Wilhelm Ambros, Carl Debrois v. Bruyck, Ludwig Benedikt Hahn, Eduard Hanslick, Rudolf Hirsch, Robert Hirschfeld, Hans Paumgartner</cell>
+                        </row>
+                    </table>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
+
+
+
+

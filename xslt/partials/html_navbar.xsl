@@ -19,49 +19,49 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <!-- Your menu goes here -->
                         <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
-                            <!--<li class="nav-item dropdown">
+                            <li class="nav-item dropdown">
                                 <a title="Projekt" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Über das Projekt" href="https://brahmsonline.acdh-dev.oeaw.ac.at/uber-das-projekt/" class="nav-link">Über das Projekt</a>
+                                        <a title="Über das Projekt" href="01-ueber-das-projekt.html" class="nav-link">Über das Projekt</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Wiener Presse" href="https://brahmsonline.acdh-dev.oeaw.ac.at/wiener-presse/" class="nav-link">Wiener Presse</a>
+                                        <a title="Wiener Presse" href="02-wiener-presse.html" class="nav-link">Wiener Presse</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Zeitungen" href="https://brahmsonline.acdh-dev.oeaw.ac.at/zeitungen/" class="nav-link">Zeitungen</a>
+                                        <a title="Zeitungen" href="03-00-Zeitungen-allgemein.html" class="nav-link">Zeitungen</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Rezensenten" href="https://brahmsonline.acdh-dev.oeaw.ac.at/rezensenten/" class="nav-link">Rezensenten</a>
+                                        <a title="Rezensenten" href="04-rezensenten.html" class="nav-link">Rezensenten</a>
                                     </li>
                                 </ul>                                
-                            </li>-->
-                            <!--<li class="nav-item dropdown">
+                            </li>
+                            <li class="nav-item dropdown">
                                 <a title="Brahmś Wien" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Brahmś Wien <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Brahms in Wien" href="https://brahmsonline.acdh-dev.oeaw.ac.at/brahms-in-wien/" class="nav-link">Brahms in Wien</a>
+                                        <a title="Brahms in Wien" href="05-brahms-in-wien.html" class="nav-link">Brahms in Wien</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Auffuhrungsorte" href="https://brahmsonline.acdh-dev.oeaw.ac.at/auffuhrungsorte/" class="nav-link">Auffuhrungsorte</a>
+                                        <a title="Auffuhrungsorte" href="06-auffuehrungsorte.html" class="nav-link">Auffuhrungsorte</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Brahms-Interpret*innen" href="https://brahmsonline.acdh-dev.oeaw.ac.at/brahms-interpreten/" class="nav-link">Brahms-Interpret*innen</a>
+                                        <a title="Brahms-Interpret*innen" href="07-interpretinnen.html" class="nav-link">Brahms-Interpret*innen</a>
                                     </li>
                                 </ul>                                
-                            </li>-->
-                            <!--<li class="nav-item dropdown">
+                            </li>
+                            <li class="nav-item dropdown">
                                 <a title="Forschung" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Forschung <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Wiener Arbeitsstelle" href="https://brahmsonline.acdh-dev.oeaw.ac.at/wiener-arbeitsstelle/" class="nav-link">Wiener Arbeitsstelle</a>
+                                        <a title="Wiener Arbeitsstelle" href="03-01-Zeitungen-detail.html" class="nav-link">Wiener Arbeitsstelle</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Literatur" href="https://brahmsonline.acdh-dev.oeaw.ac.at/literatur/" class="nav-link">Literatur</a>
+                                        <a title="Literatur" href="08-literatur.html" class="nav-link">Literatur</a>
                                     </li>
                                 </ul>                                
-                            </li>--> 
-                            <!--<li class="nav-item dropdown">
+                            </li>
+                            <li class="nav-item dropdown">
                                 <a title="Datenbank" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Datenbank <span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
@@ -74,11 +74,11 @@
                                         <a title="Werke" href="toc.html" class="nav-link">Werke</a>
                                     </li>                                  
                                 </ul>                                
-                            </li>-->
-                            <li class="nav-item"><a title="Suche" href="index.html" class="nav-link">Suche</a></li>
+                            </li>
+                            <!--<li class="nav-item"><a title="Suche" href="index.html" class="nav-link">Suche</a></li>
                             <li class="nav-item"><a title="Personen" href="Personenregister-verkuerzt.html" class="nav-link">Personen</a></li>
                             <li class="nav-item"><a title="Werke" href="toc.html" class="nav-link">Werke</a></li>
-                            <li class="nav-item"><a title="Brahms-Online" href="https://brahmsonline.acdh-dev.oeaw.ac.at" class="nav-link">Brahms-Online</a></li>
+                            <li class="nav-item"><a title="Kontakt" href="09-kontakt.html" class="nav-link">Kontakt</a></li>-->
                         </ul>                        
                         <!--<form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search">
                             <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" />

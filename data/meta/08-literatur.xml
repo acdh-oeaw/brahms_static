@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Literatur</title>
+                <title level="m">Brahms Rezeption</title>
+                <author>
+                    <persName xml:id="VP">Vasiliki Papadopoulou</persName>
+                </author>
+                <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der
+                    Stadt Wien</funder>
+                <respStmt>
+                    <resp>Automatische Konvertierung nach TEI P5</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-04-13</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for
+                    Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+                <pubPlace>Wien</pubPlace>
+                <idno type="Brahms_Rezeption">d1e00009</idno>
+                <date when-iso="2022-04"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                        4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Einleitung, Richtlinien und Methodik</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#cg" status="created">Erstellt und geprüft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="content-d1e00009">
+                <div xml:lang="de" xml:id="content-d1e00009-1">
+                    <head>Literatur</head>
+                    <listBibl>
+                        <head>Grundlagen</head>
+                        <lb/><bibl><hi rend="bold">August Böhm Edlen von Böhmersheim:</hi> <hi rend="italic">Geschichte des Singvereines der Gesellschaft der Musikfreunde in Wien. Festschrift zum fünfzigjährigen Singvereins-Jubiläum</hi>, Wien 1908.</bibl>
+                        <lb/><bibl><hi rend="bold">Renate und Kurt Hofmann:</hi> <hi rend="italic">Johannes Brahms als Pianist und Dirigent. Chronologie seines Wirkens als Interpret</hi>, Tutzing 2006 (= <hi rend="italic">Veröffentlichungen des Archivs der Gesellschaft der Musikfreunde in Wien</hi>, Bd. 6).</bibl>
+                        <lb/><bibl><hi rend="bold">dies.:</hi> Johannes Brahms. <hi rend="italic">Zeittafel zu Leben und Werk</hi>, Tutzing 1983 (= <hi rend="italic">Publikationen des Instituts für Österreichische Musikdokumentation</hi>, Bd. 8).</bibl>
+                        <lb/><bibl><hi rend="bold">Margit L. McCorkle:</hi> <hi rend="italic">Johannes Brahms. Thematisch-bibliographisches Werkverzeichnis</hi>, München 1984.</bibl>
+                        <lb/><bibl><hi rend="bold">Richard von Perger, Robert Hirschfeld:</hi> <hi rend="italic">Geschichte der K. K. Gesellschaft der Musikfreunde in Wien, hrsg. von der Direktion der K. K. Gesellschaft der Musikfreunde in Wien</hi>, Wien 1912.</bibl>
+                        <lb/><bibl><hi rend="italic">Quartett Hellmesberger. Sämmtliche Programme vom 1. Quartett am 4. November 1849 bis zum 300. Quartett am 19. Dezember 1889 gesammelt und dem Begründer der Quartette Josef Hellmesberger sen. gewidmet von einem der ältesten Quartett-Besucher</hi> [o. O., um 1890].</bibl>
+                        <lb/><bibl><hi rend="italic">Das Rosé-Quartett. Fünfzig Jahre Kammermusik in Wien. Sämtliche Programme vom 1. Quartett am 22. Januar 1883 bis April 1932</hi> [o. O., um 1932].</bibl>
+                    </listBibl>
+                    <listBibl>
+                        <head>Weiterführende Literatur</head>
+                        <lb/><bibl><hi rend="bold">Sandra, McColl:</hi> <hi rend="italic">Music criticism in Vienna 1896 – 1897: Oxford monographs on music. Critically moving forms</hi>, Oxford u.a. 1996.</bibl>
+                        <lb/><bibl><hi rend="bold">Margaret Notley:</hi> <hi rend="italic">Lateness and Brahms: AMS studies in music. Music and culture in the twilight of Viennese liberalism</hi>, New York 2007.</bibl>
+                        <lb/><bibl><hi rend="bold">David Brodbeck:</hi> <hi rend="italic">Defining Deutschtum: The new cultural history of music. Political ideology, German identity, and music-critical discourse in liberal Vienna</hi>, New York 2014.</bibl>
+                    </listBibl>
+               </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main" level="a">Aufführungsorte</title>
+                <title level="m">Brahms Rezeption</title>
+                <author>
+                    <persName xml:id="VP">Vasiliki Papadopoulou</persName>
+                </author>
+                <funder>Magistratsabteilung 7 – Kultur, Wissenschafts- und Forschungsförderung der
+                    Stadt Wien</funder>
+                <respStmt>
+                    <resp>Automatische Konvertierung nach TEI P5</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Dokumentvorbereitung, Korrektur und weiterführendes Markup</resp>
+                    <name>Projektteam</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2022-04-13</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for
+                    Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
+                <pubPlace>Wien</pubPlace>
+                <idno type="Brahms_Rezeption">d1e00007</idno>
+                <date when-iso="2022-04"/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA
+                        4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Erstellt unter Berücksichtigung des bisherigen Forschungsstandes.</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Einleitung, Richtlinien und Methodik</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p/>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <listChange>
+                <change who="#cg" status="created">Erstellt und geprüft</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="content-d1e00007">
+                <div xml:lang="de" xml:id="content-d1e00007-1">
+                    <head>Aufführungsorte</head>
+                    <p>Johannes Brahms zog 1862 nach Wien, wo er zwei seiner seltenen
+                        Anstellungsverhältnisse einging:</p>
+                    <p>Wo konnten Künstler ihre Werke im Wien des 19. Jahrhunderts einem Publikum
+                        präsentieren? Bedeutende Aufführungsstätten für musikalische Darbietungen
+                        waren vor allem die <ref target="#content-d1e00007-2">Musikvereinssäle</ref>
+                        der Gesellschaft der Musikfreunde, die Salons <ref
+                            target="#content-d1e00007-3">Bösendorfer</ref>, <ref
+                            target="#content-d1e00007-4">Ehrbar</ref> und <ref
+                            target="#content-d1e00007-5">Streicher</ref>, für „volksbildende“
+                        Konzerte bevorzugt der Festsaal des <ref target="#content-d1e00007-6"
+                            >Österreichischen Ingenieur- und Architektenvereins</ref> sowie für
+                        populäre Konzerte <ref target="#content-d1e00007-7">Weigl’s Dreherpark</ref> in Meidling.</p>
+                </div>
+                <div xml:lang="de" xml:id="content-d1e00007-2">
+                    <head>Musikvereinssäle</head>
+                    <p>Adresse: Musikvereinsplatz 1, 1010 Wien</p>
+                    <p>Eröffnung: 1870</p>
+                    <p>Die 1812 gegründete „Gesellschaft der Musikfreunde“ eröffnete 1870 ein
+                        eigenes, von Stararchitekt Theophil Hansen errichtetes Gebäude, welches mit
+                        zwei Konzertsälen ein Novum in der Musikstadt Wien darstellte. </p>
+                    <p>Der <hi rend="bold">Große Musikvereinssaal</hi> (Goldener Saal):</p>
+                    <figure>
+                        <graphic url="images/orte/musikvereinssaal-gross.jpg"/>
+                        <head>Großer Musikvereinssaal © ÖNB</head>
+                    </figure>
+                    <p>Der <hi rend="bold">Kleine Musikvereinssaal</hi> (seit 1937
+                        „Brahms-Saal“):</p>
+                    <figure>
+                        <graphic url="images/orte/musikvereinssaal-klein.jpg"/>
+                        <head>Kleiner Musikvereinssaal © ÖNB</head>
+                    </figure>
+                </div>
+                <div xml:lang="de" xml:id="content-d1e00007-3">
+                    <head>Salon Bösendorfer</head>
+                    <p>Adresse: Herrengasse 6, 1010 Wien (Palais Liechtenstein) Eröffnung: 19.
+                        November 1872</p>
+                    <figure>
+                        <graphic url="images/orte/boesendorfer.jpg"/>
+                        <head>Palais Liechtenstein, Herrengasse 6, 1. Bezirk – Durchgang zum Salon
+                            Bösendorfer, 1913 © ÖNB / Lichtbildstelle</head>
+                    </figure>
+                    <p>Ludwig Bösendorfers Saal stellte bis zum Abbruch des Palais Liechtenstein
+                        1913 die akustisch wohl beste Aufführungsstätte für Kammermusik dar, die
+                        Wien zu bieten hatte. Ob Kammermusik oder Lieder- und Klavierabende, viele
+                        der auftretenden Künstler zählten zur Crème de la Crème der damaligen
+                        Konzertwelt, darunter Franz Liszt, Eugen d’Albert, Johannes Brahms, Anton
+                        Rubinstein, Pablo Sarasate, Emil Sauer, Ernst von Dohnányi, Alice Barbi,
+                        Anton Sistermans, Julius Epstein, das Hellmesberger- und das Rosé-Quartett
+                        u.v.m. Mit einem Konzert des Rosé-Quartetts endete schließlich am 9.
+                        November 1913 die ruhmreiche Geschichte des Bösendorfersaales, der in den 41
+                        Jahren seines Bestehens rund 4.500 Konzerten Raum geboten hatte. Eine
+                        Gedenktafel am Standort des ehemaligen Bösendorfersaales erinnert noch heute
+                        an den akustisch wohl bedeutendsten Konzertsaal, den die Stadt Wien jemals
+                        besessen hat. </p>
+                </div>
+                <div xml:lang="de" xml:id="content-d1e00007-4">
+                    <head>Salon Ehrbar</head>
+                    <p>Adresse: Mühlgasse 30, 1040 Wien</p>
+                    <p>Eröffnung: 1867</p>
+                    <p>Der Ehrbar-Saal wurde 1867 im Auftrag des Klavierfabrikanten Friedrich Ehrbar
+                        errichtet und ist noch heute weitestgehend im Originalzustand erhalten. Eine
+                        der prominentesten Künstler traten hier auf, wie etwa Johannes Brahms, Anton
+                        Bruckner, Max Reger, Pietro Mascagni, Josef Helmesberger, Ignaz Brüll,
+                        Joseph Joachim, Anton Rubinstein und Gustav Mahler.</p>
+                </div>
+                <div xml:lang="de" xml:id="content-d1e00007-5">
+                    <head>Salon Streicher</head>
+                    <p>Adresse: Ungargasse 27, 1030 Wien</p>
+                    <p>Eröffnung: 1812</p>
+                    <figure>
+                        <graphic url="images/orte/streicher.jpg"/>
+                        <head>Salon Streicher © https://wien-landstrasse.nak.at/portrait</head>
+                    </figure>
+                    <p>Der Klavierfabrikant Andreas Streicher veranstaltete ebenfalls Konzerte in
+                        seinen Räumlichkeiten. Der 1812 eingeweihte Streichersaal diente u.a. den
+                        Komponisten Johannes Brahms und Julius v. Beliczay als Bühne. Erst gegen
+                        Ende des 19. Jahrhunderts begann der Name Streicher aus dem Musikleben Wiens
+                        zu verschwinden und mit ihm auch die Bedeutung des Salons Streicher.</p>
+                </div>
+                <div xml:lang="de" xml:id="content-d1e00007-6">
+                    <head>Festsaal des Österreichischen Ingenieur- und Architektenvereins</head>
+                    <p>Adresse: Palais Eschenbach, Eschenbachgasse Nr. 9, 1010 Wien</p>
+                    <p>Eröffnung: 1872</p>
+                    <figure>
+                        <graphic url="images/orte/oeia-1.jpg"/>
+                        <head>Gebäude des Ingenieur- und Architekten-Vereins (1902) ©
+                            http://www.karl-kraus.net/Bilder/Ingenieur_Architektenverein.jpg</head>
+                    </figure>
+                    <p>Das Haus Eschenbachgasse Nr. 9 wurde nach Plänen des Architekten Otto
+                        Thienemann zwischen 1870 und 1872 als Vereinshaus für den Österreichischen
+                        Ingenieur- und Architekten-Verein (ÖIAV) errichtet. Der Festsaal im 2.
+                        Obergeschoss mit seiner wertvollen Wand- und Deckenausstattung wurde auch
+                        für musikalische Veranstaltungen herangezogen. Das Gebäude selbst ist noch
+                        heute im Wesentlichen in seiner Originalsubstanz erhalten. </p>
+                    <figure>
+                        <graphic url="images/orte/oeia-2.jpg"/>
+                        <head>Festsaal der ÖIAV © https://www.oiav.at/haus-der-ingenieure/</head>
+                    </figure>
+                </div>
+                <div xml:lang="de" xml:id="content-d1e00007-7">
+                    <head>Weigl’s Dreherpark</head>
+                    <p>Adresse: Dreherpark, Schönbrunner Straße 307, 1120 Wien</p>
+                    <p>Eröffnung: 5. Juli 1886</p>
+                    <figure>
+                        <graphic url="images/orte/dreherpark.jpg"/>
+                        <head>Gustav Zafaurek: Katharinenhalle im Dreher-Park, um 1885 © Sammlung
+                            Wien Museum, CC0, Inventarnummer HMW 16714</head>
+                    </figure>
+                    <p>1884 erwarb der Bierbrauer Anton Dreher der Jüngere den Park in der
+                        Schönbrunner Straße, der einst Adeligen wie Josefa Gräfin Chancloir,
+                        Nikolaus Esterházy, Georg von Erdödy oder Stephan und Franziska Gräfin
+                        Liechtenstein gehörte. Er verpachtete diesen ab 1886 an den Gastwirt Johann
+                        Weigl, der hier das Schwechater Bier Drehers ausschenkte und ein
+                        Vergnügungsetablissement eröffnete: Weigl’s Dreherpark. </p>
+                    <p>Mit einer Liedertafel des Wiener Männergesangvereins startete das
+                        Unternehmen, welches 1894 durch eine rund 4.000 Personen umfassende Halle
+                        erweitert wurde. Diese 1892 eigens für die „Musik- und Theaterausstellung“
+                        im Wiener Prater errichtete Katharinenhalle wurde von Dreher erworben,
+                        abgetragen und in Meidling wieder aufgebaut. Hier fanden in der Folgezeit
+                        bis zu ihrem Abbruch im Jahr 1925 Aufführungen unterschiedlichster
+                        Ausrichtung statt, von Varietévorstellungen über Zirkusdarbietungen bis hin
+                        zu Ringkämpfen, aber auch populäre Orchesterkonzerte und Liedertafeln. </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
