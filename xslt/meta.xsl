@@ -29,7 +29,7 @@
                     <div class="container-fluid">                        
                         <div class="card">
                                                           
-                            <xsl:if test="$doc_title = 'Rezensenten'">
+                            <xsl:if test="contains($doc_title, 'Rezensenten')">
                                 <div class="card-body">  
                                     <h1 style="margin-bottom:1em;"><xsl:value-of select="$doc_title"/></h1>
                                     <ul style="text-align:center;margin:0 auto;">
@@ -63,14 +63,16 @@
             </body>
         </html>
     </xsl:template>
-
+    
     <xsl:template match="tei:p">
         <xsl:choose>
             <xsl:when test="@rend='quote'">
                 <p class="quote" id="{generate-id()}"><xsl:apply-templates/></p>
             </xsl:when>
             <xsl:otherwise>
-                <p id="{generate-id()}"><xsl:apply-templates/></p>
+                <p id="{generate-id()}">
+                    <xsl:apply-templates/>
+                </p>
             </xsl:otherwise>
         </xsl:choose>        
     </xsl:template>
@@ -88,28 +90,54 @@
         </xsl:choose>
         
     </xsl:template>
+    <xsl:template match="tei:listRef">
+        <ul style="text-align:center;margin:0 auto;padding:0;">
+            <xsl:apply-templates/>
+        </ul>
+    </xsl:template>
     <xsl:template match="tei:ref">
-        <a target="_blank" href="{@target}"><xsl:apply-templates/></a>
+        <xsl:choose>
+            <xsl:when test="parent::tei:listRef">
+                <li style="display:inline;margin-right:.5em;">
+                    <a href="{@target}"><xsl:apply-templates/></a>
+                </li>
+            </xsl:when>
+            <xsl:otherwise>
+                <a class="italic" target="_blank" href="{@target}"><xsl:apply-templates/></a>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:head">
-        <h2 style="margin:1em auto;text-align:center;"><xsl:apply-templates/></h2>
-    </xsl:template>    
+        <h3 style="margin:1em;">
+            <xsl:apply-templates/>
+        </h3>        
+    </xsl:template> 
+    <xsl:template match="tei:head[1]">
+        <h2 style="margin:1em;">
+            <xsl:apply-templates/>
+        </h2>        
+    </xsl:template> 
     <xsl:template match="tei:list">
         <ul>
             <xsl:for-each select="./tei:item">
-                <li><xsl:apply-templates/></li>
+                <li style="list-style:circle;"><xsl:apply-templates/></li>
             </xsl:for-each>            
         </ul>
     </xsl:template>  
     <xsl:template match="tei:figure">
         <xsl:for-each select="./tei:graphic">
-            <div style="padding:1em;margin: 0 auto;text-align:center;">
-                <img src="{@url}"/>
-            </div>            
-        </xsl:for-each>
+            <p style="margin:1em;">
+                <img src="{@url}"/>            
+                <p style="margin:1em;">
+                    <small>
+                        <xsl:value-of select="parent::tei:figure/tei:head"/>
+                    </small>
+                </p>  
+            </p>
+        </xsl:for-each>        
     </xsl:template>  
     <xsl:template match="tei:table">
-        <table class="table" style="border:none;">
+        <table class="table" style="border:none;margin-top:1.5em;">
             <tbody>
                 <xsl:for-each select="./tei:row">
                     <tr>
@@ -139,7 +167,8 @@
                 </span>
             </xsl:otherwise>
         </xsl:choose>        
-    </xsl:template>
+                
+    </xsl:template>    
     <xsl:template match="tei:lb">
         <br/>
     </xsl:template>

@@ -2,10 +2,15 @@
 
 body {
     background-color: #f9f3e6;
+    font-size: 1rem;
+}
+
+#wrapper-hero-content::after {
+    background-color: rgba(249, 243, 230, 1);
 }
 
 /*a {
-    color: blue;
+    text-decoration: underline;
 }*/
 
 .tei-logo {
@@ -28,6 +33,13 @@ body {
 
 div.dataTables_filter {
   text-align:left !important;
+}
+
+.navbar-search-icon {
+    background-color: transparent;
+    margin-left: -45px;
+    margin-top: 4px;
+    border: none;
 }
 
 /* datatable alphanumeric search
@@ -740,6 +752,28 @@ li {
 
 ul {
     list-style: none;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bibl {
+    display: block;
+    font-style: italic;
+    font-size:14px;
+    margin: .5em;
+}
+
+.quote {
+    display: block;
+    font-size: 22px;
+    text-align: center;
+    margin: 2em auto;
 }
 
 /* XML raw style */
