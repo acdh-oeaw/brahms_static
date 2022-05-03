@@ -32,14 +32,14 @@
                                 Austrian Academy of Sciences
                             </p>
                             <p>
-                                Vordere Zollamtsstr. 3
+                                Bäckerstraße 13
                                 <br/>
-                                1030 Wien
+                                1010 Wien
                             </p>
                             <p>
                                 T: +43 1 51581-2200
                                 <br/>
-                                E: <a href="mailto:acdh@oeaw.ac.at">acdh-ch@oeaw.ac.at</a>
+                                E: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk@oeaw.ac.at</a>
                             </p>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                                 <h6 class="font-weight-bold">HELPDESK</h6>
                                 <p>ACDH-CH stellt einen Helpdesk zu Verfügung der bei Fragen zu Themen der Digitalen Geistenwissenschaften Auskunft bietet.</p>
                                 <p>
-                                    <a class="helpdesk-button" href="mailto:acdh-helpdesk@oeaw.ac.at">ASK US!</a>
+                                    <a class="helpdesk-button" href="mailto:acdh-ch-helpdesk@oeaw.ac.at">ASK US!</a>
                                 </p>
                             </div>
                         </div>
