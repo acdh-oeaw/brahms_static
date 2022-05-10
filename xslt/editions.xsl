@@ -727,7 +727,7 @@
                                                                                                     </ul>
                                                                                                 </td>
                                                                                             </tr>
-                                                                                            <tr>
+                                                                                            <!--<tr>
                                                                                                 <th>Zitierhinweis</th>
                                                                                                 <td>
                                                                                                     <xsl:text> (</xsl:text>
@@ -741,7 +741,7 @@
                                                                                                     </span>
                                                                                                     <xsl:text>.</xsl:text>
                                                                                                 </td>
-                                                                                            </tr>                                                                                            
+                                                                                            </tr>-->                                                                                            
                                                                                         </table>
                                                                                     </div>                                                                                                        
                                                                                 </div>
