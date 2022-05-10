@@ -730,12 +730,12 @@
                                                                                             <!--<tr>
                                                                                                 <th>Zitierhinweis</th>
                                                                                                 <td>
-                                                                                                    <xsl:text> (</xsl:text>
+                                                                                                    <xsl:text> </xsl:text>
                                                                                                     <a href="{lower-case($biblUrl)}">
                                                                                                         <xsl:value-of
                                                                                                             select="lower-case($biblUrl)"/>
                                                                                                     </a>
-                                                                                                    <xsl:text>), aufgerufen am </xsl:text>
+                                                                                                    <xsl:text>, aufgerufen am </xsl:text>
                                                                                                     <span class="citationDateDe">
                                                                                                         <xsl:value-of select="format-date(current-date(), '[D].[M].[Y]')"/>
                                                                                                     </span>
