@@ -710,7 +710,7 @@
                                                                                             </xsl:choose>
                                                                                               
                                                                                             <tr>
-                                                                                                <th style="width:20%">Link zu ANNO</th>                                                                                                                    
+                                                                                                <th style="width:20%">Link zu ANNO (ÖNB)</th>                                                                                                                    
                                                                                                 <td>
                                                                                                     <a target="_blank" href="{./mei:ptr[@label='ANNO-ÖNB']/@target}" title="{./mei:ptr[@label='ANNO-ÖNB']/@label}">
                                                                                                         <xsl:value-of select="./mei:annot/mei:p[@label='Vollständiger_Nachweis']"/>                                                                                                        
