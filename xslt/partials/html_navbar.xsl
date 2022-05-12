@@ -26,6 +26,9 @@
                                         <a title="Über das Projekt" href="01-ueber-das-projekt.html" class="nav-link">Über das Projekt</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
+                                        <a title="Wiener Presse" href="02-benutzerhinweise.html" class="nav-link">Benutzerhinweise</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
                                         <a title="Wiener Presse" href="02-wiener-presse.html" class="nav-link">Wiener Presse</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
@@ -35,7 +38,7 @@
                                         <a title="Wiener Arbeitsstelle" href="03-01-Zeitungen-detail.html" class="nav-link">Wiener Arbeitsstelle</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Rezensenten" href="04-rezensenten.html" class="nav-link">Rezensenten</a>
+                                        <a title="Rezensenten" href="05-rezensenten.html" class="nav-link">Rezensenten</a>
                                     </li>
                                 </ul>                                
                             </li>
