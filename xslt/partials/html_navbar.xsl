@@ -20,10 +20,13 @@
                         <!-- Your menu goes here -->
                         <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
                             <li class="nav-item dropdown">
-                                <a title="Projekt" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt <span class="caret"></span></a>
+                                <a title="Projekt" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Projekt<span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Über das Projekt" href="01-ueber-das-projekt.html" class="nav-link">Über das Projekt</a>
+                                    </li>
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Wiener Presse" href="02-benutzerhinweise.html" class="nav-link">Benutzerhinweise</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Wiener Presse" href="02-wiener-presse.html" class="nav-link">Wiener Presse</a>
@@ -35,18 +38,18 @@
                                         <a title="Wiener Arbeitsstelle" href="03-01-Zeitungen-detail.html" class="nav-link">Wiener Arbeitsstelle</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Rezensenten" href="04-rezensenten.html" class="nav-link">Rezensenten</a>
+                                        <a title="Rezensenten" href="05-rezensenten.html" class="nav-link">Rezensenten</a>
                                     </li>
                                 </ul>                                
                             </li>
                             <li class="nav-item dropdown">
-                                <a title="Brahmś Wien" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Brahmś Wien <span class="caret"></span></a>
+                                <a title="Brahmś Wien" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Brahms’ Wien<span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Brahms in Wien" href="05-brahms-in-wien.html" class="nav-link">Brahms in Wien</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Auffuhrungsorte" href="06-auffuehrungsorte.html" class="nav-link">Auffuhrungsorte</a>
+                                        <a title="Auffuhrungsorte" href="06-auffuehrungsorte.html" class="nav-link">Aufführungsorte</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Brahms-Interpret*innen" href="07-interpretinnen.html" class="nav-link">Brahms-Interpret*innen</a>
@@ -54,15 +57,7 @@
                                 </ul>                                
                             </li>
                             <li class="nav-item dropdown">
-                                <a title="Forschung" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Forschung <span class="caret"></span></a>
-                                <ul class=" dropdown-menu" role="menu">                                    
-                                    <li class="nav-item dropdown-submenu">
-                                        <a title="Literatur" href="08-literatur.html" class="nav-link">Literatur</a>
-                                    </li>
-                                </ul>                                
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a title="Datenbank" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Datenbank <span class="caret"></span></a>
+                                <a title="Datenbank" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Datenbank<span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Suche" href="search.html" class="nav-link">Suche</a>
@@ -73,6 +68,14 @@
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Werke" href="toc.html" class="nav-link">Werke</a>
                                     </li>                                  
+                                </ul>                                
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a title="Forschung" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Forschung<span class="caret"></span></a>
+                                <ul class=" dropdown-menu" role="menu">                                    
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Literatur" href="08-literatur.html" class="nav-link">Literatur</a>
+                                    </li>
                                 </ul>                                
                             </li>
                             <!--<li class="nav-item"><a title="Suche" href="index.html" class="nav-link">Suche</a></li>

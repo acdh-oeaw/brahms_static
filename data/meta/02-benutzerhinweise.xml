@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main" level="a">Kontakt</title>
+                <title type="main" level="a">Benutzerhinweise</title>
                 <title level="m">Brahms Rezeption</title>
                 <author>
                     <persName xml:id="VP">Vasiliki Papadopoulou</persName>
@@ -28,7 +28,7 @@
                 <publisher>Österreichische Akademie der Wissenschaften <lb/>Austrian Centre for
                     Digital Humanities, <lb/>Abteilung Musikwissenschaft</publisher>
                 <pubPlace>Wien</pubPlace>
-                <idno type="Brahms_Rezeption">d1e00010</idno>
+                <idno type="Brahms_Rezeption">d1e00001</idno>
                 <date when-iso="2022-04"/>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
@@ -63,33 +63,10 @@
     </teiHeader>
     <text>
         <body>
-            <div xml:id="content-d1e00010">
-                <div xml:lang="de" xml:id="content-d1e00010-1">
-                    <head>Kontakt</head>
-                    <p>
-                        <lb/><ref
-                            target="https://www.oeaw.ac.at/acdh/musikwissenschaft/mitarbeiterinnen-mitarbeiter/vasiliki-papadopoulou/"
-                            >Vasiliki Papadopoulou</ref>, PhD (Projektleitung) <lb/>T: +43 1 51581-3718
-                        <lb/>E: vasiliki.papadopoulou(at)oeaw.ac.at</p>
-                    <cb/>
-                    <p>
-                        <lb/>Mag. <ref
-                            target="https://www.oeaw.ac.at/acdh/musikwissenschaft/mitarbeiterinnen-mitarbeiter/monika-jaros"
-                            >Monika Jaroš</ref>
-                        <lb/>T: +43 1 51581-3705 <lb/>E: monika.jaros(at)oeaw.ac.at</p>
-                    <p>
-                        <lb/><ref
-                            target="https://www.oeaw.ac.at/acdh/musikwissenschaft/mitarbeiterinnen-mitarbeiter/magdalena-weber"
-                            >Magdalena Weber</ref>, BA BEd
-                        <lb/>T: +43 1 51581-3705 <lb/>E: magdalena.weber(at)oeaw.ac.at</p>
-                    <p>
-                        <lb/>Service
-                        <lb/>ACDH-CH Austrian Centre for Digital Humanities and Cultural Heritage Austrian Academy of Sciences
-                        <lb/>Abteilung Musikwissenschaft
-                        <lb/>Bäckerstraße 13, 1010 Wien
-                        <lb/>T: +43 1 51581-2200
-                        <lb/>E: acdh-ch(at)oeaw.ac.at
-                    </p>
+            <div xml:id="content-d1e00001">
+                <div xml:lang="de">
+                    <head>Benutzerhinweise</head>
+                    <p>Datenbank</p>
                 </div>
             </div>
         </body>

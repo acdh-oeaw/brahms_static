@@ -710,7 +710,7 @@
                                                                                             </xsl:choose>
                                                                                               
                                                                                             <tr>
-                                                                                                <th style="width:20%">Vollständiger Nachweis (Link)</th>                                                                                                                    
+                                                                                                <th style="width:20%">Link zu ANNO (ÖNB)</th>                                                                                                                    
                                                                                                 <td>
                                                                                                     <a target="_blank" href="{./mei:ptr[@label='ANNO-ÖNB']/@target}" title="{./mei:ptr[@label='ANNO-ÖNB']/@label}">
                                                                                                         <xsl:value-of select="./mei:annot/mei:p[@label='Vollständiger_Nachweis']"/>                                                                                                        
@@ -726,7 +726,22 @@
                                                                                                         </xsl:for-each>
                                                                                                     </ul>
                                                                                                 </td>
-                                                                                            </tr>                                                                                            
+                                                                                            </tr>
+                                                                                            <!--<tr>
+                                                                                                <th>Zitierhinweis</th>
+                                                                                                <td>
+                                                                                                    <xsl:text> </xsl:text>
+                                                                                                    <a href="{lower-case($biblUrl)}">
+                                                                                                        <xsl:value-of
+                                                                                                            select="lower-case($biblUrl)"/>
+                                                                                                    </a>
+                                                                                                    <xsl:text>, aufgerufen am </xsl:text>
+                                                                                                    <span class="citationDateDe">
+                                                                                                        <xsl:value-of select="format-date(current-date(), '[D].[M].[Y]')"/>
+                                                                                                    </span>
+                                                                                                    <xsl:text>.</xsl:text>
+                                                                                                </td>
+                                                                                            </tr>-->                                                                                            
                                                                                         </table>
                                                                                     </div>                                                                                                        
                                                                                 </div>
