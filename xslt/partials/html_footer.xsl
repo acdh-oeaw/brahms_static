@@ -9,9 +9,6 @@
         
         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
-                <div class="footer-separator">
-                    Kontakt
-                </div>
                 <div class="row">
                     <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6  ml-auto  text-center ">
                         <div class="textwidget custom-html-widget">
@@ -36,15 +33,9 @@
                                 <br/>
                                 1010 Wien
                             </p>
-                            <p>
-                                T: +43 1 51581-2200
-                                <br/>
-                                E: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk@oeaw.ac.at</a>
-                            </p>
                         </div>
                     </div>
                     <div class="footer-widget col-lg-4 col-md-3 col-sm-4">
-                        <h6 class="font-weight-bold">Projektpartner</h6>
                         <div class="container" style="margin-top: 2em;">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
@@ -69,18 +60,9 @@
                     <!-- .footer-widget -->                       
                     <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto">
                         <div class="row">
-                            <div class="textwidget custom-html-widget">
-                                <h6 class="font-weight-bold">HELPDESK</h6>
-                                <p>ACDH-CH stellt einen Helpdesk zu Verfügung der bei Fragen zu Themen der Digitalen Geistenwissenschaften Auskunft bietet.</p>
-                                <p>
-                                    <a class="helpdesk-button" href="mailto:acdh-ch-helpdesk@oeaw.ac.at">ASK US!</a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
                             <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto" style="margin-left:0 !important;">
                                 <div class="textwidget custom-html-widget">
-                                    <p style="margin-bottom:0 !important;">Social: </p>                                    
+                                    <p style="margin-bottom:0 !important;">Github: </p>                                    
                                 </div>
                                 <div class="row">                              
                                     <div class="textwidget custom-html-widget col-md-4">                                    

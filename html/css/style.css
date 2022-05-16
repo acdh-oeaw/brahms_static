@@ -27,12 +27,20 @@ body {
     width: 20%;
 }
 
+body a {
+    color: #88dbdf;
+}
+
 .event-table tr td {
     border: none;
 }
 
 div.dataTables_filter {
   text-align:left !important;
+}
+
+#wrapper-footer-full {
+    margin-top: auto !important;
 }
 
 .navbar-search-icon {
@@ -241,6 +249,15 @@ div.dt-buttons .btn-link {
 
 .nav-tabs {
     padding: .2em;
+}
+
+div.container-fluid .card {
+    margin-bottom: 2em;
+}
+
+#wrapper-hero-inner {
+    margin: 10% auto;
+    
 }
 
 .card-head {

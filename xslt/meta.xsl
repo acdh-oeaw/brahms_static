@@ -103,7 +103,7 @@
                 </li>
             </xsl:when>
             <xsl:otherwise>
-                <a class="italic" target="_blank" href="{@target}"><xsl:apply-templates/></a>
+                <a target="_blank" href="{@target}"><xsl:apply-templates/></a>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>

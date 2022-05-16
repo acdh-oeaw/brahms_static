@@ -151,6 +151,7 @@
                                     <xsl:call-template name="html_head">
                                         <xsl:with-param name="html_title" select="$doc_title_3"/>
                                     </xsl:call-template>
+                                    <meta name="docTitle" class="staticSearch_docTitle" content="{./mei:persName[@type='main']}"/>
                                 </head>
                                 <body class="page">
                                     <div class="hfeed site" id="page">
