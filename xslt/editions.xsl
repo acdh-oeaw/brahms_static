@@ -473,11 +473,10 @@
                                                                             <xsl:value-of select="./mei:geogName[@role='venue']"/>                                                                                            
                                                                         </xsl:if>  
                                                                         <xsl:if test="ancestor::mei:work/mei:title/text()">
-                                                                            <xsl:text>. </xsl:text>
+                                                                            <xsl:text>. </xsl:text>                                                                            
                                                                             <xsl:value-of select="ancestor::mei:work/mei:title"/>
                                                                             <xsl:text> </xsl:text>
-                                                                            <xsl:value-of select="ancestor::mei:work/mei:identifier"/>
-                                                                            <xsl:text>. </xsl:text>
+                                                                            <xsl:value-of select="ancestor::mei:work/mei:identifier"/>                                                                            
                                                                         </xsl:if>  
                                                                         <!--<xsl:if test="ancestor::mei:work/mei:expressionList">
                                                                             <xsl:for-each select="ancestor::mei:work/mei:expressionList/mei:expression">
@@ -487,10 +486,12 @@
                                                                         </xsl:if>-->
                                                                         <xsl:choose>
                                                                             <xsl:when test="contains(ancestor::mei:expression/mei:title, 'erschienen')">
+                                                                                <xsl:text> </xsl:text>
                                                                                 <xsl:value-of select="substring-before(
                                                                                     ancestor::mei:expression/mei:title, ' (erschienen')"/>
                                                                             </xsl:when>
                                                                             <xsl:otherwise>
+                                                                                <xsl:text> </xsl:text>
                                                                                 <xsl:value-of select="ancestor::mei:expression/mei:title"/>
                                                                             </xsl:otherwise>
                                                                         </xsl:choose>                                                                
@@ -500,19 +501,19 @@
                                                                         <xsl:text>ssEnd</xsl:text>
                                                                         <xsl:text> ssStart </xsl:text>   
                                                                         <xsl:if test="./mei:persName[1]/text()">
-                                                                            <xsl:value-of select="./mei:persName[1]"/>
+                                                                            <xsl:value-of select="./mei:persName[1]"/>                                                                            
                                                                         </xsl:if>
                                                                         <xsl:choose>
                                                                             <xsl:when test="count(./mei:persName) > 1">
                                                                                 <xsl:text> (+</xsl:text>
                                                                                 <xsl:value-of select="count(./mei:persName) - 1"/>
-                                                                                <xsl:text>). </xsl:text>
+                                                                                <xsl:text>) </xsl:text>
                                                                             </xsl:when>
-                                                                            <xsl:when test="./mei:persName[1]/text()">
+                                                                            <xsl:when test="./mei:persName[1]/text() and not(//mei:expressionList/mei:expression)">
                                                                                 <xsl:text>. </xsl:text>
                                                                             </xsl:when>
                                                                             <xsl:otherwise>
-                                                                                
+                                                                                <xsl:text> </xsl:text>
                                                                             </xsl:otherwise>
                                                                         </xsl:choose>                                                                        
                                                                     </xsl:for-each>
@@ -845,7 +846,7 @@
                                     <xsl:value-of select="translate(./mei:title, '.', '')"/>
                                     <xsl:text>, </xsl:text>
                                     <xsl:value-of select="./mei:identifier"/>
-                                    <xsl:text>. </xsl:text>
+                                    <xsl:text> </xsl:text>
                                 </xsl:for-each>
                             </xsl:when>
                             <xsl:otherwise>

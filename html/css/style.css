@@ -27,6 +27,10 @@ body {
     width: 20%;
 }
 
+#ssResults a {
+    color: #444 !important;
+}
+
 body a {
     color: #88dbdf;
 }
