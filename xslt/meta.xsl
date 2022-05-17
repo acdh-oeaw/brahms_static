@@ -66,7 +66,7 @@
     </xsl:template>
     
     <xsl:template match="xi:include[concat('../data/meta/', @href)][@parse='xml' or not(@parse)][unparsed-text-available(concat('../data/meta/', @href))]">
-        <xsl:apply-templates select="document(concat('../data/meta/', @href))" />
+        <xsl:apply-templates select="document(concat('../data/meta/', @href))//tei:body" />
     </xsl:template>
     <xsl:template match="tei:p">
         <xsl:choose>
