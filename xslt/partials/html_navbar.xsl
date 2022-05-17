@@ -33,10 +33,7 @@
                                     </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Zeitungen" href="03-00-Zeitungen-allgemein.html" class="nav-link">Zeitungen</a>
-                                    </li>
-                                    <li class="nav-item dropdown-submenu">
-                                        <a title="Wiener Arbeitsstelle" href="03-01-Zeitungen-detail.html" class="nav-link">Wiener Arbeitsstelle</a>
-                                    </li>
+                                    </li>                                    
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Rezensenten" href="04-rezensenten.html" class="nav-link">Rezensenten</a>
                                     </li>

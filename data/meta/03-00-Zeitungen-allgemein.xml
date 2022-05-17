@@ -94,7 +94,7 @@
                         die Auswertung der kompletten Jahrgänge 1867–1882 einem späteren Zeitpunkt
                         vorbehalten werden muss.</p>
                     
-                    <xi:include href="03-01-zeitungen-detail.xml" xpointer="content-d1e00004" parse="xml"/>
+                    <xi:include href="03-01-Zeitungen-detail.xml" xpointer="content-d1e00004" parse="xml"/>
 
                 </div>
             </div>

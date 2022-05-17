@@ -4,7 +4,8 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    version="2.0" exclude-result-prefixes="xsl tei xs">
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    version="2.0" exclude-result-prefixes="#all">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="yes" omit-xml-declaration="yes"/>
     
     <xsl:import href="./partials/html_navbar.xsl"/>
@@ -64,6 +65,9 @@
         </html>
     </xsl:template>
     
+    <xsl:template match="xi:include[concat('../data/meta/', @href)][@parse='xml' or not(@parse)][unparsed-text-available(concat('../data/meta/', @href))]">
+        <xsl:apply-templates select="document(concat('../data/meta/', @href))" />
+    </xsl:template>
     <xsl:template match="tei:p">
         <xsl:choose>
             <xsl:when test="@rend='quote'">
