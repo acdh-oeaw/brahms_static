@@ -64,7 +64,7 @@
     <text>
         <body>
             <div xml:id="content-d1e00004">
-                <div xml:lang="de">
+                <div xml:lang="de" xml:id="content-d1e00004-1">
                     <head><ref target="https://anno.onb.ac.at/info/aze_info.htm">Arbeiter Zeitung</ref></head>
                     <figure>
                         <graphic url="images/zeitungen/arbeiter-zeitung.jpg"></graphic>
@@ -88,7 +88,7 @@
                         </row>
                     </table>
                 </div>
-                <div xml:lang="de">
+                <div xml:lang="de" xml:id="content-d1e00004-2">
                     <head><ref target="https://anno.onb.ac.at/info/mtk_info.htm">Blätter für Musik, Theater und Kunst</ref></head>
                     <figure>
                         <graphic url="images/zeitungen/blatter-fur-musik.jpg"></graphic>
@@ -116,7 +116,7 @@
                         </row>
                     </table>
                 </div>
-                <div xml:lang="de">
+                <div xml:lang="de" xml:id="content-d1e00004-3">
                     <head><ref target="https://anno.onb.ac.at/info/dvb_info.htm">Deutsches Volksblatt</ref></head>
                     <figure>
                         <graphic url="images/zeitungen/deutsches-volksblatt.jpg"></graphic>
@@ -144,7 +144,7 @@
                         </row>
                     </table>
                 </div>       
-                <div xml:lang="de">
+                <div xml:lang="de" xml:id="content-d1e00004-4">
                     <head><ref target="https://anno.onb.ac.at/info/nfb_info.htm">Neues Fremden-Blatt</ref></head>
                     <figure>
                         <graphic url="images/zeitungen/neues-fremden-blatt.jpg"></graphic>
@@ -168,7 +168,7 @@
                         </row>
                     </table>
                 </div>    
-                <div xml:lang="de">
+                <div xml:lang="de" xml:id="content-d1e00004-5">
                     <head><ref target="https://anno.onb.ac.at/info/nwm_info.html">Neue Wiener Musik-Zeitung</ref></head>
                     <figure>
                         <graphic url="images/zeitungen/neue-wiener-musikzeitung.jpg"></graphic>
@@ -192,7 +192,7 @@
                         </row>
                     </table>
                 </div> 
-                <div xml:lang="de">
+                <div xml:lang="de" xml:id="content-d1e00004-6">
                     <head><ref target="https://anno.onb.ac.at/info/nwg_info.htm">Neues Wiener Tagblatt</ref></head>
                     <figure>
                         <graphic url="images/zeitungen/neues-wiener-tagblatt.jpg"></graphic>
@@ -220,7 +220,7 @@
                         </row>
                     </table>
                 </div>
-                <div xml:lang="de">
+                <div xml:lang="de" xml:id="content-d1e00004-7">
                     <head><ref target="https://anno.onb.ac.at/info/apr_info.htm">Die Presse</ref></head>
                     <figure>
                         <graphic url="images/zeitungen/presse.jpg"></graphic>
@@ -248,7 +248,7 @@
                         </row>
                     </table>
                 </div>
-                <div xml:lang="de">
+                <div xml:lang="de" xml:id="content-d1e00004-8">
                     <head><ref target="https://anno.onb.ac.at/info/rpt_info.html">Reichspost</ref></head>
                     <figure>
                         <graphic url="images/zeitungen/reichspost.jpg"></graphic>
@@ -276,7 +276,7 @@
                         </row>
                     </table>
                 </div>
-                <div xml:lang="de">
+                <div xml:lang="de" xml:id="content-d1e00004-9">
                     <head><ref target="https://anno.onb.ac.at/info/vtl_info.htm">Das Vaterland</ref></head>
                     <figure>
                         <graphic url="images/zeitungen/vaterland.jpg"></graphic>
@@ -300,7 +300,7 @@
                         </row>
                     </table>
                 </div>                
-                <div xml:lang="de">
+                <div xml:lang="de" xml:id="content-d1e00004-10">
                     <head><ref target="https://anno.onb.ac.at/info/wrz_info.htm">Wiener Zeitung</ref></head>
                     <figure>
                         <graphic url="images/zeitungen/wiener-zeitung.jpg"></graphic>
