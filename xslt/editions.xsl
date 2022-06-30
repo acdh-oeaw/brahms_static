@@ -336,8 +336,8 @@
                                                                     </meta>                                                                                                                     
                                                                 </xsl:for-each>
                                                             </xsl:if>
-                                                            <xsl:if test="ancestor::mei:work//mei:classifcation">
-                                                                <xsl:for-each select="ancestor::mei:work//mei:classification/mei:termList/mei:term[@type='1']">
+                                                            <xsl:if test="ancestor::mei:work/mei:classification">
+                                                                <xsl:for-each select="ancestor::mei:work/mei:classification/mei:termList/mei:term[@type='1']">
                                                                     <meta name="004 Gattung"
                                                                         class="staticSearch_feat"
                                                                         content="{.}">
@@ -727,7 +727,7 @@
                                                                                                 <th style="width:20%">Link zu ANNO (ÖNB)</th>                                                                                                                    
                                                                                                 <td>
                                                                                                     <a target="_blank" href="{./mei:ptr[@label='ANNO-ÖNB']/@target}" title="{./mei:ptr[@label='ANNO-ÖNB']/@label}">
-                                                                                                        <xsl:value-of select="./mei:author"/>                                                                                                        
+                                                                                                        <xsl:value-of select="./mei:annot/mei:p[@label='Vollständiger_Nachweis']"/>                                                                                                        
                                                                                                     </a>
                                                                                                 </td>
                                                                                             </tr>
@@ -742,7 +742,7 @@
                                                                                                                 <xsl:text>Werkkritik</xsl:text>                                                                                                                           
                                                                                                             </td>
                                                                                                         </xsl:if>
-                                                                                                        <xsl:if test=". = 'Rubrik_3' or . = 'Rubrik_8'">
+                                                                                                    <xsl:if test=". = 'Rubrik_3' or . = 'Rubrik_8' or . = 'Rubrik_17' or . = 'Rubrik_18' or . = 'Rubrik_80' or . = 'Rubrik_90' or . = 'Rubrik_100'">
                                                                                                             <td>
                                                                                                                 <xsl:text>Vorankündigung</xsl:text>                                                                                                                           
                                                                                                             </td>
