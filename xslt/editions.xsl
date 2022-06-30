@@ -443,22 +443,25 @@
                                                             </xsl:if>
                                                             
                                                             
-                                                            <xsl:if test="./mei:author/text()">
-                                                                <xsl:for-each select="./mei:author">
-                                                                    <meta name="009 Verfasser"
-                                                                        class="staticSearch_feat"
-                                                                        content="{.}">
-                                                                    </meta>                                                                                                                     
-                                                                </xsl:for-each>
-                                                            </xsl:if>      
+                                                             
                                                             <xsl:if test="./mei:title[1]/text()">                                                                                    
                                                                 <xsl:for-each select="./mei:title[1]">
-                                                                    <meta name="010 Quelle"
+                                                                    <meta name="009 Quelle"
                                                                         class="staticSearch_feat"
                                                                         content="{.}">
                                                                     </meta>   
                                                                 </xsl:for-each>                                                                                                    
                                                             </xsl:if>
+                                                            
+                                                            <xsl:if test="./mei:author/text()">
+                                                                <xsl:for-each select="./mei:author">
+                                                                    <meta name="010 Verfasser"
+                                                                        class="staticSearch_feat"
+                                                                        content="{.}">
+                                                                    </meta>                                                                                                                     
+                                                                </xsl:for-each>
+                                                            </xsl:if>     
+                                                            
                                                             <xsl:if test="ancestor::mei:event/mei:date[@isodate]">
                                                                 <xsl:for-each select="ancestor::mei:event/mei:date">
                                                                     <meta name="011 Zeitraum"
