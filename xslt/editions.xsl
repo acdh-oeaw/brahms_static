@@ -289,8 +289,15 @@
                                                 </td>
                                                                                     
                                                 <xsl:result-document href="{$biblUrl}">
+                                                    <!--
+                                                    <xsl:variable name="op_cap">
+                                                        <xsl:if test="contains(//mei:workList/mei:work/mei:identifier[1], 'op.')">
+                                                            <xsl:value-of select=""/>
+                                                        </xsl:if>
+                                                    </xsl:variable>-->
+                                                    
                                                     <xsl:variable name="doc_title_3">
-                                                        <xsl:value-of select="concat(//mei:workList/mei:work/mei:title, ' ', ./mei:title[1], ' ', ./mei:title[2])"/>
+                                                        <xsl:value-of select="concat(//mei:workList/mei:work/mei:identifier[1], ', ', ancestor::mei:event/mei:date[1], ', ',  ./mei:title[1])"/>
                                                     </xsl:variable>
                                                     <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
                                                     <html>
@@ -298,7 +305,7 @@
                                                             <xsl:call-template name="html_head">
                                                                 <xsl:with-param name="html_title" select="$doc_title_3"></xsl:with-param>
                                                             </xsl:call-template>  
-                                                            <xsl:if test="contains(@type, 'Rubrik_3') or contains(@type, 'Rubrik_8')">
+                                                            <xsl:if test="contains(@type, 'Rubrik_3') or contains(@type, 'Rubrik_8') or contains(@type, 'Rubrik_17') or contains(@type, 'Rubrik_18') or contains(@type, 'Rubrik_80') or contains(@type, 'Rubrik_90') or contains(@type, 'Rubrik_100')">
                                                                 <meta name="001 Filter"
                                                                     class="staticSearch_desc"
                                                                     content="Vorankündigung"/>  
@@ -308,13 +315,11 @@
                                                                     class="staticSearch_desc"                                                                    
                                                                     content="Rezension"/>  
                                                             </xsl:if>
-                                                            <xsl:for-each select="./mei:annot/mei:p[@label='Weitere_Informationen']">
-                                                                <xsl:if test="contains(., 'gemäß')">
-                                                                    <meta name="001 Filter"
-                                                                        class="staticSearch_desc"
-                                                                        content="erschlossene Quellen"/>                                                                                                                                                                        
-                                                                </xsl:if>         
-                                                            </xsl:for-each>
+                                                            <xsl:if test="contains(@type, 'Rubrik_40')">
+                                                                <meta name="001 Filter"
+                                                                    class="staticSearch_desc"
+                                                                    content="ohne erschlossene Daten"/>                                                                                                                                                                        
+                                                            </xsl:if>         
                                                             <xsl:if test="ancestor::mei:work">
                                                                 <xsl:for-each select="ancestor::mei:work">
                                                                     <meta name="002 Werk"
@@ -325,7 +330,15 @@
                                                             </xsl:if>
                                                             <xsl:if test="ancestor::mei:work//mei:perfMedium">
                                                                 <xsl:for-each select="ancestor::mei:work//mei:perfMedium/mei:perfResList/mei:perfResList/mei:perfRes">
-                                                                    <meta name="003 Gattung"
+                                                                    <meta name="003 Besetzung"
+                                                                        class="staticSearch_feat"
+                                                                        content="{.}">
+                                                                    </meta>                                                                                                                     
+                                                                </xsl:for-each>
+                                                            </xsl:if>
+                                                            <xsl:if test="ancestor::mei:work//mei:classifcation">
+                                                                <xsl:for-each select="ancestor::mei:work//mei:classification/mei:termList/mei:term[@type='1']">
+                                                                    <meta name="004 Gattung"
                                                                         class="staticSearch_feat"
                                                                         content="{.}">
                                                                     </meta>                                                                                                                     
@@ -333,7 +346,7 @@
                                                             </xsl:if>
                                                             <xsl:if test="ancestor::mei:event/mei:geogName[@role='place' or @role='venue']/text()">
                                                                 <xsl:for-each select="ancestor::mei:event/mei:geogName[@role='place'or @role='venue']">
-                                                                    <meta name="004 Veranstaltungsort"
+                                                                    <meta name="005 Veranstaltungsort"
                                                                         class="staticSearch_feat"
                                                                         content="{.}">
                                                                     </meta> 
@@ -341,11 +354,11 @@
                                                             </xsl:if>                                                                            
                                                             <xsl:if test="ancestor::mei:event/mei:persName/text()">
                                                                 <xsl:for-each select="ancestor::mei:event/mei:persName">
-                                                                    <meta name="005 Beteiligte Personen / Körperschaften"                                                                        
+                                                                    <meta name="006 Beteiligte Personen / Körperschaften"                                                                        
                                                                         class="staticSearch_feat"
                                                                         content="{.}">
                                                                     </meta>
-                                                                    <meta name="006 Personen beteiligt als / mit"
+                                                                    <meta name="007 Personen beteiligt als / mit"
                                                                         class="staticSearch_feat"
                                                                         content="{@type}">                                                                        
                                                                     </meta> 
@@ -353,7 +366,7 @@
                                                             </xsl:if>  
                                                             <xsl:if test="./mei:term/text()">
                                                                 <xsl:for-each select="./mei:term">
-                                                                    <meta name="007 Rubrik"
+                                                                    <meta name="008 Rubrik"
                                                                         class="staticSearch_feat">
                                                                         <xsl:if test=". = 'Rubrik_1' or . = 'Rubrik_2'">
                                                                             <xsl:attribute name="content">
@@ -428,17 +441,17 @@
                                                                     </meta>                                                                                                                     
                                                                 </xsl:for-each>
                                                             </xsl:if>
-                                                            <xsl:if test="./mei:relatedItem/mei:bibl/mei:title/text()">
-                                                                <xsl:for-each select="./mei:relatedItem/mei:bibl">
-                                                                    <meta name="008 Verfasser"
+                                                            <xsl:if test="./mei:author/text()">
+                                                                <xsl:for-each select="./mei:author">
+                                                                    <meta name="009 Verfasser"
                                                                         class="staticSearch_feat"
                                                                         content="{.}">
                                                                     </meta>                                                                                                                     
                                                                 </xsl:for-each>
                                                             </xsl:if>
-                                                            <xsl:if test="./mei:annot/mei:p[@label='Vollständiger_Nachweis']/text()">                                                                                    
-                                                                <xsl:for-each select="./mei:annot/mei:p[@label='Vollständiger_Nachweis'] | parent::mei:annot[mei:p[@label='Vollständiger_Nachweis'] != current()/mei:p[@label='Vollständiger_Nachweis']]">
-                                                                    <meta name="009 Quelle"
+                                                            <xsl:if test="./mei:bibl/mei:title[1]/text()">                                                                                    
+                                                                <xsl:for-each select="./mei:bibl/mei:title[1]">
+                                                                    <meta name="010 Quelle"
                                                                         class="staticSearch_feat"
                                                                         content="{.}">
                                                                     </meta>   
@@ -446,7 +459,7 @@
                                                             </xsl:if>                                                            
                                                             <xsl:if test="ancestor::mei:event/mei:date[@isodate]">
                                                                 <xsl:for-each select="ancestor::mei:event/mei:date">
-                                                                    <meta name="010 Zeitraum"
+                                                                    <meta name="011 Zeitraum"
                                                                         class="staticSearch_date"
                                                                         content="{@isodate}">                                                                        
                                                                     </meta>
@@ -622,7 +635,7 @@
                                                                                                                     <xsl:variable name="persUrl" select="tokenize(@corresp, '/')[last()]"/>
                                                                                                                     
                                                                                                                     <li style="margin-top:0;margin-bottom:.2em;">
-                                                                                                                        <a href="personenregister-id-{$persUrl}.html" title=".">
+                                                                                                                        <a href="personenregister-id-{$persUrl}.html">
                                                                                                                             <xsl:apply-templates/>
                                                                                                                         </a>
                                                                                                                         <xsl:text> (</xsl:text>
@@ -714,10 +727,114 @@
                                                                                                 <th style="width:20%">Link zu ANNO (ÖNB)</th>                                                                                                                    
                                                                                                 <td>
                                                                                                     <a target="_blank" href="{./mei:ptr[@label='ANNO-ÖNB']/@target}" title="{./mei:ptr[@label='ANNO-ÖNB']/@label}">
-                                                                                                        <xsl:value-of select="./mei:annot/mei:p[@label='Vollständiger_Nachweis']"/>                                                                                                        
+                                                                                                        <xsl:value-of select="./mei:author"/>                                                                                                        
                                                                                                     </a>
                                                                                                 </td>
                                                                                             </tr>
+                                                                                            
+                                                                                            
+                                                                                            <tr>
+                                                                                                <th style="width:20%">Rubrik</th>  
+                                                                                                
+                                                                                                <xsl:for-each select="./mei:term">
+                                                                                                        <xsl:if test=". = 'Rubrik_1' or . = 'Rubrik_2'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Werkkritik</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                        <xsl:if test=". = 'Rubrik_3' or . = 'Rubrik_8'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Vorankündigung</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                        <xsl:if test=". = 'Rubrik_4'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Werkerwähnung</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                        <xsl:if test=". = 'Rubrik_5'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Anzeigen der Vorlage (Novitäten)</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                        <xsl:if test=". = 'Rubrik_6'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Anzeigen der Vorlage</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                        <xsl:if test=". = 'Rubrik_7'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Anzeigen der Redaktion (Werke)</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                        <xsl:if test=". = 'Rubrik_9'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Brahms als Pianist</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                        <xsl:if test=". = 'Rubrik_10'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Brahms als Dirigent</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                        <xsl:if test=". = 'Rubrik_11'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Brahms als Editor</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                        <xsl:if test=". = 'Rubrik_12' or . = 'Rubrik_13' or . = 'Rubrik_21'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Biographische oder historische Mitteilung</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                        <xsl:if test=". = 'Rubrik_14'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Widmungen an Brahms</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                        <xsl:if test=". = 'Rubrik_15'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Fremde Bearbeitung</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                        <xsl:if test=". = 'Rubrik_16'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Vorlagen für andere Komponisten</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                        <xsl:if test=". = 'Rubrik_20'">
+                                                                                                            <td>
+                                                                                                                <xsl:text>Varia</xsl:text>                                                                                                                           
+                                                                                                            </td>
+                                                                                                        </xsl:if>
+                                                                                                </xsl:for-each>
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                            </tr>
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            <xsl:if test="./mei:author/text()">
+                                                                                            <tr>
+                                                                                                <th style="width:20%">Verfasser</th>                                                                                                                    
+                                                                                                <td>
+                                                                                                    <ul style="padding:0;margin-bottom:0;">
+                                                                                                        <xsl:for-each select="./mei:author">
+                                                                                                            <xsl:variable name="persUrl" select="tokenize(@corresp, '/')[last()]"/>
+                                                                                                            
+                                                                                                            <li style="margin-top:0;margin-bottom:.2em;">
+                                                                                                                <a href="personenregister-id-{$persUrl}.html">
+                                                                                                                    <xsl:apply-templates/>
+                                                                                                                </a>
+                                                                                                            </li>
+                                                                                                        </xsl:for-each>
+                                                                                                    </ul>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            </xsl:if>
+                                                                                            
+                                                                                            
                                                                                             <tr>
                                                                                                 <th style="width:20%">Weitere Informationen</th>
                                                                                                 <td>

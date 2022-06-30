@@ -18,7 +18,7 @@
         <html>
             <head>
                 <xsl:call-template name="html_head">
-                    <xsl:with-param name="html_title" select="'Brahms-Online – Best Brahms Site'"></xsl:with-param>
+                    <xsl:with-param name="html_title" select="'Brahms-Online'"></xsl:with-param>
                 </xsl:call-template>
             </head>  
             
@@ -41,7 +41,7 @@
                                                 style="font-size:18px;color:#444;">Über das Projekt</a>
                                         </button>
                                     </div>
-                                    <div class="col-md-4">
+                                    <!--<div class="col-md-4">
                                         <div class="card">
                                             <div class="card-body">                                        
                                                 <h5>Suche</h5>       
@@ -59,7 +59,7 @@
                                                 </form>                                        
                                             </div>                                                                       
                                         </div>
-                                    </div>                                    
+                                    </div>-->                                    
                                 </div>
                             </div>
                             
