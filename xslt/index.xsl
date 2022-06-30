@@ -17,9 +17,9 @@
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
             <head>
-<!--                <xsl:call-template name="html_head">
+                <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="'Brahms-Online'"></xsl:with-param>
-                </xsl:call-template>-->
+                </xsl:call-template>
             </head>  
             
             <body class="page">
