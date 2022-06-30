@@ -17,9 +17,9 @@
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html>
             <head>
-                <xsl:call-template name="html_head">
+<!--                <xsl:call-template name="html_head">
                     <xsl:with-param name="html_title" select="'Brahms-Online'"></xsl:with-param>
-                </xsl:call-template>
+                </xsl:call-template>-->
             </head>  
             
             <body class="page">
@@ -36,7 +36,7 @@
                                             <h1 style="color:#615a60;padding:.5em;margin:0;">Brahms-Online</h1>
                                             <h4 style="color:#615a60;padding:.2em .5em;margin:0;text-align:left;">Willkommen auf Brahms-online! Hier finden Sie Informationen zur Brahms-Rezeption in Wien 1862-1902.</h4>
                                         </div>                                          
-                                        <button class="btn btn-round" style="margin:1em;text-align:center;">
+                                        <button class="btn btn-round" style="text-align:center;">
                                             <a href="01-ueber-das-projekt.html"
                                                 style="font-size:18px;color:#444;">Über das Projekt</a>
                                         </button>
