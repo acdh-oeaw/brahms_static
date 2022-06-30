@@ -20,6 +20,11 @@ function createDataTable(containerElement, order, pageLength) {
         .appendTo(`#${containerElement} thead`);
 
     var table = $(`#${containerElement}`).DataTable({
+        
+        language: {
+            "url": "https://cdn.datatables.net/plug-ins/1.10.19/i18n/German.json"
+        },
+        
         dom: "'<'row controlwrapper'<'col-sm-4'f><'col-sm-4'i><'col-sm-4 exportbuttons'Br>>'" +
             "'<'row'<'col-sm-12't>>'" +
             "'<'row'<'col-sm-6 offset-sm-6'p>>'",

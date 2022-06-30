@@ -294,6 +294,14 @@
          <notesStmt>
             <annot/>
          </notesStmt>
+         <classification>
+            <termList>
+               <term type="1" label="">Instrumentalwerke</term>
+               <term type="2">Kammermusik</term>
+               <term type="3">Kammermusik mit Klavier</term>
+               <term type="4">Klaviertrios</term>
+            </termList>
+         </classification>
          <expressionList>
             <expression n="1" xml:id="expresssion1_op8">
                <title>Erste Fassung (erschienen 1854)</title>
@@ -713,7 +721,7 @@
                                 <term>Rubrik_90</term>
                                 <genre>article</genre>
                                 <genre>newspaper</genre>
-                                <author/>
+                                <author corresp="../Personenregister-ID/0031">test</author>
                                 <title level="j">Vaterland</title>
                                 <editor/>
                                 <biblScope unit="vol">Jg. 30</biblScope>
