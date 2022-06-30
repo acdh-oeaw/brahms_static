@@ -336,7 +336,7 @@
                                                                     </meta>                                                                                                                     
                                                                 </xsl:for-each>
                                                             </xsl:if>
-                                                            <xsl:if test="ancestor::mei:work/mei:classification">
+                                                            <xsl:if test="ancestor::mei:work/mei:classification/mei:termList/mei:term">
                                                                 <xsl:for-each select="ancestor::mei:work/mei:classification/mei:termList/mei:term[@type='1']">
                                                                     <meta name="004 Gattung"
                                                                         class="staticSearch_feat"
