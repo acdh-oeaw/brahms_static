@@ -735,80 +735,52 @@
                                                                                             
                                                                                             <tr>
                                                                                                 <th style="width:20%">Rubrik</th>  
-                                                                                                
+                                                                                                <td>
                                                                                                 <xsl:for-each select="./mei:term">
                                                                                                         <xsl:if test=". = 'Rubrik_1' or . = 'Rubrik_2'">
-                                                                                                            <td>
                                                                                                                 <xsl:text>Werkkritik</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
-                                                                                                    <xsl:if test=". = 'Rubrik_3' or . = 'Rubrik_8' or . = 'Rubrik_17' or . = 'Rubrik_18' or . = 'Rubrik_80' or . = 'Rubrik_90' or . = 'Rubrik_100'">
-                                                                                                            <td>
+                                                                                                        <xsl:if test=". = 'Rubrik_3' or . = 'Rubrik_8' or . = 'Rubrik_17' or . = 'Rubrik_18' or . = 'Rubrik_80' or . = 'Rubrik_90' or . = 'Rubrik_100'">
                                                                                                                 <xsl:text>Vorankündigung</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
                                                                                                         <xsl:if test=". = 'Rubrik_4'">
-                                                                                                            <td>
                                                                                                                 <xsl:text>Werkerwähnung</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
                                                                                                         <xsl:if test=". = 'Rubrik_5'">
-                                                                                                            <td>
                                                                                                                 <xsl:text>Anzeigen der Vorlage (Novitäten)</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
                                                                                                         <xsl:if test=". = 'Rubrik_6'">
-                                                                                                            <td>
                                                                                                                 <xsl:text>Anzeigen der Vorlage</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
                                                                                                         <xsl:if test=". = 'Rubrik_7'">
-                                                                                                            <td>
                                                                                                                 <xsl:text>Anzeigen der Redaktion (Werke)</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
                                                                                                         <xsl:if test=". = 'Rubrik_9'">
-                                                                                                            <td>
                                                                                                                 <xsl:text>Brahms als Pianist</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
                                                                                                         <xsl:if test=". = 'Rubrik_10'">
-                                                                                                            <td>
                                                                                                                 <xsl:text>Brahms als Dirigent</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
                                                                                                         <xsl:if test=". = 'Rubrik_11'">
-                                                                                                            <td>
                                                                                                                 <xsl:text>Brahms als Editor</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
                                                                                                         <xsl:if test=". = 'Rubrik_12' or . = 'Rubrik_13' or . = 'Rubrik_21'">
-                                                                                                            <td>
                                                                                                                 <xsl:text>Biographische oder historische Mitteilung</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
                                                                                                         <xsl:if test=". = 'Rubrik_14'">
-                                                                                                            <td>
                                                                                                                 <xsl:text>Widmungen an Brahms</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
                                                                                                         <xsl:if test=". = 'Rubrik_15'">
-                                                                                                            <td>
                                                                                                                 <xsl:text>Fremde Bearbeitung</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
                                                                                                         <xsl:if test=". = 'Rubrik_16'">
-                                                                                                            <td>
                                                                                                                 <xsl:text>Vorlagen für andere Komponisten</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
                                                                                                         <xsl:if test=". = 'Rubrik_20'">
-                                                                                                            <td>
                                                                                                                 <xsl:text>Varia</xsl:text>                                                                                                                           
-                                                                                                            </td>
                                                                                                         </xsl:if>
                                                                                                 </xsl:for-each>
-                                                                                                
+                                                                                                </td>
                                                                                                 
                                                                                                 
                                                                                             </tr>
