@@ -338,7 +338,7 @@ class StaticSearch{
 
       //How many keyword in context strings should be included
       //in search results? Default 10.
-      this.maxKwicsToShow = this.getConfigInt('maxKwicsToShow', 10);
+      this.maxKwicsToShow = this.getConfigInt('maxKwicsToShow', 12);
 
       //Result handling object
       this.resultSet = new SSResultSet(this.maxKwicsToShow, this.scrollToTextFragment, this.reKwicTruncateStr);
