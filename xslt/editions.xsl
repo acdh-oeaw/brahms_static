@@ -305,7 +305,8 @@
                                                             <xsl:call-template name="html_head">
                                                                 <xsl:with-param name="html_title" select="$doc_title_3"></xsl:with-param>
                                                             </xsl:call-template>  
-                                                            <xsl:if test="contains(@type, 'Rubrik_3') or contains(@type, 'Rubrik_8') or contains(@type, 'Rubrik_17') or contains(@type, 'Rubrik_18') or contains(@type, 'Rubrik_80') or contains(@type, 'Rubrik_90') or contains(@type, 'Rubrik_100')">
+                                                            <xsl:if test="contains(@type, 'Rubrik_3') or contains(@type, 'Rubrik_8')">
+                                                                <!--or contains(@type, 'Rubrik_17') or contains(@type, 'Rubrik_18') or contains(@type, 'Rubrik_80') or contains(@type, 'Rubrik_90') or contains(@type, 'Rubrik_100')-->
                                                                 <meta name="001 Filter"
                                                                     class="staticSearch_desc"
                                                                     content="Vorankündigung"/>  
@@ -445,7 +446,7 @@
                                                             
                                                             <xsl:if test="./mei:author/text()">
                                                                 <xsl:for-each select="./mei:author">
-                                                                    <meta name="009 Verfasser"
+                                                                    <meta  name="009 Verfasser"
                                                                         class="staticSearch_feat"
                                                                         content="{.}">
                                                                     </meta>                                                                                                                     
