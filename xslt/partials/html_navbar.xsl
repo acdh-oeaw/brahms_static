@@ -26,9 +26,6 @@
                                         <a title="Über das Projekt" href="01-ueber-das-projekt.html" class="nav-link">Über das Projekt</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
-                                        <a title="Wiener Presse" href="02-benutzerhinweise.html" class="nav-link">Benutzerhinweise</a>
-                                    </li>
-                                    <li class="nav-item dropdown-submenu">
                                         <a title="Wiener Presse" href="02-wiener-presse.html" class="nav-link">Wiener Presse</a>
                                     </li>
                                     <li class="nav-item dropdown-submenu">
@@ -40,7 +37,7 @@
                                 </ul>                                
                             </li>
                             <li class="nav-item dropdown">
-                                <a title="Brahmś Wien" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Brahms’ Wien<span class="caret"></span></a>
+                                <a title="Brahms’ Wien" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Brahms’ Wien<span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Brahms in Wien" href="05-brahms-in-wien.html" class="nav-link">Brahms in Wien</a>
@@ -56,6 +53,9 @@
                             <li class="nav-item dropdown">
                                 <a title="Datenbank" href="#" data-toggle="dropdown" class="nav-link dropdown-toggle">Datenbank<span class="caret"></span></a>
                                 <ul class=" dropdown-menu" role="menu">
+                                    <li class="nav-item dropdown-submenu">
+                                        <a title="Wiener Presse" href="02-benutzerhinweise.html" class="nav-link">Benutzerhinweise</a>
+                                    </li>
                                     <li class="nav-item dropdown-submenu">
                                         <a title="Suche" href="search.html" class="nav-link">Suche</a>
                                     </li>
