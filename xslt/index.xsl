@@ -33,7 +33,7 @@
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="main-title">
-                                            <h1 style="color:#615a60;padding:.5em;margin:0;">Brahms-Online</h1>
+                                            <h1 style="color:#615a60;padding:.2em;margin:0;">Brahms-Online</h1>
                                             <h4 style="color:#615a60;padding:.2em .5em;margin:0;text-align:left;">Willkommen auf Brahms-online! Hier finden Sie Informationen zur Brahms-Rezeption in Wien 1862-1902.</h4>
                                         </div>                                          
                                         <button class="btn btn-round" style="text-align:center;">
@@ -41,6 +41,12 @@
                                                 style="font-size:18px;color:#444;">Über das Projekt</a>
                                         </button>
                                     </div>
+                                </div>                                          
+                                <button class="btn btn-round" style="text-align:center;">
+                                    <a href="search.html"
+                                        style="font-size:18px;color:#444;">Zur Datenbank-Suche</a>
+                                </button>
+                            </div>
                                     <!--<div class="col-md-4">
                                         <div class="card">
                                             <div class="card-body">                                        
