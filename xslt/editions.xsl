@@ -316,7 +316,7 @@
                                                                     class="staticSearch_desc"                                                                    
                                                                     content="Rezension"/>  
                                                             </xsl:if>
-                                                            <xsl:if test="contains(@type, 'Rubrik_40') or contains(@type, 'Rubrik_400')">
+                                                            <xsl:if test="contains(@type, 'Rubrik_40')">
                                                                 <meta name="001 Filter"
                                                                     class="staticSearch_desc"
                                                                     content="ohne erschlossene Daten"/>                                                                                                                                                                        
