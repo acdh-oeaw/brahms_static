@@ -28,8 +28,8 @@
                     
                     <div class="container">                        
                         <div class="wrapper" id="wrapper-hero-content">
-                            <div style="background-image: url('images/Startseite_Collage_Logo_ohne_Texte.png')">
-                                <div class="container-fluid-content hero-light" id="wrapper-hero-inner" tabindex="-1">
+                            
+                            <div class="container-fluid-content hero-light" id="wrapper-hero-inner" tabindex="-1">
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="main-title">
@@ -68,10 +68,13 @@
                                     </div>-->                                    
                                 </div>
                             </div>
+                            
                         </div>                      
                     </div>
                     <xsl:call-template name="html_footer"/>
-             </body>
+                </div>
+                
+            </body>
         </html>
     </xsl:template>
     
