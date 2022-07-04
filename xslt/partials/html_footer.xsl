@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6  ml-auto  text-center ">
                         <div class="textwidget custom-html-widget">
-                            <a href="https://oeaw.ac.at/acdh"><img src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" class="image" alt="ACDH Logo" style="max-width: 100%; height: auto;" title="ACDH Logo"/></a>
+                            <a target="_blank" rel="noopener noreferrer" href="https://oeaw.ac.at/acdh"><img src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" class="image" alt="ACDH Logo" style="max-width: 100%; height: auto;" title="ACDH Logo"/></a>
                         </div>
                     </div>
                     <!-- .footer-widget -->
@@ -38,7 +38,7 @@
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://www.oeaw.ac.at/"><img class="card-img-right flex-auto d-md-block" src="images/oeawlogo.png" alt="OEAW Logo" style="max-width: 140px; height: auto;" title="OEAW Logo" /></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://www.oeaw.ac.at/"><img class="card-img-right flex-auto d-md-block" src="images/oeawlogo.png" alt="OEAW Logo" style="max-width: 140px; height: auto;" title="OEAW Logo" /></a>
                                         <!--<div class="card-body d-flex flex-column align-items-start">
                                             <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
                                         </div>-->
@@ -46,7 +46,7 @@
                                 </div>  
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="flex-md-row mb-4 align-items-center">
-                                        <a href="https://www.wien.gv.at/"><img class="card-img-right flex-auto d-md-block" src="images/wienlogo-768x311.png" alt="Stadt Wien Logo" style="max-width: 140px; height: auto;" title="Stadt Wien Logo" /></a>
+                                        <a target="_blank" rel="noopener noreferrer" href="https://www.wien.gv.at/"><img class="card-img-right flex-auto d-md-block" src="images/wienlogo-768x311.png" alt="Stadt Wien Logo" style="max-width: 140px; height: auto;" title="Stadt Wien Logo" /></a>
                                         <!--<div class="card-body d-flex flex-column align-items-start">
                                             <p class="card-text mb-auto">Austrian Center for Digital Humanities and Cultural Heritage</p>
                                         </div>-->
