@@ -26,8 +26,7 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container">
-                        <div style="background-image: url('images\Startseite_Collage_Logo_ohne_Texte.png');">
+                    <div class="container">                        
                         <div class="wrapper" id="wrapper-hero-content">
                             
                             <div class="container-fluid-content hero-light" id="wrapper-hero-inner" tabindex="-1">
@@ -71,7 +70,7 @@
                             </div>
                     <xsl:call-template name="html_footer"/>
                 </div>
-                </div>
+                
             </body>
         </html>
     </xsl:template>
