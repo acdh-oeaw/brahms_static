@@ -732,6 +732,39 @@
                                                                                                     <a target="_blank" href="{./mei:ptr[@label='ANNO-ÖNB']/@target}" title="{./mei:ptr[@label='ANNO-ÖNB']/@label}">
                                                                                                         <xsl:value-of select="./mei:annot/mei:p[@label='Vollständiger_Nachweis']"/>                                                                                                        
                                                                                                     </a>
+                                                                                                  
+                                                                                                    <xsl:choose>
+                                                                                                        <xsl:when test="count(./mei:term) = 1">
+                                                                                                            <tr>
+                                                                                                                <th style="width:20%">Rubrik(en)</th>
+                                                                                                                <td>
+                                                                                                                    <xsl:value-of select="./mei:term"/>
+                                                                                                                    <!--Dieses if-Statement erzeugt am Ende der Rubrik einen Punkt, kannste auch löschen-->
+                                                                                                                    <!--<xsl:if test="position() = last()">
+                                                                                                                        <xsl:text>.</xsl:text>
+                                                                                                                    </xsl:if>-->
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                        </xsl:when>
+                                                                                                        <xsl:when test="count(./mei:term) &gt; 1">
+                                                                                                            <tr>
+                                                                                                                <!--Ich habe Rubrik(en) insgesamt als Wert genommen, weil sonst bei den Vorankündigungen nur ein Wert ausgegeben wird, aber das Label im Plural dastünde-->
+                                                                                                                <th style="width:20%">Rubrik(en)</th>
+                                                                                                                <td>
+                                                                                                                    <xsl:for-each-group select="./mei:term" group-by="./text()">
+                                                                                                                        <xsl:value-of select="."/>
+                                                                                                                        <xsl:if test="position() != last()">
+                                                                                                                            <xsl:text>, </xsl:text>
+                                                                                                                        </xsl:if>
+                                                                                                                        <!--Dieses if-Statement erzeugt am Ende der Rubrik einen Punkt, kannste auch löschen-->
+                                                                                                                        <!--<xsl:if test="position() = last()">
+                                                                                                                            <xsl:text>.</xsl:text>
+                                                                                                                        </xsl:if>-->
+                                                                                                                    </xsl:for-each-group>
+                                                                                                                </td>
+                                                                                                            </tr>
+                                                                                                        </xsl:when>
+                                                                                                    </xsl:choose>
                                                                                                 </td>
                                                                                             </tr>
                                                                                             
