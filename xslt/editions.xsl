@@ -768,8 +768,7 @@
                                                                                                 </td>
                                                                                             </tr>
                                                                                             
-                                                                                            
-                                                                                            <tr>
+                                                                                           <!-- <tr>
                                                                                                 <th style="width:20%">Rubrik</th>  
                                                                                                 <td>
                                                                                                 <xsl:for-each select="./mei:term">
@@ -817,10 +816,7 @@
                                                                                                         </xsl:if>
                                                                                                 </xsl:for-each>
                                                                                                 </td>
-                                                                                                
-                                                                                                
-                                                                                            </tr>
-                                                                                            
+                                                                                            </tr> -->
                                                                                             
                                                                                             
                                                                                             <xsl:if test="./mei:author/text()">
