@@ -15,3 +15,6 @@ cp ./static_search_customized/makeSearchPage_custom.xsl ./static-search/xsl/make
 
 echo "copy/replace custom StaticSearch.js"
 cp ./static_search_customized/StaticSearch_custom.js ./static-search/js/StaticSearch.js
+
+echo "copy/replace custom SSResultSet.js"
+cp ./static_search_customized/SSResultSet_custom.js ./static-search/js/SSResultSet.js

@@ -20,7 +20,7 @@
                 </xsl:call-template>
             </head>  
             
-            <body class="page" onload="updateFilters()">
+            <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     

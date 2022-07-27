@@ -514,7 +514,6 @@
                                                                         <xsl:if test="not(ancestor::mei:expression)">
                                                                             <xsl:value-of select="./mei:relatedItem[@rel='host']/mei:bibl/mei:title"/>
                                                                         </xsl:if>
-                                                                        <xsl:text>ssEnd</xsl:text>
                                                                         <xsl:text> ssStart </xsl:text>   
                                                                         <xsl:if test="./mei:persName[1]/text()">
                                                                             <xsl:value-of select="./mei:persName[1]"/>                                                                            
@@ -565,12 +564,10 @@
                                                                             
                                                                         </xsl:otherwise>
                                                                     </xsl:choose>                                                                    
-                                                                    <xsl:text> ssEnd</xsl:text>  
-                                                                    <xsl:text> ssStart </xsl:text>  
+                                                                    <xsl:text> ssStart </xsl:text>
                                                                     <xsl:if test="./mei:annot/mei:p[@label='Vollständiger_Nachweis']/text()">
                                                                         <xsl:value-of select="./mei:annot/mei:p[@label='Vollständiger_Nachweis']"/>
-                                                                    </xsl:if>                                                                  
-                                                                    <xsl:text> ssEnd</xsl:text>  
+                                                                    </xsl:if>
                                                                 </xsl:attribute>
                                                             </meta>
                                                         </head>

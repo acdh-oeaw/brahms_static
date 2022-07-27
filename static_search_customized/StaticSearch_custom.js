@@ -1610,6 +1610,7 @@ if (this.discardedTerms.length > 0){
         } else {
           // Otherwise, render the results, optionally paginated.
           this.resultsDiv.appendChild(this.resultSet.resultsAsHtml(this.captionSet.strScore));
+          console.log(this.resultSet.resultsAsHtml(this.captionSet.strScore));
           if (this.resultsPerPage > 0 && this.resultsPerPage < this.resultSet.getSize()){
             this.paginateResults();
           }
@@ -1883,6 +1884,7 @@ if (this.discardedTerms.length > 0){
       } else {
         // Otherwise, render the results, optionally paginated.
         this.resultsDiv.appendChild(this.resultSet.resultsAsHtml(this.captionSet.strScore));
+        console.log(this.resultSet.resultsAsHtml(this.captionSet.strScore));
         if (this.resultsPerPage > 0 && this.resultsPerPage < this.resultSet.getSize()){
           this.paginateResults();
         }
