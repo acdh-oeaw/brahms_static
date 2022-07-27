@@ -1,3 +1,5 @@
+window.onload = updateFilters();
+
 function updateFilters() {
     var legend = $( ".ssDateFilters fieldset legend" );
     legend.each( function ( item ) {
@@ -73,50 +75,30 @@ function updateFilters() {
     `)
 }
 
-$("#ssDoSearch, #ssDoSearch2").click( function() {
-    setTimeout(function() {
-        var result = $("#ssResults ul li div a");
-        result.each( function( item ) {
-            $this = $( this );
-            var resultUpdate = $this.text();
-            // console.log(resultUpdate);
-            var update = resultUpdate
-            .replace("ssStart", `<div class='ssResultUpdate1'>`)
-            .replace("ssEnd", `</div>`)
-            .replace("ssStart", `<div class='ssResultUpdate2'>`)
-            .replace("ssEnd", `</div>`)
-            .replace("ssStart", `<div class='ssResultUpdate3'>`)
-            .replace("ssEnd", `</div>`);
-            $this.text("");
-            $this.append( update );
-            // console.log(update);
-        });
-        
-    }, 500);    
-});
+// $("#ssDoSearch, #ssDoSearch2").click( function() {
+//     backwardstate();
+// });
 
-$( window ).on("load", function() {
-    setTimeout(function() {
-        var result = $("#ssResults ul li div a");
-        result.each( function( item ) {
-            $this = $( this );
-            var resultUpdate = $this.text();
-            // console.log(resultUpdate);
-            var update = resultUpdate
-            .replace("ssStart", `<div class='ssResultUpdate1'>`)
-            .replace("ssEnd", `</div>`)
-            .replace("ssStart", `<div class='ssResultUpdate2'>`)
-            .replace("ssEnd", `</div>`)
-            .replace("ssStart", `<div class='ssResultUpdate3'>`)
-            .replace("ssEnd", `</div>`);
-            $this.text("");
-            $this.append( update );
-            // console.log(update);
-        });
+// function backwardstate() {
+//     setTimeout(function() {
+//         var result = document.querySelectorAll("#ssResults ul li div a");
+//         result.forEach((el) => {
+//             var resultUpdate = el.innerHTML;
+//             // console.log(resultUpdate);
+//             var update = resultUpdate
+//             .replace("ssStart", `<div class='ssResultUpdate1'>`)
+//             .replace("ssEnd", `</div>`)
+//             .replace("ssStart", `<div class='ssResultUpdate2'>`)
+//             .replace("ssEnd", `</div>`)
+//             .replace("ssStart", `<div class='ssResultUpdate3'>`)
+//             .replace("ssEnd", `</div>`);
+//             el.innerHTML = "";
+//             el.innerHTML = update;
+//             // console.log(update);
+//         });
         
-    }, 500);    
-});
-
+//     }, 500);   
+// }
 
 function getLegendText( input ) {
     var legend = input.text();

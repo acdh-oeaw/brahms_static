@@ -1792,6 +1792,7 @@ if (this.discardedTerms.length > 0){
         } else {
           // Otherwise, render the results, optionally paginated.
           this.resultsDiv.appendChild(this.resultSet.resultsAsHtml(this.captionSet.strScore));
+          console.log(this.resultSet.resultsAsHtml(this.captionSet.strScore));
           if (this.resultsPerPage > 0 && this.resultsPerPage < this.resultSet.getSize()){
             this.paginateResults();
           }
@@ -2065,6 +2066,7 @@ if (this.discardedTerms.length > 0){
       } else {
         // Otherwise, render the results, optionally paginated.
         this.resultsDiv.appendChild(this.resultSet.resultsAsHtml(this.captionSet.strScore));
+        console.log(this.resultSet.resultsAsHtml(this.captionSet.strScore));
         if (this.resultsPerPage > 0 && this.resultsPerPage < this.resultSet.getSize()){
           this.paginateResults();
         }
@@ -2597,6 +2599,18 @@ class SSResultSet{
       let li = document.createElement('li');
       let d = document.createElement('div');
       let docTitle = this.getTitleByDocId(value.docUri);
+      // DanielStx: instead of created titles as links only 
+      // the titles are splitted by a keyword and seperated into three divs
+      let _docTitle = docTitle.split('ssStart');
+      let _div = document.createElement('div');
+      _div.setAttribute('class', 'updatedResult');      
+      _docTitle.forEach((el, idx) => {
+        let _divInner = document.createElement('div');
+        _divInner.setAttribute('class', `ssResultUpdate${idx}`);
+        let text = document.createTextNode(el);
+        _divInner.appendChild(text);
+        _div.appendChild(_divInner);
+      });
       let imgPath = this.getThumbnailByDocId(value.docUri);
       //If there is a docImage, include it.
       if (imgPath.length > 0){
@@ -2611,8 +2625,8 @@ class SSResultSet{
       }
       let a = document.createElement('a');
       a.setAttribute('href', value.docUri);
-      let t = document.createTextNode(docTitle);
-      a.appendChild(t);
+      // let t = document.createTextNode(docTitle);
+      a.appendChild(_div);
       d.appendChild(a);
 
       if (value.score > 0){
