@@ -530,7 +530,7 @@ div#ssResults {
 fieldset {
     margin: 0;
     padding: 0;
-    
+    vertical-align: top;
 }
 
 fieldset legend {
