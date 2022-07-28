@@ -18,3 +18,6 @@ cp ./static_search_customized/StaticSearch_custom.js ./static-search/js/StaticSe
 
 echo "copy/replace custom SSResultSet.js"
 cp ./static_search_customized/SSResultSet_custom.js ./static-search/js/SSResultSet.js
+
+echo "copy/replace custom SSTypeAhead.js"
+cp ./static_search_customized/SSTypeAhead_custom.js ./static-search/js/SSTypeAhead.js

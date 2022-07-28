@@ -308,7 +308,7 @@
                                     <xsl:variable name="filterId" select="$jsonDoc//j:string[@key='filterId']"/>
                                     
                                     <!--And now create the fieldset and legend-->
-                                    <fieldset class="ssFieldset" title="{$filterName}" id="{$filterId}">
+                                    <fieldset class="ssFieldset simpleFilter1" title="{$filterName}" id="{$filterId}">
                                         <legend><xsl:value-of select="$filterName"/></legend>
                                         
                                         <!--And create a ul from each of the embedded maps-->
@@ -375,12 +375,14 @@
                           <!--And its name and id -->
                           <xsl:variable name="filterName" select="$jsonDoc//j:string[@key='filterName']"/>
                           <xsl:variable name="filterId" select="$jsonDoc//j:string[@key='filterId']"/>
-                          
+
+                          <xsl:variable name="style" select="'display:inline;width:49.5%;'"/>
+
                           <!--And now create the fieldset and legend-->
-                          <fieldset class="ssFieldset" title="{$filterName}" id="{$filterId}">
-                            <legend><xsl:value-of select="$filterName"/></legend>
+                          <fieldset style="{if(contains($filterName, '006') or contains($filterName, '007')) then($style) else()}" class="ssFieldset fade ssDropdownFilter simpleFilter3" title="{$filterName}" id="{$filterId}">
+                            <legend style="margin-bottom:-2em;"><xsl:value-of select="$filterName"/></legend>
                               <!--And create a simple text box for the feature.-->
-                              <input type="text" title="{$filterName}" placeholder="{hcmc:getCaption('ssStartTyping', $captionLang)}" 
+                              <input style="margin-left:18em;" type="text" title="{$filterName}" placeholder="{hcmc:getCaption('ssStartTyping', $captionLang)}" 
                                   class="staticSearch.feat staticSearch_feat"/>
                               <!--<div class="dropdownFilter_feat"> 
                                   <select class="custom-select"
@@ -457,7 +459,7 @@
                                     <xsl:variable name="maxDate" as="xs:date" 
                                         select="max((for $d in $jsonDoc//j:string[1][matches(., $dateRegex)] return hcmc:normalizeDateString($d, false())))"/>
                                     
-                                    <fieldset class="ssFieldset" title="{$filterName}" id="{$filterId}">
+                                    <fieldset class="ssFieldset simpleFilter2" title="{$filterName}" id="{$filterId}">
                                         <!--And add the filter name as the legend-->
                                         <legend><xsl:value-of select="$filterName"/></legend>
                                         <span>

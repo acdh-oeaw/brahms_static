@@ -468,7 +468,7 @@
                                                                     </meta>
                                                                     <meta name="docSortKey" class="staticSearch_docSortKey">
                                                                         <xsl:attribute name="content">
-                                                                            <xsl:value-of select="tokenize(@isodate, '-')[1]"/>                                                                                                
+                                                                            <xsl:value-of select="replace(@isodate, '-', '')"/>                                                                                                
                                                                         </xsl:attribute>
                                                                     </meta>
                                                                 </xsl:for-each>                                                                                                                
@@ -481,7 +481,7 @@
                                                                     </meta>
                                                                     <meta name="docSortKey" class="staticSearch_docSortKey">
                                                                         <xsl:attribute name="content">
-                                                                            <xsl:value-of select="1900"/>                                                                                                
+                                                                            <xsl:value-of select="19000101"/>                                                                                                
                                                                         </xsl:attribute>
                                                                     </meta>
                                                                 </xsl:for-each>                                                                                                                
