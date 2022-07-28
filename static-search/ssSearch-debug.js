@@ -340,7 +340,6 @@ class StaticSearch{
       this.boolFilterSelects =
            Array.from(document.querySelectorAll("select.staticSearch_bool"));
 
-
       //Feature filters will eventually have checkboxes, but they don't yet.
       this.featFilterCheckboxes = [];
       //However they do have inputs.
@@ -1191,7 +1190,25 @@ class StaticSearch{
         Array.from(document.querySelectorAll("input[type='checkbox'].staticSearch_feat"));
       for (let cbx of this.featFilterCheckboxes){
         cbx.checked = false;
-      }  
+        // Dstx: removes el completely
+        cbx.remove();
+      }
+      // Dstx: removes input text from featFilters
+      for (let txt of this.featFilterInputs){
+        txt.value = '';
+      }
+      //Dstx: suggested menu options
+      this.menuFeatFilter = 
+        Array.from(document.querySelectorAll("menu div"));
+      for (let div of this.menuFeatFilter){
+        div.remove();
+      }
+      //Dstx: suggested boxes options
+      this.suggestedFeatFilter = 
+        Array.from(document.querySelectorAll("div.ssSuggest span"));
+      for (let span of this.suggestedFeatFilter){
+        span.remove();
+      }
       for (let txt of this.dateFilterTextboxes){
         txt.value = '';
       }
