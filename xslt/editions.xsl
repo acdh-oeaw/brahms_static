@@ -304,7 +304,7 @@
                                                         <head>
                                                             <xsl:call-template name="html_head">
                                                                 <xsl:with-param name="html_title" select="$doc_title_3"></xsl:with-param>
-                                                            </xsl:call-template>  
+                                                            </xsl:call-template>                                                            
                                                             <xsl:if test="contains(@type, 'Rubrik_3') or contains(@type, 'Rubrik_8')">
                                                                 <!--or contains(@type, 'Rubrik_17') or contains(@type, 'Rubrik_18') or contains(@type, 'Rubrik_80') or contains(@type, 'Rubrik_90') or contains(@type, 'Rubrik_100')-->
                                                                 <meta name="001 Filter"
@@ -466,8 +466,26 @@
                                                                         class="staticSearch_date"
                                                                         content="{@isodate}">                                                                        
                                                                     </meta>
+                                                                    <meta name="docSortKey" class="staticSearch_docSortKey">
+                                                                        <xsl:attribute name="content">
+                                                                            <xsl:value-of select="tokenize(@isodate, '-')[1]"/>                                                                                                
+                                                                        </xsl:attribute>
+                                                                    </meta>
                                                                 </xsl:for-each>                                                                                                                
                                                             </xsl:if>
+                                                            <xsl:if test="not(ancestor::mei:event/mei:date[@isodate])">
+                                                                <xsl:for-each select="ancestor::mei:event/mei:date">
+                                                                    <meta name="011 Zeitraum"
+                                                                        class="staticSearch_date"
+                                                                        content="1900">                                                                        
+                                                                    </meta>
+                                                                    <meta name="docSortKey" class="staticSearch_docSortKey">
+                                                                        <xsl:attribute name="content">
+                                                                            <xsl:value-of select="1900"/>                                                                                                
+                                                                        </xsl:attribute>
+                                                                    </meta>
+                                                                </xsl:for-each>                                                                                                                
+                                                            </xsl:if>   
                                                             <meta name="docTitle" class="staticSearch_docTitle">
                                                                 <xsl:attribute name="content">
                                                                     <xsl:for-each select="ancestor::mei:event">  

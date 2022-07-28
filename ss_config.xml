@@ -5,11 +5,12 @@
         <recurse>false</recurse>
         <linkToFragmentId>false</linkToFragmentId>
         <scrollToTextFragment>false</scrollToTextFragment>
-        <phrasalSearch>true</phrasalSearch>
+        <phrasalSearch>false</phrasalSearch>
         <wildcardSearch>true</wildcardSearch>
-        <createContexts>false</createContexts>
+        <createContexts>true</createContexts>
         <resultsPerPage>10</resultsPerPage>
-        <minWordLength>3</minWordLength>
+        <minWordLength>2</minWordLength>
+        <scoringAlgorithm>tf-idf</scoringAlgorithm>
         <!--NOTE: If phrasalSearch is set to TRUE, then
         maxContexts prop will be ignored-->
         <maxKwicsToHarvest>5</maxKwicsToHarvest>
