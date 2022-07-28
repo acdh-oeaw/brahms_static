@@ -640,7 +640,7 @@ class StaticSearch{
       try{
         //Now we set up the control as a typeahead.
         let filterData = this.mapFilterData.get(filterName);
-        this.mapFeatFilters.set(filterName, new SSTypeAhead(featFilter, filterData, filterName, 1)); //this.minWordLength
+        this.mapFeatFilters.set(filterName, new SSTypeAhead(featFilter, filterData, filterName, this.minWordLength));
         //Re-enable it.
         let inp = featFilter.querySelector('input');
         inp.disabled = false;
@@ -2570,7 +2570,8 @@ class SSResultSet{
       let s = this.mapDocs.size;
       //this.mapDocs = new Map([...this.mapDocs.entries()].sort((a, b) => b[1].score - a[1].score));
       this.mapDocs = new Map([...this.mapDocs.entries()].sort(function(a, b){
-        let x = b[1].score - a[1].score; 
+        // DaStx: changed a b[1].score to .sortKey 
+        let x = b[1].sortKey - a[1].sortKey; 
         return (x == 0)? a[1].sortKey.localeCompare(b[1].sortKey) : x; 
       })); 
       return (s === this.mapDocs.size);
