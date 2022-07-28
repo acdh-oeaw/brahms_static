@@ -2986,6 +2986,7 @@ class SSResultSet{
       }*/
       //New approach from JT for more speed.
       // JT added new map approach
+      let _d = document.createElement('div'); //DStx: created
       this.filterMap.forEach((id, name) => {
         if (name.match(re) && this.reId.test(id)){
             let d = document.createElement('div');
@@ -2996,10 +2997,26 @@ class SSResultSet{
             d.setAttribute('tabindex', '0');
             d.addEventListener('click', function(e){this.select(e);}.bind(this));
             d.addEventListener('keydown', function(e){this.keyOnSelection(e);}.bind(this));
-            this.menu.appendChild(d); 
+            _d.appendChild(d); //DStx: added to _div instead of this.menu
         }
       });
-    }
+      // DStx: added sorting to suggestions
+      let sorted_menu = _d.childNodes;
+      var itemsArr = [];
+      for (var i in sorted_menu) {
+          if (sorted_menu[i].nodeType == 1) { // get rid of the whitespace text nodes
+              itemsArr.push(sorted_menu[i]);
+          }
+      }
+      itemsArr.sort(function(a, b) {
+        return a.innerHTML == b.innerHTML
+                ? 0
+                : (a.innerHTML > b.innerHTML ? 1 : -1);
+      });
+      for (i = 0; i < itemsArr.length; ++i) {
+        this.menu.appendChild(itemsArr[i]);
+      }
+      }
     finally{
       this.populating = false;
     }

@@ -5,7 +5,7 @@ function updateFilters() {
     legend.each( function ( item ) {
         var $this = $( this );
         $("#ssForm").find(".ssQueryAndButton").after(
-            getFieldset( $this, "simpleFilter2" )
+            getFieldset( $this )
         );
         $this.remove();
         // var text = getLegendText( $this );
@@ -33,7 +33,7 @@ function updateFilters() {
         if ( index != 0 ) {
             // console.log( index );
             var $this = $( this );
-            $this.addClass("fade ssDropdownFilter");
+            // $this.addClass("fade ssDropdownFilter");
             var text = getLegendText( $this );
             $this.text("");
             $this.append( `<div class="ltext">${text}</div>` );
@@ -57,7 +57,7 @@ function updateFilters() {
             var $this = $( this );
             // ssForm is a staticSearch id for the html form elements
             $("#ssForm").find(".ssQueryAndButton").after(
-                getFieldset( $this, "simpleFilter1" )
+                getFieldset( $this )
             );
             $this.remove();
         }
@@ -66,8 +66,9 @@ function updateFilters() {
     legend.each( function( index ) {
         // console.log( index );
         var $this = $( this );
-        var fieldset = getFieldset( $this, "simpleFilter3" );
-        fieldset.addClass("fade ssDropdownFilter");
+        var text = getLegendText( $this );
+        $this.text("");
+        $this.append(text);
     });
     var clearButton = $("#ssForm .clearButton");
     clearButton.append(`
@@ -102,6 +103,7 @@ function updateFilters() {
 
 function getLegendText( input ) {
     var legend = input.text();
+    var legend = legend.replace(/\d+\s/, '');
     return legend;
 }
 
@@ -119,9 +121,8 @@ function getFieldsetspan( input ) {
     return span;
 }
 
-function getFieldset( input, classIn ) {
+function getFieldset( input ) {
     var fieldset = input.parent();
-    fieldset.addClass(classIn);
     return fieldset;
 }
 
