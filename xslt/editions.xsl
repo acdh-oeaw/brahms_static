@@ -39,7 +39,7 @@
                         </div>
                         <div class="card">
                             <div class="card-header">
-                                <h1 style="width:5%;display:inline-block;">                                                                                        
+                                <h1 style="width:5%;display:inline-block;text-align: left;">                                                                                        
                                     <a href="toc.html">
                                         <svg xmlns="http://www.w3.org/2000/svg" 
                                             width="24" 
@@ -54,15 +54,14 @@
                                         </svg>
                                     </a>
                                 </h1>  
-                                <h1 style="width:90%;display:inline-block;">
+                                <h1 style="width:94.5%;display:inline-block;text-align: left;">
                                     <xsl:value-of select="concat(
                                     $doc_title,
                                     ' ',
                                     //mei:workList/mei:work/mei:identifier[1][@label='Opus-Nummer'])"/>
                                 </h1>   
                                 <xsl:if test="//mei:expressionList or //mei:perfResList or //mei:componentList">  
-                                    <div class="text-center"
-                                         style="margin-top: 2em;">
+                                    <div style="margin-top: 2em; text-align: left; margin-left: 5.5%;">
                                         <xsl:if test="//mei:expression">
                                             <xsl:for-each select="//mei:title[parent::mei:expression]">                                                
                                                 <h6>
@@ -71,16 +70,15 @@
                                             </xsl:for-each> 
                                         </xsl:if>
                                     </div>
-                                    <div class="table-responsive">
-                                        <table class="table">                                                                                                                                  
+                                    <div style="margin-left: 5.5%;text-align: left;">
+                                        <table class="table" style="width:auto !important;">                                                                                                                                  
                                             <xsl:if test="//mei:perfResList">
                                                 <tr>
-                                                    <th class="text-right" 
-                                                        style="border-top:none;width:50%;">
+                                                    <th style="border-top:none;padding:0 .75em .75em 0;">
                                                         Besetzung
                                                     </th>
                                                     <td class="text-left" 
-                                                        style="border-top:none;">
+                                                        style="border-top:none;padding:0 0 .75em .75em;">
                                                         <xsl:for-each select="//mei:perfResList">
                                                             <ul style="padding:0;margin-bottom:0;">
                                                                 <xsl:for-each select="./mei:perfResList/mei:perfRes">
@@ -95,12 +93,10 @@
                                             </xsl:if>
                                             <xsl:if test="//mei:componentList">
                                                 <tr>
-                                                    <th class="text-right"
-                                                        style="border-top:none;width:50%;">
+                                                    <th style="border-top:none;padding:0 .75em .75em 0;">
                                                         Nummern
                                                     </th>
-                                                    <td class="text-left"
-                                                        style="border-top:none;">
+                                                    <td style="border-top:none;padding:0 0 .75em .75em;">
                                                         <xsl:for-each select="//mei:componentList">
                                                             <ul style="padding:0;margin-bottom:0;">
                                                                 <xsl:for-each select="./mei:work">    
