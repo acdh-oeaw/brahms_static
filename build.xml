@@ -43,6 +43,9 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt> -->
+    <delete>
+        <fileset dir="${target}" includes="03-01-Zeitungen-detail.html"/>
+    </delete>
     <copy todir="${target}" flatten="true">
         <fileset dir="data/editions">
             <include name="*.xml"/>
