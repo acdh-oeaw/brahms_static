@@ -23,51 +23,36 @@
             </head>  
             
             <body class="page">
-                <div class="hfeed site" id="page">
+                <div class="hfeed site" id="page" style="padding:0!important;">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container">                        
-                        <div class="wrapper" id="wrapper-hero-content">
+                    <div class="container" style="max-width:100%;padding:0!important;">                        
+                        <div class="wrapper" id="wrapper-hero-content" style="background-image: url('images/Startseite_Collage_Logo_ohne_Texte_1920.png');">
                             
                             <div class="container-fluid-content hero-light" id="wrapper-hero-inner" tabindex="-1">
                                 <div class="row">
-                                    <div class="col-md-8">
+                                    <div class="col-md-8" style="padding: 0 0 0 4em;">
                                         <div class="main-title">
-                                            <h1 style="color:#615a60;padding:.2em;margin:0;">Brahms-Online</h1>
-                                            <h4 style="color:#615a60;padding:.2em .5em;margin:0;text-align:left;">Willkommen auf Brahms-online! Hier finden Sie Informationen zur Brahms-Rezeption in Wien 1862-1902.</h4>
+                                            <!--<h1 style="color:#615a60;padding:.2em;margin:0;">Brahms-Online</h1>-->
+                                            <h3 style="color:#000;padding:.2em .5em;margin:0;text-align:left;">
+                                                Willkommen auf Brahms-online! <br/> 
+                                                Hier finden Sie Informationen zur Brahms-Rezeption in Wien 1862-1902.
+                                            </h3>
                                         </div>                                          
-                                        <button class="btn btn-round" style="text-align:center;">
-                                            <a href="01-ueber-das-projekt.html"
-                                                style="font-size:18px;color:#444;">Über das Projekt</a>
+                                        <button class="btn btn-round" style="padding: 1em;margin:1em;">
+                                            <a href="01-ueber-das-projekt.html" style="font-size:22px;color:#000;">Über das Projekt</a>
+                                        </button>
+                                        <button class="btn btn-round" style="padding: 1em;margin:1em;">
+                                            <a href="search.html" style="font-size:22px;color:#000;">Zur Datenbank-Suche</a>
                                         </button>
                                     </div>
                                 </div>                                          
-                                <button class="btn btn-round" style="text-align:center;">
-                                    <a href="search.html"
-                                        style="font-size:18px;color:#444;">Zur Datenbank-Suche</a>
-                                </button>
-                            </div>
-                                    <!--<div class="col-md-4">
-                                        <div class="card">
-                                            <div class="card-body">                                        
-                                                <h5>Suche</h5>       
-                                                <p style="margin-bottom:.5em;">Durchsuchen Sie die Datenbank über diverse Suchfunktionen:</p>
-                                                <form class="form-inline my-2 my-lg-0 navbar-search-form"
-                                                    method="get"
-                                                    action="search.html"
-                                                    role="search">
-                                                    <input class="form-control navbar-search" id="s" name="q" type="text" placeholder="Search" value="" autocomplete="off" />
-                                                    <button type="submit" class="navbar-search-icon">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                                                        </svg>
-                                                    </button>
-                                                </form>                                        
-                                            </div>                                                                       
-                                        </div>
-                                    </div>-->                                    
+                                <div class="quote-box">
+                                    <p>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam."</p>
                                 </div>
-                            </div>
+                            </div>                                  
+                        </div>
+                    </div>
                     <xsl:call-template name="html_footer"/>
                 </div>
                 
