@@ -13,7 +13,7 @@
       <link rel="stylesheet" href="css/style.css" type="text/css" />
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://unpkg.com/arche-api@1.2.1/lib/arche-api.min.js"></script></head>
    <body class="page">
-      <div class="hfeed site" id="page">
+      <div class="hfeed site" id="page" style="padding:0!important;">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="images/Logo_Farbe_58bcc1_Transp-1-e1627912863339.png" class="img-fluid" title="Brahms Online" alt="Brahms Online" itemprop="logo" /></a><span style="margin-left:-1.7em;" class="badge bg-light text-dark">in development</span><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                      <ul id="main-menu" class="navbar-nav" style="margin-right:0!important;">
@@ -47,17 +47,23 @@
                </div>
             </nav>
          </div>
-         <div class="container">
-            <div class="wrapper" id="wrapper-hero-content">
+         <div class="container" style="max-width:100%;padding:0!important;">
+            <div class="wrapper" id="wrapper-hero-content" style="background-image: url('images/Startseite_Collage_Logo_ohne_Texte_1920.png');">
                <div class="container-fluid-content hero-light" id="wrapper-hero-inner" tabindex="-1">
                   <div class="row">
-                     <div class="col-md-8">
+                     <div class="col-md-8" style="padding: 0 0 0 4em;">
                         <div class="main-title">
-                           <h1 style="color:#615a60;padding:.2em;margin:0;">Brahms-Online</h1>
-                           <h4 style="color:#615a60;padding:.2em .5em;margin:0;text-align:left;">Willkommen auf Brahms-online! Hier finden Sie Informationen zur Brahms-Rezeption in
-                              Wien 1862-1902.</h4>
-                        </div><button class="btn btn-round" style="text-align:center;"><a href="01-ueber-das-projekt.html" style="font-size:18px;color:#444;">Über das Projekt</a></button></div>
-                  </div><button class="btn btn-round" style="text-align:center;"><a href="search.html" style="font-size:18px;color:#444;">Zur Datenbank-Suche</a></button></div>
+                           <h3 style="color:#000;padding:.2em .5em;margin:0;text-align:left;">
+                              Willkommen auf Brahms-online! <br /> 
+                              Hier finden Sie Informationen zur Brahms-Rezeption in Wien 1862-1902.
+                              </h3>
+                        </div><button class="btn btn-round" style="padding: 1em;margin:1em;"><a href="01-ueber-das-projekt.html" style="font-size:22px;color:#000;">Über das Projekt</a></button><button class="btn btn-round" style="padding: 1em;margin:1em;"><a href="search.html" style="font-size:22px;color:#000;">Zur Datenbank-Suche</a></button></div>
+                  </div>
+                  <div class="quote-box">
+                     <p>"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                        invidunt ut labore et dolore magna aliquyam."</p>
+                  </div>
+               </div>
             </div>
          </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
