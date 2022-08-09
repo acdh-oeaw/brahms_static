@@ -27,28 +27,25 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
-                    <div class="container-fluid">                        
-                        <div class="card">
-                                                          
-                            <xsl:if test="contains($doc_title, 'Rezensenten')">
-                                <div class="card-body">  
-                                    <h1 style="margin-bottom:1em;"><xsl:value-of select="$doc_title"/></h1>
-                                    <ul style="text-align:center;margin:0 auto;">
-                                        <xsl:for-each select="//tei:body/tei:div/tei:div">
-                                            <li style="display:inline;margin-right:.5em;">
-                                                <a href="#{@xml:id}">
-                                                    <xsl:value-of select="tokenize(./tei:head , '\s')[last()]"/>
-                                                </a>                                                
-                                            </li>
-                                        </xsl:for-each>
-                                    </ul>          
-                                </div>
-                            </xsl:if>                                
-                            
-                            <div class="card-body">                                
-                                <xsl:apply-templates select=".//tei:body"/>
+                    <div class="container-fluid" style="margin: 2em auto;">                        
+                             
+                        <xsl:if test="contains($doc_title, 'Rezensenten')">
+                            <div class="card-body">  
+                                <h1 style="margin-bottom:1em;"><xsl:value-of select="$doc_title"/></h1>
+                                <ul style="text-align:center;margin:0 auto;">
+                                    <xsl:for-each select="//tei:body/tei:div/tei:div">
+                                        <li style="display:inline;margin-right:.5em;">
+                                            <a href="#{@xml:id}">
+                                                <xsl:value-of select="tokenize(./tei:head , '\s')[last()]"/>
+                                            </a>                                                
+                                        </li>
+                                    </xsl:for-each>
+                                </ul>          
                             </div>
-                        </div>                       
+                        </xsl:if>                                
+                       
+                         <xsl:apply-templates select=".//tei:body"/>
+                                                      
                     </div>
                     <xsl:call-template name="html_footer"/>
                 </div>
@@ -65,9 +62,9 @@
         </html>
     </xsl:template>
     
-    <xsl:template match="xi:include[concat('../data/meta/', @href)][@parse='xml' or not(@parse)][unparsed-text-available(concat('../data/meta/', @href))]">
+    <!--<xsl:template match="xi:include[concat('../data/meta/', @href)][@parse='xml' or not(@parse)][unparsed-text-available(concat('../data/meta/', @href))]">
         <xsl:apply-templates select="document(concat('../data/meta/', @href))//tei:body" />
-    </xsl:template>
+    </xsl:template>-->
     <xsl:template match="tei:p">
         <xsl:choose>
             <xsl:when test="@rend='quote'">
@@ -122,11 +119,36 @@
         </h2>        
     </xsl:template> 
     <xsl:template match="tei:list">
-        <ul>
-            <xsl:for-each select="./tei:item">
-                <li style="list-style:circle;"><xsl:apply-templates/></li>
-            </xsl:for-each>            
-        </ul>
+        <xsl:choose>
+            <xsl:when test="ancestor::tei:div/@xml:id = 'content-d1e00003'">
+                <div class="row">
+                    <xsl:for-each select="./tei:item">          
+                        <xsl:variable name="ref-target" select="substring-after(./tei:ref/@target, '#')"/>
+                        <div class="col-md-6">
+                            <a title="{./tei:ref/text()} {./text()}"
+                                href="{concat('zeitungen-detail-', $ref-target, '.html')}">          
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h5><xsl:value-of select="concat(./tei:ref, ' ', ./text())"/></h5>
+                                    </div>
+                                    <div class="card-body" style="padding:0!important;text-align:center;">
+                                        <xsl:variable name="zeitungen-url" select="document(concat('../data/meta/detail/' ,//xi:include/@href))//tei:body/tei:div/tei:div[@xml:id = $ref-target]/tei:figure/tei:graphic/@url"/>
+                                        <img src="{$zeitungen-url}"></img>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </xsl:for-each>
+                </div>
+            </xsl:when>
+            <xsl:otherwise>
+                <ul>
+                    <xsl:for-each select="./tei:item">
+                        <li style="list-style:circle;"><xsl:apply-templates/></li>
+                    </xsl:for-each>            
+                </ul>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>  
     <xsl:template match="tei:figure">
         <xsl:for-each select="./tei:graphic">

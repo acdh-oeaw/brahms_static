@@ -6,5 +6,5 @@ ant
 echo "build index staticSearch"
 ./build_index.sh
 
-echo "create autocomplete filenames"
-html/autocomplete-addon/script.sh
+# echo "create autocomplete filenames"
+# html/autocomplete-addon/script.sh
