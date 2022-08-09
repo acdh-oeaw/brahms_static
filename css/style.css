@@ -853,3 +853,23 @@ ul {
 .avc {
     color: #0000cd;
 }
+
+@media (max-width: 576px) {
+    .quote-box {
+        display: none;
+    }
+
+    #wrapper-hero-content {
+        background-image: none !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .quote-box {
+        display: none;
+    }
+
+    #wrapper-hero-content {
+        background-image: none !important;
+    }
+}
