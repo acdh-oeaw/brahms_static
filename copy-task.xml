@@ -5,7 +5,7 @@
     <delete dir="${editions}"/>
     <mkdir dir="${editions}"/>
     <copy todir="${editions}">
-        <fileset dir="../brahms_data/800_testdata">
+        <fileset dir="../brahms-presse/700_Werke/101_data_single">
             <include name="*.xml"/>
         </fileset>
     </copy>

@@ -58,7 +58,7 @@
                                     <xsl:value-of select="concat(
                                     $doc_title,
                                     ' ',
-                                    //mei:workList/mei:work/mei:identifier[1][@label='Opus-Nummer'])"/>
+                                    //mei:workList/mei:work/mei:identifier[1][@label])"/>
                                 </h1>   
                                 <xsl:if test="//mei:expressionList or //mei:perfResList or //mei:componentList">  
                                     <div style="margin-top: 2em; text-align: left; margin-left: 5.5%;">
@@ -141,12 +141,8 @@
                                             <xsl:for-each select="//mei:bibl[                                   
                                                 not(parent::mei:relatedItem)]">
                                                 
-                                                <xsl:variable name="bibl" select="normalize-space(@sameas)"/>
-                                                <xsl:variable name="biblUrl" select="concat(
-                                                    replace(
-                                                    translate($doc_title, '.', '')
-                                                    , ' ' , '-'),
-                                                    '-', $bibl, '.html')"/>                                               
+                                                <xsl:variable name="bibl" select="normalize-space(replace(@sameas, ' ', '-'))"/>
+                                                <xsl:variable name="biblUrl" select="concat($filename, '-', $bibl, '-', position(), '.html')"/>
                                                 
                                                 <tr>
                                                     <xsl:for-each select="ancestor::mei:event"> 
@@ -234,22 +230,22 @@
                                                         </xsl:when>
                                                         <xsl:otherwise>
                                                             <xsl:choose>
-                                                                <xsl:when test="contains(ancestor::mei:expression/mei:title, 'erschienen')">
+                                                                <xsl:when test="contains(ancestor::mei:expression/mei:title[1], 'erschienen')">
                                                                     <xsl:value-of select="concat(
                                                                         //mei:titleStmt/mei:title[1]/text(),
                                                                         ', ',
-                                                                        //mei:work/mei:identifier[@label='Opus-Nummer'][1],
-                                                                        if(ancestor::mei:expression/mei:title/text()) then(', ') else(''),
-                                                                        substring-before( ancestor::mei:expression/mei:title, ' (erschienen')
+                                                                        //mei:workList/mei:work/mei:identifier[1][@label],
+                                                                        if(ancestor::mei:expression/mei:title[1]/text()) then(', ') else(''),
+                                                                        substring-before(ancestor::mei:expression[1]/mei:title[1], ' (erschienen')
                                                                         )"/>
                                                                 </xsl:when>
                                                                 <xsl:otherwise>
                                                                     <xsl:value-of select="concat(
                                                                         //mei:titleStmt/mei:title[1]/text(),
                                                                         ', ',
-                                                                        //mei:work/mei:identifier[@label='Opus-Nummer'][1],
-                                                                        if(ancestor::mei:expression/mei:title/text()) then(', ') else(''),
-                                                                        ancestor::mei:expression/mei:title                                                                                                                        
+                                                                        //mei:workList/mei:work/mei:identifier[1][@label],
+                                                                        if(ancestor::mei:expression/mei:title[1]/text()) then(', ') else(''),
+                                                                        ancestor::mei:expression/mei:title[1]                                                                        
                                                                         )"/>
                                                                 </xsl:otherwise>
                                                             </xsl:choose>                                                                
@@ -319,21 +315,25 @@
                                                             </xsl:if>         
                                                             <xsl:if test="ancestor::mei:work">
                                                                 <xsl:for-each select="ancestor::mei:work">
-                                                                    <meta name="002 Werk"
-                                                                        class="staticSearch_feat"
-                                                                        content="{concat(./mei:title, ', ', ./mei:identifier)}">                                                                        
-                                                                    </meta>                                                                                                                     
+                                                                    <xsl:if test="./mei:title/text() or ./mei:identifier/text()">
+                                                                        <meta name="002 Werk"
+                                                                            class="staticSearch_feat"
+                                                                            content="{concat(./mei:title, ', ', ./mei:identifier)}">                                                                        
+                                                                        </meta>
+                                                                    </xsl:if>
                                                                 </xsl:for-each>
                                                             </xsl:if>
                                                             <xsl:if test="ancestor::mei:work//mei:perfMedium">
                                                                 <xsl:for-each select="ancestor::mei:work//mei:perfMedium/mei:perfResList/mei:perfResList/mei:perfRes">
-                                                                    <meta name="003 Besetzung"
-                                                                        class="staticSearch_feat"
-                                                                        content="{.}">
-                                                                    </meta>                                                                                                                     
+                                                                    <xsl:if test="./text()">
+                                                                        <meta name="003 Besetzung"
+                                                                            class="staticSearch_feat"
+                                                                            content="{.}">
+                                                                        </meta>  
+                                                                    </xsl:if>                                                                                                                                                                                       
                                                                 </xsl:for-each>
                                                             </xsl:if>
-                                                            <xsl:if test="ancestor::mei:work/mei:classification/mei:termList/mei:term">
+                                                            <xsl:if test="ancestor::mei:work/mei:classification/mei:termList/mei:term/text()">
                                                                 <xsl:for-each select="ancestor::mei:work/mei:classification/mei:termList/mei:term[@type='1']">
                                                                     <meta name="004 Gattung"
                                                                         class="staticSearch_feat"
@@ -361,81 +361,122 @@
                                                                     </meta> 
                                                                 </xsl:for-each>
                                                             </xsl:if>  
-                                                            <xsl:if test="./mei:term/text()">
+                                                             <xsl:if test="./mei:term/text()">
                                                                 <xsl:for-each select="./mei:term">
-                                                                    <meta name="008 Rubrik"
-                                                                        class="staticSearch_feat">
-                                                                        <xsl:if test=". = 'Rubrik_1' or . = 'Rubrik_2'">
+                                                                    
+                                                                    <xsl:if test=". = 'Rubrik_1' or . = 'Rubrik_2'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Werkkritik</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=". = 'Rubrik_3' or . = 'Rubrik_8'">
+                                                                        </meta>
+                                                                    </xsl:if>
+                                                                    <xsl:if test=". = 'Rubrik_3' or . = 'Rubrik_8'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Vorankündigung</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=". = 'Rubrik_4'">
+                                                                        </meta>  
+                                                                    </xsl:if>
+                                                                    <xsl:if test=". = 'Rubrik_4'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Werkerwähnung</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=". = 'Rubrik_5'">
+                                                                        </meta>  
+                                                                    </xsl:if>
+                                                                    <xsl:if test=". = 'Rubrik_5'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Anzeigen der Vorlage (Novitäten)</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=". = 'Rubrik_6'">
+                                                                        </meta>  
+                                                                    </xsl:if>
+                                                                    <xsl:if test=". = 'Rubrik_6'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Anzeigen der Vorlage</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=". = 'Rubrik_7'">
+                                                                        </meta>  
+                                                                    </xsl:if>
+                                                                    <xsl:if test=". = 'Rubrik_7'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Anzeigen der Redaktion (Werke)</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=". = 'Rubrik_9'">
+                                                                        </meta>  
+                                                                    </xsl:if>
+                                                                    <xsl:if test=". = 'Rubrik_9'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Brahms als Pianist</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=". = 'Rubrik_10'">
+                                                                        </meta>  
+                                                                    </xsl:if>
+                                                                    <xsl:if test=". = 'Rubrik_10'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Brahms als Dirigent</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=". = 'Rubrik_11'">
+                                                                        </meta>  
+                                                                    </xsl:if>
+                                                                    <xsl:if test=". = 'Rubrik_11'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Brahms als Editor</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=". = 'Rubrik_12' or . = 'Rubrik_13' or . = 'Rubrik_21'">
+                                                                        </meta>  
+                                                                    </xsl:if>
+                                                                    <xsl:if test=". = 'Rubrik_12' or . = 'Rubrik_13' or . = 'Rubrik_21'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Biographische oder historische Mitteilung</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=". = 'Rubrik_14'">
+                                                                        </meta>  
+                                                                    </xsl:if>
+                                                                    <xsl:if test=". = 'Rubrik_14'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Widmungen an Brahms</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=". = 'Rubrik_15'">
+                                                                        </meta>  
+                                                                    </xsl:if>
+                                                                    <xsl:if test=". = 'Rubrik_15'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Fremde Bearbeitung</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=". = 'Rubrik_16'">
+                                                                        </meta>  
+                                                                    </xsl:if>
+                                                                    <xsl:if test=". = 'Rubrik_16'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Vorlagen für andere Komponisten</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                        <xsl:if test=". = 'Rubrik_20'">
+                                                                        </meta>  
+                                                                    </xsl:if>
+                                                                    <xsl:if test=". = 'Rubrik_20'">
+                                                                        <meta name="008 Rubrik"
+                                                                            class="staticSearch_feat">
                                                                             <xsl:attribute name="content">
                                                                                 <xsl:text>Varia</xsl:text>                                                                                                                           
                                                                             </xsl:attribute>
-                                                                        </xsl:if>
-                                                                    </meta>                                                                                                                     
+                                                                        </meta>  
+                                                                    </xsl:if>
+                                                                                                                                                                                       
                                                                 </xsl:for-each>
                                                             </xsl:if>
                                                             
@@ -566,7 +607,7 @@
                                                                                                 <xsl:for-each select="//id($refId)">
                                                                                                     <xsl:value-of select="./mei:title"/>                                                                                            
                                                                                                     <xsl:text> </xsl:text> 
-                                                                                                    <xsl:value-of select="./mei:identifier[@label='Opus-Nummer']"/>
+                                                                                                    <xsl:value-of select="./mei:identifier[@label]"/>
                                                                                                 </xsl:for-each>
                                                                                             </xsl:if>
                                                                                         </xsl:otherwise>
@@ -689,7 +730,7 @@
                                                                                                                                             <xsl:text>, </xsl:text>
                                                                                                                                             <xsl:value-of select="translate(./mei:title, '.', '')"/>
                                                                                                                                             <xsl:text>, </xsl:text>
-                                                                                                                                            <xsl:value-of select="./mei:identifier[@label='Opus-Nummer']"/>
+                                                                                                                                            <xsl:value-of select="./mei:identifier[@label]"/>
                                                                                                                                         </li>                                                                                           
                                                                                                                                     </xsl:for-each>
                                                                                                                                 </xsl:if>
@@ -703,15 +744,15 @@
                                                                                                 </xsl:when>
                                                                                                 <xsl:otherwise>
                                                                                                     <xsl:choose>
-                                                                                                        <xsl:when test="contains(ancestor::mei:expression/mei:title, 'erschienen')">
+                                                                                                        <xsl:when test="contains(ancestor::mei:expression[1]/mei:title[1], 'erschienen')">
                                                                                                             <tr>
                                                                                                                 <th style="width:20%">Werk</th>  
                                                                                                                <td>
                                                                                                                    <xsl:value-of select="concat(//mei:titleStmt/mei:title[1]/text(),
                                                                                                                        ', ',                                                                                                                       
-                                                                                                                       //mei:work/mei:identifier[@label='Opus-Nummer'][1],
-                                                                                                                       if(ancestor::mei:expression/mei:title/text()) then(', ') else(''),
-                                                                                                                       substring-before(ancestor::mei:expression/mei:title, ' (erschienen')
+                                                                                                                       //mei:workList/mei:work[1]/mei:identifier[1][@label],
+                                                                                                                       if(ancestor::mei:expression/mei:title[1]/text()) then(', ') else(''),
+                                                                                                                       substring-before(ancestor::mei:expression/mei:title[1], ' (erschienen')
                                                                                                                        )"/>
                                                                                                                </td>
                                                                                                             </tr>
@@ -723,14 +764,14 @@
                                                                                                                     <xsl:value-of select="concat(
                                                                                                                         //mei:titleStmt/mei:title[1]/text(),
                                                                                                                         ', ',
-                                                                                                                        //mei:work/mei:identifier[@label='Opus-Nummer'][1],
-                                                                                                                        if(ancestor::mei:expression/mei:title/text()) then(', ') else(''),
-                                                                                                                        ancestor::mei:expression/mei:title                                                                                                                        
+                                                                                                                        //mei:workList/mei:work[1]/mei:identifier[1][@label],
+                                                                                                                        if(ancestor::mei:expression/mei:title[1]/text()) then(', ') else(''),
+                                                                                                                        ancestor::mei:expression/mei:title[1]                                                                                                           
                                                                                                                         )"/>
                                                                                                                 </td>
                                                                                                             </tr>                                                                                                            
                                                                                                         </xsl:otherwise>
-                                                                                                    </xsl:choose>                                                                
+                                                                                                    </xsl:choose>
                                                                                                     <!--<xsl:if test="not(ancestor::mei:expression)">
                                                                                                         <xsl:value-of select="./mei:relatedItem[@rel='host']/mei:bibl/mei:title"/>
                                                                                                     </xsl:if>-->

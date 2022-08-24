@@ -48,15 +48,15 @@
                                                 <xsl:variable name="filenameFull" select="concat(.//mei:workList/mei:work/@xml:id,'.html')" />
                                                 <tr>
                                                     <td>                                       
-                                                        <xsl:value-of select="//mei:titleStmt/mei:title/text()"/>
+                                                        <xsl:value-of select="//mei:titleStmt/mei:title[1]/text()"/>
                                                         <xsl:text>, </xsl:text>
-                                                        <xsl:value-of select="//mei:workList/mei:work/mei:identifier[@label='Opus-Nummer']/text()"/>                                                    
+                                                        <xsl:value-of select="//mei:workList/mei:work/mei:identifier[@label]/text()"/>                                                    
                                                     </td>
                                                     <td>                                                    
-                                                        <xsl:value-of select="substring-before(//mei:workList/mei:work/mei:identifier[@label='Opus-Nummer'], ' ')"/>
+                                                        <xsl:value-of select="substring-before(//mei:workList/mei:work/mei:identifier[@label], ' ')"/>
                                                     </td>
                                                     <td>                                                    
-                                                        <xsl:value-of select="substring-after(//mei:workList/mei:work/mei:identifier[@label='Opus-Nummer'], ' ')"/>
+                                                        <xsl:value-of select="substring-after(//mei:workList/mei:work/mei:identifier[@label], ' ')"/>
                                                     </td>                                                
                                                     <!--<td>
                                                         <ul>                                                            
