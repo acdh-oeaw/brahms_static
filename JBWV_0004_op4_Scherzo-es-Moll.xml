@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Scherzo es-Moll</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="4" xml:id="work_op._4">
+         <identifier label="Opus-Nummer">op. 4</identifier>
+         <title>Scherzo es-Moll</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <date isodate="1867-03-17">17.03.1867</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669328 recordid_669329 " type="Rubrik_3 Rubrik_9">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <term label="Rubrik_9">Brahms als Pianist</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 8</biblScope>
+                        <biblScope unit="issue">Nr. 77</biblScope>
+                        <biblScope unit="page">S. [3]</biblScope>
+                        <imprint>
+                           <date isodate="1867-03-19">19.03.1867</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von J. Brahms; Werke von J. Brahms: "Parole", "Scherzo", "Variationen über ein Thema von Paganini" sowie weitere Werke gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 94, von Beethoven, J.S. und W.F. Bach, Robert Franz, Domenico Scarlatti, Schumann und Grädener)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 8, Nr. 77, 19.03.1867, S. [3]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18670319&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._4"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669339 recordid_669340 " type="Rubrik_9 Rubrik_3">
+                        <term label="Rubrik_9">Brahms als Pianist</term>
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 8</biblScope>
+                        <biblScope unit="issue">Nr. 84</biblScope>
+                        <biblScope unit="page">S. [2]</biblScope>
+                        <imprint>
+                           <date isodate="1867-03-27">27.03.1867</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von J. Brahms; Datum und Werke gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 94: Brahms' op. 7, Nr. 2, op. 4, op. 35 und Anh. IIb, Nr. 2 sowie Werke von Beethoven, J. S. und W. F. Bach, D. Scarlatti, Robert Franz, Schumann und Grädener)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 8, Nr. 84, 27.03.1867, S. [2]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18670327&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._4"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666351 recordid_666352 " type="Rubrik_9 Rubrik_2">
+                        <term label="Rubrik_9">Brahms als Pianist</term>
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 20</biblScope>
+                        <biblScope unit="issue">Nr. 78</biblScope>
+                        <biblScope unit="page">S. [3]</biblScope>
+                        <imprint>
+                           <date isodate="1867-03-20">20.03.1867</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von Johannes Brahms; vgl. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 94)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 20, Nr. 78, 20.03.1867, S. [3]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18670320&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._4"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1893-11-24">24.11.1893</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0226">Sauer, Emil</persName>
+                  <biblList>
+                     <bibl sameas="recordid_670037 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 34</biblScope>
+                        <biblScope unit="issue">Nr. 323</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1893-11-22">22.11.1893</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von Emil Sauer)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 323, 22.11.1893, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931122&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._4"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_668653 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 46</biblScope>
+                        <biblScope unit="issue">Nr. 323</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1893-11-22">22.11.1893</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von Emil Sauer)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 323, 22.11.1893, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931122&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._4"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_668666 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 46</biblScope>
+                        <biblScope unit="issue">Nr. 331</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1893-11-30">30.11.1893</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert des Pianisten Emil Sauer; "Das prächtige Stück mußte wiederholt werden"; Datum gemäß Die Presse, Local-Anzeiger, 22.11.1893, S. 11)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 46, Nr. 331, 30.11.1893, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931130&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._4"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1895-01-17">17.01.1895</date>
+                  <geogName role="place">Wien</geogName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0226">Sauer, Emil</persName>
+                  <biblList>
+                     <bibl sameas="recordid_670151 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 36</biblScope>
+                        <biblScope unit="issue">Nr. 15</biblScope>
+                        <biblScope unit="page">S. 7</biblScope>
+                        <imprint>
+                           <date isodate="1895-01-15">15.01.1895</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Einziges Konzert von Emil Sauer)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 36, Nr. 15, 15.01.1895, S. 7</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18950115&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._4"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_668946 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 48</biblScope>
+                        <biblScope unit="issue">Nr. 15</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1895-01-15">15.01.1895</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von Emil Sauer)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 48, Nr. 15, 15.01.1895, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18950115&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._4"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1872-11-02">02.11.1872</date>
+                  <geogName role="place">Wien</geogName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0044">Bülow, Hans von</persName>
+                  <biblList>
+                     <bibl sameas="recordid_666508 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 25</biblScope>
+                        <biblScope unit="issue">Nr. 309</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1872-11-09">09.11.1872</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Konzert von Hans v. Bülow; u.a. J. Brahms: op. 24, "zwei Balladen aus op. 10" sowie op. 4)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 25, Nr. 309, 09.11.1872, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18721109&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._4"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1886-02-21">21.02.1886</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0147">Lamond, Frédéric</persName>
+                  <biblList>
+                     <bibl sameas="recordid_667670 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 39</biblScope>
+                        <biblScope unit="issue">Nr. 56</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1886-02-25">25.02.1886</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Brahms-Abend des Pianisten Frédéric Lamond; Werke: "F-moll-Sonate, eine Rhapsodie, zwei Balladen, das Es-moll-Scherzo, zwei Stücke aus op. 76, sowie die sämmtlichen Händel- und Paganini-Variationen"; Datum gemäß Die Presse, 18.02.1886, S. 16)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 39, Nr. 56, 25.02.1886, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860225&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._4"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Klavier</head>
+               <perfResList>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+      </work>
+   </workList>
+</mei>
