@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Neue Liebeslieder. Walzer</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="68" xml:id="work_op._65">
+         <identifier label="Opus-Nummer">op. 65</identifier>
+         <title>Neue Liebeslieder. Walzer</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <notesStmt/>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <persName type="Sänger_in" corresp="#">Franz, Frau</persName>
+                  <persName type="Sänger_in" corresp="#">Riegel, Anna</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0232">Scherer, Marie</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0374">Korbel, Johanna</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0054">Deckner, Hermann</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0326">Buchholz, Leopold</persName>
+                  <date isodate="1875-12-08">08.12.1875</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_666880 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 28</biblScope>
+                        <biblScope unit="issue">Nr. 344</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1875-12-14">14.12.1875</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Konzert der Wiener Singakademie, mittags; in Konzertarchiv der Wiener Singakademie nicht verzeichnet)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 28, Nr. 344, 14.12.1875, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18751214&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._65"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date/>
+                  <geogName role="place"/>
+                  <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <biblList>
+                     <bibl sameas="recordid_667949 " type="Rubrik_4">
+                        <term label="Rubrik_4">Werkerwähnung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 41</biblScope>
+                        <biblScope unit="issue">Nr. 91</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1888-03-31">31.03.1888</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Erwähnung im Rahmen einer Rezension der Chorlieder Anton Rückaufs "O wie sanft die Quelle" und "Ein schmucker Junge" nach einer Aufführung im Gesellschaftskonzert vom 06.03.1888, wobei Kalbeck anmerkt: "Die Texte zu beiden Chören stammen aus Daumer's 'Polydora' her, ganz wie bei Brahms, sind mit vierhändiger Clavierbegleitung versehen, ganz wie bei Brahms, und ihre 'Vierzeiligen', die schon von Brahms componirt worden sind [Liebeslieder op. 52 Nr. 10 und op. 65 Nr. 8] klingen angenehm ins Ohr, aber nicht ganz so schön wie bei Brahms.")</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 41, Nr. 91, 31.03.1888, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18880331&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._65,Nr.8"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_668040 " type="Rubrik_16">
+                        <term label="Rubrik_16">Vorlagen für andere Komponisten</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 42</biblScope>
+                        <biblScope unit="issue">Nr. 100</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1889-04-11">11.04.1889</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Richard Heubergers "Liederreigen" für Soli, Chor und Klavier sei laut Kalbeck "von den Brahms'schen vierstimmigen Liebesliedern beeinflußt".)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 42, Nr. 100, 11.04.1889, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18890411&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._65,Nr.8"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669187 recordid_669199 " type="Rubrik_4 Rubrik_4">
+                        <term label="Rubrik_4">Werkerwähnung</term>
+                        <term label="Rubrik_4">Werkerwähnung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Morgen-Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 49</biblScope>
+                        <biblScope unit="issue">Nr. 95</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1896-04-05">05.04.1896</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Erwähnung im Rahmen eines humoristischen Rückblicks auf die Saison 1895/96 von Robert Hirschfeld unter dem Titel "Mein Lied. Classische Stoßseufzer eines Musikreferenten" als Anmerkung zu einem Damenstreichquartett: "Nun ihr Musen, genug".)</p>
+                           <p label="Weitere_Informationen">(Erwähnung im Rahmen eines humoristischen Rückblicks auf die Saison 1895/96 von Robert Hirschfeld unter dem Titel "Mein Lied. Classische Stoßseufzer eines Musikreferenten" als Anmerkung zu einem Mitwirkenden: "Nein, Geliebter, setze Dich".)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 95, 05.04.1896, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960405&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._65,Nr.8"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <expressionList>
+            <expression n="1">
+               <title>Fassung für Gesang und 1 Klavier zu 4 Händen</title>
+               <perfMedium>
+                  <perfResList>
+                     <head>Besetzung: 4 Singstimmen und 1 Klavier zu 4 Händen</head>
+                     <perfResList>
+                        <perfRes>4 Singstimmen</perfRes>
+                        <perfRes>1 Klavier zu 4 Händen</perfRes>
+                     </perfResList>
+                  </perfResList>
+               </perfMedium>
+            </expression>
+            <expression n="2">
+               <title>Nr. 4: Fassung für Gesang und Klavier zu 2 Händen</title>
+            </expression>
+            <expression n="3">
+               <title>Nr. 9: Fassung für Gesang und Orchester</title>
+            </expression>
+         </expressionList>
+         <componentList>
+            <work n="1" xml:id="component_op._65,Nr.1">
+               <identifier label="Opus-Nummer">op. 65, Nr.1</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._65,Nr.2">
+               <identifier label="Opus-Nummer">op. 65, Nr.2</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._65,Nr.3">
+               <identifier label="Opus-Nummer">op. 65, Nr.3</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="4" xml:id="component_op._65,Nr.4">
+               <identifier label="Opus-Nummer">op. 65, Nr.4</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="5" xml:id="component_op._65,Nr.5">
+               <identifier label="Opus-Nummer">op. 65, Nr.5</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="6" xml:id="component_op._65,Nr.6">
+               <identifier label="Opus-Nummer">op. 65, Nr.6</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="7" xml:id="component_op._65,Nr.7">
+               <identifier label="Opus-Nummer">op. 65, Nr.7</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="8" xml:id="component_op._65,Nr.8">
+               <identifier label="Opus-Nummer">op. 65, Nr.8</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="9" xml:id="component_op._65,Nr.9">
+               <identifier label="Opus-Nummer">op. 65, Nr.9</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="10" xml:id="component_op._65,Nr.10">
+               <identifier label="Opus-Nummer">op. 65, Nr.10</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="11" xml:id="component_op._65,Nr.11">
+               <identifier label="Opus-Nummer">op. 65, Nr.11</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="12" xml:id="component_op._65,Nr.12">
+               <identifier label="Opus-Nummer">op. 65, Nr.12</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="13" xml:id="component_op._65,Nr.13">
+               <identifier label="Opus-Nummer">op. 65, Nr.13</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="14" xml:id="component_op._65,Nr.14">
+               <identifier label="Opus-Nummer">op. 65, Nr.14</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+            <work n="15" xml:id="component_op._65,Nr.15">
+               <identifier label="Opus-Nummer">op. 65, Nr.15</identifier>
+               <title>Zum Schluss.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._65"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

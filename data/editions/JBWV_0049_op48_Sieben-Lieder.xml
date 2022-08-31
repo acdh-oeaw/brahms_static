@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Sieben Lieder</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="49" xml:id="work_op._48">
+         <identifier label="Opus-Nummer">op. 48</identifier>
+         <title>Sieben Lieder</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <notesStmt/>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <date isodate="1887-02-11">11.02.1887</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0457">Walter, Gustav</persName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0217">Rottenberg, Ludwig</persName>
+                  <biblList>
+                     <bibl sameas="recordid_669719 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 28</biblScope>
+                        <biblScope unit="issue">Nr. 40</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1887-02-10">10.02.1887</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(2. Liederabend, "Brahms-Abend", von Kammersänger Gustav Walter unter Mitwirkung von Marie Baumayer, 19.30 Uhr)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 28, Nr. 40, 10.02.1887, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18870210&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._48,Nr.1"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1897-11-13">13.11.1897</date>
+                  <geogName role="place">Wien</geogName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0467">Messchaert, Johannes</persName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0220">Röntgen, Julius</persName>
+                  <biblList>
+                     <bibl sameas="recordid_670431 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 38</biblScope>
+                        <biblScope unit="issue">Nr. 310</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1897-11-10">10.11.1897</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Liederabend von Messchaert und Röntgen; u.a. 3 Lieder von Brahms: "O, wüßt' ich doch den Weg zurück, Herbstgefühl, Mainacht")</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 38, Nr. 310, 10.11.1897, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18971110&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._48,Nr.7"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1898-01-11">11.01.1898</date>
+                  <geogName role="place">Wien</geogName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0467">Messchaert, Johannes</persName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0220">Röntgen, Julius</persName>
+                  <biblList>
+                     <bibl sameas="recordid_670461 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 38</biblScope>
+                        <biblScope unit="issue">Nr. 357</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1897-12-29">29.12.1897</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Einziger Liederabend von Messchaert und Röntgen; u.a. 3 Lieder von J. Brahms: "O wüßt' ich doch den Weg zurück", "Herbstgefühl", "Die Mainacht")</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 38, Nr. 357, 29.12.1897, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18971229&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._48,Nr.7"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date/>
+                  <geogName role="place"/>
+                  <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <biblList>
+                     <bibl sameas="recordid_666768 " type="Rubrik_4">
+                        <term label="Rubrik_4">Werkerwähnung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 27</biblScope>
+                        <biblScope unit="issue">Nr. 296</biblScope>
+                        <biblScope unit="page">S. 15</biblScope>
+                        <imprint>
+                           <date isodate="1874-10-28">28.10.1874</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Die "eigentlichen Lieder" von Adolf Friedrich von Schack hätten "vorzügliche Musiker, wie Johannes Brahms, zur Composition angeregt." Erwähnung im Rahmen einer Verlagsanzeige der J. B. Cotta'schen Buchhandlung der 3. Auflage von Schack-Gedichten im Oktober 1874.)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 27, Nr. 296, 28.10.1874, S. 15</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18741028&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._48,Nr.7"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1890-01-18">18.01.1890</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0254">Spies, Hermine</persName>
+                  <biblList>
+                     <bibl sameas="recordid_668097 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 43</biblScope>
+                        <biblScope unit="issue">Nr. 14</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1890-01-15">15.01.1890</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Liederabend von Hermine Spies; u.a. drei Brahms'sche Lieder: "Mainacht", "Der Jäger", "Der Ueberläufer"; Uraufführung gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 390)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 43, Nr. 14, 15.01.1890, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18900115&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._48,Nr.2"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <expressionList>
+            <expression n="1">
+               <title>Liedfassung</title>
+               <perfMedium>
+                  <perfResList>
+                     <head>Besetzung: 1 Singstimme und Klavier</head>
+                     <perfResList>
+                        <perfRes>1 Singstimme</perfRes>
+                        <perfRes>Klavier</perfRes>
+                     </perfResList>
+                  </perfResList>
+               </perfMedium>
+            </expression>
+            <expression n="2">
+               <title>Nr 1: Fassung für dreistimmigen Frauenchor</title>
+            </expression>
+         </expressionList>
+         <componentList>
+            <work n="1" xml:id="component_op._48,Nr.1">
+               <identifier label="Opus-Nummer">op. 48, Nr.1</identifier>
+               <title>Der Gang zum Liebchen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._48"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._48,Nr.2">
+               <identifier label="Opus-Nummer">op. 48, Nr.2</identifier>
+               <title>Der Überläufer.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._48"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._48,Nr.3">
+               <identifier label="Opus-Nummer">op. 48, Nr.3</identifier>
+               <title>Liebesklage des Mädchen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._48"/>
+               </relationList>
+            </work>
+            <work n="4" xml:id="component_op._48,Nr.4">
+               <identifier label="Opus-Nummer">op. 48, Nr.4</identifier>
+               <title>Gold überwiegt die Liebe.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._48"/>
+               </relationList>
+            </work>
+            <work n="5" xml:id="component_op._48,Nr.5">
+               <identifier label="Opus-Nummer">op. 48, Nr.5</identifier>
+               <title>Trost in Tränen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._48"/>
+               </relationList>
+            </work>
+            <work n="6" xml:id="component_op._48,Nr.6">
+               <identifier label="Opus-Nummer">op. 48, Nr.6</identifier>
+               <title>Vergangen ist mir Glück und Heil.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._48"/>
+               </relationList>
+            </work>
+            <work n="7" xml:id="component_op._48,Nr.7">
+               <identifier label="Opus-Nummer">op. 48, Nr.7</identifier>
+               <title>Herbstgefühl.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._48"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Vier Duette</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="28" xml:id="work_op._28">
+         <identifier label="Opus-Nummer">op. 28</identifier>
+         <title>Vier Duette</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <date/>
+                  <geogName role="place"/>
+                  <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <biblList>
+                     <bibl sameas="recordid_669947 " type="Rubrik_7">
+                        <term label="Rubrik_7">Anzeigen der Redaktion (Werke)</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 33</biblScope>
+                        <biblScope unit="issue">Nr. 75</biblScope>
+                        <biblScope unit="page">S. 4</biblScope>
+                        <imprint>
+                           <date isodate="1892-03-15">15.03.1892</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Joseph Weinberger: "Album der Wiener Meister" als Publikation der Internationalen Musik- und Theater-Ausstellung 1892, "welches Compositionen von Brahms" u.a. enthalte; Werk gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 97)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 33, Nr. 75, 15.03.1892, S. 4</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18920315&amp;seite=4&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._28,Nr.3"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666870 " type="Rubrik_1">
+                        <term label="Rubrik_1">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 28</biblScope>
+                        <biblScope unit="issue">Nr. 302</biblScope>
+                        <biblScope unit="page">S. 9</biblScope>
+                        <imprint>
+                           <date isodate="1875-10-31">31.10.1875</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Erwähnung von J. Brahms' op. 28 als Beispiel für gute Duettliteratur im Rahmen einer Rezension der 1875 publizierten zweistimmigen Duette von Arno Klessel [op. 8], Ferd. Sieber [op. 104] und Bruno Ramann [op. 36]. J. P. Gotthard verweist auf die bei Edition Peters 1874 als Nr. 1425 erschienene Neuausgabe, vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 97)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 28, Nr. 302, 31.10.1875, S. 9</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18751031&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._28"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_668435 " type="Rubrik_6">
+                        <term label="Rubrik_6">Anzeigen der Verlage</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 45</biblScope>
+                        <biblScope unit="issue">Nr. 106</biblScope>
+                        <biblScope unit="page">S. 10</biblScope>
+                        <imprint>
+                           <date isodate="1892-04-15">15.04.1892</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Das von der Ausstellungskommission der Internationalen Musik- und Theater-Ausstellung herausgegebene "Album der Wiener Meister" werde u.a. Brahms' "Es rauschet das Wasser" enthalten; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 97)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 106, 15.04.1892, S. 10</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18920415&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._28"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_668450 " type="Rubrik_5">
+                        <term label="Rubrik_5">Anzeigen der Verlage (Novitäten)</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 45</biblScope>
+                        <biblScope unit="issue">Nr. 128</biblScope>
+                        <biblScope unit="page">S. 13</biblScope>
+                        <imprint>
+                           <date isodate="1892-05-08">08.05.1892</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Josef Weinberger: das im Rahmen der Internationalen Musik- und Theater-Ausstellung herausgegebene "Album der Wiener Meister" enthalte eine Reihe von "ausgezeichneten Werken" der "berühmtesten Wiener Componisten", darunter Brahms' "Es rauschet das Wasser"; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 97)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 128, 08.05.1892, S. 13</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18920508&amp;seite=13&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._28"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_668453 recordid_668454 recordid_668455 " type="Rubrik_7 Rubrik_1 Rubrik_7">
+                        <term label="Rubrik_7">Anzeigen der Redaktion (Werke)</term>
+                        <term label="Rubrik_1">Werkkritik</term>
+                        <term label="Rubrik_7">Anzeigen der Redaktion (Werke)</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 45</biblScope>
+                        <biblScope unit="issue">Nr. 138</biblScope>
+                        <biblScope unit="page">S. 10</biblScope>
+                        <imprint>
+                           <date isodate="1892-05-18">18.05.1892</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Josef Weinberger: "Album der Wiener Meister", eine offizielle Publikation der Musik- und Theater-Ausstellung; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 97)</p>
+                           <p label="Weitere_Informationen">(Erwähnung der "schon vor langer Zeit in anderem Verlage" erschienenen Ausgabe [C. A. Spina, 1863] im Rahmen einer Rezension der Ausgabe von Josef Weinberger im von der Musik- und Theaterausstellung herausgegebenen "Album der Wiener Meister" 1892; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 96 f.)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 138, 18.05.1892, S. 10</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18920518&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._28"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0204">Prohaska, Karl</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0184">Osborne, Adrienne</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0451">Kraus, Felix von</persName>
+                  <date isodate="1899-03-08">08.03.1899</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670603 " type="Rubrik_17">
+                        <term label="Rubrik_17">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 40</biblScope>
+                        <biblScope unit="issue">Nr. 62</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1899-03-03">03.03.1899</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Liederabend von Adrienne Osborne und Dr. Felix Kraus; weitere Werke von Brahms: "die ernsten Gesänge von Brahms")</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 40, Nr. 62, 03.03.1899, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18990303&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._28,Nr.1,3und4"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Alt, Bariton und Klavier</head>
+               <perfResList>
+                  <perfRes>Alt</perfRes>
+                  <perfRes>Bariton</perfRes>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="component_op._28,Nr.1">
+               <identifier label="Opus-Nummer">op. 28, Nr.1</identifier>
+               <title>Die Nonne und der Ritter.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._28"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._28,Nr.2">
+               <identifier label="Opus-Nummer">op. 28, Nr.2</identifier>
+               <title>Vor der Tür.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._28"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._28,Nr.3">
+               <identifier label="Opus-Nummer">op. 28, Nr.3</identifier>
+               <title>Es rauschet das Wasser.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._28"/>
+               </relationList>
+            </work>
+            <work n="4" xml:id="component_op._28,Nr.4">
+               <identifier label="Opus-Nummer">op. 28, Nr.4</identifier>
+               <title>Der Jäger und sein Liebchen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._28"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

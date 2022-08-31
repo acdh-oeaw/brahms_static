@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>28 Deutsche Volkslieder</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke ohne Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="159">
+         <identifier label="WoO-Nummer">WoO posth. 32</identifier>
+         <title>28 Deutsche Volkslieder</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: 1 Singstimme und Klavier</head>
+               <perfResList>
+                  <perfRes>1 Singstimme</perfRes>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="work_wooposth32-1">
+               <identifier label="Opus-Nummer">WoO 32,1</identifier>
+               <title>Die Schnürbrust.</title>
+            </work>
+            <work n="2" xml:id="work_wooposth32-2">
+               <identifier label="Opus-Nummer">WoO 32,2</identifier>
+               <title>Der Jäger.</title>
+            </work>
+            <work n="3" xml:id="work_wooposth32-3">
+               <identifier label="Opus-Nummer">WoO 32,3</identifier>
+               <title>Drei Vögelein.</title>
+            </work>
+            <work n="4" xml:id="work_wooposth32-4">
+               <identifier label="Opus-Nummer">WoO 32,4</identifier>
+               <title>Auf, gebet uns das Pfingstei.</title>
+            </work>
+            <work n="5" xml:id="work_wooposth32-5">
+               <identifier label="Opus-Nummer">WoO 32,5</identifier>
+               <title>Des Markgrafen Töchterlein.</title>
+            </work>
+            <work n="6" xml:id="work_wooposth32-6">
+               <identifier label="Opus-Nummer">WoO 32,6</identifier>
+               <title>Der Reiter.</title>
+            </work>
+            <work n="7" xml:id="work_wooposth32-7">
+               <identifier label="Opus-Nummer">WoO 32,7</identifier>
+               <title>Die heilige Elisabeth.</title>
+            </work>
+            <work n="8" xml:id="work_wooposth32-8">
+               <identifier label="Opus-Nummer">WoO 32,8</identifier>
+               <title>Der englische Gruß.</title>
+            </work>
+            <work n="9" xml:id="work_wooposth32-9">
+               <identifier label="Opus-Nummer">WoO 32,9</identifier>
+               <title>Ich stund an einem Morgen.</title>
+            </work>
+            <work n="10" xml:id="work_wooposth32-10">
+               <identifier label="Opus-Nummer">WoO 32,10</identifier>
+               <title>Gunhilde.</title>
+            </work>
+            <work n="11" xml:id="work_wooposth32-11">
+               <identifier label="Opus-Nummer">WoO 32,11</identifier>
+               <title>Der tote Gast.</title>
+            </work>
+            <work n="12" xml:id="work_wooposth32-12">
+               <identifier label="Opus-Nummer">WoO 32,12</identifier>
+               <title>Tageweis von einer schönen Frauen.</title>
+            </work>
+            <work n="13" xml:id="work_wooposth32-13">
+               <identifier label="Opus-Nummer">WoO 32,13</identifier>
+               <title>Schifferlied.</title>
+            </work>
+            <work n="14" xml:id="work_wooposth32-14">
+               <identifier label="Opus-Nummer">WoO 32,14</identifier>
+               <title>Nachtgesang.</title>
+            </work>
+            <work n="15" xml:id="work_wooposth32-15">
+               <identifier label="Opus-Nummer">WoO 32,15</identifier>
+               <title>Die beiden Königskinder.</title>
+            </work>
+            <work n="16" xml:id="work_wooposth32-16">
+               <identifier label="Opus-Nummer">WoO 32,16</identifier>
+               <title>Scheiden.</title>
+            </work>
+            <work n="17" xml:id="work_wooposth32-17">
+               <identifier label="Opus-Nummer">WoO 32,17</identifier>
+               <title>Altes Minnelied.</title>
+            </work>
+            <work n="18" xml:id="work_wooposth32-18a">
+               <identifier label="Opus-Nummer">WoO 32,18a</identifier>
+               <title>Der getreue Eckart.</title>
+            </work>
+            <work n="19" xml:id="work_wooposth32-18b">
+               <identifier label="Opus-Nummer">WoO 32,18b</identifier>
+               <title>Der getreue Eckart.</title>
+            </work>
+            <work n="20" xml:id="work_wooposth32-19">
+               <identifier label="Opus-Nummer">WoO 32,19</identifier>
+               <title>Die Versuchung.</title>
+            </work>
+            <work n="21" xml:id="work_wooposth32-20">
+               <identifier label="Opus-Nummer">WoO 32,20</identifier>
+               <title>Der Tochter Wunsch.</title>
+            </work>
+            <work n="22" xml:id="work_wooposth32-21">
+               <identifier label="Opus-Nummer">WoO 32,21</identifier>
+               <title>Schnitter Tod.</title>
+            </work>
+            <work n="23" xml:id="work_wooposth32-22">
+               <identifier label="Opus-Nummer">WoO 32,22</identifier>
+               <title>Marias Wallfahrt.</title>
+            </work>
+            <work n="24" xml:id="work_wooposth32-23">
+               <identifier label="Opus-Nummer">WoO 32,23</identifier>
+               <title>Das Mädchen und der Tod.</title>
+            </work>
+            <work n="25" xml:id="work_wooposth32-24">
+               <identifier label="Opus-Nummer">WoO 32,24</identifier>
+               <title>Es ritt ein Ritter.</title>
+            </work>
+            <work n="26" xml:id="work_wooposth32-25">
+               <identifier label="Opus-Nummer">WoO 32,25</identifier>
+               <title>Liebeslied.</title>
+            </work>
+            <work n="27" xml:id="work_wooposth32-26">
+               <identifier label="Opus-Nummer">WoO 32,26</identifier>
+               <title>Guten Abend.</title>
+            </work>
+            <work n="28" xml:id="work_wooposth32-27">
+               <identifier label="Opus-Nummer">WoO 32,27</identifier>
+               <title>Die Wollust in den Maien.</title>
+            </work>
+            <work n="29" xml:id="work_wooposth32-28">
+               <identifier label="Opus-Nummer">WoO 32,28</identifier>
+               <title>Es reit ein Herr und auch sein Knecht.</title>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

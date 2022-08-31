@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Drei Quartette</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="31" xml:id="work_op._31">
+         <identifier label="Opus-Nummer">op. 31</identifier>
+         <title>Drei Quartette</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <persName type="Sänger_in" corresp="#">Spängler, M[arie?]</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0339">Butschek, E.</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0114">Heuberger, Richard</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0256">Spängler, Franz</persName>
+                     <date isodate="1879-12-13">13.12.1879</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Säle der Gartenbaugesellschaft</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670943 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 20</biblScope>
+                           <biblScope unit="issue">Nr. 338</biblScope>
+                           <biblScope unit="page">S. [3]</biblScope>
+                           <imprint>
+                              <date isodate="1879-12-11">11.12.1879</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Vergnügungsabend der Wiener Singakademie unter der Leitung von Richard Heuberger; "Brahms Johann: Der Gang zum Liebchen")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 20, Nr. 338, 11.12.1879, S. [3]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18791211&amp;seite=5&amp;zoom=33&amp;query=%22brahm%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._31,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <date isodate="1864-04-17">17.04.1864</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_666322 recordid_666323 recordid_666324 recordid_666325 " type="Rubrik_10 Rubrik_2 Rubrik_2 Rubrik_10">
+                           <term label="Rubrik_10">Brahms als Dirigent</term>
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <term label="Rubrik_10">Brahms als Dirigent</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 17</biblScope>
+                           <biblScope unit="issue">Nr. 109</biblScope>
+                           <biblScope unit="page">S. [2]</biblScope>
+                           <imprint>
+                              <date isodate="1864-04-20">20.04.1864</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Außerordentliches Konzert der Wiener Singakademie; vgl. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 79 f.; Werke: op. 29, Nr. 1, op. 18, op. 42, Nr. 1 und 2, op. 12, op. 34bis, op. 31, Nr. 1 und 2, op. 22, 2. Heft, Nr. 5 und 1. Heft, Nr. 2 sowie "Auf Verlangen" WoO 34, Nr. 8)</p>
+                              <p label="Weitere_Informationen">(Außerordentliches Konzert der Wiener Singakademie; vgl. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 79 f.; als "Liebeständeleien"; Werke: op. 29, Nr. 1, op. 18, op. 42, Nr. 1 und 2, op. 12, op. 34bis, op. 31, Nr. 1 und 2, op. 22, 2. Heft, Nr. 5 und 1. Heft, Nr. 2 sowie "Auf Verlangen" WoO 34, Nr. 8)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 17, Nr. 109, 20.04.1864, S. [2]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18640420&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._31,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0331">Schmidtler, Anna</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0505">Lumpe, Nelly</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0506">Krenn, Gustav</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0507">Malferteiner, Ludwig</persName>
+                     <date isodate="1867-04-07">07.04.1867</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_666364 recordid_666365 " type="Rubrik_2 Rubrik_9">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <term label="Rubrik_9">Brahms als Pianist</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 20</biblScope>
+                           <biblScope unit="issue">Nr. 101</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1867-04-13">13.04.1867</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert von Johannes Brahms; vgl. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 94 f.; weitere Werke: Schumanns op. 17, Bachs Toccata F-Dur, Schuberts Oktett [Anh. IIb, Nr. 4], 2 Capricen von Domenico Scarlatti, 2 "noch ungedruckte Stücke von Schubert", Schumanns Toccata op. 7, Beethovens Klaviersonate op. 109 sowie sein op. 24 und op. 64, Nr. 1.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 20, Nr. 101, 13.04.1867, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18670413&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._31,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_666368 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 20</biblScope>
+                           <biblScope unit="issue">Nr. 116</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1867-04-29">29.04.1867</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert von J. Brahms; Datum gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 94 f.; Erwähnung im Rahmen einer Rezension des Konzerts der Singakademie am 27.04.1867, bei dem u.a. auch op. 31, Nr. 1 aufgeführt wurde.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 20, Nr. 116, 29.04.1867, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18670429&amp;seite=4&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._31,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0359">Lorenz, Adolf</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0331">Schmidtler, Anna</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0232">Leeder, Marie</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0335">Schulten, Herr</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0336">Krückl, Franz</persName>
+                     <date isodate="1867-04-27">27.04.1867</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_666369 recordid_666370 " type="Rubrik_2 Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 20</biblScope>
+                           <biblScope unit="issue">Nr. 116</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1867-04-29">29.04.1867</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Singakademie; weiteres Werk von J. Brahms: "Neckereien")</p>
+                              <p label="Weitere_Informationen">(Konzert der Singakademie; weiteres Werk von J. Brahms: "Wechsellied zum Tanze")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 20, Nr. 116, 29.04.1867, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18670429&amp;seite=4&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._31,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0308">Magnus, Helene</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0037">Girzik, Rosa</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0457">Walter, Gustav</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0261">Stockhausen, Julius</persName>
+                     <date isodate="1869-04-09">09.04.1869</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_666437 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 22</biblScope>
+                           <biblScope unit="issue">Nr. 119</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1869-04-30">30.04.1869</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Frl. Magnus und Hr. Stockhausen; großen Beifall ernteten die Künstler "mit zwei Quartetten von Brahms"; weiteres Werk von J. Brahms: op. 64, Nr. 1; Werk und Datum gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 119 f.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 22, Nr. 119, 30.04.1869, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18690430&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._31,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="#">Passy-Cornet, Adele</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0104">Tomsa, Philomena</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0233">Schindler, Emil Jakob</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0365">Graf, Ferdinand</persName>
+                     <date isodate="1875-02-24">24.02.1875</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_666821 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 28</biblScope>
+                           <biblScope unit="issue">Nr. 52</biblScope>
+                           <biblScope unit="page">S. 9</biblScope>
+                           <imprint>
+                              <date isodate="1875-02-21">21.02.1875</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert der Singakademie; als "interessante Novitäten" u.a. "drei Quartette von Brahms"; Werk gemäß NFB, Morgenausgabe, 27.02.1875, S. [1])</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 28, Nr. 52, 21.02.1875, S. 9</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18750221&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._31,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_666825 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 28</biblScope>
+                           <biblScope unit="issue">Nr. 57</biblScope>
+                           <biblScope unit="page">S. 8</biblScope>
+                           <imprint>
+                              <date isodate="1875-02-26">26.02.1875</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert der Singakademie unter der Leitung von Hr. Weinwurm, abends; u.a. "drei Quartette von Brahms"; Werk gemäß NFB, Morgenausgabe, 27.02.1875, S. [1])</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 28, Nr. 57, 26.02.1875, S. 8</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18750226&amp;seite=8&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._31,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Sopran, Alt, Tenor, Bass und Klavier</head>
+               <perfResList>
+                  <perfRes>Sopran</perfRes>
+                  <perfRes>Alt</perfRes>
+                  <perfRes>Tenor</perfRes>
+                  <perfRes>Bass</perfRes>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="component_op._31,Nr.1">
+               <identifier label="Opus-Nummer">op. 31, Nr.1</identifier>
+               <title>Wechsellied zum Tanze.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._31"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._31,Nr.2">
+               <identifier label="Opus-Nummer">op. 31, Nr.2</identifier>
+               <title>Neckereien.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._31"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._31,Nr.3">
+               <identifier label="Opus-Nummer">op. 31, Nr.3</identifier>
+               <title>Der Gang zum Liebchen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._31"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

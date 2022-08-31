@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>51 Übungen</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke ohne Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="133" xml:id="work_WoO_6">
+         <identifier label="WoO-Nummer">WoO 6</identifier>
+         <title>51 Übungen</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Klavier</head>
+               <perfResList>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="component_WoO_6,Nr.1a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.1a</identifier>
+               <title/>
+            </work>
+            <work n="2" xml:id="component_WoO_6,Nr.1b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.1b</identifier>
+               <title/>
+            </work>
+            <work n="3" xml:id="component_WoO_6,Nr.1c">
+               <identifier label="Opus-Nummer">WoO 6, Nr.1c</identifier>
+               <title/>
+            </work>
+            <work n="4" xml:id="component_WoO_6,Nr.1d">
+               <identifier label="Opus-Nummer">WoO 6, Nr.1d</identifier>
+               <title/>
+            </work>
+            <work n="5" xml:id="component_WoO_6,Nr.1e">
+               <identifier label="Opus-Nummer">WoO 6, Nr.1e</identifier>
+               <title/>
+            </work>
+            <work n="6" xml:id="component_WoO_6,Nr.1f">
+               <identifier label="Opus-Nummer">WoO 6, Nr.1f</identifier>
+               <title/>
+            </work>
+            <work n="7" xml:id="component_WoO_6,Nr.2a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.2a</identifier>
+               <title/>
+            </work>
+            <work n="8" xml:id="component_WoO_6,Nr.2b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.2b</identifier>
+               <title/>
+            </work>
+            <work n="9" xml:id="component_WoO_6,Nr.3">
+               <identifier label="Opus-Nummer">WoO 6, Nr.3</identifier>
+               <title/>
+            </work>
+            <work n="10" xml:id="component_WoO_6,Nr.4">
+               <identifier label="Opus-Nummer">WoO 6, Nr.4</identifier>
+               <title/>
+            </work>
+            <work n="11" xml:id="component_WoO_6,Nr.5">
+               <identifier label="Opus-Nummer">WoO 6, Nr.5</identifier>
+               <title/>
+            </work>
+            <work n="12" xml:id="component_WoO_6,Nr.5a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.5a</identifier>
+               <title/>
+            </work>
+            <work n="13" xml:id="component_WoO_6,Nr.6">
+               <identifier label="Opus-Nummer">WoO 6, Nr.6</identifier>
+               <title/>
+            </work>
+            <work n="14" xml:id="component_WoO_6,Nr.6a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.6a</identifier>
+               <title/>
+            </work>
+            <work n="15" xml:id="component_WoO_6,Nr.7">
+               <identifier label="Opus-Nummer">WoO 6, Nr.7</identifier>
+               <title/>
+            </work>
+            <work n="16" xml:id="component_WoO_6,Nr.7a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.7a</identifier>
+               <title/>
+            </work>
+            <work n="17" xml:id="component_WoO_6,Nr.7b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.7b</identifier>
+               <title/>
+            </work>
+            <work n="18" xml:id="component_WoO_6,Nr.8a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.8a</identifier>
+               <title/>
+            </work>
+            <work n="19" xml:id="component_WoO_6,Nr.8b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.8b</identifier>
+               <title/>
+            </work>
+            <work n="20" xml:id="component_WoO_6,Nr.9a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.9a</identifier>
+               <title/>
+            </work>
+            <work n="21" xml:id="component_WoO_6,Nr.9b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.9b</identifier>
+               <title/>
+            </work>
+            <work n="22" xml:id="component_WoO_6,Nr.10">
+               <identifier label="Opus-Nummer">WoO 6, Nr.10</identifier>
+               <title/>
+            </work>
+            <work n="23" xml:id="component_WoO_6,Nr.11a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.11a</identifier>
+               <title/>
+            </work>
+            <work n="24" xml:id="component_WoO_6,Nr.11b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.11b</identifier>
+               <title/>
+            </work>
+            <work n="25" xml:id="component_WoO_6,Nr.12">
+               <identifier label="Opus-Nummer">WoO 6, Nr.12</identifier>
+               <title/>
+            </work>
+            <work n="26" xml:id="component_WoO_6,Nr.13">
+               <identifier label="Opus-Nummer">WoO 6, Nr.13</identifier>
+               <title/>
+            </work>
+            <work n="27" xml:id="component_WoO_6,Nr.14">
+               <identifier label="Opus-Nummer">WoO 6, Nr.14</identifier>
+               <title/>
+            </work>
+            <work n="28" xml:id="component_WoO_6,Nr.15">
+               <identifier label="Opus-Nummer">WoO 6, Nr.15</identifier>
+               <title/>
+            </work>
+            <work n="29" xml:id="component_WoO_6,Nr.16a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.16a</identifier>
+               <title/>
+            </work>
+            <work n="30" xml:id="component_WoO_6,Nr.16b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.16b</identifier>
+               <title/>
+            </work>
+            <work n="31" xml:id="component_WoO_6,Nr.16c">
+               <identifier label="Opus-Nummer">WoO 6, Nr.16c</identifier>
+               <title/>
+            </work>
+            <work n="32" xml:id="component_WoO_6,Nr.17">
+               <identifier label="Opus-Nummer">WoO 6, Nr.17</identifier>
+               <title/>
+            </work>
+            <work n="33" xml:id="component_WoO_6,Nr.18a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.18a</identifier>
+               <title/>
+            </work>
+            <work n="34" xml:id="component_WoO_6,Nr.18b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.18b</identifier>
+               <title/>
+            </work>
+            <work n="35" xml:id="component_WoO_6,Nr.19">
+               <identifier label="Opus-Nummer">WoO 6, Nr.19</identifier>
+               <title/>
+            </work>
+            <work n="36" xml:id="component_WoO_6,Nr.20">
+               <identifier label="Opus-Nummer">WoO 6, Nr.20</identifier>
+               <title/>
+            </work>
+            <work n="37" xml:id="component_WoO_6,Nr.21a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.21a</identifier>
+               <title/>
+            </work>
+            <work n="38" xml:id="component_WoO_6,Nr.21b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.21b</identifier>
+               <title/>
+            </work>
+            <work n="39" xml:id="component_WoO_6,Nr.22">
+               <identifier label="Opus-Nummer">WoO 6, Nr.22</identifier>
+               <title/>
+            </work>
+            <work n="40" xml:id="component_WoO_6,Nr.23a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.23a</identifier>
+               <title/>
+            </work>
+            <work n="41" xml:id="component_WoO_6,Nr.23b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.23b</identifier>
+               <title/>
+            </work>
+            <work n="42" xml:id="component_WoO_6,Nr.23c">
+               <identifier label="Opus-Nummer">WoO 6, Nr.23c</identifier>
+               <title/>
+            </work>
+            <work n="43" xml:id="component_WoO_6,Nr.24a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.24a</identifier>
+               <title/>
+            </work>
+            <work n="44" xml:id="component_WoO_6,Nr.24b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.24b</identifier>
+               <title/>
+            </work>
+            <work n="45" xml:id="component_WoO_6,Nr.25a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.25a</identifier>
+               <title/>
+            </work>
+            <work n="46" xml:id="component_WoO_6,Nr.25b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.25b</identifier>
+               <title/>
+            </work>
+            <work n="47" xml:id="component_WoO_6,Nr.25c">
+               <identifier label="Opus-Nummer">WoO 6, Nr.25c</identifier>
+               <title/>
+            </work>
+            <work n="48" xml:id="component_WoO_6,Nr.26a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.26a</identifier>
+               <title/>
+            </work>
+            <work n="49" xml:id="component_WoO_6,Nr.26b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.26b</identifier>
+               <title/>
+            </work>
+            <work n="50" xml:id="component_WoO_6,Nr.26c">
+               <identifier label="Opus-Nummer">WoO 6, Nr.26c</identifier>
+               <title/>
+            </work>
+            <work n="51" xml:id="component_WoO_6,Nr.27">
+               <identifier label="Opus-Nummer">WoO 6, Nr.27</identifier>
+               <title/>
+            </work>
+            <work n="52" xml:id="component_WoO_6,Nr.28">
+               <identifier label="Opus-Nummer">WoO 6, Nr.28</identifier>
+               <title/>
+            </work>
+            <work n="53" xml:id="component_WoO_6,Nr.29">
+               <identifier label="Opus-Nummer">WoO 6, Nr.29</identifier>
+               <title/>
+            </work>
+            <work n="54" xml:id="component_WoO_6,Nr.30">
+               <identifier label="Opus-Nummer">WoO 6, Nr.30</identifier>
+               <title/>
+            </work>
+            <work n="55" xml:id="component_WoO_6,Nr.31a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.31a</identifier>
+               <title/>
+            </work>
+            <work n="56" xml:id="component_WoO_6,Nr.31b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.31b</identifier>
+               <title/>
+            </work>
+            <work n="57" xml:id="component_WoO_6,Nr.32a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.32a</identifier>
+               <title/>
+            </work>
+            <work n="58" xml:id="component_WoO_6,Nr.32b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.32b</identifier>
+               <title/>
+            </work>
+            <work n="59" xml:id="component_WoO_6,Nr.33a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.33a</identifier>
+               <title/>
+            </work>
+            <work n="60" xml:id="component_WoO_6,Nr.33b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.33b</identifier>
+               <title/>
+            </work>
+            <work n="61" xml:id="component_WoO_6,Nr.34a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.34a</identifier>
+               <title/>
+            </work>
+            <work n="62" xml:id="component_WoO_6,Nr.34b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.34b</identifier>
+               <title/>
+            </work>
+            <work n="63" xml:id="component_WoO_6,Nr.34c">
+               <identifier label="Opus-Nummer">WoO 6, Nr.34c</identifier>
+               <title/>
+            </work>
+            <work n="64" xml:id="component_WoO_6,Nr.35">
+               <identifier label="Opus-Nummer">WoO 6, Nr.35</identifier>
+               <title/>
+            </work>
+            <work n="65" xml:id="component_WoO_6,Nr.36">
+               <identifier label="Opus-Nummer">WoO 6, Nr.36</identifier>
+               <title/>
+            </work>
+            <work n="66" xml:id="component_WoO_6,Nr.37a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.37a</identifier>
+               <title/>
+            </work>
+            <work n="67" xml:id="component_WoO_6,Nr.37b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.37b</identifier>
+               <title/>
+            </work>
+            <work n="68" xml:id="component_WoO_6,Nr.38">
+               <identifier label="Opus-Nummer">WoO 6, Nr.38</identifier>
+               <title/>
+            </work>
+            <work n="69" xml:id="component_WoO_6,Nr.39">
+               <identifier label="Opus-Nummer">WoO 6, Nr.39</identifier>
+               <title/>
+            </work>
+            <work n="70" xml:id="component_WoO_6,Nr.40a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.40a</identifier>
+               <title/>
+            </work>
+            <work n="71" xml:id="component_WoO_6,Nr.40b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.40b</identifier>
+               <title/>
+            </work>
+            <work n="72" xml:id="component_WoO_6,Nr.41a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.41a</identifier>
+               <title/>
+            </work>
+            <work n="73" xml:id="component_WoO_6,Nr.41b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.41b</identifier>
+               <title/>
+            </work>
+            <work n="74" xml:id="component_WoO_6,Nr.42a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.42a</identifier>
+               <title/>
+            </work>
+            <work n="75" xml:id="component_WoO_6,Nr.42b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.42b</identifier>
+               <title/>
+            </work>
+            <work n="76" xml:id="component_WoO_6,Nr.43a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.43a</identifier>
+               <title/>
+            </work>
+            <work n="77" xml:id="component_WoO_6,Nr.43b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.43b</identifier>
+               <title/>
+            </work>
+            <work n="78" xml:id="component_WoO_6,Nr.44a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.44a</identifier>
+               <title/>
+            </work>
+            <work n="79" xml:id="component_WoO_6,Nr.44b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.44b</identifier>
+               <title/>
+            </work>
+            <work n="80" xml:id="component_WoO_6,Nr.45">
+               <identifier label="Opus-Nummer">WoO 6, Nr.45</identifier>
+               <title/>
+            </work>
+            <work n="81" xml:id="component_WoO_6,Nr.46a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.46a</identifier>
+               <title/>
+            </work>
+            <work n="82" xml:id="component_WoO_6,Nr.46b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.46b</identifier>
+               <title/>
+            </work>
+            <work n="83" xml:id="component_WoO_6,Nr.47">
+               <identifier label="Opus-Nummer">WoO 6, Nr.47</identifier>
+               <title/>
+            </work>
+            <work n="84" xml:id="component_WoO_6,Nr.48">
+               <identifier label="Opus-Nummer">WoO 6, Nr.48</identifier>
+               <title/>
+            </work>
+            <work n="85" xml:id="component_WoO_6,Nr.49a">
+               <identifier label="Opus-Nummer">WoO 6, Nr.49a</identifier>
+               <title/>
+            </work>
+            <work n="86" xml:id="component_WoO_6,Nr.49b">
+               <identifier label="Opus-Nummer">WoO 6, Nr.49b</identifier>
+               <title/>
+            </work>
+            <work n="87" xml:id="component_WoO_6,Nr.50">
+               <identifier label="Opus-Nummer">WoO 6, Nr.50</identifier>
+               <title/>
+            </work>
+            <work n="88" xml:id="component_WoO_6,Nr.51">
+               <identifier label="Opus-Nummer">WoO 6, Nr.51</identifier>
+               <title/>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>
