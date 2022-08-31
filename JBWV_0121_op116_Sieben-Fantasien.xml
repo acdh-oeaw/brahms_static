@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Sieben Fantasien</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="121" xml:id="work_op._116">
+         <identifier label="Opus-Nummer">op. 116</identifier>
+         <title>Sieben Fantasien</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <date isodate="1893-02-06">06.02.1893</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0015">Baumayer, Marie</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669989 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 34</biblScope>
+                           <biblScope unit="issue">Nr. 29</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1893-01-29">29.01.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Marie Baumayer; u.a. "Johann [sic] Brahms, op. 117 Nr. 2, op. 116 Nr. 3, 4, 7")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 29, 29.01.1893, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18930129&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.3,4,7"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670003 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 34</biblScope>
+                           <biblScope unit="issue">Nr. 57</biblScope>
+                           <biblScope unit="page">S. [1] f.</biblScope>
+                           <imprint>
+                              <date isodate="1893-02-26">26.02.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Marie Baumeyer; u.a. "die neuen Clavierstücke aus op. 116 und 117 von Brahms"; Datum und Werke gemäß Vaterland, Morgenblatt, 29.01.1893, S. 6)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 57, 26.02.1893, S. [1] f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18930226&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.3,4,7"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668548 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 33</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1893-02-02">02.02.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Marie Baumayer; u.a. Brahms: op. 117, Nr. 2 und op. 116, Nr. 3, 4 und 7)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 33, 02.02.1893, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18930202&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.3,4und7"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668553 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 40</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1893-02-09">09.02.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Marie Baumayer; u.a. "ein reizendes, sinniges Intermezzo [op. 116] von Brahms")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 40, 09.02.1893, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18930209&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.3,4und7"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1893-02-18">18.02.1893</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0259">Stavenhagen, Bernhard</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670006 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 34</biblScope>
+                           <biblScope unit="issue">Nr. 57</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1893-02-26">26.02.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Konzert von Bernhard Stavenhagen; u.a. "drei der neuen Clavierstücke von Brahms"; Datum und Werk gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 466)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 57, 26.02.1893, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18930226&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.7"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1894-02-13">13.02.1894</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0188">Pancera, Ella</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670074 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 35</biblScope>
+                           <biblScope unit="issue">Nr. 38</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1894-02-09">09.02.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Ella Pancera; u.a. 3 Brahms-Stücke: "Paganini-Variationen", "Intermezzo op. 119", "Capriccio op. 111 [recte: op. 116]")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 35, Nr. 38, 09.02.1894, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18940209&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.1,3oder7" cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668753 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 47</biblScope>
+                           <biblScope unit="issue">Nr. 39</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1894-02-10">10.02.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Pianistin Ella Pancera; u.a. 3 Brahms-Stücke: "Paganini-Variationen", "Intermezzo op. 119", "Capriccio op. 116")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 47, Nr. 39, 10.02.1894, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940210&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.1,3oder7" cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1894-02-21">21.02.1894</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Pianist_in" corresp="#">Unschuld von Melasfeld, Marie</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670098 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 35</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 95</biblScope>
+                           <biblScope unit="page">S. II</biblScope>
+                           <imprint>
+                              <date isodate="1894-04-08">08.04.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Pianistin Marie Unschuld von Melasfeld; von Brahms: "Intermezzo in Es- und E-moll"; Datum gemäß NWT, 24.02.1894, S. 8)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 35, Beiblatt zu Nr. 95, 08.04.1894, S. II</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18940408&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.5oderop.119,Nr.2" cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1895-12-04">04.12.1895</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0052">Davies, Fanny</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670201 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 36</biblScope>
+                           <biblScope unit="issue">Nr. 328</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1895-11-29">29.11.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Pianistin Fanny Davies; u.a. 3 Werke von Brahms: "Ballade, op. 10, D-dur, Phantasie, op. 116, G-moll, Capriccio, op. 76, H-moll")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 36, Nr. 328, 29.11.1895, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18951129&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669081 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 48</biblScope>
+                           <biblScope unit="issue">Nr. 328</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1895-11-29">29.11.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Pianistin Fanny Davies; Werke von Brahms: op. 10, Nr. 2, op. 116, Nr. 3, op. 76, Nr. 2)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 48, Nr. 328, 29.11.1895, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18951129&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1897-03-16">16.03.1897</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0188">Pancera, Ella</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670348 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 71</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1897-03-12">12.03.1897</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Klavierabend von Ella Pancera; u.a. 3 Stücke von Brahms: "Rhapsodie H-moll aus op. 79, Intermezzo aus op. 116, Rhapsodie Es-dur aus op. 119")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Abendblatt, Jg. 38, Nr. 71, 12.03.1897, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18970312&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.2,5oder6"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date/>
+                     <geogName role="place"/>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0038">Brüll, Ignaz</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668508 " type="Rubrik_4">
+                           <term label="Rubrik_4">Werkerwähnung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 45 Nr. 339</biblScope>
+                           <biblScope unit="issue"/>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1892-12-07">07.12.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Erwähnung im Rahmen einer Rezension des Konzerts des Wiener Tonkünstlervereins am 05.12.1892; Ignaz Brüll hätte lieber statt der "sattsam bekannten Rhapsodien" op. 79 "Stücke aus den eben erschienenen 'Phantasien' op. 116 oder 'Intermezzi' op. 117" bringen sollen)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45 Nr. 339, 07.12.1892, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18921209&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._116"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0038">Brüll, Ignaz</persName>
+                     <date isodate="1893-01-30">30.01.1893</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_668537 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 12</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1893-01-12">12.01.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Kammervirtuosen Hugo Becker; "Das Programm beider Künstler enthält sehr viel Interessantes und auch Neues. Unter letzterem befindet sich ein Intermezzo und drei Phantasien von Johannes Brahms"; Werke gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 466 und 469: op. 116, Nr. 1–3 und op. 117, Nr. 2)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 12, 12.01.1893, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18930112&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.1-3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668542 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 19</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1893-01-19">19.01.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Kammervirtuosen Hugo Becker; "einige erst kürzlich erschienene neue Clavierstücke von Johannes Brahms, und zwar ein Intermezzo [op. 117] und drei Phantasien [op. 116]"; Werke gemäß Brahms, S. 466)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 19, 19.01.1893, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18930119&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.1-3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1894-11-06">06.11.1894</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0185">Pachmann, Wladimir de</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668860 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 47</biblScope>
+                           <biblScope unit="issue">Nr. 293</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1894-10-25">25.10.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Klaviervirtuosen Wladimir de Pachmann; Werke von J. Brahms: op. 118, Nr. 3 und 6, op. 116, Nr. 1)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 47, Nr. 293, 25.10.1894, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18941025&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._116,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Klavier</head>
+               <perfResList>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="component_op._116,Nr.1">
+               <identifier label="Opus-Nummer">op. 116, Nr.1</identifier>
+               <title>Capriccio.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._116"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._116,Nr.2">
+               <identifier label="Opus-Nummer">op. 116, Nr.2</identifier>
+               <title>Intermezzo.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._116"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._116,Nr.3">
+               <identifier label="Opus-Nummer">op. 116, Nr.3</identifier>
+               <title>Capriccio.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._116"/>
+               </relationList>
+            </work>
+            <work n="4" xml:id="component_op._116,Nr.4">
+               <identifier label="Opus-Nummer">op. 116, Nr.4</identifier>
+               <title>Intermezzo.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._116"/>
+               </relationList>
+            </work>
+            <work n="5" xml:id="component_op._116,Nr.5">
+               <identifier label="Opus-Nummer">op. 116, Nr.5</identifier>
+               <title>Intermezzo.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._116"/>
+               </relationList>
+            </work>
+            <work n="6" xml:id="component_op._116,Nr.6">
+               <identifier label="Opus-Nummer">op. 116, Nr.6</identifier>
+               <title>Intermezzo.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._116"/>
+               </relationList>
+            </work>
+            <work n="7" xml:id="component_op._116,Nr.7">
+               <identifier label="Opus-Nummer">op. 116, Nr.7</identifier>
+               <title>Capriccio.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._116"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

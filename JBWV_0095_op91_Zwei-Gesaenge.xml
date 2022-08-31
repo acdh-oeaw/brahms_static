@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Zwei Gesänge</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="95" xml:id="work_op._91">
+         <identifier label="Opus-Nummer">op. 91</identifier>
+         <title>Zwei Gesänge</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0126">Joachim, Amalie</persName>
+                     <persName type="Bratschist_in" corresp="../Brahms-Personenregister-ID/0110">Hellmesberger, Joseph sen.</persName>
+                     <date isodate="1886-01-07">07.01.1886</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669645 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 26</biblScope>
+                           <biblScope unit="issue">Nr. 278</biblScope>
+                           <biblScope unit="page">S. 5</biblScope>
+                           <imprint>
+                              <date isodate="1885-10-10">10.10.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Vorankündigung der Kammermusikabende des Hellmesberger Quartetts der Saison 1885/86; Datum gemäß <bibl type="bibl" target="#Quartett_Hellmesberger">Quartett Hellmesberger, Programme</bibl>, S. 122)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 26, Nr. 278, 10.10.1885, S. 5</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18851010&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._91"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669662 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 26</biblScope>
+                           <biblScope unit="issue">Nr. 355</biblScope>
+                           <biblScope unit="page">S. 4</biblScope>
+                           <imprint>
+                              <date isodate="1885-12-28">28.12.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. Kammermusikabend Hellmesbergers; "neu"; vgl. <bibl type="bibl" target="#Quartett_Hellmesberger">Quartett Hellmesberger, Programme</bibl>, S. 122)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 26, Nr. 355, 28.12.1885, S. 4</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18851228&amp;seite=4&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._91"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667610 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 279</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1885-10-10">10.10.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Vorankündigung der Kammermusikabende des Quartetts Hellmesberger der Saison 1885/86; Datum gemäß <bibl type="bibl" target="#Quartett_Hellmesberger">Quartett Hellmesberger, Programme</bibl>, S. 122)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 38, Nr. 279, 10.10.1885, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18851010&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._91"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667643 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 13</biblScope>
+                           <biblScope unit="page">S. [1] f.</biblScope>
+                           <imprint>
+                              <date isodate="1886-01-13">13.01.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Kammermusikabend des Quartett Hellmesberger; Datum gemäß <bibl type="bibl" target="#Quartett_Hellmesberger">Quartett Hellmesberger, Programme</bibl>, S. 122)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 39, Nr. 13, 13.01.1886, S. [1] f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860113&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._91"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0424">Neuda-Bernstein, Rosa</persName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0012">Basch-Mahler, Fanny</persName>
+                     <date isodate="1898-02-05">05.02.1898</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670471 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 15</biblScope>
+                           <biblScope unit="page">S. I</biblScope>
+                           <imprint>
+                              <date isodate="1898-01-16">16.01.1898</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Brahms-Abend der Damen Neuda-Bernstein und Basch-Mahler; Werke: op. 3, Nr. 1, op. 71, Nr. 3, op. 69, Nr. 9, op. 91, Nr. 1 und 2, op. 33, Nr. 6 und 9 sowie op. 120 und op. 24)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 39, Beiblatt zu Nr. 15, 16.01.1898, S. I</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18980116&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._91,Nr.1und2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1899-04-07">07.04.1899</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0258">Statzer, Josephine von</persName>
+                     <persName type="Bratschist_in" corresp="../Brahms-Personenregister-ID/0428">Ruzicka, Anton</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670611 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 94</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1899-04-06">06.04.1899</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Aufführung im Tonkünstlerverein unter Mitwirkung der Herren W. Jeral, C. Prohaska, M. Violin und A. v. Zemlinszky [recte: Zemlinsky]; Werke von Brahms: "Violoncell-Sonate E-moll, Lieder mit Bratsche- und Clavierbegleitung, Sonate für zwei Pianoforte F-moll")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 40, Nr. 94, 06.04.1899, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18990406&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._91"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1885-02-24">24.02.1885</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="#">Salter, Julie</persName>
+                     <biblList>
+                        <bibl sameas="recordid_667561 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 47</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1885-02-17">17.02.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Sängerin Julie Salter; "mehrere Novitäten", wie "z. B. Brahms' Lied mit Viola-Begleitung")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 38, Nr. 47, 17.02.1885, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18850217&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._91" cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667583 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 73</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1885-03-15">15.03.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Sängerin Julie Salter; Datum gemäß Die Presse, Local-Anzeiger, 17.02.1885, S. 11)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 38, Nr. 73, 15.03.1885, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18850315&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._91" cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date/>
+                     <geogName role="place"/>
+                     <persName type="Sänger_in" corresp="#">Salter, Julie</persName>
+                     <biblList>
+                        <bibl sameas="recordid_667584 " type="Rubrik_1">
+                           <term label="Rubrik_1">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 73</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1885-03-15">15.03.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Erwähnung im Rahmen einer Rezension des Konzerts der Sängerin Julie Salter am 24.02.1885; Datum gemäß Die Presse, Local-Anzeiger, 17.02.1885, S. 11)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 38, Nr. 73, 15.03.1885, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18850315&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._91,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0015">Baumayer, Marie</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0166">Mysz-Gmeiner, Lula</persName>
+                     <persName type="Bratschist_in" corresp="../Brahms-Personenregister-ID/0077">Finger, Alfred</persName>
+                     <date isodate="1896-03-04">04.03.1896</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669178 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Morgen-Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 49</biblScope>
+                           <biblScope unit="issue">Nr. 77</biblScope>
+                           <biblScope unit="page">S. [1] f.</biblScope>
+                           <imprint>
+                              <date isodate="1896-03-18">18.03.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Kammermusikabend von Alfred Finger und Frl. Baumayer; Datum gemäß NWT, 03.03.1896, S. 11)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 77, 18.03.1896, S. [1] f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960318&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._91"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Altstimme, Viola und Klavier</head>
+               <perfResList>
+                  <perfRes>Altstimme</perfRes>
+                  <perfRes>Viola</perfRes>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="component_op._91,Nr.1">
+               <identifier label="Opus-Nummer">op. 91, Nr.1</identifier>
+               <title>Gestillte Sehnsucht.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._91"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._91,Nr.2">
+               <identifier label="Opus-Nummer">op. 91, Nr.2</identifier>
+               <title>Geistliches Wiegenlied.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._91"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

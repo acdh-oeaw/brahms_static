@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Zwei Rhapsodien für Klavier</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="83" xml:id="work_op._79">
+         <identifier label="Opus-Nummer">op. 79</identifier>
+         <title>Zwei Rhapsodien für Klavier</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <date isodate="1889-01-23">23.01.1889</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0003">d'Albert, Eugen</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669799 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 30</biblScope>
+                           <biblScope unit="issue">Nr. 18</biblScope>
+                           <biblScope unit="page">S. 5</biblScope>
+                           <imprint>
+                              <date isodate="1889-01-18">18.01.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Eugen d'Albert; Werke von J. Brahms: op. 10, Nr. 2 und op. 79, Nr. 2)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 30, Nr. 18, 18.01.1889, S. 5</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18890118&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1892-02-01">01.02.1892</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0259">Stavenhagen, Bernhard</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669933 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 33</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 31</biblScope>
+                           <biblScope unit="page">S. 4</biblScope>
+                           <imprint>
+                              <date isodate="1892-01-31">31.01.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert von Bernhard Stavenhagen, 19.30 Uhr, u.a. 2 Werke von Brahms: Intermezzo As-Dur, Rhapsodie g-Moll)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 33, Beiblatt zu Nr. 31, 31.01.1892, S. 4</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18920131&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668388 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 45</biblScope>
+                           <biblScope unit="issue">Nr. 31</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1892-01-31">31.01.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert von Bernhard Stavenhagen, 19.30 Uhr, u.a. 2 Werke von Brahms: Intermezzo As-Dur, Rhapsodie g-Moll)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 31, 31.01.1892, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18920131&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1894-02-16">16.02.1894</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0003">d'Albert, Eugen</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670071 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 35</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 33</biblScope>
+                           <biblScope unit="page">S. IV</biblScope>
+                           <imprint>
+                              <date isodate="1894-02-04">04.02.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Einziges Konzert von Eugen d'Albert)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 35, Beiblatt zu Nr. 33, 04.02.1894, S. IV</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18940203&amp;seite=8&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668747 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 47</biblScope>
+                           <biblScope unit="issue">Nr. 33</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1894-02-04">04.02.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Eugen d'Albert)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 47, Nr. 33, 04.02.1894, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940204&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1894-02-20">20.02.1894</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Pianist_in" corresp="#">Carreno, Teresa</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670076 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 35</biblScope>
+                           <biblScope unit="issue">Nr. 40</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1894-02-11">11.02.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Einziges Konzert von Teresa Carrenno)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 35, Nr. 40, 11.02.1894, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18940211&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668761 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 47</biblScope>
+                           <biblScope unit="issue">Nr. 42</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1894-02-13">13.02.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Einziges Konzert von Teresa Carreno)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 47, Nr. 42, 13.02.1894, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940213&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1896-02-01">01.02.1896</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Pianist_in" corresp="#">Segel, Marie</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670234 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 37</biblScope>
+                           <biblScope unit="issue">Nr. 31</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1896-02-01">01.02.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Klaviervirtuosin Frl. Marie Segel, 19.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 37, Nr. 31, 01.02.1896, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18960201&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1897-03-16">16.03.1897</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendörfer</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0188">Pancera, Ella</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670347 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 71</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1897-03-12">12.03.1897</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Klavierabend von Ella Pancera; u.a. 3 Stücke von Brahms: "Rhapsodie H-moll aus op. 79, Intermezzo aus op. 116, Rhapsodie Es-dur aus op. 119")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Abendblatt, Jg. 38, Nr. 71, 12.03.1897, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18970312&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1898-02-14">14.02.1898</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Pianist_in" corresp="#">Schnabel, Arthur</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670482 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 43</biblScope>
+                           <biblScope unit="page">S. V</biblScope>
+                           <imprint>
+                              <date isodate="1898-02-13">13.02.1898</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Klaviervirtuosen Arthur Schnabel; u.a. "Brahms, Rhapsodie")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 39, Beiblatt zu Nr. 43, 13.02.1898, S. V</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18980213&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.1oderNr.2oderop.119,Nr.4" cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1899-02-22">22.02.1899</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Pianist_in" corresp="#">Szanto, Theodor</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670598 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 53</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1899-02-22">22.02.1899</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Klavierabend von Theodor Szanto, 19.30 Uhr; u.a. 3 Werke von Brahms: "Intermezzo A-dur; Rhapsodie G-moll; Romanze F-dur")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 40, Nr. 53, 22.02.1899, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18990222&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1900-02-15">15.02.1900</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0048">Consolo, Ernesto</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670651 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 41</biblScope>
+                           <biblScope unit="issue">Nr. 42</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1900-02-13">13.02.1900</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Klaviervirtuosen Ernesto Consolo; u.a. 3 Werke von Brahms: "Capriccio, Intermezzo, Rhapsodie G-moll")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 41, Nr. 42, 13.02.1900, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19000213&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0224">Sandt, Max van de</persName>
+                     <date isodate="1901-04-14">14.04.1901</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670773 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 102</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1901-04-15">15.04.1901</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Kölner Männergesangvereins; u.a. "Rhapsodie von Brahms"; Datum gemäß Illustrirtes Wiener Extrablatt, 03.04.1901, S. 2)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Abendblatt, Jg. 42, Nr. 102, 15.04.1901, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19010415&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.1oder2oderop.119,Nr.4" cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0003">Albert, Eugen d’</persName>
+                     <date isodate="1902-12-06">06.12.1902</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670894 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">1. Beiblatt zu Nr. 341</biblScope>
+                           <biblScope unit="page">S. III</biblScope>
+                           <imprint>
+                              <date isodate="1902-12-14">14.12.1902</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Eugen d'Albert; Datum gemäß NWT, 20.11.1902, S. 9)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 43, 1. Beiblatt zu Nr. 341, 14.12.1902, S. III</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19021214&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0244">Schönberger, Benno</persName>
+                     <date isodate="1884-01-25">25.01.1884</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667422 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 37</biblScope>
+                           <biblScope unit="issue">Nr. 33</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1884-02-02">02.02.1884</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Liederabend von Gustav Walter; "An den Geist der Brahms'schen Rhapsodie reichten die Finger des Virtuosen nicht hinan." Datum gemäß Neues Wiener Tagblatt, 30.01.1884, S. 4)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 37, Nr. 33, 02.02.1884, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18840202&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79" cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0038">Brüll, Ignaz</persName>
+                     <date isodate="1884-03-01">01.03.1884</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667434 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 37</biblScope>
+                           <biblScope unit="issue">Nr. 59</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1884-02-29">29.02.1884</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Wiener akademischen Gesangvereins, 19.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 37, Nr. 59, 29.02.1884, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18840229&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1886-02-23">23.02.1886</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0095">Grünfeld, Alfred</persName>
+                     <biblList>
+                        <bibl sameas="recordid_667663 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 44</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1886-02-13">13.02.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Kammervirtuosen Alfred Grünfeld, 19.30 Uhr; u.a. "Brahms: Rhapsodie")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 44, 13.02.1886, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860213&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr." cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667666 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 56</biblScope>
+                           <biblScope unit="page">S. [1] f.</biblScope>
+                           <imprint>
+                              <date isodate="1886-02-25">25.02.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Alfred Grünfeld; Datum und Werk gemäß Die Presse, Local-Anzeiger, 13.02.1886, S. 10)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 39, Nr. 56, 25.02.1886, S. [1] f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860225&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr." cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1886-02-21">21.02.1886</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0147">Lamond, Frédéric</persName>
+                     <biblList>
+                        <bibl sameas="recordid_667668 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 56</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1886-02-25">25.02.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Brahms-Abend des Pianisten Frédéric Lamond; Werke: "F-moll-Sonate, eine Rhapsodie, zwei Balladen, das Es-moll-Scherzo, zwei Stücke aus op. 76, sowie die sämmtlichen Händel- und Paganini-Variationen"; Datum gemäß Die Presse, 18.02.1886, S. 16)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 39, Nr. 56, 25.02.1886, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860225&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr." cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0003">Albert, Eugen d’</persName>
+                     <date isodate="1886-12-07">07.12.1886</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667764 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 332</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1886-12-02">02.12.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Eugen d'Albert, 19.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 332, 02.12.1886, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18861202&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0355">Siebenlist, Helene</persName>
+                     <date startdate="1887" enddate="1887" cert="unknown">ca. Januar 1887</date>
+                     <geogName role="place">Preßburg</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667803 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 28</biblScope>
+                           <biblScope unit="page">S. [9]</biblScope>
+                           <imprint>
+                              <date isodate="1887-01-29">29.01.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Wohltätigkeitsveranstaltung; Erwähnung im Rahmen der "Preßburger Plaudereien" vom 26.01.1887)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 40, Nr. 28, 29.01.1887, S. [9]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18870129&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1888-02-08">08.02.1888</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0095">Grünfeld, Alfred</persName>
+                     <biblList>
+                        <bibl sameas="recordid_667937 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 41</biblScope>
+                           <biblScope unit="issue">Nr. 61</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1888-03-01">01.03.1888</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Alfred Grünfeld; Datum und Werk gemäß NWT, 05.02.1888, S. 25)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 41, Nr. 61, 01.03.1888, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18880301&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0083">Frankl-Joël, Gabriele</persName>
+                     <date isodate="1889-03-15">15.03.1889</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_668025 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 71</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1889-03-12">12.03.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Populäres Konzert des Kammersängers Gustav Walter; weiteres Werk von J. Brahms: op. 103)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 42, Nr. 71, 12.03.1889, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18890312&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1890-02-04">04.02.1890</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0095">Grünfeld, Alfred</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668125 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 53</biblScope>
+                           <biblScope unit="page">S. [1] f.</biblScope>
+                           <imprint>
+                              <date isodate="1890-02-23">23.02.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Alfred Grünfeld; Datum gemäß NWT, 18.01.1890, S. 7)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 43, Nr. 53, 23.02.1890, S. [1] f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18900223&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1890-04-10">10.04.1890</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0095">Grünfeld, Alfred</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668146 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 87</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1890-03-29">29.03.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Alfred Grünfeld)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 43, Nr. 87, 29.03.1890, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18900329&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668147 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 88</biblScope>
+                           <biblScope unit="page">S. 16</biblScope>
+                           <imprint>
+                              <date isodate="1890-03-30">30.03.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Alfred Grünfeld)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 43, Nr. 88, 30.03.1890, S. 16</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18900330&amp;seite=16&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0038">Brüll, Ignaz</persName>
+                     <date isodate="1892-12-05">05.12.1892</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_668507 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 45 Nr. 339</biblScope>
+                           <biblScope unit="issue"/>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1892-12-07">07.12.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Wiener Tonkünstlervereins; vgl. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 290 f.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45 Nr. 339, 07.12.1892, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18921209&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._79"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1894-01-05">05.01.1894</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Pianist_in" corresp="#">Sharpe, Ethel</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668679 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 341</biblScope>
+                           <biblScope unit="page">S. 19</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-10">10.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der englischen Klaviervirtuosin Ethel Sharpe; u.a. "zwei Rhapsodien von Brahms")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 341, 10.12.1893, S. 19</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931210&amp;seite=19&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._79"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date/>
+                     <geogName role="place"/>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0044">Bülow, Hans von</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668829 " type="Rubrik_4">
+                           <term label="Rubrik_4">Werkerwähnung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 47</biblScope>
+                           <biblScope unit="issue">Nr. 182</biblScope>
+                           <biblScope unit="page">S. [9]</biblScope>
+                           <imprint>
+                              <date isodate="1894-07-05">05.07.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Erwähnung im Rahmen einer Besprechung der Neuerscheinung "Studien bei Hans v. Bülow" von Theodor Pfeiffer, Verlag Friedrich Luckhardt, Berlin 1894, einer Sammlung von Äußerungen Bülows aus seinen Frankfurter Unterrichtskursen der Sommer 1884, 1885 und 1886. Bülow, auf die h-Moll-Rhapsodie deutend: "Wir müssen Clavier sprechen!")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 47, Nr. 182, 05.07.1894, S. [9]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940705&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1895-01-30">30.01.1895</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                     <persName type="Pianist_in" corresp="#">Eisler, Paul</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668981 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 48</biblScope>
+                           <biblScope unit="issue">Nr. 45</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1895-02-15">15.02.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Pianisten Paul Eisler; dem Künstler sei u.a. nach "Brahms' Rhapsodie op. 79" verdiente Anerkennung zuteil geworden; Datum gemäß Das Vaterland, 26.01.1895, S. 7)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 48, Nr. 45, 15.02.1895, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18950215&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr." cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0220">Röntgen, Julius</persName>
+                     <date isodate="1896-02-05">05.02.1896</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669144 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Morgen-Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 49</biblScope>
+                           <biblScope unit="issue">Nr. 37</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1896-02-07">07.02.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Johannes Meßchaert; Werke von J. Brahms: op. 117, Nr. 1, op. 79, Nr. 2; Datum gemäß NWT, 01.02.1896, S. 9)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 37, 07.02.1896, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960207&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1896-02-20">20.02.1896</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0095">Grünfeld, Alfred</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669148 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Morgen-Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 49</biblScope>
+                           <biblScope unit="issue">Nr. 39</biblScope>
+                           <biblScope unit="page">S. 16</biblScope>
+                           <imprint>
+                              <date isodate="1896-02-09">09.02.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Alfred Grünfeld, 19.30 Uhr; Werke von Brahms: op. 118, Nr. 2 und 5, op. 119, Nr. 2 und op. 79, Nr. 1)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 39, 09.02.1896, S. 16</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960209&amp;seite=8&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669159 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Morgen-Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 49</biblScope>
+                           <biblScope unit="issue">Nr. 51</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1896-02-21">21.02.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Alfred Grünfeld; Werke von Brahms: "Intermezzi aus den letzten Clavierwerken" sowie op. 79, Nr. 1; Datum gemäß Die Presse, Morgen-Presse, 09.02.1896, S. 16)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 51, 21.02.1896, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960221&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._79,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Klavier</head>
+               <perfResList>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="component_op._79,Nr.1">
+               <identifier label="Opus-Nummer">op. 79, Nr.1</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._79"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._79,Nr.2">
+               <identifier label="Opus-Nummer">op. 79, Nr.2</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._79"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

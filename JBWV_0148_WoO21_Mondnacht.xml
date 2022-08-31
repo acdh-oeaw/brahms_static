@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Mondnacht</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke ohne Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="148" xml:id="work_WoO_21">
+         <identifier label="WoO-Nummer">WoO 21</identifier>
+         <title>Mondnacht</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <date/>
+                  <geogName role="place"/>
+                  <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <biblList>
+                     <bibl sameas="recordid_668446 " type="Rubrik_5">
+                        <term label="Rubrik_5">Anzeigen der Verlage (Novitäten)</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 45</biblScope>
+                        <biblScope unit="issue">Nr. 113</biblScope>
+                        <biblScope unit="page">S. 12</biblScope>
+                        <imprint>
+                           <date isodate="1892-04-23">23.04.1892</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Emil Berté u. Cie.: Beitrag von J. Brahms im "Wiener Componisten-Album" zur Feier der Internationalen Ausstellung für Musik- und Theaterwesen; siehe ÖNB-Exemplar MS 3277: http://data.onb.ac.at/rep/1000F083)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 113, 23.04.1892, S. 12</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18920423&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_WoO_21"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: 1 Singstimme und Klavier</head>
+               <perfResList>
+                  <perfRes>1 Singstimme</perfRes>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+      </work>
+   </workList>
+</mei>

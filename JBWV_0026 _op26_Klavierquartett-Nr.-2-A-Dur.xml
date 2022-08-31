@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Klavierquartett Nr. 2 A-Dur</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="26" xml:id="work_op._26">
+         <identifier label="Opus-Nummer">op. 26</identifier>
+         <title>Klavierquartett Nr. 2 A-Dur</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0110">Hellmesberger, Josef</persName>
+                  <persName type="Bratschist_in" corresp="#">Dobyhal, Franz</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0221">Röver, Heinrich</persName>
+                  <date isodate="1862-11-29">29.11.1862</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669275 recordid_669276 " type="Rubrik_2 Rubrik_9">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <term label="Rubrik_9">Brahms als Pianist</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 3</biblScope>
+                        <biblScope unit="issue">Nr. 279</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1862-12-04">04.12.1862</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von J. Brahms, abends; Uraufführung, Werk gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 88, bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 72)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 3, Nr. 279, 04.12.1862, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18621204&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669294 recordid_669295 " type="Rubrik_9 Rubrik_2">
+                        <term label="Rubrik_9">Brahms als Pianist</term>
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 4</biblScope>
+                        <biblScope unit="issue">Nr. 6</biblScope>
+                        <biblScope unit="page">S. [2]</biblScope>
+                        <imprint>
+                           <date isodate="1863-01-09">09.01.1863</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Erwähnung im Rahmen einer Rezension des 2. Konzerts von J. Brahms in der Saison 1862/63; Datum und Werke gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 72: op. 26, Anh. IIb, Nr. 1, op. 24 sowie Schumanns op. 17 und Begleitung der Sänger Adele Passy-Cornet und Emil Förchtgott)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 4, Nr. 6, 09.01.1863, S. [2]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18630109&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666247 recordid_666255 " type="Rubrik_2 Rubrik_9">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <term label="Rubrik_9">Brahms als Pianist</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 15</biblScope>
+                        <biblScope unit="issue">Nr. 331</biblScope>
+                        <biblScope unit="page">S. [1] f.</biblScope>
+                        <imprint>
+                           <date isodate="1862-12-03">03.12.1862</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Erwähnung im Rahmen einer Hanslick-Rezension des 1. Brahms-Konzerts in Wien, 29.11.1862; vgl. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 72.)</p>
+                           <p label="Weitere_Informationen">(1. Brahms-Konzert in Wien; vgl. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 72)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 15, Nr. 331, 03.12.1862, S. [1] f.</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18621203&amp;seite=2&amp;zoom=33&amp;query=text%3A%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_668522 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 45</biblScope>
+                        <biblScope unit="issue">Nr. 355</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1892-12-23">23.12.1892</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Erwähnung einer Rezension von op. 26, die ein "inzwischen mit der Brahms-Muse verschwägerter Kritiker" [Hanslick, vgl. Die Presse, 03.12.1862, S. 1 f.] über ein Brahms'sches "Kammerstück" geschrieben habe im Rahmen eines Hirschfeld-Feuilletons über unangebrachte Vergleiche musikalischer Werke unterschiedlicher Komponisten anstatt diese aus sich selbst heraus zu erklären. Datum gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 72, Kritiker und Werk gemäß Kalbeck, Brahms, II/1, S. 33)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 45, Nr. 355, 23.12.1892, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18921223&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0187">Paltinger, Wanda</persName>
+                  <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0269">Tyberg, Marcell</persName>
+                  <persName type="Bratschist_in" corresp="../Brahms-Personenregister-ID/0058">Dittrich, Rudolf</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0221">Röver, Heinrich</persName>
+                  <date isodate="1888-02-09">09.02.1888</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669756 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 29</biblScope>
+                        <biblScope unit="issue">Nr. 46</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1888-02-15">15.02.1888</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert der Klaviervirtuosin Wanda Paltinger; u.a. ein Brahms'sches "Quartett")</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 29, Nr. 46, 15.02.1888, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18880215&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._26oderop.25oderop.60" cert="unknown"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0055">Demelius, Margarethe</persName>
+                  <date isodate="1893-11-29">29.11.1893</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670047 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 34</biblScope>
+                        <biblScope unit="issue">Nr. 339</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1893-12-08">08.12.1893</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Kammermusikabend des Frl. Demelius; Datum gemäß Neue Freie Presse, 03.12.1893, S. 7)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 339, 08.12.1893, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931208&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_668674 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 46</biblScope>
+                        <biblScope unit="issue">Nr. 341</biblScope>
+                        <biblScope unit="page">S. 19</biblScope>
+                        <imprint>
+                           <date isodate="1893-12-10">10.12.1893</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Kammermusikabend des Frl. Demelius; Datum gemäß Neue Freie Presse, 03.12.1893, S. 7)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 341, 10.12.1893, S. 19</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931210&amp;seite=19&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0003">Albert, Eugen d’</persName>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0004">Böhmisches Streichquartett</corpName>
+                  <date startdate="1895-09-01" enddate="1896-05-31">Saison 1895/1896</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670189 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 36</biblScope>
+                        <biblScope unit="issue">Nr. 295</biblScope>
+                        <biblScope unit="page">S. 7</biblScope>
+                        <imprint>
+                           <date isodate="1895-10-27">27.10.1895</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Vorankündigung der Wiener Soiréen des Böhmischen Streichquartetts der Saison 1895/1896)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 36, Nr. 295, 27.10.1895, S. 7</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18951027&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0003">Albert, Eugen d’</persName>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0004">Böhmisches Streichquartett</corpName>
+                  <date isodate="1895-12-06">06.12.1895</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670205 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 36</biblScope>
+                        <biblScope unit="issue">1. Beiblatt zu Nr. 330</biblScope>
+                        <biblScope unit="page">S. III</biblScope>
+                        <imprint>
+                           <date isodate="1895-12-01">01.12.1895</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(2. Soirée des Böhmischen Streichquartetts)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 36, 1. Beiblatt zu Nr. 330, 01.12.1895, S. III</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18951201&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669087 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 48</biblScope>
+                        <biblScope unit="issue">Nr. 330</biblScope>
+                        <biblScope unit="page">S. 15</biblScope>
+                        <imprint>
+                           <date isodate="1895-12-01">01.12.1895</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(2. Soirée des Böhmischen Streichquartetts)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 48, Nr. 330, 01.12.1895, S. 15</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18951201&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669112 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 48</biblScope>
+                        <biblScope unit="issue">Nr. 353</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1895-12-24">24.12.1895</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(2. Kammermusikabend des Böhmischen Streichquartetts; Datum gemäß Die Presse, Local-Anzeiger, 01.12.1895, S. 15)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 48, Nr. 353, 24.12.1895, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18951224&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1896-11-10">10.11.1896</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0029">Rosé-Quartett</corpName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0209">Reinhold, Hugo</persName>
+                  <biblList>
+                     <bibl sameas="recordid_670287 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 37</biblScope>
+                        <biblScope unit="issue">Nr. 303</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1896-11-03">03.11.1896</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Abonnementabend des Rosé-Quartetts)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 37, Nr. 303, 03.11.1896, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18961103&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_670296 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 37</biblScope>
+                        <biblScope unit="issue">Nr. 320</biblScope>
+                        <biblScope unit="page">S. [1] f.</biblScope>
+                        <imprint>
+                           <date isodate="1896-11-20">20.11.1896</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Kammermusikabend des Rosé-Quartetts)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 37, Nr. 320, 20.11.1896, S. [1] f.</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18961120&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0029">Rosé-Quartett</corpName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0073">Epstein, Richard</persName>
+                  <date startdate="1899-09-01" enddate="1900-05-31">Saison 1899/1900</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670620 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 40</biblScope>
+                        <biblScope unit="issue">Nr. 294</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1899-10-25">25.10.1899</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Vorankündigung der 4 Abonnementabende des Rosé-Quartetts der Saison 1899/1900; nicht verzeichnet in Quartett Rosé, Programme, stattdessen für 09.01.1900: op. 8, 2. Fassung)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 40, Nr. 294, 25.10.1899, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18991025&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0025">Prill-Quartett</corpName>
+                  <persName type="1_Violinist_in" corresp="../Brahms-Personenregister-ID/0291">Prill, Karl</persName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0003">Albert, Eugen d’</persName>
+                  <date isodate="1900-11-28">28.11.1900</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670724 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 41</biblScope>
+                        <biblScope unit="issue">Nr. 313</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1900-11-14">14.11.1900</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Kammermusikabend des Prill-Quartetts; Datum gemäß Neue Freie Presse, 22.11.1900, S. 8)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 41, Nr. 313, 14.11.1900, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19001114&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_670932 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 41</biblScope>
+                        <biblScope unit="issue">1. Beiblatt zu Nr. 331</biblScope>
+                        <biblScope unit="page">S. I</biblScope>
+                        <imprint>
+                           <date isodate="1900-12-02">02.12.1900</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Abonnementquartett von Konzertmeister Prill; fälschlich: "Brahm's"; Datum gemäß Neue Freie Presse, 22.11.1900, S. 8)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 41, 1. Beiblatt zu Nr. 331, 02.12.1900, S. I</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19001202&amp;seite=9&amp;zoom=38&amp;query=%22brahm%27s%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1901-12-21">21.12.1901</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0252">Soldat-Röger, Marie</persName>
+                  <persName type="Bratschist_in" corresp="../Brahms-Personenregister-ID/0077">Finger, Alfred</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0421">Hausmann, Robert</persName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0067">Eibenschütz, Ilona</persName>
+                  <biblList>
+                     <bibl sameas="recordid_670795 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 42</biblScope>
+                        <biblScope unit="issue">Nr. 339</biblScope>
+                        <biblScope unit="page">S. 5</biblScope>
+                        <imprint>
+                           <date isodate="1901-12-10">10.12.1901</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Kammermusikabend von Marie Soldat-Röger, 19.30 Uhr)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 42, Nr. 339, 10.12.1901, S. 5</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19011210&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_670800 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 42</biblScope>
+                        <biblScope unit="issue">Nr. 357</biblScope>
+                        <biblScope unit="page">S. 7</biblScope>
+                        <imprint>
+                           <date isodate="1901-12-29">29.12.1901</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Kammermusikabend von Marie Soldat-Röger; Datum gemäß Vaterland, Morgenblatt, 10.12.1901, S. 5)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 42, Nr. 357, 29.12.1901, S. 7</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19011229&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date startdate="1902-09-01" enddate="1903-05-31">Saison 1902/1903</date>
+                  <geogName role="place">Wien</geogName>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0006">Duesberg-Quartett</corpName>
+                  <biblList>
+                     <bibl sameas="recordid_670864 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 43</biblScope>
+                        <biblScope unit="issue">1. Beiblatt zu Nr. 301</biblScope>
+                        <biblScope unit="page">S. IV</biblScope>
+                        <imprint>
+                           <date isodate="1902-11-01">01.11.1902</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Aufführungen des Duesberg-Quartetts der Saison 1902/1903)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 43, 1. Beiblatt zu Nr. 301, 01.11.1902, S. IV</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19021101&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1873-01-24">24.01.1873</date>
+                  <geogName role="place">Wien</geogName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0062">Door, Anton</persName>
+                  <persName type="Violinist_in" corresp="#">Walter, Josef</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0201">Popper, David</persName>
+                  <biblList>
+                     <bibl sameas="recordid_666556 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 26</biblScope>
+                        <biblScope unit="issue">Nr. 21</biblScope>
+                        <biblScope unit="page">S. 10</biblScope>
+                        <imprint>
+                           <date isodate="1873-01-22">22.01.1873</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(2. Triosoirée der Herren Door, Walter und Popper; Datum gemäß BlätterMTK, 31.01.1873, S. 20)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 26, Nr. 21, 22.01.1873, S. 10</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18730122&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666562 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 26</biblScope>
+                        <biblScope unit="issue">Nr. 29</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1873-01-30">30.01.1873</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(2. Triosoirée der Herren Door, Popper und Walter)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 26, Nr. 29, 30.01.1873, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18730130&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0503">Jaëll, Alfred</persName>
+                  <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0463">Grün, Jakob Moritz</persName>
+                  <persName type="Bratschist_in" corresp="#">Hilbert, Alois</persName>
+                  <persName type="Violoncellist_in" corresp="#">Spitzer, Louis</persName>
+                  <date isodate="1873-01-22">22.01.1873</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Salon Bösendorfer</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_666557 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 26</biblScope>
+                        <biblScope unit="issue">Nr. 23</biblScope>
+                        <biblScope unit="page">S. [9]</biblScope>
+                        <imprint>
+                           <date isodate="1873-01-24">24.01.1873</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von Alfred Jaell)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 26, Nr. 23, 24.01.1873, S. [9]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18730124&amp;seite=9&amp;zoom=41&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666563 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 26</biblScope>
+                        <biblScope unit="issue">Nr. 29</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1873-01-30">30.01.1873</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von Alfred Jaell; Erwähnung im Rahmen einer Rezension der 2. Triosoirée der Herren Door, Popper und Walter vom 24.01.1873, bei der ebenfalls op. 26 gespielt wurde; Datum gemäß BlätterMTK, 24.01.1873, S. 16)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 26, Nr. 29, 30.01.1873, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18730130&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0014">Hellmesberger-Quartett</corpName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0231">Schenner, Wilhelm</persName>
+                  <date isodate="1873-11-13">13.11.1873</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_666630 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 26</biblScope>
+                        <biblScope unit="issue">Nr. 317</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1873-11-19">19.11.1873</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Kammermusikabend des Hellmesberger-Quartetts; 1. Aufführung "in diesen Kreisen", vgl. <bibl type="bibl" target="#Quartett_Hellmesberger">Quartett Hellmesberger, Programme</bibl>, S. 83)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 26, Nr. 317, 19.11.1873, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18731119&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <persName type="Mitwirkende_r" corresp="#">Walter, Josef</persName>
+                  <persName type="Mitwirkende_r" corresp="#">Thoms, Anton</persName>
+                  <persName type="Mitwirkende_r" corresp="../Brahms-Personenregister-ID/0167">Müller, Hippolyt</persName>
+                  <date isodate="1874-03-14">14.03.1874</date>
+                  <geogName role="place">München</geogName>
+                  <geogName role="venue">Großer Saal der Gesellschaft "Museum"</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_666705 recordid_666706 " type="Rubrik_9 Rubrik_3">
+                        <term label="Rubrik_9">Brahms als Pianist</term>
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 27</biblScope>
+                        <biblScope unit="issue">Nr. 77</biblScope>
+                        <biblScope unit="page">S. 9</biblScope>
+                        <imprint>
+                           <date isodate="1874-03-19">19.03.1874</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Meldung, J. Brahms habe "den 13. und 14. d. M. im königlichen Odeon zu München conertirt"; gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 140, 2. Quartettsoirée von Josef Walter; weiteres Werk von J. Brahms: op. 36)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 27, Nr. 77, 19.03.1874, S. 9</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18740319&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0014">Quartett Hellmesberger</corpName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0062">Door, Anton</persName>
+                  <date isodate="1881-11-24">24.11.1881</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_667230 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 34</biblScope>
+                        <biblScope unit="issue">Nr. 320</biblScope>
+                        <biblScope unit="page">S. 15</biblScope>
+                        <imprint>
+                           <date isodate="1881-11-20">20.11.1881</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Quartettproduktion von Hellmesberger, 19.00 Uhr; "zweite Aufführung")</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 34, Nr. 320, 20.11.1881, S. 15</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18811120&amp;seite=15&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0018">Becker, Jean</persName>
+                  <persName type="Bratschist_in" corresp="#">Becker, Hans</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0017">Becker, Hugo</persName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0019">Becker, Jeanne</persName>
+                  <date isodate="1881-11-18">18.11.1881</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_667231 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 34</biblScope>
+                        <biblScope unit="issue">Nr. 320</biblScope>
+                        <biblScope unit="page">S. 15</biblScope>
+                        <imprint>
+                           <date isodate="1881-11-20">20.11.1881</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Kammermusik-Soirée von Jean Becker, abends)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 34, Nr. 320, 20.11.1881, S. 15</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18811120&amp;seite=15&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0029">Rosé-Quartett</corpName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0081">Frank, Cäcilie</persName>
+                  <date isodate="1887-02-15">15.02.1887</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_667810 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Abendblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 40</biblScope>
+                        <biblScope unit="issue">Nr. 41</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1887-02-11">11.02.1887</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(3. Produktion des Rosé-Quartetts, 19.30 Uhr)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Abendblatt, Jg. 40, Nr. 41, 11.02.1887, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18870211&amp;seite=14&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date startdate="1893-09-01" enddate="1894-05-31">Saison 1893/1894</date>
+                  <geogName role="place">Wien</geogName>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0041">Winkler-Quartett</corpName>
+                  <biblList>
+                     <bibl sameas="recordid_668641 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 46</biblScope>
+                        <biblScope unit="issue">Nr. 310</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1893-11-09">09.11.1893</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Vorankündigung des Programms des Winkler-Quartetts der Saison 1893/1894)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 310, 09.11.1893, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931109&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0041">Winkler-Quartett</corpName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0209">Reinhold, Hugo</persName>
+                  <date isodate="1894-01-11">11.01.1894</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_668728 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 47</biblScope>
+                        <biblScope unit="issue">Nr. 16</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1894-01-18">18.01.1894</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Kammermusikabend des Winkler-Quartetts; Datum gemäß NWT, 13.01.1894, S. 8)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 47, Nr. 16, 18.01.1894, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940118&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1894-02-10">10.02.1894</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                  <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0183">Ondriczek, Franz</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0201">Popper, David</persName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0062">Door, Anton</persName>
+                  <biblList>
+                     <bibl sameas="recordid_668750 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 47</biblScope>
+                        <biblScope unit="issue">Nr. 38</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1894-02-09">09.02.1894</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(2. Kammermusikabend der Herren Ondriczek, Popper und Door)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 47, Nr. 38, 09.02.1894, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940209&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0029">Rosé-Quartett</corpName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0186">Paderewski, Ignacy Jan</persName>
+                  <date isodate="1889-01-29">29.01.1889</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670964 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 42</biblScope>
+                        <biblScope unit="issue">Nr. 26</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1889-01-26">26.01.1889</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(5. Kammermusiksoirée des Rosé-Quartetts; fälschlich: "Brahm's")</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 42, Nr. 26, 26.01.1889, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18890126&amp;seite=11&amp;zoom=33&amp;query=%22brahm%27s%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._26"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <notesStmt/>
+         <expressionList>
+            <expression n="1">
+               <title>Fassung für Klavierquartett</title>
+               <perfMedium>
+                  <perfResList>
+                     <head>Besetzung: Violine, Viola, Violoncello und Klavier</head>
+                     <perfResList>
+                        <perfRes>Violine</perfRes>
+                        <perfRes>Viola</perfRes>
+                        <perfRes>Violoncello</perfRes>
+                        <perfRes>Klavier</perfRes>
+                     </perfResList>
+                  </perfResList>
+               </perfMedium>
+            </expression>
+            <expression n="2">
+               <title>Arrangement für 1 Klavier zu 4 Händen</title>
+            </expression>
+         </expressionList>
+      </work>
+   </workList>
+</mei>

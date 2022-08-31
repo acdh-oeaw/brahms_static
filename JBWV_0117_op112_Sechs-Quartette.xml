@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Sechs Quartette</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="117" xml:id="work_op._112">
+         <identifier label="Opus-Nummer">op. 112</identifier>
+         <title>Sechs Quartette</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <date/>
+                  <geogName role="place"/>
+                  <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <biblList>
+                     <bibl sameas="recordid_668276 " type="Rubrik_5">
+                        <term label="Rubrik_5">Anzeigen der Verlage (Novitäten)</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 44</biblScope>
+                        <biblScope unit="issue">Nr. 330</biblScope>
+                        <biblScope unit="page">S. 8</biblScope>
+                        <imprint>
+                           <date isodate="1891-12-01">01.12.1891</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Edition Peters: u.a. op. 112 und op. 113 von Brahms; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 450)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 44, Nr. 330, 01.12.1891, S. 8</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911201&amp;seite=8&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._112"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_668353 " type="Rubrik_1">
+                        <term label="Rubrik_1">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 44</biblScope>
+                        <biblScope unit="issue">Nr. 348</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1891-12-19">19.12.1891</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Volksausgabe Peters: Brahms' neues op. 112, rezensiert von Robert Hirschfeld; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 450)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 44, Nr. 348, 19.12.1891, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911219&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._112"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Sopran, Alt, Tenor, Bass und Klavier</head>
+               <perfResList>
+                  <perfRes>Sopran</perfRes>
+                  <perfRes>Alt</perfRes>
+                  <perfRes>Tenor</perfRes>
+                  <perfRes>Bass</perfRes>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="component_op._112,Nr.1">
+               <identifier label="Opus-Nummer">op. 112, Nr.1</identifier>
+               <title>Sehnsucht.</title>
+            </work>
+            <work n="2" xml:id="component_op._112,Nr.2">
+               <identifier label="Opus-Nummer">op. 112, Nr.2</identifier>
+               <title>Nächtens.</title>
+            </work>
+            <work n="3" xml:id="component_op._112,Nr.3">
+               <identifier label="Opus-Nummer">op. 112, Nr.3</identifier>
+               <title>Vier Zigeunerlieder Nr. 1.</title>
+            </work>
+            <work n="4" xml:id="component_op._112,Nr.4">
+               <identifier label="Opus-Nummer">op. 112, Nr.4</identifier>
+               <title>Vier Zigeunerlieder Nr. 2.</title>
+            </work>
+            <work n="5" xml:id="component_op._112,Nr.5">
+               <identifier label="Opus-Nummer">op. 112, Nr.5</identifier>
+               <title>Vier Zigeunerlieder Nr. 3.</title>
+            </work>
+            <work n="6" xml:id="component_op._112,Nr.6">
+               <identifier label="Opus-Nummer">op. 112, Nr.6</identifier>
+               <title>Vier Zigeunerlieder Nr. 4.</title>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

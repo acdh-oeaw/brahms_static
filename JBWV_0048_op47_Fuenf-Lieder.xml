@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Fünf Lieder</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="48" xml:id="work_op._47">
+         <identifier label="Opus-Nummer">op. 47</identifier>
+         <title>Fünf Lieder</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <notesStmt/>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0368">Müller, Hr.</persName>
+                     <date isodate="1879-07-19">19.07.1879</date>
+                     <geogName role="place">Salzburg</geogName>
+                     <geogName role="venue">Aula academica</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669539 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 20</biblScope>
+                           <biblScope unit="issue">Nr. 167</biblScope>
+                           <biblScope unit="page">S. [3]</biblScope>
+                           <imprint>
+                              <date isodate="1879-06-19">19.06.1879</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. Konzert im Rahmen des Salzburger Musikfests, 17.-19.07.1879, 11.00 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 20, Nr. 167, 19.06.1879, S. [3]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18790619&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1887-02-11">11.02.1887</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0457">Walter, Gustav</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669718 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 28</biblScope>
+                           <biblScope unit="issue">Nr. 40</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1887-02-10">10.02.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Liederabend, "Brahms-Abend", von Kammersänger Gustav Walter unter Mitwirkung von Marie Baumayer und Ludwig Rottenberg, 19.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 28, Nr. 40, 10.02.1887, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18870210&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1894-03-06">06.03.1894</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0433">Nicklaß-Kempner, Selma</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670088 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 35</biblScope>
+                           <biblScope unit="issue">Nr. 60</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1894-03-03">03.03.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Volkstümlicher Liederabend von Selma Nicklaß-Kempner; u.a. 3 Brahms-Lieder: "Die Mainacht", "Sonntags", "Der Mond steht über dem Berge")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 35, Nr. 60, 03.03.1894, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18940303&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668788 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 47</biblScope>
+                           <biblScope unit="issue">Nr. 59</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1894-03-02">02.03.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Volkstümlicher Liederabend von Frau Professor Selma Nicklaß-Kempner; u.a. 3 Brahms-Lieder: "Die Mainacht", "Sonntags", "Der Mond steht über dem Berge")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 47, Nr. 59, 02.03.1894, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940302&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0222">Rückauf, Anton</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0251">Sistermans, Anton</persName>
+                     <date isodate="1895-01-12">12.01.1895</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670139 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 36</biblScope>
+                           <biblScope unit="issue">Nr. 9</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1895-01-09">09.01.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Anton Sistermans; u.a. 3 Lieder von Brahms: "O, wüßt' ich doch den Weg zurück", "Am Sonntagsmorgen", "O liebliche Wangen")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 36, Nr. 9, 09.01.1895, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18950109&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668933 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 48</biblScope>
+                           <biblScope unit="issue">Nr. 9</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1895-01-09">09.01.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Anton Sistermans; Werke von J. Brahms: op. 63, Nr. 8, op. 49, Nr. 1 und op. 47, Nr. 4)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 48, Nr. 9, 09.01.1895, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18950109&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1900-02-23">23.02.1900</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="#">Zur-Mühlen, Raimund von</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670656 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 41</biblScope>
+                           <biblScope unit="issue">Nr. 45</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1900-02-16">16.02.1900</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. und letzter Liederabend von Raimund von Zur-Mühlen; u.a. 4 Lieder von Brahms: "Regenlied", "Wir wandelten, wir zwei zusammen", "In Waldeseinsamkeit", "Botschaft")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 41, Nr. 45, 16.02.1900, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19000216&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1900-03-28">28.03.1900</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="#">Zur Mühlen, Raimund von</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670693 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 41</biblScope>
+                           <biblScope unit="issue">Nr. 77</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1900-03-20">20.03.1900</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. und letzter Liederabend von Raimund v. Zur Mühlen; u.a. 4 Lieder von Brahms: "Regenlied, Wir wandelten, wir zwei zusammen, In Waldeseinsamkeit, Botschaft")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 41, Nr. 77, 20.03.1900, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19000320&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1900-03-24">24.03.1900</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="#">Wüllner, Ludwig</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670695 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 41</biblScope>
+                           <biblScope unit="issue">Nr. 78</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1900-03-21">21.03.1900</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Dr. Ludwig Wüllner; u.a. 5 Lieder von Brahms: "Auf dem Kirchhofe, Liebesgluth, Auf dem See, In Waldeseinsamkeit, Verrath")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 41, Nr. 78, 21.03.1900, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19000321&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0172">Naval, Franz</persName>
+                     <date isodate="1900-10-28">28.10.1900</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Redoutensaal der Hofburg</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670719 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 41</biblScope>
+                           <biblScope unit="issue">Nr. 297</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1900-10-29">29.10.1900</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Hofkonzert im Anschluss an das Galadiner am Vortag der Vermählung von Erzherzogin Maria Immaculata Raineria mit Herzog Robert von Württemberg am 29.10.1900, 20.00 Uhr; weiteres Werk von Brahms: "Ungarische Tänze")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Abendblatt, Jg. 41, Nr. 297, 29.10.1900, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19001029&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0457">Walter, Gustav</persName>
+                     <date isodate="1879-05-11">11.05.1879</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667083 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 32</biblScope>
+                           <biblScope unit="issue">Nr. 126</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1879-05-08">08.05.1879</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Großes Konzert der Concordia, 12.30 Uhr; u.a. "ein Lied von Brahms"; Werk gemäß WienerZ, 10.05.1879, S. 6)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 32, Nr. 126, 08.05.1879, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18790508&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667084 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 32</biblScope>
+                           <biblScope unit="issue">Nr. 130</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1879-05-12">12.05.1879</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Journalisten- und Schriftstellervereins Concordia)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Abendblatt, Jg. 32, Nr. 130, 12.05.1879, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18790512&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1884-01-25">25.01.1884</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0457">Walter, Gustav</persName>
+                     <biblList>
+                        <bibl sameas="recordid_667423 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 37</biblScope>
+                           <biblScope unit="issue">Nr. 33</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1884-02-02">02.02.1884</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Liederabend von Gustav Walter; weitere Werke von J. Brahms: "Vergebliches Ständchen" und "Edward"; Datum gemäß Neues Wiener Tagblatt, 30.01.1884, S. 4)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 37, Nr. 33, 02.02.1884, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18840202&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1894-02-14">14.02.1894</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0251">Sistermans, Anton</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668758 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 47</biblScope>
+                           <biblScope unit="issue">Nr. 39</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1894-02-10">10.02.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Anton Sistermans; u.a. 5 Brahms-Lieder: "Auf dem Kirchhofe", "Verrath", "Feldeinsamkeit", "Sonntag", "Minnelied")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 47, Nr. 39, 10.02.1894, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940210&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._47,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <expressionList>
+            <expression n="1">
+               <title>Liedfassung</title>
+               <perfMedium>
+                  <perfResList>
+                     <head>Besetzung: 1 Singstimme und Klavier</head>
+                     <perfResList>
+                        <perfRes>1 Singstimme</perfRes>
+                        <perfRes>Klavier</perfRes>
+                     </perfResList>
+                  </perfResList>
+               </perfMedium>
+            </expression>
+            <expression n="2">
+               <title>Nr. 3: Fassung für dreistimmigen Frauenchor</title>
+            </expression>
+         </expressionList>
+         <componentList>
+            <work n="1" xml:id="component_op._47,Nr.1">
+               <identifier label="Opus-Nummer">op. 47, Nr.1</identifier>
+               <title>Botschaft.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._47"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._47,Nr.2">
+               <identifier label="Opus-Nummer">op. 47, Nr.2</identifier>
+               <title>Liebesglut.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._47"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._47,Nr.3">
+               <identifier label="Opus-Nummer">op. 47, Nr.3</identifier>
+               <title>Sonntag.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._47"/>
+               </relationList>
+            </work>
+            <work n="4" xml:id="component_op._47,Nr.4">
+               <identifier label="Opus-Nummer">op. 47, Nr.4</identifier>
+               <title>O liebliche Wangen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._47"/>
+               </relationList>
+            </work>
+            <work n="5" xml:id="component_op._47,Nr.5">
+               <identifier label="Opus-Nummer">op. 47, Nr.5</identifier>
+               <title>Die Liebende schreibt.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._47"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

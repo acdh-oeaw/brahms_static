@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Fünf Lieder</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="99" xml:id="work_op._94">
+         <identifier label="Opus-Nummer">op. 94</identifier>
+         <title>Fünf Lieder</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0190">Papier-Paumgartner, Rosa</persName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0192">Paumgartner, Hans</persName>
+                     <date isodate="1886-12-09">09.12.1886</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669701 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 27</biblScope>
+                           <biblScope unit="issue">Nr. 335</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1886-12-05">05.12.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Kammermusikabend des Hellmesberger-Quartetts; u.a. "Lieder von Brahms, Schubert und Schumann"; Werke gemäß <bibl type="bibl" target="#Quartett_Hellmesberger">Quartett Hellmesberger, Programme</bibl>, S. 125: op. 33, Nr. 6 und op. 94, Nr. 4)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 27, Nr. 335, 05.12.1886, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18861205&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669703 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 27</biblScope>
+                           <biblScope unit="issue">Nr. 337</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1886-12-07">07.12.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Musikaufführung des Hellmesberger-Quartetts; "Sappishsche Ode"; Werke von J. Brahms: op. 33, Nr. 6 und op. 94, Nr. 4, vgl. <bibl type="bibl" target="#Quartett_Hellmesberger">Quartett Hellmesberger, Programme</bibl>, S. 125)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 27, Nr. 337, 07.12.1886, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18861207&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667765 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 334</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1886-12-04">04.12.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Kammermusikabend des Quartett Hellmesberger; Werke von J. Brahms: op. 94, Nr. 4 und op. 33, Nr. 6 gemäß <bibl type="bibl" target="#Quartett_Hellmesberger">Quartett Hellmesberger, Programme</bibl>, S. 125)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 334, 04.12.1886, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18861204&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667773 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 345</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1886-12-15">15.12.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Quartettabend des Quartett Hellmesberger; Werke von J. Brahms: op. 94, Nr. 4 und op. 33, Nr. 6; Datum gemäß <bibl type="bibl" target="#Quartett_Hellmesberger">Quartett Hellmesberger, Programme</bibl>, S. 125)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 39, Nr. 345, 15.12.1886, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18861215&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1889-03-29">29.03.1889</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0190">Papier, Rosa</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669821 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 30</biblScope>
+                           <biblScope unit="issue">Nr. 79</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1889-03-21">21.03.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Rosa Papier, 19.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 30, Nr. 79, 21.03.1889, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18890321&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0190">Papier-Paumgartner, Rosa</persName>
+                     <date isodate="1889-11-03">03.11.1889</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669839 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 30</biblScope>
+                           <biblScope unit="issue">Nr. 303</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1889-11-04">04.11.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Reproduktion einer Wachsrolle durch den Edison-Phonographen-Vertreter Hr. Wangemann vor Kaiser Franz Joseph, Prinz Hohenlohe, Graf Paar und Major Poten, 10.45 Uhr bis 12.00 Uhr, Stephans-Appartements in der Hofburg)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 30, Nr. 303, 04.11.1889, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18891104&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668067 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 304</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1889-11-04">04.11.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Vormittags Vorführung des Edison-Phonographen vor dem Kaiser in einem der Stephansappartements der Hofburg durch den Vertreter Herr Wangemann, darunter eine Aufnahme mit Rosa Papier von Brahms' Sapphischer Ode.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 42, Nr. 304, 04.11.1889, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18891104&amp;seite=1&amp;zoom=48&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1889-11-22">22.11.1889</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0190">Papier, Rosa</persName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0486">Serres, Caroline de</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669847 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 30</biblScope>
+                           <biblScope unit="issue">1. Beiblatt zu Nr. 330</biblScope>
+                           <biblScope unit="page">S. 2 f.</biblScope>
+                           <imprint>
+                              <date isodate="1889-12-01">01.12.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Rosa Papier; weiteres Werk von J. Brahms: op. 84, Nr. 4; Datum gemäß Wiener Sonn- und Montags-Zeitung, 11.11.1889, S. [8])</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 30, 1. Beiblatt zu Nr. 330, 01.12.1889, S. 2 f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18891201&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668077 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 29</biblScope>
+                           <biblScope unit="page">S. 2 f.</biblScope>
+                           <imprint>
+                              <date isodate="1889-11-29">29.11.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Rosa Papier; die Sängerin musste einige Lieder wiederholen sowie "Cornelius' 'Andenken' und Brahms' 'Sapphische Ode' als Zugaben folgen lassen." Datum gemäß Wiener Salonblatt, 17.11.1889, S. 10)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 42, Nr. 29, 29.11.1889, S. 2 f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18891129&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date/>
+                     <geogName role="place"/>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0190">Papier, Rosa</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0457">Walter, Gustav</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669848 " type="Rubrik_1">
+                           <term label="Rubrik_1">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 30</biblScope>
+                           <biblScope unit="issue">1. Beiblatt zu Nr. 330</biblScope>
+                           <biblScope unit="page">S. 2 f.</biblScope>
+                           <imprint>
+                              <date isodate="1889-12-01">01.12.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Die Sapphische Ode von Brahms habe es verdient, "als die hervorragendste Liedcomposition der neuesten Zeit dem Phonographen anvertraut zu werden." Erwähnung im Rahmen einer Rezension des Liederabends von Rosa Papier am 22.11.1889.)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 30, 1. Beiblatt zu Nr. 330, 01.12.1889, S. 2 f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18891201&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667553 " type="Rubrik_1">
+                           <term label="Rubrik_1">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 28</biblScope>
+                           <biblScope unit="page">S. 2 f.</biblScope>
+                           <imprint>
+                              <date isodate="1885-01-28">28.01.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Rezension anlässlich der Uraufführung von op. 94, Nr. 4 und op. 95, Nr. 6 im Rahmen eines Liederabends von Gustav Walter, 09.01.1885; Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 386 und 390)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 38, Nr. 28, 28.01.1885, S. 2 f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18850128&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._94"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1892-03-14">14.03.1892</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0223">Sanderson, Lillian</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669943 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 33</biblScope>
+                           <biblScope unit="issue">Nr. 71</biblScope>
+                           <biblScope unit="page">S. 5</biblScope>
+                           <imprint>
+                              <date isodate="1892-03-11">11.03.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Lillian Sanderson; u.a. 3 Lieder von Brahms: "Sapphische Ode", "Sandmännchen", "Vergebliches Ständchen")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 33, Nr. 71, 11.03.1892, S. 5</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18920311&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668409 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 45</biblScope>
+                           <biblScope unit="issue">Nr. 71</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1892-03-11">11.03.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Lillian Sanderson; u.a. 3 Lieder von Brahms: "Sapphische Ode", "Sandmännchen", "Vergebliches Ständchen")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 71, 11.03.1892, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18920311&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0035">Bratanitsch, Helene</persName>
+                     <date isodate="1893-12-07">07.12.1893</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670046 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 34</biblScope>
+                           <biblScope unit="issue">Nr. 337</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-06">06.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Volkstümliches Konzert des Kammervirtuosen Ondriczek)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 337, 06.12.1893, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931206&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668671 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 337</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-06">06.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Volkstümliches Konzert des Kammervirtuosen Ondriczek unter Mitwirkung von Prof. Door und Georg Valker)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 337, 06.12.1893, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931206&amp;seite=11&amp;zoom=49&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1897-01-20">20.01.1897</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0324">Schumann-Heink, Ernestine</persName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0348">Springer, Gisela</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670316 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 16</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1897-01-16">16.01.1897</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Kammersängerin Schumann-Heink)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 38, Nr. 16, 16.01.1897, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18970116&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670320 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 24</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1897-01-24">24.01.1897</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Ernestine Schumann-Heink; Datum gemäß Vaterland, Morgenblatt, 16.01.1897, S. 6)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 38, Nr. 24, 24.01.1897, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18970124&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1897-11-16">16.11.1897</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="#">Schläger, Antonie</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670439 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 313</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1897-11-13">13.11.1897</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Vorankündigung, Liederabend von Antonie Schläger, 19.30 Uhr; u.a. 3 Lieder von Brahms: "Sommerabend, Sapphische Ode, Vergebliches Ständchen")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Abendblatt, Jg. 38, Nr. 313, 13.11.1897, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18971113&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1898-01-12">12.01.1898</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0324">Schumann-Heink, Ernestine</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670465 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 5</biblScope>
+                           <biblScope unit="page">S. II</biblScope>
+                           <imprint>
+                              <date isodate="1898-01-06">06.01.1898</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend der Kammersängerin Ernestine Schumann-Heink; u.a. 3 Lieder von Brahms: "Von ewiger Liebe", "Sapphische Ode" und "Liebestreu")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 39, Beiblatt zu Nr. 5, 06.01.1898, S. II</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18980106&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1900-03-12">12.03.1900</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0251">Sistermans, Anton</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670676 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 41</biblScope>
+                           <biblScope unit="issue">Nr. 65</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1900-03-08">08.03.1900</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Brahms-Schumann-Abend von Anton Sistermans; u.a. 13 Lieder von Brahms: "Dämmerung senkte sich von oben, Todessehnen, Sapphische Ode, Sehnsucht, Der Kuß, Feldeinsamkeit, Der Frühling, Vergebliches Ständchen; Volkslieder: Erlaube mir, Die Sonne scheint nicht mehr, Schwesterlein, Mir ist ein schön's braun's Maidelein, ich stand auf hohem Berge")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 41, Nr. 65, 08.03.1900, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19000308&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1885-01-09">09.01.1885</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0457">Walter, Gustav</persName>
+                     <biblList>
+                        <bibl sameas="recordid_667551 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 28</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1885-01-28">28.01.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Liederabend von Gustav Walter; Uraufführung, Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 386; weiteres Lied von J. Brahms: op. 95, Nr. 6)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 38, Nr. 28, 28.01.1885, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18850128&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1886-01-22">22.01.1886</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0190">Papier, Rosa</persName>
+                     <biblList>
+                        <bibl sameas="recordid_667682 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 66</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1886-03-07">07.03.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend der Hofopernsängerin Rosa Papier; Erwähnung im Rahmen einer Rezension, in der Kalbeck Rosa Papier als einzige Frau nennt, "die es bisher ungestraft wagen durfte, den Concertsaal mit der Bühne nach Gefallen zu vertauschen"; Datum gemäß Wiener Abendpost, Beilage zur WienerZ, 23.01.1886, S. 3)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 39, Nr. 66, 07.03.1886, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860307&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0190">Papier-Paumgartner, Rosa</persName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0425">Menzel, Rosine</persName>
+                     <date isodate="1886-03-22">22.03.1886</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667693 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 77</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1886-03-18">18.03.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Liederabend von Rosa Papier "auf vielseitiges Verlangen", 19.30 Uhr; u.a. folgende Werke von Brahms: op. 32, Nr. 9, op. 33, Nr. 5 und 6, op. 94, Nr. 4)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 77, 18.03.1886, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860318&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667711 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 105</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1886-04-15">15.04.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Rosa Papier; Erwähnung im Rahmen eines Kalbeck-Feuilletons über Konzerte der vergangenen Wochen, "die uns in Beethoven, Schubert und Brahms schwelgen ließen"; u.a. folgende Werke von Brahms: op. 32, Nr. 9, op. 33, Nr. 5 und 6, op. 94, Nr. 4; Datum und Werke gemäß Die Presse, Local-Anzeiger, 18.03.1886, S. 11)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 39, Nr. 105, 15.04.1886, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860415&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0190">Papier-Paumgartner, Rosa</persName>
+                     <date startdate="1886-06-13" enddate="1886-06-15">13.06.-15.06.1886</date>
+                     <geogName role="place">Köln</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667721 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 176</biblScope>
+                           <biblScope unit="page">S. [1] f.</biblScope>
+                           <imprint>
+                              <date isodate="1886-06-27">27.06.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Auftritt im Rahmen des Niederrheinischen Musikfests, Pfingsten 1886)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 39, Nr. 176, 27.06.1886, S. [1] f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860627&amp;seite=2&amp;zoom=46&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0190">Papier-Paumgartner, Rosa</persName>
+                     <date isodate="1886-12-11">11.12.1886</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667777 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 345</biblScope>
+                           <biblScope unit="page">S. [9]</biblScope>
+                           <imprint>
+                              <date isodate="1886-12-15">15.12.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. geselliger Abend des "Concordia"-Klubs)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 345, 15.12.1886, S. [9]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18861215&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0192">Paumgartner, Hans</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0190">Papier-Paumgartner, Rosa</persName>
+                     <date isodate="1887-04-14">14.04.1887</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667838 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 109</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1887-04-21">21.04.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. Liederabend von Rosa Papier-Paumgartner; u.a. Lieder von Brahms, wobei op. 94, Nr. 4 eine der "von der gesammten Zuhörerschaft unermüdlich verlangte Zugaben" war.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 40, Nr. 109, 21.04.1887, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18870421&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0190">Papier-Paumgartner, Rosa</persName>
+                     <date isodate="1888-11-23">23.11.1888</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667976 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 41</biblScope>
+                           <biblScope unit="issue">Nr. 323</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1888-11-21">21.11.1888</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Großer Liederabend zum Besten des Journalisten- und Schriftstellervereins "Concordia", 19.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 41, Nr. 323, 21.11.1888, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18881121&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1889-11-01">01.11.1889</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0190">Papier, Rosa</persName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668066 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 302</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1889-11-02">02.11.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Rosa Papier gemeinsam mit J. Brahms, Direktor Förster und anderen Künstlern bei dem Edison-Phonographen-Vertreter Hr. Wangemann im Grand Hotel, wo sie op. 94, Nr. 4 "in den Apparat" gesungen habe. Nicht in Hofmann verzeichnet.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 42, Nr. 302, 02.11.1889, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18891102&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1889-11-03">03.11.1889</date>
+                     <geogName role="place">Meiningen</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0190">Papier, Rosa</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668068 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 306</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1889-11-06">06.11.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Abonnementskonzert der herzoglichen Hofkapelle unter Mitwirkung der Wiener Hofopernsängerin Rosa Papier, herzogliche Hofkapelle; u.a. op. 53 und op. 94, Nr. 4; die Künstlerin wurde in der Pause in die Loge des Herzogpaars gebeten, wo ihr u.a. "herzliche Grüße an Johannes Brahms" aufgetragen wurden.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 42, Nr. 306, 06.11.1889, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18891106&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0168">Müller, Marie</persName>
+                     <date isodate="1892-02-22">22.02.1892</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_668401 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 45</biblScope>
+                           <biblScope unit="issue">Nr. 47</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1892-02-16">16.02.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert von Willy und Louis Thern, abends)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 47, 16.02.1892, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18920216&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1893-12-09">09.12.1893</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="#">Palloni, Frl.</persName>
+                     <!-- Maria oder Antonietta? -->
+                     <biblList>
+                        <bibl sameas="recordid_668672 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 337</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-06">06.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Signora Palloni)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 337, 06.12.1893, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931206&amp;seite=11&amp;zoom=49&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0377">Albini, Laura</persName>
+                     <date isodate="1895-10-12">12.10.1895</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669050 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 48</biblScope>
+                           <biblScope unit="issue">Nr. 273</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1895-10-05">05.10.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Violinvirtuosen Arthur M. Hartmann)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 48, Nr. 273, 05.10.1895, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18951005&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._94,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: 1 Singstimme (tiefe Stimme) und Klavier</head>
+               <perfResList>
+                  <perfRes>1 Singstimme (tiefe Stimme)</perfRes>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="component_op._94,Nr.1">
+               <identifier label="Opus-Nummer">op. 94, Nr.1</identifier>
+               <title>Mit vierzig Jahren.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._94"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._94,Nr.2">
+               <identifier label="Opus-Nummer">op. 94, Nr.2</identifier>
+               <title>Steig auf, geliebter Schatten.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._94"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._94,Nr.3">
+               <identifier label="Opus-Nummer">op. 94, Nr.3</identifier>
+               <title>Mein Herz ist schwer.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._94"/>
+               </relationList>
+            </work>
+            <work n="4" xml:id="component_op._94,Nr.4">
+               <identifier label="Opus-Nummer">op. 94, Nr.4</identifier>
+               <title>Sapphische Ode.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._94"/>
+               </relationList>
+            </work>
+            <work n="5" xml:id="component_op._94,Nr.5">
+               <identifier label="Opus-Nummer">op. 94, Nr.5</identifier>
+               <title>Kein Haus, keine Heimat.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._94"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

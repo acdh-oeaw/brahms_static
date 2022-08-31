@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Georg Friedrich Händel: Dettinger Te Deum HWV 283</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Anhang</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="207" xml:id="component_Anhang_1b,Nr.24">
+         <identifier label="Anhang-Nummer">Anh. 1b Nr. 24</identifier>
+         <title>Georg Friedrich Händel: "Dettinger Te Deum" HWV 283</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="#">Georg Friedrich Händel</persName>
+         </composer>
+         <arranger>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </arranger>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0037">Bromeisl, Rosa</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0198">Pirk, Engelbert</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0139">Krauß, Emil</persName>
+                  <persName type="Organist_in" corresp="../Brahms-Personenregister-ID/0426">Bibl, Rudolph</persName>
+                  <date isodate="1872-11-10">10.11.1872</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Großer Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669374 recordid_669375 " type="Rubrik_3 Rubrik_10">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 13</biblScope>
+                        <biblScope unit="issue">Nr. 314</biblScope>
+                        <biblScope unit="page"/>
+                        <imprint>
+                           <date isodate="1872-11-15">15.11.1872 [1]]</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Gesellschaftskonzert; Fr. Wilt irrtümlich als Alt-Solistin genannt; weitere Werke: Anh. Ib, Nr. 31, 18, 28 und Schuberts Symphonie D 812 in einer Bearbeitung von Joachim; vgl. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 128 f., und BrahmsWV, S. 651)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 13, Nr. 314, 15.11.1872 [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18721115&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.24"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669415 recordid_669416 " type="Rubrik_3 Rubrik_10">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 14</biblScope>
+                        <biblScope unit="issue">Nr. 313</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1873-11-14">14.11.1873</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Gesellschaftskonzert; Erwähnung im Rahmen einer Rezension der Aufführung von Händels "Alexanderfest" am 09.11.1873; Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 651 und Hofmann, Chronologie, S. 128 f.)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 14, Nr. 313, 14.11.1873, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18731114&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.24"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666509 recordid_666510 " type="Rubrik_2 Rubrik_10">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 25</biblScope>
+                        <biblScope unit="issue">Nr. 313</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1872-11-13">13.11.1872</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Gesellschaftskonzert, mittags; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 651, bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 128 f.)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 25, Nr. 313, 13.11.1872, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18721113&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.24"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669207 recordid_669208 " type="Rubrik_3 Rubrik_10">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Morgen-Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 49</biblScope>
+                        <biblScope unit="issue">Nr. 96</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1896-04-07">07.04.1896</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Erwähnung im Rahmen eines Feuilletons Robert Hirschfelds, in dem er dem 1895 neu bestellten Leiter des Singvereins der GdM, Richard von Perger, als Beispiel für gelungene Programmgestaltung die Saisonen 1872 und 1873 unter der Leitung von J. Brahms entgegenstellt. Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 651, bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 128 f.)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 96, 07.04.1896, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960407&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.24"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: k.A.</head>
+               <perfResList/>
+            </perfResList>
+         </perfMedium>
+         <notesStmt>
+            <annot label="Brahms_Beitrag">
+               <p>Aufführungsfassung</p>
+            </annot>
+         </notesStmt>
+         <expressionList/>
+      </work>
+   </workList>
+</mei>

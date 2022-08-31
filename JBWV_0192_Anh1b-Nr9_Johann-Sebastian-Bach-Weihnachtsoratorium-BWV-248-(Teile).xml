@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Johann Sebastian Bach: Weihnachtsoratorium BWV 248 (Teile)</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Anhang</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="192" xml:id="component_Anhang_1b,Nr.9">
+         <identifier label="Anhang-Nummer">Anh. 1b Nr. 9</identifier>
+         <title>Johann Sebastian Bach: Weihnachtsoratorium BWV 248 (Teile)</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="#">Johann Sebastian Bach</persName>
+         </composer>
+         <arranger>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </arranger>
+         <history target="component_Anhang_1b,Nr.9">
+            <eventList type="performances">
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0036">Wiener Singakademie</corpName>
+                  <date isodate="1864-03-20">20.03.1864</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670966 recordid_670973 " type="Rubrik_18 Rubrik_100">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <term label="Rubrik_100">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 16</biblScope>
+                        <biblScope unit="issue">Nr. 237</biblScope>
+                        <biblScope unit="page">S. 4</biblScope>
+                        <imprint>
+                           <date isodate="1863-08-30">30.08.1863</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Vorankündigung der Konzerte der Wiener Singakademie der Saison 1863/64; Datum gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 79 bzw. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 649)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 16, Nr. 237, 30.08.1863, S. 4</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18630830&amp;seite=4&amp;zoom=33&amp;query=%22brahm%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.9"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <history target="#component_Anhang_1b,Nr.9a">
+            <eventList type="performances">
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0036">Wiener Singakademie</corpName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0026">Bochkoltz-Falconi, Anna</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0079">Flatz, Ida</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0189">Panzer, Rudolf</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0051">Dalfy, Lorenz</persName>
+                  <date isodate="1864-03-20">20.03.1864</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Großer Redoutensaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_666307 recordid_666312 " type="Rubrik_100 Rubrik_18">
+                        <term label="Rubrik_100">Vorankündigung</term>
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 17</biblScope>
+                        <biblScope unit="issue">Nr. 78</biblScope>
+                        <biblScope unit="page">S. [4]</biblScope>
+                        <imprint>
+                           <date isodate="1864-03-18">18.03.1864</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert der Wiener Singakademie, mittags; erstmalige Aufführung von Bachs "Weihnachtsoratorium"; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 649 sowie Hofmann, Chronologie, S. 79)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 17, Nr. 78, 18.03.1864, S. [4]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18640318&amp;seite=4&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.9a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666308 recordid_666311 " type="Rubrik_100 Rubrik_18">
+                        <term label="Rubrik_100">Vorankündigung</term>
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 17</biblScope>
+                        <biblScope unit="issue">Nr. 80</biblScope>
+                        <biblScope unit="page">S. [6]</biblScope>
+                        <imprint>
+                           <date isodate="1864-03-20">20.03.1864</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(3. Konzert der Wiener Singakademie, 12.30 Uhr; Bachs "Weihnachtsoratorium" zum "erstenmale"; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 649 sowie Hofmann, Chronologie, S. 79)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 17, Nr. 80, 20.03.1864, S. [6]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18640320&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.9a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666309 recordid_666310 " type="Rubrik_10 Rubrik_2">
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 17</biblScope>
+                        <biblScope unit="issue">Nr. 85</biblScope>
+                        <biblScope unit="page">S. [2] f.</biblScope>
+                        <imprint>
+                           <date isodate="1864-03-25">25.03.1864</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert der Wiener Singakademie, mittags; vier der sechs Bach'schen Kantaten des "Weihnachtsoratoriums"; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 649 sowie Hofmann, Chronologie, S. 79; "Herr Brahms bewährte als Dirigent der Aufführung neuerdings sein tiefes Verständniß Bach'scher Musik.")</p>
+                           <p label="Weitere_Informationen">(Konzert der Wiener Singakademie, mittags; vier der sechs Bach'schen Kantaten des "Weihnachtsoratoriums"; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 649 sowie Hofmann, Chronologie, S. 79; den Einsatz eines Klaviers zur Begleitung der Secco-Rezitative "begrüßen wir als eine sachgemäße und glückliche Neuerung, die wir hier zum erstenmal im Concert der Sing-Akademie begegneten, und somit wol Herrn Brahms verdanken.")</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 17, Nr. 85, 25.03.1864, S. [2] f.</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18640325&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.9a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669097 recordid_669098 " type="Rubrik_2 Rubrik_10">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 48</biblScope>
+                        <biblScope unit="issue">Nr. 343</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1895-12-14">14.12.1895</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Robert Hirschfeld lobt die Brahms'sche Zusammenstellung des Bach'schen Weihnachtsoratoriums aus dessen Zeit als Dirigent der Singakademie als "so weise, daß man von Brahms' Aufführungsplan eigentlich nie abgehen sollte". Erwähnung im Rahmen einer Rezension der ersten vollständigen Aufführung des Oratoriums durch Hans Richter. Datum gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 79)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 48, Nr. 343, 14.12.1895, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18951214&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.9a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669155 recordid_669156 " type="Rubrik_2 Rubrik_10">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Morgen-Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 49</biblScope>
+                        <biblScope unit="issue">Nr. 50</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1896-02-20">20.02.1896</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Robert Hirschfeld kritisiert an dem 1895 neu bestellten Leiter des Singvereins, Richard von Perger, dass dieser bei der Aufführung des Bach'schen Weihnachtsoratoriums [10.12.1895] nicht die "Kürzung und Zusammenziehung, welche Brahms weise empfohlen hatte" vorgenommen sowie sich auch "in der Folge an die Musterprogramme, welche einst Brahms für den Singverein aufgestellt hatte, durchaus nicht gehalten" habe.)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 50, 20.02.1896, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960220&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.9a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <history target="#component_Anhang_1b,Nr.9b">
+            <eventList type="performances">
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <date isodate="1874-04-19">19.04.1874</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669441 recordid_669442 " type="Rubrik_10 Rubrik_3">
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 15</biblScope>
+                        <biblScope unit="issue">Nr. 110</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1874-04-22">22.04.1874</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(4. und letztes Gesellschaftskonzert; weitere Werke: Haydn-Symphonie Es-Dur, Violinkonzert von Albert Dietrich, Rietz-Arioso, Brahms' op. 54 und Schlusschor aus Händels "Salomo"; Leitung gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 140 f.)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 15, Nr. 110, 22.04.1874, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18740422&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.9b"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666602 recordid_666603 " type="Rubrik_100 Rubrik_18">
+                        <term label="Rubrik_100">Vorankündigung</term>
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 26</biblScope>
+                        <biblScope unit="issue">Nr. 273</biblScope>
+                        <biblScope unit="page">S. 9</biblScope>
+                        <imprint>
+                           <date isodate="1873-10-04">04.10.1873</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Programm der Gesellschaft der Musikfreunde für die kommende Saison 1873/74; Zuordnung des Datums sowie Leitung gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 305, bzw. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 649)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 26, Nr. 273, 04.10.1873, S. 9</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18731004&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.9b"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666716 recordid_666717 " type="Rubrik_10 Rubrik_3">
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 27</biblScope>
+                        <biblScope unit="issue">Nr. 109</biblScope>
+                        <biblScope unit="page">S. 8</biblScope>
+                        <imprint>
+                           <date isodate="1874-04-21">21.04.1874</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Letztes Gesellschaftskonzert, mittags; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 649; weitere von Brahms dirigierte Werke: Haydn-Symphonie Es-Dur "mit den Paukenwirbeln", Violinkonzert von Albert Dietrich, "Schicksalslied" von Brahms sowie Schlusschor aus Händels "Salomo"; Leitung gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 140 f.)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 27, Nr. 109, 21.04.1874, S. 8</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18740421&amp;seite=8&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.9b"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: k.A.</head>
+               <perfResList/>
+            </perfResList>
+         </perfMedium>
+         <notesStmt>
+            <annot label="Brahms_Beitrag">
+               <p>Aufführungsfassung</p>
+            </annot>
+         </notesStmt>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="comoponent_Anhang_1b,Nr.9a">
+               <identifier>Anhang 1b, Nr.9a</identifier>
+               <title>Teil I-III</title>
+               <relationList>
+                  <relation rel="isPartof" target="#component_Anhang_1b,Nr.9"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="comoponent_Anhang_1b,Nr.9b">
+               <identifier>Anhang 1b, Nr.9b</identifier>
+               <title>Sinfonia aus Teil II</title>
+               <relationList>
+                  <relation rel="isPartof" target="#component_Anhang_1b,Nr.9"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

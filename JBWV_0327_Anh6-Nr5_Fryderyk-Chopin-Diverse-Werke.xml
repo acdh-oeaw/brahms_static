@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Fryderyk Chopin: Diverse Werke</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Anhang</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="327" xml:id="component_Anhang_6,Nr.5">
+         <identifier label="Anhang-Nummer">Anh. 6 Nr. 5</identifier>
+         <title>Fryderyk Chopin: Diverse Werke</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="#">Fryderyk Chopin</persName>
+         </composer>
+         <editor>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </editor>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <date/>
+                  <geogName role="place"/>
+                  <persName type="#" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <biblList>
+                     <bibl sameas="recordid_667020 " type="Rubrik_11">
+                        <term label="Rubrik_11">Brahms als Editor</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 31</biblScope>
+                        <biblScope unit="issue">Nr. 146</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1878-05-29">29.05.1878</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Für eine "sorgfältige, gewissenhafte Redaction des Textes" der von Breitkopf &amp; Härtel herausgebrachten Chopin-Ausgabe würden die "an der Herausgabe betheiligten Namen: Woldemar Bargiel, Johannes Brahms, August Franchomme, Franz Liszt, Karl Reinecke und Ernst Rudorff" bürgen. Vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 750)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 31, Nr. 146, 29.05.1878, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18780529&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_6,Nr.5"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: k.A.</head>
+               <perfResList/>
+            </perfResList>
+         </perfMedium>
+         <notesStmt>
+            <annot label="Brahms_Beitrag">
+               <p>Herausgabe (Verlag Breitkopf &amp; Härtel, Leipzig: 1. Gesamtausgabe, Bände (teilweise als Co-Herausgeber) 3−4, 8, 10−13)</p>
+            </annot>
+         </notesStmt>
+         <expressionList/>
+      </work>
+   </workList>
+</mei>

@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Klarinettentrio a-Moll</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="119" xml:id="work_op._114">
+         <identifier label="Opus-Nummer">op. 114</identifier>
+         <title>Klarinettentrio a-Moll</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <notesStmt/>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <persName type="Klarinettist_in" corresp="../Brahms-Personenregister-ID/0411">Syřinek, Adalbert</persName>
+                     <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0325">Hellmesberger, Ferdinand</persName>
+                     <date isodate="1891-12-17">17.12.1891</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669899 recordid_669900 " type="Rubrik_18 Rubrik_90">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_90">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 32</biblScope>
+                           <biblScope unit="issue">Nr. 279</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1891-10-11">11.10.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Kammermusikabende des Hellmesberger-Quartetts der Saison 1891/92; das Programm enthalte "auch das neueste Werk von Johannes Brahms", welches der Komponist "persönlich dirigiren" werde; Wiener Erstaufführung; Zuordnung zu Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 460 bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 287; dort Brahms als Pianist angegeben)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 32, Nr. 279, 11.10.1891, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18911011&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669903 recordid_669904 " type="Rubrik_18 Rubrik_90">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_90">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 32</biblScope>
+                           <biblScope unit="issue">Nr. 286</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1891-10-18">18.10.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Programm des Hellmesberger-Quartetts der Saison 1891/92; "neu, Manuscript"; Wiener Erstaufführung; Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 460 bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 287)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 32, Nr. 286, 18.10.1891, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18911018&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669916 recordid_669917 " type="Rubrik_18 Rubrik_90">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_90">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 32</biblScope>
+                           <biblScope unit="issue">Nr. 341</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1891-12-12">12.12.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(4. Kammermusikabend des Hellmesberger-Quartetts; "neu, Manuscript, erste Aufführung"; Wiener Erstaufführung gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 460, vgl. auch <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 287)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 32, Nr. 341, 12.12.1891, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18911212&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669925 recordid_669926 " type="Rubrik_2 Rubrik_9">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <term label="Rubrik_9">Brahms als Pianist</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 33</biblScope>
+                           <biblScope unit="issue">Nr. 28</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1892-01-28">28.01.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Aufführung des Hellmesberger-Quartetts; "aus dem Manuscript ohne Opuszahl aufgeführt"; Wiener Erstaufführung; Datum und Interpret gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 460)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 33, Nr. 28, 28.01.1892, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18920128&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668239 recordid_668240 " type="Rubrik_18 Rubrik_90">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_90">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 279</biblScope>
+                           <biblScope unit="page">S. 16</biblScope>
+                           <imprint>
+                              <date isodate="1891-10-11">11.10.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Hellmesberger-Quartett; "zwei neue Kammermusikwerke des Meisters" Brahms sollen in Ischl entstanden sein und in der Saison 1891/92 aus dem "Manuscripte" aufgeführt werden; Wiener Erstaufführung, Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 460 bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 287)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 44, Nr. 279, 11.10.1891, S. 16</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911011&amp;seite=16&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668298 recordid_668299 " type="Rubrik_90 Rubrik_18">
+                           <term label="Rubrik_90">Vorankündigung</term>
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 341</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1891-12-12">12.12.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(4. Kammermusikabend des Hellmesberger-Quartetts; neu, Nauscript; erste Aufführung"; Wiener Erstaufführung, vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 460; vgl. auch <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 287)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 44, Nr. 341, 12.12.1891, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911212&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668338 recordid_668339 " type="Rubrik_18 Rubrik_90">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_90">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 346</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1891-12-17">17.12.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(4. Kammermusikabend des Hellmesberger-Quartetts, 19.30 Uhr; Werk gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 287)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Abendblatt, Jg. 44, Nr. 346, 17.12.1891, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911217&amp;seite=13&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668349 recordid_668350 " type="Rubrik_2 Rubrik_9">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <term label="Rubrik_9">Brahms als Pianist</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 348</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1891-12-19">19.12.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Letzter Kammermusikabend des Hellmesberger-Quartetts; Wiener Erstaufführung, vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 460 bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 287)</p>
+                              <p label="Weitere_Informationen">(Letzter Kammermusikabend des Hellmesberger-Quartetts; Wiener Erstaufführung, Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 460 bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 287)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 44, Nr. 348, 19.12.1891, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911219&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. BrahmsWV</title>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Klarinettist_in" corresp="../Brahms-Personenregister-ID/0418">Mühlfeld, Richard</persName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0421">Hausmann, Robert</persName>
+                     <date isodate="1892-01-21">21.01.1892</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669920 recordid_669921 " type="Rubrik_18 Rubrik_90">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_90">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 33</biblScope>
+                           <biblScope unit="issue">Nr. 21</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1892-01-21">21.01.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. und letzter Kammermusikabend des Joachim-Quartetts, 19.30 Uhr; Werk gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 288)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 33, Nr. 21, 21.01.1892, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18920121&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669927 recordid_669928 " type="Rubrik_2 Rubrik_9">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <term label="Rubrik_9">Brahms als Pianist</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 33</biblScope>
+                           <biblScope unit="issue">Nr. 28</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1892-01-28">28.01.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Quartettabend des Joachim-Quartetts; Datum gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 288)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 33, Nr. 28, 28.01.1892, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18920128&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668377 recordid_668378 " type="Rubrik_18 Rubrik_90">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_90">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 45</biblScope>
+                           <biblScope unit="issue">Nr. 20</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1892-01-20">20.01.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. und letztes Konzert des Joachim-Quartetts, 19.30 Uhr; Werk gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 288)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 20, 20.01.1892, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18920120&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668379 recordid_668380 " type="Rubrik_18 Rubrik_90">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_90">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 45</biblScope>
+                           <biblScope unit="issue">Nr. 21</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1892-01-21">21.01.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. und letzter Kammermusikabend des Joachim-Quartetts; vgl. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 288)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 21, 21.01.1892, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18920121&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668383 recordid_668384 " type="Rubrik_2 Rubrik_9">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <term label="Rubrik_9">Brahms als Pianist</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 45</biblScope>
+                           <biblScope unit="issue">Nr. 30</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1892-01-30">30.01.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Kammermusikabend des Joachim-Quartetts; Datum gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 288)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 45, Nr. 30, 30.01.1892, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18920130&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1897-01-30">30.01.1897</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Pianist_in" corresp="#">Wunder-Wierer, Natalie</persName>
+                     <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0325">Hellmesberger, Ferdinand</persName>
+                     <persName type="Klarinettist_in" corresp="../Brahms-Personenregister-ID/0010">Bartolomey, Franz</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670318 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 23</biblScope>
+                           <biblScope unit="page">S. [II]</biblScope>
+                           <imprint>
+                              <date isodate="1897-01-23">23.01.1897</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Kammermusikabend von Natalie Wunder-Wierer unter Mitwirkung des Herren Joseph Hellmesberger)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 38, Beiblatt zu Nr. 23, 23.01.1897, S. [II]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18970123&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1897-02-27">27.02.1897</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Pianist_in" corresp="#">Wunder-Wierer, Natalie</persName>
+                     <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0325">Hellmesberger, Ferdinand</persName>
+                     <persName type="Klarinettist_in" corresp="../Brahms-Personenregister-ID/0010">Bartolomey, Franz</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670335 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 56</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1897-02-25">25.02.1897</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Kammermusikabend der Pianistin Natalie Wunder-Wierer unter Mitwirkung von Joseph Hellmesberger)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 38, Nr. 56, 25.02.1897, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18970225&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0045">Herbert-Campbell, Lucy</persName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0015">Baumayer, Marie</persName>
+                     <persName type="Klarinettist_in" corresp="../Brahms-Personenregister-ID/0418">Mühlfeld, Richard</persName>
+                     <date isodate="1898-03-19">19.03.1898</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670495 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 62</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1898-03-04">04.03.1898</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. und letzter Kammermusikabend des Soldat-Roeger-Quartetts; weiteres Werk von Brahms: "Clarinettentrio [recte: Klarinettenquintett] H-moll")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 39, Nr. 62, 04.03.1898, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18980304&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670502 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 73</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1898-03-15">15.03.1898</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. und letzter Abend des Soldat-Roeger-Quartetts; u.a. 2 Werke von Brahms: op. 114 und op. 115)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 39, Nr. 73, 15.03.1898, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18980315&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0421">Hausmann, Robert</persName>
+                     <date isodate="1891-12-12">12.12.1891</date>
+                     <geogName role="place">Berlin</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_668283 recordid_668284 " type="Rubrik_18 Rubrik_90">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_90">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 334</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1891-12-05">05.12.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Quartettabend des Joachim-Quartetts; Uraufführung, Werk gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 460 bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 286)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 44, Nr. 334, 05.12.1891, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911205&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date/>
+                     <geogName role="place"/>
+                     <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668602 " type="Rubrik_1">
+                           <term label="Rubrik_1">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 125</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1893-05-07">07.05.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Erwähnung der "beiden herrlichen Kammermusikwerke mit Clarinette", die Brahms in seinem 59. Lebensjahre geschrieben habe im Rahmen eines Hirschfeld-Feuilletons zu Brahms' 60. Geburtstag)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 46, Nr. 125, 07.05.1893, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18930507&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668953 " type="Rubrik_1">
+                           <term label="Rubrik_1">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 48</biblScope>
+                           <biblScope unit="issue">Nr. 18</biblScope>
+                           <biblScope unit="page">S. [1] f.</biblScope>
+                           <imprint>
+                              <date isodate="1895-01-18">18.01.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Erwähnung im Rahmen einer Rezension von op. 120 als Beispiel für die gesuchte Exklusivität der "Brahms-Gemeinde", die op. 114 dem zeitgleich erschienenen und von Anfang an beim Publikum beliebteren op. 115 genauso vorgezogen hätten wie nun op. 120, Nr. 2 der besser angekommenen op. 120, Nr. 1.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 48, Nr. 18, 18.01.1895, S. [1] f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18950118&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._114"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <expressionList>
+            <expression n="1">
+               <title>Fassung mit Klarinette</title>
+               <perfMedium>
+                  <perfResList>
+                     <head>Besetzung: Klarinette, Violoncello und Klavier</head>
+                     <perfResList>
+                        <perfRes>Klarinette</perfRes>
+                        <perfRes>Violoncello</perfRes>
+                        <perfRes>Klavier</perfRes>
+                     </perfResList>
+                  </perfResList>
+               </perfMedium>
+            </expression>
+            <expression n="2">
+               <title>Fassung mit Viola (statt Klarinette)</title>
+            </expression>
+         </expressionList>
+      </work>
+   </workList>
+</mei>

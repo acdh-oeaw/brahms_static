@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Georg Friedrich Händel: Orgelkonzert d-Moll op. 7 Nr. 4</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Anhang</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="210" xml:id="component_Anhang_1b,Nr.27">
+         <identifier label="Anhang-Nummer">Anh. 1b Nr. 27</identifier>
+         <title>Georg Friedrich Händel: Orgelkonzert d-Moll op. 7 Nr. 4</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="#">Georg Friedrich Händel</persName>
+         </composer>
+         <arranger>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </arranger>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <persName type="Organist_in" corresp="../Brahms-Personenregister-ID/0430">de Lange, Samuel</persName>
+                  <date isodate="1872-12-08">08.12.1872</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Großer Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669384 recordid_669385 " type="Rubrik_3 Rubrik_10">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 13</biblScope>
+                        <biblScope unit="issue">Nr. 338</biblScope>
+                        <biblScope unit="page">S. [2]</biblScope>
+                        <imprint>
+                           <date isodate="1872-12-09">09.12.1872</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. außerordentliches Gesellschaftskonzert, mittags; weitere Werke: Anh. Ib, Nr. 29, 22 sowie op. 55; vgl. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 130, und BrahmsWV, S. 651)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 13, Nr. 338, 09.12.1872, S. [2]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18721209&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.27"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669392 recordid_669393 " type="Rubrik_3 Rubrik_10">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 13</biblScope>
+                        <biblScope unit="issue">Nr. 347</biblScope>
+                        <biblScope unit="page">S. [1] f.</biblScope>
+                        <imprint>
+                           <date isodate="1872-12-18">18.12.1872</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Außerordentliches Gesellschaftskonzert; Leitung sowie Werke gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 130: Anh. Ib, Nr. 27, 29, 22 und op. 55)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 13, Nr. 347, 18.12.1872, S. [1] f.</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18721218&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.27"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666526 recordid_666527 " type="Rubrik_18 Rubrik_100">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <term label="Rubrik_100">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 25</biblScope>
+                        <biblScope unit="issue">Nr. 336</biblScope>
+                        <biblScope unit="page">S. 23</biblScope>
+                        <imprint>
+                           <date isodate="1872-12-06">06.12.1872</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Außerordentliches Gesellschaftskonzert; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 651, sowie Hofmann, Chronologie, S. 130)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 25, Nr. 336, 06.12.1872, S. 23</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18721206&amp;seite=23&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.27"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666534 recordid_666535 " type="Rubrik_3 Rubrik_10">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 25</biblScope>
+                        <biblScope unit="issue">Nr. 340</biblScope>
+                        <biblScope unit="page">S. 15</biblScope>
+                        <imprint>
+                           <date isodate="1872-12-10">10.12.1872</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. außerordentliches Gesellschaftskonzert; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 651, bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 130; weitere Werke: Anh. Ib, Nr. 22 und 29 sowie op. 55)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 25, Nr. 340, 10.12.1872, S. 15</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18721210&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.27"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: k.A.</head>
+               <perfResList/>
+            </perfResList>
+         </perfMedium>
+         <notesStmt>
+            <annot label="Brahms_Beitrag">
+               <p>Aufführungsfassung</p>
+            </annot>
+         </notesStmt>
+         <expressionList/>
+      </work>
+   </workList>
+</mei>

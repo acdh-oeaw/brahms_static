@@ -1,0 +1,2976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Violinkonzert D-Dur</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="81" xml:id="work_op._77">
+         <identifier label="Opus-Nummer">op. 77</identifier>
+         <title>Violinkonzert D-Dur</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <notesStmt/>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <date isodate="1879-01-14">14.01.1879</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0127">Joachim, Joseph</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669528 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 20</biblScope>
+                           <biblScope unit="issue">Nr. 11</biblScope>
+                           <biblScope unit="page">S. [3]</biblScope>
+                           <imprint>
+                              <date isodate="1879-01-12">12.01.1879</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Joachim, abends; "neues Violinconcert, das soeben in Leipzig und Budapest die Feuerprobe bestand, zur ersten Aufführung in Wien"; Wiener Erstaufführung, vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 326)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 20, Nr. 11, 12.01.1879, S. [3]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18790112&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669549 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 21</biblScope>
+                           <biblScope unit="issue">Nr. 29</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1880-01-29">29.01.1880</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Erwähnung der ersten Wiener Aufführung von op. 77 mit Joachim im Rahmen einer Vorankündigung der 2. Aufführung mit demselben Interpreten; Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 326)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 21, Nr. 29, 29.01.1880, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18800129&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667050 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 32</biblScope>
+                           <biblScope unit="issue">Nr. 11</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1879-01-12">12.01.1879</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Joachim, abends; Joachim bringe "Brahms' neues Violinconcert zur ersten Anhörung in Wien", vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 326)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 32, Nr. 11, 12.01.1879, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18790112&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667051 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 32</biblScope>
+                           <biblScope unit="issue">Nr. 15</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1879-01-16">16.01.1879</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Joachim, abends; J. Brahms anwesend; Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 326, und Hofmann, Zeittafel, S. 144)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 32, Nr. 15, 16.01.1879, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18790116&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667056 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 32</biblScope>
+                           <biblScope unit="issue">Nr. 22</biblScope>
+                           <biblScope unit="page">S. [1] f.</biblScope>
+                           <imprint>
+                              <date isodate="1879-01-23">23.01.1879</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Joachim, abends; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 326, und Hofmann, Zeittafel, S. 144)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 32, Nr. 22, 23.01.1879, S. [1] f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18790123&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667154 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 33</biblScope>
+                           <biblScope unit="issue">Nr. 44</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1880-02-14">14.02.1880</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Joachim; Wiener Erstaufführung, vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 326; Erwähnung im Rahmen einer Rezension des Joachim-Konzerts am 03.02.1880)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 33, Nr. 44, 14.02.1880, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18800214&amp;seite=2&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668366 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 353</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1891-12-24">24.12.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Erwähnung der Wiener Erstaufführung, bei der noch die "spröde Erfindung" des Werks getadelt worden sei, im Rahmen einer Aufführung von op. 77 am 20.12.1891; Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 326)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 44, Nr. 353, 24.12.1891, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911224&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0127">Joachim, Joseph</persName>
+                     <date isodate="1880-02-03">03.02.1880</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669550 recordid_669551 " type="Rubrik_18 Rubrik_100">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_100">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 21</biblScope>
+                           <biblScope unit="issue">Nr. 29</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1880-01-29">29.01.1880</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Joachim, 19.00 Uhr; vgl. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 187 f.)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 21, Nr. 29, 29.01.1880, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18800129&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667150 recordid_667156 " type="Rubrik_2 Rubrik_10">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <term label="Rubrik_10">Brahms als Dirigent</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 33</biblScope>
+                           <biblScope unit="issue">Nr. 44</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1880-02-14">14.02.1880</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. und gleichzeitig Abschiedskonzert von Joachim; Leitung gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 187 f.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 33, Nr. 44, 14.02.1880, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18800214&amp;seite=2&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0110">Hellmesberger, Joseph sen.</persName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0183">Ondricek, Franz</persName>
+                     <date isodate="1887-11-23">23.11.1887</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669733 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 28</biblScope>
+                           <biblScope unit="issue">Nr. 264</biblScope>
+                           <biblScope unit="page"/>
+                           <imprint>
+                              <date isodate="1887-09-25">25.09.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Orchesterkonzert von Franz Ondricek; Datum gemäß Die Presse, Local-Anzeiger, 25.11.1887, S. 11)</p>
+                              <p label="Vollständiger_Nachweis"/>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18870925&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669743 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 28</biblScope>
+                           <biblScope unit="issue">Nr. 317</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1887-11-17">17.11.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Franz Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 28, Nr. 317, 17.11.1887, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18871117&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669744 " type="Rubrik_17">
+                           <term label="Rubrik_17">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 28</biblScope>
+                           <biblScope unit="issue">Nr. 319</biblScope>
+                           <biblScope unit="page">S. 9</biblScope>
+                           <imprint>
+                              <date isodate="1887-11-19">19.11.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Franz Ondricek; der Künstler habe in sein Programm "nur gediegene Schöpfungen" aufgenommen)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 28, Nr. 319, 19.11.1887, S. 9</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18871119&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670909 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 28</biblScope>
+                           <biblScope unit="issue">Nr. 309</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1887-11-09">09.11.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Großes Orchesterkonzert des Violinisten Franz Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 28, Nr. 309, 09.11.1887, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18871109&amp;seite=6&amp;zoom=33&amp;query=%22brahm%27s%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667847 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 264</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1887-09-25">25.09.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Orchesterkonzert des Violinisten Franz Ondricek; Datum gemäß <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 40, Nr. 264, 25.09.1887, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18870925&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Philharmoniker</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667879 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 308</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1887-11-08">08.11.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Orchesterkonzert des Violinisten Franz Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 40, Nr. 308, 08.11.1887, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18871108&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667883 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 317</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1887-11-17">17.11.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Violinisten Franz Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 40, Nr. 317, 17.11.1887, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18871117&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667884 " type="Rubrik_17">
+                           <term label="Rubrik_17">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 319</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1887-11-19">19.11.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Großes Konzert des Violinisten Franz Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 40, Nr. 319, 19.11.1887, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18871119&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667887 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 325</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1887-11-25">25.11.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Geigenvirtuosen Franz Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 40, Nr. 325, 25.11.1887, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18871125&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667890 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 337</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1887-12-07">07.12.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Franz Ondricek; Datum gemäß <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 40, Nr. 337, 07.12.1887, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18871207&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Philharmoniker</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0127">Joachim, Joseph</persName>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0211">Richter, Hans</persName>
+                     <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0073">Hofopernorchester</corpName>
+                     <date isodate="1889-01-31">31.01.1889</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669800 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 30</biblScope>
+                           <biblScope unit="issue">Nr. 19</biblScope>
+                           <biblScope unit="page">S. 5</biblScope>
+                           <imprint>
+                              <date isodate="1889-01-20">20.01.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Joseph Joachim, 19.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 30, Nr. 19, 20.01.1889, S. 5</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18890120&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669812 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 30</biblScope>
+                           <biblScope unit="issue">Nr. 46</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1889-02-16">16.02.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Konzert von Joseph Joachim; Datum gemäß Vaterland, 20.01.1889, S. 5)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 30, Nr. 46, 16.02.1889, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18890216&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667999 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 20</biblScope>
+                           <biblScope unit="page">S. 16</biblScope>
+                           <imprint>
+                              <date isodate="1889-01-20">20.01.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Josef Joachim, 19.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 42, Nr. 20, 20.01.1889, S. 16</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18890120&amp;seite=16&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0109">Hellmesberger, Joseph</persName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0183">Ondříček, František</persName>
+                     <date isodate="1891-11-17">17.11.1891</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669908 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 32</biblScope>
+                           <biblScope unit="issue">Nr. 294</biblScope>
+                           <biblScope unit="page">S. 4</biblScope>
+                           <imprint>
+                              <date isodate="1891-10-26">26.10.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Franz Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 32, Nr. 294, 26.10.1891, S. 4</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18911026&amp;seite=4&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669909 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 32</biblScope>
+                           <biblScope unit="issue">Nr. 315</biblScope>
+                           <biblScope unit="page">S. 4</biblScope>
+                           <imprint>
+                              <date isodate="1891-11-16">16.11.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Kammervirtuose Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 32, Nr. 315, 16.11.1891, S. 4</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18911116&amp;seite=4&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669911 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 32</biblScope>
+                           <biblScope unit="issue">Nr. 321</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1891-11-22">22.11.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Konzert von Franz Ondricek; J. Brahms anwesend, nicht verzeichnet in Hofmann, Zeittafel; Datum gemäß Vaterland, 16.11.1891, S. 4)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 32, Nr. 321, 22.11.1891, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18911122&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668274 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 327</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1891-11-28">28.11.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Franz Ondricek; Datum gemäß NWT, 03.11.1891, S. 7)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 44, Nr. 327, 28.11.1891, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911128&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0460">Grädener, Hermann</persName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0183">Ondříček, František</persName>
+                     <date isodate="1893-11-30">30.11.1893</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670036 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 34</biblScope>
+                           <biblScope unit="issue">Nr. 320</biblScope>
+                           <biblScope unit="page">S. 5 f.</biblScope>
+                           <imprint>
+                              <date isodate="1893-11-19">19.11.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Orchesterkonzert von Kammervirtuosen Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 320, 19.11.1893, S. 5 f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931119&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670040 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 34</biblScope>
+                           <biblScope unit="issue">Nr. 326</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1893-11-25">25.11.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Kammervirtuose Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 326, 25.11.1893, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931125&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670048 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 34</biblScope>
+                           <biblScope unit="issue">Nr. 339</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-08">08.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Konzert des Violinisten Ondricek; Datum gemäß Vaterland, Morgenblatt, 25.11.1893, S. 6)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 339, 08.12.1893, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931208&amp;seite=2&amp;zoom=47&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668650 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 322</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1893-11-21">21.11.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Orchesterkonzert von Kammervirtuose Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 322, 21.11.1893, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931121&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668660 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 327</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1893-11-26">26.11.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Kammervirtuosen Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 327, 26.11.1893, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931126&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668662 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 327</biblScope>
+                           <biblScope unit="page">S. 16</biblScope>
+                           <imprint>
+                              <date isodate="1893-11-26">26.11.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Orchesterkonzert von Franz Ondriček, 19.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 327, 26.11.1893, S. 16</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931126&amp;seite=16&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668676 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 341</biblScope>
+                           <biblScope unit="page">S. 19</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-10">10.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Franz Ondriček; Datum gemäß Die Presse, Local-Anzeiger, 26.11.1893, S. 16)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 341, 10.12.1893, S. 19</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931210&amp;seite=19&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0279">Wietrowetz, Gabriele</persName>
+                     <date isodate="1893-12-10">10.12.1893</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670042 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 34</biblScope>
+                           <biblScope unit="issue">Nr. 334</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-03">03.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(4. Abonnementkonzert der Philharmoniker, 12.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 334, 03.12.1893, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931203&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670049 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 34</biblScope>
+                           <biblScope unit="issue">Nr. 339</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-08">08.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Op. 77 sollte im Rahmen des 4. Philharmonischen Konzerts aufgeführt werden, entfällt "wegen Uebermüdung" der Violinistin Gabriele Wietrowetz.)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 339, 08.12.1893, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931208&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668670 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 336</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-05">05.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(4. Abonnementkonzert der Philharmoniker, 12.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 336, 05.12.1893, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931205&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668673 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 339</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-08">08.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Für das 4. Philharmonische Konzerte musste Brahms' op. 77 wegen Übermüdung des Frl. Gabriele Wietrowetz abgesagt werden, stattdessen werde Präludium und Fuge von J. S. Bach in einer Orchesterfassung von J. J. Abert zur Aufführung gelangen.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 339, 08.12.1893, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931208&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0279">Wietrowetz, Gabriele</persName>
+                     <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0035">Wiener Philharmoniker</corpName>
+                     <date/>
+                     <geogName role="place"/>
+                     <biblList>
+                        <bibl sameas="recordid_670082 " type="Rubrik_4">
+                           <term label="Rubrik_4">Werkerwähnung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 35</biblScope>
+                           <biblScope unit="issue">Nr. 51</biblScope>
+                           <biblScope unit="page">S. 5</biblScope>
+                           <imprint>
+                              <date isodate="1894-02-22">22.02.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Wegen Erkrankung der Violinistin Gabriele Wietrowetz entfällt op. 77 im Philharmonischen Konzert vom 25.02.1894; Datum vgl. <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 35, Nr. 51, 22.02.1894, S. 5</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18940222&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Konzertarchiv der Wiener Philharmoniker</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event> <!-- dieses bibl war in der obigen Liste dabei, die beiden Einträge scheinen aber nichts mit einander zu tun zu haben -->
+                     <date/>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0252">Soldat-Röger, Marie</persName>
+                     <geogName role="place"/>
+                     <biblList>
+                        <bibl sameas="recordid_669016 " type="Rubrik_4">
+                           <term label="Rubrik_4">Werkerwähnung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 48</biblScope>
+                           <biblScope unit="issue">Nr. 81</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1895-03-23">23.03.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Erwähnung im Rahmen einer Rezension eines Auftritts des Damenquartetts Soldat-Röger [Marie Soldat-Röger: Violine, Elly Finger-Bailetti: Violine, Natalie Lechner-Bauer: Viola, Lucy Herbert-Campbell: Violoncello] im Frühjahr 1895 als Werk, dessen "künstlerischen Forderungen" die "eminent musikalische Geigerin" Soldat bereits früher gewachsen gewesen sei.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 48, Nr. 81, 23.03.1895, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18950323&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0211">Richter, Hans</persName>
+                     <persName type="Violinist_in" corresp="#">Such, Henry</persName>
+                     <date isodate="1895-12-09">09.12.1895</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670206 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 36</biblScope>
+                           <biblScope unit="issue">Nr. 334</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1895-12-05">05.12.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Orchesterkonzert des Violinvirtuosen Henry Such)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 36, Nr. 334, 05.12.1895, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18951205&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._77(Kadenz:Joachim)"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669090 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 48</biblScope>
+                           <biblScope unit="issue">Nr. 334</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1895-12-05">05.12.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Orchesterkonzert des Violinvirtuosen Henry Such)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 48, Nr. 334, 05.12.1895, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18951205&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._77(Kadenz:Joachim)"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1896-01-17">17.01.1896</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Violinist_in" corresp="#">Hubermann, Bronislaw</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670211 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 36</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 354</biblScope>
+                           <biblScope unit="page">S. V</biblScope>
+                           <imprint>
+                              <date isodate="1895-12-25">25.12.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Violinvirtuosen Bronislaw Hubermann; weiteres Werk von Brahms: "Brahms-Joachim, ungarische Tänze")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 36, Beiblatt zu Nr. 354, 25.12.1895, S. V</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18951225&amp;seite=13&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669113 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 48</biblScope>
+                           <biblScope unit="issue">Nr. 354</biblScope>
+                           <biblScope unit="page">S. 16</biblScope>
+                           <imprint>
+                              <date isodate="1895-12-25">25.12.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Violinisten Bronislaw Hubermann; weiteres Werk von Brahms: "Brahms-Joachim, Ungarische  Tänze")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 48, Nr. 354, 25.12.1895, S. 16</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18951225&amp;seite=16&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669158 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Morgen-Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 49</biblScope>
+                           <biblScope unit="issue">Nr. 51</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1896-02-21">21.02.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Violinisten Bronislaw Hubermann; das Wunderkind habe auf "Gutmann's Anregung" hin "im Sommer bei Professor Heermann in Frankfurt nun auch das Brahms-Concert studirt" und beherrsche nun "die Gegenliteratur ohne Rest"; Datum gemäß Die Presse, Local-Anzeiger, 25.12.1895, S. 16)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 51, 21.02.1896, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960221&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1896-03-06">06.03.1896</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Violinist_in" corresp="#">Hubermann, Bronislaw</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670240 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 37</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 46</biblScope>
+                           <biblScope unit="page">S. IV</biblScope>
+                           <imprint>
+                              <date/>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. Konzert von Bronislaw Hubermann)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 37, Beiblatt zu Nr. 46, S. IV</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18960216&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0179">Nikisch, Arthur</persName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0106">Heermann, Hugo</persName>
+                     <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0003">Berliner Philharmoniker</corpName>
+                     <date isodate="1897-04-08">08.04.1897</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670384 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 98</biblScope>
+                           <biblScope unit="page">S. I</biblScope>
+                           <imprint>
+                              <date isodate="1897-04-08">08.04.1897</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(4. Konzert der Berliner Philharmoniker, 19.30 Uhr; weiteres Werk von Brahms: "Vier ernste Gesänge")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 38, Beiblatt zu Nr. 98, 08.04.1897, S. I</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18970408&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670400 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 104</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1897-04-14">14.04.1897</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Berliner Philharmoniker; Datum gemäß Reichspost, 09.04.1897, S. 5; Erwähnung im Rahmen einer Würdigung des verstorbenen Brahms durch Richard Kralik)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 38, Nr. 104, 14.04.1897, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18970414&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0109">Hellmesberger, Joseph</persName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0183">Ondříček, František</persName>
+                     <date isodate="1898-01-12">12.01.1898</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670457 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">1. Beiblatt zu Nr. 354</biblScope>
+                           <biblScope unit="page">S. III</biblScope>
+                           <imprint>
+                              <date isodate="1897-12-25">25.12.1897</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Doppelkonzert des Kammervirtuosen Franz Ondricek und der Kammersängerin Ernestine Schumann-Heink, 19.30 Uhr; weitere Werke von Brahms: Lieder sowie op. 53)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 38, 1. Beiblatt zu Nr. 354, 25.12.1897, S. III</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18971225&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1898-11-23">23.11.1898</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0183">Ondricek, Franz</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670538 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 304</biblScope>
+                           <biblScope unit="page">S. 4</biblScope>
+                           <imprint>
+                              <date isodate="1898-11-04">04.11.1898</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Franz Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Abendblatt, Jg. 39, Nr. 304, 04.11.1898, S. 4</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18981104&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0266">Thomson, César</persName>
+                     <date isodate="1899-02-28">28.02.1899</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670600 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 54</biblScope>
+                           <biblScope unit="page">S. 5</biblScope>
+                           <imprint>
+                              <date isodate="1899-02-23">23.02.1899</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Doppelkonzert mit Orchester von Chaminade und Thomson)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 40, Nr. 54, 23.02.1899, S. 5</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18990223&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0252">Soldat-Röger, Marie</persName>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0156">Mahler, Gustav</persName>
+                     <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0035">Wiener Philharmoniker</corpName>
+                     <date isodate="1899-12-17">17.12.1899</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670636 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 341</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1899-12-11">11.12.1899</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(4. Abonnementkonzert der Philharmoniker)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Abendblatt, Jg. 40, Nr. 341, 11.12.1899, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18991211&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670637 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 345</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1899-12-15">15.12.1899</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(4. Abonnementkonzert der Philharmoniker)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 40, Nr. 345, 15.12.1899, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18991215&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670638 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">2. Beiblatt zu Nr. 354</biblScope>
+                           <biblScope unit="page">S. I</biblScope>
+                           <imprint>
+                              <date isodate="1899-12-24">24.12.1899</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert; Datum gemäß <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 40, 2. Beiblatt zu Nr. 354, 24.12.1899, S. I</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18991224&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Philharmoniker</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1900-02-28">28.02.1900</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Violinist_in" corresp="#">Kubelik, Jan</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670663 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 41</biblScope>
+                           <biblScope unit="issue">Nr. 53</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1900-02-24">24.02.1900</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von [Jan] Kubelik und [Werner] Alberti)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 41, Nr. 53, 24.02.1900, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19000224&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0183">Ondříček, František</persName>
+                     <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0038">Wiener Konzertverein</corpName>
+                     <date isodate="1901-01-22">22.01.1901</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670747 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 16</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1901-01-16">16.01.1901</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(4. Konzert im Dienstagszyklus des Wiener Konzertvereins, 19.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 42, Nr. 16, 16.01.1901, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19010116&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0291">Prill, Carl</persName>
+                     <date isodate="1901-01-20">20.01.1901</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670748 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 27</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1901-01-27">27.01.1901</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Gesellschaftskonzert; Datum gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 315)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 42, Nr. 27, 27.01.1901, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19010127&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0287">Zöhrer, Joseph</persName>
+                     <date cert="unknown" isodate="1902-05-17">17.05.1902 und/oder 19.05.1902 ?</date>
+                     <geogName role="place">Laibach</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670842 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 118</biblScope>
+                           <biblScope unit="page">S. III f.</biblScope>
+                           <imprint>
+                              <date isodate="1902-04-30">30.04.1902</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Festkonzert im Rahmen der Jubiläumsfeier zum 200-jährigen Bestand der Philharmonischen Gesellschaft in Laibach)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 43, Beiblatt zu Nr. 118, 30.04.1902, S. III f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19020430&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0183">Ondříček, František</persName>
+                     <persName type="musikalische_r_Direktor_in" corresp="#">Hellmesberger, Joseph</persName>
+                     <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0038">Orchester des Wiener Konzertvereins</corpName>
+                     <date isodate="1902-11-05">05.11.1902</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670860 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">1. Beiblatt zu Nr. 288</biblScope>
+                           <biblScope unit="page">S. II</biblScope>
+                           <imprint>
+                              <date isodate="1902-10-19">19.10.1902</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Orchesterkonzert von Franz Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 43, 1. Beiblatt zu Nr. 288, 19.10.1902, S. II</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19021019&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670865 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">1. Beiblatt zu Nr. 301</biblScope>
+                           <biblScope unit="page">S. IV</biblScope>
+                           <imprint>
+                              <date isodate="1902-11-01">01.11.1902</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Ondricek)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 43, 1. Beiblatt zu Nr. 301, 01.11.1902, S. IV</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19021101&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670866 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author>K.</author>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">1. Beiblatt zu Nr. 308</biblScope>
+                           <biblScope unit="page">S. III</biblScope>
+                           <imprint>
+                              <date isodate="1902-11-09">09.11.1902</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Franz Ondricek; hervorzuheben sei "die interessante Cadenz, die der Künstler in das Violinconcert von Brahms eingelegt" habe; Datum gemäß Vaterland, Morgenblatt, 1. Beiblatt, 01.11.1902, S. IV; Verfasser: K.)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 43, 1. Beiblatt zu Nr. 308, 09.11.1902, S. III</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19021109&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0106">Heermann, Hugo</persName>
+                     <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0035">Wiener Philharmoniker</corpName>
+                     <date isodate="1882-03-12">12.03.1882</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670901 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 23</biblScope>
+                           <biblScope unit="issue">Nr. 64</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1882-03-05">05.03.1882</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(7. Abonnementkonzert der Philharmoniker, 12.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 23, Nr. 64, 05.03.1882, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18820305&amp;seite=10&amp;zoom=33&amp;query=%22brahm%27s%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667277 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 35</biblScope>
+                           <biblScope unit="issue">Nr. 64</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1882-03-05">05.03.1882</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(7. Philharmonisches Konzert, 12.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 35, Nr. 64, 05.03.1882, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18820305&amp;seite=15&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667288 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 35</biblScope>
+                           <biblScope unit="issue">Nr. 77</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1882-03-18">18.03.1882</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Philharmonisches Konzert)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 35, Nr. 77, 18.03.1882, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18820318&amp;seite=1&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0171">Nachéz, Tivadar</persName>
+                     <date isodate="1886-11-03">03.11.1886</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670904 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 27</biblScope>
+                           <biblScope unit="issue">Nr. 303</biblScope>
+                           <biblScope unit="page">S. 4</biblScope>
+                           <imprint>
+                              <date isodate="1886-11-02">02.11.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Orchesterabend von Theobald Kretschmann, 19.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 27, Nr. 303, 02.11.1886, S. 4</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18861102&amp;seite=4&amp;zoom=33&amp;query=%22brahm%27s%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667732 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 284</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1886-10-13">13.10.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Orchesterabend von Theob. Kretschmann; Datum gemäß NWT, 04.11.1886, S. 6)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 284, 13.10.1886, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18861013&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667740 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 303</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1886-11-02">02.11.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Orchesterabend von Theobald Kretschmann, 19.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 39, Nr. 303, 02.11.1886, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18861102&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667744 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 306</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1886-11-05">05.11.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Orchesterabend von Theobald Kretschmann)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Abendblatt, Jg. 39, Nr. 306, 05.11.1886, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18861105&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Dirigent_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0127">Joachim, Joseph</persName>
+                     <date isodate="1879-01-08">08.01.1879</date>
+                     <geogName role="place">Budapest</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667047 recordid_667048 " type="Rubrik_18 Rubrik_10">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_10">Brahms als Dirigent</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 32</biblScope>
+                           <biblScope unit="issue">Nr. 8</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1879-01-09">09.01.1879</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Konzert von Joachim; "neues Violin-Concert von Brahms"; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 326, und Hofmann, Chronologie, S. 176 f.)</p>
+                              <p label="Weitere_Informationen">(Meldung, J. Brahms sei "vorgestern in Pest angekommen, um dem ersten Concert Joachim's beizuwohnen"; "neues Violin-Concert von Brahms"; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 326, und Hofmann, Chronologie, S. 176 f.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 32, Nr. 8, 09.01.1879, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18790109&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0458">Wessely, Hans</persName>
+                     <date startdate="1884" enddate="1884">März 1884</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667446 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 37</biblScope>
+                           <biblScope unit="issue">Nr. 100</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1884-04-10">10.04.1884</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 37, Nr. 100, 10.04.1884, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18840410&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0211">Richter, Hans</persName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0252">Soldat-Röger, Marie</persName>
+                     <date isodate="1885-03-08">08.03.1885</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667572 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 63</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1885-03-05">05.03.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(4. und letztes ordentliches Gesellschaftskonzert, 12.30 Uhr; Werke von Brahms: "zwei neue Chöre ohne Begleitung", op. 77; vgl. <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 309)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 38, Nr. 63, 05.03.1885, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18850305&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667580 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 73</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1885-03-15">15.03.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Gesellschaftskonzert; Werke von Brahms: "zwei wohlbekannte kleine Chorlieder von Brahms" [op. 42, Nr. 1 und op. 62, Nr. 2] sowie op. 77; Datum gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 309)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 38, Nr. 73, 15.03.1885, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18850315&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <date isodate="1880-05-02">02.05.1880</date>
+                     <geogName role="place">Bonn</geogName>
+                     <geogName role="venue">Beethovenhalle</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667866 recordid_667867 " type="Rubrik_3 Rubrik_10">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <term label="Rubrik_10">Brahms als Dirigent</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 33</biblScope>
+                           <biblScope unit="issue">Nr. 122</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1880-05-03">03.05.1880</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Großes Vokal- und Instrumentalkonzert im Rahmen der Einweihungsfeier des Schumann-Denkmals unter "Mitwirkung der ersten künstlerischen Kräfte"; Werke: Symphonie Nr. 3, Requiem für Mignon und Musik zu Manfred von R. Schumann sowie das Violinkonzert von Brahms; Brahms nicht erwähnt, Werke und Interpret gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 191 f.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Abendblatt, Jg. 33, Nr. 122, 03.05.1880, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18800503&amp;seite=13&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1889-02-11">11.02.1889</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0127">Joachim, Joseph</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668014 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 51</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1889-02-20">20.02.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Joseph Joachim; Datum gemäß <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 42, Nr. 51, 20.02.1889, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18890220&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Philharmoniker</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0110">Hellmesberger, Joseph</persName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0162">Meyer, Waldemar</persName>
+                     <date isodate="1890-12-14">14.12.1890</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_668180 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 320</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1890-11-22">22.11.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Orchesterkonzert von Waldemar Meyer)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 43, Nr. 320, 22.11.1890, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18901122&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668184 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 338</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1890-12-11">11.12.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Orchesterkonzert des Violin-Virtuosen Waldemar Meyer, 12.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 43, Nr. 338, 11.12.1890, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18901211&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668191 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 351</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1890-12-24">24.12.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Waldemar Meyer; Datum gemäß Die Presse, Local-Anzeiger, 11.12.1890, S. 11)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 43, Nr. 351, 24.12.1890, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18901224&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0479">Gericke, Wilhelm</persName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0458">Wessely, Hans</persName>
+                     <date isodate="1891-12-20">20.12.1891</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_668238 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 268</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1891-09-30">30.09.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. ordentliches Gesellschaftskonzert, 12.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 44, Nr. 268, 30.09.1891, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18910930&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668244 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 282</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1891-10-14">14.10.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. ordentliches Gesellschaftskonzert, 12.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 44, Nr. 282, 14.10.1891, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911014&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668245 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 283</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1891-10-15">15.10.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. ordentliches Gesellschaftskonzert, 12.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 44, Nr. 283, 15.10.1891, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911015&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668318 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 342</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1891-12-13">13.12.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Gesellschaftskonzert, 12.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 44, Nr. 342, 13.12.1891, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911213&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668361 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 348</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1891-12-19">19.12.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Gesellschaftskonzert, 12.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 44, Nr. 348, 19.12.1891, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911219&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668365 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 353</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1891-12-24">24.12.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Gesellschaftskonzert)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 44, Nr. 353, 24.12.1891, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911224&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668363 " type="Rubrik_80"> <!-- dieses bibl war urspr. durch falsche Datumserfassung ein eigenes event -->
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 349</biblScope>
+                           <biblScope unit="page">S. 20</biblScope>
+                           <imprint>
+                              <date isodate="1891-12-20">20.12.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Gesellschaftskonzert, 12.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 44, Nr. 349, 20.12.1891, S. 20</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18911220&amp;seite=20&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1893-12-10">10.12.1893</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0035">Wiener Philharmoniker</corpName>
+                     <biblList>
+                        <bibl sameas="recordid_668691 " type="Rubrik_1">
+                           <term label="Rubrik_1">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 345</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-14">14.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(4. Philharmonisches Konzert, wobei die Absage der Geigerin "uns den Genuß des Brahms-Concerts" geraubt habe; Datum gemäß <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 46, Nr. 345, 14.12.1893, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931214&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Philharmoniker</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0279">Wietrowetz, Gabriele</persName>
+                     <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0035">Wiener Philharmoniker</corpName>
+                     <date isodate="1894-02-25">25.02.1894</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_668768 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 47</biblScope>
+                           <biblScope unit="issue">Nr. 47</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1894-02-18">18.02.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(7. Abonnementkonzert der Philharmoniker, 12.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 47, Nr. 47, 18.02.1894, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940218&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668771 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 47</biblScope>
+                           <biblScope unit="issue">Nr. 51</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1894-02-22">22.02.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Wegen Erkrankung der Violinistin Gabriele Wietrowetz Absage von op. 77 im Philharmonischen Konzert; Datum vgl. <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 47, Nr. 51, 22.02.1894, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940222&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Konzertarchiv der Wiener Philharmoniker</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Dirigent_in" corresp="../Brahms-Personenregister-ID/0474">Perger, Richard von</persName>
+                     <persName type="Violinist_in" corresp="../Brahms-Personenregister-ID/0106">Heermann, Hugo</persName>
+                     <date isodate="1896-02-09">09.02.1896</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669149 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Morgen-Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 49</biblScope>
+                           <biblScope unit="issue">Nr. 39</biblScope>
+                           <biblScope unit="page">S. 16</biblScope>
+                           <imprint>
+                              <date isodate="1896-02-09">09.02.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Vorankündigung, 3. Gesellschaftskonzert, 12.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 39, 09.02.1896, S. 16</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960209&amp;seite=8&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669153 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Morgen-Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 49</biblScope>
+                           <biblScope unit="issue">Nr. 50</biblScope>
+                           <biblScope unit="page">S. [1] f.</biblScope>
+                           <imprint>
+                              <date isodate="1896-02-20">20.02.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. Gesellschaftskonzert; Datum gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 313)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 50, 20.02.1896, S. [1] f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960220&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._77"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <expressionList>
+            <expression n="1">
+               <title>Fassung mit Orchester</title>
+               <perfMedium>
+                  <perfResList>
+                     <head>Besetzung: Violine und Orchester</head>
+                     <perfResList>
+                        <perfRes>Violine</perfRes>
+                        <perfRes>Orchester</perfRes>
+                     </perfResList>
+                  </perfResList>
+               </perfMedium>
+            </expression>
+            <expression n="2">
+               <title>Klavierauszug</title>
+            </expression>
+         </expressionList>
+      </work>
+   </workList>
+</mei>

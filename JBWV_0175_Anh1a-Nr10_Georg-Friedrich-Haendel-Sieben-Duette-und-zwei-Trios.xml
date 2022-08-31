@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Georg Friedrich Händel: Sieben Duette und zwei Trios</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Anhang</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="175">
+         <identifier label="Anhang-Nummer">Anh. 1a Nr. 10</identifier>
+         <title>Georg Friedrich Händel: Sieben Duette und zwei Trios</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="#">Georg Friedrich Händel</persName>
+         </composer>
+         <contributor>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </contributor>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Gesang und Klavier</head>
+               <perfResList>
+                  <perfRes>Gesang</perfRes>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt>
+            <annot label="Brahms_Beitrag">
+               <p>Bearbeitung: Generalbass-Aussetzung</p>
+            </annot>
+         </notesStmt>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="work_anh1a,10-1">
+               <identifier label="Opus-Nummer">Anh. 1a, 10,1</identifier>
+               <title/>
+            </work>
+            <work n="2" xml:id="work_anh1a,10-2">
+               <identifier label="Opus-Nummer">Anh. 1a, 10,2</identifier>
+               <title/>
+            </work>
+            <work n="3" xml:id="work_anh1a,10-3">
+               <identifier label="Opus-Nummer">Anh. 1a, 10,3</identifier>
+               <title/>
+            </work>
+            <work n="4" xml:id="work_anh1a,10-4">
+               <identifier label="Opus-Nummer">Anh. 1a, 10,4</identifier>
+               <title/>
+            </work>
+            <work n="5" xml:id="work_anh1a,10-5">
+               <identifier label="Opus-Nummer">Anh. 1a, 10,5</identifier>
+               <title/>
+            </work>
+            <work n="6" xml:id="work_anh1a,10-6">
+               <identifier label="Opus-Nummer">Anh. 1a, 10,6</identifier>
+               <title/>
+            </work>
+            <work n="7" xml:id="work_anh1a,10-7">
+               <identifier label="Opus-Nummer">Anh. 1a, 10,7</identifier>
+               <title/>
+            </work>
+            <work n="8" xml:id="work_anh1a,10-8">
+               <identifier label="Opus-Nummer">Anh. 1a, 10,8</identifier>
+               <title/>
+            </work>
+            <work n="9" xml:id="work_anh1a,10-9">
+               <identifier label="Opus-Nummer">Anh. 1a, 10,9</identifier>
+               <title/>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

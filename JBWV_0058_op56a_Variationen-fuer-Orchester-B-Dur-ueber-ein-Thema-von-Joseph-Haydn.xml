@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Variationen für Orchester B-Dur über ein Thema von Joseph Haydn</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="58" xml:id="component_op._56a">
+         <identifier label="Opus-Nummer">op. 56a</identifier>
+         <title>Variationen für Orchester B-Dur über ein Thema von Joseph Haydn</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <date isodate="1873-11-02">02.11.1873</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Großer Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669412 recordid_669413 " type="Rubrik_2 Rubrik_10">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 14</biblScope>
+                        <biblScope unit="issue">Nr. 306</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1873-11-07">07.11.1873</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Philharmonisches Konzert; Uraufführung, vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 234; Leitung gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 134)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 14, Nr. 306, 07.11.1873, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18731107&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._56a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <date isodate="1876-11-26">26.11.1876</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669483 recordid_669484 " type="Rubrik_2 Rubrik_10">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 17</biblScope>
+                        <biblScope unit="issue">Nr. 346</biblScope>
+                        <biblScope unit="page">S. [3]</biblScope>
+                        <imprint>
+                           <date isodate="1876-12-15">15.12.1876</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Philharmonisches Konzert; Interpret und Datum gemäß <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl> bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 165)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 17, Nr. 346, 15.12.1876, S. [3]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18761215&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._56a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Konzertarchiv der Wiener Philharmoniker</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669487 recordid_669488 " type="Rubrik_2 Rubrik_10">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 17</biblScope>
+                        <biblScope unit="issue">Nr. 357</biblScope>
+                        <biblScope unit="page">S. [2]</biblScope>
+                        <imprint>
+                           <date isodate="1876-12-28">28.12.1876</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Erwähnung einer Aufführung von op. 56a, die "neulich" stattgefunden habe; Datum und Interpret gemäß <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl> bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 165)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 17, Nr. 357, 28.12.1876, S. [2]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18761228&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._56a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Konzertarchiv der Wiener Philharmoniker</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0044">Bülow, Hans von</persName>
+                  <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0057">Meininger Hofkapelle</corpName>
+                  <date isodate="1884-11-25">25.11.1884 [recte: 02.12.1884]</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Großer Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669617 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 25</biblScope>
+                        <biblScope unit="issue">Nr. 280</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1884-10-10">10.10.1884</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(2. Abend der Meininger Hofkapelle; dieses Werk ist gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 243 f., nicht am 25.11.1884, sondern am 02.12.1884 aufgeführt worden)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 25, Nr. 280, 10.10.1884, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18841010&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._56a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1887-11-13">13.11.1887</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Großer Musikvereinssaal</geogName>
+                  <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0035">Wiener Philharmoniker</corpName>
+                  <biblList>
+                     <bibl sameas="recordid_669736 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 28</biblScope>
+                        <biblScope unit="issue">Nr. 286</biblScope>
+                        <biblScope unit="page">S. 4</biblScope>
+                        <imprint>
+                           <date isodate="1887-10-17">17.10.1887</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Vorankündigung der Philharmonischen Konzerte der Saison 1887/88; Datum gemäß <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl>)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 28, Nr. 286, 17.10.1887, S. 4</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18871017&amp;seite=4&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._56a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Konzertarchiv der Wiener Philharmoniker</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669742 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 28</biblScope>
+                        <biblScope unit="issue">Nr. 306</biblScope>
+                        <biblScope unit="page">S. 8</biblScope>
+                        <imprint>
+                           <date isodate="1887-11-06">06.11.1887</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Abonnementkonzert der Philharmoniker, 12.30 Uhr)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 28, Nr. 306, 06.11.1887, S. 8</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18871106&amp;seite=8&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._56a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669745 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 28</biblScope>
+                        <biblScope unit="issue">1. Beilage zu Nr. 327</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1887-11-27">27.11.1887</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Philharmonisches Konzert; Datum gemäß <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl>)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 28, 1. Beilage zu Nr. 327, 27.11.1887, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18871127&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._56a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Konzertarchiv der Wiener Philharmoniker</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0211">Richter, Hans</persName>
+                  <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0035">Wiener Philharmoniker</corpName>
+                  <date isodate="1893-10-29">29.10.1893</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Großer Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670025 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 34</biblScope>
+                        <biblScope unit="issue">Nr. 292</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1893-10-22">22.10.1893</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Abonnementkonzert der Philharmoniker, 12.30 Uhr)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 292, 22.10.1893, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931022&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._56a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_670027 " type="Rubrik_17">
+                        <term label="Rubrik_17">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 34</biblScope>
+                        <biblScope unit="issue">Nr. 301</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1893-10-31">31.10.1893</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Philharmonisches Konzert)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Nr. 301, 31.10.1893, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931031&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._56a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_670923 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 34</biblScope>
+                        <biblScope unit="issue">1. Beiblatt zu Nr. 271</biblScope>
+                        <biblScope unit="page">S. III</biblScope>
+                        <imprint>
+                           <date isodate="1893-10-01">01.10.1893</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Philharmonische Konzerte der Saison 1893/94; Datum gemäß <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl>)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, 1. Beiblatt zu Nr. 271, 01.10.1893, S. III</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931001&amp;seite=11&amp;zoom=33&amp;query=%22brahm%27s%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._56a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Konzertarchiv der Wiener Philharmoniker</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0453">Löwe, Ferdinand</persName>
+                  <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0165">Kaim-Orchester</corpName>
+                  <date isodate="1898-03-03">03.03.1898</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Großer Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670494 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 39</biblScope>
+                        <biblScope unit="issue">Nr. 61</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1898-03-03">03.03.1898</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(2. und letztes Symphoniekonzert des Kaim-Orchesters, 19.30 Uhr)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 39, Nr. 61, 03.03.1898, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18980303&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._56a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1900-04-01">01.04.1900</date>
+                  <geogName role="place">Wien</geogName>
+                  <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0035">Wiener Philharmoniker</corpName>
+                  <biblList>
+                     <bibl sameas="recordid_670707 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Abendblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 41</biblScope>
+                        <biblScope unit="issue">Nr. 83</biblScope>
+                        <biblScope unit="page">S. 3</biblScope>
+                        <imprint>
+                           <date isodate="1900-03-26">26.03.1900</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(8. und letztes Abonnementkonzert der Philharmoniker)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Abendblatt, Jg. 41, Nr. 83, 26.03.1900, S. 3</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19000326&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._56a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0453">Löwe, Ferdinand</persName>
+                  <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0038">Wiener Konzertverein</corpName>
+                  <date isodate="1902-10-29">29.10.1902</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Großer Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670862 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 43</biblScope>
+                        <biblScope unit="issue">Nr. 294</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1902-10-25">25.10.1902</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Symphoniekonzert im Mittwochs-Zyklus des Wiener Konzertvereins, 19.30 Uhr)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 43, Nr. 294, 25.10.1902, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19021025&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._56a"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Orchester</head>
+               <perfResList>
+                  <perfRes>Orchester</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+      </work>
+   </workList>
+</mei>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Johann Sebastian Bach: Kantate O ewiges Feuer BWV 34</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Anhang</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="188" xml:id="component_Anhang_1b,Nr.5">
+         <identifier label="Anhang-Nummer">Anh. 1b Nr. 5</identifier>
+         <title>Johann Sebastian Bach: Kantate "O ewiges Feuer" BWV 34</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="#">Johann Sebastian Bach</persName>
+         </composer>
+         <arranger>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </arranger>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0126">Joachim, Amalie</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0233">Schindler, Emil Jakob</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0300">Raindl, Victor von</persName>
+                  <date isodate="1875-01-10">10.01.1875</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669462 recordid_669463 " type="Rubrik_10 Rubrik_3">
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 16</biblScope>
+                        <biblScope unit="issue">Nr. 13</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1875-01-13">13.01.1875</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(2. Gesellschaftskonzert; weitere Werke: Mendelssohns Ouvertüre zur Oper "Die Hochzeit des Camacho", Joachims Violinkonzert in ungarischer Weise, Schumanns Fantasie für Violine und Orchester und Brahms' op. 53; Datum und Leitung gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 149 f.)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 16, Nr. 13, 13.01.1875, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18750113&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.5"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666758 recordid_666759 " type="Rubrik_18 Rubrik_100">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <term label="Rubrik_100">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 27</biblScope>
+                        <biblScope unit="issue">Nr. 272</biblScope>
+                        <biblScope unit="page">S. 8</biblScope>
+                        <imprint>
+                           <date isodate="1874-10-04">04.10.1874</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Vorankündigung im Rahmen einer Vorschau auf die Gesellschaftskonzerte der Saison 1874/75; weitere Werke: Mendelssohn-Ouvertüre, Joachim-Violinkonzert, Schumann-Phantasie und Brahms-Rhapsodie op. 53; Werke und Leitung gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 149 f., vgl. auch <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 649)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 27, Nr. 272, 04.10.1874, S. 8</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18741004&amp;seite=8&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.5"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666798 recordid_666799 " type="Rubrik_18 Rubrik_100">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <term label="Rubrik_100">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 28</biblScope>
+                        <biblScope unit="issue">Nr. 6</biblScope>
+                        <biblScope unit="page">S. 8</biblScope>
+                        <imprint>
+                           <date isodate="1875-01-06">06.01.1875</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Gesellschaftskonzert; Leitung gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 149 f., und BrahmsWV, S. 649; weitere Werke: "Ungarisches Konzert" von Joachim, eine "noch nicht im Drucke erschienene Violin-Sonate von R. Schumann", "eine Chorkomposition von Brahms" sowie eine "gleichfalls hier noch nicht zur Aufführung gelangte Ouverture von Mendelssohn zu dessen Jugendoper 'Die Hochzeit des Camacho'")</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 28, Nr. 6, 06.01.1875, S. 8</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18750106&amp;seite=8&amp;zoom=62&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.5"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666803 recordid_666804 " type="Rubrik_3 Rubrik_10">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 28</biblScope>
+                        <biblScope unit="issue">Nr. 12</biblScope>
+                        <biblScope unit="page">S. 8</biblScope>
+                        <imprint>
+                           <date isodate="1875-01-12">12.01.1875</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Gesellschaftskonzert, mittags; weitere Werke: "Ungarische Rhapsodie [recte: Ungarisches Konzert]" von Joachim, eine Schumann-Phantasie, "Pfingstkantate" von Bach sowie eine Mendelssohn-Ouvertüre zu dessen Oper "Die Heirat des Camacho"; Leitung und Datum gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 149 f., und BrahmsWV, S. 649)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 28, Nr. 12, 12.01.1875, S. 8</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18750112&amp;seite=8&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.5"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666808 recordid_666809 " type="Rubrik_3 Rubrik_10">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 28</biblScope>
+                        <biblScope unit="issue">Nr. 20</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1875-01-20">20.01.1875</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(2. Gesellschaftskonzert; weitere Werke: Joachims "Concert in ungarischer Weise", Phantasie von Schumann, Brahms' "Rhapsodie" sowie Mendelssohns Ouvertüre zur Oper "Die Hochzeit des Camacho"; Leitung gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 149 f., und BrahmsWV, S. 649)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 28, Nr. 20, 20.01.1875, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18750120&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.5"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_667546 recordid_667547 " type="Rubrik_10 Rubrik_3">
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 38</biblScope>
+                        <biblScope unit="issue">Nr. 10</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1885-01-10">10.01.1885</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Erwähnung im Rahmen einer Rezension eines Gesellschaftskonzertes vom 04.01.1885 als Reminiszenz "an die schöne Zeit", in welcher Brahms als Dirigent der Gesellschaftskonzerte [1872-1875] nicht nur dieses Werk, sondern "zehn große Oratorienwerke, darunter Händel's 'Saul' und 'Salomon', als 'neu' sowie fünfundzwanzig mittlere und kleinere Chorsachen, darunter drei seitdem nicht wieder gehörte Bach'sche Cantaten, zur Aufführung gebracht" habe. Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 649.)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 38, Nr. 10, 10.01.1885, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18850110&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.5"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669217 recordid_669218 " type="Rubrik_3 Rubrik_10">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Morgen-Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 49</biblScope>
+                        <biblScope unit="issue">Nr. 96</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1896-04-07">07.04.1896</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Erwähnung im Rahmen eines Feuilletons Robert Hirschfelds, in dem er dem 1895 neu bestellten Leiter des Singvereins der GdM, Richard von Perger, als Beispiel für gelungene Programmgestaltung die Saisonen unter der Leitung von J. Brahms entgegenstellt. Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 649, bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 149 f.)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 96, 07.04.1896, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960407&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.5"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: k.A.</head>
+               <perfResList/>
+            </perfResList>
+         </perfMedium>
+         <notesStmt>
+            <annot label="Brahms_Beitrag">
+               <p>Aufführungsfassung</p>
+            </annot>
+         </notesStmt>
+         <expressionList/>
+      </work>
+   </workList>
+</mei>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Drei Duette</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="20" xml:id="work_op._20">
+         <identifier label="Opus-Nummer">op. 20</identifier>
+         <title>Drei Duette</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <date/>
+                  <geogName role="place"/>
+                  <persName type="Mitwirkende_r Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <biblList>
+                     <bibl sameas="recordid_666251 " type="Rubrik_1">
+                        <term label="Rubrik_1">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 15</biblScope>
+                        <biblScope unit="issue">Nr. 331</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1862-12-03">03.12.1862</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Erwähnung im Rahmen einer Hanslick-Rezension des 1. Brahms-Konzerts in Wien, 29.11.1862. Laut Hanslick finde sich in den neueren Liederheften von Brahms nichts, "was die Frische und den Aufschwung seiner ersten Lieder op. 3 wieder erreicht hätte." Rückschluss auf das Werk gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 67)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 15, Nr. 331, 03.12.1862, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18621203&amp;seite=1&amp;zoom=33&amp;query=text%3A%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._20"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1894-03-09">09.03.1894</date>
+                  <geogName role="place">Wien</geogName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0129">Jong, Jeanette de</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0502">Corver, Anna</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0469">Snyders, Marie</persName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0320">Asten, Julie von</persName>
+                  <biblList>
+                     <bibl sameas="recordid_668800 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 47</biblScope>
+                        <biblScope unit="issue">Nr. 74</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1894-03-17">17.03.1894</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert der holländischen Sängerinnen Jeanette de Jong, Anna Corver und Marie Snyders; u.a. "die herrlichen Gesänge von Brahms' 'Weg der Liebe', 'Die Meere' aus op. 20" sowie des weiteren op. 61, Nr. 1; Datum gemäß Die Presse, Local-Anzeiger, 01.03.1894, S. 11)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 47, Nr. 74, 17.03.1894, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940317&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._20,Nr.1und/oder2und3"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Sopran, Alt und Klavier</head>
+               <perfResList>
+                  <perfRes>Sopran</perfRes>
+                  <perfRes>Alt</perfRes>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="component_op._20,Nr.1">
+               <identifier label="Opus-Nummer">op. 20, Nr.1</identifier>
+               <title>Weg der Liebe 1. Teil.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._20"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._20,Nr.2">
+               <identifier label="Opus-Nummer">op. 20, Nr.2</identifier>
+               <title>Weg der Liebe 2. Teil.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._20"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._20,Nr.3">
+               <identifier label="Opus-Nummer">op. 20, Nr.3</identifier>
+               <title>Die Meere.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._20"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

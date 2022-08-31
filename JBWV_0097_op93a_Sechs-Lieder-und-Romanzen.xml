@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Sechs Lieder und Romanzen</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="97" xml:id="work_op._93a">
+         <identifier label="Opus-Nummer">op. 93a</identifier>
+         <title>Sechs Lieder und Romanzen</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0476">Weinwurm, Rudolf</persName>
+                     <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0033">Wiener Akademischer Gesangverein</corpName>
+                     <date isodate="1885-02-22">22.02.1885</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669630 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 26</biblScope>
+                           <biblScope unit="issue">Nr. 42</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1885-02-12">12.02.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Wohltätigkeitskonzert des Wiener akademischen Gesangvereins zum Besten des Asylvereins der Wiener Universität, 12.30 Uhr; "neu")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 26, Nr. 42, 12.02.1885, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18850212&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.1,2und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669631 " type="Rubrik_17">
+                           <term label="Rubrik_17">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 26</biblScope>
+                           <biblScope unit="issue">Nr. 56</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1885-02-26">26.02.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Wiener akademischen Gesangvereins zum Besten des Asylvereins der k. k. Wiener Universität)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 26, Nr. 56, 26.02.1885, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18850226&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.1,2und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670903 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 26</biblScope>
+                           <biblScope unit="issue">Nr. 49</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1885-02-19">19.02.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Wohltätigkeitskonzert des Wiener akademischen Gesangvereins zu Gunsten des Asylvereins der Wiener Universität, 12.30 Uhr; "neu"; bei "Fahr wohl" irrtümlich Angabe "Op. 98")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 26, Nr. 49, 19.02.1885, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18850219&amp;seite=6&amp;zoom=33&amp;query=%22brahm%27s%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.1,2und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667563 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 49</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1885-02-19">19.02.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Wiener akademischen Gesangvereins zu Gunsten des Asylvereins der Wiener Universität, mittags; "neu")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 38, Nr. 49, 19.02.1885, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18850219&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.1,2und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667577 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 69</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1885-03-11">11.03.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Wiener akademischen Gesangvereins; u.a. 3 gemischte Chöre von Brahms als "Novitäten vornehmen Ranges"; Datum gemäß Die Presse, Local-Anzeiger, 19.02.1885, S. 11)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 38, Nr. 69, 11.03.1885, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18850311&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.1,2und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0470">Weinzierl, Max von</persName>
+                     <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0036">Wiener Singakademie</corpName>
+                     <date isodate="1886-03-12">12.03.1886</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669647 recordid_669648 " type="Rubrik_18 Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 26</biblScope>
+                           <biblScope unit="issue">Nr. 288</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1885-10-20">20.10.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert der Wiener Singakademie; "Erste Aufführung"; gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl> allerdings: op. 93a, Nr. 5.)</p>
+                              <p label="Weitere_Informationen">(2. Konzert der Wiener Singakademie; Werk gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl> statt dem angekündigten op. 93b)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 26, Nr. 288, 20.10.1885, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18851020&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Singakademie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669675 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 27</biblScope>
+                           <biblScope unit="issue">Nr. 61</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1886-03-02">02.03.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Abendkonzert der Wiener Singakademie; Werk gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 27, Nr. 61, 02.03.1886, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18860302&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Singakademie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669677 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 27</biblScope>
+                           <biblScope unit="issue">Nr. 66</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1886-03-07">07.03.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Abendkonzert der Wiener Singakademie)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 27, Nr. 66, 07.03.1886, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18860307&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669678 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 27</biblScope>
+                           <biblScope unit="issue">Nr. 75</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1886-03-16">16.03.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert der Wiener Singakademie)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 27, Nr. 75, 16.03.1886, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18860316&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667615 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 284</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1885-10-15">15.10.1885</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert der Wiener Singakademie; "1. Aufführung"; gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl> allerdings: op. 93a, Nr. 5.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 38, Nr. 284, 15.10.1885, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18851015&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Singakademie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667676 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 61</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1886-03-02">02.03.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Abendkonzert der Wiener Singakademie; Werk gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 61, 02.03.1886, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860302&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Singakademie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667685 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 66</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1886-03-07">07.03.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Abendkonzert der Wiener Singakademie)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 66, 07.03.1886, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860307&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0476">Weinwurm, Rudolf</persName>
+                     <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0033">Wiener Akademischer Gesangverein</corpName>
+                     <date isodate="1886-04-11">11.04.1886</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669681 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 27</biblScope>
+                           <biblScope unit="issue">Nr. 97</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1886-04-07">07.04.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Wiener akademischen Gesangvereins, 12.30 Uhr; "neu")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 27, Nr. 97, 07.04.1886, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18860407&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667697 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 90</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1886-03-31">31.03.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Wiener Akademischen Gesangvereins, mittags)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 90, 31.03.1886, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860331&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667700 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 91</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1886-04-01">01.04.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Wiener Akademischen Gesangvereins, mittags; u.a. "Novitäten" von Bruckner und Brahms)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 91, 01.04.1886, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860401&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667702 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 97</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1886-04-07">07.04.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Wiener Akademischen Gesangvereins, 12.30 Uhr; "neu")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 97, 07.04.1886, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860407&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667706 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 105</biblScope>
+                           <biblScope unit="page">S. [1] f.</biblScope>
+                           <imprint>
+                              <date isodate="1886-04-15">15.04.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Wiener Akademischen Gesangvereins; "Novität"; Datum gemäß <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 39, Nr. 105, 15.04.1886, S. [1] f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860415&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Philharmoniker</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667822 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 67</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1887-03-09">09.03.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Akademischen Gesangvereins; Erwähnung im Rahmen einer Rezension von op. 93b anlässlich des 2. Konzerts der Wiener Singakademie am 02.03.1887; Datum gemäß <bibl type="link" target="https://www.wienerphilharmoniker.at/de/konzert-archiv">Konzertarchiv der Wiener Philharmoniker</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Abendblatt, Jg. 40, Nr. 67, 09.03.1887, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18870309&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Philharmoniker</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0470">Weinzierl, Max von</persName>
+                     <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0036">Wiener Singakademie</corpName>
+                     <date isodate="1887-03-02">02.03.1887</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669683 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 27</biblScope>
+                           <biblScope unit="issue">Nr. 265</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1886-09-24">24.09.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Vorankündigung des Programms der Wiener Singakademie für die Saison 1886/87; u.a. "Novitäten von Brahms" u.a.; Werk und Datum gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 27, Nr. 265, 24.09.1886, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18860924&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Singakademie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669728 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 28</biblScope>
+                           <biblScope unit="issue">1. Beilage zu Nr. 50</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1887-02-20">20.02.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert der Wiener Singakademie, 19.30 Uhr; "erste Aufführung")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 28, 1. Beilage zu Nr. 50, 20.02.1887, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18870220&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667723 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 264</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1886-09-23">23.09.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzerte der Wiener Singakademie der Saison 1886/87; u.a. "Novitäten" von Brahms u.a.; Werk und Datum gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 264, 23.09.1886, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860923&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Singakademie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667812 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 50</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1887-02-20">20.02.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert der Wiener Singakademie, 19.30 Uhr)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 40, Nr. 50, 20.02.1887, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18870220&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667821 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 67</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1887-03-09">09.03.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert der Wiener Singakademie, abends)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Abendblatt, Jg. 40, Nr. 67, 09.03.1887, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18870309&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93b"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0470">Weinzierl, Max von</persName>
+                     <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0036">Wiener Singakademie</corpName>
+                     <date isodate="1887-12-16">16.12.1887</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669738 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 28</biblScope>
+                           <biblScope unit="issue">Nr. 287</biblScope>
+                           <biblScope unit="page"/>
+                           <imprint>
+                              <date isodate="1887-10-18">18.10.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Konzert der Wiener Singakademie; "erste Aufführung")</p>
+                              <p label="Vollständiger_Nachweis"/>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18871018&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667889 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 334</biblScope>
+                           <biblScope unit="page">S. 20</biblScope>
+                           <imprint>
+                              <date isodate="1887-12-04">04.12.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Konzert der Wiener Singakademie, 19.30 Uhr; "1. Aufführung")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 40, Nr. 334, 04.12.1887, S. 20</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18871204&amp;seite=20&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667893 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 341</biblScope>
+                           <biblScope unit="page">S. 19</biblScope>
+                           <imprint>
+                              <date isodate="1887-12-11">11.12.1887</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Konzert der Wiener Singakademie, 19.30 Uhr; Werk gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 40, Nr. 341, 11.12.1887, S. 19</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18871211&amp;seite=19&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Singakademie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0293">Schön, Carl</persName>
+                     <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0036">Wiener Singakademie</corpName>
+                     <date isodate="1896-04-08">08.04.1896</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670268 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 37</biblScope>
+                           <biblScope unit="issue">Nr. 93</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1896-04-03">03.04.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. statuarisches Konzert der Wiener Singakademie, 19.30 Uhr; Werk gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 37, Nr. 93, 03.04.1896, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18960403&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Singakademie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670277 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 37</biblScope>
+                           <biblScope unit="issue">Nr. 115</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1896-04-26">26.04.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Konzert der Wiener Singakademie; Werk gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 37, Nr. 115, 26.04.1896, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18960426&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Singakademie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669239 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Morgen-Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 49</biblScope>
+                           <biblScope unit="issue">Nr. 97</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1896-04-08">08.04.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. statuarisches Konzert der Wiener Singakademie, 19.30 Uhr; Werk gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl>)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 97, 08.04.1896, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960408&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.1"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Singakademie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1897-01-17">17.01.1897</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670319 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 24</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1897-01-24">24.01.1897</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Gesellschaftskonzert; "drei Chöre a capella von Brahms"; Datum und Werke gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 313 f.)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 38, Nr. 24, 24.01.1897, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18970124&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.3,4und5"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1897-04-06">06.04.1897</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">vor dem Musikvereinsgebäude</geogName>
+                     <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0037">Wiener Singverein</corpName>
+                     <biblList>
+                        <bibl sameas="recordid_670379 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Nr. 97</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1897-04-07">07.04.1897</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Aufführung des Singvereins im Rahmen des Leichenbegängnisses von Brahms.)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 38, Nr. 97, 07.04.1897, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18970407&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0474">Perger, Richard von</persName>
+                     <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0037">Wiener Singverein</corpName>
+                     <date isodate="1899-02-05">05.02.1899</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670591 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 50</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1899-02-19">19.02.1899</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Gesellschaftskonzert; u.a. 4 Chorlieder von Brahms: op. 93a, Nr. 6, WoO 34, Nr. 11, die beide wiederholt wurden, sowie op. 104, Nr. 1 und 3; Datum gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 314, und Böhm, Geschichte des Singvereines, S. (57) der Beilagen)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 40, Nr. 50, 19.02.1899, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18990219&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.6"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date/>
+                     <geogName role="place"/>
+                     <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <biblList>
+                        <bibl sameas="recordid_667646 " type="Rubrik_1">
+                           <term label="Rubrik_1">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 13</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1886-01-13">13.01.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Kalbeck will in op. 97, Nr. 1 "den 'Wanderer' vom vorigen Jahre" wiedererkannt haben, wobei die Nachtigall "ein wärmeres Nest" bekommen habe "und der Wanderer mußte sich auf die Socken machen. Ueber seine Weiterreise verlautet nichts Gewisses. Schade um ihn!"; Erwähnung im Rahmen der Rezension des Liederabends von Gustav Walter, 08.01.1886.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 39, Nr. 13, 13.01.1886, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860113&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._93a,Nr.4" cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: gemischter Chor</head>
+               <perfResList>
+                  <perfRes>gemischter Chor</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="component_op._93a,Nr.1">
+               <identifier label="Opus-Nummer">op. 93a, Nr.1</identifier>
+               <title>Der bucklichte Fiedler.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._93a"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._93a,Nr.2">
+               <identifier label="Opus-Nummer">op. 93a, Nr.2</identifier>
+               <title>Das Mädchen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._93a"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._93a,Nr.3">
+               <identifier label="Opus-Nummer">op. 93a, Nr.3</identifier>
+               <title>O süßer Mai.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._93a"/>
+               </relationList>
+            </work>
+            <work n="4" xml:id="component_op._93a,Nr.4">
+               <identifier label="Opus-Nummer">op. 93a, Nr.4</identifier>
+               <title>Fahr wohl!</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._93a"/>
+               </relationList>
+            </work>
+            <work n="5" xml:id="component_op._93a,Nr.5">
+               <identifier label="Opus-Nummer">op. 93a, Nr.5</identifier>
+               <title>Der Falke.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._93a"/>
+               </relationList>
+            </work>
+            <work n="6" xml:id="component_op._93a,Nr.6">
+               <identifier label="Opus-Nummer">op. 93a, Nr.6</identifier>
+               <title>Beherzigung.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._93a"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

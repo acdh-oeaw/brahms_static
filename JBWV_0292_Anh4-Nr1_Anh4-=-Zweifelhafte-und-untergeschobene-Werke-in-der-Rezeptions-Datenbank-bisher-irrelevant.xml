@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>[Anh. 4 = Zweifelhafte und untergeschobene Werke: in der Rezeptions-Datenbank bisher irrelevant]</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Anhang</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="292">
+         <identifier label="Anhang-Nummer">Anh. 4 Nr. 1</identifier>
+         <title>[Anh. 4 = Zweifelhafte und untergeschobene Werke: in der Rezeptions-Datenbank bisher irrelevant]</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: k.A.</head>
+               <perfResList/>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="work_anh4,1-1">
+               <identifier label="Opus-Nummer">Anh. 4, 1,1</identifier>
+               <title/>
+            </work>
+            <work n="2" xml:id="work_anh4,1-2">
+               <identifier label="Opus-Nummer">Anh. 4, 1,2</identifier>
+               <title/>
+            </work>
+            <work n="3" xml:id="work_anh4,1-3">
+               <identifier label="Opus-Nummer">Anh. 4, 1,3</identifier>
+               <title/>
+            </work>
+            <work n="4" xml:id="work_anh4,1-4">
+               <identifier label="Opus-Nummer">Anh. 4, 1,4</identifier>
+               <title/>
+            </work>
+            <work n="5" xml:id="work_anh4,1-5">
+               <identifier label="Opus-Nummer">Anh. 4, 1,5</identifier>
+               <title/>
+            </work>
+            <work n="6" xml:id="work_anh4,1-6">
+               <identifier label="Opus-Nummer">Anh. 4, 1,6</identifier>
+               <title/>
+            </work>
+            <work n="7" xml:id="work_anh4,1-7">
+               <identifier label="Opus-Nummer">Anh. 4, 1,7</identifier>
+               <title/>
+            </work>
+            <work n="8" xml:id="work_anh4,1-8">
+               <identifier label="Opus-Nummer">Anh. 4, 1,8</identifier>
+               <title/>
+            </work>
+            <work n="9" xml:id="work_anh4,1-9">
+               <identifier label="Opus-Nummer">Anh. 4, 1,9</identifier>
+               <title/>
+            </work>
+            <work n="10" xml:id="work_anh4,1-10">
+               <identifier label="Opus-Nummer">Anh. 4, 1,10</identifier>
+               <title/>
+            </work>
+            <work n="11" xml:id="work_anh4,1-11">
+               <identifier label="Opus-Nummer">Anh. 4, 1,11</identifier>
+               <title/>
+            </work>
+            <work n="12" xml:id="work_anh4,1-12">
+               <identifier label="Opus-Nummer">Anh. 4, 1,12</identifier>
+               <title/>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

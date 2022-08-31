@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Violoncellosonate Nr. 1 e-Moll</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="39" xml:id="work_op._38">
+         <identifier label="Opus-Nummer">op. 38</identifier>
+         <title>Violoncellosonate Nr. 1 e-Moll</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0083">Frankl-Joël, Gabriele</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0472">Hummer, Reinhold</persName>
+                  <date isodate="1877-04-07">07.04.1877</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669494 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 18</biblScope>
+                        <biblScope unit="issue">Nr. 99</biblScope>
+                        <biblScope unit="page">S. [3]</biblScope>
+                        <imprint>
+                           <date isodate="1877-04-12">12.04.1877</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(3. Konzert der Wiener Singakademie, abends)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 18, Nr. 99, 12.04.1877, S. [3]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18770412&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666949 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 30</biblScope>
+                        <biblScope unit="issue">Nr. 91</biblScope>
+                        <biblScope unit="page">S. 10</biblScope>
+                        <imprint>
+                           <date isodate="1877-04-04">04.04.1877</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Letztes Konzert der Wiener Singakademie, abends)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 30, Nr. 91, 04.04.1877, S. 10</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18770404&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666951 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 30</biblScope>
+                        <biblScope unit="issue">Nr. 105</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1877-04-18">18.04.1877</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(3. und letztes Konzert der Wiener Singakademie)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 30, Nr. 105, 18.04.1877, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18770418&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0062">Door, Anton</persName>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0014">Quartett Hellmesberger</corpName>
+                  <!-- i.e. Reinhold Hummer? -->
+                  <date isodate="1878-01-17">17.01.1878</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669518 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 19</biblScope>
+                        <biblScope unit="issue">Nr. 16</biblScope>
+                        <biblScope unit="page">S. [3]</biblScope>
+                        <imprint>
+                           <date isodate="1878-01-16">16.01.1878</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 19, Nr. 16, 16.01.1878, S. [3]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18780116&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666999 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 31</biblScope>
+                        <biblScope unit="issue">Nr. 13</biblScope>
+                        <biblScope unit="page">S. 9</biblScope>
+                        <imprint>
+                           <date isodate="1878-01-13">13.01.1878</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(4. Quartettproduktion von J. Hellmesberger, 19.30 Uhr; vgl. <bibl type="bibl" target="#Quartett_Hellmesberger">Quartett Hellmesberger, Programme</bibl>, S. 96)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 31, Nr. 13, 13.01.1878, S. 9</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18780113&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0014">Hellmesberger Quartett</corpName>
+                  <!-- i.e. Ferdinand H.? -->
+                  <date startdate="1885-09-01" enddate="1886-05-31">Saison 1885/1886</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669643 recordid_669644 " type="Rubrik_18 Rubrik_90">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <term label="Rubrik_90">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 26</biblScope>
+                        <biblScope unit="issue">Nr. 278</biblScope>
+                        <biblScope unit="page">S. 5</biblScope>
+                        <imprint>
+                           <date isodate="1885-10-10">10.10.1885</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Vorankündigung der Kammermusikabende des Hellmesberger Quartetts der Saison 1885/1886; eine Aufführung in Quartett Hellmesberger, Programme nicht verzeichnet)</p>
+                           <p label="Weitere_Informationen">(Vorankündigung der Kammermusikabende des Hellmesberger Quartetts der Saison 1885/86; eine Aufführung in Quartett Hellmesberger, Programme nicht verzeichnet)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 26, Nr. 278, 10.10.1885, S. 5</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18851010&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_667608 recordid_667609 " type="Rubrik_18 Rubrik_90">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <term label="Rubrik_90">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 38</biblScope>
+                        <biblScope unit="issue">Nr. 279</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1885-10-10">10.10.1885</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Vorankündigung der Kammermusikabende des Quartetts Hellmesberger der Saison 1885/1886; nicht verzeichnet in <bibl type="bibl" target="#Quartett_Hellmesberger">Quartett Hellmesberger, Programme</bibl> bzw. Hofmann.)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 38, Nr. 279, 10.10.1885, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18851010&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0012">Basch-Mahler, Fanny</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0429">Bürger, Sigmund</persName>
+                  <date isodate="1892-11-17">17.11.1892</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669983 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 33</biblScope>
+                        <biblScope unit="issue">Nr. 312</biblScope>
+                        <biblScope unit="page">S. 5</biblScope>
+                        <imprint>
+                           <date isodate="1892-11-10">10.11.1892</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von Sigmund Bürger)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 33, Nr. 312, 10.11.1892, S. 5</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18921110&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669985 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 33</biblScope>
+                        <biblScope unit="issue">Nr. 339</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1892-12-07">07.12.1892</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert des Budapester Cellisten Sigmund Bürger; Datum gemäß Vaterland, 10.11.1892, S. 5)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 33, Nr. 339, 07.12.1892, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18921207&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_668496 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 45</biblScope>
+                        <biblScope unit="issue">Nr. 311</biblScope>
+                        <biblScope unit="page">S. 10</biblScope>
+                        <imprint>
+                           <date isodate="1892-11-09">09.11.1892</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von Sigmund Bürger)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 311, 09.11.1892, S. 10</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18921109&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_668500 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 45</biblScope>
+                        <biblScope unit="issue">Nr. 333</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1892-12-01">01.12.1892</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von Sigmund Bürger; Datum gemäß Die Presse, Local-Anzeiger, 09.11.1892, S. 10)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 45, Nr. 333, 01.12.1892, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18921201&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0378">Krone, Laura</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0427">Glickh, Rudolph</persName>
+                  <date isodate="1897-11-27">27.11.1897</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670444 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 38</biblScope>
+                        <biblScope unit="issue">Nr. 324</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1897-11-25">25.11.1897</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert der Pianistin Laura Krone; "die Cellosonate von Brahms" sowie "Stücke von Brahms" u.a.)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 38, Nr. 324, 25.11.1897, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18971125&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._38oderop.99" cert="unknown"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0015">Baumayer, Marie</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0421">Hausmann, Robert</persName>
+                  <date isodate="1898-01-29">29.01.1898</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670479 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Abendblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 39</biblScope>
+                        <biblScope unit="issue">Nr. 26</biblScope>
+                        <biblScope unit="page">S. 3</biblScope>
+                        <imprint>
+                           <date isodate="1898-01-27">27.01.1898</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Kammermusikabend von Marie Baumayer und Prof. Robert Hausmann; u.a. 2 Werke von Brahms: op. 38 und op. 99)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Abendblatt, Jg. 39, Nr. 26, 27.01.1898, S. 3</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18980127&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1899-04-07">07.04.1899</date>
+                  <geogName role="place">Wien</geogName>
+                  <persName type="Violoncellist_in" corresp="#">Jeral, Wilhelm</persName>
+                  <biblList>
+                     <bibl sameas="recordid_670610 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 40</biblScope>
+                        <biblScope unit="issue">Nr. 94</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1899-04-06">06.04.1899</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Aufführung im Tonkünstlerverein unter Mitwirkung von Josephine v. Statzer und der Herren C. Prohaska, A. Ruzicka, M. Violin und A. v. [Zemlinsky]; Werke von Brahms: "Violoncell-Sonate E-moll, Lieder mit Bratsche- und Clavierbegleitung, Sonate für zwei Pianoforte F-moll")</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 40, Nr. 94, 06.04.1899, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18990406&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1874-02-27">27.02.1874</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0062">Door, Anton</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0201">Popper, David</persName>
+                  <biblList>
+                     <bibl sameas="recordid_666679 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 27</biblScope>
+                        <biblScope unit="issue">Nr. 52</biblScope>
+                        <biblScope unit="page">S. 9</biblScope>
+                        <imprint>
+                           <date isodate="1874-02-22">22.02.1874</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. der drei Triosoiréen von Anton Door, Hr. Popper und Konzertmeister Wirth; "Novität")</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 27, Nr. 52, 22.02.1874, S. 9</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18740222&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666684 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 27</biblScope>
+                        <biblScope unit="issue">Nr. 63</biblScope>
+                        <biblScope unit="page">S. 3</biblScope>
+                        <imprint>
+                           <date isodate="1874-03-05">05.03.1874</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Triosoirée von Anton Door, Hr. Popper und Emanuel Wirth)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 27, Nr. 63, 05.03.1874, S. 3</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18740305&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666711 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 27</biblScope>
+                        <biblScope unit="issue">Nr. 86</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1874-03-28">28.03.1874</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(1. Triosoirée von Anton Door mit den Herren Popper und Wirth; Erwähnung im Rahmen einer Rezension der 3. Triosoirée am 13.03.1874, wo Brahms' op. 38 ein weiteres Mal zur Aufführung gelangte; Datum gemäß Die Presse, Local-Anzeiger, 22.02.1874, S. 9)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 27, Nr. 86, 28.03.1874, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18740328&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0062">Door, Anton</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0201">Popper, David</persName>
+                  <date isodate="1874-03-13">13.03.1874</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_666686 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 27</biblScope>
+                        <biblScope unit="issue">Nr. 70</biblScope>
+                        <biblScope unit="page">S. 9</biblScope>
+                        <imprint>
+                           <date isodate="1874-03-12">12.03.1874</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(3. Triosoirée der Herren Door, Wirth und Popper; u.a. werde "die in der ersten Soirée mit so großem Beifall aufgenommene Cello-Sonate von Brahms wiederholt.")</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 27, Nr. 70, 12.03.1874, S. 9</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18740312&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666710 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 27</biblScope>
+                        <biblScope unit="issue">Nr. 86</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1874-03-28">28.03.1874</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Letzte Triosoirée von Anton Door; statt der angekündigten Cello-Sonate op. 32 von Saint-Saëns "die bereits in der ersten Soirée vorgeführte" von J. Brahms; Datum wurde korrigiert, da sich die Angabe "am Abend darauf" auf den mit 19.03.1874 um eine Woche falsch datierten Hellmesberger-Quartettabend bezieht; Korrektur gemäß <bibl type="bibl" target="#Quartett_Hellmesberger">Quartett Hellmesberger, Programme</bibl>, S. 84)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 27, Nr. 86, 28.03.1874, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18740328&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0286">Ziffer, Josefine</persName>
+                  <persName type="Violoncellist_in" corresp="#">Prehn, Ludwig</persName>
+                  <date isodate="1879-11-19">19.11.1879</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_667133 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 32</biblScope>
+                        <biblScope unit="issue">Nr. 327</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1879-11-29">29.11.1879</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert des Cellisten Herrn Prehn; Datum erschlossen aus dem Dienstags, 18.11.1879, stattgefundenen Konzert von Marie Pflieger gemäß Die Presse, Local-Anzeiger, 04.11.1879, S. 11, dem "am Mittwoch der Cellist Prehn" folgte)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 32, Nr. 327, 29.11.1879, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18791129&amp;seite=1&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0482">Seemann, Johanna von</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0263">Sulzer, Joseph</persName>
+                  <date isodate="1884-01-12">12.01.1884</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_667429 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 37</biblScope>
+                        <biblScope unit="issue">Nr. 43</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1884-02-13">13.02.1884</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von Josef Sulzer; Datum gemäß Wiener Allgemeine Zeitung, 12.01.1884, S. 10)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 37, Nr. 43, 13.02.1884, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18840213&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0015">Baumayer, Marie</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0421">Hausmann, Robert</persName>
+                  <date isodate="1885-03-04">04.03.1885</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_667581 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 38</biblScope>
+                        <biblScope unit="issue">Nr. 73</biblScope>
+                        <biblScope unit="page">S. [1] f.</biblScope>
+                        <imprint>
+                           <date isodate="1885-03-15">15.03.1885</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Kammermusik-Soirée von Marie Baumayer, Marie Soldat und Robert Hausmann; Datum gemäß NWT, 04.03.1885, S. 6)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 38, Nr. 73, 15.03.1885, S. [1] f.</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18850315&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0015">Baumayer, Marie</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0201">Popper, David</persName>
+                  <date isodate="1886-03-18">18.03.1886</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_667689 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 39</biblScope>
+                        <biblScope unit="issue">Nr. 70</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1886-03-11">11.03.1886</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von David Popper, 19.30 Uhr)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 39, Nr. 70, 11.03.1886, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18860311&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0321">Timoni, Marie von</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0429">Bürger, Sigmund</persName>
+                  <date isodate="1892-08-03">03.08.1892</date>
+                  <geogName role="place">Ischl</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_668466 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 45</biblScope>
+                        <biblScope unit="issue">Nr. 223</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1892-08-12">12.08.1892</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von Prof. S. Bürger)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 223, 12.08.1892, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18920812&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0231">Schenner, Wilhelm</persName>
+                  <corpName type="Streichquartett" corresp="../Brahms-Körperschaftenregister-ID/0014">Hellmesberger-Quartett</corpName>
+                  <!-- i.e. Ferdinand H.?-->
+                  <date isodate="1892-12-15">15.12.1892</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_668512 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 45</biblScope>
+                        <biblScope unit="issue">Nr. 343</biblScope>
+                        <biblScope unit="page">S. 19</biblScope>
+                        <imprint>
+                           <date isodate="1892-12-11">11.12.1892</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(4. Kammermusikabend des Hellmesberger-Quartetts)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 343, 11.12.1892, S. 19</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18921211&amp;seite=19&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0032">Brandeis, Camilla</persName>
+                  <persName type="Violoncellist_in" corresp="../Brahms-Personenregister-ID/0201">Popper, David</persName>
+                  <date isodate="1894-01-08">08.01.1894</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_668718 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 47</biblScope>
+                        <biblScope unit="issue">Nr. 2</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1894-01-03">03.01.1894</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von David Popper)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 47, Nr. 2, 03.01.1894, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940103&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_668734 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 47</biblScope>
+                        <biblScope unit="issue">Nr. 18</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1894-01-20">20.01.1894</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von David Popper; Datum gemäß Die Presse, Local-Anzeiger, 03.01.1894, S. 11)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 47, Nr. 18, 20.01.1894, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940120&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._38"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Klavier und Violoncello</head>
+               <perfResList>
+                  <perfRes>Klavier</perfRes>
+                  <perfRes>Violoncello</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+      </work>
+   </workList>
+</mei>

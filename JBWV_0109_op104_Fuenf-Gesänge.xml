@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Fünf Gesänge</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="109" xml:id="work_op._104">
+         <identifier label="Opus-Nummer">op. 104</identifier>
+         <title>Fünf Gesänge</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <notesStmt/>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0474">Perger, Richard von</persName>
+                  <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0037">Wiener Singverein</corpName>
+                  <date isodate="1899-02-05">05.02.1899</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670593 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 40</biblScope>
+                        <biblScope unit="issue">Nr. 50</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1899-02-19">19.02.1899</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Gesellschaftskonzert; u.a. 4 Chorlieder von Brahms: op. 93a, Nr. 6, WoO 34, Nr. 11, die beide wiederholt wurden, sowie op. 104, Nr. 1 und 3; Datum und Werke gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 314 und Böhm, Geschichte des Singvereines, S. (57) der Beilagen)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 40, Nr. 50, 19.02.1899, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18990219&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._104,Nr.1und3"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date startdate="1888" enddate="1888">März 1888</date>
+                  <geogName role="place">Wien</geogName>
+                  <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <biblList>
+                     <bibl sameas="recordid_667956 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 41</biblScope>
+                        <biblScope unit="issue">Nr. 91</biblScope>
+                        <biblScope unit="page">S. 3</biblScope>
+                        <imprint>
+                           <date isodate="1888-03-31">31.03.1888</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Hausmusik im Salon Arthur Fabers sowie im Haus Theodor Billroths; Kalbeck sei auf zwei Musikabenden gewesen, an denen "zum erstenmale" op. 104, Nr. 1–2 und op. 103 zu hören waren; keine genaue Zuordnung möglich, vgl. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 272)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 41, Nr. 91, 31.03.1888, S. 3</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18880331&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._104,Nr.1und2"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0157">Mandyczewski, Eusebius</persName>
+                  <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0171">Arthur Faber'scher Hausmusik-Verein</corpName>
+                  <date isodate="1889-04-03">03.04.1889</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_668042 " type="Rubrik_2">
+                        <term label="Rubrik_2">Werkkritik</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 42</biblScope>
+                        <biblScope unit="issue">Nr. 100</biblScope>
+                        <biblScope unit="page">S. 2 f.</biblScope>
+                        <imprint>
+                           <date isodate="1889-04-11">11.04.1889</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Musikabend des Wiener Tonkünstlervereins; Wiederholung des Schlusschors; Wiener Erstaufführung, Datum gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 422)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 42, Nr. 100, 11.04.1889, S. 2 f.</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18890411&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#work_op._104"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <expressionList>
+            <expression n="1">
+               <title>Chorfassung</title>
+               <perfMedium>
+                  <perfResList>
+                     <head>Besetzung: gemischter Chor</head>
+                     <perfResList>
+                        <perfRes>gemischter Chor</perfRes>
+                     </perfResList>
+                  </perfResList>
+               </perfMedium>
+            </expression>
+            <expression n="2">
+               <title>Nr. 5: erste Fassung in a-Moll</title>
+            </expression>
+         </expressionList>
+         <componentList>
+            <work n="1" xml:id="component_op._104,Nr.1">
+               <identifier label="Opus-Nummer">op. 104, Nr.1</identifier>
+               <title>Nachtwache I.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._104"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._104,Nr.2">
+               <identifier label="Opus-Nummer">op. 104, Nr.2</identifier>
+               <title>Nachtwache II.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._104"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._104,Nr.3">
+               <identifier label="Opus-Nummer">op. 104, Nr.3</identifier>
+               <title>Letztes Glück.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._104"/>
+               </relationList>
+            </work>
+            <work n="4" xml:id="component_op._104,Nr.4">
+               <identifier label="Opus-Nummer">op. 104, Nr.4</identifier>
+               <title>Verlorene Jugend.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._104"/>
+               </relationList>
+            </work>
+            <work n="5" xml:id="component_op._104,Nr.5">
+               <identifier label="Opus-Nummer">op. 104, Nr.5</identifier>
+               <title>Im Herbst.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._104"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

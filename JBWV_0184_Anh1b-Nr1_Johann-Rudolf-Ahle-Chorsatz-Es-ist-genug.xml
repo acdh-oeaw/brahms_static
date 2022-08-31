@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Johann Rudolf Ahle: Chorsatz Es ist genug</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Anhang</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="184" xml:id="component_Anhang_1b,Nr.1">
+         <identifier label="Anhang-Nummer">Anh. 1b Nr. 1</identifier>
+         <title>Johann Rudolf Ahle: Chorsatz "Es ist genug"</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="#">Johann Rudolf Ahle</persName>
+         </composer>
+         <arranger>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </arranger>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                  <date isodate="1873-12-07">07.12.1873</date>
+                  <geogName role="place">Wien</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669426 recordid_669427 " type="Rubrik_3 Rubrik_10">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 14</biblScope>
+                        <biblScope unit="issue">Nr. 343</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1873-12-16">16.12.1873</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(2. Gesellschaftskonzert; Werke: Schuberts "Fierrabras"-Ouvertüre, Anh. Ib, Nr. 34, 1, 7, 6, 21, 11 und Volkmanns op. 42; Datum gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 135, bzw. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 648)</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Jg. 14, Nr. 343, 16.12.1873, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18731216&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.1"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Hofmann, Chronologie</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666596 recordid_666597 " type="Rubrik_18 Rubrik_100">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <term label="Rubrik_100">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 26</biblScope>
+                        <biblScope unit="issue">Nr. 273</biblScope>
+                        <biblScope unit="page">S. 9</biblScope>
+                        <imprint>
+                           <date isodate="1873-10-04">04.10.1873</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Programm der Gesellschaft der Musikfreunde für die kommende Saison 1873/74; Zuordnung des Datums sowie Leitung gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 305, bzw. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 648)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 26, Nr. 273, 04.10.1873, S. 9</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18731004&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.1"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_666641 recordid_666642 " type="Rubrik_10 Rubrik_3">
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 26</biblScope>
+                        <biblScope unit="issue">Nr. 340</biblScope>
+                        <biblScope unit="page">S. 2</biblScope>
+                        <imprint>
+                           <date isodate="1873-12-13">13.12.1873</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(2. Gesellschaftskonzert; Werke: Robert Volkmanns Konzertstück für Klavier und Orchester, Schuberts Ouvertüre zu "Fierrabras" sowie Anh. Ib, Nr. 1, 6, 7, 11, 21 und 34; vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 648, Datum gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 135)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 26, Nr. 340, 13.12.1873, S. 2</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18731213&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.1"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>vgl. BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669227 recordid_669228 " type="Rubrik_10 Rubrik_3">
+                        <term label="Rubrik_10">Brahms als Dirigent</term>
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Morgen-Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 49</biblScope>
+                        <biblScope unit="issue">Nr. 96</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1896-04-07">07.04.1896</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Erwähnung im Rahmen eines Feuilletons Robert Hirschfelds, in dem er dem 1895 neu bestellten Leiter des Singvereins der GdM, Richard von Perger, als Beispiel für gelungene Programmgestaltung die Saisonen unter der Leitung von J. Brahms entgegenstellt. Datum und Werk gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 648, bzw. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 135)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 96, 07.04.1896, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960407&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1b,Nr.1"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <title>gemäß BrahmsWV</title>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: k.A.</head>
+               <perfResList/>
+            </perfResList>
+         </perfMedium>
+         <notesStmt>
+            <annot label="Brahms_Beitrag">
+               <p>Aufführungsfassung</p>
+            </annot>
+            <annot label="Erläuterung">
+               <p>McCorkle, Brahms-Werkverzeichnis irrtümlich: "Ich habe genug"</p>
+            </annot>
+         </notesStmt>
+         <expressionList/>
+      </work>
+   </workList>
+</mei>

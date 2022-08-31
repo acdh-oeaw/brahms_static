@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Franz Schubert: Messe Es-Dur D 950</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Anhang</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="183">
+         <identifier label="Anhang-Nummer">Anh. 1a Nr. 18</identifier>
+         <title>Franz Schubert: Messe Es-Dur D 950</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="#">Franz Schubert</persName>
+         </composer>
+         <contributor>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </contributor>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Klavierauszug</head>
+               <perfResList>
+                  <perfRes>Klavierauszug</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt>
+            <annot label="Brahms_Beitrag">
+               <p>Bearbeitung</p>
+            </annot>
+         </notesStmt>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="work_anh1a,18-1">
+               <identifier label="Opus-Nummer">Anh. 1a, 18,1</identifier>
+               <title>Kyrie</title>
+            </work>
+            <work n="2" xml:id="work_anh1a,18-2">
+               <identifier label="Opus-Nummer">Anh. 1a, 18,2</identifier>
+               <title>Gloria</title>
+            </work>
+            <work n="3" xml:id="work_anh1a,18-3">
+               <identifier label="Opus-Nummer">Anh. 1a, 18,3</identifier>
+               <title>Credo</title>
+            </work>
+            <work n="4" xml:id="work_anh1a,18-4">
+               <identifier label="Opus-Nummer">Anh. 1a, 18,4</identifier>
+               <title>Sanctus</title>
+            </work>
+            <work n="5" xml:id="work_anh1a,18-5">
+               <identifier label="Opus-Nummer">Anh. 1a, 18,5</identifier>
+               <title>Benedictus</title>
+            </work>
+            <work n="6" xml:id="work_anh1a,18-6">
+               <identifier label="Opus-Nummer">Anh. 1a, 10,6</identifier>
+               <title>Agnus Dei</title>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

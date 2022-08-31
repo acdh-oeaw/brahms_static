@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Franz Schubert: Memnon op. 6 Nr. 1 D 541</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Anhang</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="178" xml:id="component_Anhang_1a,Nr.13">
+         <identifier label="Anhang-Nummer">Anh. 1a Nr. 13</identifier>
+         <title>Franz Schubert: Memnon op. 6 Nr. 1 D 541</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="#">Franz Schubert</persName>
+         </composer>
+         <contributor>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </contributor>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0111">Henschel, Georg</persName>
+                  <date isodate="1880-01-31">31.01.1880</date>
+                  <geogName role="place">London</geogName>
+                  <geogName role="venue">Krystallpalast</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_667147 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 33</biblScope>
+                        <biblScope unit="issue">Nr. 40</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1880-02-10">10.02.1880</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert zu Franz Schuberts Geburtstag; "Orchesterbegleitung von Brahms")</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 33, Nr. 40, 10.02.1880, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18800210&amp;seite=11&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_Anhang_1a,Nr.13"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Singstimme und Orchester</head>
+               <perfResList>
+                  <perfRes>Singstimme</perfRes>
+                  <perfRes>Orchester</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt>
+            <annot label="Brahms_Beitrag">
+               <p>Bearbeitung</p>
+            </annot>
+         </notesStmt>
+         <expressionList/>
+      </work>
+   </workList>
+</mei>
