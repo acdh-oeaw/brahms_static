@@ -1,5 +1,8 @@
 # bin/bash
 
+echo "start setup"
+./script.sh
+
 echo "start ant"
 ant
 

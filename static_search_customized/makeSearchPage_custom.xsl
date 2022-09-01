@@ -379,7 +379,7 @@
                           <xsl:variable name="style" select="'display:inline;width:49.5%;'"/>
 
                           <!--And now create the fieldset and legend-->
-                          <fieldset style="{if(contains($filterName, '006') or contains($filterName, '007')) then($style) else()}" class="ssFieldset fade ssDropdownFilter simpleFilter3" title="{$filterName}" id="{$filterId}">
+                            <fieldset style="{if(contains($filterName, '006') or contains($filterName, '007')) then($style) else()}" class="ssFieldset fade ssDropdownFilter simpleFilter3" title="{replace($filterName, '\d+\s', '')}" id="{$filterId}">
                             <legend style="margin-bottom:-2em;"><xsl:value-of select="$filterName"/></legend>
                               <!--And create a simple text box for the feature.-->
                               <input style="margin-left:18em;" type="text" title="{$filterName}" placeholder="{hcmc:getCaption('ssStartTyping', $captionLang)}" 
