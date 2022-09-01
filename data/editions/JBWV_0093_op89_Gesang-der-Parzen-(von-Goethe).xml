@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Gesang der Parzen (von Goethe)</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="93" xml:id="work_op._89">
+         <identifier label="Opus-Nummer">op. 89</identifier>
+         <title>Gesang der Parzen (von Goethe)</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <notesStmt/>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0211">Richter, Hans</persName>
+                     <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0037">Wiener Singverein</corpName>
+                     <corpName type="Orchester" corresp="../Brahms-Körperschaftenregister-ID/0158">Gesellschaftsorchester</corpName>
+                     <date isodate="1890-02-23">23.02.1890</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669831 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 30</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 269</biblScope>
+                           <biblScope unit="page">S. 4</biblScope>
+                           <imprint>
+                              <date isodate="1889-10-01">01.10.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. Gesellschaftskonzert, 12.30 Uhr; vgl. <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 30, Beiblatt zu Nr. 269, 01.10.1889, S. 4</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18891001&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668054 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 268</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1889-09-29">29.09.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. ordentliches Gesellschaftskonzert, 12.30 Uhr; vgl. <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 42, Nr. 268, 29.09.1889, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18890929&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668057 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 281</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1889-10-12">12.10.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. ordentliches Gesellschaftskonzert; vgl. <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 42, Nr. 281, 12.10.1889, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18891012&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668058 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 282</biblScope>
+                           <biblScope unit="page">S. 9</biblScope>
+                           <imprint>
+                              <date isodate="1889-10-13">13.10.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. ordentliches Gesellschaftskonzert, 12.30 Uhr; vgl. <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 42, Nr. 282, 13.10.1889, S. 9</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18891013&amp;seite=13&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668059 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 285</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1889-10-16">16.10.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. ordentliches Gesellschaftskonzert; vgl. <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 42, Nr. 285, 16.10.1889, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18891016&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668118 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 46</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1890-02-16">16.02.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. Gesellschaftskonzert, 12.30 Uhr; vgl. <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 43, Nr. 46, 16.02.1890, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18900216&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668119 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 46</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1890-02-16">16.02.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. Gesellschaftskonzert, mittags; Werk gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 43, Nr. 46, 16.02.1890, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18900216&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668122 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 49</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1890-02-19">19.02.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. Gesellschaftskonzert, 12.30 Uhr; "Zweite Aufführung"; vgl. <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 43, Nr. 49, 19.02.1890, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18900219&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668130 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 53</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1890-02-23">23.02.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. Gesellschaftskonzert, 12.30 Uhr; "Zweite Aufführung"; vgl. <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 43, Nr. 53, 23.02.1890, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18900223&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668134 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 63</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1890-03-05">05.03.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. Gesellschaftskonzert; Datum gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 43, Nr. 63, 05.03.1890, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18900305&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1901-02-10">10.02.1901</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670752 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 47</biblScope>
+                           <biblScope unit="page">S. 5</biblScope>
+                           <imprint>
+                              <date isodate="1901-02-17">17.02.1901</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Gesellschaftskonzert; Datum gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 315)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 42, Nr. 47, 17.02.1901, S. 5</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19010217&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0479">Gericke, Wilhelm</persName>
+                     <date isodate="1883-02-18">18.02.1883</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667340 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 36</biblScope>
+                           <biblScope unit="issue">Nr. 40</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1883-02-11">11.02.1883</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. Ordentliches Gesellschaftskonzert, 12.30 Uhr; "neu, erste Aufführung", Wiener Erstaufführung, vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 367)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 36, Nr. 40, 11.02.1883, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18830211&amp;seite=15&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667344 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 36</biblScope>
+                           <biblScope unit="issue">Nr. 49</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1883-02-20">20.02.1883</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(3. Gesellschaftskonzert; irrtümlich als "op. 98"; Wiener Erstaufführung, vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 367)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 36, Nr. 49, 20.02.1883, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18830220&amp;seite=11&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667350 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 36</biblScope>
+                           <biblScope unit="issue">Nr. 59</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1883-03-02">02.03.1883</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Gesellschaftskonzert; "Novität"; Wiener Erstaufführung, vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 367; Brahms verzichte mit "strengen, fast herben Compositionsformen wie diese" auf Volkstümlichkeit, doch er gehöre "zum Kunstadel, wandelt unentwegt die durch Pflicht und Beruf vorgezeichnete Bahn und weiß des Beifalles der Massen zu entrathen." Datum gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 309)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 36, Nr. 59, 02.03.1883, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18830302&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. BrahmsWV</title>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667401 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 36</biblScope>
+                           <biblScope unit="issue">Nr. 347</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1883-12-19">19.12.1883</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Erwähnung im Rahmen einer Rezension des 2. Gesellschaftskonzerts und gleichzeitig 25-Jahrjubiläums des Wiener Singvereins; Datum gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 309)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 36, Nr. 347, 19.12.1883, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18831219&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._89"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <expressionList>
+            <expression n="1">
+               <title>Fassung mit Orchester</title>
+               <perfMedium>
+                  <perfResList>
+                     <head>Besetzung: sechstimmiger Chor und Orchester</head>
+                     <perfResList>
+                        <perfRes>sechstimmiger Chor</perfRes>
+                        <perfRes>Orchester</perfRes>
+                     </perfResList>
+                  </perfResList>
+               </perfMedium>
+            </expression>
+            <expression n="2">
+               <title>Klavierauszug</title>
+            </expression>
+         </expressionList>
+      </work>
+   </workList>
+</mei>

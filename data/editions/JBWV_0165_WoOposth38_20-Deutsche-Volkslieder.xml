@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>20 Deutsche Volkslieder</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke ohne Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="165">
+         <identifier label="WoO-Nummer">WoO posth. 38</identifier>
+         <title>20 Deutsche Volkslieder</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: drei- und vierstimmiger Frauenchor</head>
+               <perfResList>
+                  <perfRes>dreistimmiger Frauenchor</perfRes>
+                  <perfRes>vierstimmiger Frauenchor</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="work_wooposth38-1">
+               <identifier label="Opus-Nummer">WoO 38,1</identifier>
+               <title>Die Entführung.</title>
+            </work>
+            <work n="2" xml:id="work_wooposth38-2">
+               <identifier label="Opus-Nummer">WoO 38,2</identifier>
+               <title>Gang zur Liebsten.</title>
+            </work>
+            <work n="3" xml:id="work_wooposth38-3">
+               <identifier label="Opus-Nummer">WoO 38,3</identifier>
+               <title>Schifferlied.</title>
+            </work>
+            <work n="4" xml:id="work_wooposth38-4">
+               <identifier label="Opus-Nummer">WoO 38,4</identifier>
+               <title/>
+            </work>
+            <work n="5" xml:id="work_wooposth38-5">
+               <identifier label="Opus-Nummer">WoO 38,5</identifier>
+               <title>Schnitter Tod.</title>
+            </work>
+            <work n="6" xml:id="work_wooposth38-6">
+               <identifier label="Opus-Nummer">WoO 38,6</identifier>
+               <title>Die Bernauerin.</title>
+            </work>
+            <work n="7" xml:id="work_wooposth38-7">
+               <identifier label="Opus-Nummer">WoO 38,7</identifier>
+               <title>Das Lied vom eifersüchtigen Knaben.</title>
+            </work>
+            <work n="8" xml:id="work_wooposth38-8">
+               <identifier label="Opus-Nummer">WoO 38,8</identifier>
+               <title>Der Baum im Odenwald.</title>
+            </work>
+            <work n="9" xml:id="work_wooposth38-9">
+               <identifier label="Opus-Nummer">WoO 38,9</identifier>
+               <title>Des Markgrafen Töchterlein.</title>
+            </work>
+            <work n="10" xml:id="work_wooposth38-10">
+               <identifier label="Opus-Nummer">WoO 38,10</identifier>
+               <title>Die stolze Jüdin.</title>
+            </work>
+            <work n="11" xml:id="work_wooposth38-11">
+               <identifier label="Opus-Nummer">WoO 38,11</identifier>
+               <title>Der Zimmergesell.</title>
+            </work>
+            <work n="12" xml:id="work_wooposth38-12">
+               <identifier label="Opus-Nummer">WoO 38,12</identifier>
+               <title>Liebeslied.</title>
+            </work>
+            <work n="13" xml:id="work_wooposth38-13a">
+               <identifier label="Opus-Nummer">WoO 38,13a</identifier>
+               <title>Heimliche Liebe.</title>
+            </work>
+            <work n="14" xml:id="work_wooposth38-13b">
+               <identifier label="Opus-Nummer">WoO 38,13b</identifier>
+               <title>Heimliche Liebe.</title>
+            </work>
+            <work n="15" xml:id="work_wooposth38-14">
+               <identifier label="Opus-Nummer">WoO 38,14</identifier>
+               <title>Altes Liebeslied.</title>
+            </work>
+            <work n="16" xml:id="work_wooposth38-15">
+               <identifier label="Opus-Nummer">WoO 38,15</identifier>
+               <title>Dauernde Liebe.</title>
+            </work>
+            <work n="17" xml:id="work_wooposth38-16">
+               <identifier label="Opus-Nummer">WoO 38,16</identifier>
+               <title>Während der Trennung.</title>
+            </work>
+            <work n="18" xml:id="work_wooposth38-17">
+               <identifier label="Opus-Nummer">WoO 38,17</identifier>
+               <title/>
+            </work>
+            <work n="19" xml:id="work_wooposth38-18">
+               <identifier label="Opus-Nummer">WoO 38,18</identifier>
+               <title>Scheiden.</title>
+            </work>
+            <work n="20" xml:id="work_wooposth38-19">
+               <identifier label="Opus-Nummer">WoO 38,19</identifier>
+               <title>Vor dem Fenster.</title>
+            </work>
+            <work n="21" xml:id="work_wooposth38-20">
+               <identifier label="Opus-Nummer">WoO 38,20</identifier>
+               <title>Ständchen.</title>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

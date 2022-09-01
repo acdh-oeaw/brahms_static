@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Vier Gesänge</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="17">
+         <identifier label="Opus-Nummer">op. 17</identifier>
+         <title>Vier Gesänge</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <notesStmt/>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0415">Schmidt, Adolf</persName>
+                     <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0036">Wiener Singakademie</corpName>
+                     <date isodate="1882-12-02">02.12.1882</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669593 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 23</biblScope>
+                           <biblScope unit="issue">Nr. 311</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1882-11-10">10.11.1882</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Vorankündigung zweier Konzerte der Wiener Singakademie in der Saison 1882/83; Werke von J. Brahms gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl>: op. 62, Nr. 2–4, op. 22, Nr. 1, 3–5 und op. 17, Nr. 3 und 4)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 23, Nr. 311, 10.11.1882, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18821110&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.3und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Singakademie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669599 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 23</biblScope>
+                           <biblScope unit="issue">Nr. 327</biblScope>
+                           <biblScope unit="page">S. 5</biblScope>
+                           <imprint>
+                              <date isodate="1882-11-26">26.11.1882</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Wiener Singakademie, 19.30 Uhr; Joseph Labor: Orgel; "neueste, in Wien noch nicht gehörte Orgelfuge von Johann Brahms"; Uraufführung gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 520; weitere Werke von J. Brahms gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl>: op. 62, Nr. 2–4, op. 22, Nr. 1, 3–5, op. 17, Nr. 3 und 4)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 23, Nr. 327, 26.11.1882, S. 5</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18821126&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.3und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <title>gemäß Konzertarchiv der Wiener Singakademie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667310 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 35</biblScope>
+                           <biblScope unit="issue">Nr. 311</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1882-11-10">10.11.1882</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Vorankündigung im Rahmen einer Vorschau auf die Konzerte der Wiener Singakademie der Saison 1882/82; 1. Konzert der Wiener Singakademie; Werke von Brahms gemäß <bibl type="link" target="https://www.wienersingakademie.at/de/konzertarchiv/">Konzertarchiv der Wiener Singakademie</bibl>: op. 17, Nr. 3 und 4, op. 22, Nr. 1, 3–5 und op. 62, Nr. 2–4)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 35, Nr. 311, 10.11.1882, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18821110&amp;seite=10&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.3und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Konzertarchiv der Wiener Singakademie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_667331 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 35</biblScope>
+                           <biblScope unit="issue">Nr. 336</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1882-12-05">05.12.1882</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Konzert der Wiener Singakademie, abends; "in der ersten Abtheilung nur Brahms", namentlich genannt: "Waldesnacht" und "Gesang auf Fingal")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 35, Nr. 336, 05.12.1882, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18821205&amp;seite=10&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.3und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1899-02-16">16.02.1899</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Direktor_in" corresp="../Brahms-Personenregister-ID/0157">Mandyczewski, Eusebius</persName>
+                     <corpName type="Chor" corresp="../Brahms-Körperschaftenregister-ID/0009">Frauenchor der Helene von Hornbostel-Magnus</corpName>
+                     <biblList>
+                        <bibl sameas="recordid_670578 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 40</biblScope>
+                           <biblScope unit="issue">Nr. 35</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1899-02-04">04.02.1899</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Kammermusikkonzert der Pianistin Marie Baumayer im Verein mit Kammervirtuose Richard Mühlfeld unter Mitwirkung des Violoncellovirtuosen Wilhelm Jeral zu Gunsten des Brahms-Denkmalfonds; u.a. "einige der Brahms'schen Canons für Frauenstimmen", welche "zum erstenmale zur Aufführung gelangen" sowie "mehrere Clavierstücke und die Frauenchöre mit Begleitung von Harfe und zwei Hörnern von Brahms.")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 40, Nr. 35, 04.02.1899, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18990204&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._17"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Dirigent_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <date isodate="1863-04-10">10.04.1863</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Salon Streicher</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_666279 recordid_666280 " type="Rubrik_2 Rubrik_10">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <term label="Rubrik_10">Brahms als Dirigent</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 16</biblScope>
+                           <biblScope unit="issue">Nr. 110</biblScope>
+                           <biblScope unit="page">S. [1] f.</biblScope>
+                           <imprint>
+                              <date isodate="1863-04-22">22.04.1863</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Julie Asten; Datum und Werke gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 74 f.; Hanslick erwähnt explizit op. 17, Nr. 2, 3 und 4)</p>
+                              <p label="Weitere_Informationen">(Konzert von Julie Asten; Datum und Werke gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 74 f.)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 16, Nr. 110, 22.04.1863, S. [1] f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18630422&amp;seite=1&amp;zoom=33&amp;query=text%3A%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.1-4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1877-04-17">17.04.1877</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                     <persName type="Harfenist_in" corresp="#">Zamara, Therese</persName>
+                     <persName type="Hornist_in" corresp="#">Lidl, Herr</persName>
+                     <!-- Giuseppe Loibl vom Hornquartett der Hofoper? -->
+                     <persName type="Hornist_in" corresp="#">Helmsky, Joseph</persName>
+                     <corpName type="Musikschule" corresp="../Brahms-Körperschaftenregister-ID/0076">Eleven von Josef Gänsbacher</corpName>
+                     <biblList>
+                        <bibl sameas="recordid_666953 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 30</biblScope>
+                           <biblScope unit="issue">Nr. 106</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1877-04-19">19.04.1877</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von Josef Gänsbacher, abends; zur Verstärkung des Chors wurden Damen geladen; "drei Chöre für Frauenstimmen mit Begleitung von Harfe und zwei Hörnern"; weiteres Werk von J. Brahms: ein Lied gesungen von Marie Widl; Datum vgl. Illustrirtes Musik- und Theater Journal, 25.04.1877, S. 724)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 30, Nr. 106, 19.04.1877, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18770419&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._17"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0479">Gericke, Wilhelm</persName>
+                     <date isodate="1891-01-11">11.01.1891</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_668157 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 274</biblScope>
+                           <biblScope unit="page">S. 16</biblScope>
+                           <imprint>
+                              <date isodate="1890-10-05">05.10.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. ordentliches Konzert der Gesellschaft der Musikfreunde, 12.30 Uhr; u.a. "'Drei Motetten' für Chor [1. Aufführung]"; statt op. 110 gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311: op. 17, Nr. 1, 4)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 43, Nr. 274, 05.10.1890, S. 16</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18901005&amp;seite=16&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.1und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668160 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 280</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1890-10-11">11.10.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. ordentliches Konzert der Gesellschaft der Musikfreunde, 12.30 Uhr; u.a. "'Drei Motetten' für Chor [1. Aufführung]"; statt op. 110 gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311: op. 17, Nr. 1, 4)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 43, Nr. 280, 11.10.1890, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18901011&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.1und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668162 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 281</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1890-10-12">12.10.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. ordentliches Konzert der Gesellschaft der Musikfreunde, 12.30 Uhr; u.a. "'Drei Motetten' für Chor [1. Aufführung]"; statt op. 110 gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311: op. 17, Nr. 1, 4)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 43, Nr. 281, 12.10.1890, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18901012&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.1und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668165 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 284</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1890-10-15">15.10.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. ordentliches Konzert der Gesellschaft der Musikfreunde, 12.30 Uhr; u.a. "'Drei Motetten' für Chor [1. Aufführung]"; statt op. 110 gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311: op. 17, Nr. 1, 4)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 43, Nr. 284, 15.10.1890, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18901015&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.1und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668193 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 354</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1890-12-28">28.12.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Gesellschaftskonzert, 12.30 Uhr; u.a. "Frauenchöre. [op. 17, 1. Aufführung]" von Brahms; vgl. <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 43, Nr. 354, 28.12.1890, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18901228&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.1und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668200 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 44</biblScope>
+                           <biblScope unit="issue">Nr. 23</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1891-01-23">23.01.1891</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Gesellschaftskonzert; Datum gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 311)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 44, Nr. 23, 23.01.1891, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18910123&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.1und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0474">Perger, Richard von</persName>
+                     <date isodate="1896-01-12">12.01.1896</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669048 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 48</biblScope>
+                           <biblScope unit="issue">Nr. 269</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1895-10-01">01.10.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzerte der Gesellschaft der Musikfreunde in Wien der Saison 1895/1896, 12.30 Uhr; u.a. "Frauen-Chöre mit Horn und Harfenbegleitung" von Brahms; Zuordnung zu Datum sowie Werk gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 313)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 48, Nr. 269, 01.10.1895, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18951001&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.1und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669053 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 48</biblScope>
+                           <biblScope unit="issue">Nr. 287</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1895-10-19">19.10.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzerte der Gesellschaft der Musikfreunde in Wien der Saison 1895/1896, 12.30 Uhr; u.a. "Frauen-Chöre mit Horn und Harfenbegleitung" von Brahms; Zuordnung zu Datum sowie Werk gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 313)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 48, Nr. 287, 19.10.1895, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18951019&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.1und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669115 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 48</biblScope>
+                           <biblScope unit="issue">Nr. 357</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1895-12-29">29.12.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Gesellschaftskonzert, 12.30 Uhr; Werke von Brahms: op. 17, Nr. 1 und 4, op. 62, Nr. 4 und 6; vgl. <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 313)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 48, Nr. 357, 29.12.1895, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18951229&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.1und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669124 " type="Rubrik_17">
+                           <term label="Rubrik_17">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 49</biblScope>
+                           <biblScope unit="issue">Nr. 8</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1896-01-09">09.01.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Ordentliches Gesellschaftskonzert, 12.30 Uhr; u.a. mit "vier der schönsten Chöre von Brahms"; Werke gemäß <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 313: op. 17, Nr. 1 und 4, op. 62, Nr. 4 und 6)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 49, Nr. 8, 09.01.1896, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960109&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.1und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_670985 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 49</biblScope>
+                           <biblScope unit="issue">Nr. 9</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1896-01-10">10.01.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Gesellschaftskonzert, 12.30 Uhr; Werke von Brahms: op. 17, Nr. 1 und 4, op. 62, Nr. 4 und 6; vgl. <bibl type="bibl" target="#Perger-Hirschfeld_GdGdM_I">Perger/Hirschfeld, Geschichte der GdM</bibl>, I, S. 313)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 49, Nr. 9, 10.01.1896, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960110&amp;seite=12&amp;zoom=33&amp;query=%22brahm%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr.1und4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Perger/Hirschfeld, Geschichte der GdM</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="musikalische_r_Direktor_in" corresp="../Brahms-Personenregister-ID/0087">Fuchs, Johann Nepomuk</persName>
+                     <corpName type="Musikschule" corresp="../Brahms-Körperschaftenregister-ID/0001">Abiturienten des Konservatoriums der GdM</corpName>
+                     <date isodate="1896-07-04">04.07.1896</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669263 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Morgen-Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 49</biblScope>
+                           <biblScope unit="issue">Nr. 183</biblScope>
+                           <biblScope unit="page">S. 5</biblScope>
+                           <imprint>
+                              <date isodate="1896-07-05">05.07.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Schlussproduktion der Abiturienten des Konservatoriums des Schuljahres 1895/1896; "Zwei Frauenchöre von Brahms [mit Begleitung von Harfen und Hörnern]"; weiteres Werk von J. Brahms: "F-moll-Quintett"; Datum gemäß NWT, 05.07.1896, S. 9)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 183, 05.07.1896, S. 5</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960705&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._17,Nr." cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <expressionList>
+            <expression n="1">
+               <title>Fassung für Frauenchor, Hörner und Harfe</title>
+               <perfMedium>
+                  <perfResList>
+                     <head>Besetzung: Frauenchor, 2 Hörner und Harfe</head>
+                     <perfResList>
+                        <perfRes>Frauenchor</perfRes>
+                        <perfRes>2 Hörner</perfRes>
+                        <perfRes>Harfe</perfRes>
+                     </perfResList>
+                  </perfResList>
+               </perfMedium>
+            </expression>
+            <expression n="2">
+               <title>Nr. 4: Fassung für gemischten Chor und Orchester</title>
+            </expression>
+         </expressionList>
+         <componentList>
+            <work n="1" xml:id="component_op._17,Nr.1">
+               <identifier label="Opus-Nummer">op. 17, Nr.1</identifier>
+               <title>Es tönt ein voller Harfenklang.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._17"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._17,Nr.2">
+               <identifier label="Opus-Nummer">op. 17, Nr.2</identifier>
+               <title>Lied von Shakespeare.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._17"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._17,Nr.3">
+               <identifier label="Opus-Nummer">op. 17, Nr.3</identifier>
+               <title>Der Gärtner.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._17"/>
+               </relationList>
+            </work>
+            <work n="4" xml:id="component_op._17,Nr.4">
+               <identifier label="Opus-Nummer">op. 17, Nr.4</identifier>
+               <title>Gesang aus Fingal.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._17"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

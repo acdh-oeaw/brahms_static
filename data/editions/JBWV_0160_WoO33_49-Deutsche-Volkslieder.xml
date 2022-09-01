@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>49 Deutsche Volkslieder</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke ohne Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="160" xml:id="">
+         <identifier label="WoO-Nummer">WoO 33</identifier>
+         <title>49 Deutsche Volkslieder</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <notesStmt/>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <date isodate="1895-01-19">19.01.1895</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0101">Gärtner, Eduard</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670153 recordid_670154 " type="Rubrik_18 Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 36</biblScope>
+                           <biblScope unit="issue">Nr. 16</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1895-01-16">16.01.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Eduard Gärtner unter Mitwirkung von Mathilde Doublier und Anton Rückauf; u.a. "Brahms, Deutsche Volkslieder"; Uraufführung gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 594)</p>
+                              <p label="Weitere_Informationen">(Liederabend von Eduard Gärtner unter Mitwirkung von Mathilde Doublier und Anton Rückauf; u.a. "Brahms, Deutsche Volkslieder"; Uraufführung von WoO 33, Nr. 3 gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 594, evtl. noch weitere Lieder aus WoO 33)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 36, Nr. 16, 16.01.1895, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18950116&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_WoO_33,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668948 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 48</biblScope>
+                           <biblScope unit="issue">Nr. 16</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1895-01-16">16.01.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Eduard Gärtner unter Mitwirkung von Mathilde Doublier und Anton Rückauf; u.a. "Brahms, deutsche Volkslieder"; Uraufführung bzw. Werk gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 594)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 48, Nr. 16, 16.01.1895, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18950116&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_WoO_33,Nr.3"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1896-01-15">15.01.1896</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="#">Henschel, Lillian</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670219 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 37</biblScope>
+                           <biblScope unit="issue">Nr. 10</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1896-01-11">11.01.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Liederabend von Lillian Henschel, 19.30 Uhr; u.a. 5 "Volkslieder" von J. Brahms: "In stiller Nacht", "Da unten im Thale", "Dort in den Weiden", "Schwesterlein", "Mein Mädel hat einen Rosenmund")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 37, Nr. 10, 11.01.1896, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18960111&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_WoO_33,Nr.6,15,25,31,42"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_669127 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 49</biblScope>
+                           <biblScope unit="issue">Nr. 10</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1896-01-11">11.01.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(2. Liederabend von Lillian Henschel, 19.30 Uhr; u.a. "Volkslieder" von J. Brahms)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 49, Nr. 10, 11.01.1896, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960111&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_WoO_33,Nr.6,15,25,31,42"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1897-04-04">04.04.1897</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="#">Henschel, Lillian</persName>
+                     <persName type="Mitwirkende_r" corresp="../Brahms-Personenregister-ID/0111">Henschel, Georg</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670373 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 38</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 94</biblScope>
+                           <biblScope unit="page">S. III</biblScope>
+                           <imprint>
+                              <date isodate="1897-04-04">04.04.1897</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Abschiedssoirée von Lillian Henschel unter Mitwirkung von Georg Henschel, 19.30 Uhr; u.a. 2 Volkslieder von Brahms: "Schwesterlein", "Mein Mädel hat einen Rosenmund")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 38, Beiblatt zu Nr. 94, 04.04.1897, S. III</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18970404&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_WoO_33,Nr.15und25"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1898-03-19">19.03.1898</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0202">Pregi, Marcella</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670508 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Nr. 75</biblScope>
+                           <biblScope unit="page">S. 4</biblScope>
+                           <imprint>
+                              <date isodate="1898-03-17">17.03.1898</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(4. und letzter Liederabend von Marcella Pregi; u.a. 3 Lieder von Brahms: "An die Nachtigall, Volkslied [Schwesterlied], Der Schmied")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Abendblatt, Jg. 39, Nr. 75, 17.03.1898, S. 4</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18980317&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_WoO_33,Nr.15"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1900-03-12">12.03.1900</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0251">Sistermans, Anton</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670682 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 41</biblScope>
+                           <biblScope unit="issue">Nr. 65</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1900-03-08">08.03.1900</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Brahms-Schumann-Abend von Anton Sistermans; u.a. 13 Lieder von Brahms: "Dämmerung senkte sich von oben, Todessehnen, Sapphische Ode, Sehnsucht, Der Kuß, Feldeinsamkeit, Der Frühling, Vergebliches Ständchen; Volkslieder: Erlaube mir, Die Sonne scheint nicht mehr, Schwesterlein, Mir ist ein schön's braun's Maidelein, ich stand auf hohem Berge")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 41, Nr. 65, 08.03.1900, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19000308&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_WoO_33,Nr.2,5,15,24und27"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date/>
+                     <geogName role="place"/>
+                     <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668834 " type="Rubrik_7">
+                           <term label="Rubrik_7">Anzeigen der Redaktion (Werke)</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 47</biblScope>
+                           <biblScope unit="issue">Nr. 200</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1894-07-23">23.07.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Simrock, Berlin: 49 altdeutsche Volkslieder in 7 Heften; fälschliche Behauptung, Brahms habe "den Sommer dazu benützt" diese Lieder zu bearbeiten, vgl. <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 593)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 47, Nr. 200, 23.07.1894, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940723&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_WoO_33"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668875 recordid_668877 " type="Rubrik_1 Rubrik_7">
+                           <term label="Rubrik_1">Werkkritik</term>
+                           <term label="Rubrik_7">Anzeigen der Redaktion (Werke)</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 47</biblScope>
+                           <biblScope unit="issue">Nr. 319</biblScope>
+                           <biblScope unit="page">S. [1] f.</biblScope>
+                           <imprint>
+                              <date isodate="1894-11-20">20.11.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Robert Hirschfeld über die bei N. Simrock, Berlin in sieben Heften erschienenen "Deutschen Volkslieder".)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 47, Nr. 319, 20.11.1894, S. [1] f.</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18941120&amp;seite=1&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_WoO_33"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0192">Paumgartner, Hans</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0451">Kraus, Felix von</persName>
+                     <date isodate="1894-11-07">07.11.1894</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_668871 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 47</biblScope>
+                           <biblScope unit="issue">Nr. 312</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1894-11-13">13.11.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Felix Kraus; u.a. "deutsche Volkslieder in der Brahms'schen Bearbeitung", mit welcher "der große Meister und große Musikgelehrte uns herzerfreuende Gaben geboten hat"; Uraufführung; Datum und Werk gemäß <bibl type="bibl" target="#BrahmsWV">BrahmsWV</bibl>, S. 594)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 47, Nr. 312, 13.11.1894, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18941113&amp;seite=2&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_WoO_33,Nr.5,13und42"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß BrahmsWV</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0390">Hübner, Minnie</persName>
+                     <date isodate="1895-11-05">05.11.1895</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Kleiner Musikvereinssaal</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669072 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 48</biblScope>
+                           <biblScope unit="issue">Nr. 318</biblScope>
+                           <biblScope unit="page">S. 10</biblScope>
+                           <imprint>
+                              <date isodate="1895-11-19">19.11.1895</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert des Violinisten Karl Wehle; das "reizende 'Kölnische Volkslied'" werde "von unberufenen Sängerinnen leider zu Tode gehetzt. Eine Jede will das 'Ding' haben"; Datum gemäß Die Presse, Local-Anzeiger, 05.11.1895, S. 10)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 48, Nr. 318, 19.11.1895, S. 10</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18951119&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_WoO_33,Nr.33"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <expressionList>
+            <expression n="1">
+               <title>Hauptfassung (Erstausgabe)</title>
+               <perfMedium>
+                  <perfResList>
+                     <head>Besetzung: 1 Singstimme und Klavier (Nr. 1−42), vierstimmiger Chor und Vorsänger (Nr. 43−49)</head>
+                     <perfResList>
+                        <perfRes>1 Singstimme und Klavier (Nr. 1−42)</perfRes>
+                        <perfRes>vierstimmiger Chor und Vorsänger (Nr. 43−49)</perfRes>
+                     </perfResList>
+                  </perfResList>
+               </perfMedium>
+            </expression>
+            <expression n="2">
+               <title>Nr. 32a: Fassung mit anderer Klavierbegleitung</title>
+            </expression>
+         </expressionList>
+         <componentList>
+            <work n="1" xml:id="component_WoO_33,Nr.1">
+               <identifier label="Opus-Nummer">WoO 33, Nr.1</identifier>
+               <title>Sagt mir, o schönste Schäfrin mein.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_WoO_33,Nr.2">
+               <identifier label="Opus-Nummer">WoO 33, Nr.2</identifier>
+               <title>Erlaube mir, feins Mädchen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_WoO_33,Nr.3">
+               <identifier label="Opus-Nummer">WoO 33, Nr.3</identifier>
+               <title>Gar lieblich hat sich gesellet.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="4" xml:id="component_WoO_33,Nr.4">
+               <identifier label="Opus-Nummer">WoO 33, Nr.4</identifier>
+               <title>Guten Abend.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="5" xml:id="component_WoO_33,Nr.5">
+               <identifier label="Opus-Nummer">WoO 33, Nr.5</identifier>
+               <title>Die Sonne scheint nicht mehr.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="6" xml:id="component_WoO_33,Nr.6">
+               <identifier label="Opus-Nummer">WoO 33, Nr.6</identifier>
+               <title>Da unten im Tale.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="7" xml:id="component_WoO_33,Nr.7">
+               <identifier label="Opus-Nummer">WoO 33, Nr.7</identifier>
+               <title>Gunhilde.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="8" xml:id="component_WoO_33,Nr.8">
+               <identifier label="Opus-Nummer">WoO 33, Nr.8</identifier>
+               <title>Ach, englische Schäferin.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="9" xml:id="component_WoO_33,Nr.9">
+               <identifier label="Opus-Nummer">WoO 33, Nr.9</identifier>
+               <title>Es war eine schöne Jüdin.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="10" xml:id="component_WoO_33,Nr.10">
+               <identifier label="Opus-Nummer">WoO 33, Nr.10</identifier>
+               <title>Es ritt ein Ritter.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="11" xml:id="component_WoO_33,Nr.11">
+               <identifier label="Opus-Nummer">WoO 33, Nr.11</identifier>
+               <title>Jungfräulein, soll ich mit euch gehn.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="12" xml:id="component_WoO_33,Nr.12">
+               <identifier label="Opus-Nummer">WoO 33, Nr.12</identifier>
+               <title>Feinsliebchen, du sollst.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="13" xml:id="component_WoO_33,Nr.13">
+               <identifier label="Opus-Nummer">WoO 33, Nr.13</identifier>
+               <title>Wach auf, mein Hort.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="14" xml:id="component_WoO_33,Nr.14">
+               <identifier label="Opus-Nummer">WoO 33, Nr.14</identifier>
+               <title>Maria ging aus wandern.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="15" xml:id="component_WoO_33,Nr.15">
+               <identifier label="Opus-Nummer">WoO 33, Nr.15</identifier>
+               <title>Schwesterlein.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="16" xml:id="component_WoO_33,Nr.16">
+               <identifier label="Opus-Nummer">WoO 33, Nr.16</identifier>
+               <title>Wach auf mein Herzensschöne.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="17" xml:id="component_WoO_33,Nr.17">
+               <identifier label="Opus-Nummer">WoO 33, Nr.17</identifier>
+               <title>Ach Gott, wie weh tut Scheiden.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="18" xml:id="component_WoO_33,Nr.18">
+               <identifier label="Opus-Nummer">WoO 33, Nr.18</identifier>
+               <title>So wünsch ich ihr ein gute Nacht.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="19" xml:id="component_WoO_33,Nr.19">
+               <identifier label="Opus-Nummer">WoO 33, Nr.19</identifier>
+               <title>Nur ein Gesicht auf Erden lebt.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="20" xml:id="component_WoO_33,Nr.20">
+               <identifier label="Opus-Nummer">WoO 33, Nr.20</identifier>
+               <title>Schönster Schatz, mein Engel.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="21" xml:id="component_WoO_33,Nr.21">
+               <identifier label="Opus-Nummer">WoO 33, Nr.21</identifier>
+               <title>Es ging ein Maidlein zarte.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="22" xml:id="component_WoO_33,Nr.22">
+               <identifier label="Opus-Nummer">WoO 33, Nr.22</identifier>
+               <title>Wo gehst du hin, du Stolze?</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="23" xml:id="component_WoO_33,Nr.23">
+               <identifier label="Opus-Nummer">WoO 33, Nr.23</identifier>
+               <title>Der Reiter.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="24" xml:id="component_WoO_33,Nr.24">
+               <identifier label="Opus-Nummer">WoO 33, Nr.24</identifier>
+               <title>Mir ist ein schöns brauns Maidelein.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="25" xml:id="component_WoO_33,Nr.25">
+               <identifier label="Opus-Nummer">WoO 33, Nr.25</identifier>
+               <title>Mein Mädel hat einen Rosenmund.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="26" xml:id="component_WoO_33,Nr.26">
+               <identifier label="Opus-Nummer">WoO 33, Nr.26</identifier>
+               <title>Ach könnt ich diesen Abend.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="27" xml:id="component_WoO_33,Nr.27">
+               <identifier label="Opus-Nummer">WoO 33, Nr.27</identifier>
+               <title>Ich stand auf hohem Berge.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="28" xml:id="component_WoO_33,Nr.28">
+               <identifier label="Opus-Nummer">WoO 33, Nr.28</identifier>
+               <title>Es reit ein Herr und auch sein Knecht.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="29" xml:id="component_WoO_33,Nr.29">
+               <identifier label="Opus-Nummer">WoO 33, Nr.29</identifier>
+               <title>Es war ein Markgraf überm Rhein.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="30" xml:id="component_WoO_33,Nr.30">
+               <identifier label="Opus-Nummer">WoO 33, Nr.30</identifier>
+               <title>All mein Gedanken.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="31" xml:id="component_WoO_33,Nr.31">
+               <identifier label="Opus-Nummer">WoO 33, Nr.31</identifier>
+               <title>Dort in den Weiden steht ein Haus.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="32" xml:id="component_WoO_33,Nr.32">
+               <identifier label="Opus-Nummer">WoO 33, Nr.32</identifier>
+               <title>So will ich frisch und fröhlich sein.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="33" xml:id="component_WoO_33,Nr.33">
+               <identifier label="Opus-Nummer">WoO 33, Nr.33</identifier>
+               <title>Och Moder, ich well en Ding han.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="34" xml:id="component_WoO_33,Nr.34">
+               <identifier label="Opus-Nummer">WoO 33, Nr.34</identifier>
+               <title>We kumm ich dann de Pooz erenn?</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="35" xml:id="component_WoO_33,Nr.35">
+               <identifier label="Opus-Nummer">WoO 33, Nr.35</identifier>
+               <title>Soll sich der Mond nicht heller scheinen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="36" xml:id="component_WoO_33,Nr.36">
+               <identifier label="Opus-Nummer">WoO 33, Nr.36</identifier>
+               <title>Es wohnet ein Fiedler.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="37" xml:id="component_WoO_33,Nr.37">
+               <identifier label="Opus-Nummer">WoO 33, Nr.37</identifier>
+               <title>Du mein einzig Licht.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="38" xml:id="component_WoO_33,Nr.38">
+               <identifier label="Opus-Nummer">WoO 33, Nr.38</identifier>
+               <title>Des Abends kann ich nicht schlafen gehn.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="39" xml:id="component_WoO_33,Nr.39">
+               <identifier label="Opus-Nummer">WoO 33, Nr.39</identifier>
+               <title>Schöner Augen schöne Strahlen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="40" xml:id="component_WoO_33,Nr.40">
+               <identifier label="Opus-Nummer">WoO 33, Nr.40</identifier>
+               <title>Ich weiß mir'n Maidlein.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="41" xml:id="component_WoO_33,Nr.41">
+               <identifier label="Opus-Nummer">WoO 33, Nr.41</identifier>
+               <title>Es steht ein Lind.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="42" xml:id="component_WoO_33,Nr.42">
+               <identifier label="Opus-Nummer">WoO 33, Nr.42</identifier>
+               <title>In stiller Nacht.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="43" xml:id="component_WoO_33,Nr.43">
+               <identifier label="Opus-Nummer">WoO 33, Nr.43</identifier>
+               <title>Es stunden drei Rosen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="44" xml:id="component_WoO_33,Nr.44">
+               <identifier label="Opus-Nummer">WoO 33, Nr.44</identifier>
+               <title>Dem Himmel will ich klagen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="45" xml:id="component_WoO_33,Nr.45">
+               <identifier label="Opus-Nummer">WoO 33, Nr.45</identifier>
+               <title>Es saß ein schneeweiß Vögelein.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="46" xml:id="component_WoO_33,Nr.46">
+               <identifier label="Opus-Nummer">WoO 33, Nr.46</identifier>
+               <title>Es war einmal ein Zimmergesell.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="47" xml:id="component_WoO_33,Nr.47">
+               <identifier label="Opus-Nummer">WoO 33, Nr.47</identifier>
+               <title>Es ging sich unsre Fraue.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="48" xml:id="component_WoO_33,Nr.48">
+               <identifier label="Opus-Nummer">WoO 33, Nr.48</identifier>
+               <title>Nachtigall, sag.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+            <work n="49" xml:id="component_WoO_33,Nr.49">
+               <identifier label="Opus-Nummer">WoO 33, Nr.49</identifier>
+               <title>Verstohlen geht der Mond auf.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_WoO_33"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Neun Lieder und Gesänge</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="73" xml:id="work_op._69">
+         <identifier label="Opus-Nummer">op. 69</identifier>
+         <title>Neun Lieder und Gesänge</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0004">Aussenegg, Marie</persName>
+                     <date isodate="1878-12-12">12.12.1878</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Saal der "Wiener Ressource"</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_669525 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 19</biblScope>
+                           <biblScope unit="issue">Nr. 340</biblScope>
+                           <biblScope unit="page">S. [3]</biblScope>
+                           <imprint>
+                              <date isodate="1878-12-11">11.12.1878</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert, 19.30 Uhr; u.a. 2 Werke von Brahms: "Tambourliedchen" und "Parole")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 19, Nr. 340, 11.12.1878, S. [3]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18781211&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._69,Nr.5"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1886-11-25">25.11.1886</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="#">Rusca, Henriette</persName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0217">Rottenberg, Ludwig</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669697 recordid_669698 " type="Rubrik_18 Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 27</biblScope>
+                           <biblScope unit="issue">Nr. 321</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1886-11-21">21.11.1886</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Geigenvirtuosin Teresina Tua, 19.30 Uhr; u.a. Werke von "Brahm's, Versunken, Klage, des Liebsten Schwur")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 27, Nr. 321, 21.11.1886, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18861121&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._69,Nr.1und/oder2"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1892-04-05">05.04.1892</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0007">Barbi, Alice</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669955 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 33</biblScope>
+                           <biblScope unit="issue">Nr. 96</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1892-04-05">05.04.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Kammersängerin Alice Barbi; u.a. 6 Lieder von Brahms: "Von ewiger Liebe", "Am jüngsten Tag", "Der Tod, das ist die kühle Nacht", "Vor dem Fenster", "Immer leiser wird mein Schlummer", "Ei schmollte mein Vater")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 33, Nr. 96, 05.04.1892, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18920405&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._69,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668434 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 45</biblScope>
+                           <biblScope unit="issue">Nr. 96</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1892-04-05">05.04.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Kammersängerin Alice Barbi; u.a. 6 Lieder von Brahms: "Von ewiger Liebe", "Am jüngsten Tag", "Der Tod das ist die kühle Nacht", "Vor dem Fenster", "Immer leiser wird mein Schlummer", "Ei schmollte mein Vater")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 45, Nr. 96, 05.04.1892, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18920405&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._69,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1892-05-27">27.05.1892</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Vortragssaal der Internationalen Theater- und Musikausstellung</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0007">Barbi, Alice</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669968 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 33</biblScope>
+                           <biblScope unit="issue">Nr. 146</biblScope>
+                           <biblScope unit="page">S. 4</biblScope>
+                           <imprint>
+                              <date isodate="1892-05-26">26.05.1892</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert der Kammersängerin Alice Barbi im Rahmen der Internationalen Theater- und Musikausstellung, 20.00 Uhr; u.a. 2 Lieder von Brahms: "Der Liebsten Schwur" und "Immer leiser wird mein Schlummer")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 33, Nr. 146, 26.05.1892, S. 4</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18920526&amp;seite=4&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._69,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0154">Liebling, Georg</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0007">Barbi, Alice</persName>
+                     <date isodate="1893-12-13">13.12.1893</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670053 " type="Rubrik_3">
+                           <term label="Rubrik_3">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 34</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 344</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-13">13.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Kammersängerin Alice Barbi; u.a. Lieder von Brahms: "Treue Liebe", "Der Liebsten Schwur", "Mainacht", "Die Nachtigall", "Aus den Magelonen-Liedern, "Wehe, so willst du mich wieder, hemmende Fessel, umfangen")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 34, Beiblatt zu Nr. 344, 13.12.1893, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18931213&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._69,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668683 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 344</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-13">13.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend der Kammersängerin Alice Barbi; u.a. von Brahms: "Treue Liebe", "Der Liebsten Schwur", "Mainacht", "Die Nachtigall", "Aus den Magellonen-Liedern", "Wehe, so willst Du mich wieder, hemmende Fessel, umfangen")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 344, 13.12.1893, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931213&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._69,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668692 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 347</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-16">16.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(1. Abschiedskonzert von Alice Barbi; die Künstlerin habe sich "die schwierigsten Brahms-Lieder" zum Vortrag gewählt: "Des Liebsten Schwur", "Mainacht", "Wehe, so willst du mich wieder, hemmende Fessel, umfangen" sowie als Zugabe das "Vergebliche Ständchen"; Datum gemäß Die Presse, Local-Anzeiger, 13.12.1893, S. 15)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 347, 16.12.1893, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931216&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._69,Nr.4"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0424">Neuda-Bernstein, Rosa</persName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0012">Basch-Mahler, Fanny</persName>
+                     <date isodate="1898-02-05">05.02.1898</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670470 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 39</biblScope>
+                           <biblScope unit="issue">Beiblatt zu Nr. 15</biblScope>
+                           <biblScope unit="page">S. I</biblScope>
+                           <imprint>
+                              <date isodate="1898-01-16">16.01.1898</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Brahms-Abend der Damen Neuda-Bernstein und Basch-Mahler; Werke: op. 3, Nr. 1, op. 71, Nr. 3, op. 69, Nr. 9, op. 91, Nr. 1 und 2, op. 33, Nr. 6 und 9 sowie op. 120 und op. 24)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 39, Beiblatt zu Nr. 15, 16.01.1898, S. I</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18980116&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._69,Nr.9"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date/>
+                     <geogName role="place"/>
+                     <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <biblList>
+                        <bibl sameas="recordid_669193 " type="Rubrik_4">
+                           <term label="Rubrik_4">Werkerwähnung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Morgen-Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 49</biblScope>
+                           <biblScope unit="issue">Nr. 95</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1896-04-05">05.04.1896</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Erwähnung im Rahmen eines humoristischen Rückblicks auf die Saison 1895/96 von Robert Hirschfeld unter dem Titel "Mein Lied. Classische Stoßseufzer eines Musikreferenten" als Anmerkung zu einem ersten Liederabend: "Ruft die Mutter".)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Morgen-Presse, Jg. 49, Nr. 95, 05.04.1896, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960405&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._69,Nr.9"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: 1 Singstimme und Klavier</head>
+               <perfResList>
+                  <perfRes>1 Singstimme</perfRes>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="component_op._69,Nr.1">
+               <identifier label="Opus-Nummer">op. 69, Nr.1</identifier>
+               <title>Klage.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._69"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._69,Nr.2">
+               <identifier label="Opus-Nummer">op. 69, Nr.2</identifier>
+               <title>Klage II.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._69"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._69,Nr.3">
+               <identifier label="Opus-Nummer">op. 69, Nr.3</identifier>
+               <title>Abschied.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._69"/>
+               </relationList>
+            </work>
+            <work n="4" xml:id="component_op._69,Nr.4">
+               <identifier label="Opus-Nummer">op. 69, Nr.4</identifier>
+               <title>Des Liebsten Schwur.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._69"/>
+               </relationList>
+            </work>
+            <work n="5" xml:id="component_op._69,Nr.5">
+               <identifier label="Opus-Nummer">op. 69, Nr.5</identifier>
+               <title>Tambourliedchen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._69"/>
+               </relationList>
+            </work>
+            <work n="6" xml:id="component_op._69,Nr.6">
+               <identifier label="Opus-Nummer">op. 69, Nr.6</identifier>
+               <title>Vom Strande.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._69"/>
+               </relationList>
+            </work>
+            <work n="7" xml:id="component_op._69,Nr.7">
+               <identifier label="Opus-Nummer">op. 69, Nr.7</identifier>
+               <title>Über die See.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._69"/>
+               </relationList>
+            </work>
+            <work n="8" xml:id="component_op._69,Nr.8">
+               <identifier label="Opus-Nummer">op. 69, Nr.8</identifier>
+               <title>Salome.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._69"/>
+               </relationList>
+            </work>
+            <work n="9" xml:id="component_op._69,Nr.9">
+               <identifier label="Opus-Nummer">op. 69, Nr.9</identifier>
+               <title>Mädchenfluch.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._69"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

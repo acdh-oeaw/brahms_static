@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1http://www.music-encoding.org/ns/mei.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
            <titleStmt>
@@ -17,6 +17,22 @@
         <body>
            <p>Some text here.</p>
         </body>
+       <back>
+          <div type="quotes">
+             <head>Zitate der Woche</head>
+             <!-- Zitat für KW 01 -->
+             <cit n="01">
+                <quote>Lorem ipsum ....</quote>
+                <!-- wenn gewünscht: Quellenangabe in <bibl> -->
+                <bibl>Quellenangabe</bibl>
+             </cit>
+             
+             <cit n="02">
+                <quote></quote>
+             </cit>
+             
+          </div>
+       </back>
     </text>
   </TEI>
   

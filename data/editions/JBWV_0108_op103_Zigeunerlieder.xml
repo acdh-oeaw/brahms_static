@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Zigeunerlieder</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="108" xml:id="work_op._103">
+         <identifier label="Opus-Nummer">op. 103</identifier>
+         <title>Zigeunerlieder</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <notesStmt/>
+         <history>
+               <eventList type="performances">
+                  <event>
+                     <date isodate="1900-04-03">03.04.1900</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Festsaal des Kaufmännischen Vereins</geogName>
+                     <persName type="Sänger_in" corresp="#">Gutmann, Melanie</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0258">Statzer, Josephine von</persName>
+                     <persName type="Sänger_in" corresp="#">Soeser, Ferdinand</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0369">Musch, Carl</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670713 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 41</biblScope>
+                           <biblScope unit="issue">Nr. 91</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1900-04-03">03.04.1900</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Vorankündigung, Gedenkfeier des Wiener Tonkünstlervereins für Johannes Brahms, 20.00 Uhr; Programm: Einleitende Worte R. Heubergers, op. 8, 2. Fassung, op. 103, op. 118, Nr. 6, op. 35, 2. Heft sowie drei Nummern aus op. 44)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 41, Nr. 91, 03.04.1900, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19000403&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._103"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1901-02-12">12.02.1901</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0166">Gmeiner, Lula</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670753 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author>M. v. K.</author>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 47</biblScope>
+                           <biblScope unit="page">S. 5</biblScope>
+                           <imprint>
+                              <date isodate="1901-02-17">17.02.1901</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend von Lula Gmeiner; die "frische, fröhliche, ursprüngliche Art" der Künstlerin zu singen, mache sie "zum Vortrage von volksthümlichen Liedern sehr geeignet, wie Brahms' Zigeunerlieder es sind, die freilich im originalen Vocalquartettsatz noch lustiger klingen"; Datum und Werke gemäß NWT, 25.01.1901, S. 7; Verfasser: M. v. K.)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 42, Nr. 47, 17.02.1901, S. 5</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19010217&amp;seite=5&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._103,Nr.1-7und11(eineSingst.+Kl.)"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0060">Dobner, Fräulein</persName>
+                     <persName type="Sänger_in" corresp="#">Kunz, Hermine</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0046">Claus-Neuroth, Lilly</persName>
+                     <date isodate="1901-08-15">15.08.1901</date>
+                     <geogName role="place">Scheibbs</geogName>
+                     <geogName role="venue">Festhalle</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_670781 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Abendblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 227</biblScope>
+                           <biblScope unit="page">S. 2</biblScope>
+                           <imprint>
+                              <date isodate="1901-08-20">20.08.1901</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Außerkirchliche Musikaufführung des Kirchenmusikvereins von Scheibbs; u.a. habe "auch der schalkhafte Humor" in dem Programm Platz gefunden "in den Zigeunerliedern von Brahms")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Abendblatt, Jg. 42, Nr. 227, 20.08.1901, S. 2</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19010820&amp;seite=10&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._103,Nr.oderop.112,op.3-6" cert="unknown"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1902-02-22">22.02.1902</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Sänger_in" corresp="#">Koenen, Tilly</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670819 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 51</biblScope>
+                           <biblScope unit="page">S. 7</biblScope>
+                           <imprint>
+                              <date isodate="1902-02-21">21.02.1902</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Abschiedskonzert von Tilly Koenen; u.a. "Brahms, Zigeunerlieder [ein Cyklus von acht Gesängen]")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 43, Nr. 51, 21.02.1902, S. 7</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19020221&amp;seite=7&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._103,Nr.1-7,11(eineSingst.+Kl.)"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1902-03-19">19.03.1902</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Saal Bösendorfer</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0166">Gmeiner, Lula</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670833 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Vaterland</title>
+                           <title level="j">Morgenblatt</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 43</biblScope>
+                           <biblScope unit="issue">Nr. 69</biblScope>
+                           <biblScope unit="page">S. 6</biblScope>
+                           <imprint>
+                              <date isodate="1902-03-11">11.03.1902</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(4. und letzter Liederabend von Lula Gmeiner, 19.30 Uhr; "Zigeunerlieder-Cyclus")</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 43, Nr. 69, 11.03.1902, S. 6</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=19020311&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#component_op._103,Nr.1-7,11(eineSingst.+Kl.)"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date/>
+                     <geogName role="place"/>
+                     <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <biblList>
+                        <bibl sameas="recordid_670913 " type="Rubrik_4">
+                           <term label="Rubrik_4">Werkerwähnung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author>i.</author>
+                           <title level="j">Vaterland</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 31</biblScope>
+                           <biblScope unit="issue">Nr. 81</biblScope>
+                           <biblScope unit="page">S. [1]</biblScope>
+                           <imprint>
+                              <date isodate="1890-03-23">23.03.1890</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Eduard Hanslick habe die Worte, dass diese Melodie "vom Himmel gefallen" sei aus dem Lenz'schen Beethovenkatalog "nicht mit sonderlichem Glück in einem seiner stylistisch so fesselnd und unterhaltend geschriebenen Feuilletons auf die 'Zigeuner-Lieder' von Brahms aus allzu hitzigem Diensteifer angewendet". Erwähnung im Rahmen eines Feuilletons über Liszts Dante-Symphonie. Verfasser: i.)</p>
+                              <p label="Vollständiger_Nachweis">Vaterland, Jg. 31, Nr. 81, 23.03.1890, S. [1]</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18900323&amp;seite=3&amp;zoom=39&amp;query=%22brahm%27s%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._103"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date startdate="1888" enddate="1888">März 1888</date>
+                     <geogName role="place">Wien</geogName>
+                     <persName type="Komponist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <biblList>
+                        <bibl sameas="recordid_667955 " type="Rubrik_2">
+                           <term label="Rubrik_2">Werkkritik</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 41</biblScope>
+                           <biblScope unit="issue">Nr. 91</biblScope>
+                           <biblScope unit="page">S. 3</biblScope>
+                           <imprint>
+                              <date isodate="1888-03-31">31.03.1888</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Hausmusik im Salon Arthur Fabers sowie im Haus Theodor Billroths; Kalbeck sei auf zwei Musikabenden gewesen, an denen "zum erstenmale" op. 104, Nr. 1–2 und op. 103 zu hören waren; keine genaue Zuordnung möglich, vgl. <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 272)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Jg. 41, Nr. 91, 31.03.1888, S. 3</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18880331&amp;seite=3&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._103"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>vgl. Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0091">Gomperz-Bettelheim, Caroline</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0391">Walter, Minna</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0457">Walter, Gustav</persName>
+                     <persName type="Sänger_in" corresp="#">Nigg, Hermann</persName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0031">Brahms, Johannes</persName>
+                     <date isodate="1888-04-23">23.04.1888</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667958 recordid_667959 " type="Rubrik_18 Rubrik_90">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <term label="Rubrik_90">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 41</biblScope>
+                           <biblScope unit="issue">Nr. 112</biblScope>
+                           <biblScope unit="page">S. 20</biblScope>
+                           <imprint>
+                              <date isodate="1888-04-22">22.04.1888</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Musikabend des Wiener Tonkünstlervereins; "Manuscript", gemäß <bibl type="bibl" target="#HofmannChronologie">Hofmann, Chronologie</bibl>, S. 273; Uraufführung ?, nicht verzeichnet in BrahmsWV, S. 419)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 41, Nr. 112, 22.04.1888, S. 20</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18880422&amp;seite=20&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._103"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <title>gemäß Hofmann, Chronologie</title>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0091">Gomperz-Bettelheim, Caroline</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0391">Walter, Minna</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0457">Walter, Gustav</persName>
+                     <persName type="Sänger_in" corresp="#">Nigg, Hermann</persName>
+                     <date isodate="1889-01-18">18.01.1889</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_667995 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 13</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1889-01-13">13.01.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Liederabend des Kammersängers Gustav Walter; "zum erstenmale")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 42, Nr. 13, 13.01.1889, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18890113&amp;seite=15&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._103"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1889-02-21">21.02.1889</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0457">Walter, Gustav</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668006 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 29</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1889-01-29">29.01.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Populäres Konzert des Kammersängers Gustav Walter; es würden u.a. "auf vielseitiges Verlangen die Zigeunerlieder von Brahms nochmals zum Vortrage gelangen")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 42, Nr. 29, 29.01.1889, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18890129&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._103"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <date isodate="1889-03-15">15.03.1889</date>
+                     <geogName role="place">Wien</geogName>
+                     <geogName role="venue">Großer Musikvereinssaal</geogName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0332">Walter, Gisela</persName>
+                     <persName type="Sänger_in" corresp="#">Wiedermann, Elise</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0457">Walter, Gustav</persName>
+                     <persName type="Sänger_in" corresp="#">Weiglein, Ludwig</persName>
+                     <biblList>
+                        <bibl sameas="recordid_668026 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 42</biblScope>
+                           <biblScope unit="issue">Nr. 71</biblScope>
+                           <biblScope unit="page">S. 11</biblScope>
+                           <imprint>
+                              <date isodate="1889-03-12">12.03.1889</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Populäres Konzert des Kammersängers Gustav Walter; "zweite Aufführung"; weiteres Werk von J. Brahms: op. 79, Nr. 2)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 42, Nr. 71, 12.03.1889, S. 11</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18890312&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._103"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+                  <event>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0471">Mader, Raoul</persName>
+                     <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0436">Grünfeld, Sigmund</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0404">Mark, Paula</persName>
+                     <persName type="Sänger_in" corresp="#">Kaulich, Louise</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0092">Grengg, Carl</persName>
+                     <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0234">Schittenhelm, Anton</persName>
+                     <date isodate="1894-01-06">06.01.1894</date>
+                     <geogName role="place">Wien</geogName>
+                     <biblList>
+                        <bibl sameas="recordid_668717 " type="Rubrik_18">
+                           <term label="Rubrik_18">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 46</biblScope>
+                           <biblScope unit="issue">Nr. 360</biblScope>
+                           <biblScope unit="page">S. 15</biblScope>
+                           <imprint>
+                              <date isodate="1893-12-31">31.12.1893</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert zum Vorteil des Pensionsfonds des Hofoperntheaters, 13.30 Uhr; weiteres Werk von J. Brahms: "Trennung")</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 46, Nr. 360, 31.12.1893, S. 15</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18931231&amp;seite=9&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._103"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                        <bibl sameas="recordid_668719 " type="Rubrik_80">
+                           <term label="Rubrik_80">Vorankündigung</term>
+                           <genre>article</genre>
+                           <genre>newspaper</genre>
+                           <author/>
+                           <title level="j">Presse</title>
+                           <title level="j">Local-Anzeiger</title>
+                           <editor/>
+                           <biblScope unit="vol">Jg. 47</biblScope>
+                           <biblScope unit="issue">Nr. 5</biblScope>
+                           <biblScope unit="page">S. 12</biblScope>
+                           <imprint>
+                              <date isodate="1894-01-06">06.01.1894</date>
+                              <pubPlace/>
+                              <publisher/>
+                           </imprint>
+                           <annot>
+                              <p label="Weitere_Informationen">(Konzert von dem Solo-Gesangspersonal des k. k. Hofoperntheaters unter gefälliger Mitwirkung der Violinvirtuosin Rosa Hochmann zu Gunsten des Pensionsinstituts des Hoftheaters)</p>
+                              <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 47, Nr. 5, 06.01.1894, S. 12</p>
+                           </annot>
+                           <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18940106&amp;seite=12&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                           <relationList>
+                              <relation rel="isRealizationOf" target="#work_op._103"/>
+                           </relationList>
+                           <relatedItem rel="host">
+                              <bibl>
+                                 <biblScope/>
+                              </bibl>
+                           </relatedItem>
+                        </bibl>
+                     </biblList>
+                  </event>
+               </eventList>
+            </history>
+         <expressionList>
+            <expression n="1">
+               <title>Fassung für 4 Singstimmen, Klavier</title>
+               <perfMedium>
+                  <perfResList>
+                     <head>Besetzung: 4 Singstimmen und Klavier</head>
+                     <perfResList>
+                        <perfRes>4 Singstimmen</perfRes>
+                        <perfRes>Klavier</perfRes>
+                     </perfResList>
+                  </perfResList>
+               </perfMedium>
+            </expression>
+            <expression n="2" xml:id="component_op._103,Nr.1-7und11(eineSingst.+Kl.)">
+               <title>Nr. 1−7, 11: Fassung für 1 Singstimme und Klavier</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._103"/>
+               </relationList>
+            </expression>
+         </expressionList>
+         <componentList>
+            <work n="1" xml:id="component_op._103,Nr.1">
+               <identifier label="Opus-Nummer">op. 103, Nr.1</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._103"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._103,Nr.2">
+               <identifier label="Opus-Nummer">op. 103, Nr.2</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._103"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._103,Nr.3">
+               <identifier label="Opus-Nummer">op. 103, Nr.3</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._103"/>
+               </relationList>
+            </work>
+            <work n="4" xml:id="component_op._103,Nr.4">
+               <identifier label="Opus-Nummer">op. 103, Nr.4</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._103"/>
+               </relationList>
+            </work>
+            <work n="5" xml:id="component_op._103,Nr.5">
+               <identifier label="Opus-Nummer">op. 103, Nr.5</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._103"/>
+               </relationList>
+            </work>
+            <work n="6" xml:id="component_op._103,Nr.6">
+               <identifier label="Opus-Nummer">op. 103, Nr.6</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._103"/>
+               </relationList>
+            </work>
+            <work n="7" xml:id="component_op._103,Nr.7">
+               <identifier label="Opus-Nummer">op. 103, Nr.7</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._103"/>
+               </relationList>
+            </work>
+            <work n="8" xml:id="component_op._103,Nr.8">
+               <identifier label="Opus-Nummer">op. 103, Nr.8</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._103"/>
+               </relationList>
+            </work>
+            <work n="9" xml:id="component_op._103,Nr.9">
+               <identifier label="Opus-Nummer">op. 103, Nr.9</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._103"/>
+               </relationList>
+            </work>
+            <work n="10" xml:id="component_op._103,Nr.10">
+               <identifier label="Opus-Nummer">op. 103, Nr.10</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._103"/>
+               </relationList>
+            </work>
+            <work n="11" xml:id="component_op._103,Nr.11">
+               <identifier label="Opus-Nummer">op. 103, Nr.11</identifier>
+               <title/>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._103"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

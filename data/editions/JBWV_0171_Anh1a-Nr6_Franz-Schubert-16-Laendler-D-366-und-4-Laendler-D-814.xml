@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Franz Schubert: 16 Ländler D 366 und 4 Ländler D 814</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Anhang</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="171">
+         <identifier label="Anhang-Nummer">Anh. 1a Nr. 6</identifier>
+         <title>Franz Schubert: 16 Ländler D 366 und 4 Ländler D 814</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="#">Franz Schubert</persName>
+         </composer>
+         <contributor>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </contributor>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: Klavier zu 2 Händen (D 814) und für 1 Klavier zu 4 Händen (D 366)</head>
+               <perfResList>
+                  <perfRes>Klavier zu 2 Händen (D 814)</perfRes>
+                  <perfRes>für 1 Klavier zu 4 Händen (D 366)</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt>
+            <annot label="Brahms_Beitrag">
+               <p>Bearbeitung (gemäß neuen Erkenntnissen nicht von Brahms)</p>
+            </annot>
+            <annot label="Erläuterung">
+               <p>Arrangeur: J. P. Gotthard (in McCorkle, Brahms-Werkverzeichnis, irrtümlich Brahms zugeschrieben)</p>
+            </annot>
+         </notesStmt>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="work_anh1a,6-1">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,1</identifier>
+               <title/>
+            </work>
+            <work n="2" xml:id="work_anh1a,6-2">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,2</identifier>
+               <title/>
+            </work>
+            <work n="3" xml:id="work_anh1a,6-3">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,3</identifier>
+               <title/>
+            </work>
+            <work n="4" xml:id="work_anh1a,6-4">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,4</identifier>
+               <title/>
+            </work>
+            <work n="5" xml:id="work_anh1a,6-5">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,5</identifier>
+               <title/>
+            </work>
+            <work n="6" xml:id="work_anh1a,6-6">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,6</identifier>
+               <title/>
+            </work>
+            <work n="7" xml:id="work_anh1a,6-7">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,7</identifier>
+               <title/>
+            </work>
+            <work n="8" xml:id="work_anh1a,6-8">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,8</identifier>
+               <title/>
+            </work>
+            <work n="9" xml:id="work_anh1a,6-9">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,9</identifier>
+               <title/>
+            </work>
+            <work n="10" xml:id="work_anh1a,6-10">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,10</identifier>
+               <title/>
+            </work>
+            <work n="11" xml:id="work_anh1a,6-11">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,11</identifier>
+               <title/>
+            </work>
+            <work n="12" xml:id="work_anh1a,6-12">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,12</identifier>
+               <title/>
+            </work>
+            <work n="13" xml:id="work_anh1a,6-13">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,13</identifier>
+               <title/>
+            </work>
+            <work n="14" xml:id="work_anh1a,6-14">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,14</identifier>
+               <title/>
+            </work>
+            <work n="15" xml:id="work_anh1a,6-15">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,15</identifier>
+               <title/>
+            </work>
+            <work n="16" xml:id="work_anh1a,6-16">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,16</identifier>
+               <title/>
+            </work>
+            <work n="17" xml:id="work_anh1a,6-17">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,17</identifier>
+               <title/>
+            </work>
+            <work n="18" xml:id="work_anh1a,6-18">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,18</identifier>
+               <title/>
+            </work>
+            <work n="19" xml:id="work_anh1a,6-19">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,19</identifier>
+               <title/>
+            </work>
+            <work n="20" xml:id="work_anh1a,6-20">
+               <identifier label="Opus-Nummer">Anh. 1a, 6,20</identifier>
+               <title/>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>

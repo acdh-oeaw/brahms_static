@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mei xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Fünf Lieder und Gesänge</title>
+         <respStmt>
+            <persName role="editor" xml:id="VP">Vasiliki Papadopoulou</persName>
+            <persName role="editor" xml:id="KE">Kathrin Eich</persName>
+            <persName role="editor" xml:id="CG">Clemens Gubsch</persName>
+            <persName role="editor" xml:id="MJ">Monika Jaroš</persName>
+            <persName role="editor" xml:id="MW">Magdalena Weber</persName>
+         </respStmt>
+      </titleStmt>
+      <pubStmt/>
+      <seriesStmt>
+         <title>Werke mit Opus</title>
+         <identifier type="file_collection">Werkdateien</identifier>
+      </seriesStmt>
+   </fileDesc>
+   <encodingDesc>
+      <projectDesc>
+         <p>Alle Werke werden in einer Datei separaten Datei angelegt und verlinkt.</p>
+      </projectDesc>
+   </encodingDesc>
+   <workList>
+      <work n="76" xml:id="work_op._72">
+         <identifier label="Opus-Nummer">op. 72</identifier>
+         <title>Fünf Lieder und Gesänge</title>
+         <composer>
+            <persName auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="118514253">Johannes Brahms</persName>
+         </composer>
+         <history>
+            <eventList type="performances">
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0192">Paumgartner, Hans</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0007">Barbi, Alice</persName>
+                  <date isodate="1895-05-14">14.05.1895</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_670182 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 36</biblScope>
+                        <biblScope unit="issue">Nr. 131</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1895-05-14">14.05.1895</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Wohltätigkeitskonzert von Baronin Wolff-Stomersée, vormals Alice Barbi, 19.30 Uhr; u.a. 5 Lieder von Brahms: "Alte Liebe", "Der Mond steht über dem Berge", "Feldeinsamkeit", "Vor dem Fenster", "Vergebliches Ständchen")</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 36, Nr. 131, 14.05.1895, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18950514&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._72,Nr.1"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1896-01-31">31.01.1896</date>
+                  <geogName role="place">Wien</geogName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0251">Sistermans, Anton</persName>
+                  <biblList>
+                     <bibl sameas="recordid_670224 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Vaterland</title>
+                        <title level="j">Morgenblatt</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 37</biblScope>
+                        <biblScope unit="issue">Nr. 21</biblScope>
+                        <biblScope unit="page">S. 6</biblScope>
+                        <imprint>
+                           <date isodate="1896-01-22">22.01.1896</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Liederabend von Anton Sistermans; u.a. 4 Lieder von Brahms: "Alte Liebe", "Verrath [Ballade]", "Ständchen", "Entführung")</p>
+                           <p label="Vollständiger_Nachweis">Vaterland, Morgenblatt, Jg. 37, Nr. 21, 22.01.1896, S. 6</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=vtl&amp;datum=18960122&amp;seite=6&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._72,Nr.1"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                     <bibl sameas="recordid_669134 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 49</biblScope>
+                        <biblScope unit="issue">Nr. 22</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1896-01-23">23.01.1896</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Liederabend von Anton Sistermans; Werke von Brahms: "'Alte Liebe', 'Verrath' [Ballade], Ständchen, 'Entführung'")</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 49, Nr. 22, 23.01.1896, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18960123&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._72,Nr.1"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <date isodate="1879-11-18">18.11.1879</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0386">Pflieger, Marie</persName>
+                  <biblList>
+                     <bibl sameas="recordid_667130 " type="Rubrik_3">
+                        <term label="Rubrik_3">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 32</biblScope>
+                        <biblScope unit="issue">Nr. 327</biblScope>
+                        <biblScope unit="page">S. [1]</biblScope>
+                        <imprint>
+                           <date isodate="1879-11-29">29.11.1879</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von Marie Pflieger, abends; Werke von J. Brahms: "Alte Liebe" und "Wiegenlied"; Datum gemäß Die Presse, Local-Anzeiger, 04.11.1879, S. 11)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Jg. 32, Nr. 327, 29.11.1879, S. [1]</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18791129&amp;seite=1&amp;zoom=33&amp;query=text%253A%2522brahms%2522&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._72,Nr.1"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0192">Paumgartner, Hans</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0100">Gutmann, Bertha</persName>
+                  <date isodate="1889-01-11">11.01.1889</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_667992 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 42</biblScope>
+                        <biblScope unit="issue">Nr. 5</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1889-01-05">05.01.1889</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Konzert von Bertha Gutmann; Werke von Brahms: "O, kühler Wald" und "Meine Lieb' ist grün")</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 42, Nr. 5, 05.01.1889, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18890105&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._72,Nr.3"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+               <event>
+                  <persName type="Pianist_in" corresp="../Brahms-Personenregister-ID/0192">Paumgartner, Hans</persName>
+                  <persName type="Sänger_in" corresp="../Brahms-Personenregister-ID/0007">Barbi, Alice</persName>
+                  <date isodate="1895-05-15">15.05.1895</date>
+                  <geogName role="place">Wien</geogName>
+                  <geogName role="venue">Saal Bösendorfer</geogName>
+                  <biblList>
+                     <bibl sameas="recordid_669031 " type="Rubrik_18">
+                        <term label="Rubrik_18">Vorankündigung</term>
+                        <genre>article</genre>
+                        <genre>newspaper</genre>
+                        <author/>
+                        <title level="j">Presse</title>
+                        <title level="j">Local-Anzeiger</title>
+                        <editor/>
+                        <biblScope unit="vol">Jg. 48</biblScope>
+                        <biblScope unit="issue">Nr. 131</biblScope>
+                        <biblScope unit="page">S. 11</biblScope>
+                        <imprint>
+                           <date isodate="1895-05-14">14.05.1895</date>
+                           <pubPlace/>
+                           <publisher/>
+                        </imprint>
+                        <annot>
+                           <p label="Weitere_Informationen">(Wohltätigkeitskonzert von Alice Barbi, 19.30 Uhr; Werke von Brahms: op. 72, Nr. 1, op. 106, Nr. 1, op. 86, Nr. 2, op. 14, Nr. 1, op. 84, Nr. 4)</p>
+                           <p label="Vollständiger_Nachweis">Presse, Local-Anzeiger, Jg. 48, Nr. 131, 14.05.1895, S. 11</p>
+                        </annot>
+                        <ptr label="ANNO-ÖNB" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18950514&amp;seite=11&amp;zoom=33&amp;query=%22brahms%22&amp;ref=anno-search"/>
+                        <relationList>
+                           <relation rel="isRealizationOf" target="#component_op._72,Nr.1"/>
+                        </relationList>
+                        <relatedItem rel="host">
+                           <bibl>
+                              <biblScope/>
+                           </bibl>
+                        </relatedItem>
+                     </bibl>
+                  </biblList>
+               </event>
+            </eventList>
+         </history>
+         <perfMedium>
+            <perfResList>
+               <head>Besetzung: 1 Singstimme und Klavier</head>
+               <perfResList>
+                  <perfRes>1 Singstimme</perfRes>
+                  <perfRes>Klavier</perfRes>
+               </perfResList>
+            </perfResList>
+         </perfMedium>
+         <notesStmt/>
+         <expressionList/>
+         <componentList>
+            <work n="1" xml:id="component_op._72,Nr.1">
+               <identifier label="Opus-Nummer">op. 72, Nr.1</identifier>
+               <title>Alte Liebe.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._72"/>
+               </relationList>
+            </work>
+            <work n="2" xml:id="component_op._72,Nr.2">
+               <identifier label="Opus-Nummer">op. 72, Nr.2</identifier>
+               <title>Sommerfäden.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._72"/>
+               </relationList>
+            </work>
+            <work n="3" xml:id="component_op._72,Nr.3">
+               <identifier label="Opus-Nummer">op. 72, Nr.3</identifier>
+               <title>O kühler Wald.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._72"/>
+               </relationList>
+            </work>
+            <work n="4" xml:id="component_op._72,Nr.4">
+               <identifier label="Opus-Nummer">op. 72, Nr.4</identifier>
+               <title>Verzagen.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._72"/>
+               </relationList>
+            </work>
+            <work n="5" xml:id="component_op._72,Nr.5">
+               <identifier label="Opus-Nummer">op. 72, Nr.5</identifier>
+               <title>Unüberwindlich.</title>
+               <relationList>
+                  <relation rel="isPartof" target="#work_op._72"/>
+               </relationList>
+            </work>
+         </componentList>
+      </work>
+   </workList>
+</mei>
