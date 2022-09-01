@@ -8,6 +8,7 @@ html/static-search
 werke-rezensionen-gruppiert.xml
 /html/*.xml
 /data/editions
+/data/register
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
